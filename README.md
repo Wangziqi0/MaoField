@@ -73,9 +73,17 @@ Structure:
 
 ## Status
 
-**v0.1.0 — direction-setting proposal with initial experimental evidence**.
+**v0.1.0 — initial public release establishing the project anchor**.
 
-We present, in equal measure:
+This release publishes:
+- The research framework (philosophy, mathematics, roadmap)
+- Citation anchor (Zenodo DOI + ORCID)
+- Repository structure for all artifacts
+
+The full position paper PDF and complete reproducibility pipeline are being
+finalized and will appear in a subsequent release (target: v0.1.1, 2026-04-20).
+
+Current status of research findings (detailed in forthcoming paper):
 
 - **What works**: PDE dynamics demonstrably extract semantic signal from raw material sources without training
 - **What doesn't**: naive multi-well extensions are insufficient; gradient flow alone cannot realize the ascending phase of dialectical motion
