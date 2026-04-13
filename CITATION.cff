@@ -25,10 +25,14 @@ date-released: "2026-04-13"
 license: "Apache-2.0"
 repository-code: "https://github.com/Wangziqi0/MaoField"
 url: "https://github.com/Wangziqi0/MaoField"
+doi: "10.5281/zenodo.19550341"
 identifiers:
   - type: doi
-    value: "10.5281/zenodo.XXXXXXX"
-    description: "Zenodo DOI for v0.1.0 release"
+    value: "10.5281/zenodo.19550341"
+    description: "Concept DOI — always points to the latest version"
+  - type: doi
+    value: "10.5281/zenodo.19550342"
+    description: "Version DOI for v0.1.0 release"
 keywords:
   - dialectical-materialism
   - partial-differential-equations

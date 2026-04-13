@@ -2,8 +2,9 @@
 
 > *A Dialectical-Materialist Framework for Non-Statistical Semantic Representation*
 
+[![DOI](https://zenodo.org/badge/1209133162.svg)](https://doi.org/10.5281/zenodo.19550341)
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
-[![Status: v0.1.0](https://img.shields.io/badge/status-v0.1.0_position_paper-orange)](paper/)
+[![Status: v0.1.0](https://img.shields.io/badge/status-v0.1.0_initial_release-orange)](paper/)
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0008--8344--1149-a6ce39)](https://orcid.org/0009-0008-8344-1149)
 
 ## What is this?
@@ -128,11 +129,15 @@ If you use MaoField or build upon its ideas in academic work:
   year         = 2026,
   publisher    = {Zenodo},
   version      = {v0.1.0},
-  doi          = {10.5281/zenodo.XXXXXXX},
-  url          = {https://doi.org/10.5281/zenodo.XXXXXXX},
+  doi          = {10.5281/zenodo.19550341},
+  url          = {https://doi.org/10.5281/zenodo.19550341},
   orcid        = {0009-0008-8344-1149}
 }
 ```
+
+**Note on DOIs**:
+- Concept DOI: [`10.5281/zenodo.19550341`](https://doi.org/10.5281/zenodo.19550341) — use this for general academic citation (always points to the latest version)
+- Version DOI: [`10.5281/zenodo.19550342`](https://doi.org/10.5281/zenodo.19550342) — use this when reproducibility to this exact release (v0.1.0) matters
 
 Structured citation metadata is available in [CITATION.cff](CITATION.cff) — supported by GitHub, Zenodo, Zotero, and many reference managers.
 
