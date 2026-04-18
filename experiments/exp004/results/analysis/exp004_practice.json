@@ -1,0 +1,159 @@
+{
+  "meta": {
+    "date": "2026-04-10"
+  },
+  "results": {
+    "law_50": {
+      "accuracy": 0.7,
+      "avg_delta": 2.1447293044781572,
+      "pairs": [
+        {
+          "query": "\u4ed6\u6253\u6211\u8981\u600e\u4e48\u5224",
+          "e_match": 1796.415835129893,
+          "e_mismatch": 1792.3256002275884,
+          "correct": false,
+          "delta": -0.22820825087724564
+        },
+        {
+          "query": "\u5077\u4e1c\u897f\u4f1a\u600e\u4e48\u6837",
+          "e_match": 1742.1261326656543,
+          "e_mismatch": 1757.2244567004973,
+          "correct": true,
+          "delta": 0.8592143125069417
+        },
+        {
+          "query": "\u9189\u9152\u5f00\u8f66\u600e\u4e48\u5904\u7f5a",
+          "e_match": 1821.6938727725912,
+          "e_mismatch": 1781.3229388183595,
+          "correct": false,
+          "delta": -2.2663455948651183
+        },
+        {
+          "query": "\u6740\u4eba\u5224\u51e0\u5e74",
+          "e_match": 1792.7948944961217,
+          "e_mismatch": 1769.7141172436452,
+          "correct": false,
+          "delta": -1.3042093650936781
+        },
+        {
+          "query": "\u8bc8\u9a97\u600e\u4e48\u5224",
+          "e_match": 1763.5113437227567,
+          "e_mismatch": 1892.3524856433928,
+          "correct": true,
+          "delta": 6.808517065298784
+        },
+        {
+          "query": "\u79bb\u5a5a\u540e\u623f\u5b50\u600e\u4e48\u5206",
+          "e_match": 1779.3849044442586,
+          "e_mismatch": 1905.9189790852795,
+          "correct": true,
+          "delta": 6.639005961404992
+        },
+        {
+          "query": "\u501f\u94b1\u4e0d\u8fd8\u600e\u4e48\u529e",
+          "e_match": 1734.4942676814408,
+          "e_mismatch": 1791.3617475873716,
+          "correct": true,
+          "delta": 3.1745391450119267
+        },
+        {
+          "query": "\u79df\u623f\u5408\u540c\u5230\u671f\u623f\u4e1c\u4e0d\u9000\u62bc\u91d1",
+          "e_match": 1765.8373470485872,
+          "e_mismatch": 1865.655319575003,
+          "correct": true,
+          "delta": 5.35029013554092
+        },
+        {
+          "query": "\u4e70\u5230\u5047\u8d27\u600e\u4e48\u7ef4\u6743",
+          "e_match": 1757.7460399231738,
+          "e_mismatch": 1767.0626812381483,
+          "correct": true,
+          "delta": 0.52723887012579
+        },
+        {
+          "query": "\u88ab\u516c\u53f8\u8f9e\u9000\u600e\u4e48\u8d54\u507f",
+          "e_match": 1712.4086112656064,
+          "e_mismatch": 1745.3476990811357,
+          "correct": true,
+          "delta": 1.8872507657282611
+        }
+      ]
+    },
+    "random_50": {
+      "accuracy": 0.5,
+      "avg_delta": -0.7642455284213517,
+      "pairs": [
+        {
+          "query": "\u4ed6\u6253\u6211\u8981\u600e\u4e48\u5224",
+          "e_match": 1875.4838693457837,
+          "e_mismatch": 1828.8397763256382,
+          "correct": false,
+          "delta": -2.55047454806889
+        },
+        {
+          "query": "\u5077\u4e1c\u897f\u4f1a\u600e\u4e48\u6837",
+          "e_match": 1772.9897238373123,
+          "e_mismatch": 1838.7085685636594,
+          "correct": true,
+          "delta": 3.574184938817383
+        },
+        {
+          "query": "\u9189\u9152\u5f00\u8f66\u600e\u4e48\u5904\u7f5a",
+          "e_match": 1722.960204683765,
+          "e_mismatch": 1626.9221916897231,
+          "correct": false,
+          "delta": -5.903048927883674
+        },
+        {
+          "query": "\u6740\u4eba\u5224\u51e0\u5e74",
+          "e_match": 1772.0403532943315,
+          "e_mismatch": 1753.0151789666093,
+          "correct": false,
+          "delta": -1.0852829203074792
+        },
+        {
+          "query": "\u8bc8\u9a97\u600e\u4e48\u5224",
+          "e_match": 1785.3374365952172,
+          "e_mismatch": 1792.2116296500437,
+          "correct": true,
+          "delta": 0.38355922599212133
+        },
+        {
+          "query": "\u79bb\u5a5a\u540e\u623f\u5b50\u600e\u4e48\u5206",
+          "e_match": 1845.5339798743735,
+          "e_mismatch": 1818.0315727685052,
+          "correct": false,
+          "delta": -1.5127573974959934
+        },
+        {
+          "query": "\u501f\u94b1\u4e0d\u8fd8\u600e\u4e48\u529e",
+          "e_match": 1766.7141661953765,
+          "e_mismatch": 1886.2127901165866,
+          "correct": true,
+          "delta": 6.335373429093538
+        },
+        {
+          "query": "\u79df\u623f\u5408\u540c\u5230\u671f\u623f\u4e1c\u4e0d\u9000\u62bc\u91d1",
+          "e_match": 1808.8665284728827,
+          "e_mismatch": 1822.8671323072535,
+          "correct": true,
+          "delta": 0.7680539950627063
+        },
+        {
+          "query": "\u4e70\u5230\u5047\u8d27\u600e\u4e48\u7ef4\u6743",
+          "e_match": 1907.4570180832684,
+          "e_mismatch": 1752.3249874027108,
+          "correct": false,
+          "delta": -8.85292578692801
+        },
+        {
+          "query": "\u88ab\u516c\u53f8\u8f9e\u9000\u600e\u4e48\u8d54\u507f",
+          "e_match": 1662.2237899322963,
+          "e_mismatch": 1682.4274335627815,
+          "correct": true,
+          "delta": 1.20086270750478
+        }
+      ]
+    }
+  }
+}

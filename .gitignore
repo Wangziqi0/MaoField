@@ -145,3 +145,37 @@ node_modules/
 scratch/
 tmp/
 TODO.local.md
+
+# ============================================================
+# Local-only experiment artifacts (not pushed to remote)
+# Reason: large regenerable data; keep code+docs on git
+# ============================================================
+# SQLite databases (hundreds of MB each, regenerable)
+**/*.sqlite
+**/*.db
+**/*.db-journal
+
+# Numerical snapshots (regenerable from scripts)
+**/*.npy
+**/*.npz
+**/*.pkl
+**/*.parquet
+**/*.h5
+**/*.hdf5
+**/*.pt
+**/*.pth
+**/*.safetensors
+
+# Experiment scratch outputs
+**/logs/
+**/*.sample
+**/*.TAG
+
+# Oversized JSON inputs/outputs (regenerable)
+experiments/**/embeddings_*.json
+experiments/**/*_embeddings.json
+experiments/**/*_input.json
+experiments/**/*_out.json
+experiments/**/*.bin
+experiments/exp003_law_structure/results/law_species.json
+.git_local/

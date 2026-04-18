@@ -1,0 +1,9 @@
+dimension,dataset,IV-A,IV-B,IV-C,IV-D
+总体nDCG10,nfcorpus,0.2026,0.2495,0.3089,0.2159
+总体nDCG10,scifact,0.3002,0.3814,0.6143,0.3555
+总体nDCG10,fiqa,0.1082,0.1901,0.2774,0.1309
+长尾nDCG10(n=227),nfcorpus,0.2117,0.2608,0.3149,0.2264
+长尾nDCG10(n=3),scifact,0.6667,0.4206,0.2854,0.2477
+长尾nDCG10(n=29),fiqa,0.1404,0.1551,0.2199,0.1341
+鲁棒性drop_nDCG10(扰动-原),scifact,-0.0102,0.0112,-0.0150,0.0309
+attractor_k* (kmeans silhouette),nfcorpus_doc100,2,2,NA,NA

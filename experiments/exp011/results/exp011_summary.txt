@@ -1,0 +1,9 @@
+Exp011: Clifford Cl(1)
+
+A_scalar: mean=50%
+B_scalar_M2: mean=60%
+C_complex: mean=87%
+D_complex_M2: mean=93%
+E_complex_phase: mean=60%
+
+Time: 42.3s

@@ -1,0 +1,2 @@
+note,reason
+SKIPPED,mMARCO Chinese collection (~3GB) and qrels not locally cached; HF datasets script-mode load is deprecated. Per spec dim5 is skippable when network/data constraints prevent execution. To execute: download chinese_collection.tsv + english collection.tsv + qrels.dev.tsv from unicamp-dl/mmarco, sample 50 (zh_q, en_d_pos) pairs, run all 4 groups.

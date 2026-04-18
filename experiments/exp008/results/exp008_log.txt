@@ -1,0 +1,32 @@
+============================================================
+MaoField Exp008: Semantic vs Bit-Pattern — Decisive Test
+============================================================
+
+Loading corpus...
+  200 texts
+Precomputing source fields...
+  Done in 23ms
+
+--- Condition A: Fixed S (baseline) ---
+  A_fixed run 1: T1=40% T2=90% T3=70% overall=67% (2.2s)
+  A_fixed run 2: T1=40% T2=80% T3=70% overall=63% (2.1s)
+  A_fixed run 3: T1=60% T2=30% T3=60% overall=50% (2.2s)
+
+--- Condition B2: M2 S·u* ---
+  B2_m2 run 1: T1=50% T2=90% T3=70% overall=70% (3.7s)
+  B2_m2 run 2: T1=60% T2=80% T3=60% overall=67% (3.8s)
+  B2_m2 run 3: T1=70% T2=50% T3=50% overall=57% (3.9s)
+
+============================================================
+  DECISIVE RESULTS
+------------------------------------------------------------
+               T1:lit+sem  T2:CORE  T3:trap
+  A_fixed           47%      67%      67%
+  B2_m2             60%      73%      60%
+
+  Key verdicts:
+    ★ Type 2 > 60%: FRAMEWORK CAPTURES SEMANTICS
+    M2 no anti-distraction: B2 T3 (60%) ≤ A T3 (67%)
+  Total time: 18.0s
+============================================================
+Saved to "/home/amd/HEZIMENG/MaoField/experiments/exp008/results"

@@ -1,0 +1,10 @@
+Exp014: Physics vs Dual-Channel + CRNT
+
+                         T1     T2     T3      T4 overall
+1_scalar_single         47%    70%    67%     50%     58%
+2_scalar_dual           40%    90%    67%     70%     67%
+3_complex_GL            77%   100%    97%     87%     90%
+4_RD_GrayScott          70%   100%    90%     80%     85%
+5_RD_FHN                50%     0%    10%     30%     22%
+
+Time: 70.0s

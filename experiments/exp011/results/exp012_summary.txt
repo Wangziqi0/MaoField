@@ -1,0 +1,8 @@
+Exp012: Vortex Encoding of Ambiguity
+
+A: poly=64.0 vs mono=76.7 vortices
+B1: ["71", "62", "49", "87"]
+B2: ["71", "71", "83", "67"]
+C: ["89", "47", "63"]
+
+Time: 20.8s

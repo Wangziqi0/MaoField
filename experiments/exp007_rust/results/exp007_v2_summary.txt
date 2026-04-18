@@ -1,0 +1,5 @@
+MaoField Fast v2 + Generalization
+
+10-pair: A=57% B2=77% Δ=+20pp
+30-pair: A=87% B2=77% Δ=-10pp
+Timing: avg_q=574.1ms total=27.3s

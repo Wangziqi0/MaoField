@@ -1,0 +1,8 @@
+Exp007b: M2 Stability + Variants (Rust)
+
+A_fixed (Fixed): mean=53% runs=[40%, 80%, 40%] avg_Δ=1.0%
+B2_m2 (M2: S·u* (norm, cumul)): mean=77% runs=[60%, 90%, 80%] avg_Δ=2.7%
+B2a_no_norm (M2: S·u* (no norm)): mean=50% runs=[50%] avg_Δ=1.6%
+B2c_once (M2: S·u* (once only)): mean=60% runs=[60%] avg_Δ=1.0%
+
+Total time: 992s (16.5min)

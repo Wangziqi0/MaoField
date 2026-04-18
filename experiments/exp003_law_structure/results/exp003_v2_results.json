@@ -1,0 +1,187 @@
+{
+  "meta": {
+    "date": "2026-04-10",
+    "version": "v2_min_match"
+  },
+  "per_query": [
+    {
+      "query_id": "q01",
+      "query": "被公司辞退了怎么赔偿",
+      "n_relevant": 111,
+      "v2_ndcg10": 0.13886244387355454,
+      "v2_crnt_ndcg10": 0.13886244387355454,
+      "kw_ndcg10": 1.0,
+      "v2_hit5": true,
+      "v2_crnt_hit5": true,
+      "kw_hit5": true
+    },
+    {
+      "query_id": "q02",
+      "query": "故意伤害别人判几年",
+      "n_relevant": 434,
+      "v2_ndcg10": 0.9266360779006401,
+      "v2_crnt_ndcg10": 0.9266360779006401,
+      "kw_ndcg10": 1.0,
+      "v2_hit5": true,
+      "v2_crnt_hit5": true,
+      "kw_hit5": true
+    },
+    {
+      "query_id": "q03",
+      "query": "离婚后房子怎么分",
+      "n_relevant": 47,
+      "v2_ndcg10": 0.0,
+      "v2_crnt_ndcg10": 0.0,
+      "kw_ndcg10": 1.0,
+      "v2_hit5": false,
+      "v2_crnt_hit5": false,
+      "kw_hit5": true
+    },
+    {
+      "query_id": "q04",
+      "query": "借钱不还怎么起诉",
+      "n_relevant": 528,
+      "v2_ndcg10": 0.13886244387355454,
+      "v2_crnt_ndcg10": 0.13886244387355454,
+      "kw_ndcg10": 1.0,
+      "v2_hit5": true,
+      "v2_crnt_hit5": true,
+      "kw_hit5": true
+    },
+    {
+      "query_id": "q05",
+      "query": "醉驾怎么处罚",
+      "n_relevant": 302,
+      "v2_ndcg10": 0.12987501165334076,
+      "v2_crnt_ndcg10": 0.12987501165334076,
+      "kw_ndcg10": 1.0,
+      "v2_hit5": false,
+      "v2_crnt_hit5": false,
+      "kw_hit5": true
+    },
+    {
+      "query_id": "q06",
+      "query": "公司不给加班费怎么办",
+      "n_relevant": 285,
+      "v2_ndcg10": 0.0,
+      "v2_crnt_ndcg10": 0.0,
+      "kw_ndcg10": 1.0,
+      "v2_hit5": false,
+      "v2_crnt_hit5": false,
+      "kw_hit5": true
+    },
+    {
+      "query_id": "q07",
+      "query": "被人骗了钱怎么报案",
+      "n_relevant": 306,
+      "v2_ndcg10": 0.12987501165334076,
+      "v2_crnt_ndcg10": 0.12987501165334076,
+      "kw_ndcg10": 1.0,
+      "v2_hit5": false,
+      "v2_crnt_hit5": false,
+      "kw_hit5": true
+    },
+    {
+      "query_id": "q08",
+      "query": "房东不退押金怎么办",
+      "n_relevant": 148,
+      "v2_ndcg10": 0.0,
+      "v2_crnt_ndcg10": 0.0,
+      "kw_ndcg10": 1.0,
+      "v2_hit5": false,
+      "v2_crnt_hit5": false,
+      "kw_hit5": true
+    },
+    {
+      "query_id": "q09",
+      "query": "未成年人犯罪怎么判",
+      "n_relevant": 70,
+      "v2_ndcg10": 0.1635413866202963,
+      "v2_crnt_ndcg10": 0.1635413866202963,
+      "kw_ndcg10": 1.0,
+      "v2_hit5": true,
+      "v2_crnt_hit5": true,
+      "kw_hit5": true
+    },
+    {
+      "query_id": "q10",
+      "query": "工伤怎么认定和赔偿",
+      "n_relevant": 194,
+      "v2_ndcg10": 0.0,
+      "v2_crnt_ndcg10": 0.0,
+      "kw_ndcg10": 1.0,
+      "v2_hit5": false,
+      "v2_crnt_hit5": false,
+      "kw_hit5": true
+    },
+    {
+      "query_id": "q11",
+      "query": "偷东西会判刑吗",
+      "n_relevant": 442,
+      "v2_ndcg10": 0.12987501165334076,
+      "v2_crnt_ndcg10": 0.12987501165334076,
+      "kw_ndcg10": 1.0,
+      "v2_hit5": false,
+      "v2_crnt_hit5": false,
+      "kw_hit5": true
+    },
+    {
+      "query_id": "q12",
+      "query": "遗产怎么继承",
+      "n_relevant": 99,
+      "v2_ndcg10": 0.0,
+      "v2_crnt_ndcg10": 0.0,
+      "kw_ndcg10": 1.0,
+      "v2_hit5": false,
+      "v2_crnt_hit5": false,
+      "kw_hit5": true
+    },
+    {
+      "query_id": "q13",
+      "query": "交通事故责任怎么划分",
+      "n_relevant": 786,
+      "v2_ndcg10": 0.22009176629808017,
+      "v2_crnt_ndcg10": 0.22009176629808017,
+      "kw_ndcg10": 1.0,
+      "v2_hit5": true,
+      "v2_crnt_hit5": true,
+      "kw_hit5": true
+    },
+    {
+      "query_id": "q14",
+      "query": "合同违约要赔多少钱",
+      "n_relevant": 862,
+      "v2_ndcg10": 0.13961814555374907,
+      "v2_crnt_ndcg10": 0.13961814555374907,
+      "kw_ndcg10": 1.0,
+      "v2_hit5": false,
+      "v2_crnt_hit5": false,
+      "kw_hit5": true
+    },
+    {
+      "query_id": "q15",
+      "query": "被行政拘留了怎么申诉",
+      "n_relevant": 59,
+      "v2_ndcg10": 0.0,
+      "v2_crnt_ndcg10": 0.0,
+      "kw_ndcg10": 1.0,
+      "v2_hit5": false,
+      "v2_crnt_hit5": false,
+      "kw_hit5": true
+    }
+  ],
+  "summary": {
+    "v2": {
+      "mean_ndcg10": 0.14114915327199315,
+      "hit5": 5
+    },
+    "v2_crnt": {
+      "mean_ndcg10": 0.14114915327199315,
+      "hit5": 5
+    },
+    "kw": {
+      "mean_ndcg10": 1.0,
+      "hit5": 15
+    }
+  }
+}

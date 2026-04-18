@@ -1,0 +1,47 @@
+============================================================
+MaoField Exp014: Physics vs Dual-Channel + CRNT
+============================================================
+
+--- 1_scalar_single ---
+  1_scalar_single run 1: T1=40% T2=90% T3=70% T4=60% overall=65% (2.2s)
+  1_scalar_single run 2: T1=50% T2=80% T3=70% T4=40% overall=60% (2.0s)
+  1_scalar_single run 3: T1=50% T2=40% T3=60% T4=50% overall=50% (2.0s)
+
+--- 2_scalar_dual ---
+  2_scalar_dual run 1: T1=40% T2=90% T3=60% T4=70% overall=65% (4.4s)
+  2_scalar_dual run 2: T1=50% T2=90% T3=80% T4=60% overall=70% (4.4s)
+  2_scalar_dual run 3: T1=30% T2=90% T3=60% T4=80% overall=65% (4.4s)
+
+--- 3_complex_GL ---
+  3_complex_GL run 1: T1=80% T2=100% T3=90% T4=90% overall=90% (3.8s)
+  3_complex_GL run 2: T1=80% T2=100% T3=100% T4=90% overall=92% (3.8s)
+  3_complex_GL run 3: T1=70% T2=100% T3=100% T4=80% overall=88% (3.8s)
+
+--- 4_RD_GrayScott ---
+  4_RD_GrayScott run 1: T1=70% T2=100% T3=90% T4=80% overall=85% (8.9s)
+  4_RD_GrayScott run 2: T1=70% T2=100% T3=90% T4=80% overall=85% (8.9s)
+  4_RD_GrayScott run 3: T1=70% T2=100% T3=90% T4=80% overall=85% (8.9s)
+
+--- 5_RD_FHN ---
+  5_RD_FHN run 1: T1=50% T2=0% T3=10% T4=30% overall=22% (4.2s)
+  5_RD_FHN run 2: T1=50% T2=0% T3=10% T4=30% overall=22% (4.2s)
+  5_RD_FHN run 3: T1=50% T2=0% T3=10% T4=30% overall=22% (4.2s)
+
+============================================================
+  RESULTS (per type, then overall)
+------------------------------------------------------------
+                           T1     T2     T3   T4:HD overall
+  1_scalar_single         47%    70%    67%     50%     58%
+  2_scalar_dual           40%    90%    67%     70%     67%
+  3_complex_GL            77%   100%    97%     87%     90%
+  4_RD_GrayScott          70%   100%    90%     80%     85%
+  5_RD_FHN                50%     0%    10%     30%     22%
+
+  Decisive comparisons:
+    2_dual (67%) vs 3_GL (90%) [overall]: GL > dual — coupling has value
+    2_dual (70%) vs 3_GL (87%) [T4 same-domain]: +17pp
+    4_GS (85%) vs 3_GL (90%): Gray-Scott same
+    5_FHN (22%) vs 3_GL (90%): FHN WORSE
+    1_single (58%): scalar baseline
+  Time: 70.0s
+============================================================

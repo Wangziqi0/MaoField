@@ -1,0 +1,1641 @@
+{
+  "conditions": [
+    {
+      "mean_overall": 0.6,
+      "mean_type1": 0.4666666666666666,
+      "mean_type2": 0.6666666666666666,
+      "mean_type3": 0.6666666666666666,
+      "name": "A_fixed",
+      "runs": [
+        {
+          "overall_accuracy": 0.6666666666666666,
+          "pairs": [
+            {
+              "correct": false,
+              "delta": -4.916634559631348,
+              "e_match": 1688.335205078125,
+              "e_mismatch": 1609.2159423828125,
+              "pair_type": "T1_literal+semantic",
+              "query": "故意伤害怎么判"
+            },
+            {
+              "correct": false,
+              "delta": -6.488157272338867,
+              "e_match": 1650.2674560546875,
+              "e_mismatch": 1549.71923828125,
+              "pair_type": "T1_literal+semantic",
+              "query": "盗窃怎么处罚"
+            },
+            {
+              "correct": false,
+              "delta": -3.2365686893463135,
+              "e_match": 1720.0584716796875,
+              "e_mismatch": 1666.1329345703125,
+              "pair_type": "T1_literal+semantic",
+              "query": "醉驾怎么罚"
+            },
+            {
+              "correct": true,
+              "delta": 3.4013543128967285,
+              "e_match": 1677.7318115234375,
+              "e_mismatch": 1736.8067626953125,
+              "pair_type": "T1_literal+semantic",
+              "query": "杀人判多少年"
+            },
+            {
+              "correct": false,
+              "delta": -5.789828777313232,
+              "e_match": 1761.4049072265625,
+              "e_mismatch": 1665.0040283203125,
+              "pair_type": "T1_literal+semantic",
+              "query": "诈骗判几年"
+            },
+            {
+              "correct": false,
+              "delta": -0.6662872433662415,
+              "e_match": 1696.07763671875,
+              "e_mismatch": 1684.8516845703125,
+              "pair_type": "T1_literal+semantic",
+              "query": "离婚财产怎么分"
+            },
+            {
+              "correct": true,
+              "delta": 0.6189249753952026,
+              "e_match": 1706.0611572265625,
+              "e_mismatch": 1716.6861572265625,
+              "pair_type": "T1_literal+semantic",
+              "query": "借钱不还怎么办"
+            },
+            {
+              "correct": true,
+              "delta": 10.7401123046875,
+              "e_match": 1569.5599365234375,
+              "e_mismatch": 1758.415771484375,
+              "pair_type": "T1_literal+semantic",
+              "query": "房东不退押金"
+            },
+            {
+              "correct": false,
+              "delta": -5.860871315002441,
+              "e_match": 1754.2664794921875,
+              "e_mismatch": 1657.1434326171875,
+              "pair_type": "T1_literal+semantic",
+              "query": "假货怎么维权"
+            },
+            {
+              "correct": true,
+              "delta": 1.3980669975280762,
+              "e_match": 1703.271240234375,
+              "e_mismatch": 1727.4217529296875,
+              "pair_type": "T1_literal+semantic",
+              "query": "被辞退怎么赔"
+            },
+            {
+              "correct": true,
+              "delta": 2.4405667781829834,
+              "e_match": 1615.432373046875,
+              "e_mismatch": 1655.8443603515625,
+              "pair_type": "T2_diff_literal+semantic",
+              "query": "打人会坐牢吗"
+            },
+            {
+              "correct": true,
+              "delta": 2.8146815299987793,
+              "e_match": 1664.6060791015625,
+              "e_mismatch": 1712.81640625,
+              "pair_type": "T2_diff_literal+semantic",
+              "query": "偷了别人的钱包"
+            },
+            {
+              "correct": true,
+              "delta": 1.648406744003296,
+              "e_match": 1639.6705322265625,
+              "e_mismatch": 1667.1519775390625,
+              "pair_type": "T2_diff_literal+semantic",
+              "query": "喝了酒还开车上路"
+            },
+            {
+              "correct": true,
+              "delta": 7.4222564697265625,
+              "e_match": 1589.9866943359375,
+              "e_mismatch": 1717.4610595703125,
+              "pair_type": "T2_diff_literal+semantic",
+              "query": "把人弄死了"
+            },
+            {
+              "correct": true,
+              "delta": 5.78623104095459,
+              "e_match": 1535.51123046875,
+              "e_mismatch": 1629.816162109375,
+              "pair_type": "T2_diff_literal+semantic",
+              "query": "骗了老人的养老钱"
+            },
+            {
+              "correct": true,
+              "delta": 4.635014057159424,
+              "e_match": 1578.0291748046875,
+              "e_mismatch": 1654.7259521484375,
+              "pair_type": "T2_diff_literal+semantic",
+              "query": "两口子过不下去了"
+            },
+            {
+              "correct": true,
+              "delta": 1.4810031652450562,
+              "e_match": 1576.815185546875,
+              "e_mismatch": 1600.5189208984375,
+              "pair_type": "T2_diff_literal+semantic",
+              "query": "朋友欠钱一直拖着"
+            },
+            {
+              "correct": true,
+              "delta": 6.649186611175537,
+              "e_match": 1565.59228515625,
+              "e_mismatch": 1677.106201171875,
+              "pair_type": "T2_diff_literal+semantic",
+              "query": "房子到期了不让住了"
+            },
+            {
+              "correct": false,
+              "delta": -2.6475346088409424,
+              "e_match": 1639.2054443359375,
+              "e_mismatch": 1596.92626953125,
+              "pair_type": "T2_diff_literal+semantic",
+              "query": "买的东西是假的"
+            },
+            {
+              "correct": true,
+              "delta": 7.691130638122559,
+              "e_match": 1623.9005126953125,
+              "e_mismatch": 1759.203125,
+              "pair_type": "T2_diff_literal+semantic",
+              "query": "老板突然不要我了"
+            },
+            {
+              "correct": true,
+              "delta": 9.981794357299805,
+              "e_match": 1612.4110107421875,
+              "e_mismatch": 1791.2054443359375,
+              "pair_type": "T3_similar_literal+unrelated",
+              "query": "故意伤害怎么判"
+            },
+            {
+              "correct": false,
+              "delta": -4.7130842208862305,
+              "e_match": 1715.8729248046875,
+              "e_mismatch": 1638.642333984375,
+              "pair_type": "T3_similar_literal+unrelated",
+              "query": "盗窃罪判多久"
+            },
+            {
+              "correct": true,
+              "delta": 9.468067169189453,
+              "e_match": 1574.134033203125,
+              "e_mismatch": 1738.7611083984375,
+              "pair_type": "T3_similar_literal+unrelated",
+              "query": "合同违约怎么赔"
+            },
+            {
+              "correct": false,
+              "delta": -5.543218612670898,
+              "e_match": 1806.1561279296875,
+              "e_mismatch": 1711.2952880859375,
+              "pair_type": "T3_similar_literal+unrelated",
+              "query": "酒驾的处罚标准"
+            },
+            {
+              "correct": true,
+              "delta": 5.2397541999816895,
+              "e_match": 1622.149658203125,
+              "e_mismatch": 1711.84619140625,
+              "pair_type": "T3_similar_literal+unrelated",
+              "query": "遗产怎么继承"
+            },
+            {
+              "correct": true,
+              "delta": 1.9737966060638428,
+              "e_match": 1704.34912109375,
+              "e_mismatch": 1738.6668701171875,
+              "pair_type": "T3_similar_literal+unrelated",
+              "query": "劳动合同到期"
+            },
+            {
+              "correct": true,
+              "delta": 1.398806095123291,
+              "e_match": 1623.0921630859375,
+              "e_mismatch": 1646.1181640625,
+              "pair_type": "T3_similar_literal+unrelated",
+              "query": "抚养权归谁"
+            },
+            {
+              "correct": false,
+              "delta": -0.9727880358695984,
+              "e_match": 1599.0640869140625,
+              "e_mismatch": 1583.658447265625,
+              "pair_type": "T3_similar_literal+unrelated",
+              "query": "交通事故责任"
+            },
+            {
+              "correct": true,
+              "delta": 4.188089847564697,
+              "e_match": 1626.7913818359375,
+              "e_mismatch": 1697.9010009765625,
+              "pair_type": "T3_similar_literal+unrelated",
+              "query": "网络诈骗怎么报案"
+            },
+            {
+              "correct": true,
+              "delta": 3.0311431884765625,
+              "e_match": 1600.31201171875,
+              "e_mismatch": 1650.3360595703125,
+              "pair_type": "T3_similar_literal+unrelated",
+              "query": "商标侵权赔偿"
+            }
+          ],
+          "run": 1,
+          "seed_offset": 1000,
+          "types": [
+            {
+              "accuracy": 0.4,
+              "avg_delta": -1.0799888372421265,
+              "n_pairs": 10,
+              "type_name": "T1"
+            },
+            {
+              "accuracy": 0.9,
+              "avg_delta": 3.7920939922332764,
+              "n_pairs": 10,
+              "type_name": "T2"
+            },
+            {
+              "accuracy": 0.7,
+              "avg_delta": 2.405236005783081,
+              "n_pairs": 10,
+              "type_name": "T3"
+            }
+          ]
+        },
+        {
+          "overall_accuracy": 0.6333333333333333,
+          "pairs": [
+            {
+              "correct": false,
+              "delta": -2.766496419906616,
+              "e_match": 1749.4775390625,
+              "e_mismatch": 1702.3812255859375,
+              "pair_type": "T1_literal+semantic",
+              "query": "故意伤害怎么判"
+            },
+            {
+              "correct": false,
+              "delta": -0.8099357485771179,
+              "e_match": 1678.18701171875,
+              "e_mismatch": 1664.7039794921875,
+              "pair_type": "T1_literal+semantic",
+              "query": "盗窃怎么处罚"
+            },
+            {
+              "correct": false,
+              "delta": -3.735595226287842,
+              "e_match": 1707.5257568359375,
+              "e_mismatch": 1646.0364990234375,
+              "pair_type": "T1_literal+semantic",
+              "query": "醉驾怎么罚"
+            },
+            {
+              "correct": false,
+              "delta": -0.3105083107948303,
+              "e_match": 1581.782470703125,
+              "e_mismatch": 1576.8861083984375,
+              "pair_type": "T1_literal+semantic",
+              "query": "杀人判多少年"
+            },
+            {
+              "correct": false,
+              "delta": -0.1405000537633896,
+              "e_match": 1663.619140625,
+              "e_mismatch": 1661.2850341796875,
+              "pair_type": "T1_literal+semantic",
+              "query": "诈骗判几年"
+            },
+            {
+              "correct": false,
+              "delta": -3.82122802734375,
+              "e_match": 1663.4613037109375,
+              "e_mismatch": 1602.2362060546875,
+              "pair_type": "T1_literal+semantic",
+              "query": "离婚财产怎么分"
+            },
+            {
+              "correct": true,
+              "delta": 5.926299095153809,
+              "e_match": 1676.0277099609375,
+              "e_mismatch": 1781.611328125,
+              "pair_type": "T1_literal+semantic",
+              "query": "借钱不还怎么办"
+            },
+            {
+              "correct": true,
+              "delta": 2.4195914268493652,
+              "e_match": 1678.839599609375,
+              "e_mismatch": 1720.4678955078125,
+              "pair_type": "T1_literal+semantic",
+              "query": "房东不退押金"
+            },
+            {
+              "correct": true,
+              "delta": 8.1210355758667,
+              "e_match": 1720.5360107421875,
+              "e_mismatch": 1872.6114501953125,
+              "pair_type": "T1_literal+semantic",
+              "query": "假货怎么维权"
+            },
+            {
+              "correct": true,
+              "delta": 4.64222526550293,
+              "e_match": 1622.815185546875,
+              "e_mismatch": 1701.8173828125,
+              "pair_type": "T1_literal+semantic",
+              "query": "被辞退怎么赔"
+            },
+            {
+              "correct": true,
+              "delta": 7.074983596801758,
+              "e_match": 1568.8411865234375,
+              "e_mismatch": 1688.2872314453125,
+              "pair_type": "T2_diff_literal+semantic",
+              "query": "打人会坐牢吗"
+            },
+            {
+              "correct": false,
+              "delta": -2.1747825145721436,
+              "e_match": 1712.6781005859375,
+              "e_mismatch": 1676.223876953125,
+              "pair_type": "T2_diff_literal+semantic",
+              "query": "偷了别人的钱包"
+            },
+            {
+              "correct": true,
+              "delta": 2.963376998901367,
+              "e_match": 1666.7838134765625,
+              "e_mismatch": 1717.685302734375,
+              "pair_type": "T2_diff_literal+semantic",
+              "query": "喝了酒还开车上路"
+            },
+            {
+              "correct": true,
+              "delta": 12.887371063232422,
+              "e_match": 1566.24169921875,
+              "e_mismatch": 1797.9501953125,
+              "pair_type": "T2_diff_literal+semantic",
+              "query": "把人弄死了"
+            },
+            {
+              "correct": false,
+              "delta": -0.49582114815711975,
+              "e_match": 1626.4581298828125,
+              "e_mismatch": 1618.43359375,
+              "pair_type": "T2_diff_literal+semantic",
+              "query": "骗了老人的养老钱"
+            },
+            {
+              "correct": true,
+              "delta": 3.4497146606445312,
+              "e_match": 1659.2093505859375,
+              "e_mismatch": 1718.492431640625,
+              "pair_type": "T2_diff_literal+semantic",
+              "query": "两口子过不下去了"
+            },
+            {
+              "correct": true,
+              "delta": 3.7653751373291016,
+              "e_match": 1688.1705322265625,
+              "e_mismatch": 1754.2236328125,
+              "pair_type": "T2_diff_literal+semantic",
+              "query": "朋友欠钱一直拖着"
+            },
+            {
+              "correct": true,
+              "delta": 10.881134986877441,
+              "e_match": 1495.0556640625,
+              "e_mismatch": 1677.5972900390625,
+              "pair_type": "T2_diff_literal+semantic",
+              "query": "房子到期了不让住了"
+            },
+            {
+              "correct": true,
+              "delta": 3.3656578063964844,
+              "e_match": 1573.012451171875,
+              "e_mismatch": 1627.798583984375,
+              "pair_type": "T2_diff_literal+semantic",
+              "query": "买的东西是假的"
+            },
+            {
+              "correct": true,
+              "delta": 7.648681640625,
+              "e_match": 1496.2010498046875,
+              "e_mismatch": 1620.1187744140625,
+              "pair_type": "T2_diff_literal+semantic",
+              "query": "老板突然不要我了"
+            },
+            {
+              "correct": true,
+              "delta": 6.582555294036865,
+              "e_match": 1630.0498046875,
+              "e_mismatch": 1744.909423828125,
+              "pair_type": "T3_similar_literal+unrelated",
+              "query": "故意伤害怎么判"
+            },
+            {
+              "correct": true,
+              "delta": 5.279173851013184,
+              "e_match": 1610.1119384765625,
+              "e_mismatch": 1699.8499755859375,
+              "pair_type": "T3_similar_literal+unrelated",
+              "query": "盗窃罪判多久"
+            },
+            {
+              "correct": true,
+              "delta": 4.489975452423096,
+              "e_match": 1590.490478515625,
+              "e_mismatch": 1665.26025390625,
+              "pair_type": "T3_similar_literal+unrelated",
+              "query": "合同违约怎么赔"
+            },
+            {
+              "correct": true,
+              "delta": 0.3672164976596832,
+              "e_match": 1681.6673583984375,
+              "e_mismatch": 1687.865478515625,
+              "pair_type": "T3_similar_literal+unrelated",
+              "query": "酒驾的处罚标准"
+            },
+            {
+              "correct": true,
+              "delta": 14.835988998413086,
+              "e_match": 1441.52978515625,
+              "e_mismatch": 1692.6513671875,
+              "pair_type": "T3_similar_literal+unrelated",
+              "query": "遗产怎么继承"
+            },
+            {
+              "correct": true,
+              "delta": 5.163449764251709,
+              "e_match": 1716.7779541015625,
+              "e_mismatch": 1810.249267578125,
+              "pair_type": "T3_similar_literal+unrelated",
+              "query": "劳动合同到期"
+            },
+            {
+              "correct": false,
+              "delta": -2.2168710231781006,
+              "e_match": 1592.22216796875,
+              "e_mismatch": 1557.690185546875,
+              "pair_type": "T3_similar_literal+unrelated",
+              "query": "抚养权归谁"
+            },
+            {
+              "correct": false,
+              "delta": -2.0276989936828613,
+              "e_match": 1730.322021484375,
+              "e_mismatch": 1695.93359375,
+              "pair_type": "T3_similar_literal+unrelated",
+              "query": "交通事故责任"
+            },
+            {
+              "correct": false,
+              "delta": -4.176009654998779,
+              "e_match": 1777.1502685546875,
+              "e_mismatch": 1705.9112548828125,
+              "pair_type": "T3_similar_literal+unrelated",
+              "query": "网络诈骗怎么报案"
+            },
+            {
+              "correct": true,
+              "delta": 6.065141201019287,
+              "e_match": 1538.5589599609375,
+              "e_mismatch": 1637.89990234375,
+              "pair_type": "T3_similar_literal+unrelated",
+              "query": "商标侵权赔偿"
+            }
+          ],
+          "run": 2,
+          "seed_offset": 2000,
+          "types": [
+            {
+              "accuracy": 0.4,
+              "avg_delta": 0.9524887204170227,
+              "n_pairs": 10,
+              "type_name": "T1"
+            },
+            {
+              "accuracy": 0.8,
+              "avg_delta": 4.9365692138671875,
+              "n_pairs": 10,
+              "type_name": "T2"
+            },
+            {
+              "accuracy": 0.7,
+              "avg_delta": 3.4362919330596924,
+              "n_pairs": 10,
+              "type_name": "T3"
+            }
+          ]
+        },
+        {
+          "overall_accuracy": 0.5,
+          "pairs": [
+            {
+              "correct": true,
+              "delta": 0.9365891814231873,
+              "e_match": 1686.3870849609375,
+              "e_mismatch": 1702.3309326171875,
+              "pair_type": "T1_literal+semantic",
+              "query": "故意伤害怎么判"
+            },
+            {
+              "correct": true,
+              "delta": 2.112863302230835,
+              "e_match": 1717.605224609375,
+              "e_mismatch": 1754.67919921875,
+              "pair_type": "T1_literal+semantic",
+              "query": "盗窃怎么处罚"
+            },
+            {
+              "correct": false,
+              "delta": -10.499800682067871,
+              "e_match": 1755.945556640625,
+              "e_mismatch": 1589.0938720703125,
+              "pair_type": "T1_literal+semantic",
+              "query": "醉驾怎么罚"
+            },
+            {
+              "correct": false,
+              "delta": -2.721092939376831,
+              "e_match": 1625.5146484375,
+              "e_mismatch": 1582.45458984375,
+              "pair_type": "T1_literal+semantic",
+              "query": "杀人判多少年"
+            },
+            {
+              "correct": false,
+              "delta": -2.5710229873657227,
+              "e_match": 1701.5626220703125,
+              "e_mismatch": 1658.91162109375,
+              "pair_type": "T1_literal+semantic",
+              "query": "诈骗判几年"
+            },
+            {
+              "correct": false,
+              "delta": -1.8922280073165894,
+              "e_match": 1723.187255859375,
+              "e_mismatch": 1691.1861572265625,
+              "pair_type": "T1_literal+semantic",
+              "query": "离婚财产怎么分"
+            },
+            {
+              "correct": true,
+              "delta": 4.785576343536377,
+              "e_match": 1652.38623046875,
+              "e_mismatch": 1735.4368896484375,
+              "pair_type": "T1_literal+semantic",
+              "query": "借钱不还怎么办"
+            },
+            {
+              "correct": true,
+              "delta": 6.686911582946777,
+              "e_match": 1640.060791015625,
+              "e_mismatch": 1757.5892333984375,
+              "pair_type": "T1_literal+semantic",
+              "query": "房东不退押金"
+            },
+            {
+              "correct": true,
+              "delta": 0.2555638253688812,
+              "e_match": 1760.88623046875,
+              "e_mismatch": 1765.39794921875,
+              "pair_type": "T1_literal+semantic",
+              "query": "假货怎么维权"
+            },
+            {
+              "correct": true,
+              "delta": 2.3405845165252686,
+              "e_match": 1673.1767578125,
+              "e_mismatch": 1713.2774658203125,
+              "pair_type": "T1_literal+semantic",
+              "query": "被辞退怎么赔"
+            },
+            {
+              "correct": false,
+              "delta": -2.049818277359009,
+              "e_match": 1714.373291015625,
+              "e_mismatch": 1679.9376220703125,
+              "pair_type": "T2_diff_literal+semantic",
+              "query": "打人会坐牢吗"
+            },
+            {
+              "correct": false,
+              "delta": -2.7791085243225098,
+              "e_match": 1767.732666015625,
+              "e_mismatch": 1719.933837890625,
+              "pair_type": "T2_diff_literal+semantic",
+              "query": "偷了别人的钱包"
+            },
+            {
+              "correct": true,
+              "delta": 2.9566328525543213,
+              "e_match": 1633.7567138671875,
+              "e_mismatch": 1683.5325927734375,
+              "pair_type": "T2_diff_literal+semantic",
+              "query": "喝了酒还开车上路"
+            },
+            {
+              "correct": true,
+              "delta": 8.749642372131348,
+              "e_match": 1563.5245361328125,
+              "e_mismatch": 1713.44482421875,
+              "pair_type": "T2_diff_literal+semantic",
+              "query": "把人弄死了"
+            },
+            {
+              "correct": false,
+              "delta": -0.14345775544643402,
+              "e_match": 1623.6588134765625,
+              "e_mismatch": 1621.3328857421875,
+              "pair_type": "T2_diff_literal+semantic",
+              "query": "骗了老人的养老钱"
+            },
+            {
+              "correct": false,
+              "delta": -6.160032749176025,
+              "e_match": 1681.00537109375,
+              "e_mismatch": 1583.4635009765625,
+              "pair_type": "T2_diff_literal+semantic",
+              "query": "两口子过不下去了"
+            },
+            {
+              "correct": false,
+              "delta": -2.479114294052124,
+              "e_match": 1630.4796142578125,
+              "e_mismatch": 1591.0360107421875,
+              "pair_type": "T2_diff_literal+semantic",
+              "query": "朋友欠钱一直拖着"
+            },
+            {
+              "correct": false,
+              "delta": -0.477696031332016,
+              "e_match": 1634.33154296875,
+              "e_mismatch": 1626.5615234375,
+              "pair_type": "T2_diff_literal+semantic",
+              "query": "房子到期了不让住了"
+            },
+            {
+              "correct": false,
+              "delta": -1.9418408870697021,
+              "e_match": 1667.494873046875,
+              "e_mismatch": 1635.7315673828125,
+              "pair_type": "T2_diff_literal+semantic",
+              "query": "买的东西是假的"
+            },
+            {
+              "correct": true,
+              "delta": 5.696811676025391,
+              "e_match": 1622.084716796875,
+              "e_mismatch": 1720.0740966796875,
+              "pair_type": "T2_diff_literal+semantic",
+              "query": "老板突然不要我了"
+            },
+            {
+              "correct": true,
+              "delta": 2.199524402618408,
+              "e_match": 1618.873291015625,
+              "e_mismatch": 1655.2816162109375,
+              "pair_type": "T3_similar_literal+unrelated",
+              "query": "故意伤害怎么判"
+            },
+            {
+              "correct": false,
+              "delta": -7.583627700805664,
+              "e_match": 1708.0015869140625,
+              "e_mismatch": 1587.6036376953125,
+              "pair_type": "T3_similar_literal+unrelated",
+              "query": "盗窃罪判多久"
+            },
+            {
+              "correct": true,
+              "delta": 12.43254280090332,
+              "e_match": 1476.5833740234375,
+              "e_mismatch": 1686.223876953125,
+              "pair_type": "T3_similar_literal+unrelated",
+              "query": "合同违约怎么赔"
+            },
+            {
+              "correct": true,
+              "delta": 1.232846975326538,
+              "e_match": 1679.69482421875,
+              "e_mismatch": 1700.661376953125,
+              "pair_type": "T3_similar_literal+unrelated",
+              "query": "酒驾的处罚标准"
+            },
+            {
+              "correct": true,
+              "delta": 5.433176040649414,
+              "e_match": 1548.3916015625,
+              "e_mismatch": 1637.351806640625,
+              "pair_type": "T3_similar_literal+unrelated",
+              "query": "遗产怎么继承"
+            },
+            {
+              "correct": false,
+              "delta": -9.373417854309082,
+              "e_match": 1761.605224609375,
+              "e_mismatch": 1610.6337890625,
+              "pair_type": "T3_similar_literal+unrelated",
+              "query": "劳动合同到期"
+            },
+            {
+              "correct": true,
+              "delta": 8.309168815612793,
+              "e_match": 1525.0950927734375,
+              "e_mismatch": 1663.3016357421875,
+              "pair_type": "T3_similar_literal+unrelated",
+              "query": "抚养权归谁"
+            },
+            {
+              "correct": false,
+              "delta": -5.067791938781738,
+              "e_match": 1718.918701171875,
+              "e_mismatch": 1636.0091552734375,
+              "pair_type": "T3_similar_literal+unrelated",
+              "query": "交通事故责任"
+            },
+            {
+              "correct": true,
+              "delta": 0.6628378033638,
+              "e_match": 1684.8087158203125,
+              "e_mismatch": 1696.05078125,
+              "pair_type": "T3_similar_literal+unrelated",
+              "query": "网络诈骗怎么报案"
+            },
+            {
+              "correct": false,
+              "delta": -4.033787727355957,
+              "e_match": 1729.632080078125,
+              "e_mismatch": 1662.567626953125,
+              "pair_type": "T3_similar_literal+unrelated",
+              "query": "商标侵权赔偿"
+            }
+          ],
+          "run": 3,
+          "seed_offset": 3000,
+          "types": [
+            {
+              "accuracy": 0.6,
+              "avg_delta": -0.05660555511713028,
+              "n_pairs": 10,
+              "type_name": "T1"
+            },
+            {
+              "accuracy": 0.3,
+              "avg_delta": 0.13720178604125977,
+              "n_pairs": 10,
+              "type_name": "T2"
+            },
+            {
+              "accuracy": 0.6,
+              "avg_delta": 0.4211471676826477,
+              "n_pairs": 10,
+              "type_name": "T3"
+            }
+          ]
+        }
+      ],
+      "use_m2": false
+    },
+    {
+      "mean_overall": 0.6444444444444445,
+      "mean_type1": 0.6,
+      "mean_type2": 0.7333333333333334,
+      "mean_type3": 0.6,
+      "name": "B2_m2",
+      "runs": [
+        {
+          "overall_accuracy": 0.7,
+          "pairs": [
+            {
+              "correct": false,
+              "delta": -7.289703369140625,
+              "e_match": 1622.2835693359375,
+              "e_mismatch": 1512.0589599609375,
+              "pair_type": "T1_literal+semantic",
+              "query": "故意伤害怎么判"
+            },
+            {
+              "correct": false,
+              "delta": -3.381547451019287,
+              "e_match": 1558.953857421875,
+              "e_mismatch": 1507.96142578125,
+              "pair_type": "T1_literal+semantic",
+              "query": "盗窃怎么处罚"
+            },
+            {
+              "correct": false,
+              "delta": -1.9684169292449951,
+              "e_match": 1652.7205810546875,
+              "e_mismatch": 1620.816162109375,
+              "pair_type": "T1_literal+semantic",
+              "query": "醉驾怎么罚"
+            },
+            {
+              "correct": true,
+              "delta": 6.760458469390869,
+              "e_match": 1407.53271484375,
+              "e_mismatch": 1509.5877685546875,
+              "pair_type": "T1_literal+semantic",
+              "query": "杀人判多少年"
+            },
+            {
+              "correct": false,
+              "delta": -11.929577827453613,
+              "e_match": 1705.1126708984375,
+              "e_mismatch": 1523.3798828125,
+              "pair_type": "T1_literal+semantic",
+              "query": "诈骗判几年"
+            },
+            {
+              "correct": true,
+              "delta": 3.2622110843658447,
+              "e_match": 1586.647705078125,
+              "e_mismatch": 1640.1529541015625,
+              "pair_type": "T1_literal+semantic",
+              "query": "离婚财产怎么分"
+            },
+            {
+              "correct": false,
+              "delta": -0.3327696621417999,
+              "e_match": 1617.8092041015625,
+              "e_mismatch": 1612.4434814453125,
+              "pair_type": "T1_literal+semantic",
+              "query": "借钱不还怎么办"
+            },
+            {
+              "correct": true,
+              "delta": 6.452586650848389,
+              "e_match": 1500.2744140625,
+              "e_mismatch": 1603.75830078125,
+              "pair_type": "T1_literal+semantic",
+              "query": "房东不退押金"
+            },
+            {
+              "correct": true,
+              "delta": 3.6612133979797363,
+              "e_match": 1542.64892578125,
+              "e_mismatch": 1601.2750244140625,
+              "pair_type": "T1_literal+semantic",
+              "query": "假货怎么维权"
+            },
+            {
+              "correct": true,
+              "delta": 13.231918334960938,
+              "e_match": 1410.841796875,
+              "e_mismatch": 1625.99169921875,
+              "pair_type": "T1_literal+semantic",
+              "query": "被辞退怎么赔"
+            },
+            {
+              "correct": true,
+              "delta": 6.069277763366699,
+              "e_match": 1502.038818359375,
+              "e_mismatch": 1599.0921630859375,
+              "pair_type": "T2_diff_literal+semantic",
+              "query": "打人会坐牢吗"
+            },
+            {
+              "correct": true,
+              "delta": 0.09950773417949677,
+              "e_match": 1600.0406494140625,
+              "e_mismatch": 1601.6343994140625,
+              "pair_type": "T2_diff_literal+semantic",
+              "query": "偷了别人的钱包"
+            },
+            {
+              "correct": true,
+              "delta": 1.8786300420761108,
+              "e_match": 1555.8017578125,
+              "e_mismatch": 1585.589111328125,
+              "pair_type": "T2_diff_literal+semantic",
+              "query": "喝了酒还开车上路"
+            },
+            {
+              "correct": true,
+              "delta": 8.574919700622559,
+              "e_match": 1489.1763916015625,
+              "e_mismatch": 1628.848876953125,
+              "pair_type": "T2_diff_literal+semantic",
+              "query": "把人弄死了"
+            },
+            {
+              "correct": true,
+              "delta": 4.276063442230225,
+              "e_match": 1447.3507080078125,
+              "e_mismatch": 1512.0050048828125,
+              "pair_type": "T2_diff_literal+semantic",
+              "query": "骗了老人的养老钱"
+            },
+            {
+              "correct": true,
+              "delta": 7.84447717666626,
+              "e_match": 1499.8536376953125,
+              "e_mismatch": 1627.5244140625,
+              "pair_type": "T2_diff_literal+semantic",
+              "query": "两口子过不下去了"
+            },
+            {
+              "correct": true,
+              "delta": 2.5037479400634766,
+              "e_match": 1472.8179931640625,
+              "e_mismatch": 1510.640625,
+              "pair_type": "T2_diff_literal+semantic",
+              "query": "朋友欠钱一直拖着"
+            },
+            {
+              "correct": true,
+              "delta": 10.981330871582031,
+              "e_match": 1430.1053466796875,
+              "e_mismatch": 1606.52294921875,
+              "pair_type": "T2_diff_literal+semantic",
+              "query": "房子到期了不让住了"
+            },
+            {
+              "correct": false,
+              "delta": -2.041092872619629,
+              "e_match": 1538.968017578125,
+              "e_mismatch": 1508.1845703125,
+              "pair_type": "T2_diff_literal+semantic",
+              "query": "买的东西是假的"
+            },
+            {
+              "correct": true,
+              "delta": 8.598084449768066,
+              "e_match": 1485.6016845703125,
+              "e_mismatch": 1625.3507080078125,
+              "pair_type": "T2_diff_literal+semantic",
+              "query": "老板突然不要我了"
+            },
+            {
+              "correct": true,
+              "delta": 11.532389640808105,
+              "e_match": 1514.720458984375,
+              "e_mismatch": 1712.1751708984375,
+              "pair_type": "T3_similar_literal+unrelated",
+              "query": "故意伤害怎么判"
+            },
+            {
+              "correct": false,
+              "delta": -4.200895309448242,
+              "e_match": 1602.6666259765625,
+              "e_mismatch": 1538.0545654296875,
+              "pair_type": "T3_similar_literal+unrelated",
+              "query": "盗窃罪判多久"
+            },
+            {
+              "correct": true,
+              "delta": 13.449994087219238,
+              "e_match": 1421.658447265625,
+              "e_mismatch": 1642.586181640625,
+              "pair_type": "T3_similar_literal+unrelated",
+              "query": "合同违约怎么赔"
+            },
+            {
+              "correct": false,
+              "delta": -5.076949119567871,
+              "e_match": 1689.1925048828125,
+              "e_mismatch": 1607.57666015625,
+              "pair_type": "T3_similar_literal+unrelated",
+              "query": "酒驾的处罚标准"
+            },
+            {
+              "correct": true,
+              "delta": 0.2932395339012146,
+              "e_match": 1572.0028076171875,
+              "e_mismatch": 1576.6260986328125,
+              "pair_type": "T3_similar_literal+unrelated",
+              "query": "遗产怎么继承"
+            },
+            {
+              "correct": false,
+              "delta": -0.8692853450775146,
+              "e_match": 1607.5208740234375,
+              "e_mismatch": 1593.6673583984375,
+              "pair_type": "T3_similar_literal+unrelated",
+              "query": "劳动合同到期"
+            },
+            {
+              "correct": true,
+              "delta": 0.6945995092391968,
+              "e_match": 1572.55908203125,
+              "e_mismatch": 1583.5584716796875,
+              "pair_type": "T3_similar_literal+unrelated",
+              "query": "抚养权归谁"
+            },
+            {
+              "correct": true,
+              "delta": 0.2454468309879303,
+              "e_match": 1453.9742431640625,
+              "e_mismatch": 1457.5517578125,
+              "pair_type": "T3_similar_literal+unrelated",
+              "query": "交通事故责任"
+            },
+            {
+              "correct": true,
+              "delta": 7.019130706787109,
+              "e_match": 1540.206298828125,
+              "e_mismatch": 1656.4765625,
+              "pair_type": "T3_similar_literal+unrelated",
+              "query": "网络诈骗怎么报案"
+            },
+            {
+              "correct": true,
+              "delta": 4.271697044372559,
+              "e_match": 1553.346435546875,
+              "e_mismatch": 1622.66162109375,
+              "pair_type": "T3_similar_literal+unrelated",
+              "query": "商标侵权赔偿"
+            }
+          ],
+          "run": 1,
+          "seed_offset": 1000,
+          "types": [
+            {
+              "accuracy": 0.5,
+              "avg_delta": 0.8466371297836304,
+              "n_pairs": 10,
+              "type_name": "T1"
+            },
+            {
+              "accuracy": 0.9,
+              "avg_delta": 4.878494739532471,
+              "n_pairs": 10,
+              "type_name": "T2"
+            },
+            {
+              "accuracy": 0.7,
+              "avg_delta": 2.7359366416931152,
+              "n_pairs": 10,
+              "type_name": "T3"
+            }
+          ]
+        },
+        {
+          "overall_accuracy": 0.6666666666666666,
+          "pairs": [
+            {
+              "correct": false,
+              "delta": -5.088456630706787,
+              "e_match": 1691.168701171875,
+              "e_mismatch": 1609.2811279296875,
+              "pair_type": "T1_literal+semantic",
+              "query": "故意伤害怎么判"
+            },
+            {
+              "correct": true,
+              "delta": 4.831730842590332,
+              "e_match": 1543.074951171875,
+              "e_mismatch": 1621.41748046875,
+              "pair_type": "T1_literal+semantic",
+              "query": "盗窃怎么处罚"
+            },
+            {
+              "correct": false,
+              "delta": -0.726961076259613,
+              "e_match": 1606.806884765625,
+              "e_mismatch": 1595.2103271484375,
+              "pair_type": "T1_literal+semantic",
+              "query": "醉驾怎么罚"
+            },
+            {
+              "correct": true,
+              "delta": 3.5231118202209473,
+              "e_match": 1310.5308837890625,
+              "e_mismatch": 1358.388427734375,
+              "pair_type": "T1_literal+semantic",
+              "query": "杀人判多少年"
+            },
+            {
+              "correct": false,
+              "delta": -5.476462364196777,
+              "e_match": 1613.6590576171875,
+              "e_mismatch": 1529.8759765625,
+              "pair_type": "T1_literal+semantic",
+              "query": "诈骗判几年"
+            },
+            {
+              "correct": true,
+              "delta": 0.5876802802085876,
+              "e_match": 1552.779052734375,
+              "e_mismatch": 1561.9583740234375,
+              "pair_type": "T1_literal+semantic",
+              "query": "离婚财产怎么分"
+            },
+            {
+              "correct": true,
+              "delta": 5.973062515258789,
+              "e_match": 1586.1815185546875,
+              "e_mismatch": 1686.9437255859375,
+              "pair_type": "T1_literal+semantic",
+              "query": "借钱不还怎么办"
+            },
+            {
+              "correct": false,
+              "delta": -2.8710174560546875,
+              "e_match": 1604.7650146484375,
+              "e_mismatch": 1559.977783203125,
+              "pair_type": "T1_literal+semantic",
+              "query": "房东不退押金"
+            },
+            {
+              "correct": true,
+              "delta": 16.51337242126465,
+              "e_match": 1522.825927734375,
+              "e_mismatch": 1824.0357666015625,
+              "pair_type": "T1_literal+semantic",
+              "query": "假货怎么维权"
+            },
+            {
+              "correct": true,
+              "delta": 14.961737632751465,
+              "e_match": 1361.2783203125,
+              "e_mismatch": 1600.7833251953125,
+              "pair_type": "T1_literal+semantic",
+              "query": "被辞退怎么赔"
+            },
+            {
+              "correct": true,
+              "delta": 9.637582778930664,
+              "e_match": 1473.3497314453125,
+              "e_mismatch": 1630.489501953125,
+              "pair_type": "T2_diff_literal+semantic",
+              "query": "打人会坐牢吗"
+            },
+            {
+              "correct": false,
+              "delta": -5.080750942230225,
+              "e_match": 1647.25390625,
+              "e_mismatch": 1567.607666015625,
+              "pair_type": "T2_diff_literal+semantic",
+              "query": "偷了别人的钱包"
+            },
+            {
+              "correct": true,
+              "delta": 4.029867649078369,
+              "e_match": 1582.5008544921875,
+              "e_mismatch": 1648.951416015625,
+              "pair_type": "T2_diff_literal+semantic",
+              "query": "喝了酒还开车上路"
+            },
+            {
+              "correct": true,
+              "delta": 12.432147979736328,
+              "e_match": 1495.626953125,
+              "e_mismatch": 1707.9635009765625,
+              "pair_type": "T2_diff_literal+semantic",
+              "query": "把人弄死了"
+            },
+            {
+              "correct": false,
+              "delta": -2.284437656402588,
+              "e_match": 1538.8975830078125,
+              "e_mismatch": 1504.527587890625,
+              "pair_type": "T2_diff_literal+semantic",
+              "query": "骗了老人的养老钱"
+            },
+            {
+              "correct": true,
+              "delta": 5.751741886138916,
+              "e_match": 1587.4974365234375,
+              "e_mismatch": 1684.3785400390625,
+              "pair_type": "T2_diff_literal+semantic",
+              "query": "两口子过不下去了"
+            },
+            {
+              "correct": true,
+              "delta": 5.16554069519043,
+              "e_match": 1586.343994140625,
+              "e_mismatch": 1672.7506103515625,
+              "pair_type": "T2_diff_literal+semantic",
+              "query": "朋友欠钱一直拖着"
+            },
+            {
+              "correct": true,
+              "delta": 15.209299087524414,
+              "e_match": 1353.725341796875,
+              "e_mismatch": 1596.54931640625,
+              "pair_type": "T2_diff_literal+semantic",
+              "query": "房子到期了不让住了"
+            },
+            {
+              "correct": true,
+              "delta": 4.590981483459473,
+              "e_match": 1469.5106201171875,
+              "e_mismatch": 1540.221923828125,
+              "pair_type": "T2_diff_literal+semantic",
+              "query": "买的东西是假的"
+            },
+            {
+              "correct": true,
+              "delta": 7.394077777862549,
+              "e_match": 1370.873779296875,
+              "e_mismatch": 1480.33056640625,
+              "pair_type": "T2_diff_literal+semantic",
+              "query": "老板突然不要我了"
+            },
+            {
+              "correct": true,
+              "delta": 14.397183418273926,
+              "e_match": 1434.401123046875,
+              "e_mismatch": 1675.6470947265625,
+              "pair_type": "T3_similar_literal+unrelated",
+              "query": "故意伤害怎么判"
+            },
+            {
+              "correct": true,
+              "delta": 5.547341346740723,
+              "e_match": 1506.239501953125,
+              "e_mismatch": 1594.703125,
+              "pair_type": "T3_similar_literal+unrelated",
+              "query": "盗窃罪判多久"
+            },
+            {
+              "correct": true,
+              "delta": 10.74653148651123,
+              "e_match": 1415.70361328125,
+              "e_mismatch": 1586.160888671875,
+              "pair_type": "T3_similar_literal+unrelated",
+              "query": "合同违约怎么赔"
+            },
+            {
+              "correct": false,
+              "delta": -0.5168035626411438,
+              "e_match": 1585.7022705078125,
+              "e_mismatch": 1577.5494384765625,
+              "pair_type": "T3_similar_literal+unrelated",
+              "query": "酒驾的处罚标准"
+            },
+            {
+              "correct": true,
+              "delta": 10.424945831298828,
+              "e_match": 1395.28662109375,
+              "e_mismatch": 1557.6732177734375,
+              "pair_type": "T3_similar_literal+unrelated",
+              "query": "遗产怎么继承"
+            },
+            {
+              "correct": true,
+              "delta": 2.3860721588134766,
+              "e_match": 1621.7730712890625,
+              "e_mismatch": 1661.4156494140625,
+              "pair_type": "T3_similar_literal+unrelated",
+              "query": "劳动合同到期"
+            },
+            {
+              "correct": false,
+              "delta": -3.314681053161621,
+              "e_match": 1536.6317138671875,
+              "e_mismatch": 1487.3314208984375,
+              "pair_type": "T3_similar_literal+unrelated",
+              "query": "抚养权归谁"
+            },
+            {
+              "correct": false,
+              "delta": -0.027649497613310814,
+              "e_match": 1577.4454345703125,
+              "e_mismatch": 1577.0093994140625,
+              "pair_type": "T3_similar_literal+unrelated",
+              "query": "交通事故责任"
+            },
+            {
+              "correct": false,
+              "delta": -2.1333162784576416,
+              "e_match": 1706.5245361328125,
+              "e_mismatch": 1670.87939453125,
+              "pair_type": "T3_similar_literal+unrelated",
+              "query": "网络诈骗怎么报案"
+            },
+            {
+              "correct": true,
+              "delta": 7.279845237731934,
+              "e_match": 1486.2186279296875,
+              "e_mismatch": 1602.9078369140625,
+              "pair_type": "T3_similar_literal+unrelated",
+              "query": "商标侵权赔偿"
+            }
+          ],
+          "run": 2,
+          "seed_offset": 2000,
+          "types": [
+            {
+              "accuracy": 0.6,
+              "avg_delta": 3.2227797508239746,
+              "n_pairs": 10,
+              "type_name": "T1"
+            },
+            {
+              "accuracy": 0.8,
+              "avg_delta": 5.684605121612549,
+              "n_pairs": 10,
+              "type_name": "T2"
+            },
+            {
+              "accuracy": 0.6,
+              "avg_delta": 4.478946685791016,
+              "n_pairs": 10,
+              "type_name": "T3"
+            }
+          ]
+        },
+        {
+          "overall_accuracy": 0.5666666666666667,
+          "pairs": [
+            {
+              "correct": false,
+              "delta": -0.801189124584198,
+              "e_match": 1610.7845458984375,
+              "e_mismatch": 1597.981689453125,
+              "pair_type": "T1_literal+semantic",
+              "query": "故意伤害怎么判"
+            },
+            {
+              "correct": true,
+              "delta": 7.727389812469482,
+              "e_match": 1563.896728515625,
+              "e_mismatch": 1694.8656005859375,
+              "pair_type": "T1_literal+semantic",
+              "query": "盗窃怎么处罚"
+            },
+            {
+              "correct": false,
+              "delta": -8.582528114318848,
+              "e_match": 1675.0631103515625,
+              "e_mismatch": 1542.66357421875,
+              "pair_type": "T1_literal+semantic",
+              "query": "醉驾怎么罚"
+            },
+            {
+              "correct": true,
+              "delta": 0.6663624048233032,
+              "e_match": 1345.0009765625,
+              "e_mismatch": 1354.023681640625,
+              "pair_type": "T1_literal+semantic",
+              "query": "杀人判多少年"
+            },
+            {
+              "correct": false,
+              "delta": -8.03628921508789,
+              "e_match": 1643.86669921875,
+              "e_mismatch": 1521.5875244140625,
+              "pair_type": "T1_literal+semantic",
+              "query": "诈骗判几年"
+            },
+            {
+              "correct": true,
+              "delta": 1.970234751701355,
+              "e_match": 1615.8956298828125,
+              "e_mismatch": 1648.3724365234375,
+              "pair_type": "T1_literal+semantic",
+              "query": "离婚财产怎么分"
+            },
+            {
+              "correct": true,
+              "delta": 4.264269828796387,
+              "e_match": 1559.929931640625,
+              "e_mismatch": 1629.4124755859375,
+              "pair_type": "T1_literal+semantic",
+              "query": "借钱不还怎么办"
+            },
+            {
+              "correct": true,
+              "delta": 10.213342666625977,
+              "e_match": 1477.8385009765625,
+              "e_mismatch": 1645.9444580078125,
+              "pair_type": "T1_literal+semantic",
+              "query": "房东不退押金"
+            },
+            {
+              "correct": true,
+              "delta": 9.428685188293457,
+              "e_match": 1553.6868896484375,
+              "e_mismatch": 1715.4293212890625,
+              "pair_type": "T1_literal+semantic",
+              "query": "假货怎么维权"
+            },
+            {
+              "correct": true,
+              "delta": 13.589374542236328,
+              "e_match": 1383.2122802734375,
+              "e_mismatch": 1600.7432861328125,
+              "pair_type": "T1_literal+semantic",
+              "query": "被辞退怎么赔"
+            },
+            {
+              "correct": true,
+              "delta": 0.16695797443389893,
+              "e_match": 1624.0062255859375,
+              "e_mismatch": 1626.72216796875,
+              "pair_type": "T2_diff_literal+semantic",
+              "query": "打人会坐牢吗"
+            },
+            {
+              "correct": false,
+              "delta": -6.605732440948486,
+              "e_match": 1717.0517578125,
+              "e_mismatch": 1610.6561279296875,
+              "pair_type": "T2_diff_literal+semantic",
+              "query": "偷了别人的钱包"
+            },
+            {
+              "correct": true,
+              "delta": 1.5634424686431885,
+              "e_match": 1557.8262939453125,
+              "e_mismatch": 1582.56884765625,
+              "pair_type": "T2_diff_literal+semantic",
+              "query": "喝了酒还开车上路"
+            },
+            {
+              "correct": true,
+              "delta": 12.006937980651855,
+              "e_match": 1430.3564453125,
+              "e_mismatch": 1625.533203125,
+              "pair_type": "T2_diff_literal+semantic",
+              "query": "把人弄死了"
+            },
+            {
+              "correct": false,
+              "delta": -1.8752228021621704,
+              "e_match": 1536.183349609375,
+              "e_mismatch": 1507.90673828125,
+              "pair_type": "T2_diff_literal+semantic",
+              "query": "骗了老人的养老钱"
+            },
+            {
+              "correct": false,
+              "delta": -3.7900660037994385,
+              "e_match": 1601.580810546875,
+              "e_mismatch": 1543.096435546875,
+              "pair_type": "T2_diff_literal+semantic",
+              "query": "两口子过不下去了"
+            },
+            {
+              "correct": false,
+              "delta": -0.5186055302619934,
+              "e_match": 1522.608154296875,
+              "e_mismatch": 1514.7525634765625,
+              "pair_type": "T2_diff_literal+semantic",
+              "query": "朋友欠钱一直拖着"
+            },
+            {
+              "correct": true,
+              "delta": 2.6484501361846924,
+              "e_match": 1493.55126953125,
+              "e_mismatch": 1534.183349609375,
+              "pair_type": "T2_diff_literal+semantic",
+              "query": "房子到期了不让住了"
+            },
+            {
+              "correct": false,
+              "delta": -0.02349473163485527,
+              "e_match": 1548.146728515625,
+              "e_mismatch": 1547.7830810546875,
+              "pair_type": "T2_diff_literal+semantic",
+              "query": "买的东西是假的"
+            },
+            {
+              "correct": true,
+              "delta": 5.742932319641113,
+              "e_match": 1502.041259765625,
+              "e_mismatch": 1593.5582275390625,
+              "pair_type": "T2_diff_literal+semantic",
+              "query": "老板突然不要我了"
+            },
+            {
+              "correct": true,
+              "delta": 3.3998124599456787,
+              "e_match": 1526.477294921875,
+              "e_mismatch": 1580.201171875,
+              "pair_type": "T3_similar_literal+unrelated",
+              "query": "故意伤害怎么判"
+            },
+            {
+              "correct": false,
+              "delta": -7.247917175292969,
+              "e_match": 1593.5909423828125,
+              "e_mismatch": 1485.89453125,
+              "pair_type": "T3_similar_literal+unrelated",
+              "query": "盗窃罪判多久"
+            },
+            {
+              "correct": true,
+              "delta": 19.1478214263916,
+              "e_match": 1292.1007080078125,
+              "e_mismatch": 1598.1025390625,
+              "pair_type": "T3_similar_literal+unrelated",
+              "query": "合同违约怎么赔"
+            },
+            {
+              "correct": true,
+              "delta": 2.982367515563965,
+              "e_match": 1555.76513671875,
+              "e_mismatch": 1603.590087890625,
+              "pair_type": "T3_similar_literal+unrelated",
+              "query": "酒驾的处罚标准"
+            },
+            {
+              "correct": false,
+              "delta": -0.46108224987983704,
+              "e_match": 1510.565673828125,
+              "e_mismatch": 1503.6326904296875,
+              "pair_type": "T3_similar_literal+unrelated",
+              "query": "遗产怎么继承"
+            },
+            {
+              "correct": false,
+              "delta": -14.128655433654785,
+              "e_match": 1672.0958251953125,
+              "e_mismatch": 1465.0972900390625,
+              "pair_type": "T3_similar_literal+unrelated",
+              "query": "劳动合同到期"
+            },
+            {
+              "correct": true,
+              "delta": 8.764103889465332,
+              "e_match": 1463.0826416015625,
+              "e_mismatch": 1603.6260986328125,
+              "pair_type": "T3_similar_literal+unrelated",
+              "query": "抚养权归谁"
+            },
+            {
+              "correct": false,
+              "delta": -3.168619394302368,
+              "e_match": 1573.248779296875,
+              "e_mismatch": 1524.9295654296875,
+              "pair_type": "T3_similar_literal+unrelated",
+              "query": "交通事故责任"
+            },
+            {
+              "correct": true,
+              "delta": 1.05586838722229,
+              "e_match": 1642.60302734375,
+              "e_mismatch": 1660.1318359375,
+              "pair_type": "T3_similar_literal+unrelated",
+              "query": "网络诈骗怎么报案"
+            },
+            {
+              "correct": false,
+              "delta": -2.4601917266845703,
+              "e_match": 1681.2276611328125,
+              "e_mismatch": 1640.859375,
+              "pair_type": "T3_similar_literal+unrelated",
+              "query": "商标侵权赔偿"
+            }
+          ],
+          "run": 3,
+          "seed_offset": 3000,
+          "types": [
+            {
+              "accuracy": 0.7,
+              "avg_delta": 3.0439653396606445,
+              "n_pairs": 10,
+              "type_name": "T1"
+            },
+            {
+              "accuracy": 0.5,
+              "avg_delta": 0.9315599203109741,
+              "n_pairs": 10,
+              "type_name": "T2"
+            },
+            {
+              "accuracy": 0.5,
+              "avg_delta": 0.7883508801460266,
+              "n_pairs": 10,
+              "type_name": "T3"
+            }
+          ]
+        }
+      ],
+      "use_m2": true
+    }
+  ],
+  "meta": {
+    "date": "2026-04-11",
+    "engine": "f32_fused_adaptive",
+    "experiment": "exp008_semantic_vs_bitpattern",
+    "n_runs": 3
+  },
+  "summary": {
+    "A_type1": 0.4666666666666666,
+    "A_type2": 0.6666666666666666,
+    "A_type3": 0.6666666666666666,
+    "B2_type1": 0.6,
+    "B2_type2": 0.7333333333333334,
+    "B2_type3": 0.6
+  },
+  "total_time_s": 17.976863549
+}

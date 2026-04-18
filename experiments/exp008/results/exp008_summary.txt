@@ -1,0 +1,7 @@
+Exp008: Semantic vs Bit-Pattern
+
+                   T1  T2:CORE  T3:trap
+A_fixed           47%      67%      67%
+B2_m2             60%      73%      60%
+
+Total: 18.0s

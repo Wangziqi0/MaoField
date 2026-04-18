@@ -1,0 +1,37 @@
+============================================================
+MaoField Fast Engine v2 + Generalization
+============================================================
+
+Loading corpus...
+  200 texts
+Precomputing source fields...
+  Done in 12.6ms
+
+Benchmark: 1000 steps = 103.45ms (0.1034ms/step)
+Adaptive 1000: 104.66ms, 1000 steps actually run
+
+--- Phase 1: Original 10 pairs (3 runs each) ---
+  A_10p_r1: acc=40% avg_Δ=-0.0% wall=2117ms avg_q=577.4ms (10 pairs)
+  B2_10p_r1: acc=60% avg_Δ=1.3% wall=3755ms avg_q=557.5ms (10 pairs)
+  A_10p_r2: acc=70% avg_Δ=2.2% wall=2073ms avg_q=555.3ms (10 pairs)
+  B2_10p_r2: acc=90% avg_Δ=4.4% wall=5410ms avg_q=717.1ms (10 pairs)
+  A_10p_r3: acc=60% avg_Δ=0.7% wall=2090ms avg_q=580.1ms (10 pairs)
+  B2_10p_r3: acc=80% avg_Δ=3.2% wall=3758ms avg_q=548.5ms (10 pairs)
+
+  10-pair summary:
+    A  runs: [40%, 70%, 60%] mean=57%
+    B2 runs: [60%, 90%, 80%] mean=77%
+
+--- Phase 2: 30-pair generalization ---
+  A_30p: acc=87% avg_Δ=4.7% wall=2415ms avg_q=568.3ms (30 pairs)
+  B2_30p: acc=77% avg_Δ=4.4% wall=5407ms avg_q=549.4ms (30 pairs)
+
+============================================================
+  FINAL SUMMARY
+------------------------------------------------------------
+  10 pairs:  A mean=57%  B2 mean=77%  Δ=+20pp
+  30 pairs:  A=87%       B2=77%       Δ=-10pp
+  Timing: avg_query=574.1ms max=2260.1ms total=27.3s
+============================================================
+
+Saved to "/home/amd/HEZIMENG/MaoField/experiments/exp007_rust/results"

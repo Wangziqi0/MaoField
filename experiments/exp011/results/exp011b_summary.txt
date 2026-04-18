@@ -1,0 +1,9 @@
+Exp011b: Full Validation
+
+                 T1     T2     T3     T4
+scalar          47%    70%    67%    50%
+scalar_M2       43%    83%    63%    47%
+complex         77%   100%    97%    87%
+complex_M2      67%    97%    87%    80%
+
+Time: 34.3s

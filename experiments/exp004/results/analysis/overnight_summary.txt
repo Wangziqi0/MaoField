@@ -1,0 +1,20 @@
+MaoField Exp004 Overnight Summary
+==================================
+Date: 2026-04-10
+Total time: 331s (5.5min)
+
+Task 1 - Extended Exp D (10 pairs):
+  Accuracy: 60%
+  Avg energy delta: 4.2%
+
+Task 2 - Exp C Sentences:
+  Base: +1=58.9%
+  Quant shift: 0.0006
+  Qual shift: 0.0002
+
+Task 3 - D Sensitivity:
+  D=0.05: delta=-10.6% ✗
+  D=0.08: delta=-16.7% ✗
+  D=0.1: delta=-25.9% ✗
+  D=0.12: delta=-105.5% ✗
+  D=0.15: delta=6.4% ✓

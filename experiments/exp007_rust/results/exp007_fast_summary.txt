@@ -1,0 +1,9 @@
+MaoField Fast Engine Verification
+
+Benchmark: 1000 steps timing above
+
+A_fixed: mean=50% runs=[40%, 70%, 40%]
+B2_m2: mean=73% runs=[60%, 90%, 70%]
+
+Timing: avg_query=620.8ms max=2324.9ms
+Total: 19.6s

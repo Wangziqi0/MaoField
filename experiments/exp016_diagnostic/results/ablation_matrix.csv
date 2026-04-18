@@ -1,0 +1,11 @@
+variant,desc,pool,dataset,n_queries,bm25_ndcg10,bm25_p10,maofield_ndcg10,maofield_p10,runtime_s
+D,top-20 pool,top20,nfcorpus,323,0.3063,0.2173,0.16,0.148,849.0
+D,top-20 pool,top20,scifact,300,0.6594,0.0853,0.1622,0.0407,805.6
+A,FUSION_STEPS=0,top100,nfcorpus,323,0.3063,0.2173,0.0744,0.078,795.8
+A,FUSION_STEPS=0,top100,scifact,300,0.6594,0.0853,0.0707,0.017,707.5
+C,EVOLVE_STEPS=500,top100,nfcorpus,323,0.3063,0.2173,0.0561,0.0594,267.7
+C,EVOLVE_STEPS=500,top100,scifact,300,0.6594,0.0853,0.0488,0.0113,254.9
+B,ScalarEngine,top100,nfcorpus,323,0.3063,0.2173,0.0628,0.0638,471.3
+B,ScalarEngine,top100,scifact,300,0.6594,0.0853,0.0183,0.0053,436.9
+E,top-20 + fusion=0,top20,nfcorpus,323,0.3063,0.2173,0.2026,0.1746,701.6
+E,top-20 + fusion=0,top20,scifact,300,0.6594,0.0853,0.3002,0.069,668.4

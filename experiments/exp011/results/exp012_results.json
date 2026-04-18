@@ -1,0 +1,790 @@
+{
+  "groups": [
+    {
+      "group": "A_polysemous",
+      "texts": [
+        {
+          "mean_density": 0.0021769206505268812,
+          "mean_phase_var": 1.7712187767028809,
+          "mean_vortices": 71.33333587646484,
+          "runs": [
+            {
+              "negative_vortices": 41,
+              "net_winding": 0,
+              "phase_variance": 2.3894474506378174,
+              "positive_vortices": 41,
+              "text": "打",
+              "total_vortices": 82,
+              "vortex_density": 0.00250244140625
+            },
+            {
+              "negative_vortices": 29,
+              "net_winding": 0,
+              "phase_variance": 1.1294885873794556,
+              "positive_vortices": 29,
+              "text": "打",
+              "total_vortices": 58,
+              "vortex_density": 0.00177001953125
+            },
+            {
+              "negative_vortices": 37,
+              "net_winding": 0,
+              "phase_variance": 1.7947202920913696,
+              "positive_vortices": 37,
+              "text": "打",
+              "total_vortices": 74,
+              "vortex_density": 0.00225830078125
+            }
+          ],
+          "text": "打"
+        },
+        {
+          "mean_density": 0.00250244140625,
+          "mean_phase_var": 1.8691744804382324,
+          "mean_vortices": 82.0,
+          "runs": [
+            {
+              "negative_vortices": 57,
+              "net_winding": 0,
+              "phase_variance": 2.885897636413574,
+              "positive_vortices": 57,
+              "text": "开",
+              "total_vortices": 114,
+              "vortex_density": 0.00347900390625
+            },
+            {
+              "negative_vortices": 39,
+              "net_winding": 0,
+              "phase_variance": 1.047925591468811,
+              "positive_vortices": 39,
+              "text": "开",
+              "total_vortices": 78,
+              "vortex_density": 0.00238037109375
+            },
+            {
+              "negative_vortices": 27,
+              "net_winding": 0,
+              "phase_variance": 1.6737004518508911,
+              "positive_vortices": 27,
+              "text": "开",
+              "total_vortices": 54,
+              "vortex_density": 0.00164794921875
+            }
+          ],
+          "text": "开"
+        },
+        {
+          "mean_density": 0.00164794921875,
+          "mean_phase_var": 1.4122161865234375,
+          "mean_vortices": 54.0,
+          "runs": [
+            {
+              "negative_vortices": 40,
+              "net_winding": 0,
+              "phase_variance": 2.571631908416748,
+              "positive_vortices": 40,
+              "text": "下",
+              "total_vortices": 80,
+              "vortex_density": 0.00244140625
+            },
+            {
+              "negative_vortices": 15,
+              "net_winding": 0,
+              "phase_variance": 0.327963262796402,
+              "positive_vortices": 15,
+              "text": "下",
+              "total_vortices": 30,
+              "vortex_density": 0.00091552734375
+            },
+            {
+              "negative_vortices": 26,
+              "net_winding": 0,
+              "phase_variance": 1.3370532989501953,
+              "positive_vortices": 26,
+              "text": "下",
+              "total_vortices": 52,
+              "vortex_density": 0.0015869140625
+            }
+          ],
+          "text": "下"
+        },
+        {
+          "mean_density": 0.0017293294658884406,
+          "mean_phase_var": 1.1101226806640625,
+          "mean_vortices": 56.66666793823242,
+          "runs": [
+            {
+              "negative_vortices": 37,
+              "net_winding": 0,
+              "phase_variance": 1.395117163658142,
+              "positive_vortices": 37,
+              "text": "过",
+              "total_vortices": 74,
+              "vortex_density": 0.00225830078125
+            },
+            {
+              "negative_vortices": 20,
+              "net_winding": 0,
+              "phase_variance": 0.7106415033340454,
+              "positive_vortices": 20,
+              "text": "过",
+              "total_vortices": 40,
+              "vortex_density": 0.001220703125
+            },
+            {
+              "negative_vortices": 28,
+              "net_winding": 0,
+              "phase_variance": 1.224609375,
+              "positive_vortices": 28,
+              "text": "过",
+              "total_vortices": 56,
+              "vortex_density": 0.001708984375
+            }
+          ],
+          "text": "过"
+        },
+        {
+          "mean_density": 0.001708984375,
+          "mean_phase_var": 1.4625849723815918,
+          "mean_vortices": 56.0,
+          "runs": [
+            {
+              "negative_vortices": 41,
+              "net_winding": 0,
+              "phase_variance": 2.6400136947631836,
+              "positive_vortices": 41,
+              "text": "上",
+              "total_vortices": 82,
+              "vortex_density": 0.00250244140625
+            },
+            {
+              "negative_vortices": 17,
+              "net_winding": 0,
+              "phase_variance": 0.39735400676727295,
+              "positive_vortices": 17,
+              "text": "上",
+              "total_vortices": 34,
+              "vortex_density": 0.00103759765625
+            },
+            {
+              "negative_vortices": 26,
+              "net_winding": 0,
+              "phase_variance": 1.3503872156143188,
+              "positive_vortices": 26,
+              "text": "上",
+              "total_vortices": 52,
+              "vortex_density": 0.0015869140625
+            }
+          ],
+          "text": "上"
+        }
+      ]
+    },
+    {
+      "group": "A_monosemous",
+      "texts": [
+        {
+          "mean_density": 0.00262451171875,
+          "mean_phase_var": 1.8251744508743286,
+          "mean_vortices": 86.0,
+          "runs": [
+            {
+              "negative_vortices": 33,
+              "net_winding": 0,
+              "phase_variance": 2.0154809951782227,
+              "positive_vortices": 33,
+              "text": "有期徒刑",
+              "total_vortices": 66,
+              "vortex_density": 0.00201416015625
+            },
+            {
+              "negative_vortices": 38,
+              "net_winding": 0,
+              "phase_variance": 1.2142125368118286,
+              "positive_vortices": 38,
+              "text": "有期徒刑",
+              "total_vortices": 76,
+              "vortex_density": 0.0023193359375
+            },
+            {
+              "negative_vortices": 58,
+              "net_winding": 0,
+              "phase_variance": 2.2458300590515137,
+              "positive_vortices": 58,
+              "text": "有期徒刑",
+              "total_vortices": 116,
+              "vortex_density": 0.0035400390625
+            }
+          ],
+          "text": "有期徒刑"
+        },
+        {
+          "mean_density": 0.0019124349346384406,
+          "mean_phase_var": 1.4678980112075806,
+          "mean_vortices": 62.66666793823242,
+          "runs": [
+            {
+              "negative_vortices": 49,
+              "net_winding": 0,
+              "phase_variance": 2.5931785106658936,
+              "positive_vortices": 49,
+              "text": "拘役",
+              "total_vortices": 98,
+              "vortex_density": 0.00299072265625
+            },
+            {
+              "negative_vortices": 22,
+              "net_winding": 0,
+              "phase_variance": 0.9514957666397095,
+              "positive_vortices": 22,
+              "text": "拘役",
+              "total_vortices": 44,
+              "vortex_density": 0.0013427734375
+            },
+            {
+              "negative_vortices": 23,
+              "net_winding": 0,
+              "phase_variance": 0.8590197563171387,
+              "positive_vortices": 23,
+              "text": "拘役",
+              "total_vortices": 46,
+              "vortex_density": 0.00140380859375
+            }
+          ],
+          "text": "拘役"
+        },
+        {
+          "mean_density": 0.0020751953125,
+          "mean_phase_var": 2.700510025024414,
+          "mean_vortices": 68.0,
+          "runs": [
+            {
+              "negative_vortices": 32,
+              "net_winding": 0,
+              "phase_variance": 3.6108012199401855,
+              "positive_vortices": 32,
+              "text": "罚金",
+              "total_vortices": 64,
+              "vortex_density": 0.001953125
+            },
+            {
+              "negative_vortices": 30,
+              "net_winding": 0,
+              "phase_variance": 2.4774742126464844,
+              "positive_vortices": 30,
+              "text": "罚金",
+              "total_vortices": 60,
+              "vortex_density": 0.0018310546875
+            },
+            {
+              "negative_vortices": 40,
+              "net_winding": 0,
+              "phase_variance": 2.013254404067993,
+              "positive_vortices": 40,
+              "text": "罚金",
+              "total_vortices": 80,
+              "vortex_density": 0.00244140625
+            }
+          ],
+          "text": "罚金"
+        },
+        {
+          "mean_density": 0.0023600261192768812,
+          "mean_phase_var": 1.633876919746399,
+          "mean_vortices": 77.33333587646484,
+          "runs": [
+            {
+              "negative_vortices": 51,
+              "net_winding": 0,
+              "phase_variance": 2.514289379119873,
+              "positive_vortices": 51,
+              "text": "管制",
+              "total_vortices": 102,
+              "vortex_density": 0.00311279296875
+            },
+            {
+              "negative_vortices": 28,
+              "net_winding": 0,
+              "phase_variance": 1.261522650718689,
+              "positive_vortices": 28,
+              "text": "管制",
+              "total_vortices": 56,
+              "vortex_density": 0.001708984375
+            },
+            {
+              "negative_vortices": 37,
+              "net_winding": 0,
+              "phase_variance": 1.1258186101913452,
+              "positive_vortices": 37,
+              "text": "管制",
+              "total_vortices": 74,
+              "vortex_density": 0.00225830078125
+            }
+          ],
+          "text": "管制"
+        },
+        {
+          "mean_density": 0.0027262370567768812,
+          "mean_phase_var": 2.904195547103882,
+          "mean_vortices": 89.33333587646484,
+          "runs": [
+            {
+              "negative_vortices": 44,
+              "net_winding": 0,
+              "phase_variance": 3.4640820026397705,
+              "positive_vortices": 44,
+              "text": "缓刑",
+              "total_vortices": 88,
+              "vortex_density": 0.002685546875
+            },
+            {
+              "negative_vortices": 39,
+              "net_winding": 0,
+              "phase_variance": 2.9304044246673584,
+              "positive_vortices": 39,
+              "text": "缓刑",
+              "total_vortices": 78,
+              "vortex_density": 0.00238037109375
+            },
+            {
+              "negative_vortices": 51,
+              "net_winding": 0,
+              "phase_variance": 2.3181002140045166,
+              "positive_vortices": 51,
+              "text": "缓刑",
+              "total_vortices": 102,
+              "vortex_density": 0.00311279296875
+            }
+          ],
+          "text": "缓刑"
+        }
+      ]
+    },
+    {
+      "group": "B_context_da_hit",
+      "texts": [
+        {
+          "mean_density": 0.0021769206505268812,
+          "mean_phase_var": 1.7712187767028809,
+          "mean_vortices": 71.33333587646484,
+          "runs": [
+            {
+              "negative_vortices": 41,
+              "net_winding": 0,
+              "phase_variance": 2.3894474506378174,
+              "positive_vortices": 41,
+              "text": "打",
+              "total_vortices": 82,
+              "vortex_density": 0.00250244140625
+            },
+            {
+              "negative_vortices": 29,
+              "net_winding": 0,
+              "phase_variance": 1.1294885873794556,
+              "positive_vortices": 29,
+              "text": "打",
+              "total_vortices": 58,
+              "vortex_density": 0.00177001953125
+            },
+            {
+              "negative_vortices": 37,
+              "net_winding": 0,
+              "phase_variance": 1.7947202920913696,
+              "positive_vortices": 37,
+              "text": "打",
+              "total_vortices": 74,
+              "vortex_density": 0.00225830078125
+            }
+          ],
+          "text": "打"
+        },
+        {
+          "mean_density": 0.00189208984375,
+          "mean_phase_var": 1.3427830934524536,
+          "mean_vortices": 62.0,
+          "runs": [
+            {
+              "negative_vortices": 45,
+              "net_winding": 0,
+              "phase_variance": 2.3625094890594482,
+              "positive_vortices": 45,
+              "text": "打人",
+              "total_vortices": 90,
+              "vortex_density": 0.00274658203125
+            },
+            {
+              "negative_vortices": 29,
+              "net_winding": 0,
+              "phase_variance": 1.1664234399795532,
+              "positive_vortices": 29,
+              "text": "打人",
+              "total_vortices": 58,
+              "vortex_density": 0.00177001953125
+            },
+            {
+              "negative_vortices": 19,
+              "net_winding": 0,
+              "phase_variance": 0.49941617250442505,
+              "positive_vortices": 19,
+              "text": "打人",
+              "total_vortices": 38,
+              "vortex_density": 0.00115966796875
+            }
+          ],
+          "text": "打人"
+        },
+        {
+          "mean_density": 0.0015055338153615594,
+          "mean_phase_var": 0.8493315577507019,
+          "mean_vortices": 49.33333206176758,
+          "runs": [
+            {
+              "negative_vortices": 12,
+              "net_winding": 0,
+              "phase_variance": 0.1600131392478943,
+              "positive_vortices": 12,
+              "text": "他打人",
+              "total_vortices": 24,
+              "vortex_density": 0.000732421875
+            },
+            {
+              "negative_vortices": 33,
+              "net_winding": 0,
+              "phase_variance": 1.1629314422607422,
+              "positive_vortices": 33,
+              "text": "他打人",
+              "total_vortices": 66,
+              "vortex_density": 0.00201416015625
+            },
+            {
+              "negative_vortices": 29,
+              "net_winding": 0,
+              "phase_variance": 1.2250499725341797,
+              "positive_vortices": 29,
+              "text": "他打人",
+              "total_vortices": 58,
+              "vortex_density": 0.00177001953125
+            }
+          ],
+          "text": "他打人"
+        },
+        {
+          "mean_density": 0.0026652019005268812,
+          "mean_phase_var": 2.6574513912200928,
+          "mean_vortices": 87.33333587646484,
+          "runs": [
+            {
+              "negative_vortices": 50,
+              "net_winding": 0,
+              "phase_variance": 3.056220531463623,
+              "positive_vortices": 50,
+              "text": "他打我要怎么判",
+              "total_vortices": 100,
+              "vortex_density": 0.0030517578125
+            },
+            {
+              "negative_vortices": 36,
+              "net_winding": 0,
+              "phase_variance": 2.0040204524993896,
+              "positive_vortices": 36,
+              "text": "他打我要怎么判",
+              "total_vortices": 72,
+              "vortex_density": 0.002197265625
+            },
+            {
+              "negative_vortices": 45,
+              "net_winding": 0,
+              "phase_variance": 2.9121129512786865,
+              "positive_vortices": 45,
+              "text": "他打我要怎么判",
+              "total_vortices": 90,
+              "vortex_density": 0.00274658203125
+            }
+          ],
+          "text": "他打我要怎么判"
+        }
+      ]
+    },
+    {
+      "group": "B_context_da_call",
+      "texts": [
+        {
+          "mean_density": 0.0021769206505268812,
+          "mean_phase_var": 1.7712187767028809,
+          "mean_vortices": 71.33333587646484,
+          "runs": [
+            {
+              "negative_vortices": 41,
+              "net_winding": 0,
+              "phase_variance": 2.3894474506378174,
+              "positive_vortices": 41,
+              "text": "打",
+              "total_vortices": 82,
+              "vortex_density": 0.00250244140625
+            },
+            {
+              "negative_vortices": 29,
+              "net_winding": 0,
+              "phase_variance": 1.1294885873794556,
+              "positive_vortices": 29,
+              "text": "打",
+              "total_vortices": 58,
+              "vortex_density": 0.00177001953125
+            },
+            {
+              "negative_vortices": 37,
+              "net_winding": 0,
+              "phase_variance": 1.7947202920913696,
+              "positive_vortices": 37,
+              "text": "打",
+              "total_vortices": 74,
+              "vortex_density": 0.00225830078125
+            }
+          ],
+          "text": "打"
+        },
+        {
+          "mean_density": 0.0021565754432231188,
+          "mean_phase_var": 1.3622846603393555,
+          "mean_vortices": 70.66666412353516,
+          "runs": [
+            {
+              "negative_vortices": 26,
+              "net_winding": 0,
+              "phase_variance": 0.8314472436904907,
+              "positive_vortices": 26,
+              "text": "打电话",
+              "total_vortices": 52,
+              "vortex_density": 0.0015869140625
+            },
+            {
+              "negative_vortices": 43,
+              "net_winding": 0,
+              "phase_variance": 1.8584706783294678,
+              "positive_vortices": 43,
+              "text": "打电话",
+              "total_vortices": 86,
+              "vortex_density": 0.00262451171875
+            },
+            {
+              "negative_vortices": 37,
+              "net_winding": 0,
+              "phase_variance": 1.3969357013702393,
+              "positive_vortices": 37,
+              "text": "打电话",
+              "total_vortices": 74,
+              "vortex_density": 0.00225830078125
+            }
+          ],
+          "text": "打电话"
+        },
+        {
+          "mean_density": 0.0025431315880268812,
+          "mean_phase_var": 2.4252586364746094,
+          "mean_vortices": 83.33333587646484,
+          "runs": [
+            {
+              "negative_vortices": 39,
+              "net_winding": 0,
+              "phase_variance": 2.803725004196167,
+              "positive_vortices": 39,
+              "text": "他打电话",
+              "total_vortices": 78,
+              "vortex_density": 0.00238037109375
+            },
+            {
+              "negative_vortices": 41,
+              "net_winding": 0,
+              "phase_variance": 1.2209045886993408,
+              "positive_vortices": 41,
+              "text": "他打电话",
+              "total_vortices": 82,
+              "vortex_density": 0.00250244140625
+            },
+            {
+              "negative_vortices": 45,
+              "net_winding": 0,
+              "phase_variance": 3.2511463165283203,
+              "positive_vortices": 45,
+              "text": "他打电话",
+              "total_vortices": 90,
+              "vortex_density": 0.00274658203125
+            }
+          ],
+          "text": "他打电话"
+        },
+        {
+          "mean_density": 0.0020345051307231188,
+          "mean_phase_var": 1.2488951683044434,
+          "mean_vortices": 66.66666412353516,
+          "runs": [
+            {
+              "negative_vortices": 37,
+              "net_winding": 0,
+              "phase_variance": 1.2075538635253906,
+              "positive_vortices": 37,
+              "text": "他打电话给我",
+              "total_vortices": 74,
+              "vortex_density": 0.00225830078125
+            },
+            {
+              "negative_vortices": 39,
+              "net_winding": 0,
+              "phase_variance": 1.3252942562103271,
+              "positive_vortices": 39,
+              "text": "他打电话给我",
+              "total_vortices": 78,
+              "vortex_density": 0.00238037109375
+            },
+            {
+              "negative_vortices": 24,
+              "net_winding": 0,
+              "phase_variance": 1.2138373851776123,
+              "positive_vortices": 24,
+              "text": "他打电话给我",
+              "total_vortices": 48,
+              "vortex_density": 0.00146484375
+            }
+          ],
+          "text": "他打电话给我"
+        }
+      ]
+    },
+    {
+      "group": "C_sense_kai",
+      "texts": [
+        {
+          "mean_density": 0.0027262370567768812,
+          "mean_phase_var": 2.2792539596557617,
+          "mean_vortices": 89.33333587646484,
+          "runs": [
+            {
+              "negative_vortices": 48,
+              "net_winding": 0,
+              "phase_variance": 1.9656426906585693,
+              "positive_vortices": 48,
+              "text": "他在银行开了户",
+              "total_vortices": 96,
+              "vortex_density": 0.0029296875
+            },
+            {
+              "negative_vortices": 41,
+              "net_winding": 0,
+              "phase_variance": 2.0048935413360596,
+              "positive_vortices": 41,
+              "text": "他在银行开了户",
+              "total_vortices": 82,
+              "vortex_density": 0.00250244140625
+            },
+            {
+              "negative_vortices": 45,
+              "net_winding": 0,
+              "phase_variance": 2.8672256469726562,
+              "positive_vortices": 45,
+              "text": "他在银行开了户",
+              "total_vortices": 90,
+              "vortex_density": 0.00274658203125
+            }
+          ],
+          "text": "他在银行开了户"
+        },
+        {
+          "mean_density": 0.0014241536846384406,
+          "mean_phase_var": 1.5987553596496582,
+          "mean_vortices": 46.66666793823242,
+          "runs": [
+            {
+              "negative_vortices": 30,
+              "net_winding": 0,
+              "phase_variance": 2.7278287410736084,
+              "positive_vortices": 30,
+              "text": "他把门开了",
+              "total_vortices": 60,
+              "vortex_density": 0.0018310546875
+            },
+            {
+              "negative_vortices": 23,
+              "net_winding": 0,
+              "phase_variance": 0.9463971853256226,
+              "positive_vortices": 23,
+              "text": "他把门开了",
+              "total_vortices": 46,
+              "vortex_density": 0.00140380859375
+            },
+            {
+              "negative_vortices": 17,
+              "net_winding": 0,
+              "phase_variance": 1.1220401525497437,
+              "positive_vortices": 17,
+              "text": "他把门开了",
+              "total_vortices": 34,
+              "vortex_density": 0.00103759765625
+            }
+          ],
+          "text": "他把门开了"
+        },
+        {
+          "mean_density": 0.0019124349346384406,
+          "mean_phase_var": 1.757652759552002,
+          "mean_vortices": 62.66666793823242,
+          "runs": [
+            {
+              "negative_vortices": 38,
+              "net_winding": 0,
+              "phase_variance": 2.5418524742126465,
+              "positive_vortices": 38,
+              "text": "他开心极了",
+              "total_vortices": 76,
+              "vortex_density": 0.0023193359375
+            },
+            {
+              "negative_vortices": 31,
+              "net_winding": 0,
+              "phase_variance": 1.5936291217803955,
+              "positive_vortices": 31,
+              "text": "他开心极了",
+              "total_vortices": 62,
+              "vortex_density": 0.00189208984375
+            },
+            {
+              "negative_vortices": 25,
+              "net_winding": 0,
+              "phase_variance": 1.1374763250350952,
+              "positive_vortices": 25,
+              "text": "他开心极了",
+              "total_vortices": 50,
+              "vortex_density": 0.00152587890625
+            }
+          ],
+          "text": "他开心极了"
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "date": "2026-04-11",
+    "experiment": "exp012_vortex_ambiguity"
+  },
+  "summary": {
+    "context_da2_sequence": [
+      71.33333587646484,
+      70.66666412353516,
+      83.33333587646484,
+      66.66666412353516
+    ],
+    "context_da_sequence": [
+      71.33333587646484,
+      62.0,
+      49.33333206176758,
+      87.33333587646484
+    ],
+    "mono_mean_vortices": 76.66667175292969,
+    "poly_mean_vortices": 64.0,
+    "sense_kai_vortices": [
+      89.33333587646484,
+      46.66666793823242,
+      62.66666793823242
+    ]
+  },
+  "total_time_s": 20.815448378
+}

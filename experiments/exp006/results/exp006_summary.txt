@@ -1,0 +1,8 @@
+Exp006: Multi-Component Field (Rust)
+
+A: 40% avg_Δ=0.2% (1-comp, λ=0)
+B1: 20% avg_Δ=-2.4% (2-comp, λ=0)
+B2: 50% avg_Δ=-36.9% (2-comp, λ=0.1)
+B3: 40% avg_Δ=-25.4% (2-comp, λ=-0.1)
+C: 30% avg_Δ=-0.6% (3-comp, λ=0.1)
+Total time: 2327s (38.8min)

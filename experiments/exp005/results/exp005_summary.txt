@@ -1,0 +1,10 @@
+Exp005: Adjoint Functor-Driven Demand Practice
+Coupling mode: energy
+
+A_vacuum: 20% avg_Δ=-1.1%
+B_blind50: 40% avg_Δ=-0.2%
+C_demand_1round: 60% avg_Δ=1.6%
+D_demand_full: 60% avg_Δ=0.7%
+E_demand_random: 60% avg_Δ=0.1%
+
+Total time: 1274s (21.2min)

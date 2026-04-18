@@ -1,0 +1,5 @@
+Practice Partner Experiment
+Vacuum: 70%
+law_50: 70% avg_Δ=2.1%
+random_50: 50% avg_Δ=-0.8%
+Total time: 1279s
