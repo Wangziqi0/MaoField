@@ -1,0 +1,3 @@
+
+# v1.0 release archive: 保 binary-identical 跨平台 (manifest.sha256 reproducibility)
+experiments/exp018_cat/archive/** -text
