@@ -275,15 +275,25 @@ paper 申报 "ready for submit to venue X" 必须**全部** ✓ 才能用 ready 
 
 **双保底**: 核心文档 (paper / configs / scripts) 同时 git + ssh — git 是版本 history + GitHub 异地外存, ssh 是即时 work-in-progress sync。
 
-### 紧急回滚 / 失联应对
+### 紧急回滚 / 失联应对 (D20 evening 完成 ssh-key + second remote 配置)
+
+**三机 git remote 配置 (D20 21:40 done)**:
+- **7B13** (写权单点): `origin = git@github.com:Wangziqi0/MaoField.git`
+- **9070XT**: `origin = amd@192.168.31.36:/home/amd/HEZIMENG/MaoField` (LAN, 平时 pull 快) + `github = git@github.com:Wangziqi0/MaoField.git` (异地 fallback)
+- **Win 桌面**: `origin = amd@192.168.31.36:...` (LAN) + `github = git@github.com:...` (fallback)
+- 9070XT + Win ssh-key 已 add GitHub Wangziqi0 user, `ssh -T git@github.com` 返 "Hi Wangziqi0! authenticated" ✓
 
 **7B13 失联** (磁盘故障 / 网络断 / RAID1 双盘失效):
-- 9070XT + Win 当前 git remote 指 7B13 LAN (`amd@192.168.31.36:/home/amd/HEZIMENG/MaoField`), 7B13 失联时 LAN remote 不可达
-- **一凡 self-action D21+** (推荐, 防 7B13 失联): 9070XT + Win 各自 ssh-key add GitHub user → 加 second remote `github` 指 `git@github.com:Wangziqi0/MaoField.git` → 平时 LAN pull (快), 7B13 失联时 GitHub pull (异地)
-- 9070XT 4T HDD daily backup 恢复实验数据 (含 sqlite + 实验全 8.5 GB)
-- Win 端 备用 git clone GitHub origin (需 ssh-key 加 GitHub) → 一凡自看最新 commit
+- 9070XT + Win 各自 `git pull github main` 走 GitHub 异地 fallback ✓ (actionable)
+- 9070XT 4T HDD `/media/amd/hdd4t/backup/hezimeng_exp/{YYYYMMDD}/` daily backup 恢复实验数据 (含 sqlite + 实验全, 当前 8.5 GB)
+- 一凡 临时 work 可用 9070XT 或 Win 桌面 (含全部 commit history + 实验数据)
 
-**D20 D-1 纪律 5 sub-agent Y 校验 catch**: 当前 fallback 路径 "9070XT git pull from GitHub" **预设 9070XT ssh-key 已 add GitHub user**, 但 D20 binary verify **未 done** (9070XT 之前 git clone via LAN 不需要 GitHub access). 一凡 D21+ self-action 把 9070XT + Win ssh-key add 到 GitHub Wangziqi0 user (或 加 deploy key 到 repo, read-only OK) 后, 此 fallback 才 真 actionable。
+**9070XT 失联**:
+- 7B13 不受影响 (主数据中枢继续)
+- chain 实验 pause until 9070XT 恢复 (或临时 cloud A100)
+
+**Win 失联**:
+- 一凡 临时用 7B13 直接登 Linux desktop 或 9070XT (现接显示器)
 
 **9070XT 失联**:
 - 7B13 不受影响 (主数据中枢继续)
