@@ -1,0 +1,117 @@
+14:34:08 INFO exp_d17_power_law: === exploration D17 power-law sanity check, device=cpu ===
+14:34:08 INFO exp_d17_power_law: torch=2.11.0+cpu cuda_avail=False
+14:34:08 INFO exp_d17_power_law: loading tokenizer facebook/opt-125m ...
+14:34:10 INFO httpx: HTTP Request: HEAD https://huggingface.co/facebook/opt-125m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+14:34:10 WARNING huggingface_hub.utils._http: Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+14:34:11 INFO httpx: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/facebook/opt-125m/27dcfa74d334bc871f3234de431e71c6eeba5dd6/config.json "HTTP/1.1 200 OK"
+14:34:12 INFO httpx: HTTP Request: HEAD https://huggingface.co/facebook/opt-125m/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+14:34:12 INFO httpx: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/facebook/opt-125m/27dcfa74d334bc871f3234de431e71c6eeba5dd6/tokenizer_config.json "HTTP/1.1 200 OK"
+14:34:13 INFO httpx: HTTP Request: GET https://huggingface.co/api/models/facebook/opt-125m/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+14:34:14 INFO httpx: HTTP Request: GET https://huggingface.co/api/models/facebook/opt-125m/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+14:34:15 INFO exp_d17_power_law: tokenizer loaded in 6.5s
+14:34:15 INFO exp_d17_power_law: loading wikitext-2-raw-v1 ...
+14:34:16 INFO httpx: HTTP Request: HEAD https://huggingface.co/datasets/wikitext/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+14:34:16 INFO httpx: HTTP Request: HEAD https://huggingface.co/datasets/Salesforce/wikitext/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+14:34:17 INFO httpx: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/Salesforce/wikitext/b08601e04326c79dfdd32d625aee71d232d685c3/README.md "HTTP/1.1 200 OK"
+14:34:18 INFO httpx: HTTP Request: GET https://huggingface.co/api/resolve-cache/datasets/Salesforce/wikitext/b08601e04326c79dfdd32d625aee71d232d685c3/README.md "HTTP/1.1 200 OK"
+14:34:18 INFO httpx: HTTP Request: HEAD https://huggingface.co/datasets/wikitext/resolve/b08601e04326c79dfdd32d625aee71d232d685c3/wikitext.py "HTTP/1.1 307 Temporary Redirect"
+14:34:20 INFO httpx: HTTP Request: HEAD https://huggingface.co/datasets/Salesforce/wikitext/resolve/b08601e04326c79dfdd32d625aee71d232d685c3/wikitext.py "HTTP/1.1 404 Not Found"
+14:34:22 INFO httpx: HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/wikitext/wikitext.py "HTTP/1.1 200 OK"
+14:34:22 INFO httpx: HTTP Request: GET https://huggingface.co/api/datasets/wikitext/revision/b08601e04326c79dfdd32d625aee71d232d685c3 "HTTP/1.1 307 Temporary Redirect"
+14:34:23 INFO httpx: HTTP Request: GET https://huggingface.co/api/datasets/Salesforce/wikitext/revision/b08601e04326c79dfdd32d625aee71d232d685c3 "HTTP/1.1 200 OK"
+14:34:25 INFO httpx: HTTP Request: HEAD https://huggingface.co/datasets/wikitext/resolve/b08601e04326c79dfdd32d625aee71d232d685c3/.huggingface.yaml "HTTP/1.1 307 Temporary Redirect"
+14:34:26 INFO httpx: HTTP Request: HEAD https://huggingface.co/datasets/Salesforce/wikitext/resolve/b08601e04326c79dfdd32d625aee71d232d685c3/.huggingface.yaml "HTTP/1.1 404 Not Found"
+14:34:28 INFO httpx: HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=wikitext "HTTP/1.1 404 Not Found"
+14:34:28 INFO httpx: HTTP Request: GET https://huggingface.co/api/datasets/wikitext/tree/b08601e04326c79dfdd32d625aee71d232d685c3/wikitext-103-raw-v1?recursive=true&expand=false "HTTP/1.1 307 Temporary Redirect"
+14:34:29 INFO httpx: HTTP Request: GET https://huggingface.co/api/datasets/Salesforce/wikitext/tree/b08601e04326c79dfdd32d625aee71d232d685c3/wikitext-103-raw-v1?recursive=true&expand=false "HTTP/1.1 200 OK"
+14:34:31 INFO httpx: HTTP Request: GET https://huggingface.co/api/datasets/wikitext/tree/b08601e04326c79dfdd32d625aee71d232d685c3?recursive=false&expand=false "HTTP/1.1 307 Temporary Redirect"
+14:34:31 INFO httpx: HTTP Request: GET https://huggingface.co/api/datasets/Salesforce/wikitext/tree/b08601e04326c79dfdd32d625aee71d232d685c3?recursive=false&expand=false "HTTP/1.1 200 OK"
+14:34:33 INFO httpx: HTTP Request: HEAD https://huggingface.co/datasets/wikitext/resolve/b08601e04326c79dfdd32d625aee71d232d685c3/dataset_infos.json "HTTP/1.1 307 Temporary Redirect"
+14:34:33 INFO httpx: HTTP Request: HEAD https://huggingface.co/datasets/Salesforce/wikitext/resolve/b08601e04326c79dfdd32d625aee71d232d685c3/dataset_infos.json "HTTP/1.1 404 Not Found"
+14:34:34 INFO httpx: HTTP Request: GET https://huggingface.co/api/datasets/wikitext/tree/b08601e04326c79dfdd32d625aee71d232d685c3/wikitext-2-raw-v1?recursive=true&expand=false "HTTP/1.1 307 Temporary Redirect"
+14:34:34 INFO httpx: HTTP Request: GET https://huggingface.co/api/datasets/Salesforce/wikitext/tree/b08601e04326c79dfdd32d625aee71d232d685c3/wikitext-2-raw-v1?recursive=true&expand=false "HTTP/1.1 200 OK"
+14:34:35 INFO httpx: HTTP Request: HEAD https://huggingface.co/datasets/wikitext/resolve/b08601e04326c79dfdd32d625aee71d232d685c3/wikitext-2-raw-v1/test-00000-of-00001.parquet "HTTP/1.1 307 Temporary Redirect"
+14:34:36 INFO httpx: HTTP Request: HEAD https://huggingface.co/datasets/Salesforce/wikitext/resolve/b08601e04326c79dfdd32d625aee71d232d685c3/wikitext-2-raw-v1/test-00000-of-00001.parquet "HTTP/1.1 302 Found"
+14:34:37 INFO httpx: HTTP Request: GET https://huggingface.co/api/datasets/Salesforce/wikitext/xet-read-token/b08601e04326c79dfdd32d625aee71d232d685c3 "HTTP/1.1 200 OK"
+14:34:53 INFO httpx: HTTP Request: HEAD https://huggingface.co/datasets/wikitext/resolve/b08601e04326c79dfdd32d625aee71d232d685c3/wikitext-2-raw-v1/train-00000-of-00001.parquet "HTTP/1.1 307 Temporary Redirect"
+14:34:54 INFO httpx: HTTP Request: HEAD https://huggingface.co/datasets/Salesforce/wikitext/resolve/b08601e04326c79dfdd32d625aee71d232d685c3/wikitext-2-raw-v1/train-00000-of-00001.parquet "HTTP/1.1 302 Found"
+14:35:25 INFO httpx: HTTP Request: HEAD https://huggingface.co/datasets/wikitext/resolve/b08601e04326c79dfdd32d625aee71d232d685c3/wikitext-2-raw-v1/validation-00000-of-00001.parquet "HTTP/1.1 307 Temporary Redirect"
+14:35:25 INFO httpx: HTTP Request: HEAD https://huggingface.co/datasets/Salesforce/wikitext/resolve/b08601e04326c79dfdd32d625aee71d232d685c3/wikitext-2-raw-v1/validation-00000-of-00001.parquet "HTTP/1.1 302 Found"
+Generating test split:   0%|          | 0/4358 [00:00<?, ? examples/s]Generating test split: 100%|██████████| 4358/4358 [00:00<00:00, 185135.28 examples/s]
+Generating train split:   0%|          | 0/36718 [00:00<?, ? examples/s]Generating train split: 100%|██████████| 36718/36718 [00:00<00:00, 825046.36 examples/s]
+Generating validation split:   0%|          | 0/3760 [00:00<?, ? examples/s]Generating validation split: 100%|██████████| 3760/3760 [00:00<00:00, 543681.97 examples/s]
+14:35:33 INFO exp_d17_power_law: dataset loaded in 78.2s (train=36718 val=3760 test=4358)
+14:35:33 INFO exp_d17_power_law: tokenize + block train (max_samples=500) ...
+14:35:33 INFO exp_d17_power_law: dataset corpus size: 119019 chars from 338 non-empty samples
+14:35:33 INFO exp_d17_power_law: total tokens: 26037
+14:35:33 INFO exp_d17_power_law: blocked into 406 chunks of size 64
+14:35:33 INFO exp_d17_power_law: tokenize + block val (max_samples=64) ...
+14:35:33 INFO exp_d17_power_law: dataset corpus size: 16273 chars from 43 non-empty samples
+14:35:33 INFO exp_d17_power_law: total tokens: 3708
+14:35:33 INFO exp_d17_power_law: blocked into 57 chunks of size 64
+14:35:33 INFO exp_d17_power_law: tokenize + block test (max_samples=128) ...
+14:35:33 INFO exp_d17_power_law: dataset corpus size: 33736 chars from 79 non-empty samples
+14:35:33 INFO exp_d17_power_law: total tokens: 7516
+14:35:33 INFO exp_d17_power_law: blocked into 117 chunks of size 64
+14:35:33 INFO exp_d17_power_law: 
+=== Run 1/2: alpha=0.00 (baseline, contradiction off) ===
+14:35:33 INFO exp_d17_power_law: set_seed: 99
+14:35:33 INFO exp_d17_power_law: [CONFIG] alpha=0.00 memory_form=power_law seed=99 n_steps=8 batch_size=4 lr=2.0e-05 kl_every=2
+14:35:33 INFO exp_d17_power_law: loading model facebook/opt-125m ...
+14:35:34 INFO httpx: HTTP Request: HEAD https://huggingface.co/facebook/opt-125m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+14:35:35 INFO httpx: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/facebook/opt-125m/27dcfa74d334bc871f3234de431e71c6eeba5dd6/config.json "HTTP/1.1 200 OK"
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+14:35:36 INFO httpx: HTTP Request: HEAD https://huggingface.co/facebook/opt-125m/resolve/main/model.safetensors "HTTP/1.1 404 Not Found"
+Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]Loading weights: 100%|██████████| 197/197 [00:00<00:00, 4424.16it/s]
+14:35:37 INFO httpx: HTTP Request: HEAD https://huggingface.co/facebook/opt-125m/resolve/main/generation_config.json "HTTP/1.1 307 Temporary Redirect"
+14:35:37 INFO httpx: HTTP Request: GET https://huggingface.co/api/models/facebook/opt-125m "HTTP/1.1 200 OK"
+14:35:37 INFO httpx: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/facebook/opt-125m/27dcfa74d334bc871f3234de431e71c6eeba5dd6/generation_config.json "HTTP/1.1 200 OK"
+14:35:37 INFO exp_d17_power_law: model loaded in 4.2s, on cpu
+14:35:38 INFO httpx: HTTP Request: GET https://huggingface.co/api/models/facebook/opt-125m/commits/main "HTTP/1.1 200 OK"
+14:35:39 INFO httpx: HTTP Request: GET https://huggingface.co/api/models/facebook/opt-125m/discussions?p=0 "HTTP/1.1 200 OK"
+14:35:39 INFO httpx: HTTP Request: GET https://huggingface.co/api/models/facebook/opt-125m/commits/refs%2Fpr%2F51 "HTTP/1.1 200 OK"
+14:35:40 INFO exp_d17_power_law: [STEP 0] initial test_ppl=88.535
+14:35:41 INFO httpx: HTTP Request: HEAD https://huggingface.co/facebook/opt-125m/resolve/refs%2Fpr%2F51/model.safetensors.index.json "HTTP/1.1 404 Not Found"
+14:35:41 INFO httpx: HTTP Request: HEAD https://huggingface.co/facebook/opt-125m/resolve/refs%2Fpr%2F51/model.safetensors "HTTP/1.1 302 Found"
+14:35:42 INFO exp_d17_power_law: [STEP   2] lm_loss=4.5587 total_loss=4.5587 test_ppl=80.960 
+14:35:45 INFO exp_d17_power_law: [STEP   4] lm_loss=4.3342 total_loss=4.3342 test_ppl=74.793 
+14:35:48 INFO exp_d17_power_law: [STEP   6] lm_loss=4.2664 total_loss=4.2664 test_ppl=71.219 
+14:35:51 INFO exp_d17_power_law: [STEP   8] lm_loss=4.5337 total_loss=4.5337 test_ppl=68.444 
+14:35:54 INFO exp_d17_power_law: [FINAL] alpha=0.00 memory_form=power_law test_ppl_init=88.535 test_ppl_final=76.705
+14:35:54 INFO exp_d17_power_law: 
+=== Run 2/2: alpha=10.00 (power-law alternative form, K=5 α=1.0) ===
+14:35:54 INFO exp_d17_power_law: set_seed: 99
+14:35:54 INFO exp_d17_power_law: [CONFIG] alpha=10.00 memory_form=power_law seed=99 n_steps=8 batch_size=4 lr=2.0e-05 kl_every=2
+14:35:54 INFO exp_d17_power_law: loading model facebook/opt-125m ...
+14:35:55 INFO httpx: HTTP Request: HEAD https://huggingface.co/facebook/opt-125m/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+14:35:55 INFO httpx: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/facebook/opt-125m/27dcfa74d334bc871f3234de431e71c6eeba5dd6/config.json "HTTP/1.1 200 OK"
+14:35:56 INFO httpx: HTTP Request: HEAD https://huggingface.co/facebook/opt-125m/resolve/main/model.safetensors "HTTP/1.1 404 Not Found"
+Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]Loading weights: 100%|██████████| 197/197 [00:00<00:00, 3718.29it/s]
+14:35:56 INFO httpx: HTTP Request: GET https://huggingface.co/api/models/facebook/opt-125m "HTTP/1.1 200 OK"
+14:35:57 INFO httpx: HTTP Request: GET https://huggingface.co/api/models/facebook/opt-125m/commits/main "HTTP/1.1 200 OK"
+14:35:58 INFO httpx: HTTP Request: HEAD https://huggingface.co/facebook/opt-125m/resolve/main/generation_config.json "HTTP/1.1 307 Temporary Redirect"
+14:35:58 INFO httpx: HTTP Request: GET https://huggingface.co/api/models/facebook/opt-125m/discussions?p=0 "HTTP/1.1 200 OK"
+14:35:58 INFO httpx: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/facebook/opt-125m/27dcfa74d334bc871f3234de431e71c6eeba5dd6/generation_config.json "HTTP/1.1 200 OK"
+14:35:58 INFO exp_d17_power_law: model loaded in 3.6s, on cpu
+14:35:58 INFO exploration_d17_power_law_loss: power-law weights (K=5 alpha=1.000 Z=2.2833): ['0.4380', '0.2190', '0.1460', '0.1095', '0.0876']
+14:35:58 INFO exploration_d17_power_law_loss: PowerLawContradictionTracker init: memory_form=power_law power_law_alpha=1.000 power_law_K=5 beta_model=0.999000 beta_kl=0.9000 lambda_1=1.0000 lambda_2=1.0000 lambda_3=1.0000 T_2_form=relu_dpp kl_update_every=2
+14:35:58 INFO exploration_d17_power_law_loss: EMA model init done (frozen, eval mode)
+14:35:59 INFO httpx: HTTP Request: GET https://huggingface.co/api/models/facebook/opt-125m/commits/refs%2Fpr%2F51 "HTTP/1.1 200 OK"
+14:36:00 INFO exp_d17_power_law: [STEP 0] initial test_ppl=88.535
+14:36:00 INFO httpx: HTTP Request: HEAD https://huggingface.co/facebook/opt-125m/resolve/refs%2Fpr%2F51/model.safetensors.index.json "HTTP/1.1 404 Not Found"
+14:36:01 INFO httpx: HTTP Request: HEAD https://huggingface.co/facebook/opt-125m/resolve/refs%2Fpr%2F51/model.safetensors "HTTP/1.1 302 Found"
+14:36:04 INFO exp_d17_power_law: [STEP   2] lm_loss=4.2126 total_loss=4.2126 test_ppl=80.750 bar_D=0.1020 D_n=0.1020
+14:36:08 INFO exp_d17_power_law: [STEP   4] lm_loss=3.9948 total_loss=4.0523 test_ppl=76.429 bar_D=0.1020 D_n=0.1556
+14:36:12 INFO exp_d17_power_law: [STEP   6] lm_loss=4.6297 total_loss=4.6448 test_ppl=72.670 bar_D=0.1377 D_n=0.1727
+14:36:15 INFO exp_d17_power_law: [STEP   8] lm_loss=3.9551 total_loss=3.9596 test_ppl=69.215 bar_D=0.1552 D_n=0.1760
+14:36:19 INFO exp_d17_power_law: [FINAL] alpha=10.00 memory_form=power_law test_ppl_init=88.535 test_ppl_final=79.233
+14:36:19 INFO exp_d17_power_law: results saved to exploration_d17_smoke_results.jsonl
+14:36:19 INFO exp_d17_power_law: 
+=== SUMMARY (binary, ballpark only — N=1 indicative not verification) ===
+14:36:19 INFO exp_d17_power_law:   alpha=0.00 memory_form=power_law: test_ppl_init=88.535 → test_ppl_final=76.705
+14:36:19 INFO exp_d17_power_law:   alpha=10.00 memory_form=power_law: test_ppl_init=88.535 → test_ppl_final=79.233
+14:36:19 INFO exp_d17_power_law: 
+  delta (alpha=10 power-law - alpha=0 baseline) test_ppl_final = +2.528
+14:36:19 INFO exp_d17_power_law:   [BINARY SANITY] both finite? True; in baseline ±50%? True
+14:36:19 INFO exp_d17_power_law:   [DISCLAIMER] N=1 gen 1 seed sanity check, NOT a verification. Does NOT establish framework α-effect in power-law form.

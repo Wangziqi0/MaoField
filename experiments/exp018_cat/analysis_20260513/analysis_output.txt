@@ -1,0 +1,271 @@
+================================================================================
+exp018_cat 100% 落地数据提取 — 2026-05-13
+================================================================================
+
+### 组一:Shumailov 严格镜像基线 (seed=42, no_preserve)
+
+  gen  val_ppl    test_ppl   distinct_3
+  0    36.524     36.354     None      
+  1    78.956     78.218     0.5475    
+  2    104.287    103.610    0.4112    
+  3    88.857     88.160     0.3206    
+  4    65.870     Inf/NaN    0.2951    
+  5    56.369     57.192     0.2948    
+  6    53.708     53.776     0.2904    
+  7    52.562     52.618     0.2859    
+  8    53.502     53.871     0.2565    
+  9    53.784     53.980     0.2432    
+
+Shumailov distinct_3 衰减率:
+  gen 1 distinct_3 = 0.5475
+  gen 9 distinct_3 = 0.2432
+  衰减比 (gen 9 / gen 1) = 0.4441
+  绝对降幅 = 0.3043
+
+与 Shumailov 2024 paper 报数字 cross-verify:
+  gen 0 test_ppl = 36.354  (paper: ~34)  偏离 = 2.354
+  gen 9 test_ppl = 53.980  (paper: ~67 严重崩溃) 
+  delta gen 9 - gen 0 = 17.627  (paper criterion >= +5)
+  F1 (collapse 复现): PASS
+  [?] N=1 single seed CI 不可估,multi-seed Shumailov 复测 future work
+
+Shumailov gen 0 baseline 与 paper 34:
+  偏离 = 2.354 (6.92%); 可接受范围 |Δ|<=50% paper criterion ✓
+
+================================================================================
+### 组二:α 全扫描 single-seed seed=42
+================================================================================
+
+gen   a=0   val_ppl  a=1   val_ppl  a=5   val_ppl  a=10  val_ppl  a=50  val_ppl
+0     36.524       36.524       36.524       36.524         -        
+1     78.250       69.753       88.970       117.249        -        
+2     109.692      90.132       133.042      223.904        -        
+3     92.707       81.708       122.847      141.661        -        
+4     72.860       75.363       121.947      115.049        -        
+5     60.595       63.639       120.496      116.568        -        
+6     58.687       60.104       85.330       107.923        -        
+7     55.464       59.745       75.424       111.232        -        
+8     56.381       55.060       76.964       101.917        -        
+9     55.332       55.933       62.908       91.438         -        
+
+gen   a=0   test_ppl  a=1   test_ppl  a=5   test_ppl  a=10  test_ppl  a=50  test_ppl
+0     36.354       36.354       36.354       36.354         -        
+1     77.519       69.311       71.559       72.846         -        
+2     108.396      89.521       100.181      98.543         -        
+3     91.870       81.425       89.472       87.173         -        
+4     73.259       74.639       79.717       71.699         -        
+5     61.833       64.158       70.698       63.676         -        
+6     59.863       60.656       64.084       59.845         -        
+7     56.304       59.889       60.521       55.967         -        
+8     57.303       55.534       58.080       56.512         -        
+9     56.186       56.308       56.026       53.387         -        
+
+### 三阶段定量 (basis = val_perplexity,与 Shumailov 一致):
+alpha  gen0       transient(g1-3 cum)    middle(g4-7)   p_69mean   p_59mean   p_79mean  
+0      36.524     109.692                61.901         56.466     57.292     55.726    
+1      36.524     90.132                 64.713         57.711     58.896     56.913    
+5      36.524     133.042                100.799        75.157     84.224     71.765    
+10     36.524     223.904                112.693        103.127    105.816    101.529   
+
+### 平台相对 alpha=0 偏移 (val_ppl):
+alpha  p_69 delta_rel%  p_59 delta_rel%  p_79 delta_rel% 
+1      +2.20%          +2.80%          +2.13%
+5      +33.10%          +47.01%          +28.78%
+10     +82.64%          +84.70%          +82.19%
+
+### U 形特征定量 (alpha vs alpha=0):
+alpha  spike ratio    plateau/peak  
+0      3.003          0.515         
+1      2.468          0.640         
+5      3.643          0.565         
+10     6.130          0.461         
+
+### alpha=50 数值崩溃:
+  run_start: {'stage': 'run_start', 'alpha': 50.0, 'seed': 42, 'condition': 'no_preserve', 'n_generations': 10, 'smoke_test': False, 'kl_update_every': 10}
+  实际跑出 gen 数: 0
+  → gen 0 step 训练 NaN/Inf,abort 即 abort,jsonl 无 generation_done
+
+================================================================================
+### 组三:Multi-seed alpha=0 (seed 1/2/3/4) Phase 1
+================================================================================
+
+seed   file                                                        
+1      armb_alpha0.0_seed1_20260510_011048.jsonl
+2      armb_alpha0.0_seed2_20260510_130255.jsonl
+3      armb_alpha0.0_seed3_20260510_173925.jsonl
+4      armb_alpha0.0_seed4_20260511_090626.jsonl
+
+gen   seed1 val  seed2 val  seed3 val  seed4 val
+0     36.595    36.481    36.584    36.724  
+1     79.866    79.381    79.238    77.699  
+2     105.868   107.933   106.538   106.359 
+3     96.059    98.958    98.924    100.695 
+4     78.286    77.546    76.577    75.241  
+5     70.014    66.758    66.220    63.507  
+6     61.766    56.172    54.813    57.500  
+7     58.128    51.745    52.331    55.169  
+8     58.291    52.244    53.249    56.457  
+9     58.644    52.500    53.477    57.100  
+
+### Multi-seed alpha=0 平台 mean (gen 6-9) per seed:
+  seed=1: plateau_mean = 59.2073
+  seed=2: plateau_mean = 53.1653
+  seed=3: plateau_mean = 53.4674
+  seed=4: plateau_mean = 56.5566
+
+### N=4 alpha=0 plateau mean: 55.5992 ± 2.8521
+### 95% bootstrap CI: [53.3163, 57.8820]
+
+================================================================================
+### 组四:Multi-seed alpha=10 (seed 1/2/3/4) Phase 1
+================================================================================
+
+seed   file                                                        
+1      armb_alpha10.0_seed1_20260511_151847.jsonl
+2      armb_alpha10.0_seed2_20260511_200000.jsonl
+3      armb_alpha10.0_seed3_20260512_005523.jsonl
+4      armb_alpha10.0_seed4_20260512_052843.jsonl
+
+gen   seed1 val  seed2 val  seed3 val  seed4 val
+0       -       36.481      -       36.724  
+1     84.201    94.381    89.431    88.628  
+2     128.212   119.167   119.872   133.568 
+3     116.702   133.777   123.112   118.866 
+4     112.559   87.084    67.193    93.379  
+5     79.935    83.685    67.418    91.820  
+6     72.825    68.784    58.759    61.514  
+7     67.478    67.294    61.950    62.488  
+8     62.357    62.370    59.794    60.065  
+9     67.553    62.254    59.440    62.388  
+
+### Multi-seed alpha=10 平台 mean (gen 6-9) per seed (val_ppl):
+  seed=1: plateau_mean = 67.5532
+  seed=2: plateau_mean = 65.1754
+  seed=3: plateau_mean = 59.9860
+  seed=4: plateau_mean = 61.6137
+### N=4 alpha=10 plateau mean: 63.5821 ± 3.4212
+### 95% bootstrap CI: [60.7998, 66.3643]
+
+================================================================================
+### 组五:D4 N=4 paired statistics (alpha=10 vs alpha=0)
+================================================================================
+
+seed   a=0 plat     a=10 plat    diff         rel%      
+1      59.2073      67.5532      +8.3458      +14.10    
+2      53.1653      65.1754      +12.0101     +22.59    
+3      53.4674      59.9860      +6.5186      +12.19    
+4      56.5566      61.6137      +5.0571      +8.94     
+
+### Paired difference (alpha=10 - alpha=0):
+  mean = +7.9829
+  std  = 3.0030
+  95% bootstrap CI: [+5.7878, +10.6372]
+
+### 配对 t 检验 (H0: mean_d = 0):
+  N = 4
+  t_stat = 5.3165
+  df = 3
+  p-value two-sided = 0.0130
+  p-value one-sided (mean_d < 0) = 0.9935
+
+### 相对偏移 (alpha=10 - alpha=0) / alpha=0 %:
+  mean = +14.45%
+  std  = 5.83%
+  95% bootstrap CI: [+10.23%, +19.99%]
+
+### F2/F3/F4 falsification binary:
+  F2 = alpha=10 显著降低 plateau -2% to -5% with p<0.10
+  F3 = NOT substantiated (alpha=10 无显著效应)
+  F4 = counter-effect (alpha=10 反而升高)
+  实测 mean_rel = +14.45%, p_two = 0.0130, p_one = 0.9935
+  → 方向: alpha=10 比 alpha=0 高 (counter-effect direction)
+  binary verdict: F4
+
+================================================================================
+### 组六:Partial D4 形状鲁棒性 5 criterion
+================================================================================
+
+Criterion 1: U 形 in alpha=10 各 seed:
+  seed=1: g0=36.595 (用 alpha=0 同 seed gen 0 替代) g_peak=128.212 plat=67.553 U形=True
+  seed=2: g0=36.481 g_peak=133.777 plat=65.175 U形=True
+  seed=3: g0=36.584 (用 alpha=0 同 seed gen 0 替代) g_peak=123.112 plat=59.986 U形=True
+  seed=4: g0=36.724 g_peak=133.568 plat=61.614 U形=True
+  → U 形 4/4
+  Criterion 1 (4/4): ✓ PASS
+
+Criterion 2: gen 0 baseline std (alpha=0 multi-seed,seed 1-4):
+  seed=1 gen 0 val_ppl = 36.5945
+  seed=2 gen 0 val_ppl = 36.4812
+  seed=3 gen 0 val_ppl = 36.5836
+  seed=4 gen 0 val_ppl = 36.7239
+  mean = 36.5958, std = 0.0995, CV = 0.2719%
+  Criterion 2 (CV<1%): ✓ PASS
+
+Criterion 3: spike ratio min (max(g1-3)/g0,取 min) — alpha=10:
+  seed=1: peak=128.212 g0=36.595(alpha=0 同 seed) spike_ratio=3.5036
+  seed=2: peak=133.777 g0=36.481 spike_ratio=3.6670
+  seed=3: peak=123.112 g0=36.584(alpha=0 同 seed) spike_ratio=3.3652
+  seed=4: peak=133.568 g0=36.724 spike_ratio=3.6371
+  min spike ratio = 3.3652
+  Criterion 3 (spike>1.5x): ✓ PASS
+
+Criterion 4: plateau/peak max — alpha=10:
+  seed=1: plat=67.553 peak=128.212 plat/peak=0.5269
+  seed=2: plat=65.175 peak=133.777 plat/peak=0.4872
+  seed=3: plat=59.986 peak=123.112 plat/peak=0.4872
+  seed=4: plat=61.614 peak=133.568 plat/peak=0.4613
+  max plateau/peak = 0.5269
+  Criterion 4 (plat<peak): ✓ PASS
+
+Criterion 5: 滑动窗口偏差 — alpha=10:
+seed   w_69       w_59       w_79       max偏差     
+1      67.553     70.029     65.796     6.27      %
+2      65.175     68.877     63.973     7.53      %
+3      59.986     61.472     60.395     2.48      %
+4      61.614     67.655     61.647     9.80      %
+  滑动窗口最大偏差 = 9.80%
+  Criterion 5 (偏差<20%): ✓ PASS
+
+### Partial D4 5 criterion 总判定:
+  通过: 5/5
+  → ✓ STRONG ROBUST
+
+================================================================================
+### m_eff multi-seed N=4 fit + 95% CI
+================================================================================
+
+模型: log P_n = log P_eq + A * exp(-m_eff * n) from gen 2+
+  seed=1: log_Peq=3.9325 A=1.3870 m_eff=0.2974
+  seed=2: log_Peq=3.7397 A=1.6751 m_eff=0.2603
+  seed=3: log_Peq=3.7908 A=1.6567 m_eff=0.2856
+  seed=4: log_Peq=3.9184 A=1.6511 m_eff=0.3564
+
+### N=4 m_eff fit:
+  mean = 0.2999
+  std  = 0.0407
+  95% bootstrap CI: [0.2696, 0.3416]
+  F 报告 m_eff = 0.300 ± 0.042
+  cross-verify: 匹配
+
+================================================================================
+### J_S 三 method 拟合 + 95% CI
+================================================================================
+
+D_n = log(PPL_n / PPL_0) — see 第五步 derive 状态
+
+  shumailov_42: J_S^(1)=0.7709  J_S^(2)=0.5246  J_S^(3)=0.2963
+  alpha0_seed1: J_S^(1)=0.7804  J_S^(2)=0.5311  J_S^(3)=0.3217
+  alpha0_seed2: J_S^(1)=0.7775  J_S^(2)=0.5424  J_S^(3)=0.3326
+  alpha0_seed3: J_S^(1)=0.7729  J_S^(2)=0.5345  J_S^(3)=0.3316
+  alpha0_seed4: J_S^(1)=0.7494  J_S^(2)=0.5317  J_S^(3)=0.3362
+
+### J_S^(1) slope 0→1 N=4: mean=0.7700 std=0.0141 95% CI=[0.7564, 0.7790]
+### J_S^(2) slope 0→2 N=4: mean=0.5349 std=0.0052 95% CI=[0.5314, 0.5397]
+### J_S^(3) mean rate 0→3 N=4: mean=0.3305 std=0.0062 95% CI=[0.3244, 0.3351]
+
+与 F 报告 cross-verify:
+  F 报告: J_S^(1) = 0.7702 / J_S^(2) = 0.5351 / J_S^(3) = 0.3305
+  实测 (multi-seed): J^(1)=0.7700 J^(2)=0.5349 J^(3)=0.3305
+  偏离 (实测 - F): -0.0002 / -0.0002 / +0.0000
+
+数据 dump 写入 /home/amd/HEZIMENG/MaoField/experiments/exp018_cat/analysis_20260513/data_dump.json

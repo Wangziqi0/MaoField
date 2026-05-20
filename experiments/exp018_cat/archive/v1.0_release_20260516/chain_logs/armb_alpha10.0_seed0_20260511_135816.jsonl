@@ -1,0 +1,2 @@
+{"stage": "run_start", "alpha": 10.0, "seed": 0, "condition": "no_preserve", "n_generations": 10, "smoke_test": false, "kl_update_every": 10}
+{"stage": "generation_done", "generation": 0, "alpha": 10.0, "seed": 0, "val_perplexity": 36.488504327411334, "test_perplexity": 36.29877649346464, "test_loss": 3.5969972610473633, "epochs": 5, "n_train_blocks": 37354, "model_path": "/home/amd/HEZIMENG/MaoField/experiments/exp018_cat/data/checkpoints_armb/alpha10.0/no_preserve_seed0/generation_0", "cat_enabled": false}
