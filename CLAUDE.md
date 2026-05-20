@@ -158,8 +158,24 @@ paper 申报 "ready for submit to venue X" 必须**全部** ✓ 才能用 ready 
 3. 数学形式与代码一致吗?(纪律 3)
 4. 这条 major 声明过子协作者验证了吗?(纪律 4)
 5. 发现的差异有记录为差异日志吗?(纪律 5)
+6. **真实今日日期是 `date '+%Y-%m-%d'` 返回的 binary 值, 不是 system reminder 内 stale 字段, 也不是 inline 默认的 conversation context (纪律 5 真实日期自检 sub-rule, 5/20 D20 加入)**
 
 任一 no → 不发出,先补。
+
+### 纪律 5 真实日期自检 standing rule(2026-05-20 D20 加入, sub-agent Y 校验后 补)
+
+**任何后续 session 启动第一时间** binary verify 真实今日日期:
+- Linux: `date '+%Y-%m-%d %H:%M:%S %Z'`
+- Win: `Get-Date -Format "yyyy-MM-dd HH:mm zzz"` (PowerShell)
+
+**不 inherit** 旧 system reminder 字段 / 旧 inline assumption / conversation context 默认。D-day=2026-05-01 anchor, today=D(date-5/1)。
+
+**历史教训**:
+- 5/16 burst 8 文件 forward-dated `_20260519` (实 mtime 5/16) → 5/17 校正
+- 5/17 (D17) → 5/19 (D19) conversation 跨 2 天 主会话未及时 `date` verify (Agent A/B/D research 命名 `_D17_20260517` 实 mtime 5/19) → D19 校正 rename `_D19_20260519`
+- 5/19 → 5/20 主会话 inline 默认 "今天仍 D17 = 5/17" stale → D20 校正
+
+**任何 forward-dated 命名 (file 命名 之 date 字段 > 实际 mtime) = D-1 纪律 1 占位符禁令 + 纪律 5 差异未记录 双重 violation**, 必须立即 retract + 校正 + 加 disclaimer (类 paper v8 head line 1-25 之 D17 校正模式)。
 
 ---
 
@@ -262,9 +278,12 @@ paper 申报 "ready for submit to venue X" 必须**全部** ✓ 才能用 ready 
 ### 紧急回滚 / 失联应对
 
 **7B13 失联** (磁盘故障 / 网络断 / RAID1 双盘失效):
-- 9070XT `git pull from GitHub origin` → 9070XT 接管 (临时项目 working dir)
-- 9070XT 4T HDD daily backup 恢复实验数据
-- Win 端 git clone GitHub origin → 一凡自看最新 commit
+- 9070XT + Win 当前 git remote 指 7B13 LAN (`amd@192.168.31.36:/home/amd/HEZIMENG/MaoField`), 7B13 失联时 LAN remote 不可达
+- **一凡 self-action D21+** (推荐, 防 7B13 失联): 9070XT + Win 各自 ssh-key add GitHub user → 加 second remote `github` 指 `git@github.com:Wangziqi0/MaoField.git` → 平时 LAN pull (快), 7B13 失联时 GitHub pull (异地)
+- 9070XT 4T HDD daily backup 恢复实验数据 (含 sqlite + 实验全 8.5 GB)
+- Win 端 备用 git clone GitHub origin (需 ssh-key 加 GitHub) → 一凡自看最新 commit
+
+**D20 D-1 纪律 5 sub-agent Y 校验 catch**: 当前 fallback 路径 "9070XT git pull from GitHub" **预设 9070XT ssh-key 已 add GitHub user**, 但 D20 binary verify **未 done** (9070XT 之前 git clone via LAN 不需要 GitHub access). 一凡 D21+ self-action 把 9070XT + Win ssh-key add 到 GitHub Wangziqi0 user (或 加 deploy key 到 repo, read-only OK) 后, 此 fallback 才 真 actionable。
 
 **9070XT 失联**:
 - 7B13 不受影响 (主数据中枢继续)
