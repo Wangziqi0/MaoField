@@ -15,11 +15,30 @@ if ! command -v rocminfo &>/dev/null; then
   echo "ERROR: rocminfo 未找到. ROCm 没装."
   exit 1
 fi
-rocminfo | grep -E "Name:|gfx" | head -10
-GPU_NAME=$(rocminfo | grep -m1 "Marketing Name" | awk -F: '{print $2}' | xargs)
+# D21 修 (sub-agent A debug iteration, 9070XT 12:00 CST escalate fix):
+# 1) cache rocminfo 输出, 避免 grep -m1 之 SIGPIPE → set -o pipefail → exit 141 (D21 install 3x fail root cause)
+# 2) GPU Marketing Name 提取改 awk single-pass + Vendor Name=AMD filter, 排除 CPU agent ("AMD Ryzen ... Processor" 第一个 Marketing Name match)
+ROCMINFO_OUT=$(rocminfo 2>/dev/null || true)
+echo "$ROCMINFO_OUT" | awk '/Name:|gfx/'
+GPU_NAME=$(echo "$ROCMINFO_OUT" | awk -F: '
+  /^[[:space:]]*Marketing Name:/ {
+    mname = $2
+    gsub(/^[[:space:]]+|[[:space:]]+$/, "", mname)
+    last_marketing = mname
+  }
+  /^[[:space:]]*Vendor Name:[[:space:]]+AMD[[:space:]]*$/ {
+    if (last_marketing != "" && last_marketing !~ /Processor/) {
+      print last_marketing
+      exit
+    }
+  }
+')
+if [[ -z "$GPU_NAME" ]]; then
+  GPU_NAME="(rocminfo 未能提取 GPU Marketing Name — 不阻塞 install)"
+fi
 echo "GPU: $GPU_NAME"
 echo "ROCm version:"
-cat /opt/rocm/.info/version 2>/dev/null || dpkg -l | grep -E "^ii  rocm-core" | head -1
+cat /opt/rocm/.info/version 2>/dev/null || dpkg -l 2>/dev/null | awk '/^ii  rocm-core/ {print; exit}' || true
 
 # ---------- 1. 创建 venv ----------
 PROJECT_ROOT=${PROJECT_ROOT:-$HOME/HEZIMENG/MaoField/experiments/exp018_cat}
