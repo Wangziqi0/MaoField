@@ -1,26 +1,23 @@
-[2026-05-21T05:44:50Z] === D-PPL bridge launch script start ===
-[2026-05-21T05:44:50Z] mode: pilot
-[2026-05-21T05:44:50Z] D-1 binding: zero-context, 不 inflate, 不 declare P0★-F close
-[2026-05-21T05:44:50Z] args: {'mode': 'pilot', 'ckpt_root': '/home/amd/HEZIMENG/MaoField_static_backup_20260520/experiments/exp018_cat/data/checkpoints_armb', 'alpha': 10.0, 'seed': 1, 'gen': 5, 'alphas': None, 'seeds': None, 'gens': None, 'paths': 'B,C', 'val_seed': 1, 'val_subset_size': 256, 'val_max_length': 64, 'batch_size': 8, 'dtype': 'fp32', 'output_jsonl': PosixPath('output/pilot_D21_seed1_gen5.jsonl'), 'log_file': PosixPath('output/pilot_D21.log'), 'rsync_push_after_each_tuple': False, 'rsync_target': None}
-[2026-05-21T05:44:50Z] real date verify: 2026-05-21 13:44:50
-[2026-05-21T05:44:50Z] total tuples: 2
-Traceback (most recent call last):
-  File "/tmp/dppl_bridge_verify/launch_dppl_bridge.py", line 578, in <module>
-    main()
-  File "/tmp/dppl_bridge_verify/launch_dppl_bridge.py", line 498, in main
-    write_jsonl(output_jsonl, {
-  File "/tmp/dppl_bridge_verify/launch_dppl_bridge.py", line 63, in write_jsonl
-    f.write(json.dumps(entry, ensure_ascii=False) + "\n")
-            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3.12/json/__init__.py", line 238, in dumps
-    **kw).encode(obj)
-          ^^^^^^^^^^^
-  File "/usr/lib/python3.12/json/encoder.py", line 200, in encode
-    chunks = self.iterencode(o, _one_shot=True)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3.12/json/encoder.py", line 258, in iterencode
-    return _iterencode(o, 0)
-           ^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3.12/json/encoder.py", line 180, in default
-    raise TypeError(f'Object of type {o.__class__.__name__} '
-TypeError: Object of type PosixPath is not JSON serializable
+[2026-05-21T06:12:00Z] === D-PPL bridge launch script start ===
+[2026-05-21T06:12:00Z] mode: pilot
+[2026-05-21T06:12:00Z] D-1 binding: zero-context, 不 inflate, 不 declare P0★-F close
+[2026-05-21T06:12:00Z] args: {'mode': 'pilot', 'ckpt_root': '/home/amd/HEZIMENG/MaoField_static_backup_20260520/experiments/exp018_cat/data/checkpoints_armb', 'alpha': 10.0, 'seed': 1, 'gen': 5, 'alphas': None, 'seeds': None, 'gens': None, 'paths': 'B,C', 'val_seed': 1, 'val_subset_size': 256, 'val_max_length': 64, 'batch_size': 8, 'dtype': 'fp32', 'output_jsonl': PosixPath('output/pilot_D21_seed1_gen5.jsonl'), 'log_file': PosixPath('output/pilot_D21.log'), 'rsync_push_after_each_tuple': False, 'rsync_target': None}
+[2026-05-21T06:12:00Z] real date verify: 2026-05-21 14:12:00
+[2026-05-21T06:12:00Z] total tuples: 2
+[2026-05-21T06:12:00Z] compute_one_tuple: α=10.0, seed=1, gen=5, path=B
+[2026-05-21T06:12:01Z] reproduce_val_batch: seed=1, subset_size=256, max_length=64, batch_size=8
+Map:   0%|          | 0/256 [00:00<?, ? examples/s]Map: 100%|██████████| 256/256 [00:00<00:00, 5533.58 examples/s]
+[2026-05-21T06:12:08Z] val batch reproduce ✓ n_samples=256, first 之 len(input_ids)=64
+[2026-05-21T06:12:08Z] val batch 拆 之 n_batches = 32
+[2026-05-21T06:12:08Z] load_model ckpt=/home/amd/HEZIMENG/MaoField_static_backup_20260520/experiments/exp018_cat/data/checkpoints_armb/alpha10.0/no_preserve_seed1/generation_5 dtype=fp32
+[2026-05-21T06:12:09Z] load_model ckpt=/home/amd/HEZIMENG/MaoField_static_backup_20260520/experiments/exp018_cat/data/checkpoints_armb/alpha10.0/no_preserve_seed1/generation_4 dtype=fp32
+[2026-05-21T06:12:13Z] tuple done: α=10.0 seed=1 gen=5 path=B D_code=2.9622e-01 n_tokens=7654 elapsed=12.4s
+[2026-05-21T06:12:13Z] compute_one_tuple: α=10.0, seed=1, gen=5, path=C
+[2026-05-21T06:12:13Z] reproduce_val_batch: seed=1, subset_size=256, max_length=64, batch_size=8
+[2026-05-21T06:12:17Z] val batch reproduce ✓ n_samples=256, first 之 len(input_ids)=64
+[2026-05-21T06:12:17Z] val batch 拆 之 n_batches = 32
+[2026-05-21T06:12:17Z] load_model ckpt=/home/amd/HEZIMENG/MaoField_static_backup_20260520/experiments/exp018_cat/data/checkpoints_armb/alpha10.0/no_preserve_seed1/generation_5 dtype=fp32
+[2026-05-21T06:12:17Z] load_model ckpt=/home/amd/HEZIMENG/MaoField_static_backup_20260520/experiments/exp018_cat/data/checkpoints_armb/alpha10.0/no_preserve_seed1/generation_0 dtype=fp32
+[2026-05-21T06:12:20Z] tuple done: α=10.0 seed=1 gen=5 path=C D_code=5.8998e-01 n_tokens=7654 elapsed=7.2s
+[2026-05-21T06:12:20Z] === D-PPL bridge launch script done ===
+[2026-05-21T06:12:20Z] n_done: 2, n_error: 0
