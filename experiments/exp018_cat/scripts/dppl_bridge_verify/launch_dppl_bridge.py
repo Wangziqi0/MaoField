@@ -57,10 +57,16 @@ def utc_now() -> str:
 
 
 def write_jsonl(path: Path, entry: dict) -> None:
-    """Append entry to jsonl, flush 之 (crash-safe)."""
+    """Append entry to jsonl, flush 之 (crash-safe).
+
+    D21 fix (sub-agent A debug iteration 3, R3 escalate):
+    json 默认不 serialize PosixPath / datetime / numpy 等类。
+    default=str fallback 让 non-serializable 对象 call str() 自动转 (Path → 路径 str).
+    避免 line 498 run_start event 之 `vars(args)` 含 PosixPath crash.
+    """
     path.parent.mkdir(parents=True, exist_ok=True)
     with open(path, "a", encoding="utf-8") as f:
-        f.write(json.dumps(entry, ensure_ascii=False) + "\n")
+        f.write(json.dumps(entry, ensure_ascii=False, default=str) + "\n")
         f.flush()
         os.fsync(f.fileno())
 
