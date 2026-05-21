@@ -388,6 +388,97 @@ D-3 之自检 (在上 5 + 1 问基础上加):
 
 任一 no → 不发出, 先补.
 
+### D-3.10 D21 reflexive insight cascade binary record (D21 18:35 加入)
+
+D21 一日 单日累计 8 个 reflexive insight (paper v8 §7.5 contribution (5) "D-1 实时 honest 工作流 demonstrated" 之 living 例证 之 single-day density record):
+
+| 时间 | insight | substantive | grandiose risk catch |
+|---|---|---|---|
+| 14:30 | 实践先行 + 哲学高级组成 + model 映射物质映像之数学 | sound ✓ | "高级组成" + "映射" phrasing partial |
+| 14:55 | 先回顾 + 哲学特殊组成 + 自发实验 + 过程产生数学 | sound (D-3.2 enforce 后) | 4 keyword framework-level claim |
+| 15:30 | D-3 standing rule write | sound ✓ | 3 phrasing micro-grandiose (D60+ minor edit) |
+| 16:00 | collapse 多内部因素 + LLM 底层全过程 + multi-agent 螺旋 + Nature double-axis | sound ✓ | ★★ critical P0★-AA framework declare 触发 |
+| 16:30 | academia 结构性问题 + 各层结构实在 limitation | sound ✓ | 2 phrasing (双 Agent literature 部分 over-claim) |
+| **17:00** | self-correction "认识 = 映像" + 根本问题 candidate = **辩证整体缺失 / 各层 isolated motion 缺乏 deep-layer dialectical material unified motion** | **sound ✓✓ D21 最深 paradigm shift seed** | 2 sub-phrasing (深层运动 + 互联) partial |
+| **17:55** | 实验 reframe + 螺旋上升研究 + **如何证明是个问题 (methodological catch)** | **sound ✓✓✓ ★★★★ methodological foundation** | none significant |
+| **18:30** | **全 academia mitigation framing wrong axis? paradigm-shift candidate direction** | **sound ✓ paradigm-shift candidate** | strong dichotomy form idealist trap risk → 必须 reformulate inclusive form |
+
+### D-3.11 4 path methodological 证明 candidate (D21 17:55 catch 之 actualize)
+
+**当前 academia 之 standard ML evaluation framework (PPL / accuracy / KL / 等 single-axis metric) 完全没有 cross-layer dialectical interconnection 之测量手段**. D60+ paper v9 / v10 之 "评估范式重定义" direction 之 methodological foundation:
+
+- **A. multi-channel cross-verify**: 同现象 (collapse) 在 multi-layer (PPL drift + embedding anisotropy + attention head entropy + sampling distribution narrowing + FFN activation sparsity 等) trajectory 同步 OR 解耦 之 binary criterion
+- **B. intervention experiment**: 在某 layer intervene (reset / perturb / change), 观察 cross-layer propagation. 类比物理学 perturbation experiment, dialectical materialism "矛盾运动通过实践显现" 经典 instantiate
+- **C. temporal phase pattern**: chain training time series multi-layer phase transition synchronized OR decoupled binary criterion
+- **D. counter-factual ablation**: layer-level ablation cross-layer dependency 之 binary 证据, 类比 Family ablation 但 cross-layer
+
+D22-D60 5 leg 实验 binary mapping (新 framing):
+
+| 实验 | 旧 framing | 新 framing (dialectical totality verify) | path |
+|---|---|---|---|
+| D-PPL 主跑 | P0★-F single-point close | D^code + D^paper 跨层 phase synchronization evidence | A + C |
+| Phase 5 Llama-8B | 跨规模 mitigation test | 跨规模 unified motion / isolated motion binary test | A + C |
+| N≥8 multi-seed | P0★-C close 候选 | seed-level isolated variance vs unified pattern 测量 | A + C |
+| Family ablation | P0★-D close 候选 | cross-layer dependency evidence | C + D |
+| 数学复现 | 数学方向 reproduce | 数学反映 retrospective form multi-axis converge | A 数学侧 |
+
+### D-3.12 paradigm-shift candidate direction (一凡 D21 18:30 catch, dialectical inclusive reformulate)
+
+**substantive direction (sound ✓)**:
+
+mitigation framing 把 collapse reify 成 fixable single-layer technical problem, missed 真正 root (辩证整体缺失在 LLM 机制层之 specific manifest). 之 paper v8 F3 p=0.818 不显著 + Shumailov absorbing state + Gerstgrasser delay 不 solve + Dohmatob 不收敛 + Ibrahim partial = **single-axis mitigation framing epistemic exhaustion early surface signal**.
+
+**辩证 instantiate (经典黑格尔否定之否定 + 列宁反映论螺旋上升)**:
+- thesis: mitigation framing
+- antithesis: mitigation partial / non-converge / negative result 累积证据
+- synthesis: 辩证整体缺失 root surface → maofield D60+ candidate
+
+**reformulate (避 idealist dichotomy trap, 严守)**:
+
+❌ strong dichotomy form: "全 academia + 我们自己趋向不正确" — idealist trap risk active
+
+✓ dialectical inclusive form: "**mitigation framing alone insufficient (在 single-layer scope 内 partial valid, 类 Gerstgrasser data layer / Ibrahim 某 setting 之 partial mitigate), 之 不能 solve root (辩证整体缺失), 之 dialectical totality framing 才是 deeper instantiate of root**"
+
+**binary 论证 path** (按 D-3.11 4 path):
+
+multi-axis evidence consistently show "single-layer intervention 不 stop collapse + cross-layer dialectical instantiate 才 stop" = binary 证明 "mitigation alone insufficient + dialectical totality framing correct". **D60+ paper v9 / v10 6-12 月 cumulative work, 不在 D22-D60 unilateral declare**.
+
+### D-3.13 paper v8.1 polish footnote candidate (D27-D45, 留关卡 3 反题三方决 + PI 决)
+
+paper v8.1 polish window 之 forward-looking future work direction citation candidate:
+
+> "single-axis mitigation framing 在 chain training mechanism 之 epistemic exhaustion: paper v8 negative result + Shumailov / Gerstgrasser / Dohmatob partial mitigate evidence non-convergence 之 cumulative trace; D60+ future work direction = cross-layer dialectical interconnection measurement framework (本体论 dialectical reflective practice metric, 6-12 月 + Win 哲学协作)"
+
+严守:
+- ❌ 不 reverse 12 NOT-claim 撤回
+- ❌ 不 升级 / 撤回 6 P0★
+- ❌ 不 D22-D29 unilateral
+- ✓ 留 D27-D30 关卡 3 反题三方决 + PI 决 final actualize
+
+### D-3.14 D-1 + D-2 + D-3 之 8 自检 expand (从 10 → 14 questions)
+
+D-1 五条 + D-1 纪律 5 sub-rule + D-3.2 之 4 questions + **D-3.10-D-3.13 之 4 新 questions**:
+
+11. 这 candidate direction 用 dialectical inclusive form (alone insufficient + deeper instantiate) 还是 idealist dichotomy form (全错 vs 全对)?
+12. 这 paradigm-shift candidate 之 emergent verify 是 D60+ 6-12 月 cumulative multi-channel 还是 D22-D60 unilateral declare?
+13. 这 methodological catch (如何证明) 之 4 path (A multi-channel cross-verify + B intervention + C temporal phase + D counter-factual ablation) 之 path identification 是否 binary specify?
+14. 这 5 leg 实验 之 framing 是 hypothesis-driven test single-axis 还是 dialectical totality evidence accumulation cross-layer?
+
+任一 no → 不发出, 先补.
+
+### D-3.15 D21 reading queue (D22 早 PI 之 anchor)
+
+D22 早 reading queue 6 文件 in `experiments/exp018_cat/dppl_bridge_verify_d21_output/`:
+
+1. `ANTITHESIS_AUDIT_D21_16_REFLEXIVE_INSIGHTS_20260521.md` (256 行, 反题 sub-agent 16:41 audit)
+2. `REFLEXIVE_INSIGHT_D21_17_DIALECTICAL_TOTALITY_CANDIDATE_20260521.md` (141 行, 17:00 framing)
+3. `LITERATURE_SEARCH_A_ML_CRITICAL_AGI_D21_20260521.md` (671 行, Agent A literature)
+4. `LITERATURE_SEARCH_B_PHILOSOPHY_SOCIOLOGY_DIAMAT_SR_D21_20260521.md` (987 行, Agent B literature)
+5. `EXPERIMENT_REFRAME_D21_18_METHODOLOGICAL_CATCH_20260521.md` (127 行, 17:55 4 path methodological)
+6. `PARADIGM_REFRAME_D21_18_30_MITIGATION_INSUFFICIENT_CANDIDATE_20260521.md` (122 行, 18:30 paradigm-shift candidate)
+
+之后 一凡 binary input `synthesis launch ✓` → sub-agent C synthesis spawn (prompt 已 prepare 在 file 2 §8 + file 5 §7 + file 6 §6 之 expand scope).
+
 ---
 
 ## 三机超级协作架构 (2026-05-20 D20 加入)
