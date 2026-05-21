@@ -1,0 +1,22 @@
++ set -euo pipefail
++ echo '[0/5] 检查 22 主机 ROCm 环境'
+[0/5] 检查 22 主机 ROCm 环境
++ command -v rocminfo
++ rocminfo
++ grep -E 'Name:|gfx'
++ head -10
+  Name:                    AMD Ryzen 5 9600X 6-Core Processor 
+  Marketing Name:          AMD Ryzen 5 9600X 6-Core Processor 
+  Vendor Name:             CPU                                
+  Name:                    gfx1201                            
+  Marketing Name:          AMD Radeon RX 9070 XT              
+  Vendor Name:             AMD                                
+      Name:                    amdgcn-amd-amdhsa--gfx1201         
+      Name:                    amdgcn-amd-amdhsa--gfx12-generic   
+  Name:                    gfx1036                            
+  Marketing Name:          AMD Radeon Graphics                
+++ rocminfo
+++ grep -m1 'Marketing Name'
+++ awk -F: '{print $2}'
+++ xargs
++ GPU_NAME='AMD Ryzen 5 9600X 6-Core Processor'
