@@ -12,7 +12,7 @@
 | # | PI 决 | binary 状态 |
 |---|---|---|
 | 1 | paper v8 D29 投稿 | **推迟** ✓ (D17 final 决 partial reverse, 一凡 PI binary) |
-| 2 | 路径 A + C D25-D40 启动 | **自动决 ✓** (candidate C 第一推荐) |
+| 2 | 路径 A + C D25-D40 启动 | **自动决 ✓** (candidate C honest 二元排名, final 决留关卡 2 PI 决 + 反题三方决) |
 | 3 | N=6 多种子 (paper v8 N=4 → N=6 递增) | **自动决 ✓** (candidate C, 不 跳 N=8 避 5/19 膨胀模式) |
 | 4 | 4 维度子集 (A1 + A2 + A3 + A6) | **自动决 ✓** (candidate C) |
 | 5 | 路径 B + D defer 至 D60+ cloud A100 | **推迟** ✓ |
@@ -59,6 +59,8 @@
 
 ### 1.4 路径 A 多通道交叉验证 (multi-channel cross-verify)
 
+**framing reformulate (一凡 D22 表述严守, dialectical inclusive form, 物质第一)**: 路径 A 的二元目的 = **积累 cross-layer dialectical interconnection 在 LLM 训练机制层缺失/存在的 multi-channel binary evidence**, 不 declare external target ("证明 dialectical totality framing correct" 的 implicit reified target 的 reformulate). evidence accumulation 留关卡 3 反题三方决 + Win 哲学协作 + PI 决的节点.
+
 **核心 binary 判据**:
 - A 之 12 layer × 4 维度 trajectory cross-verify
 - per (seed, α) 之 12 layer trajectory 之 Pearson r matrix + 互信息 matrix
@@ -73,6 +75,8 @@
 - maofield 不 first methodology, 之 **collapse 域 × dialectical totality framing 之 narrow extension**
 
 ### 1.5 路径 C 时间相位模式 (temporal phase pattern)
+
+**framing reformulate (物质第一严守)**: 路径 C 的二元目的 = **multi-layer chain training 时序的 phase transition synchronized OR decoupled 的 binary evidence accumulation**, 不 declare external target. 留关卡 3 反题三方决的节点.
 
 **核心 binary 判据**:
 - C 之 chain training 时序之 multi-layer phase transition synchronized OR decoupled

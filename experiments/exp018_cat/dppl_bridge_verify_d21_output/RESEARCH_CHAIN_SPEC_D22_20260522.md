@@ -97,7 +97,9 @@
 | D45-D55 | Win 哲学协作 spawn (path A + C dialectical reframe + paper v8.1 narrative framing) | Win 姐姐 |
 | D55-D60 | 关卡 3 PI + DS + 反题三方决 (paper v8.1 accept / paper v9-v10 candidate partial trigger) | 一凡 + DS + 反题 |
 
-### 4.3 阶段 3: D60+ (paradigm shift candidate window, 6-12 月 cumulative multi-channel verify)
+### 4.3 阶段 3: D60+ (multi-channel cumulative verify window, 6-12 月)
+
+**framing reformulate (一凡 D22 表述严守, 物质第一)**: 阶段 3 原 framing "paradigm shift candidate window" 含 emergent paradigm shift candidate framing momentum (一凡 D22 "实际实践物质第一" 的 direct conflict). reformulate = **multi-channel cumulative verify window**, 严守反题 D21 audit §4.2 emergent verify protocol (L1 by 12 月 cumulative ≥ ~12-24 binary instantiate, 10-30% 概率; L0 paper-level by 12-24 月, 5-15% 概率), 不 unilateral declare emergent.
 
 | 时段 | task | owner |
 |---|---|---|
