@@ -80,6 +80,9 @@ experiments/*/logs/
 **/embeddings_*.json
 **/*.usearch
 
+# Candidate C HF wikitext-2 cache (72 MB, regenerable via dataset.cache_dir yaml)
+experiments/exp018_cat/data/
+
 # Keep summaries, CSVs, figures, reports
 !experiments/*/results/*.csv
 !experiments/*/results/*.md
