@@ -99,9 +99,13 @@ def fine_tune_one_generation(
 
     # 训练时 model 必须 FP32 加载, fp16 mixed precision 由 Trainer 自动管理.
     # 否则触发 "Attempting to unscale FP16 gradients" — autocast 对 FP16 model 不工作.
+    # D22 candidate C add (Agent 4 catch): attn_implementation="eager" 必 explicit.
+    # 避 OPT model SDPA default 之 output_attentions=True silent fallback 到 eager + warning.
+    # multi-layer A3 attention 头熵 测量 需 output_attentions=True (Phase 1 candidate C binding).
     model = AutoModelForCausalLM.from_pretrained(
         base_model_path,
         torch_dtype=torch.float32,
+        attn_implementation="eager",
     )
 
     data_collator = DataCollatorForLanguageModeling(
