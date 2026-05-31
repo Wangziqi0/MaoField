@@ -1,5 +1,18 @@
 # CLAUDE.md — 项目级指令
 
+## ⭐⭐ 最高规则 (2026-05-31 D31 加入, 优先级高于本文件其余一切) — 新 session 第一步
+
+**任何新 session / 新 agent cold-start 第一件事: 读 `STATE.md`** (本目录, ≤2 屏, 项目当前 state 单一真相源)。读完即知项目现状 + active binding + 下一步 + detail 指针, **不必翻 429 md**。这是解决 "md 太多, 新会话烧上下文了解全部" 的管理入口。
+
+**入口次序**: `STATE.md` (现状) → 本 `CLAUDE.md` (纪律) → `MD_CATALOG.md` (429 md navigate) → handoff / memory (历史)。
+
+**STATE.md 维护 binding (谁动 STATE 谁守, 否则它变第 430 个 stale md)**:
+1. **REPLACE not APPEND** — 替换 stale section, 绝不堆新段, 永远 ≤2 屏。旧状态进 git history, 不留 STATE。
+2. 每次 milestone / handoff / PI 决, **顺手 replace STATE.md 对应 section + 戳 `date` + `git HEAD`** (绑已有 workflow, 非额外负担)。
+3. STATE > 2 屏 = 维护失败信号 → 立即精简, detail 踢去 MD_CATALOG 或指针。
+4. 新增重要 md → 归类追加 `MD_CATALOG.md`。
+5. **`date` binary verify 真实日期** (D-1 纪律 5 sub-rule) — 不继承 inline stale 默认 (本规则即因 D29→D31 跨日 inline stale 教训而立)。
+
 ## 语言
 
 **中文为主 (2026-05-27 D27 一凡 explicit relax, 取代 D26 "必须用中文" 之 over-strict)**。反 ritual phrasing collapse 教训 (handoff D23-D25 + D27 fp16 OOM session): 实质词 (名词 / 动词 / 形容词) 中文化, connector / 数学符号 / 高频技术 token (and / or / vs / + / → / ≡ / binary / ack / scp / fit / yaml / handoff / launch / sync / debug / 等) 英文 OK 不强制翻译; 四类英文豁免基线 (专有名词 / 代码片段 / 数学符号 / 数字单位) 保留; anti-"之" binding (D26) 保留 — ≥ 3 chain stop + ≥ 5 density cool-down。
