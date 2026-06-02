@@ -182,3 +182,11 @@ experiments/**/*_out.json
 experiments/**/*.bin
 experiments/exp003_law_structure/results/law_species.json
 .git_local/
+
+# ============================================================
+# KB migration 2026-06-02 — 清出已 tracked 的可再生实验产物
+# (checkpoint tokenizer 配置等小文本未被上方大文件 pattern 覆盖)
+# ============================================================
+experiments/**/checkpoints*/
+# KB 治理留下的旧 CLAUDE.md 备份(本地兜底,不进 git)
+*.pre_kb_*.bak

@@ -1,5 +1,0 @@
-[2026-05-22 17:37:30] watchdog: watchdog_start stale_sec=300 interval=60 max_retries=10 cmd="python launch_dppl_bridge.py --mode main --ckpt-root /home/amd/HEZIMENG/MaoField_static_backup_20260520/experiments/exp018_cat/data/checkpoints_armb --alphas 0.0,10.0 --seeds 1,2,3,4 --gens 0,1,2,3,4,"
-[2026-05-22 17:37:30] watchdog: launch_python retry=0
-[2026-05-22 17:37:30] watchdog: python_launched pid=254206
-[2026-05-22 18:01:30] watchdog: python_done_clean exit_code=0
-[2026-05-22 18:01:30] watchdog: watchdog_end total_kills=0 total_retries=0 status=clean

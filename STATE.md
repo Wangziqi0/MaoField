@@ -21,7 +21,7 @@
 
 ## §0 一句话 + 今天
 - **项目**: MaoField — 自迭代崩溃 + 两项 EMA-deviation contradiction loss 的 empirical pilot study (negative result)
-- **今天 D31 (2026-05-31)**。⚠️ **D29 三 leg 投稿 D-day (arXiv+TMLR+KBS) 已过 2 天 —— 实际投了吗?待 PI confirm**。若已投→更新本行为"已投+回执状态";若未投→这是首要 overdue 项
+- **今天 D31 (2026-05-31)**。⚠️ **paper v8 投稿尚未投** (D29 三 leg target 已过 2 天, PI D31 confirm 未投)。三 venue 均 rolling / 无 hard deadline (arXiv 随时 / TMLR rolling / KBS Elsevier rolling) → **overdue 0 penalty**, 但仍是当前首要 actionable。投稿 = PI 手动 portal 操作 (account Wangziqi0), 留 PI 健康 ready 时执行
 - **下一步 (留 PI 决)**: ① 确认 D29 投稿状态 ② A3 fp32 实验 launch ③ 关卡 3 反题三方决 ④ D30 新增 md (MODEL_COLLAPSE 文献审计 + RAID 备份 manifest) 入库
 
 ## §1 active binding (任一违反立即 retract)
