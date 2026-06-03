@@ -7,6 +7,12 @@
 自迭代崩溃 + 两项 EMA-deviation contradiction loss 的 empirical pilot study（以 negative result 为主）。
 GitHub `Wangziqi0/MaoField`；主源在 36，git 单点写权。
 
+## 开发工作流 + RAG（机器细节见 36 节点 stub）
+- **开项目 / 写代码 / 定稿** → 直接在本目录 `canonical/projects/MaoField/`（机械硬盘 RAID1，durable + git，改完即权威，无需 sync）。
+- **真跑研究（实验 / 训练 / checkpoint）** → 用 `/home`（4TB SSD scratch，快）；**不可再生产物立即 rsync 进 canonical**（scratch 不得作唯一副本）。
+- **git 单点写 = 36**；push `Wangziqi0/MaoField`，22/19 只 `git pull`。
+- **RAG 查询**：`HF_HUB_OFFLINE=1 /home/amd/venv/bin/python /media/amd/raid1/rag/kb_search.py "查询" --top-k 8 --project MaoField` → 给 path + 片段，精确再 grep。用法全见 `rag/README.md`。
+
 ## 方法论（D-1/D-2/D-3 全局纲要见宪法 §5；以下为 MaoField 语境细化 + 指针）
 - **D-2 哲学线 = Win 姐姐**实时参与每层输出；cross-tension 在关卡 2/3 整合。
 - **D-3 6 二值校正（MaoField 专属）**：①哲学是 outcome 非 prior form（警惕黑格尔 idealism prior art）②"自发"严格辩证非唯心 ③"回顾"在第三阶段 ④时间表三阶段 ⑤回顾 scope 含 4 项 ⑥multi-agent 诚实 ≠ PI 个体诚实。
