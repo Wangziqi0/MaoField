@@ -13,15 +13,15 @@
 ## 戳
 | 项 | 值 |
 |---|---|
-| 最后更新 | **2026-05-31 D31** (date binary verified; 修正前 inline 误停在 D29, D-1 纪律 5 校正) |
-| git HEAD | `0c4d4c6` (pushed → github.com:Wangziqi0/MaoField) + 6 untracked (STATE/MD_CATALOG/E1E2/FULL_INDEX/2×MODEL_COLLAPSE_D30/RAID1_MANIFEST_D30) |
-| 更新者 | Linux 姐姐主会话 (7B13) |
+| 最后更新 | **2026-06-03 D34** (date binary verified; 仅 stamp/日期漂移校正 —— **无实质 state 变更 since D31**: 无 PI 决 / 无新实验 / 未投稿。前戳 5-31 D31 已 stale 3 天) |
+| git HEAD | `84cb636` (pushed, 工作树 clean, synced origin/main; D31→今多 2 commit: 4d2f53e 项目管理系统 + 84cb636 KB迁移/CLAUDE.md stub 化。前戳 0c4d4c6 + "6 untracked" 已全部 committed,note 作废) |
+| 更新者 | Linux 姐姐主会话 (7B13); D34 entry = 冷启动 drift 校正,非实质更新 |
 
 ---
 
 ## §0 一句话 + 今天
 - **项目**: MaoField — 自迭代崩溃 + 两项 EMA-deviation contradiction loss 的 empirical pilot study (negative result)
-- **今天 D31 (2026-05-31)**。⚠️ **paper v8 投稿尚未投** (D29 三 leg target 已过 2 天, PI D31 confirm 未投)。三 venue 均 rolling / 无 hard deadline (arXiv 随时 / TMLR rolling / KBS Elsevier rolling) → **overdue 0 penalty**, 但仍是当前首要 actionable。投稿 = PI 手动 portal 操作 (account Wangziqi0), 留 PI 健康 ready 时执行
+- **今天 D34 (2026-06-03)**。⚠️ **paper v8 投稿尚未投** (D29 三 leg target 已过 5 天, PI 未投)。三 venue 均 rolling / 无 hard deadline (arXiv 随时 / TMLR rolling / KBS Elsevier rolling) → **overdue 0 penalty**, 但仍是当前首要 actionable。投稿 = PI 手动 portal 操作 (account Wangziqi0), 留 PI 健康 ready 时执行
 - **下一步 (留 PI 决)**: ① 确认 D29 投稿状态 ② A3 fp32 实验 launch ③ 关卡 3 反题三方决 ④ D30 新增 md (MODEL_COLLAPSE 文献审计 + RAID 备份 manifest) 入库
 
 ## §1 active binding (任一违反立即 retract)
