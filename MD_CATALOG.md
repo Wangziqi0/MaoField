@@ -2,7 +2,7 @@
 
 > **STATE.md §7 指针目标。新 session 不必读全部** —— 看 §0 导航选 ACTIVE 核心 (~25 份),历史整组 SKIP (~250 份)。
 > **维护**: 新增重要 md 归类追加;季度 review 把 SUPERSEDED 下沉历史区。本文件是 reference,不进每会话 context (STATE.md 才是 cold-start 必读)。
-> **戳**: 2026-05-31 D31 · HEAD `0c4d4c6` (+6 untracked: STATE/MD_CATALOG/E1E2/FULL_INDEX/2×MODEL_COLLAPSE_D30/RAID1_MANIFEST_D30)
+> **戳**: 2026-06-03 D34 · HEAD `d59d64c` (D31 的 "+6 untracked" 已全 committed,note 作废;戳由 D34 自洽审计校)
 > **梳理法**: 4 zero-context agent 分区 scan md head + bash title 提取。全部仅读 head,substantive detail `[未细看]`。
 
 ---
@@ -72,7 +72,7 @@
 - **文献综述/盲审** `[A 参考]`: literature_review_20260507 (Model Collapse) + shumailov_audit_0508 + THIRD_BLIND_REVIEW_VERDICT_0511 + RESEARCH_{MARX_ENGELS,LENIN_MAO,MARXIST,ACADEMIC_RECENT}_D19
 - **D-PPL 桥 brief** `[A]`: DPPL_BRIDGE_{9070XT_PROMPT,MATH_VERIFY,VERIFY_EXPERIMENT_DESIGN}_D21
 - **项目 state 历史** `[S]`: MAOFIELD_PROJECT_FULL_STATE_D17 + SECONDARY_VERIFY_D20×2 (已被本 STATE.md 取代)
-- **v8 final archive** `[LOCKED]`: `archive/v1.0_release_20260516/` (2 md + manifest.sha256 47/47)
+- **v8 final archive** `[LOCKED]`: `experiments/exp018_cat/archive/v1.0_release_20260516/` (2 md + manifest.sha256 47/47)
 
 ## §3 历史区 — exp017_dialectics (157 md, 整组 ARCHIVE, 4/12-5/7)
 

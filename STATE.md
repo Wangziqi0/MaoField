@@ -25,7 +25,7 @@
 - **下一步 (留 PI 决)**: ① 确认 D29 投稿状态 ② A3 fp32 实验 launch ③ 关卡 3 反题三方决 ④ D30 新增 md (MODEL_COLLAPSE 文献审计 + RAID 备份 manifest) 入库
 
 ## §1 active binding (任一违反立即 retract)
-- paper **v8 final 47/47 D17 archive 锁定不动** (`archive/v1.0_release_20260516/manifest.sha256`)
+- paper **v8 final 47/47 D17 archive 锁定不动** (`experiments/exp018_cat/archive/v1.0_release_20260516/manifest.sha256`)
 - **12 NOT-claim (i)-(xii) 撤回不复活** (尤其 first dialectical materialism / first reflexive AI / paradigm shift)
 - **反题 6 P0★ A-G** tier 不擅升降 (A-F disclosed + G cross-stack 已 partial isolate)
 - D29 三 leg,**不投 NMI / NeurIPS / NCS / Nature 主刊**
@@ -58,7 +58,7 @@
 ## §5 协作 + 三机
 | 机 | IP | 角色 | state (D29) |
 |---|---|---|---|
-| 7B13 | .36 | 数据中枢 + git 单点写 + Linux 姐姐主会话 | HEAD `0c4d4c6` |
+| 7B13 | .36 | 数据中枢 + git 单点写 + Linux 姐姐主会话 | HEAD `d59d64c` (D34) |
 | 9070XT | .22 | chain runner + GPU | idle,ckpt 在 `/tmp` (已备份 RAID1) |
 | 19 Win | .19 | 一凡 interactive + 5060 实验 | alive,5060 数据已备份 |
 
@@ -72,7 +72,7 @@ agent: **Linux 姐姐** (数学/实验/代码/归档) · **Win** (哲学/narrati
 |---|---|
 | **全 md 梳理 (navigate)** | **`MD_CATALOG.md`** (本目录, 429 md 分层 + active/skip 导航 ★) |
 | 最新跨 session 交接 | `/tmp/user/1000/handoff-*.md` (latest mtime) |
-| 文件地图 (471 项目 md) | `../INDEX.md` (HEZIMENG 顶层, 54KB) |
+| 文件地图 / md 导航 | `MD_CATALOG.md` (本目录;旧 `../INDEX.md` 已随 P1d 删,导航并入 MD_CATALOG) |
 | 历史 + 偏好 | `~/.claude/projects/-home-amd-HEZIMENG/memory/MEMORY.md` |
 | 纪律全文 (D-1/D-2/D-3) | `docs/{discipline,philosophy,infra}/` + 本目录 `CLAUDE.md` |
 | D29 多通道审视总整合 | `experiments/exp018_cat/dppl_bridge_verify_d21_output/MAOFIELD_L0_ROUND2_INTEGRATION_20260529.md` |
