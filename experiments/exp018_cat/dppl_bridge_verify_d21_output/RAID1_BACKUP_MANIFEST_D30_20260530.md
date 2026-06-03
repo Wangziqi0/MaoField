@@ -129,3 +129,42 @@ rsync -av --dry-run amd@192.168.31.22:<SRC>/ \
 ---
 
 **生成**: [额外 agent] read-only 清点通道, 真实日期 2026-05-31 (文件名 stamp D30 按 dispatch)。本文件只 commit 已可靠取回的第一手事实, 未取回部分标 `[未完成-需 7B13 续查]`。rsync/git 执行由 7B13 主会话; reproducibility/paper/venue 后果判定留 PI + 关卡 3 反题三方决。一凡 priority 1 健康优先, hotline 010-82951332 / 400-161-9995 standing。
+
+---
+
+## ⊕ APPENDIX · 2026-06-03 D34 更正 (append-only, 原记录不动)
+
+> **署名**: 子协作者 (Linux 主会话 36 派遣)。**本段只追加, 上方 §0–§6 原记录一字不改** (D-1 纪律 5: 浮现不静默修正, 差异留痕)。
+> **性质**: 对本文件 §0 / §2 / §4 / §6 「`/tmp/dppl_bridge_verify/` ckpt 断路/丢失 → v8 ckpt 复现路径断了」这一**前提**的**实证更正**。
+
+### 1. 更正结论 (binary)
+
+D30/D31 本文件基于 22 上 `/tmp/dppl_bridge_verify/`（ephemeral 路径）已不存在, 推断 paper v8 主链 ckpt 复现路径"断了"。**该推断的前提路径确已不存在, 但结论被后续实证推翻**:
+
+**paper v8 主链 ckpt 未丢。** D34 前完整存活在 22 的**持久**路径
+`~/HEZIMENG/MaoField_static_backup_20260520/.../checkpoints_armb`（**111 ckpt**），
+而非已被清掉的 `/tmp/` ephemeral 路径。即: 当初看的是错的（临时）路径, 真权重一直在静态备份里。
+
+### 2. 实证证据 (sha256 二通道, 已取回)
+
+- **132/132 ckpt sha256 ≡ `canonical/projects/MaoField`**（D34 主会话 + migrate-22 二通道验证）。
+- 本子协作者**独立复核**抢救暂存区 `/media/amd/raid1/from_22/_VERIFICATION/` 内两份 sha 清单:
+  - `22_static_backup_132ckpt_sha256.txt`（22 静态备份, 132 行）
+  - `canonical_132ckpt_sha256.txt`（canonical, 132 行）
+  - `diff`（sha+path 双字段排序后）= **空 = 132/132 逐行 identical**。
+  - 其中 `checkpoints_armb/` = **111**, 普通 `checkpoints/` = 11, 合计 132（与"111 ckpt"一致）。
+- 该 22 静态备份副本**验证后已删**, canonical 留权威（durable RAID1 [UU]）。
+
+### 3. 对本文件原结论的影响
+
+- §0「ckpt 复现路径在 22 该路径上断了」: **路径前提仍成立**（`/tmp/...` 确不在）, **但"v8 ckpt 丢失/不可复算"的引申不成立** —— 权重在静态备份完整, 且字节级 ≡ canonical。
+- §4.B / §6「v8 建在真训练 ckpt + 可字节级复算的物质基础在 22 已不在」: **被推翻**。物质基础在 canonical + （D34 前）22 静态备份**完整存在且 sha 一致**, 可字节级复算路径**未断**。
+
+### 4. 边界 (本子协作者严守)
+
+- **不下 paper 结论 / 不下 venue / reproducibility / tier 判定** —— 全留 PI + 关卡 3 反题三方决。
+- 本段仅校正"ckpt 是否物理存活 + sha 是否一致"这一**可二值实证的事实层**, 不触碰 paper v8 战略判定。
+- paper v8 final 47/47 + D17 锁定**不动**; 12 NOT-claim 撤回**不复活**。
+- 0 删 canonical ckpt; 本次唯一写 = 本 append 段。git 执行留 Linux 主会话（单点写权 36）。
+
+**一句话**: 当初判"丢"看的是 ephemeral `/tmp` 路径; 真权重在静态备份, 132/132 sha ≡ canonical, **未丢、可复算**。事实层更正于此, paper 级后果留 PI / 关卡 3。
