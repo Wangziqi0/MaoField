@@ -2,7 +2,7 @@
 
 > **STATE.md §7 指针目标。新 session 不必读全部** —— 看 §0 导航选 ACTIVE 核心 (~25 份),历史整组 SKIP (~250 份)。
 > **维护**: 新增重要 md 归类追加;季度 review 把 SUPERSEDED 下沉历史区。本文件是 reference,不进每会话 context (STATE.md 才是 cold-start 必读)。
-> **戳**: 2026-06-03 D34 · HEAD `d59d64c` (D31 的 "+6 untracked" 已全 committed,note 作废;戳由 D34 自洽审计校)
+> **戳**: 2026-06-04 D35 · HEAD `21e7bda` (D35 蓝图审计校;此 HEAD 记最近内容 commit,实时以 `git log -1` 为准)
 > **梳理法**: 4 zero-context agent 分区 scan md head + bash title 提取。全部仅读 head,substantive detail `[未细看]`。
 
 ---

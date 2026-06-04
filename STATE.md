@@ -13,9 +13,9 @@
 ## 戳
 | 项 | 值 |
 |---|---|
-| 最后更新 | **2026-06-03 D34** (date binary verified; 仅 stamp/日期漂移校正 —— **无实质 state 变更 since D31**: 无 PI 决 / 无新实验 / 未投稿。前戳 5-31 D31 已 stale 3 天) |
-| git HEAD | `84cb636` (pushed, 工作树 clean, synced origin/main; D31→今多 2 commit: 4d2f53e 项目管理系统 + 84cb636 KB迁移/CLAUDE.md stub 化。前戳 0c4d4c6 + "6 untracked" 已全部 committed,note 作废) |
-| 更新者 | Linux 姐姐主会话 (7B13); D34 entry = 冷启动 drift 校正,非实质更新 |
+| 最后更新 | **2026-06-04 D35** (date binary verified; D35 蓝图审计修 §0/§5 git HEAD 戳漂移自洽 —— **无实质 state 变更 since D31**: 无 PI 决 / 无新实验 / 未投稿) |
+| git HEAD | 最近内容 commit `21e7bda` (D34 自洽审计修复批; pushed, synced origin/main)。**注: 本文件每次维护 commit 自身会推进 HEAD,故此项记「最近内容更新所基于的 commit」,不追实时;实时 HEAD 以 `git log -1` 为准(根治「戳追不上自己」)。** |
+| 更新者 | Linux 姐姐主会话 (7B13); D34→D35 entry = 冷启动/审计 drift 校正,非实质更新 |
 
 ---
 
@@ -58,7 +58,7 @@
 ## §5 协作 + 三机
 | 机 | IP | 角色 | state (D29) |
 |---|---|---|---|
-| 7B13 | .36 | 数据中枢 + git 单点写 + Linux 姐姐主会话 | HEAD `d59d64c` (D34) |
+| 7B13 | .36 | 数据中枢 + git 单点写 + Linux 姐姐主会话 | HEAD `21e7bda` (D35; 实时以 `git log -1` 为准) |
 | 9070XT | .22 | chain runner + GPU | idle,ckpt 在 `/tmp` (已备份 RAID1) |
 | 19 Win | .19 | 一凡 interactive + 5060 实验 | alive,5060 数据已备份 |
 
