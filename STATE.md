@@ -70,6 +70,7 @@ agent: **Linux 姐姐** (数学/实验/代码/归档) · **Win** (哲学/narrati
 ## §7 指针 (detail 去哪找)
 | 要什么 | 去哪 |
 |---|---|
+| **存储落盘规则** (Claude 自主判 canonical/wip/scratch) | **`canonical/STORAGE_DISCIPLINE.md`** (落地前过分类 gate;MC 等独立旁支 carve-out 豁免) |
 | **全 md 梳理 (navigate)** | **`MD_CATALOG.md`** (本目录, 429 md 分层 + active/skip 导航 ★) |
 | 最新跨 session 交接 | `/tmp/user/1000/handoff-*.md` (latest mtime) |
 | 文件地图 / md 导航 | `MD_CATALOG.md` (本目录;旧 `../INDEX.md` 已随 P1d 删,导航并入 MD_CATALOG) |
