@@ -74,7 +74,7 @@ agent: **Linux 姐姐** (数学/实验/代码/归档) · **Win** (哲学/narrati
 | **全 md 梳理 (navigate)** | **`MD_CATALOG.md`** (本目录, 429 md 分层 + active/skip 导航 ★) |
 | 最新跨 session 交接 | `/tmp/user/1000/handoff-*.md` (latest mtime) |
 | 文件地图 / md 导航 | `MD_CATALOG.md` (本目录;旧 `../INDEX.md` 已随 P1d 删,导航并入 MD_CATALOG) |
-| 历史 + 偏好 | `~/.claude/projects/-home-amd-HEZIMENG/memory/MEMORY.md` |
+| 历史 + 偏好 | `~/.claude/projects/-media-amd-raid1-canonical-projects-MaoField/memory/MEMORY.md` (D35 迁此=对齐 cwd=canonical 的 harness 自动召回;旧 `-home-amd-HEZIMENG` 路径已空删) |
 | 纪律全文 (D-1/D-2/D-3) | `docs/{discipline,philosophy,infra}/` + 本目录 `CLAUDE.md` |
 | D29 多通道审视总整合 | `experiments/exp018_cat/dppl_bridge_verify_d21_output/MAOFIELD_L0_ROUND2_INTEGRATION_20260529.md` |
 | 数据 GO/NO-GO + sha256 | `experiments/.../MAOFIELD_GATE_DATA_INTEGRITY_20260529.md` |
