@@ -13,7 +13,7 @@
 ## 戳
 | 项 | 值 |
 |---|---|
-| 最后更新 | **2026-06-04 D35** (date binary verified; D35 蓝图审计修 §0/§5 git HEAD 戳漂移自洽 —— **无实质 state 变更 since D31**: 无 PI 决 / 无新实验 / 未投稿) |
+| 最后更新 | **2026-06-05 D35** (date binary verified; 06-05 修 cold-start handoff 指针 stale/易失 gap — hook 改扫 `canonical/sessions`+`/tmp` 取最新 mtime, §7 指针同步。**无实质 research state 变更 since D31**: 无 PI 决 / 无新实验 / 未投稿) |
 | git HEAD | 最近内容 commit `21e7bda` (D34 自洽审计修复批; pushed, synced origin/main)。**注: 本文件每次维护 commit 自身会推进 HEAD,故此项记「最近内容更新所基于的 commit」,不追实时;实时 HEAD 以 `git log -1` 为准(根治「戳追不上自己」)。** |
 | 更新者 | Linux 姐姐主会话 (7B13); D34→D35 entry = 冷启动/审计 drift 校正,非实质更新 |
 
@@ -72,7 +72,7 @@ agent: **Linux 姐姐** (数学/实验/代码/归档) · **Win** (哲学/narrati
 |---|---|
 | **存储落盘规则** (Claude 自主判 canonical/wip/scratch) | **`canonical/STORAGE_DISCIPLINE.md`** (落地前过分类 gate;MC 等独立旁支 carve-out 豁免) |
 | **全 md 梳理 (navigate)** | **`MD_CATALOG.md`** (本目录, 429 md 分层 + active/skip 导航 ★) |
-| 最新跨 session 交接 | `/tmp/user/1000/handoff-*.md` (latest mtime) |
+| 最新跨 session 交接 | `canonical/sessions/handoff-*.md` (持久权威, RAID1) + `/tmp/.../handoff-*.md` (在途草稿); hook 扫两处取最新 mtime |
 | 文件地图 / md 导航 | `MD_CATALOG.md` (本目录;旧 `../INDEX.md` 已随 P1d 删,导航并入 MD_CATALOG) |
 | 历史 + 偏好 | `~/.claude/projects/-media-amd-raid1-canonical-projects-MaoField/memory/MEMORY.md` (D35 迁此=对齐 cwd=canonical 的 harness 自动召回;旧 `-home-amd-HEZIMENG` 路径已空删) |
 | 纪律全文 (D-1/D-2/D-3) | `docs/{discipline,philosophy,infra}/` + 本目录 `CLAUDE.md` |
