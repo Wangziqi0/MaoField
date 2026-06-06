@@ -1,5 +1,12 @@
 # [SMOKE E0 D25 — 5060 fp32+gc 2-gen disentangle S3 chain runner broken hypothesis]
 
+> ⚠️ **ERRATA (D606 2026-06-06, Linux 主会话)**: 本文 §2.3/§3.3 把 `a2_anisotropy` 之"值↑"读成
+> "anisotropy↑ = paper collapse signature" —— **方向读反**。根因 = `multi_layer_hook.py` instrument
+> 命名 bug:字段 `a2_anisotropy_per_layer` **实算 isotropy** (1−|mean_cos|, **higher=less collapse**)。
+> 故 gen0→gen1 那个"↑" = **isotropy↑ = 表示更散/更各向同性**,非 anisotropy↑。干净复跑(全口径"更散",
+> 去 rogue 仍↑)归档 `experiments/exp018_cat/analysis/FINDINGS.md`。命名 bug 已修(D606)。
+> 以下原始记录保留作历史,但**方向解读以本 errata 为准**。
+
 **真实今日日期** (`Get-Date`): `2026-05-25 19:05 +08:00` (D25 周一)
 
 **Surface**: Win 9955HX 5060 — PI 决之 E0 disentangle S3 hypothesis

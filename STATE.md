@@ -13,7 +13,7 @@
 ## 戳
 | 项 | 值 |
 |---|---|
-| 最后更新 | **2026-06-05 D35** (date binary verified; 06-05 修 cold-start handoff 指针 stale/易失 gap — hook 改扫 `canonical/sessions`+`/tmp` 取最新 mtime, §7 指针同步。**无实质 research state 变更 since D31**: 无 PI 决 / 无新实验 / 未投稿) |
+| 最后更新 | **2026-06-06 D606** (date binary verified; **首个 research state 变更 since D31** = E0 dim-probe trace-backed 见 §3 末 + `analysis/FINDINGS.md`; 修 `multi_layer_hook` isotropy-当-anisotropy 命名 bug) |
 | git HEAD | 最近内容 commit `21e7bda` (D34 自洽审计修复批; pushed, synced origin/main)。**注: 本文件每次维护 commit 自身会推进 HEAD,故此项记「最近内容更新所基于的 commit」,不追实时;实时 HEAD 以 `git log -1` 为准(根治「戳追不上自己」)。** |
 | 更新者 | Linux 姐姐主会话 (7B13); D34→D35 entry = 冷启动/审计 drift 校正,非实质更新 |
 
@@ -21,8 +21,8 @@
 
 ## §0 一句话 + 今天
 - **项目**: MaoField — 自迭代崩溃 + 两项 EMA-deviation contradiction loss 的 empirical pilot study (negative result)
-- **今天 D34 (2026-06-03)**。⚠️ **paper v8 投稿尚未投** (D29 三 leg target 已过 5 天, PI 未投)。三 venue 均 rolling / 无 hard deadline (arXiv 随时 / TMLR rolling / KBS Elsevier rolling) → **overdue 0 penalty**, 但仍是当前首要 actionable。投稿 = PI 手动 portal 操作 (account Wangziqi0), 留 PI 健康 ready 时执行
-- **下一步 (留 PI 决)**: ① 确认 D29 投稿状态 ② A3 fp32 实验 launch ③ 关卡 3 反题三方决 ④ D30 新增 md (MODEL_COLLAPSE 文献审计 + RAID 备份 manifest) 入库
+- **今天 D606 (2026-06-06)**。⚠️ **paper v8 投稿尚未投** (D29 三 leg target 已过 8 天, PI 未投)。三 venue 均 rolling / 无 hard deadline (arXiv 随时 / TMLR rolling / KBS Elsevier rolling) → **overdue 0 penalty**, 但仍是当前首要 actionable。投稿 = PI 手动 portal 操作 (account Wangziqi0), 留 PI 健康 ready 时执行
+- **下一步 (留 PI 决)**: ① 确认 D29 投稿状态 ② A3 fp32 实验 launch ③ 关卡 3 反题三方决 ④ D30 新增 md (MODEL_COLLAPSE 文献审计 + RAID 备份 manifest) 入库 ⑤ 黑箱/dim-probe 研究线 step-1 上不上 (反题硬化版 descriptive, wip `blackbox_dimreduction_recon_d35/` + `analysis/FINDINGS.md`)
 
 ## §1 active binding (任一违反立即 retract)
 - paper **v8 final 47/47 D17 archive 锁定不动** (`experiments/exp018_cat/archive/v1.0_release_20260516/manifest.sha256`)
@@ -45,6 +45,7 @@
 - **5060 fp32 (+115%) + fp16 (+113.7%)**: 都 healthy → 问题是 **ROCm gfx1201 fp16 特定**,非 fp16 universal,非硬件
 - **备份**: 22 `/tmp` 86G + 19 桌面 5060 3GB → RAID1 `/media/amd/raid1/maofield_ckpt_backup_20260529/`,双份 sha256 verified
 - **待跑 (留 PI + 关卡 4 budget)**: A3 fp32 E1 (dtype 修根因) → E2 (balanced α 矩阵 + Welch t) → E3 (NaN-vs-frozen 隔离),~$120-180 / 60-90h。**E2 大概率 null/negative (与 v8 一致),价值是严格效应量,非"找 α 有效"(防 inflate)**
+- **E0 dim-probe (D606 trace-backed, 新)**: 唯一干净 fp32 退化对 (E0 gen0→gen1, PPL 36.5→78.6, 真崩溃非冻结) 上,崩溃 → 表示**稳健更散/升维** (isotropy↑ + PR 全口径↑含去 rogue + eff_rank↑) → **反"崩溃→低维/更集中"直觉**。⚠️ **早期 kill-signal 非判决** (N=1 gen-step/seed, OPT 非形式语言, "更可解释"未测)。归档 `analysis/FINDINGS.md`;修了 `multi_layer_hook` isotropy-当-anisotropy 命名 bug (绕 D25 md+PI+Linux 翻烧饼 3 次)。**dim-probe step-1 实验 (反题硬化版) 上不上留 PI 关卡**
 
 ## §4 留 PI + 关卡 3/4 list
 1. D29 投稿 trigger timing

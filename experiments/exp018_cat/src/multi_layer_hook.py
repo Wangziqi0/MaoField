@@ -38,9 +38,15 @@ logger = logging.getLogger(__name__)
 # ============================================================
 
 @torch.no_grad()
-def compute_a2_anisotropy(hidden_states_per_layer: tuple[torch.Tensor, ...]) -> list[float]:
+def compute_a2_isotropy(hidden_states_per_layer: tuple[torch.Tensor, ...]) -> list[float]:
     """
-    per layer hidden_states 之 cosine sim isotropy score.
+    per layer hidden_states 之 cosine sim ISOTROPY score.
+
+    ⚠️ ERRATA (D606 2026-06-06): 旧名 compute_a2_anisotropy + 旧 key
+    a2_anisotropy_per_layer = MISLABEL. 实算一直是 isotropy (1−|mean_cos|,
+    higher=less collapse, 见下). D25 SMOKE_E0 md 据旧名把"值↑"读成"anisotropy↑=
+    collapse"方向反 (已 errata). 改名 isotropy; 旧 key 留 deprecated alias 兼容旧 trace.
+    复跑实证: canonical/wip/maofield_e0_isotropy_rerun_20260606/.
 
     Ref: Mu & Viswanath 2018 (All-but-the-Top), Ethayarajh 2019 (How Contextual
     are Contextualized Word Representations). isotropy = 1 - mean(|cos sim|) of
@@ -263,7 +269,8 @@ class MultiLayerHook:
 
         Returns:
             dict with keys:
-              - "a2_anisotropy_per_layer": list[float] len=12
+              - "a2_isotropy_per_layer": list[float] len=12 (实为 isotropy, higher=less collapse)
+              - "a2_anisotropy_per_layer": list[float] len=12 (DEPRECATED alias=isotropy, 勿据名读方向)
               - "a3_attn_entropy_per_layer_head": list[list[float]] shape (12, 12)
               - "a6_ema_l2_per_layer": list[float] len=12
         """
@@ -277,8 +284,8 @@ class MultiLayerHook:
             return_dict=True,
         )
 
-        # A2 anisotropy
-        a2 = compute_a2_anisotropy(out.hidden_states)
+        # A2 isotropy (旧名 anisotropy = mislabel, 见 compute_a2_isotropy ERRATA)
+        a2 = compute_a2_isotropy(out.hidden_states)
 
         # A3 attention 头熵
         a3 = compute_a3_attention_entropy(
@@ -290,7 +297,8 @@ class MultiLayerHook:
         a6 = compute_a6_ema_divergence(model, ema_model)
 
         result = {
-            "a2_anisotropy_per_layer": a2,
+            "a2_isotropy_per_layer": a2,  # ERRATA(D606): 实为 isotropy(higher=less collapse)
+            "a2_anisotropy_per_layer": a2,  # DEPRECATED alias(=isotropy, 勿据名读方向; 兼容旧 trace)
             "a3_attn_entropy_per_layer_head": a3,
             "a6_ema_l2_per_layer": a6,
         }
