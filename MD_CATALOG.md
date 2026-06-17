@@ -2,7 +2,7 @@
 
 > **STATE.md §7 指针目标。新 session 不必读全部** —— 看 §0 导航选 ACTIVE 核心 (~25 份),历史整组 SKIP (~250 份)。
 > **维护**: 新增重要 md 归类追加;季度 review 把 SUPERSEDED 下沉历史区。本文件是 reference,不进每会话 context (STATE.md 才是 cold-start 必读)。
-> **戳**: 2026-06-04 D35 · HEAD `21e7bda` (D35 蓝图审计校;此 HEAD 记最近内容 commit,实时以 `git log -1` 为准)
+> **戳**: 2026-06-17 D617 · HEAD `09685ed` (本轮 exp019 confirmatory + 恢复相几何登记;实时以 `git log -1` 为准)
 > **梳理法**: 4 zero-context agent 分区 scan md head + bash title 提取。全部仅读 head,substantive detail `[未细看]`。
 
 ---
@@ -21,6 +21,7 @@
 | **最新文献线** | `MODEL_COLLAPSE_LITERATURE_AUDIT_D30_20260530` (+ near-dup `_FIXABILITY_` 版) |
 | **方向入口** | `MAOFIELD_INDEX_{EXP_LOGIC,MATH_PROP,PHILO_ARG}_20260529` · `{MATH,PHILO,EXP_PLAN}_*_LATEST_D26` |
 | **纪律 binding** | `docs/discipline/D-1*` · `docs/discipline/D-2*` · `docs/philosophy/D-3*` · `docs/infra/three-machine*` · `docs/TIMELINE_D22_D60` |
+| **本轮 D614-617 ★** | `experiments/exp019_alpha1_confirm/` (verdict_20260614 + LINUX_AUDIT_AMENDMENT_20260615 + prereg) = α=1 confirmatory **三 endpoint 全 FALSE / C1·C2·C3 撤回 / s42 outlier** + LN race 根因 ‖ `experiments/exp018_cat/analysis/` (RECOVERY_GEOMETRY_FINDINGS_20260615 + probe_output_vs_hidden_NOTE + FINDINGS) = **E0 升维=驼峰瞬态 / 几何≈PPL投影** ‖ `wip/blackbox_dimreduction_recon_d35/` (4 recon verdict,归属待 PI,RAG 排除) = 黑箱/命题 T·U **全判被占/平凡** |
 
 ### 整组可 SKIP 历史 ~250 份
 - **exp017_dialectics 全 157** (4/12-5/7 早期 dialectics + arXiv v1 整稿 + 四方协作流水) → 整组 ARCHIVE
@@ -30,7 +31,7 @@
 
 ### 4 条贯穿事实 (多文件交叉,head 实证)
 1. candidate_c (9070XT fp16 N=180) **训练无效/冻结** — 5-cell gen=0 ckpt 逐字节相同 `b3a67b42`,C3 退化 ~99% sha256
-2. root cause = **fp16 GradScaler silent skip optimizer.step** → 权重不更新 → NaN (D23=D26 同源)
+2. root cause = **fp16 GradScaler silent skip optimizer.step** → 权重不更新 → NaN (D23=D26 同源)。**D615 根因下推: 非 fp16 本身, 是 gfx1201 `native_layer_norm_backward` 竞态喂 NaN → scaler 吞 → skip (LN race; manual-LN patch 治本)**
 3. 5060 **fp32 a1_ppl=36.536** 落 paper ballpark,vs 9070XT fp16=93.349 (P0★-G FATAL,+157%)
 4. L0 第一轮 **0 unconditional close** — 诚实分类 (2 cond + 3 partial/negative + 3 FAIL) 是主产出
 
