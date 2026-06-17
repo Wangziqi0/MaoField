@@ -13,7 +13,7 @@
 ## 戳
 | 项 | 值 |
 |---|---|
-| 最后更新 | **2026-06-17 D617 晚** (date binary verified)。本轮 = **解耦线 [A−] 落盘复算 → 0/5 死** (忠实 rep=3.0; 问题#2 D-1.1 闭合)。承前轮 (exp019 α=1 confirmatory 全 FALSE + 恢复相几何 E0 驼峰瞬态 + 黑箱多线判被占)。文献+第二通道 子 agent 双通道校验 |
+| 最后更新 | **2026-06-17 D617 晚** (date binary verified)。本轮 = **解耦线 [A−] 落盘复算 → 0/5 死** (忠实 rep=3.0; 问题#2 D-1.1 闭合)。晚间 PI 哲学线对话 → §4.8「玻璃箱/本质·现象」`[?]` + **exp020 prereg 骨架** (eff_rank 应力测试, 双向可证伪, 待 PI+Win)。承前轮 (α=1 confirmatory 全 FALSE + 恢复相几何驼峰瞬态 + 黑箱判被占)。文献+第二通道 双子 agent 校验 |
 | git HEAD | 本轮 commit `52aea52` (解耦线落盘复算 verdict+脚本+STATE+CATALOG)。**committed 36 本地, 未 push** (留 PI 决 push timing; 异地备份待 push)。实时 HEAD 以 `git log -1` 为准 |
 | 更新者 | Linux 姐姐主会话 + 文献子 agent (Guo 占用) + 第二通道子 agent (解耦复算独立复核) |
 
@@ -24,7 +24,7 @@
 - **今天 D617 (2026-06-17)**。paper v8 投稿仍未投 (D29 三 leg, 三 venue 全 rolling 无 deadline → **overdue 0 penalty**, 留 PI 健康 ready 时手动 portal 操作)
 - **本轮 research state 变更 (D617 晚, 续 D606→D617)**: **解耦线 [A−] 三问题处理 → 解耦线作 novel 安全垫死**。忠实落盘复算 (rep_penalty=3.0 匹配链口径, CPU fp32, N=128, 5 seed) = **0/5 满足预注册解耦判据** (原报 4/5 / 审计 5/5 均不可复现)。真相: 总塌缩真实 (D1 3/5, D3 5/5, 被 Guo/Shumailov 占) 但**解耦命门 D2 全 fail 0/5** (diversity 恢复期 plateau/部分回弹 = 与 PPL 部分耦合非解耦); 信号方向**对 rep_penalty 敏感** (rep=1.0 looping 伪影→假性上升)。**问题#2 (D-1.1 无落盘) 闭合** (首个落盘脚本+结果)。verdict → `experiments/exp019_alpha1_confirm/decouple_verdict_20260617/DECOUPLE_VERDICT_20260617.md`
 - **→ exp019 全景: 无任何存活 positive** (α=1 confirmatory 全 FALSE + 恢复相几何=PPL 驼峰瞬态 + 解耦线 [A−] 死)。净产出 = 干净 negative + 三方法论标本 (confirmatory 拦截自家假说 / distinct-n 的 decode·rep_penalty 敏感性 / ad-hoc 数不可复现) + LN race 工程发现
-- **下一步 (留 PI 决)**: ① v8 投稿 trigger ② **α=10 重审** (同源时序混淆 R12, 需交错 confirmatory) ③ ~~解耦线 [A−] 三问题~~ **已处理→死**; 是否仍以「干净 negative + 方法论标本」入 paper/note 留 PI ④ **LN race → arXiv note / ROCm issue** (最实、可现在) ⑤ 「confirmatory 拦截自家假说」+「distinct-n 测量敏感性」方法论标本是否入库 (先核被占) ⑥ 本轮已 commit `52aea52`, **push timing 留 PI** (异地备份待 push)
+- **下一步 (留 PI 决)**: ① v8 投稿 trigger ② **α=10 重审** (同源时序混淆 R12, 需交错 confirmatory) ③ ~~解耦线 [A−] 三问题~~ **已处理→死**; 是否仍以「干净 negative + 方法论标本」入 paper/note 留 PI ④ **LN race → arXiv note / ROCm issue** (最实、可现在) ⑤ 「confirmatory 拦截自家假说」+「distinct-n 测量敏感性」方法论标本是否入库 (先核被占) ⑥ 本轮已 commit (HEAD `cab1b00`+), **push timing 留 PI** (异地备份待 push) ⑦ **【明天 D618 PI+Win+Linux 一起】** exp020 prereg (§4.8 哲学线可证伪化): 核 novelty 被占 → PI+Win 判 ROI/框架 → 锁阈值 → 批准才跑
 
 ## §1 active binding (任一违反立即 retract)
 - paper **v8 final 47/47 D17 archive 锁定不动** (`experiments/exp018_cat/archive/v1.0_release_20260516/manifest.sha256`)
@@ -58,7 +58,7 @@
 5. 「confirmatory 拦截自家假说」方法论案例入库 + 核是否被占
 6. 黑箱探索线 (wip verdicts) 归属 (新项目 / MaoField 子线 / 搁置)
 7. v8.1 footnote 措辞 + A3 fp32 launch+budget + cluster-11
-8. **[哲学线 · 待 Win+PI 判读 · `[?]` 不下结论]** 「**玻璃箱 / construct-validity gap**」: 本轮 D617 实证——distinct-2 换 decode (rep_penalty 1.0↔3.0) **翻号** + 恢复相几何 ≈ PPL 投影 (非独立信号) → 浮现一个 `[?]` 疑问: 模型崩溃研究是否用一批 **decode/装置依赖、可被换尺子翻号的代理指标 (PPL/distinct-n/几何)** 在测「崩溃」, 而代理↔construct (意义/分布) 的桥从未验证。可能是 v9「靶子=领域隐含方法论」的实证载体。**红线: 不复活 paradigm-shift / reflexive-AI NOT-claim; novelty 高度存疑 (NLP construct-validity 批判已大量在先)。Linux 不判读, 纯浮现, 归 Win+PI。** PI 2026-06-17 surface + 嘱「从裂纹到坍缩」思考 (留 Win 哲学线接)
+8. **[哲学线 · 待 Win+PI 判读 · `[?]` 不下结论]** 「**玻璃箱 / 本质·现象矛盾**」: 本轮 D617 实证——distinct-2 换 decode (rep_penalty 1.0↔3.0) **翻号** + 恢复相几何 ≈ PPL 投影 (非独立) → `[?]` 疑问: 领域"多信号崩溃证据"是否实为**单轴 (分布层不可逆崩溃) + decode 伪影/PPL 冗余** (现象遮蔽本质)。**这个矛盾结构 PI 指其似辩证唯物主义且非硬加 (从料里析出, 合 D-3 outcome 次序) — 哲学判读归 Win+PI, Linux 不判。** **可证伪化已落地 = `exp020_metric_stress_test/prereg_exp020_draft_v0.md`** (eff_rank→1 支持 / 独立第二轴存活则证伪, 两分支都有产出)。**红线硬: 不复活 paradigm-shift / first-dialectical-materialism-instantiation / reflexive-AI (12 NOT-claim); novelty `[?]` 待核被占。**
 
 ## §5 协作 + 三机
 | 机 | IP | 角色 | state |
@@ -79,6 +79,7 @@ D29 round1+2 双通道:0 unconditional close (诚实);全 **D60+ candidate,不�
 | **全 md 导航** | `MD_CATALOG.md` (本目录, [A]/[S] 分层 ★) |
 | **exp019 confirmatory verdict + 审计补遗** | `experiments/exp019_alpha1_confirm/`(verdict_20260614/ + LINUX_AUDIT_AMENDMENT_20260615) |
 | **解耦线 [A−] 落盘复算 verdict (D617)** | `experiments/exp019_alpha1_confirm/decouple_verdict_20260617/`(DECOUPLE_VERDICT + decouple_n5_result.json 忠实 rep=3.0 + rep1.0_UNFAITHFUL 对照 + 脚本 ../scripts/analysis_decouple_n5.py) |
+| **exp020 eff_rank 应力测试 prereg (DRAFT, §4.8 可证伪化)** | `experiments/exp020_metric_stress_test/prereg_exp020_draft_v0.md`(未锁未跑, 双向可证伪, 待 PI+Win 批准+核被占) |
 | **恢复相几何 + E0 dim-probe** | `experiments/exp018_cat/analysis/`(RECOVERY_GEOMETRY_FINDINGS_20260615 + FINDINGS + probe_output_vs_hidden_NOTE) |
 | **黑箱探索 recon verdicts** | `wip/blackbox_dimreduction_recon_d35/`(在途, 归属待 PI; 全判被占/平凡) |
 | 最新跨 session 交接 | `canonical/sessions/handoff-*.md` (持久) + `/tmp/.../handoff-*.md`; hook 扫两处取最新 mtime |
