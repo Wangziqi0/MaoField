@@ -58,6 +58,7 @@
 5. 「confirmatory 拦截自家假说」方法论案例入库 + 核是否被占
 6. 黑箱探索线 (wip verdicts) 归属 (新项目 / MaoField 子线 / 搁置)
 7. v8.1 footnote 措辞 + A3 fp32 launch+budget + cluster-11
+8. **[哲学线 · 待 Win+PI 判读 · `[?]` 不下结论]** 「**玻璃箱 / construct-validity gap**」: 本轮 D617 实证——distinct-2 换 decode (rep_penalty 1.0↔3.0) **翻号** + 恢复相几何 ≈ PPL 投影 (非独立信号) → 浮现一个 `[?]` 疑问: 模型崩溃研究是否用一批 **decode/装置依赖、可被换尺子翻号的代理指标 (PPL/distinct-n/几何)** 在测「崩溃」, 而代理↔construct (意义/分布) 的桥从未验证。可能是 v9「靶子=领域隐含方法论」的实证载体。**红线: 不复活 paradigm-shift / reflexive-AI NOT-claim; novelty 高度存疑 (NLP construct-validity 批判已大量在先)。Linux 不判读, 纯浮现, 归 Win+PI。** PI 2026-06-17 surface + 嘱「从裂纹到坍缩」思考 (留 Win 哲学线接)
 
 ## §5 协作 + 三机
 | 机 | IP | 角色 | state |
