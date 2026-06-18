@@ -1,5 +1,17 @@
 # exp020 channel-invariance 测试 · 预注册 DRAFT (D618)
 
+> 🔴 **GATE FAILED (D618, 敌意子 agent a4b1 + 主会话亲核校准)** —— **本设计有致命洞, 不可 commit-lock, 不可跑作 confirmatory。** 修复方向见下 STATUS。
+>
+> ## STATUS: 敌意 gate verdict (主会话校准版)
+> - **致命洞① Φ⊥PPL 共线 (decisive)**: §3a `Φ_data=c·D(μ₀‖p_synth_n)` 含"模型离 μ₀ 距离"因子 = 与 S/PPL 同源 → S-vs-Φ 曲线自相关 vacuous (项目 §4.8 老坑)。修: Φ 只测注入侧外生量 (Φ_data=c·Î(固定真样本; μ₀), 删 D 因子); ⊥PPL gate 改 partial-corr (|corr(Φ,PPL|c)|<0.3 且 |corr(S,Φ|PPL)|>阈, ≥2 seed), 非"回归残差非零"(4 档 c 必给非零, 太弱)。
+> - **致命洞② common-currency ⊥ flux_spec_v2 (最深)**: flux_spec_v2 §2 证 c(measure-mixture) 与 1/η_eff(param-prior) 不可通约无满射 = wedge 卖点, 直接反噬"同 Φ 跨通道"。修: 单标量 Φ 降格为**假设非事实**, 预注册"matched-Φ 在 g1 相等但 g9 分层 → common-currency REFUTED"作前置 falsifier; 或改向量值 Φ (但即承认 channel matters = default)。
+> - **洞③ S=H̄-留存 metric (核成立, 可修)**: H̄ 非单调 (5/5 seed: g0=3.39→g2谷≈1.92→g9≈2.79), 单端点 S 歧义 + 混淆"恢复 vs 稳定"。**⚠️ 校正子 agent: 它称"testB 疑 S 被 decode 伪通量污染"= 引反了 —— testB 实际 verdict `rep3_injects_flux: False` (rep3≈rep1), 已否决 rep_penalty 伪通量假说。** decode-污染腿(rep_penalty 版)已清; 权重臂"机械抬熵"被"谷-despite-reset"削弱。S 仍需换单调/decode-free/剔 θ₀-基线 metric (per-seq PPL 尾塌缩 or mode-coverage), 但非子 agent 说的那么烂。
+> - **洞④ 混杂 (标准, 需预注册控制)**: 每臂"只动一锚"code 层不成立 (c 改 support+样本数; η 改优化动力学+skip 频率; prompt 改 length 分布; base-reset 改初值几何)。控: 固定 total-token/batch/accumulation/warmup/prompt_length/decode/eval-context; 每 cell 报 skip-count + ckpt sha256 全互异。
+> - **P (只下调)**: 作 novel 量化贡献存活 conditional on 全部修复 ≈ **10-20%** (低于 flux_spec_v2 旧估 15-30%, 因洞① vacuous + 洞② frame 互斥新暴露)。
+> - **决定**: 不锁不跑。战略 fork (重设计 exogenous-Φ+new-S / 收窄回 flux_spec_v2 Borkar-wedge / meta-pattern「测度反复塌回 PPL」自身作 paper) → 留 PI。
+>
+> --- 原 DRAFT (待修, 勿按此跑) ---
+
 > PI frame-jump operationalize + 反题 dispatch 起草; Linux 执行。
 > **源直觉**: 反映论(真实数据=客观实在; 模型=反映; 锚=实践再接触) → 硬预测 channel-invariance。
 > **claim 纪律 (红线)**: 论文 claim 停在测试结果 = frame-neutral 信息论陈述 ("崩溃由 channel-(in)variant 真实信息通量支配")。**DM/反映论 = 生成假设的【启发】, discussion 标 [?] 归 Win+PI, 绝不写"实证反映论/DM 实例/first-reflexive-AI/paradigm"。**
