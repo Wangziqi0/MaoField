@@ -1,5 +1,20 @@
 # exp020 密钥证伪实验 · keyed channel-invariance · DESIGN (D618)
 
+> 🔴 **GATE-2 FAILED (D618, 第4道敌意 gate ae8f + 主会话亲核复算)** —— **当前 keyed 设计仍不可 seal**。channel-invariance 第二次倒在 gate (DRAFT + 本 keyed DESIGN)。
+>
+> ## STATUS: 第4道 gate verdict (主会话复算校准版)
+> - **洞① 外生 Φ = 真解了** (Φ 纯 knob ⊥PPL 构造保证)。**但代价: Φ 退出判读** —— verdict 实际由 S(g) 轨迹重合度裁定 (|ΔS|<ε), Φ 数值从不进裁定式 → Φ⊥PPL 买不到东西, 裁定量仍是 PPL 同源的 S。**修: 要么把 Φ 放进裁定式, 要么坦白 Φ 不裁定、本实验 = S-trajectory cross-channel 测试。**
+> - **洞② λ-协议对自己噪声都校不准 (REFUTED, 主会话复算确认+修正)**: 5-seed (同通道 ground-truth invariant) 跑协议 → **k=2 下 5/10 同通道 pair 假分层** (全含 s1; **s1=idiosyncratic 低恢复 outlier, 复刻 exp019 s42**); k=2.8 仍漏 s1↔s2。晚代 σ 爆 6.0× (峰 g7 σ=1.09)。**⚠️ 主会话修正 gate 一处过悲观**: gate 用 seed-pair(1v1)欠功效; 比**通道均值(N=5)** SE=0.26-0.49 vs 10-15% 效应=1.5-2.7 = **3.7-9.8σ_SE 可分辨** → 非根本欠功效, 救法=每 cell 5-seed 通道均值匹配 (代价: 贵 GPU)。
+> - **洞③ 全轨迹 S = 改进但 S 仍 PPL 同源 (偏 REFUTED)**: S=eff_supp=exp(H̄) 与 PPL=exp(CE) 是**同一 softmax logits 的姊妹约简** (差"对 p 求熵"vs"对 target 求 CE"一轴)。"非 PPL" 措辞 overclaim。**修: 换独立稳定量 (testB 的 distinct-2 留存, 更 PPL-独立但 decode-依赖) 作交叉; reset 臂 ΔS 相对各自 g0 报 (隔离 θ₀ 机械抬熵)。**
+> - **洞④ KEY-2 盲可被轨迹形状反推 (REFUTED)**: 分析者知设计→知指纹 (c=0 塌最狠/reset 抬基线/prompt 弱), 匿名 cell 画出轨迹即可反推真通道。**修: 机械聚类算法+阈值预注册(分析者零自由度) 或派零上下文第三方 agent 跑分析; seed-置换单独不够。**
+> - **新洞 (Attack5)**: I_real/I(θ₀)/I_prompt 三常数不可比不可测 (= flux_spec_v2 §2 不可通约) → Φ_total 跨通道线性加总无操作定义 (但 §3 已降通约性为可证伪假设, 诚实兜底); 累积 Φ 线性假设 [?]; early/late 切分需锁理由; g7 噪声异常峰需 per-gen 非 max。
+> - **P (只下调)**: ≈ **8-15%** (洞①解了+, 但洞②③ 新暴露未解; 4/5 攻击点 REFUTED/偏)。
+> - **病根 (M1→channel-Φ→keyed-S 第三次同形)**: 裁定建在与 PPL 共线的 S 上 + 裁定阈值未对噪声校准。
+> - **决定**: 不 seal 不跑。**3rd 重设计可行但贵+低 P** (5-seed/cell 通道均值 + distinct-2 独立量 + 机械/第三方盲 + Φ 入裁定); vs **C(meta-pattern) 现被 4 道 gate 四重实证 = bankable**。战略 fork 留 PI+Win。
+>
+> --- 原 DESIGN (待修, 勿按此 seal) ---
+
+
 > PI dispatch (社会实践=检验真理唯一标准 operationalize): path A + 三重密钥封。坐 C 脊梁 (A 失败→Borkar-distinction→喂 C)。
 > **claim 红线**: claim 停在 channel-invariance 结果 = frame-neutral 信息论陈述; 反映论/DM 归因 [?] 归 Win+PI; 绝不写 实证反映论/DM/first-reflexive/paradigm。
 > 状态: **DESIGN, 未 seal**。**PI §4 铁律: 本设计先过敌意 gate (咬了3次那道) → 修 → 才 seal KEY-1。gate 管【有力】, KEY 管【诚实】, 两者都要。** supersede prereg_channel_invariance_DRAFT (GATE FAILED 版)。
