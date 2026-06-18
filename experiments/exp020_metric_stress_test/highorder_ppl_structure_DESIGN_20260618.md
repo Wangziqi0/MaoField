@@ -3,7 +3,22 @@
 > PI "另类高级组成" 直觉 operationalize: mean-PPL 是一维, 但 PPL **对象**(全 per-token/per-seq logprob 分布)上有没有 mean 抹掉的高阶结构?
 > **与前 5 次本质不同**: 前 5 找【独立于 PPL】的测度(全塌); 本测试找 PPL **对象内部**的高阶泛函。
 > claim frame-neutral; DM/反映论 [?] 归 Win+PI; 红线不碰。**零新训练**(已有 ckpt inference, CPU/36) = 不烧预算。
-> 状态: DESIGN, 未锁。**§5 铁律: 设计先过敌意 gate(咬6次那道) → 修 → commit-lock → 才算。**
+> 状态: **LOCKED v2 (gate-6 ae b0 修复已应用; 本 commit = 算前的异地时间戳锁)**。下 LOCKED 块为冻结决策规则; 原 DESIGN 留作历史。
+>
+> ## LOCKED v2 决策规则 (gate-6 修复; commit-lock, 算前推完, 改判据=哈希对不上=废)
+> - **主轴 = 崩溃轨迹 gen0-9, 5-seed α=0 链 (在 36, decode-free 前向, 现成; 绕开 00/B0 GPU-pending blocker; 这也是 C 相关的自然轴)**。
+> - **存活 3 泛函 (固定真 wikitext eval, decode-free 前向; 禁触模型自生成序列)**:
+>   - F1-var = per-token true-next-token logprob 的方差 (有解析 SE)。
+>   - F1-tail = logprob < τ 的 token 占比, **τ = g0 全 seed logprob 的 5th 百分位, 跑前算一次锁死** (二项比例, Wilson CI)。
+>   - F3-slice = per-slice mean-logprob: 稀有 vs 高频 token (按 g0 unigram 频率 top/bottom 20%, 锁死)。
+>   - **砍 (gate-6)**: skew / kurtosis (5-seed σ̂ CI 7.6×/19.6× 估不准) / dip-bimodality (功效低) / 任何 decode 衍生 F。
+> - **门A 正交性 (cubic, 非线性)**: 对每 F, **cubic-residualize F on mean-logprob** → 残差是否仍随 gen 变 (partial-corr with cubic control, |r|>负对照 null)。**线性 partial-corr 禁用 (gate-6: F=mean² 线性假阳中位 0.61)**。
+> - **门B 噪声地板 (bootstrap 上界)**: per-gen 5-seed σ(F) 的 **bootstrap 90% 上置信界**; 跨 gen 信号 |ΔF| 必须 > k·σ_upper (k=2)。
+> - **判据**: F 过 Branch1 ⟺ 门A (cubic-residual 仍随 gen, |r| 超 null) **AND** 门B (跨 gen 信号 > k·σ_upper)。≥1 F 过双门 → Branch 1; 全 F 失 ≥1 门 → Branch 2。
+> - **Branch1 后续 bar (gate-6 护栏, 预注册)**: 即便过双门, 仅 "值得追(尚非 positive)"; 升档需 (a) 独立 seed 集复现 (b) 跨条件 sign-test 方向一致 (c) 可解释定位到 token/slice 且非 mean-PPL 重构。措辞锁死 "值得追(尚非 positive)", 禁 "found/positive/携带信号" 作结论。
+> - **诚实预期 Branch 2** (gate-6 维持; 高阶矩噪声门更难清)。
+>
+> --- 原 DESIGN (gate-6 前; 历史留存, 勿按此跑) ---
 
 ## 1 被测问题 + 两预注册 branch (锁前定, 禁 spin)
 **Q: PPL 的高阶泛函是否携带 mean-PPL 抹掉的崩溃信息, 且高于噪声地板?**
