@@ -8,7 +8,7 @@
 **"跨 5 次预注册 + 盲 + 敌意-gate 的尝试, 每个候选【独立于 PPL】的崩溃测度——权重距离 / eff_supp / 通道-flux Φ / 恢复相几何 / distinct-2——要么塌回 PPL 的姊妹约简(影子), 要么被晚代 seed 噪声地板淹没(σ 6×@g7, 同通道 5-seed 在测度自己的阈值下假分层 5/10), 要么连轨迹符号都由 decode 配置决定(distinct-2 rep1↔3 翻号)。"**
 - **可证伪 / 邀反例**: 谁能给出一个【非 PPL-影子 且 高于晚代噪声地板】的崩溃测度 → 推翻本 claim。
 - **不外推**: 只证【这些】测度在【此空间】失败, **不写"崩溃不可测"** (留真独立测度存在的可能)。
-- **⚠️ refine (高阶探针 E11, 防过度声称)**: claim 限于"【独立于 PPL】候选测度全塌"。**不可写"一切都是 mean-PPL"** —— PPL 对象**内部**的高阶泛函里, F3 差异化崩溃迟滞 (freq vs rare token 在同 mean_lp 走不同 gap) 是**弱真例外** (尚非 positive, 假复制+0-1/3 bar)。C 的诚实版 = "独立测度全塌 + 高阶大多重构, **一个弱真高阶例外待追**"。
+- **⚠️ refine (高阶探针 E11, 防过度声称)**: claim 限于"【独立于 PPL】候选测度全塌"。**不可写"一切都是 mean-PPL"** —— PPL 对象**内部**的高阶泛函里, F3 差异化崩溃迟滞 (freq vs rare token 在同 mean_lp 走不同 gap) 是**弱真例外**。**但 F3 prior-art 核 (adc3): 偏被占** —— 差异化崩溃=Shumailov Nature/Tale-of-Tails(2402.07043) 占; 迟滞/不可逆=Borkar(2506.09401) 占; 高阶≠mean-PPL/decouple=Schaeffer(2503.03150)+Manifold-Percolation(2511.20503)+SIGMA 占。F3 = 已占机制的测量学 instantiation, **incremental, 非独立 positive**。**故 C 诚实版 = "独立测度全塌 + 高阶大多重构 + 那点弱高阶余量(F3)也贴着已知机制(频率分层+不可逆+decouple)"** —— F3 喂 C 的"基本一维"论证, 不单列为 finding。**(prior-art 引语 verbatim 进 paper 须 Win+PI 亲核原文; 子 agent 标 WebFetch 二手中等置信)**
 
 ## 2 证据 trace 库 (全已在手, 零新跑; 每条带 source 二值可核)
 | # | 证据 | 它确立什么 | source |
