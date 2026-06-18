@@ -5,7 +5,7 @@
 > 红线: 不写"collapse 不可测"(过强); flow-space = labeled hypothesis 非 established; 不复活 DM-instance/first-reflexive/paradigm。
 
 ## 1 已确立 claim (frame-neutral, 可证伪, 邀反例)
-**"跨 N 次预注册 + 盲 + 敌意-gate 的尝试, 每个候选【独立于 PPL】的崩溃测度——权重距离 / eff_supp / 通道-flux Φ / 恢复相几何 / distinct-2[待 §1]——要么塌回 PPL 的姊妹约简(影子), 要么被晚代 seed 噪声地板淹没(σ 6×@g7, 同通道 5-seed 在测度自己的阈值下假分层 5/10)。"**
+**"跨 5 次预注册 + 盲 + 敌意-gate 的尝试, 每个候选【独立于 PPL】的崩溃测度——权重距离 / eff_supp / 通道-flux Φ / 恢复相几何 / distinct-2——要么塌回 PPL 的姊妹约简(影子), 要么被晚代 seed 噪声地板淹没(σ 6×@g7, 同通道 5-seed 在测度自己的阈值下假分层 5/10), 要么连轨迹符号都由 decode 配置决定(distinct-2 rep1↔3 翻号)。"**
 - **可证伪 / 邀反例**: 谁能给出一个【非 PPL-影子 且 高于晚代噪声地板】的崩溃测度 → 推翻本 claim。
 - **不外推**: 只证【这些】测度在【此空间】失败, **不写"崩溃不可测"** (留真独立测度存在的可能)。
 
@@ -21,7 +21,7 @@
 | E7 | 恢复相几何 ≈ PPL 投影 (E0"崩溃→升维"=PPL 驼峰瞬态, 几何与 PPL 同步) | 又一候选独立测度(几何)被证 = PPL 投影非独立 | `exp018_cat/analysis/RECOVERY_GEOMETRY_FINDINGS_20260615` |
 | E8 | fp16 冻结伪影 (D612): 93.388=GradScaler-skip 冻结, 被 3 次读成自愈/恢复(全假) | 精度伪影冒充"恢复信号"的标本 | memory `project_fp16_frozen_attractor` / `wip/maofield_armb_deepdive` |
 | E9 | Stage-A 00 matched 基线复现 hump (g0=36→g2≈109 峰→回落) + 晚代噪声特征 | hump 非旧链 artifact (干净基线); 喂 E5 噪声 | round3 `checkpoints_armb_ABL_00` (跑完落) |
-| E10 | distinct-2 独立性 **[待 §1 预验证]** | 补完测度-inventory 最后一格 | `preverify_distinct2_independence_DESIGN` (gate ad0b 中) |
+| E10 | **distinct-2 = PPL/eff_supp 影子 + decode 伪量 (gate-5 + 复算确认)**: 忠实 rep=3.0 与 eff_supp R²=0.791 共线; rep=1.0↔3.0 轨迹**翻号** | 测度-inventory **完成**: 第5个候选独立量也塌 (共线+decode 纠缠), A 死 | `preverify_distinct2_independence_DESIGN` VERDICT + `verify_gate5b.py` |
 
 ## 3 结构 why (支持的 hypothesis; **labeled hypothesis 非 established**)
 - 候选测度都活在**输出分布空间** (next-token logits), 那里 **PPL 主导 + 晚代 seed 噪声地板**。

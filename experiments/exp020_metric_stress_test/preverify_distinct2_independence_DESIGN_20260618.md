@@ -1,5 +1,16 @@
 # exp020 §1 免费预验证 · distinct-2 独立性 · DESIGN (D618)
 
+> ✅ **VERDICT (D618, 第5道 gate ad0b + 主会话亲核复算): distinct-2 不独立 → A 死 → 收 C。** 零 GPU 干净处死。
+>
+> ## VERDICT (主会话复算确认)
+> - **失判据 (b) [预注册于 commit dcbce2a, 早于结果]**: 忠实 rep=3.0 (匹配链口径) distinct-2 与 eff_supp(gate-3 死的 PPL 姊妹量) **R²=0.791 > 0.5 = 强共线** (n=15, g0/g2/g9×5seed, Pearson r=0.890; per-gen: g0 d2=0.510/es=29.9, g2 0.379/6.9, g9 0.394/17.3)。
+> - **失判据 (c) [decode 翻号, 比预期更致命]**: distinct-2 在 rep=1.0(单调**升** 0.30→0.45) ↔ rep=3.0(单调**降** 0.51→0.39) **连轨迹符号都翻** → decode 配置决定正负号 = 终极 decode 纠缠 (gate 攻击点3 + 解耦§3 印证)。
+> - **⚠️ 差异日志 (D-1.5 不静默修正)**: 主会话首个复算脚本 glob 误读两文件→dc 落到 `decouple_n5_result_rep1.0_UNFAITHFUL.json`(rep1 单调升), 险些据此翻 gate("R²应低")。**忠实 rep=3.0 (`decouple_n5_result.json`) 是仲裁**: 复算 R²=0.791 与 gate 一致。复跑是唯一仲裁, 用忠实口径数据 settle。
+> - **gate 设计洞 (记录, 不影响裁定)**: gate 指出 (a)/T2 的 collapse-proxy=gen 是 vacuous (任何单调量假通过); 但**裁定靠 (b)+(c) 不靠 (a)**, (b) 已预注册且失败, 故 A 死成立, 无需修 (a) 重跑。
+> - **结论**: distinct-2 = PPL/eff_supp 影子(共线) + decode 伪量(翻号), **非独立量**。A 无可站的独立 outcome → **A 死 (确认 dispatch §0 默认预期)** → **收 C**。= meta-pattern 第5次同构 (M1→channel-Φ→keyed-S→λ→distinct-2 全塌回 PPL/eff_supp)。零新 GPU。
+>
+> --- 原 DESIGN (判据 b/c 已用, a 的 proxy 设计洞见 STATUS; 历史留存) ---
+
 > 收口 dispatch §0-§1: 免费 CPU 预验证 gate 掉 A/B。**distinct-2 是真·独立量 → A 才有腿; 否则 A 死 → 收 C。** A 的 GPU 在本验证说话前一分不投。
 > 状态: DESIGN, 未锁。**PI §1 铁律: 设计+判据先过敌意 gate (咬了4次那道) → 修 → commit-lock → 才算。** 零新 GPU (CPU decode + 已有 ckpt/数据)。
 
