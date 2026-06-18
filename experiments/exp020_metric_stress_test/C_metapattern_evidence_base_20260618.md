@@ -8,6 +8,7 @@
 **"跨 5 次预注册 + 盲 + 敌意-gate 的尝试, 每个候选【独立于 PPL】的崩溃测度——权重距离 / eff_supp / 通道-flux Φ / 恢复相几何 / distinct-2——要么塌回 PPL 的姊妹约简(影子), 要么被晚代 seed 噪声地板淹没(σ 6×@g7, 同通道 5-seed 在测度自己的阈值下假分层 5/10), 要么连轨迹符号都由 decode 配置决定(distinct-2 rep1↔3 翻号)。"**
 - **可证伪 / 邀反例**: 谁能给出一个【非 PPL-影子 且 高于晚代噪声地板】的崩溃测度 → 推翻本 claim。
 - **不外推**: 只证【这些】测度在【此空间】失败, **不写"崩溃不可测"** (留真独立测度存在的可能)。
+- **⚠️ refine (高阶探针 E11, 防过度声称)**: claim 限于"【独立于 PPL】候选测度全塌"。**不可写"一切都是 mean-PPL"** —— PPL 对象**内部**的高阶泛函里, F3 差异化崩溃迟滞 (freq vs rare token 在同 mean_lp 走不同 gap) 是**弱真例外** (尚非 positive, 假复制+0-1/3 bar)。C 的诚实版 = "独立测度全塌 + 高阶大多重构, **一个弱真高阶例外待追**"。
 
 ## 2 证据 trace 库 (全已在手, 零新跑; 每条带 source 二值可核)
 | # | 证据 | 它确立什么 | source |
@@ -22,6 +23,7 @@
 | E8 | fp16 冻结伪影 (D612): 93.388=GradScaler-skip 冻结, 被 3 次读成自愈/恢复(全假) | 精度伪影冒充"恢复信号"的标本 | memory `project_fp16_frozen_attractor` / `wip/maofield_armb_deepdive` |
 | E9 | Stage-A 00 matched 基线复现 hump (g0=36→g2≈109 峰→回落) + 晚代噪声特征 | hump 非旧链 artifact (干净基线); 喂 E5 噪声 | round3 `checkpoints_armb_ABL_00` (跑完落) |
 | E10 | **distinct-2 = PPL/eff_supp 影子 + decode 伪量 (gate-5 + 复算确认)**: 忠实 rep=3.0 与 eff_supp R²=0.791 共线; rep=1.0↔3.0 轨迹**翻号** | 测度-inventory **完成**: 第5个候选独立量也塌 (共线+decode 纠缠), A 死 | `preverify_distinct2_independence_DESIGN` VERDICT + `verify_gate5b.py` |
+| E11 | **高阶 PPL 泛函大部分重构 mean-PPL, 但有【弱真例外】**: F1-var/tail ~98% mean-PPL 重参数化; **F3_slice_gap 迟滞真** (gen1↔gen4 同 mean_lp ΔF3_gap=0.122 t=-4.6, 纯 mean_lp 函数禁止; 差异化崩溃 freq vs rare 2.2×) | C **不能**写"全塌 mean-PPL"; 高阶大多塌但 **F3 差异化崩溃迟滞 = 弱真结构** (假复制 CV0.4-0.8%, 0-1/3 bar, **值得追非 positive**) | `highorder_ppl_structure_DESIGN` FINAL VERDICT + `highorder_2ndchannel_check.py` + `highorder_verify_hysteresis.py` |
 
 ## 3 结构 why (支持的 hypothesis; **labeled hypothesis 非 established**)
 - 候选测度都活在**输出分布空间** (next-token logits), 那里 **PPL 主导 + 晚代 seed 噪声地板**。

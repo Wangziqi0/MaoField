@@ -1,5 +1,19 @@
 # exp020 后续 · PPL-attractor 高阶结构测试 · DESIGN (D618)
 
+> 🟡 **FINAL VERDICT (D618; locked 测试 + 主会话护栏 + 第二通道 ac61 + 主会话亲核): Branch 1 (真有弱高阶结构), 严格"值得追尚非 positive" (0~1/3 bar)。**
+>
+> ## FINAL VERDICT (三方交叉)
+> - **locked 测试按字面 → Branch 1** (3F 过 cubic-门A+门B)。
+> - **主会话护栏 (c) 初判"曲率混叠假阳" = 推理错误**: 纯 mlp 高阶 null 给 0.59>真F 0.42, 但"工具假阳≠此样本假阳", 比 |partial_r| 不公平。**冤杀风险, 故派第二通道**。
+> - **第二通道 + 主会话亲核 → Branch 1 真**: 换对纯函数零假阳检验 (LOSO-CV ΔR²: 纯null=0.0000 校准 / 真F F1_var+0.022·F1_tail+0.013·F3_slice_gap+0.051; 置换 p=0.0005)。**决定性 = F3_slice_gap 迟滞 (主会话复算确认)**: gen1(下行,mean_lp=-3.861,gap=4.126) vs gen4(上行,mean_lp=-3.830,gap=4.247) **同 mean_lp 但 ΔF3_gap=0.122 (t=-4.6)** → 纯 mean_lp 函数数学禁止 → F3_gap ≠ mean-PPL 的函数 = **真高阶结构** (差异化崩溃: 高频 token 崩 +0.225 vs 稀有 +0.103 = 2.2×)。
+> - **但严格"值得追尚非 positive" (反向不利证据, 只下调)**: **5 seed = 近确定性复本 (CV 0.4-0.8%)** → t=4.6 大半是 pseudo-replication; 预注册 bar: (a)独立seed复现=**未达**(非独立) / (b)跨条件 sign-test=**未测**(无 00vsB0) / (c)非mean-PPL重构=**部分达**(F3 迟滞+slice 真; F1_var/tail 更近重参数化) → **0~1/3**。措辞锁 "值得追(尚非 positive)", 禁 found/positive/携带信号。
+> - **逐 F**: F3_slice_gap 最强真(迟滞+差异化崩溃) > F1_var > F1_tail。
+> - **方法论副产**: cubic-门A 在 mean-lp↔gen 共线(r=0.37)下破; 正交性检验须用 LOSO-CV/matched-mlp/hysteresis(对纯函数零假阳), 非 cubic-residual 比 null。
+> - **对 C 的影响**: C **不能**写"全塌回 mean-PPL"; 须 refine = "独立测度全塌 + 高阶泛函**大部分**重构, **例外** = F3 差异化崩溃迟滞(弱、假复制、0-1/3 bar, 值得追非 positive)"。
+> - **下一步 (留 PI: 追不追 F3 线索)**: ① 真独立新 seed 集复现 F3 迟滞 (非确定性复本) ② 跑 00 vs B0 条件对 sign-test (bar b) ③ F3 差异化崩溃/迟滞 prior-art 核 (像多通道那样, 防 incremental) ④ 正交检验换 LOSO-CV 入护栏。
+>
+> --- 以下为 LOCKED v2 (跑前锁定规则; 历史) ---
+
 > PI "另类高级组成" 直觉 operationalize: mean-PPL 是一维, 但 PPL **对象**(全 per-token/per-seq logprob 分布)上有没有 mean 抹掉的高阶结构?
 > **与前 5 次本质不同**: 前 5 找【独立于 PPL】的测度(全塌); 本测试找 PPL **对象内部**的高阶泛函。
 > claim frame-neutral; DM/反映论 [?] 归 Win+PI; 红线不碰。**零新训练**(已有 ckpt inference, CPU/36) = 不烧预算。
