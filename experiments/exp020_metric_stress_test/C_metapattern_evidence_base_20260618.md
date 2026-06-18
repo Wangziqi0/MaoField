@@ -21,7 +21,7 @@
 | E6 | 解耦 §3: distinct-2 对 rep_penalty 敏感 (rep=1.0 looping 伪影→假上升; 忠实 rep=3.0 0/5) | 候选独立量被 decode 配置纠缠 | `decouple_verdict_20260617/` |
 | E7 | 恢复相几何 ≈ PPL 投影 (E0"崩溃→升维"=PPL 驼峰瞬态, 几何与 PPL 同步) | 又一候选独立测度(几何)被证 = PPL 投影非独立 | `exp018_cat/analysis/RECOVERY_GEOMETRY_FINDINGS_20260615` |
 | E8 | fp16 冻结伪影 (D612): 93.388=GradScaler-skip 冻结, 被 3 次读成自愈/恢复(全假) | 精度伪影冒充"恢复信号"的标本 | memory `project_fp16_frozen_attractor` / `wip/maofield_armb_deepdive` |
-| E9 | Stage-A 00 matched 基线复现 hump (g0=36→g2≈109 峰→回落) + 晚代噪声特征 | hump 非旧链 artifact (干净基线); 喂 E5 噪声 | round3 `checkpoints_armb_ABL_00` (跑完落) |
+| E9 | **Stage-A cell 00 matched 基线完成 + 冻结 gate PASS**: g0=37→g2=109 峰→g9=53 复现 hump; **10/10 gen ckpt sha256 全互异 (非冻结, ≠D612 bit-identical)**; val_ppl=nan 仅 1 行(B0 resume re-eval quirk, test 正常)=benign | **hump 非旧链 artifact 坐实** (干净同批 matched 重跑, 真训练); 喂 E5 噪声 | round3 `checkpoints_armb_ABL_00/alpha0.0/no_preserve_seed1/` (sha256 互异 10/10) |
 | E10 | **distinct-2 = PPL/eff_supp 影子 + decode 伪量 (gate-5 + 复算确认)**: 忠实 rep=3.0 与 eff_supp R²=0.791 共线; rep=1.0↔3.0 轨迹**翻号** | 测度-inventory **完成**: 第5个候选独立量也塌 (共线+decode 纠缠), A 死 | `preverify_distinct2_independence_DESIGN` VERDICT + `verify_gate5b.py` |
 | E11 | **高阶 PPL 泛函大部分重构 mean-PPL, 但有【弱真例外】**: F1-var/tail ~98% mean-PPL 重参数化; **F3_slice_gap 迟滞真** (gen1↔gen4 同 mean_lp ΔF3_gap=0.122 t=-4.6, 纯 mean_lp 函数禁止; 差异化崩溃 freq vs rare 2.2×) | C **不能**写"全塌 mean-PPL"; 高阶大多塌但 **F3 差异化崩溃迟滞 = 弱真结构** (假复制 CV0.4-0.8%, 0-1/3 bar, **值得追非 positive**) | `highorder_ppl_structure_DESIGN` FINAL VERDICT + `highorder_2ndchannel_check.py` + `highorder_verify_hysteresis.py` |
 
