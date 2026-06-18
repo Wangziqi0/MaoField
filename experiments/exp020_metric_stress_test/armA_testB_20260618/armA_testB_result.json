@@ -1,0 +1,37 @@
+{
+  "measures": {
+    "g2_s1_rep1.0": {
+      "unigram_H": 5.653150994575174,
+      "distinct_2": 0.36695089679506027
+    },
+    "g2_s1_rep3.0": {
+      "unigram_H": 5.694045343152674,
+      "distinct_2": 0.37970971998240727
+    },
+    "g2_s42_rep1.0": {
+      "unigram_H": 5.673481992050897,
+      "distinct_2": 0.39059570171642866
+    },
+    "g2_s42_rep3.0": {
+      "unigram_H": 5.729595124670654,
+      "distinct_2": 0.4013605442176871
+    },
+    "g0_s1_rep3.0": {
+      "unigram_H": 5.707296852161423,
+      "distinct_2": 0.5045779685264664
+    }
+  },
+  "verdict": {
+    "seed1": {
+      "d_unigramH_rep3_minus_rep1": 0.04089434857749996,
+      "d_distinct2": 0.012758823187347001,
+      "rep3_injects_flux": false
+    },
+    "seed42": {
+      "d_unigramH_rep3_minus_rep1": 0.05611313261975681,
+      "d_distinct2": 0.01076484250125842,
+      "rep3_injects_flux": false
+    }
+  },
+  "elapsed_s": 801.5
+}
