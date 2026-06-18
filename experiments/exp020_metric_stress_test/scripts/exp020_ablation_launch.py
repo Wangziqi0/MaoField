@@ -36,6 +36,7 @@ print("[exp020-abl] manual-LN patch active", flush=True)
 ap = argparse.ArgumentParser()
 ap.add_argument("--seed", required=True)
 ap.add_argument("--base-mode", required=True, choices=["gen0", "prev"])
+ap.add_argument("--prompt-mode", default="real", choices=["real", "synthetic"])
 ap.add_argument("--output-base", required=True)
 ap.add_argument("--num-generations", default="10")
 ap.add_argument("--config", default="configs/cat_arm_b.yaml")
@@ -45,7 +46,7 @@ a = ap.parse_args()
 
 os.makedirs(a.manifest_dir, exist_ok=True)
 man = {"exp": "exp020_round3_ablation", "seed": a.seed, "base_mode": a.base_mode,
-       "output_base": a.output_base, "ts_start": time.strftime("%Y-%m-%dT%H:%M:%S%z"),
+       "output_base": a.output_base, "prompt_mode": a.prompt_mode, "ts_start": time.strftime("%Y-%m-%dT%H:%M:%S%z"),
        "host": socket.gethostname(), "torch": torch.__version__, "ln_patch": "manual_v1",
        "num_generations": a.num_generations, "smoke": a.smoke}
 mpath = os.path.join(a.manifest_dir, "manifest_abl_%s_s%s.jsonl" % (a.base_mode, a.seed))
@@ -54,7 +55,7 @@ print("[exp020-abl] seed=%s base_mode=%s out=%s smoke=%s" % (a.seed, a.base_mode
 
 argv = ["run_arm_b_ablation.py", "--alpha", "0.0", "--seed", a.seed,
         "--condition", "no_preserve", "--num-generations", a.num_generations,
-        "--config", a.config, "--base-mode", a.base_mode, "--output-base", a.output_base]
+        "--config", a.config, "--base-mode", a.base_mode, "--prompt-mode", a.prompt_mode, "--output-base", a.output_base]
 if a.smoke: argv.append("--smoke-test")
 sys.argv = argv
 

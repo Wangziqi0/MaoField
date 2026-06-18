@@ -88,6 +88,7 @@ def main():
                         help="只跑 1 generation × 1 epoch × 32 train sentences (~5 min)")
     parser.add_argument("--output-base", type=str, default="data/checkpoints_armb")
     parser.add_argument("--base-mode", type=str, default="gen0", choices=["gen0","prev"], help="gen0=每代重置回gen0(原版canonical); prev=continue上一代(消融:剥base-reset外锚)")
+    parser.add_argument("--prompt-mode", type=str, default="real", choices=["real","synthetic"], help="real=真wikitext前缀(原版); synthetic=用上一代合成数据作prompt(消融:剥real-prompt外锚)")
     args = parser.parse_args()
 
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
@@ -244,6 +245,7 @@ def main():
     })
 
     # ----- Step 3: gen 1..N self-iteration with CAT enabled -----
+    prev_synth_ds = None  # ABLATION A: prompt-mode synthetic 存上一代合成数据
     for g in range(1, n_generations):
         if g < resume_from:
             # 5/10 RESUME: gen g 已有 ckpt, 重 eval test_ppl 写 jsonl, 跳过 fine-tune + generate
@@ -286,7 +288,7 @@ def main():
         synth_ds = generate_synthetic_dataset(
             model_path=str(prev_gen_dir),
             tokenizer_id=cfg.model.hf_id,
-            real_train_blocks=train_blocks,
+            real_train_blocks=(prev_synth_ds if (args.prompt_mode=="synthetic" and prev_synth_ds is not None) else train_blocks),  # ABLATION A: prompt-mode
             num_beams=cfg.generation.num_beams,
             prompt_length=cfg.generation.prompt_length,
             max_new_tokens=cfg.generation.max_new_tokens,
@@ -294,6 +296,7 @@ def main():
             fp16=cfg.fine_tune.fp16,
             repetition_penalty=cfg.generation.repetition_penalty,
         )
+        prev_synth_ds = synth_ds  # ABLATION A: 供下一代作 prompt
         # 3b 按 condition 混 real + synthetic
         gen_train_ds = build_mixed_generation_dataset(
             real_train=train_blocks,
