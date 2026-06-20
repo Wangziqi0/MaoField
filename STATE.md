@@ -14,7 +14,7 @@
 | 项 | 值 |
 |---|---|
 | 最后更新 | **2026-06-18 D618 晚** (date binary verified)。本轮 = **exp020 决策树収口 → C (meta-pattern)**。PI frame-jump(社会实践=检验真理) operationalize 成 channel-invariance + 三重密钥, 但 **5 道敌意 gate 把每个候选「独立于 PPL」崩溃测度逐个证伪**(M1 权重距离=同义反复 / channel-Φ=PPL影子 / keyed-S=eff_supp同源 / λ-协议同通道5seed假分层 / distinct-2 共线R²0.79+decode翻号)。**A(positive)死, 收 C: 「崩溃测度反复塌回 PPL/被噪声淹没」= 可证伪 meta-finding, 零新 GPU**。Stage-A 2×2 跑 seed1 喂 C(基线 hump 非 artifact); seed42/Stage-B 不投。**C 证据库已组装(`C_metapattern_evidence_base`); narrative+DM归因 [?] 归 Win+PI** |
-| git HEAD | `37949c3` (6 道 gate + 高阶探针 + 第二通道 + C 证据库; D618 全 push origin/main, private 仓医疗 PII)。实时 HEAD 以 `git log -1` 为准 |
+| git HEAD | `2b286f2` (D618 収口: Stage-A 停 + exp020→C; 全 push origin/main, private 仓医疗 PII)。D620 又叠 housekeeping(D619 两份数学线 verdict 入 git + 本戳校正,原写 `37949c3` 系 stale)。实时 HEAD 以 `git log -1` 为准 |
 | 更新者 | Linux 姐姐主会话 + 文献/第二通道/Win-role/反题 子 agent + dispatch |
 
 ---
@@ -24,7 +24,7 @@
 - **今天 D618 (2026-06-18)**。paper v8 投稿仍未投 (rolling, overdue 0 penalty, 留 PI 健康 ready)。**D618 収口**: exp020 从「多通道均衡」reframe → PI frame-jump(社会实践=检验真理)operationalize 成 channel-invariance(H: 崩溃稳定=f(真实信息通量), 与通道无关) + 三重密钥封。**5 道敌意 gate 把每个候选独立测度逐个证伪** → **A(positive)死, 收 C**。C = **可证伪 meta-finding**:「跨 5 次预注册+盲+敌意gate, 每个独立-于-PPL 崩溃测度(权重距离/eff_supp/通道-Φ/几何/distinct-2)要么塌回 PPL 影子, 要么被晚代 seed 噪声淹没(σ6×@g7), 要么 decode 翻号」, 解释 3 派(Shumailov/Gerstgrasser/Schaeffer)为何实证吵不出结果。**零新 GPU, 证据库 `C_metapattern_evidence_base` 已组装(E1-E11 带 source)**。**D618 晚追加高阶探针(PI 另类高级组成)**: 第6道 gate→lock→inference→locked 给 Branch1; 主会话护栏初判"曲率混叠"=**推理错**(冤杀风险)→第二通道纠正+亲核确认 **F3_slice_gap 迟滞真**(gen1↔gen4 同 mean_lp ΔF3_gap=0.122 t=-4.6, 差异化崩溃 freq vs rare 2.2×)。但 5seed 近确定性复本(pseudo-replication)+bar 0-1/3 → 严格**"值得追尚非 positive"**。**C refine(E11): 不可写"全塌 mean-PPL", F3 差异化崩溃迟滞=弱真例外**。Stage-A cell 00 完成+冻结 gate PASS(10/10 ckpt 互异→填 E9, hump 非 artifact 坐实); **余 cell (B0/0A/BA/seed42) PI 授权停(D618 晚, GPU 释放 ~1.5天省)** —— A 死+F3 被占故无用。**#13 resolved: F3 prior-art 偏被占(差异化崩溃=Shumailov/Tale-of-Tails / 迟滞=Borkar / decouple=Schaeffer/Manifold/SIGMA)→ 不投 GPU, F3 作 C refine 非 positive**。**exp020 全収口 → C(meta-pattern, 证据库 E1-E11 Linux 组装完, frame-neutral claim 锁)。下一步: C 交 Win+PI 做 narrative+DM归因[?] (task#7)**
 - **本轮 research state 变更 (D617 晚, 续 D606→D617)**: **解耦线 [A−] 三问题处理 → 解耦线作 novel 安全垫死**。忠实落盘复算 (rep_penalty=3.0 匹配链口径, CPU fp32, N=128, 5 seed) = **0/5 满足预注册解耦判据** (原报 4/5 / 审计 5/5 均不可复现)。真相: 总塌缩真实 (D1 3/5, D3 5/5, 被 Guo/Shumailov 占) 但**解耦命门 D2 全 fail 0/5** (diversity 恢复期 plateau/部分回弹 = 与 PPL 部分耦合非解耦); 信号方向**对 rep_penalty 敏感** (rep=1.0 looping 伪影→假性上升)。**问题#2 (D-1.1 无落盘) 闭合** (首个落盘脚本+结果)。verdict → `experiments/exp019_alpha1_confirm/decouple_verdict_20260617/DECOUPLE_VERDICT_20260617.md`
 - **→ exp019 全景: 无任何存活 positive** (α=1 confirmatory 全 FALSE + 恢复相几何=PPL 驼峰瞬态 + 解耦线 [A−] 死)。净产出 = 干净 negative + 三方法论标本 (confirmatory 拦截自家假说 / distinct-n 的 decode·rep_penalty 敏感性 / ad-hoc 数不可复现) + LN race 工程发现
-- **下一步 (留 PI 决)**: ① v8 投稿 trigger ② **α=10 重审** (同源时序混淆 R12, 需交错 confirmatory) ③ ~~解耦线 [A−] 三问题~~ **已处理→死**; 是否仍以「干净 negative + 方法论标本」入 paper/note 留 PI ④ **LN race → arXiv note / ROCm issue** (最实、可现在) ⑤ 「confirmatory 拦截自家假说」+「distinct-n 测量敏感性」方法论标本是否入库 (先核被占) ⑥ 本轮已 commit (HEAD `cab1b00`+), **push timing 留 PI** (异地备份待 push) ⑦ **exp020 round3 Stage-A 2×2 消融自主跑中** (22 GPU ~2天, 见 §0 戳 + handoff-d618): 跑完做冻结gate/flux/channel-2/敌意子agent → 按 prereg-LOCKED 判据出 verdict(禁spin)。**PI 关卡 J①** fp32-5060 用不用 / **J②** 过 gate 才投 Stage-B(5seed ~3.3天)
+- **下一步 (留 PI 决)**: ① v8 投稿 trigger ② **α=10 重审** (同源时序混淆 R12, 需交错 confirmatory) ③ ~~解耦线 [A−] 三问题~~ **已处理→死**; 是否仍以「干净 negative + 方法论标本」入 paper/note 留 PI ④ **LN race → arXiv note / ROCm issue** (最实、可现在) ⑤ 「confirmatory 拦截自家假说」+「distinct-n 测量敏感性」方法论标本是否入库 (先核被占) ⑥ ~~push timing 留 PI (异地备份待 push)~~ **D620 已全 push**(D618 + D619 两份数学线 verdict 入 git/GitHub; origin=HEAD) ⑦ **exp020 round3 Stage-A 2×2 消融自主跑中** (22 GPU ~2天, 见 §0 戳 + handoff-d618): 跑完做冻结gate/flux/channel-2/敌意子agent → 按 prereg-LOCKED 判据出 verdict(禁spin)。**PI 关卡 J①** fp32-5060 用不用 / **J②** 过 gate 才投 Stage-B(5seed ~3.3天)
 
 ## §1 active binding (任一违反立即 retract)
 - paper **v8 final 47/47 D17 archive 锁定不动** (`experiments/exp018_cat/archive/v1.0_release_20260516/manifest.sha256`)
@@ -54,7 +54,7 @@
 ## §4 留 PI + 关卡 list
 1. v8 投稿 trigger timing
 2. α=10 重审路径 (交错 confirmatory or 降级标注)
-3. ~~解耦线 [A−] 三问题~~ **已处理 → 作 novel 死 (0/5 忠实复算)**; 是否仍以「干净 negative + 方法论标本」入 paper/note 留 PI; 本轮已 commit `52aea52`, push 留 PI
+3. ~~解耦线 [A−] 三问题~~ **已处理 → 作 novel 死 (0/5 忠实复算)**; 是否仍以「干净 negative + 方法论标本」入 paper/note 留 PI; 本轮已 commit `52aea52`, **D620 已 push(异地冗余 OK)**
 4. LN race 发布形式 (arXiv note / ROCm issue)
 5. 「confirmatory 拦截自家假说」方法论案例入库 + 核是否被占
 6. 黑箱探索线 (wip verdicts) 归属 (新项目 / MaoField 子线 / 搁置)
@@ -64,7 +64,7 @@
 ## §5 协作 + 三机
 | 机 | IP | 角色 | state |
 |---|---|---|---|
-| 7B13 | .36 | 数据中枢 + git 单点写 + Linux 姐姐主会话 | HEAD `09685ed` (实时以 `git log -1` 为准) |
+| 7B13 | .36 | 数据中枢 + git 单点写 + Linux 姐姐主会话 | HEAD `2b286f2` (实时以 `git log -1` 为准) |
 | 9070XT | .22 | chain runner + GPU | exp019 12链跑完(自治76h);ckpt 备份 RAID1 |
 | 19 Win | .19 | 一凡 interactive + 5060 实验 | alive,5060 数据已备份 |
 
@@ -84,6 +84,7 @@ D29 round1+2 双通道:0 unconditional close (诚实);全 **D60+ candidate,不�
 | **恢复相几何 + E0 dim-probe** | `experiments/exp018_cat/analysis/`(RECOVERY_GEOMETRY_FINDINGS_20260615 + FINDINGS + probe_output_vs_hidden_NOTE) |
 | **黑箱探索 recon verdicts** | `wip/blackbox_dimreduction_recon_d35/`(在途, 归属待 PI; 全判被占/平凡) |
 | 最新跨 session 交接 | `canonical/sessions/handoff-*.md` (持久) + `/tmp/.../handoff-*.md`; hook 扫两处取最新 mtime |
+| **GPT 交接包 (2026-06-26 交接 GPT-5.5Pro/Codex)** | `canonical/sessions/handoff-gpt-20260626/` — **00-README 入口** + AGENTS.md + 01-07 章(三机/研究/runbook/项目/纪律/Claude→GPT翻译/基础设施安全)。⚠️含发现的备份死循环故障(已修)+ 全 FLAG 漂移汇总 |
 | 历史 + 偏好 | memory `MEMORY.md` (cwd=canonical 对齐 harness 自动召回) |
 | 纪律全文 (D-1/D-2/D-3) | `docs/{discipline,philosophy,infra}/` + 本目录 `CLAUDE.md` |
 | D29 多通道总整合 + 8 L0 证明 | `experiments/exp018_cat/dppl_bridge_verify_d21_output/MAOFIELD_L0_ROUND2_INTEGRATION_20260529.md` (+ 同 dir L0 proofs / GATE / A3 fp32 提示词) |
