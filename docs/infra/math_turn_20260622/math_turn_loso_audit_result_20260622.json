@@ -1,0 +1,148 @@
+{
+  "generated_at_note": "2026-06-22 node36; rerun script for exact wall time",
+  "input": "/media/amd/raid1/canonical/projects/MaoField/experiments/exp020_metric_stress_test/highorder_ppl_20260618/highorder_result.json",
+  "n_rows": 50,
+  "seeds": [
+    1,
+    2,
+    3,
+    4,
+    42
+  ],
+  "gens": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "loso": {
+    "F1_var": {
+      "model_a": "poly5(mean_lp)",
+      "model_b": "poly5(mean_lp)+gen+gen^2",
+      "cv_r2_model_a": 0.9735734611131677,
+      "cv_r2_model_b": 0.9958977319395051,
+      "delta_r2": 0.022324270826337478,
+      "permutation_null": {
+        "n_perm": 2000,
+        "mean": -0.0022604242241093704,
+        "sd": 0.0019269976387472768,
+        "p_one_sided": 0.0004997501249375312
+      },
+      "passes_weak_loso_delta_gate": true
+    },
+    "F1_tail": {
+      "model_a": "poly5(mean_lp)",
+      "model_b": "poly5(mean_lp)+gen+gen^2",
+      "cv_r2_model_a": 0.9824072959514752,
+      "cv_r2_model_b": 0.9951747728803597,
+      "delta_r2": 0.01276747692888447,
+      "permutation_null": {
+        "n_perm": 2000,
+        "mean": -0.001371027336382893,
+        "sd": 0.0013347134788616042,
+        "p_one_sided": 0.0004997501249375312
+      },
+      "passes_weak_loso_delta_gate": false
+    },
+    "F3_slice_gap": {
+      "model_a": "poly5(mean_lp)",
+      "model_b": "poly5(mean_lp)+gen+gen^2",
+      "cv_r2_model_a": 0.8963740396564872,
+      "cv_r2_model_b": 0.947624183626052,
+      "delta_r2": 0.05125014396956484,
+      "permutation_null": {
+        "n_perm": 2000,
+        "mean": -0.006962958232593461,
+        "sd": 0.007988061137694185,
+        "p_one_sided": 0.0004997501249375312
+      },
+      "passes_weak_loso_delta_gate": true
+    }
+  },
+  "matched_mean": {
+    "F1_var": {
+      "0.02": {
+        "n_pairs": 27,
+        "frac_same_sign_as_delta_gen": 0.5925925925925926,
+        "z_vs_half": 0.9622504486493759,
+        "mean_slope_per_delta_gen": -0.06746980879041883,
+        "passes_stability_gate": false
+      },
+      "0.04": {
+        "n_pairs": 62,
+        "frac_same_sign_as_delta_gen": 0.5,
+        "z_vs_half": 0.0,
+        "mean_slope_per_delta_gen": -0.11063135054803663,
+        "passes_stability_gate": false
+      }
+    },
+    "F1_tail": {
+      "0.02": {
+        "n_pairs": 27,
+        "frac_same_sign_as_delta_gen": 0.5925925925925926,
+        "z_vs_half": 0.9622504486493759,
+        "mean_slope_per_delta_gen": -0.0004194836370762307,
+        "passes_stability_gate": false
+      },
+      "0.04": {
+        "n_pairs": 62,
+        "frac_same_sign_as_delta_gen": 0.5483870967741935,
+        "z_vs_half": 0.7620007620011423,
+        "mean_slope_per_delta_gen": -0.0007352137203447695,
+        "passes_stability_gate": false
+      }
+    },
+    "F3_slice_gap": {
+      "0.02": {
+        "n_pairs": 27,
+        "frac_same_sign_as_delta_gen": 0.4444444444444444,
+        "z_vs_half": -0.577350269189626,
+        "mean_slope_per_delta_gen": 0.005305718492578577,
+        "passes_stability_gate": false
+      },
+      "0.04": {
+        "n_pairs": 62,
+        "frac_same_sign_as_delta_gen": 0.5806451612903226,
+        "z_vs_half": 1.2700012700019057,
+        "mean_slope_per_delta_gen": 0.011792273290695685,
+        "passes_stability_gate": false
+      }
+    }
+  },
+  "rank_residual": {
+    "available_slices": [
+      "F3_slice_rare",
+      "F3_slice_freq"
+    ],
+    "status": "diagnostic_only_two_slice_aggregate",
+    "singular_values": [
+      0.8211162511783293,
+      2.688366555284427e-17
+    ],
+    "sigma2_over_sigma1": 3.2740389091392734e-17,
+    "passes_rank_gate": false,
+    "reason": "The current highorder_result.json has only rare/freq aggregate slice means. This cannot certify the proposed fixed J>=4 mean-null vector field."
+  },
+  "final_verdict": {
+    "verdict": "insufficient_artifact",
+    "allowed_claim": "Current aggregate high-order artifact supports at most a weak F3 lead. It does not authorize training a new vector-field loss.",
+    "blocked_claims": [
+      "LOSO passed as primary artifact",
+      "mean-null vector field survives",
+      "glass box broken",
+      "F3 is a positive finding"
+    ],
+    "gate_summary": {
+      "f3_loso_delta_gate": true,
+      "f3_matched_mean_all_tolerances": false,
+      "rank_residual_gate": false
+    },
+    "next_step": "If PI approves, build a raw-logprob/checkpoint mode with fixed pre-registered slices and write a new primary JSON before any training implementation."
+  }
+}
