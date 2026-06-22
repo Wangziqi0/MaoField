@@ -2,6 +2,8 @@
 
 > Draft prereg for review. Not locked. Do not run checkpoint inference from
 > this file. Checkpoint inference requires a separate locked runbook/schema.
+> 2026-06-22 17:08 CST: execution superseded by
+> `PANEL_PRIMARY_ARTIFACT_RUNBOOK_20260622.md`; keep this file as review trail.
 
 ## Purpose
 

@@ -3,6 +3,9 @@
 > Node36 coordination file, 2026-06-22 16:46 CST.
 > Purpose: make the current multi-agent task durable even if session context is
 > compacted. This is a coordination/spec file, not a result verdict.
+> 2026-06-22 17:08 CST update: execution moved to
+> `PANEL_PRIMARY_ARTIFACT_RUNBOOK_20260622.md` and
+> `panel_schema_freq_q4_audit_targets_20260622.json`.
 
 ## Status Check
 
@@ -87,6 +90,8 @@ Because the tool has a live-agent concurrency limit, dispatch was staged.
   a locked runbook until train/eval naming, schema freezing, multiplicity,
   cluster/replication, nuisance leakage, rank/noise-floor, and wording gates
   are specified.
+- `main-thread`: locked q4 schema/runbook created. q8 sensitivity candidate is
+  not locked because the preregistered edge policy creates an empty bin.
 
 ## Main-Thread Responsibilities
 
@@ -186,7 +191,7 @@ Preliminary candidate only, not locked:
 
 ## Immediate Next Work
 
-1. Revise the prereg draft into a locked runbook/schema only after the
-   antithesis gates above are specified.
-2. Only after prereg/runbook review, implement a checkpoint/logprob panel
-   generator.
+1. Implement a checkpoint/logprob panel generator with manifest-only and
+   one-checkpoint-smoke modes.
+2. Do not run the full 50-checkpoint panel until the generator passes the
+   data-source and schema-freeze gates in the locked runbook.
