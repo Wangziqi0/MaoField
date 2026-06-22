@@ -1,0 +1,128 @@
+{
+  "artifact_kind": "maofield_panel_primary_manifest",
+  "artifact_version": "2026-06-22.d622.generator.v3",
+  "created_at": "2026-06-22T21:47:37",
+  "repo_head": "06394dd7593ac94e80bcf11881b2b108dee2fba6",
+  "artifact_generation_repo_head": "06394dd7593ac94e80bcf11881b2b108dee2fba6",
+  "provenance_note": "repo_head is the artifact-generation commit. The git commit that records this manifest may be later; compare both explicitly in review bundles.",
+  "dirty_state_note": "## main...origin/main\n?? .codex/\n?? AGENTS.md",
+  "schema_path": "docs/infra/math_turn_20260622/panel_schema_freq_q4_audit_targets_20260622.json",
+  "schema_sha256": "25027448058bab6e79aa27f5c96446ccdfed85a01855a0d6d60db244c84d64d7",
+  "schema_builder_path": "scripts/build_panel_schema_20260622.py",
+  "builder_script_sha256": "ad71fdb55258b4a1b26bfcf28aa9893fba52a358bbd6b1a03670579677932969",
+  "generator_script_path": "experiments/exp020_metric_stress_test/scripts/highorder_raw_logprob_panel.py",
+  "generator_script_sha256": "69cd6419b44969167411045172c1df8331c770b22e2f5195a1d048c9e0f6bf62",
+  "source_split": "train",
+  "input_ids_sha256": "36ab5539fd93af5f83ca972204f463b2a4a26fd7782a6aca6c3aa60149ca6a04",
+  "target_ids_sha256": "3b9ba1a5782857a11ce71b3c3ff8814ed7fbcd5e047da0e66a803f2bc2db8b7b",
+  "target_counts_sha256": "9ccda56cbf334b807276352645e96b1910b03e7e01e3b8f3f00904b5f58ef221",
+  "checkpoint_root": "experiments/exp018_cat/data/checkpoints_armb/alpha0.0",
+  "seeds": [
+    1,
+    2,
+    3,
+    4,
+    42
+  ],
+  "generations": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "device": "cpu",
+  "dtype": "float32",
+  "batch_size": 32,
+  "no_training": true,
+  "no_backward": true,
+  "no_optimizer_step": true,
+  "no_new_loss": true,
+  "no_text_generation": true,
+  "schema_status": "locked_primary_q4__q8_sensitivity_not_locked",
+  "primary_schema_id": "freq_q4_audit_targets_20260622",
+  "primary_q4_edges": [
+    2,
+    10,
+    73
+  ],
+  "primary_q4_bin_sizes": [
+    1374,
+    2581,
+    2020,
+    2089
+  ],
+  "q8_lock_status": "not_locked_empty_bin",
+  "claim_policy": {
+    "strongest_allowed_verdict": "eligible_for_next_design_review_only",
+    "forbidden_claims": [
+      "LOSO passed",
+      "F3 positive",
+      "mean-null vector field survives",
+      "glass box broken",
+      "training authorized",
+      "new loss authorized"
+    ]
+  },
+  "gate_status": {
+    "data_source_gate": "pass",
+    "schema_freeze_gate": "pass",
+    "full_panel_generated": false,
+    "training_authorized": false,
+    "one_checkpoint_smoke": "pass",
+    "old_aggregate_reproduction": "pass"
+  },
+  "run_mode": "one_checkpoint_smoke",
+  "seed": 2,
+  "generation": 5,
+  "checkpoint_path": "experiments/exp018_cat/data/checkpoints_armb/alpha0.0/no_preserve_seed2/generation_5",
+  "raw_jsonl_path": "/media/amd/raid1/canonical/wip/maofield_panel_primary_20260622/raw/smoke_seed2_generation5_token_panel.jsonl",
+  "raw_jsonl_sha256": "3449396dc2378c939d8ae10f8fa95d6b3e786f68c0fc307f7bdbbd10c6b440cc",
+  "elapsed_s": 2.512,
+  "one_checkpoint_smoke": true,
+  "full_panel_generated": false,
+  "reproduction_gate": {
+    "status": "pass",
+    "tolerance_abs": 1e-05,
+    "tau_from_old_result": -9.005631446838379,
+    "rare_threshold": 2.0,
+    "freq_threshold": 103.0,
+    "computed": {
+      "mean_lp": -3.6537632942199707,
+      "F1_var": 12.140450477600098,
+      "F1_tail": 0.09275793650793651,
+      "F3_slice_rare": -5.735270977020264,
+      "F3_slice_freq": -1.5748860836029053,
+      "F3_slice_gap": 4.1603851318359375
+    },
+    "expected_old_row": {
+      "mean_lp": -3.6537632942199707,
+      "F1_var": 12.140450477600098,
+      "F1_tail": 0.09275793650793651,
+      "F3_slice_rare": -5.735270977020264,
+      "F3_slice_freq": -1.5748860836029053,
+      "F3_slice_gap": 4.1603851318359375
+    },
+    "diffs": {
+      "mean_lp": 0.0,
+      "F1_var": 0.0,
+      "F1_tail": 0.0,
+      "F3_slice_rare": 0.0,
+      "F3_slice_freq": 0.0,
+      "F3_slice_gap": 0.0
+    },
+    "abs_diffs": {
+      "mean_lp": 0.0,
+      "F1_var": 0.0,
+      "F1_tail": 0.0,
+      "F3_slice_rare": 0.0,
+      "F3_slice_freq": 0.0,
+      "F3_slice_gap": 0.0
+    }
+  }
+}
