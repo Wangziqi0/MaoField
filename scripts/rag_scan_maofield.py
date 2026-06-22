@@ -134,6 +134,8 @@ def is_generated_rebuild_artifact(path: Path, root: Path) -> bool:
     return (
         name in GENERATED_REBUILD_FILENAMES
         or name.startswith("canonical_scope_active_")
+        or name.startswith("rag_build_node22_candidate_")
+        or name.startswith("rag_build_node22_final_")
         or name.startswith("rag_rebuild_36_")
     )
 
@@ -318,6 +320,11 @@ def write_digest(rows: list[dict[str, object]], root: Path, out_path: Path) -> N
         "decouple",
         "metapattern",
         "manifest",
+        "aggregate",
+        "panel",
+        "q4",
+        "schema",
+        "smoke",
         "jsonl",
     )
     key_data = [
@@ -327,6 +334,26 @@ def write_digest(rows: list[dict[str, object]], root: Path, out_path: Path) -> N
     key_rows = [
         [row["rel_path"], f"{mib(int(row['size_bytes'])):.3f}", row["ext"]]
         for row in key_data
+    ]
+    q4_patterns = (
+        "panel_primary_20260622",
+        "panel_schema_freq_q4",
+        "negative_smoke_20260622",
+        "multi_checkpoint_smoke_20260622",
+        "one_checkpoint_smoke_seed",
+    )
+    q4_data = [
+        row for row in data_rows
+        if any(pat in str(row["rel_path"]).lower() for pat in q4_patterns)
+    ]
+    q4_rows = [
+        [
+            row["rel_path"],
+            f"{mib(int(row['size_bytes'])):.3f}",
+            row["ext"],
+            row["sha256_if_small"],
+        ]
+        for row in q4_data
     ]
 
     text = f"""# MaoField RAG Data Digest — 2026-06-22
@@ -372,6 +399,14 @@ This is a path index for follow-up verification. It is deliberately not a
 substitute for reading the files or running their companion scripts.
 
 {markdown_table(key_rows, ['path', 'MiB', 'ext'])}
+
+## Current Q4 Panel / Smoke Data Files
+
+These D622 files are high-priority verification targets for the q4
+implementation-review gate. They remain digest-only: do not treat this table as
+primary evidence.
+
+{markdown_table(q4_rows, ['path', 'MiB', 'ext', 'sha256_if_small'])}
 
 ## Guardrails
 

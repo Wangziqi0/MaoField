@@ -8,6 +8,10 @@
 > provenance cleanup, full-panel mode implementation, and a separate fold-local
 > q4 analysis path. D622 21:49 update: negative and multi-checkpoint smokes now
 > pass, but full-panel generation remains not approved.
+> D622 post-q4 update: default node36 RAG was rebuilt with temporary node22
+> bge-m3 GPU vector acceleration; report (6), adoption notes, and q4 smoke
+> records are now discoverable through default RAG. RAG remains a locator, not
+> evidence.
 
 ## 0. Scope And Evidence Boundary
 
@@ -438,9 +442,9 @@ Known coverage caveats:
 - `MD_CATALOG.md` is useful but stale; it is a navigation map, not latest truth.
 - `sessions/handoff-gpt-20260626/` is outside the MaoField repo and not reliably available to GitHub/web indexing.
 - This file is the repository-local replacement for the research subset of that handoff.
-- As of the D622 21:21 q4 strict-audit adoption, local RAG has not yet been
-  rebuilt to include report (6). Use direct file reads for report (6) until the
-  RAG index is regenerated.
+- As of the D622 post-q4 rebuild, default local RAG includes report (6), adoption notes, q4
+  runbook/smoke records, and the refreshed data digest. Use RAG to locate
+  files, then verify claims against code, JSON/JSONL, logs, or verdict files.
 
 ## 9. GitHub / Web Indexing Package
 

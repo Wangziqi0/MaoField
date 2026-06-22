@@ -11,11 +11,19 @@ the canonical RAG index.
 - `scope_include_maofield_active_md.txt` — active MaoField markdown only.
 - `scope_include_maofield_all_nonarchive_md.txt` — non-archive MaoField
   markdown, including superseded entries; not for default RAG.
+- `canonical_scope_active_20260622_230118.txt` — global active canonical scope
+  used for the D622 post-q4 node22-vector rebuild.
+- `NODE22_VECTOR_REBUILD_20260622.md` — rebuild record, index hashes, backup
+  paths, and verification boundary for the temporary node22 GPU vector worker.
 
 ## Policy
 
 Default RAG should index active markdown and this digest. Raw JSON/JSONL/log
 files and checkpoints are evidence targets, not embedding targets.
+
+D622 post-q4: default `/media/amd/raid1/rag/index` was refreshed from a
+node36-controlled rebuild that used node22 only for temporary bge-m3 vector
+generation. See `NODE22_VECTOR_REBUILD_20260622.md`.
 
 Rebuild entry point:
 

@@ -10,23 +10,39 @@ DESKTOP_SPOTCHECK_20260419.md	17476	2026-04-19T08:31:25+00:00	.md	markdown	S	exc
 DESKTOP_SPOTCHECK_ROUND2_20260419.md	16958	2026-04-19T08:57:28+00:00	.md	markdown	S	exclude_markdown_superseded	86df800be62bd11ee7c9f35839b904d3e1e8d9516833477ab48fca1b358a215b
 DESKTOP_SPOTCHECK_ROUND3_20260419.md	8067	2026-04-19T09:13:39+00:00	.md	markdown	S	exclude_markdown_superseded	fac8b179b19a0a1fa868a8bd3d46e27d98e6e869d08628e145fb6c9673c5d3c8
 DESKTOP_SPOTCHECK_ROUND5_20260419.md	5585	2026-04-19T09:21:41+00:00	.md	markdown	S	exclude_markdown_superseded	9b5f1ea9d02ac52f54ea5b45dee1342ad7d8d117a5e3e982c9fcbb7001e6fdcb
-GPT55_PRO_RESEARCH_INDEX_20260622.md	19254	2026-06-21T16:26:33+00:00	.md	markdown	A	index_markdown_active	636eb0669ce4c66975b7dfd742ef8819ebdd85f60b8556a18b60a7bb0a16f9ff
+GPT55_PRO_RESEARCH_INDEX_20260622.md	23304	2026-06-22T15:08:54+00:00	.md	markdown	A	index_markdown_active	40f113628a38bc8695af2ffb7852bf3fd676fcc3d804c8d9695fed4ba406bb2a
 LICENSE	11308	2026-04-18T09:25:21+00:00	[no_ext]	no_extension_or_generated		inventory_only	a83b0783b5835fe2e946c5bc330ea0898aa7c3f3981dcf35ce1d8355c65b70aa
-MD_CATALOG.md	12872	2026-06-22T05:02:35+00:00	.md	markdown	A	index_markdown_active	5c5175593fde87206ef1c8805e0a3af6f95e0eb9d963d0f3149ee77a747e024b
+MD_CATALOG.md	16608	2026-06-22T15:08:46+00:00	.md	markdown	A	index_markdown_active	f8c2c185a8c202165aab1935053bafcc814189f09c0254af0e75cc57aa1a5233
 NOTICE	1114	2026-04-18T09:25:21+00:00	[no_ext]	no_extension_or_generated		inventory_only	074cac52dcc88cb31a5bf6b2d7ce681109e2241291bbb2dcd17353ccde158b75
 NOTICE.md	2873	2026-04-15T06:37:15+00:00	.md	markdown	A	index_markdown_active	1b973f27e12d4e4d7db14bdd5a6ca6295679fe8b5a770752a85547def123a1c5
 README.md	9313	2026-04-18T09:25:21+00:00	.md	markdown	A	index_markdown_active	9b2590fdc5ebdd99dbce275940650df3659fdeb4053573522c7254864b8062b4
 README_zh.md	8157	2026-04-18T09:25:21+00:00	.md	markdown	A	index_markdown_active	349f9d8d1ff6d70d8edfdb35b7cdf3a01cd4f9422e5360baedf5855d87c6099e
-STATE.md	15489	2026-06-22T05:24:32+00:00	.md	markdown	A	index_markdown_active	3548c8e89da673ba2fe7c9e9eecfcec202401c57e3cec678152e8f51f83dbe86
+STATE.md	18234	2026-06-22T15:14:23+00:00	.md	markdown	A	index_markdown_active	c2d59fd5239caac391f14b76722737997f9866669ba79300c26e845ca73abce5
 data/README.md	1256	2026-04-18T09:25:21+00:00	.md	markdown	A	index_markdown_active	6e44b03a3680046901cea2a049330d4e43a4980727c5a1d6d49774c4fd96bdd0
 docs/README.md	1339	2026-04-18T09:25:21+00:00	.md	markdown	A	index_markdown_active	d7bd59c2d4a8d20e2708cc0ca034f3e319b17d8462c1284b30062a598309b3ca
 docs/TIMELINE_D22_D60.md	2699	2026-05-26T06:19:01+00:00	.md	markdown	A	index_markdown_active	027033d36637365a8ee15d664eada5b71321cacc073ce260aa1e3ef6e2ebb6fa
 docs/discipline/D-1-five-disciplines.md	7260	2026-05-26T06:18:27+00:00	.md	markdown	A	index_markdown_active	b0c9a9121d148a304d5aa02e1fa1846de6f74631d23137ec965722ff1b4f058c
 docs/discipline/D-2-parallel.md	2056	2026-05-26T06:18:41+00:00	.md	markdown	A	index_markdown_active	a4ee4f8ce111a0222803af5ebd62f77a3c2e68111750f3dd304326a917bf01f3
-docs/infra/gpt_deep_research/README_20260622.md	1285	2026-06-22T04:09:21+00:00	.md	markdown	A	index_markdown_active	8a942e76544e0e67a7b8c76ee55018ae05bc49d8b87a5297ff0198a5730d95f4
-docs/infra/gpt_deep_research/deep_research_current_code_math_glassbox_20260622.md	28444	2026-06-22T04:07:34+00:00	.md	markdown	A	index_markdown_active	fe25587631dc57cd1734b7346e8dc4b68986c249087639bb10b1bf28776c1aff
-docs/infra/gpt_deep_research/deep_research_previous_measurement_audit_20260622.md	25062	2026-06-22T04:07:34+00:00	.md	markdown	A	index_markdown_active	3f1b1499ab05bdb2c285e53de0d998466a89967b1dfb687fd40f4fe0973ac26d
-docs/infra/rag_rebuild_20260622/README.md	974	2026-06-22T04:11:32+00:00	.md	markdown	A	index_markdown_active	cfa872fd1f11a8f6d9601963031ab7328af81e9037f58c5022dbef60516385fa
+docs/infra/EXPERIMENT_CONVERGENCE_AND_MATH_TURN_20260622.md	5927	2026-06-22T13:24:26+00:00	.md	markdown	A	index_markdown_active	85de662c9b7eec00e80cf81035a04c8c720fe1916d48aaa4ca1dc3bacfe11a7a
+docs/infra/gpt_deep_research/MATH_TURN_FRAMEWORK_ADOPTION_NOTE_20260622.md	2212	2026-06-22T08:39:22+00:00	.md	markdown	A	index_markdown_active	ce3db9b9fd8c1939f5bd0dea7c6b770d8d8c36c70b12f45268e61661ea74fcf9
+docs/infra/gpt_deep_research/Q4_PANEL_STRICT_AUDIT_ADOPTION_NOTE_20260622.md	2809	2026-06-22T13:55:45+00:00	.md	markdown	A	index_markdown_active	16c760be35712a38e096a01342694fc229ccf2609738fafe7f418fa36869d1d0
+docs/infra/gpt_deep_research/README_20260622.md	3520	2026-06-22T13:56:10+00:00	.md	markdown	A	index_markdown_active	00305b9e9ba63018c42c307b2ef8b5ba49cc928953bf4ab0b8f16a12632c5a17
+docs/infra/gpt_deep_research/deep_research_current_code_math_glassbox_20260622.md	28440	2026-06-22T05:47:28+00:00	.md	markdown	A	index_markdown_active	8f07a29cbe595e4d83d032d83e7f5ec2e033e22b06ad600941385eab23f7caa7
+docs/infra/gpt_deep_research/deep_research_math_turn_framework_gate_20260622.md	18752	2026-06-22T08:38:40+00:00	.md	markdown	A	index_markdown_active	c6f4670b33cc153e6c92ae1e4323cc0d81ecfc0bf75055f84165409026a82226
+docs/infra/gpt_deep_research/deep_research_mean_null_vector_field_killtest_20260622.md	37677	2026-06-22T07:51:16+00:00	.md	markdown	A	index_markdown_active	6cb602455b2002af8433de99943b0d5db50f1bc1fe8f6a7662e57ec3dfa506d8
+docs/infra/gpt_deep_research/deep_research_previous_measurement_audit_20260622.md	25044	2026-06-22T05:47:28+00:00	.md	markdown	A	index_markdown_active	c76dc02799affb805f2541524649e12ec8d8722ecdcad83a0ce13640de7c8a4c
+docs/infra/gpt_deep_research/deep_research_q4_panel_strict_audit_20260622.md	22123	2026-06-22T13:27:19+00:00	.md	markdown	A	index_markdown_active	ccb8b75413ac8fe066b9b6ae4c8fe712fa4c1a759c58aeb2504e6244a4309ace
+docs/infra/math_turn_20260622/MATH_TURN_LOSO_AUDIT_VERDICT_20260622.md	1961	2026-06-22T08:13:53+00:00	.md	markdown	A	index_markdown_active	e70ba6fbb29d678a4efa7f47f24e9f101ca275bfe3180d7bfc3747347237e69a
+docs/infra/math_turn_20260622/PANEL_PRIMARY_ARTIFACT_COORDINATION_20260622.md	7937	2026-06-22T09:14:55+00:00	.md	markdown	A	index_markdown_active	84de66670779d7cabf6b3b1690684eeeb7ceeb1fd97eb177566cf49c2fd770c1
+docs/infra/math_turn_20260622/PANEL_PRIMARY_ARTIFACT_MULTI_SMOKE_20260622.md	1781	2026-06-22T13:52:40+00:00	.md	markdown	A	index_markdown_active	96b8c6f97e867c7ef042dbb077547ad7a4ba1c2c6d7a257e0cfce91617204e8b
+docs/infra/math_turn_20260622/PANEL_PRIMARY_ARTIFACT_NEGATIVE_SMOKE_20260622.md	1217	2026-06-22T13:43:22+00:00	.md	markdown	A	index_markdown_active	e6b3fd43e74c78a99f8e65629d88f6c1787714fb75c66e2f1f887e33ff536913
+docs/infra/math_turn_20260622/PANEL_PRIMARY_ARTIFACT_PREREG_DRAFT_20260622.md	6939	2026-06-22T09:15:03+00:00	.md	markdown	A	index_markdown_active	68b604ff5bc70ca73f600e8609fa4ec54e61b0a3f3ec9deaae5a4374a3d819d5
+docs/infra/math_turn_20260622/PANEL_PRIMARY_ARTIFACT_RUNBOOK_20260622.md	9261	2026-06-22T13:55:45+00:00	.md	markdown	A	index_markdown_active	8c087543ed866261f24e0f7a2242cc3625ad3ac63b12994b280d3f8409405d84
+docs/infra/math_turn_20260622/PANEL_PRIMARY_ARTIFACT_SMOKE_20260622.md	4079	2026-06-22T13:56:00+00:00	.md	markdown	A	index_markdown_active	97c2f758ab564c2e25496fc03abb4db70dc74f43e444307a579a3e47ed172812
+docs/infra/math_turn_20260622/math_turn_loso_audit_result_20260622.json	4485	2026-06-22T08:13:53+00:00	.json	structured_or_text_data		digest_only_data	4e234a0336713937420d9c6c5c086a6b75e753dac16d066641cb79343a0a2f5c
+docs/infra/math_turn_20260622/panel_schema_freq_q4_audit_targets_20260622.json	78584	2026-06-22T09:17:28+00:00	.json	structured_or_text_data		digest_only_data	25027448058bab6e79aa27f5c96446ccdfed85a01855a0d6d60db244c84d64d7
+docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REBUILD_20260622.md	2822	2026-06-22T15:09:14+00:00	.md	markdown	A	index_markdown_active	5aafce549dd59e91d6fcca9e92ef8698cd334a1969982014bd31ef427b292cae
+docs/infra/rag_rebuild_20260622/README.md	1466	2026-06-22T15:09:03+00:00	.md	markdown	A	index_markdown_active	7395c9afdc154f137ce372299ce5a91906c6de77e78864ea05a7137c2da587cd
 docs/infra/three-machine-architecture.md	6186	2026-05-23T04:16:55+00:00	.md	markdown	A	index_markdown_active	0255cf9dfef6355e4dfbb05e545c6a4a5081501dbff1d28f54ad6bd6272505a5
 docs/philosophy/D-3-dialectical-reflection.md	19261	2026-05-23T04:16:55+00:00	.md	markdown	A	index_markdown_active	a8e37d14e665c00a9554b407f97a8a9c9ba73625fcabadaeeb1c2232aba79739
 docs/retracted_claims.md	3521	2026-06-03T02:44:30+00:00	.md	markdown	A	index_markdown_active	7f5f138c7f867f5d1c58ca29cbd7484bffee065b8d7d2ac5ee8c28e202adf9ab
@@ -7704,6 +7720,15 @@ experiments/exp020_metric_stress_test/exp020_keyed_channel_invariance_DESIGN_202
 experiments/exp020_metric_stress_test/flux_spec_borkar_distinction_DRAFT_20260618.md	7387	2026-06-18T09:07:34+00:00	.md	markdown	A	index_markdown_active	f7581a44e0a3c4c4a9f327cf5c040ed34dfba2d4f27840bad5495377d3e8bbcf
 experiments/exp020_metric_stress_test/highorder_ppl_20260618/highorder_result.json	15582	2026-06-18T12:05:01+00:00	.json	structured_or_text_data		digest_only_data	7f2b6ffe84cb02feaf77089b1a4583291ac6466265c13d5b3ae7f85acadff25f
 experiments/exp020_metric_stress_test/highorder_ppl_structure_DESIGN_20260618.md	9146	2026-06-18T12:17:55+00:00	.md	markdown	A	index_markdown_active	08e05f2d56191b5e2528872a88772e8da85953d5e8a1f5d8ab992ad6cbda324b
+experiments/exp020_metric_stress_test/panel_primary_20260622/manifest_only_20260622.json	2035	2026-06-22T09:35:28+00:00	.json	structured_or_text_data		digest_only_data	823610fe95a19bd26522705c9f9ed77f46f97c3901fa9e362eeebc46e14efe02
+experiments/exp020_metric_stress_test/panel_primary_20260622/multi_checkpoint_smoke_20260622.json	2875	2026-06-22T13:52:40+00:00	.json	structured_or_text_data		digest_only_data	0bfa40d705ac3cb1a7d3e1981ab694356336988f837a4f7c0be58d6dfeee7b28
+experiments/exp020_metric_stress_test/panel_primary_20260622/negative_smoke_20260622.json	6843	2026-06-22T13:43:22+00:00	.json	structured_or_text_data		digest_only_data	e680754af7dac03edaef0b927d2b34b7057c23bdd55a65f9e86b1b47133184e7
+experiments/exp020_metric_stress_test/panel_primary_20260622/one_checkpoint_smoke_seed1_gen0_aggregate.json	2289	2026-06-22T09:36:01+00:00	.json	structured_or_text_data		digest_only_data	5fa372554d8e5ca86a2e37bc0ec43b275edfe8997e49173dd9d006a5009d8ed4
+experiments/exp020_metric_stress_test/panel_primary_20260622/one_checkpoint_smoke_seed1_gen0_manifest.json	3556	2026-06-22T09:36:01+00:00	.json	structured_or_text_data		digest_only_data	b25f2000532bf6b32eee983355b2a408952d4568ab0ecb5fede370a497d7dea5
+experiments/exp020_metric_stress_test/panel_primary_20260622/one_checkpoint_smoke_seed2_gen5_aggregate.json	2298	2026-06-22T13:47:40+00:00	.json	structured_or_text_data		digest_only_data	132f443fcaace7f47b7fe3d8a6a2c463cb229e91c9886d6d8e1da2f83c14ff83
+experiments/exp020_metric_stress_test/panel_primary_20260622/one_checkpoint_smoke_seed2_gen5_manifest.json	4169	2026-06-22T13:47:40+00:00	.json	structured_or_text_data		digest_only_data	eb5fe379d7f40f392b338ed4e24819a854e3e468896efc5af1b081e80ae93ec8
+experiments/exp020_metric_stress_test/panel_primary_20260622/one_checkpoint_smoke_seed42_gen9_aggregate.json	2299	2026-06-22T13:48:38+00:00	.json	structured_or_text_data		digest_only_data	8c3d1d7df7de4068148f053783e573e2b5514cd3f4737efb7ca8aa66587afd26
+experiments/exp020_metric_stress_test/panel_primary_20260622/one_checkpoint_smoke_seed42_gen9_manifest.json	4168	2026-06-22T13:48:38+00:00	.json	structured_or_text_data		digest_only_data	954764cf0e65e5278e931dc9f86a8cfd5c1116edfa19f46e3a83449469f697e2
 experiments/exp020_metric_stress_test/prereg_exp020_channel_invariance_DRAFT_20260618.md	8906	2026-06-18T09:53:56+00:00	.md	markdown	A	index_markdown_active	49eb9b691c67ad17aa22ea7079d66fe98864f89764b345cad98dcd58dda05dc6
 experiments/exp020_metric_stress_test/prereg_exp020_draft_v0.md	5014	2026-06-17T14:36:59+00:00	.md	markdown	A	index_markdown_active	e1c76e2a82f78939d10184d6d226f539e63c186e84859b162d0740f35c022e6f
 experiments/exp020_metric_stress_test/prereg_exp020_draft_v1.md	5850	2026-06-18T03:50:18+00:00	.md	markdown	A	index_markdown_active	fe4eb344d0645bc2c0498fb55e6738c10166dc22273b4af570d2828ba53322ac
@@ -7715,7 +7740,8 @@ experiments/exp020_metric_stress_test/scripts/armA_testB_pseudoflux.py	4102	2026
 experiments/exp020_metric_stress_test/scripts/exp020_ablation_launch.py	3710	2026-06-18T07:09:36+00:00	.py	code_or_config		inventory_only	91f0869a62f5796ff367e385975fa4a3dc651424194dd3bdbc51d95a951dc036
 experiments/exp020_metric_stress_test/scripts/highorder_2ndchannel_check.py	19966	2026-06-18T12:17:18+00:00	.py	code_or_config		inventory_only	99b5083326e0d9a30110a8ee16a209d22e02101d1a99d8895e9f2cdb3ed524b4
 experiments/exp020_metric_stress_test/scripts/highorder_guardrail_c.py	1600	2026-06-18T12:09:32+00:00	.py	code_or_config		inventory_only	641189a522c2527b49e43f0e202b0fa5da475fa26b15408ab4d67bcb7d8d36e3
-experiments/exp020_metric_stress_test/scripts/highorder_ppl_run.py	6892	2026-06-18T12:02:35+00:00	.py	code_or_config		inventory_only	f05ffd46ccf36ee8fe84e030c88cb6284fbc922ccde92ccc916aea0a91a0e39b
+experiments/exp020_metric_stress_test/scripts/highorder_ppl_run.py	6913	2026-06-22T13:24:26+00:00	.py	code_or_config		inventory_only	f4f4d8c10c2a006437908441d9b2958907033809b782be49fef202793844dc00
+experiments/exp020_metric_stress_test/scripts/highorder_raw_logprob_panel.py	18710	2026-06-22T13:41:47+00:00	.py	code_or_config		inventory_only	69cd6419b44969167411045172c1df8331c770b22e2f5195a1d048c9e0f6bf62
 experiments/exp020_metric_stress_test/scripts/highorder_verify_hysteresis.py	1739	2026-06-18T12:17:18+00:00	.py	code_or_config		inventory_only	b712a2fafaf5367c9eee41543d19e6d003f5497ef8e1f3a05c96dfafb231495c
 experiments/exp020_metric_stress_test/scripts/run_stageA.sh	964	2026-06-18T07:17:58+00:00	.sh	code_or_config		inventory_only	0d8be7f9578eaddf370b9126b445cf45f6fcbc148cad3e245cd93dbd39d9f5ff
 experiments/exp020_metric_stress_test/scripts/verify_gate4_falsestrat.py	1628	2026-06-18T10:19:56+00:00	.py	code_or_config		inventory_only	af8f7920fe89fb61863f4b39e3f33152d69b0c121d0c01b496a6483fa4b4073f
@@ -7727,9 +7753,12 @@ proposed_v0.1.1/CITATION.cff.proposed	2456	2026-04-18T09:53:23+00:00	.proposed	o
 proposed_v0.1.1/DIFF_SUMMARY.md	7708	2026-04-18T09:53:24+00:00	.md	markdown	A	index_markdown_active	27c182c387ce9e27f9d969f417eac173ef4cf0b119cbf462c79ff2a361e72b2e
 proposed_v0.1.1/README.md.proposed	10136	2026-04-18T09:53:23+00:00	.proposed	other		inventory_only	cb1e4c1109284f6da21068d152d23b042847ea22f6df19d07578e53eb1942142
 scripts/README.md	1409	2026-04-18T09:25:21+00:00	.md	markdown	A	index_markdown_active	eb9602b56b43197337052b24de4067eee314e3ca959e0b8fc2284c1042e5d000
+scripts/build_panel_schema_20260622.py	6868	2026-06-22T09:15:18+00:00	.py	code_or_config		inventory_only	ad71fdb55258b4a1b26bfcf28aa9893fba52a358bbd6b1a03670579677932969
+scripts/math_turn_loso_audit.py	12555	2026-06-22T13:20:29+00:00	.py	code_or_config		inventory_only	bfa48810944534051de0cea823960ce953930553cf9378e668fbe50147db3c8f
+scripts/q4_panel_negative_smoke_20260622.py	8871	2026-06-22T13:42:22+00:00	.py	code_or_config		inventory_only	9d763ef15a056aa1db8e0108a77f891d5d295e4e6bf10b50b77471ab186e4ca6
 scripts/rag_rebuild_maofield_36.sh	2005	2026-06-22T04:09:21+00:00	.sh	code_or_config		inventory_only	937729f523c140a7b1fb13935d266c0c5a5c60bdfe772b11a6befa1b1cf31ece
 scripts/rag_rebuild_node22_runner.sh	2764	2026-06-22T04:09:21+00:00	.sh	code_or_config		inventory_only	a09683e4527772e4b2fa43dfdab785aeeeb0a7f75a5d21851cbc282db14fce1d
-scripts/rag_scan_maofield.py	13420	2026-06-22T04:41:53+00:00	.py	code_or_config		inventory_only	e7d23e2485dcd8856266bee9d7fe2b6c488cf8c7bde05a8b321b29c0929ebde7
+scripts/rag_scan_maofield.py	14493	2026-06-22T15:09:51+00:00	.py	code_or_config		inventory_only	e1dc2eeb895da3336985f892e2114d4ee08d0b5f9ce078990b4442c8cb3ba4dc
 sessions/domain_positioning/ANTITHESIS_NATURE_AUDIT.md	30886	2026-05-14T11:59:55+00:00	.md	markdown	A	exclude_markdown_archive_or_wip	2ede72543f639ced95385fd59bdd12256d2185a56e8a72388ab9503a3763b906
 sessions/domain_positioning/DEEPSEEK_CROSS_PHILOSOPHY_AUDIT.md	22079	2026-05-14T11:57:10+00:00	.md	markdown	A	exclude_markdown_archive_or_wip	250c666a298bbf1820850ba20c8a64a12e99b8c378aa5947e8ded81176c5caa7
 sessions/domain_positioning/MATH_SECTION_DRAFT.md	27994	2026-05-14T11:56:08+00:00	.md	markdown	A	exclude_markdown_archive_or_wip	4ad43049cf3bea4232a0811dd49ee2ddce898dc3a131695f07ecd3706aab0061
