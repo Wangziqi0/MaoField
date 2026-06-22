@@ -1,7 +1,9 @@
 # MaoField Math-Turn Panel Primary Artifact Runbook
 
-> Status: locked primary q4 schema, no panel artifact generated yet.
+> Status: locked primary q4 schema, no full panel artifact generated yet.
 > Generated on node36 at 2026-06-22 17:08 CST.
+> 2026-06-22 17:36 CST: manifest-only and seed1/gen0 one-checkpoint smoke
+> passed; see `PANEL_PRIMARY_ARTIFACT_SMOKE_20260622.md`.
 
 ## Boundary
 
