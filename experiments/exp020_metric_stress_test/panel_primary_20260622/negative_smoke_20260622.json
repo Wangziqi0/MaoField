@@ -1,0 +1,71 @@
+{
+  "artifact_kind": "maofield_q4_panel_negative_smoke",
+  "artifact_version": "2026-06-22.d622.negative_smoke.v1",
+  "generated_at": "2026-06-22T21:43:22",
+  "generator": "experiments/exp020_metric_stress_test/scripts/highorder_raw_logprob_panel.py",
+  "schema": "docs/infra/math_turn_20260622/panel_schema_freq_q4_audit_targets_20260622.json",
+  "no_checkpoint_loaded": true,
+  "no_training": true,
+  "no_backward": true,
+  "no_optimizer_step": true,
+  "no_new_loss": true,
+  "no_text_generation": true,
+  "overall_status": "pass",
+  "cases": [
+    {
+      "name": "expected_schema_hash_mismatch",
+      "expected_failure": true,
+      "status": "pass",
+      "returncode": 1,
+      "expected_text": "schema_sha256 mismatch",
+      "matched_expected_text": true,
+      "stdout_tail": "",
+      "stderr_tail": "Traceback (most recent call last):\n  File \"/media/amd/raid1/canonical/projects/MaoField/experiments/exp020_metric_stress_test/scripts/highorder_raw_logprob_panel.py\", line 519, in <module>\n    main()\n    ~~~~^^\n  File \"/media/amd/raid1/canonical/projects/MaoField/experiments/exp020_metric_stress_test/scripts/highorder_raw_logprob_panel.py\", line 503, in main\n    enforce_expected_hashes(args, hashes)\n    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^\n  File \"/media/amd/raid1/canonical/projects/MaoField/experiments/exp020_metric_stress_test/scripts/highorder_raw_logprob_panel.py\", line 237, in enforce_expected_hashes\n    raise ValueError(f\"{key} mismatch: got {got}, expected {expected}\")\nValueError: schema_sha256 mismatch: got 25027448058bab6e79aa27f5c96446ccdfed85a01855a0d6d60db244c84d64d7, expected 0000000000000000000000000000000000000000000000000000000000000000"
+    },
+    {
+      "name": "expected_builder_hash_mismatch",
+      "expected_failure": true,
+      "status": "pass",
+      "returncode": 1,
+      "expected_text": "builder_script_sha256 mismatch",
+      "matched_expected_text": true,
+      "stdout_tail": "",
+      "stderr_tail": "Traceback (most recent call last):\n  File \"/media/amd/raid1/canonical/projects/MaoField/experiments/exp020_metric_stress_test/scripts/highorder_raw_logprob_panel.py\", line 519, in <module>\n    main()\n    ~~~~^^\n  File \"/media/amd/raid1/canonical/projects/MaoField/experiments/exp020_metric_stress_test/scripts/highorder_raw_logprob_panel.py\", line 503, in main\n    enforce_expected_hashes(args, hashes)\n    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^\n  File \"/media/amd/raid1/canonical/projects/MaoField/experiments/exp020_metric_stress_test/scripts/highorder_raw_logprob_panel.py\", line 237, in enforce_expected_hashes\n    raise ValueError(f\"{key} mismatch: got {got}, expected {expected}\")\nValueError: builder_script_sha256 mismatch: got ad71fdb55258b4a1b26bfcf28aa9893fba52a358bbd6b1a03670579677932969, expected 0000000000000000000000000000000000000000000000000000000000000000"
+    },
+    {
+      "name": "wrong_source_split",
+      "expected_failure": true,
+      "status": "pass",
+      "returncode": 1,
+      "expected_text": "schema source_split must be train",
+      "matched_expected_text": true,
+      "stdout_tail": "",
+      "stderr_tail": "Traceback (most recent call last):\n  File \"/media/amd/raid1/canonical/projects/MaoField/experiments/exp020_metric_stress_test/scripts/highorder_raw_logprob_panel.py\", line 519, in <module>\n    main()\n    ~~~~^^\n  File \"/media/amd/raid1/canonical/projects/MaoField/experiments/exp020_metric_stress_test/scripts/highorder_raw_logprob_panel.py\", line 505, in main\n    source_data = build_blocks_and_targets(schema)\n  File \"/media/amd/raid1/canonical/projects/MaoField/experiments/exp020_metric_stress_test/scripts/highorder_raw_logprob_panel.py\", line 110, in build_blocks_and_targets\n    raise ValueError(\"schema source_split must be train\")\nValueError: schema source_split must be train"
+    },
+    {
+      "name": "source_hash_mismatch",
+      "expected_failure": true,
+      "status": "pass",
+      "returncode": 1,
+      "expected_text": "input_ids_sha256 mismatch",
+      "matched_expected_text": true,
+      "stdout_tail": "",
+      "stderr_tail": "Using the latest cached version of the dataset since wikitext couldn't be found on the Hugging Face Hub (offline mode is enabled).\nFound the latest cached dataset configuration 'wikitext-2-raw-v1' at /home/amd/.cache/huggingface/datasets/wikitext/wikitext-2-raw-v1/0.0.0/b08601e04326c79dfdd32d625aee71d232d685c3 (last modified on Wed Jun 17 17:26:26 2026).\nTraceback (most recent call last):\n  File \"/media/amd/raid1/canonical/projects/MaoField/experiments/exp020_metric_stress_test/scripts/highorder_raw_logprob_panel.py\", line 519, in <module>\n    main()\n    ~~~~^^\n  File \"/media/amd/raid1/canonical/projects/MaoField/experiments/exp020_metric_stress_test/scripts/highorder_raw_logprob_panel.py\", line 505, in main\n    source_data = build_blocks_and_targets(schema)\n  File \"/media/amd/raid1/canonical/projects/MaoField/experiments/exp020_metric_stress_test/scripts/highorder_raw_logprob_panel.py\", line 137, in build_blocks_and_targets\n    raise ValueError(f\"{key} mismatch: got {got}, expected {expected}\")\nValueError: input_ids_sha256 mismatch: got 36ab5539fd93af5f83ca972204f463b2a4a26fd7782a6aca6c3aa60149ca6a04, expected 0000000000000000000000000000000000000000000000000000000000000000"
+    },
+    {
+      "name": "q4_bin_size_mismatch",
+      "expected_failure": true,
+      "status": "pass",
+      "returncode": 1,
+      "expected_text": "q4 bin sizes mismatch",
+      "matched_expected_text": true,
+      "stdout_tail": "",
+      "stderr_tail": "Using the latest cached version of the dataset since wikitext couldn't be found on the Hugging Face Hub (offline mode is enabled).\nFound the latest cached dataset configuration 'wikitext-2-raw-v1' at /home/amd/.cache/huggingface/datasets/wikitext/wikitext-2-raw-v1/0.0.0/b08601e04326c79dfdd32d625aee71d232d685c3 (last modified on Wed Jun 17 17:26:26 2026).\nTraceback (most recent call last):\n  File \"/media/amd/raid1/canonical/projects/MaoField/experiments/exp020_metric_stress_test/scripts/highorder_raw_logprob_panel.py\", line 519, in <module>\n    main()\n    ~~~~^^\n  File \"/media/amd/raid1/canonical/projects/MaoField/experiments/exp020_metric_stress_test/scripts/highorder_raw_logprob_panel.py\", line 505, in main\n    source_data = build_blocks_and_targets(schema)\n  File \"/media/amd/raid1/canonical/projects/MaoField/experiments/exp020_metric_stress_test/scripts/highorder_raw_logprob_panel.py\", line 149, in build_blocks_and_targets\n    raise ValueError(f\"q4 bin sizes mismatch: got {bin_sizes}, expected {primary['bin_sizes']}\")\nValueError: q4 bin sizes mismatch: got [1374, 2581, 2020, 2089], expected [1375, 2581, 2020, 2089]"
+    }
+  ],
+  "wording_guard": {
+    "name": "wording_guard",
+    "status": "pass",
+    "hits": []
+  }
+}

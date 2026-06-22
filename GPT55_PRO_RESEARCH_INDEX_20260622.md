@@ -5,7 +5,7 @@
 > **D622 21:21 update.** PRO report (6) has been archived locally as a q4
 > strict bundle audit. It did **not** approve full 50-checkpoint panel
 > generation. Current q4 work is implementation-review eligible only after
-> provenance cleanup, fail-fast negative smokes, multi-checkpoint smoke, and a
+> provenance cleanup, multi-checkpoint smoke, and a
 > separate fold-local q4 analysis path.
 
 ## 0. Scope And Evidence Boundary
@@ -58,6 +58,7 @@ Use this order for a cold start:
    - [Q4_PANEL_STRICT_AUDIT_ADOPTION_NOTE_20260622.md](docs/infra/gpt_deep_research/Q4_PANEL_STRICT_AUDIT_ADOPTION_NOTE_20260622.md)
    - [PANEL_PRIMARY_ARTIFACT_RUNBOOK_20260622.md](docs/infra/math_turn_20260622/PANEL_PRIMARY_ARTIFACT_RUNBOOK_20260622.md)
    - [PANEL_PRIMARY_ARTIFACT_SMOKE_20260622.md](docs/infra/math_turn_20260622/PANEL_PRIMARY_ARTIFACT_SMOKE_20260622.md)
+   - [PANEL_PRIMARY_ARTIFACT_NEGATIVE_SMOKE_20260622.md](docs/infra/math_turn_20260622/PANEL_PRIMARY_ARTIFACT_NEGATIVE_SMOKE_20260622.md)
 
 ## 2. Current Scientific Position
 
@@ -310,7 +311,8 @@ Must fix before launch:
 - Resolve the old non-clean / multi-HEAD provenance issue in generated
   manifests or record artifact-generation commit and recording commit
   explicitly.
-- Add fail-fast negative smokes for schema hash, source hash, and split wording.
+- Fail-fast negative smokes for expected schema hash, expected builder hash,
+  wrong split, source hash, and q4 bin sizes now pass.
 - Add multi-checkpoint smoke coverage before any full panel.
 - Implement a separate q4 full-panel analysis script with fold-local LOSO,
   pairing, projection, and control gates.
@@ -462,8 +464,8 @@ Repository-local evidence preferred for web indexing:
 
 Best next steps for GPT-5.5 Pro research:
 
-1. Do not launch full q4 panel yet; first review provenance, negative-smoke,
-   multi-checkpoint smoke, and fold-local analysis implementation.
+1. Do not launch full q4 panel yet; first review multi-checkpoint smoke and
+   fold-local analysis implementation.
 2. Treat q4 as a locked diagnostic carrier, not a pristine confirmatory proof.
 3. If the q4 implementation gate is repaired, decide whether the 50-checkpoint
    panel is worth running before any training or new-loss work.

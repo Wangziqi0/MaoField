@@ -20,6 +20,10 @@ math turn status  = blocked-until-gated
 full panel        = not approved
 ```
 
+2026-06-22 21:43 CST update: fail-fast negative smokes now pass for expected
+schema hash mismatch, expected builder hash mismatch, wrong source split,
+source hash mismatch, and q4 bin-size mismatch; wording guard also passes.
+
 ## Adopt
 
 - Do not approve full 50-checkpoint q4 panel generation yet.
@@ -28,7 +32,7 @@ full panel        = not approved
 - Before any full panel run, require:
   - manifest provenance fields including `builder_script_sha256`;
   - a clean account of artifact-generation commit versus recording commit;
-  - fail-fast negative smokes for schema/source/split wording gates;
+  - fail-fast negative smokes for schema/source/split wording gates (done);
   - a separate q4 full-panel analysis script with fold-local LOSO, pairing,
     projection, and control gates.
 
@@ -51,8 +55,8 @@ full panel        = not approved
 
 ## Adopted Next Sentence
 
-The q4 locked schema and one-checkpoint smoke are aligned enough to justify a
-full-panel implementation review, but not enough to run the full panel. The
-next local work is provenance cleanup plus negative smokes and a separate
-fold-local q4 analysis path; only after those pass should PI/PRO decide whether
-to launch the 50-checkpoint generation.
+The q4 locked schema, one-checkpoint smoke, and fail-fast negative smokes are
+aligned enough to continue full-panel implementation review, but not enough to
+run the full panel. The next local work is multi-checkpoint smoke coverage plus
+a separate fold-local q4 analysis path; only after those pass should PI/PRO
+decide whether to launch the 50-checkpoint generation.

@@ -89,6 +89,21 @@ def load_json(path: Path) -> dict[str, Any]:
     return json.loads(path.read_text())
 
 
+def repo_display_path(path: Path) -> str:
+    try:
+        return str(path.relative_to(REPO))
+    except ValueError:
+        return str(path)
+
+
+def provenance_hashes(schema_path: Path) -> dict[str, str]:
+    return {
+        "schema_sha256": sha256_file(schema_path),
+        "builder_script_sha256": sha256_file(DEFAULT_BUILDER_SCRIPT),
+        "generator_script_sha256": sha256_file(GENERATOR_SCRIPT),
+    }
+
+
 def build_blocks_and_targets(schema: dict[str, Any]) -> dict[str, Any]:
     source = schema["source"]
     if source["source_split"] != "train":
@@ -153,14 +168,16 @@ def build_blocks_and_targets(schema: dict[str, Any]) -> dict[str, Any]:
     }
 
 
-def base_manifest(schema_path: Path, schema: dict[str, Any], source_data: dict[str, Any]) -> dict[str, Any]:
-    schema_sha256 = sha256_file(schema_path)
-    builder_sha256 = sha256_file(DEFAULT_BUILDER_SCRIPT)
-    generator_sha256 = sha256_file(GENERATOR_SCRIPT)
+def base_manifest(
+    schema_path: Path,
+    schema: dict[str, Any],
+    source_data: dict[str, Any],
+    hashes: dict[str, str],
+) -> dict[str, Any]:
     head = git_head()
     return {
         "artifact_kind": "maofield_panel_primary_manifest",
-        "artifact_version": "2026-06-22.d622.generator.v2",
+        "artifact_version": "2026-06-22.d622.generator.v3",
         "created_at": datetime.now().isoformat(timespec="seconds"),
         "repo_head": head,
         "artifact_generation_repo_head": head,
@@ -170,12 +187,12 @@ def base_manifest(schema_path: Path, schema: dict[str, Any], source_data: dict[s
             "review bundles."
         ),
         "dirty_state_note": git_status_short(),
-        "schema_path": str(schema_path.relative_to(REPO)),
-        "schema_sha256": schema_sha256,
-        "schema_builder_path": str(DEFAULT_BUILDER_SCRIPT.relative_to(REPO)),
-        "builder_script_sha256": builder_sha256,
-        "generator_script_path": str(GENERATOR_SCRIPT.relative_to(REPO)),
-        "generator_script_sha256": generator_sha256,
+        "schema_path": repo_display_path(schema_path),
+        "schema_sha256": hashes["schema_sha256"],
+        "schema_builder_path": repo_display_path(DEFAULT_BUILDER_SCRIPT),
+        "builder_script_sha256": hashes["builder_script_sha256"],
+        "generator_script_path": repo_display_path(GENERATOR_SCRIPT),
+        "generator_script_sha256": hashes["generator_script_sha256"],
         "source_split": schema["source"]["source_split"],
         "input_ids_sha256": source_data["hashes"]["input_ids_sha256"],
         "target_ids_sha256": source_data["hashes"]["target_ids_sha256"],
@@ -206,7 +223,7 @@ def base_manifest(schema_path: Path, schema: dict[str, Any], source_data: dict[s
     }
 
 
-def enforce_expected_hashes(args: argparse.Namespace, manifest: dict[str, Any]) -> None:
+def enforce_expected_hashes(args: argparse.Namespace, hashes: dict[str, str]) -> None:
     checks = {
         "schema_sha256": args.expected_schema_sha256,
         "builder_script_sha256": args.expected_builder_sha256,
@@ -215,7 +232,7 @@ def enforce_expected_hashes(args: argparse.Namespace, manifest: dict[str, Any]) 
     for key, expected in checks.items():
         if expected is None:
             continue
-        got = manifest[key]
+        got = hashes[key]
         if got != expected:
             raise ValueError(f"{key} mismatch: got {got}, expected {expected}")
 
@@ -482,10 +499,11 @@ def main() -> None:
     args = parse_args()
     args.out_dir.mkdir(parents=True, exist_ok=True)
 
+    hashes = provenance_hashes(args.schema)
+    enforce_expected_hashes(args, hashes)
     schema = load_json(args.schema)
     source_data = build_blocks_and_targets(schema)
-    manifest = base_manifest(args.schema, schema, source_data)
-    enforce_expected_hashes(args, manifest)
+    manifest = base_manifest(args.schema, schema, source_data, hashes)
 
     if args.manifest_only:
         path = run_manifest_only(args, manifest)
