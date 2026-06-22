@@ -135,8 +135,9 @@ training authorized
 new loss authorized
 ```
 
-## Next Decision
+## Post-Review Decision
 
-The next decision is whether to allow a full 50-checkpoint q4 panel generation
-under the locked runbook. That decision should wait for PI/Pro review of the
-generator and this smoke record.
+PRO report (6), archived after this smoke record, does not approve a full
+50-checkpoint q4 panel generation yet. The next allowed work is provenance
+cleanup, fail-fast negative smokes, multi-checkpoint smoke coverage, and a
+separate fold-local q4 analysis path before PI/PRO revisits the launch decision.

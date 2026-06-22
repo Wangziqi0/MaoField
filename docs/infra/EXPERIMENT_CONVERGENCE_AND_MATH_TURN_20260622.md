@@ -133,7 +133,7 @@ Stage C: mean-null slice audit.
 - Compute fixed-slice `k_n` or a surrogate from existing checkpoint/eval
   artifacts.
 - Project to `u_n = P_perp k_n`.
-- Test whether projected structure survives nuisance-only prediction.
+- Test whether projected structure remains after nuisance-only prediction.
 
 Kill conditions:
 
@@ -142,14 +142,15 @@ Kill conditions:
 - projected matrix is effectively rank-1 or below noise floor;
 - result depends on unregistered slice choices.
 
-Survival conditions:
+Continuation conditions:
 
 - at least one preregistered projection leaves residual energy above noise;
 - matched-mean contrast has stable direction;
 - LOSO does not collapse the signal into mean/PPL/generation nuisance;
 - slice definition is fixed before reading the outcome.
 
-Only after Stage C survives should the project design a new training run.
+Only after Stage C is eligible for next-design review should the project design
+a new training run.
 
 ## 5. Immediate Next Step
 
@@ -164,5 +165,5 @@ docs/infra/math_turn_20260622/
 
 It should consume existing JSON first and write a machine-readable verdict.
 If the result kills F3/mean-null residuals, the project should accept the
-stronger negative paper path. If it survives, then and only then define the
-vector-field training patch.
+stronger negative paper path. If it remains eligible after the registered
+gates, then and only then define the vector-field training patch.

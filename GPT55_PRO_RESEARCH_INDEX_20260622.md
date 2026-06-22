@@ -2,6 +2,12 @@
 
 > Built on 2026-06-22 after a node-36 takeover audit, six-agent read-only review, RAG-assisted discovery, and direct source reads. This file is a **sanitized repository-local research index** for GitHub / web indexing. It does not replace `STATE.md`; volatile project status still belongs there.
 
+> **D622 21:21 update.** PRO report (6) has been archived locally as a q4
+> strict bundle audit. It did **not** approve full 50-checkpoint panel
+> generation. Current q4 work is implementation-review eligible only after
+> provenance cleanup, fail-fast negative smokes, multi-checkpoint smoke, and a
+> separate fold-local q4 analysis path.
+
 ## 0. Scope And Evidence Boundary
 
 **Purpose.** Give GPT-5.5 Pro a single repository-visible entry point that merges:
@@ -47,6 +53,11 @@ Use this order for a cold start:
    - [D-2-parallel.md](docs/discipline/D-2-parallel.md)
    - [D-3-dialectical-reflection.md](docs/philosophy/D-3-dialectical-reflection.md)
    - [retracted_claims.md](docs/retracted_claims.md)
+7. D622 q4 strict audit:
+   - [deep_research_q4_panel_strict_audit_20260622.md](docs/infra/gpt_deep_research/deep_research_q4_panel_strict_audit_20260622.md)
+   - [Q4_PANEL_STRICT_AUDIT_ADOPTION_NOTE_20260622.md](docs/infra/gpt_deep_research/Q4_PANEL_STRICT_AUDIT_ADOPTION_NOTE_20260622.md)
+   - [PANEL_PRIMARY_ARTIFACT_RUNBOOK_20260622.md](docs/infra/math_turn_20260622/PANEL_PRIMARY_ARTIFACT_RUNBOOK_20260622.md)
+   - [PANEL_PRIMARY_ARTIFACT_SMOKE_20260622.md](docs/infra/math_turn_20260622/PANEL_PRIMARY_ARTIFACT_SMOKE_20260622.md)
 
 ## 2. Current Scientific Position
 
@@ -265,8 +276,53 @@ Observed:
 Constraint:
 
 - F3 is "worth pursuing, not positive." It needs independent seeds, cross-condition sign-test, and primary-source prior-art verification.
-- LOSO / permutation language is not fully artifacted in `highorder_result.json`; treat LOSO-first reporting as a queued cleanup unless a persisted result file is added.
+- Old aggregate LOSO/permutation cleanup is now persisted under
+  [docs/infra/math_turn_20260622/](docs/infra/math_turn_20260622/), but the
+  final verdict remains `insufficient_artifact`: F3 weak LOSO delta passed,
+  matched-mean failed, and rank/residual failed/blocked.
 - Prior-art occupancy for F3 is not primary-source-verified in this index. Treat "already occupied" as claimed / needs Win+PI or direct paper verification.
+
+### 4.7 D622 q4 Panel Strict Audit
+
+Primary local interpretation:
+[Q4_PANEL_STRICT_AUDIT_ADOPTION_NOTE_20260622.md](docs/infra/gpt_deep_research/Q4_PANEL_STRICT_AUDIT_ADOPTION_NOTE_20260622.md)
+
+External/bundle audit:
+[deep_research_q4_panel_strict_audit_20260622.md](docs/infra/gpt_deep_research/deep_research_q4_panel_strict_audit_20260622.md)
+
+Observed / adopted:
+
+- q4 schema/runbook are locked.
+- q8 was not repaired or promoted because it has an empty bin.
+- Manifest-only plus seed1/gen0 one-checkpoint smoke passed and reproduced the
+  old aggregate row with zero absolute diff.
+- The smoke is generator-alignment evidence only, not a scientific signal.
+
+Current decision:
+
+- Full 50-checkpoint q4 panel generation is **not approved**.
+- Current generator and q4 locked schema are eligible only for full-panel
+  implementation review.
+
+Must fix before launch:
+
+- Add/record `builder_script_sha256` and exact artifact provenance.
+- Resolve the old non-clean / multi-HEAD provenance issue in generated
+  manifests or record artifact-generation commit and recording commit
+  explicitly.
+- Add fail-fast negative smokes for schema hash, source hash, and split wording.
+- Add multi-checkpoint smoke coverage before any full panel.
+- Implement a separate q4 full-panel analysis script with fold-local LOSO,
+  pairing, projection, and control gates.
+
+Still blocked:
+
+- `LOSO passed`
+- `F3 positive`
+- `mean-null vector field survives`
+- `glass box broken`
+- training authorization
+- new loss authorization
 
 ## 5. D619 Math-Line Verdict
 
@@ -375,6 +431,9 @@ Known coverage caveats:
 - `MD_CATALOG.md` is useful but stale; it is a navigation map, not latest truth.
 - `sessions/handoff-gpt-20260626/` is outside the MaoField repo and not reliably available to GitHub/web indexing.
 - This file is the repository-local replacement for the research subset of that handoff.
+- As of the D622 21:21 q4 strict-audit adoption, local RAG has not yet been
+  rebuilt to include report (6). Use direct file reads for report (6) until the
+  RAG index is regenerated.
 
 ## 9. GitHub / Web Indexing Package
 
@@ -388,6 +447,8 @@ For GPT-5.5 Pro via GitHub or web indexing, prefer this repository-local set:
 - [DECOUPLE_VERDICT_20260617.md](experiments/exp019_alpha1_confirm/decouple_verdict_20260617/DECOUPLE_VERDICT_20260617.md)
 - [CODE_FIRST_EXTRACT_DERIVE_ASSESS_20260517.md](experiments/exp018_cat/literature/CODE_FIRST_EXTRACT_DERIVE_ASSESS_20260517.md)
 - [contradiction_loss.py](experiments/exp018_cat/archive/v1.0_release_20260516/src/contradiction_loss.py)
+- [Q4_PANEL_STRICT_AUDIT_ADOPTION_NOTE_20260622.md](docs/infra/gpt_deep_research/Q4_PANEL_STRICT_AUDIT_ADOPTION_NOTE_20260622.md)
+- [PANEL_PRIMARY_ARTIFACT_RUNBOOK_20260622.md](docs/infra/math_turn_20260622/PANEL_PRIMARY_ARTIFACT_RUNBOOK_20260622.md)
 
 Do not commit or index raw operational handoff chapters that include local security / credential / proxy operations unless they are separately sanitized.
 
@@ -401,10 +462,14 @@ Repository-local evidence preferred for web indexing:
 
 Best next steps for GPT-5.5 Pro research:
 
-1. Implement the zero-GPU T2 toy sufficiency script and commit artifact if it passes.
-2. Run the linear-difference kill-test on existing JSONL.
-3. Convert high-order PPL gate reporting to LOSO-first language.
-4. If PI wants external validity, design outward generalization to another collapse setup rather than another inward MaoField-only negative.
-5. Keep philosophical interpretation `[?]` unless Win + PI promote it with evidence.
+1. Do not launch full q4 panel yet; first review provenance, negative-smoke,
+   multi-checkpoint smoke, and fold-local analysis implementation.
+2. Treat q4 as a locked diagnostic carrier, not a pristine confirmatory proof.
+3. If the q4 implementation gate is repaired, decide whether the 50-checkpoint
+   panel is worth running before any training or new-loss work.
+4. Keep the older zero-GPU T2 toy sufficiency script and linear-difference
+   kill-test as secondary math tasks.
+5. If PI wants external validity, design outward generalization to another collapse setup rather than another inward MaoField-only negative.
+6. Keep philosophical interpretation `[?]` unless Win + PI promote it with evidence.
 
 The main guardrail: do not let a cleaner index become a cleaner overclaim.

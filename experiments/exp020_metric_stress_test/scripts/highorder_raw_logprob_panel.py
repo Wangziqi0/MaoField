@@ -4,6 +4,7 @@
 This script is intentionally narrow:
 - manifest-only verifies the locked schema and fixed train-block hashes;
 - one-checkpoint-smoke runs a single CPU fp32 forward pass;
+- optional expected-hash arguments fail fast on provenance drift;
 - full 50-checkpoint panel generation is not implemented here.
 
 It does not train, update weights, call backward, generate text, or create a
@@ -47,6 +48,8 @@ DEFAULT_OLD_RESULT = (
     REPO
     / "experiments/exp020_metric_stress_test/highorder_ppl_20260618/highorder_result.json"
 )
+DEFAULT_BUILDER_SCRIPT = REPO / "scripts/build_panel_schema_20260622.py"
+GENERATOR_SCRIPT = Path(__file__).resolve()
 CHECKPOINT_ROOT = REPO / "experiments/exp018_cat/data/checkpoints_armb/alpha0.0"
 SEEDS = [1, 2, 3, 4, 42]
 GENERATIONS = list(range(10))
@@ -151,14 +154,28 @@ def build_blocks_and_targets(schema: dict[str, Any]) -> dict[str, Any]:
 
 
 def base_manifest(schema_path: Path, schema: dict[str, Any], source_data: dict[str, Any]) -> dict[str, Any]:
+    schema_sha256 = sha256_file(schema_path)
+    builder_sha256 = sha256_file(DEFAULT_BUILDER_SCRIPT)
+    generator_sha256 = sha256_file(GENERATOR_SCRIPT)
+    head = git_head()
     return {
         "artifact_kind": "maofield_panel_primary_manifest",
-        "artifact_version": "2026-06-22.d622.generator.v1",
+        "artifact_version": "2026-06-22.d622.generator.v2",
         "created_at": datetime.now().isoformat(timespec="seconds"),
-        "repo_head": git_head(),
+        "repo_head": head,
+        "artifact_generation_repo_head": head,
+        "provenance_note": (
+            "repo_head is the artifact-generation commit. The git commit that "
+            "records this manifest may be later; compare both explicitly in "
+            "review bundles."
+        ),
         "dirty_state_note": git_status_short(),
         "schema_path": str(schema_path.relative_to(REPO)),
-        "schema_sha256": sha256_file(schema_path),
+        "schema_sha256": schema_sha256,
+        "schema_builder_path": str(DEFAULT_BUILDER_SCRIPT.relative_to(REPO)),
+        "builder_script_sha256": builder_sha256,
+        "generator_script_path": str(GENERATOR_SCRIPT.relative_to(REPO)),
+        "generator_script_sha256": generator_sha256,
         "source_split": schema["source"]["source_split"],
         "input_ids_sha256": source_data["hashes"]["input_ids_sha256"],
         "target_ids_sha256": source_data["hashes"]["target_ids_sha256"],
@@ -187,6 +204,20 @@ def base_manifest(schema_path: Path, schema: dict[str, Any], source_data: dict[s
             "training_authorized": False,
         },
     }
+
+
+def enforce_expected_hashes(args: argparse.Namespace, manifest: dict[str, Any]) -> None:
+    checks = {
+        "schema_sha256": args.expected_schema_sha256,
+        "builder_script_sha256": args.expected_builder_sha256,
+        "generator_script_sha256": args.expected_generator_sha256,
+    }
+    for key, expected in checks.items():
+        if expected is None:
+            continue
+        got = manifest[key]
+        if got != expected:
+            raise ValueError(f"{key} mismatch: got {got}, expected {expected}")
 
 
 @torch.no_grad()
@@ -430,6 +461,9 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--old-result", type=Path, default=DEFAULT_OLD_RESULT)
     parser.add_argument("--manifest-only", action="store_true")
     parser.add_argument("--one-checkpoint-smoke", action="store_true")
+    parser.add_argument("--expected-schema-sha256")
+    parser.add_argument("--expected-builder-sha256")
+    parser.add_argument("--expected-generator-sha256")
     parser.add_argument("--seed", type=int, default=1)
     parser.add_argument("--generation", type=int, default=0)
     args = parser.parse_args()
@@ -451,6 +485,7 @@ def main() -> None:
     schema = load_json(args.schema)
     source_data = build_blocks_and_targets(schema)
     manifest = base_manifest(args.schema, schema, source_data)
+    enforce_expected_hashes(args, manifest)
 
     if args.manifest_only:
         path = run_manifest_only(args, manifest)

@@ -3,8 +3,8 @@
 
 This script consumes existing high-order aggregate JSON only. It does not
 load checkpoints, create new bins, or claim that the proposed mean-null vector
-field has survived. Its job is to decide whether the current aggregate F1/F3
-artifact is enough to justify moving beyond the negative synthesis.
+field has been validated. Its job is to decide whether the current aggregate
+F1/F3 artifact is enough to justify moving beyond the negative synthesis.
 """
 
 from __future__ import annotations
@@ -196,7 +196,7 @@ def summarize_verdict(loso: dict[str, Any], matched: dict[str, Any], rank: dict[
     rank_pass = bool(rank["passes_rank_gate"])
 
     if f3_loso and f3_matched and rank_pass:
-        verdict = "survive"
+        verdict = "eligible_for_next_design_review_only"
     elif not f3_loso:
         verdict = "killed"
     else:
@@ -210,7 +210,7 @@ def summarize_verdict(loso: dict[str, Any], matched: dict[str, Any], rank: dict[
         ),
         "blocked_claims": [
             "LOSO passed as primary artifact",
-            "mean-null vector field survives",
+            "mean-null vector field validated as a primary artifact",
             "glass box broken",
             "F3 is a positive finding",
         ],

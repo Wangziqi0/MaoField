@@ -2,7 +2,7 @@
 """
 highorder_ppl_run.py — exp020 高阶 PPL 结构测试 (LOCKED v2, gate-6 修复).
 决策规则锁于 highorder_ppl_structure_DESIGN sha256 733be69 (算前已 push 987ef21).
-存活 3 泛函 (decode-free, 固定真 wikitext eval, 禁触模型自生成):
+候选 3 泛函 (decode-free, 固定 Wikitext-2 train audit blocks, 禁触模型自生成):
   F1-var = per-token true-next-token logprob 方差
   F1-tail = logprob < τ 占比 (τ=g0 全seed logprob 5th pct, 锁一次)
   F3-slice = per-slice mean-logprob (稀有 vs 高频 target token, g0 unigram top/bottom20%)
@@ -64,10 +64,10 @@ def main():
     for s in SEEDS:
         for g in GENS:
             m=load(ckpt(s,g)); lp,tg=get_logprobs(m,blocks); del m
-            LP[(s,g)]=lp;  TG=tg  # target 固定 (同 eval blocks)
+            LP[(s,g)]=lp;  TG=tg  # target 固定 (同 train audit blocks)
             print(f"  s{s}g{g}: n={len(lp)} mean_lp={lp.mean():.3f}",flush=True)
 
-    # 锁: τ = g0 全seed logprob 5th pct; slice freq = eval target token 频率 top/bottom 20%
+    # 锁: τ = g0 全seed logprob 5th pct; slice freq = audit target token 频率 top/bottom 20%
     g0_all=np.concatenate([LP[(s,0)] for s in SEEDS]); TAU=float(np.percentile(g0_all,5))
     uniq,cnt=np.unique(TG,return_counts=True); freq=dict(zip(uniq.tolist(),cnt.tolist()))
     tg_freq=np.array([freq[t] for t in TG])
