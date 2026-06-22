@@ -4,7 +4,7 @@
 > **维护**: 新增重要 md 归类追加;季度 review 把 SUPERSEDED 下沉历史区。本文件是 reference,不进每会话 context (STATE.md 才是 cold-start 必读)。
 > **戳**: 2026-06-17 D617 晚 · HEAD `5608621` (+解耦线 [A−] 落盘复算 verdict 登记,落盘未 commit;实时以 `git log -1` 为准)
 > **2026-06-22 导航补丁**: 新增仓库内 GPT-5.5 Pro 网页索引用研究证据地图 `GPT55_PRO_RESEARCH_INDEX_20260622.md`。它比本 catalog 更新，合并 D619 数学线 verdict、实际代码数学、exp020 C 证据库、exp019 superseded 关系和 do-not-revive guardrails；接 GPT/web 索引时优先读它。
-> **2026-06-22 RAG 补丁**: 新增 GPT deep-research 报告目录 `docs/infra/gpt_deep_research/` 与 RAG 全量扫描目录 `docs/infra/rag_rebuild_20260622/`。报告是 claim source, not evidence; 数据只以 digest 进入默认 RAG, 原始 JSON/JSONL/log 仍需 direct verification。
+> **2026-06-22 RAG 补丁**: 新增 GPT deep-research 报告目录 `docs/infra/gpt_deep_research/` 与 RAG 全量扫描目录 `docs/infra/rag_rebuild_20260622/`。报告是 claim source, not evidence; 数据只以 digest 进入默认 RAG, 原始 JSON/JSONL/log 仍需 direct verification。15:50 CST 追加第三份 `deep_research_mean_null_vector_field_killtest_20260622.md` 作为 proposed-method audit; 无新增 observed evidence, 尚未重建 RAG。
 > **梳理法**: 4 zero-context agent 分区 scan md head + bash title 提取。全部仅读 head,substantive detail `[未细看]`。
 
 ---
@@ -25,7 +25,7 @@
 | **纪律 binding** | `docs/discipline/D-1*` · `docs/discipline/D-2*` · `docs/philosophy/D-3*` · `docs/infra/three-machine*` · `docs/TIMELINE_D22_D60` |
 | **本轮 D614-617 ★** | `experiments/exp019_alpha1_confirm/` (verdict_20260614 + LINUX_AUDIT_AMENDMENT_20260615 + prereg) = α=1 confirmatory **三 endpoint 全 FALSE / C1·C2·C3 撤回 / s42 outlier** + LN race 根因 ‖ `…/decouple_verdict_20260617/` (DECOUPLE_VERDICT + analysis_decouple_n5.py) = **解耦线 [A−] 复算 0/5 死 / D2 全 fail=部分耦合 / distinct-n rep_penalty 敏感 / 问题#2 闭合** ‖ `experiments/exp018_cat/analysis/` (RECOVERY_GEOMETRY_FINDINGS_20260615 + probe_output_vs_hidden_NOTE + FINDINGS) = **E0 升维=驼峰瞬态 / 几何≈PPL投影** ‖ `wip/blackbox_dimreduction_recon_d35/` (4 recon verdict,归属待 PI,RAG 排除) = 黑箱/命题 T·U **全判被占/平凡** |
 | **GPT-5.5 Pro 网页索引入口 ★** | `GPT55_PRO_RESEARCH_INDEX_20260622.md` = 仓库内脱敏研究证据地图; 合并 Claude 数学交接 + 实际 code math + exp019/exp020 verdict + superseded/do-not-revive guardrails |
-| **GPT deep-research 报告 ★** | `docs/infra/gpt_deep_research/` = 本次 `deep_research_current_code_math_glassbox_20260622.md` + 上次 `deep_research_previous_measurement_audit_20260622.md`; 均为 claim source, 需回查 code/log/verdict |
+| **GPT deep-research 报告 ★** | `docs/infra/gpt_deep_research/` = `deep_research_current_code_math_glassbox_20260622.md` + `deep_research_previous_measurement_audit_20260622.md` + `deep_research_mean_null_vector_field_killtest_20260622.md`; 均为 claim source, not evidence; 第三份仅为 mean-null vector-field / LOSO-rank kill-test proposed audit, 需回查 code/log/verdict/JSON |
 | **RAG 重建 / 数据 digest ★** | `docs/infra/rag_rebuild_20260622/` + `scripts/rag_scan_maofield.py` + `scripts/rag_rebuild_maofield_36.sh` + `scripts/rag_rebuild_node22_runner.sh`; 全量扫描 7744 files, 默认索引 active md + `maofield_data_digest_20260622.md`, 原始数据不直接入向量 |
 
 ### 整组可 SKIP 历史 ~250 份
