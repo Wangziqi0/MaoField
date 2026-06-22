@@ -5,8 +5,9 @@
 > **D622 21:21 update.** PRO report (6) has been archived locally as a q4
 > strict bundle audit. It did **not** approve full 50-checkpoint panel
 > generation. Current q4 work is implementation-review eligible only after
-> provenance cleanup, multi-checkpoint smoke, and a
-> separate fold-local q4 analysis path.
+> provenance cleanup, full-panel mode implementation, and a separate fold-local
+> q4 analysis path. D622 21:49 update: negative and multi-checkpoint smokes now
+> pass, but full-panel generation remains not approved.
 
 ## 0. Scope And Evidence Boundary
 
@@ -59,6 +60,7 @@ Use this order for a cold start:
    - [PANEL_PRIMARY_ARTIFACT_RUNBOOK_20260622.md](docs/infra/math_turn_20260622/PANEL_PRIMARY_ARTIFACT_RUNBOOK_20260622.md)
    - [PANEL_PRIMARY_ARTIFACT_SMOKE_20260622.md](docs/infra/math_turn_20260622/PANEL_PRIMARY_ARTIFACT_SMOKE_20260622.md)
    - [PANEL_PRIMARY_ARTIFACT_NEGATIVE_SMOKE_20260622.md](docs/infra/math_turn_20260622/PANEL_PRIMARY_ARTIFACT_NEGATIVE_SMOKE_20260622.md)
+   - [PANEL_PRIMARY_ARTIFACT_MULTI_SMOKE_20260622.md](docs/infra/math_turn_20260622/PANEL_PRIMARY_ARTIFACT_MULTI_SMOKE_20260622.md)
 
 ## 2. Current Scientific Position
 
@@ -297,7 +299,10 @@ Observed / adopted:
 - q8 was not repaired or promoted because it has an empty bin.
 - Manifest-only plus seed1/gen0 one-checkpoint smoke passed and reproduced the
   old aggregate row with zero absolute diff.
-- The smoke is generator-alignment evidence only, not a scientific signal.
+- Fail-fast negative smokes pass.
+- Multi-checkpoint smoke coverage now includes seed1/gen0, seed2/gen5, and
+  seed42/gen9; all three reproduce old aggregate rows.
+- These smokes are generator-alignment evidence only, not a scientific signal.
 
 Current decision:
 
@@ -313,7 +318,7 @@ Must fix before launch:
   explicitly.
 - Fail-fast negative smokes for expected schema hash, expected builder hash,
   wrong split, source hash, and q4 bin sizes now pass.
-- Add multi-checkpoint smoke coverage before any full panel.
+- Implement full-panel generator mode without running it.
 - Implement a separate q4 full-panel analysis script with fold-local LOSO,
   pairing, projection, and control gates.
 
@@ -464,7 +469,7 @@ Repository-local evidence preferred for web indexing:
 
 Best next steps for GPT-5.5 Pro research:
 
-1. Do not launch full q4 panel yet; first review multi-checkpoint smoke and
+1. Do not launch full q4 panel yet; first review full-panel generator mode and
    fold-local analysis implementation.
 2. Treat q4 as a locked diagnostic carrier, not a pristine confirmatory proof.
 3. If the q4 implementation gate is repaired, decide whether the 50-checkpoint

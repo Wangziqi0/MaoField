@@ -6,6 +6,8 @@
 > passed; see `PANEL_PRIMARY_ARTIFACT_SMOKE_20260622.md`.
 > 2026-06-22 21:43 CST: fail-fast negative smokes passed; see
 > `PANEL_PRIMARY_ARTIFACT_NEGATIVE_SMOKE_20260622.md`.
+> 2026-06-22 21:49 CST: multi-checkpoint smoke passed; see
+> `PANEL_PRIMARY_ARTIFACT_MULTI_SMOKE_20260622.md`.
 
 ## Boundary
 

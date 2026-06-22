@@ -24,6 +24,10 @@ full panel        = not approved
 schema hash mismatch, expected builder hash mismatch, wrong source split,
 source hash mismatch, and q4 bin-size mismatch; wording guard also passes.
 
+2026-06-22 21:49 CST update: multi-checkpoint smoke now covers seed1/gen0,
+seed2/gen5, and seed42/gen9. All three reproduce old aggregate rows. This is
+still generator-alignment evidence only, not a full panel.
+
 ## Adopt
 
 - Do not approve full 50-checkpoint q4 panel generation yet.
@@ -55,8 +59,9 @@ source hash mismatch, and q4 bin-size mismatch; wording guard also passes.
 
 ## Adopted Next Sentence
 
-The q4 locked schema, one-checkpoint smoke, and fail-fast negative smokes are
-aligned enough to continue full-panel implementation review, but not enough to
-run the full panel. The next local work is multi-checkpoint smoke coverage plus
-a separate fold-local q4 analysis path; only after those pass should PI/PRO
-decide whether to launch the 50-checkpoint generation.
+The q4 locked schema, one-checkpoint smoke, fail-fast negative smokes, and
+multi-checkpoint smoke coverage are aligned enough to continue full-panel
+implementation review, but not enough to run the full panel. The next local
+work is full-panel generator mode plus a separate fold-local q4 analysis path;
+only after those are reviewed should PI/PRO decide whether to launch the
+50-checkpoint generation.

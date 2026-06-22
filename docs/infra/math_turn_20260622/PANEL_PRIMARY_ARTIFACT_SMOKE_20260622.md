@@ -138,6 +138,11 @@ new loss authorized
 ## Post-Review Decision
 
 PRO report (6), archived after this smoke record, does not approve a full
-50-checkpoint q4 panel generation yet. The next allowed work is provenance
-cleanup, fail-fast negative smokes, multi-checkpoint smoke coverage, and a
-separate fold-local q4 analysis path before PI/PRO revisits the launch decision.
+50-checkpoint q4 panel generation yet. Later D622 records added fail-fast
+negative smokes and multi-checkpoint smoke coverage; see
+`PANEL_PRIMARY_ARTIFACT_NEGATIVE_SMOKE_20260622.md` and
+`PANEL_PRIMARY_ARTIFACT_MULTI_SMOKE_20260622.md`.
+
+The remaining allowed work is full-panel generator mode implementation and a
+separate fold-local q4 analysis path review. PI/PRO must still revisit the
+launch decision before any 50-checkpoint generation.
