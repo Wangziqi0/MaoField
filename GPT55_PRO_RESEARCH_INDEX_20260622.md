@@ -12,6 +12,15 @@
 > bge-m3 GPU vector acceleration; report (6), adoption notes, and q4 smoke
 > records are now discoverable through default RAG. RAG remains a locator, not
 > evidence.
+> D623 update: PRO report (7) was archived as a q4 object strict mathematical
+> audit. It rejects the current implemented q4 artifact as a mathematical
+> advance candidate and keeps full panel / training / glass-box wording blocked.
+> The only preserved target is a future fold-local q4 mean-null residual audit
+> object after full-panel generator and separate analysis implementation.
+> D623 RAG update: default node36 RAG was refreshed again with temporary node22
+> bge-m3 vector acceleration. Report (7), its adoption note, and updated pointers
+> are now discoverable through default RAG. Runtime index: 311 active markdown
+> files / 8603 chunks.
 
 ## 0. Scope And Evidence Boundary
 
@@ -65,6 +74,9 @@ Use this order for a cold start:
    - [PANEL_PRIMARY_ARTIFACT_SMOKE_20260622.md](docs/infra/math_turn_20260622/PANEL_PRIMARY_ARTIFACT_SMOKE_20260622.md)
    - [PANEL_PRIMARY_ARTIFACT_NEGATIVE_SMOKE_20260622.md](docs/infra/math_turn_20260622/PANEL_PRIMARY_ARTIFACT_NEGATIVE_SMOKE_20260622.md)
    - [PANEL_PRIMARY_ARTIFACT_MULTI_SMOKE_20260622.md](docs/infra/math_turn_20260622/PANEL_PRIMARY_ARTIFACT_MULTI_SMOKE_20260622.md)
+8. D623 q4 object strict math audit:
+   - [deep_research_q4_object_strict_math_audit_20260623.md](docs/infra/gpt_deep_research/deep_research_q4_object_strict_math_audit_20260623.md)
+   - [Q4_OBJECT_STRICT_MATH_AUDIT_ADOPTION_NOTE_20260623.md](docs/infra/gpt_deep_research/Q4_OBJECT_STRICT_MATH_AUDIT_ADOPTION_NOTE_20260623.md)
 
 ## 2. Current Scientific Position
 
@@ -334,6 +346,34 @@ Still blocked:
 - `glass box broken`
 - training authorization
 - new loss authorization
+
+### 4.8 D623 q4 Object Strict Math Audit
+
+Primary local interpretation:
+[Q4_OBJECT_STRICT_MATH_AUDIT_ADOPTION_NOTE_20260623.md](docs/infra/gpt_deep_research/Q4_OBJECT_STRICT_MATH_AUDIT_ADOPTION_NOTE_20260623.md)
+
+External/package audit:
+[deep_research_q4_object_strict_math_audit_20260623.md](docs/infra/gpt_deep_research/deep_research_q4_object_strict_math_audit_20260623.md)
+
+Adopted decision:
+
+- Reject the current implemented q4 artifact as a mathematical-advance
+  candidate.
+- Treat the current layer as schema/provenance/smoke alignment only.
+- Preserve the future target as a fold-local q4 mean-null residual audit object.
+- Implement full-panel generator mode and a separate fold-local q4 analysis
+  path before any 50-checkpoint panel is considered.
+
+Still blocked:
+
+- full q4 object implemented;
+- full 50-checkpoint panel approval;
+- `LOSO passed`;
+- `F3 positive`;
+- `mean-null vector field survives`;
+- `glass box broken`;
+- training authorization;
+- new loss authorization.
 
 ## 5. D619 Math-Line Verdict
 
