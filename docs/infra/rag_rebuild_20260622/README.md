@@ -31,6 +31,8 @@ the canonical RAG index.
   scope used for the D623 Mode A prompt / Mode B skeleton node22-vector refresh.
 - `canonical_scope_active_20260623_1642_report19.txt` — global active canonical
   scope used for the D623 report(19) quotient-residual node22-vector refresh.
+- `canonical_scope_active_20260623_1733_report21.txt` — global active canonical
+  scope used for the D623 report(21) finite-ANOVA node22-vector refresh.
 - `NODE22_VECTOR_REBUILD_20260622.md` — rebuild record, index hashes, backup
   paths, and verification boundary for the temporary node22 GPU vector worker.
 - `NODE22_VECTOR_REFRESH_REPORT7_20260623.md` — D623 refresh record proving
@@ -59,6 +61,9 @@ the canonical RAG index.
 - `NODE22_VECTOR_REFRESH_REPORT19_20260623.md` — D623 refresh record proving
   report(19), its adoption note, and the follow-up quotient-residual Pro prompt
   are discoverable through default RAG.
+- `NODE22_VECTOR_REFRESH_REPORT21_20260623.md` — D623 refresh record proving
+  report(21), its adoption note, and finite-ANOVA/no-go guardrails are
+  discoverable through default RAG.
 
 ## Policy
 
@@ -103,6 +108,10 @@ GPT-5.5 Pro Mode A prompt and future-only Mode B skeleton. See
 D623 report(19): default `/media/amd/raid1/rag/index` was refreshed after
 adding the quotient-residual kill-framework report, adoption note, and follow-up
 Pro prompt. See `NODE22_VECTOR_REFRESH_REPORT19_20260623.md`.
+
+D623 report(21): default `/media/amd/raid1/rag/index` was refreshed after
+adding the quotient-residual finite-ANOVA/no-go formalization report and
+adoption note. See `NODE22_VECTOR_REFRESH_REPORT21_20260623.md`.
 
 Rebuild entry point:
 

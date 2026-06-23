@@ -106,6 +106,10 @@
 > verdict remains `insufficient_artifact`; existing interaction smoke remains
 > `smoke_conjecture_only`; no full panel, training, or new-loss work is
 > authorized.
+> D623 report(21) RAG update: default node36 RAG was refreshed again with
+> temporary node22 bge-m3 vector acceleration. Runtime index: 340 active
+> markdown files / 9006 chunks; `kb.faiss=e522eccb...`,
+> `kb_meta=2920ce4d...`. Node22 service was stopped after the candidate build.
 
 ## 0. Scope And Evidence Boundary
 
@@ -664,6 +668,8 @@ Current MaoField status:
 - Existing interaction smoke remains `smoke_conjecture_only`.
 - Report (21) is a formalization of the Mode A theorem/no-go agenda, not new
   evidence.
+- Default RAG now includes report(21) and its adoption note: 340 active
+  markdown files / 9006 chunks.
 - No full panel, interaction field, residual field, training, or new loss is
   authorized.
 
