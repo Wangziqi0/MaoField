@@ -21,6 +21,11 @@
 > bge-m3 vector acceleration. Report (7), its adoption note, and updated pointers
 > are now discoverable through default RAG. Runtime index: 311 active markdown
 > files / 8603 chunks.
+> D623 implementation-gate update: `highorder_raw_logprob_panel.py` now has a
+> full-panel dry-run and explicit PI approval guard; `scripts/q4_full_panel_foldlocal_analysis.py`
+> is the separate analysis path for a future q4 full-panel aggregate. No full
+> panel, training, or new scientific result was produced. See
+> `docs/infra/math_turn_20260622/Q4_IMPLEMENTATION_GATE_UPDATE_20260623.md`.
 
 ## 0. Scope And Evidence Boundary
 
@@ -77,6 +82,10 @@ Use this order for a cold start:
 8. D623 q4 object strict math audit:
    - [deep_research_q4_object_strict_math_audit_20260623.md](docs/infra/gpt_deep_research/deep_research_q4_object_strict_math_audit_20260623.md)
    - [Q4_OBJECT_STRICT_MATH_AUDIT_ADOPTION_NOTE_20260623.md](docs/infra/gpt_deep_research/Q4_OBJECT_STRICT_MATH_AUDIT_ADOPTION_NOTE_20260623.md)
+9. D623 q4 implementation gate:
+   - [Q4_IMPLEMENTATION_GATE_UPDATE_20260623.md](docs/infra/math_turn_20260622/Q4_IMPLEMENTATION_GATE_UPDATE_20260623.md)
+   - [highorder_raw_logprob_panel.py](experiments/exp020_metric_stress_test/scripts/highorder_raw_logprob_panel.py)
+   - [q4_full_panel_foldlocal_analysis.py](scripts/q4_full_panel_foldlocal_analysis.py)
 
 ## 2. Current Scientific Position
 

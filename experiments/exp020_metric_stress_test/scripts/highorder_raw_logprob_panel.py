@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
-"""Generate MaoField q4 raw-logprob panel smoke artifacts.
+"""Generate MaoField q4 raw-logprob panel artifacts.
 
 This script is intentionally narrow:
 - manifest-only verifies the locked schema and fixed train-block hashes;
 - one-checkpoint-smoke runs a single CPU fp32 forward pass;
 - optional expected-hash arguments fail fast on provenance drift;
-- full 50-checkpoint panel generation is not implemented here.
+- full-panel-dry-run verifies the exact 5x10 checkpoint plan without inference;
+- full-panel requires an explicit PI approval token before inference.
 
 It does not train, update weights, call backward, generate text, or create a
 new loss.
@@ -54,6 +55,7 @@ CHECKPOINT_ROOT = REPO / "experiments/exp018_cat/data/checkpoints_armb/alpha0.0"
 SEEDS = [1, 2, 3, 4, 42]
 GENERATIONS = list(range(10))
 BATCH_SIZE = 32
+FULL_PANEL_APPROVAL_TOKEN = "PI_APPROVED_Q4_FULL_PANEL"
 
 
 def sha256_file(path: Path) -> str:
@@ -83,6 +85,33 @@ def git_status_short() -> str:
 
 def checkpoint_path(seed: int, generation: int) -> Path:
     return CHECKPOINT_ROOT / f"no_preserve_seed{seed}" / f"generation_{generation}"
+
+
+def expected_checkpoints() -> list[dict[str, Any]]:
+    rows = []
+    for seed in SEEDS:
+        for generation in GENERATIONS:
+            path = checkpoint_path(seed, generation)
+            model_path = path / "model.safetensors"
+            rows.append(
+                {
+                    "seed": seed,
+                    "generation": generation,
+                    "checkpoint_path": str(path.relative_to(REPO)),
+                    "model_safetensors_path": str(model_path.relative_to(REPO)),
+                    "exists": model_path.exists(),
+                }
+            )
+    return rows
+
+
+def require_all_checkpoints(rows: list[dict[str, Any]]) -> None:
+    missing = [row for row in rows if not row["exists"]]
+    if missing:
+        raise FileNotFoundError(
+            "missing expected checkpoints: "
+            + ", ".join(row["model_safetensors_path"] for row in missing)
+        )
 
 
 def load_json(path: Path) -> dict[str, Any]:
@@ -173,6 +202,7 @@ def base_manifest(
     schema: dict[str, Any],
     source_data: dict[str, Any],
     hashes: dict[str, str],
+    args: argparse.Namespace,
 ) -> dict[str, Any]:
     head = git_head()
     return {
@@ -181,6 +211,8 @@ def base_manifest(
         "created_at": datetime.now().isoformat(timespec="seconds"),
         "repo_head": head,
         "artifact_generation_repo_head": head,
+        "expected_repo_head": args.expected_repo_head,
+        "expected_repo_head_status": "pass" if args.expected_repo_head else "not_provided",
         "provenance_note": (
             "repo_head is the artifact-generation commit. The git commit that "
             "records this manifest may be later; compare both explicitly in "
@@ -200,9 +232,9 @@ def base_manifest(
         "checkpoint_root": str(CHECKPOINT_ROOT.relative_to(REPO)),
         "seeds": SEEDS,
         "generations": GENERATIONS,
-        "device": "cpu",
-        "dtype": "float32",
-        "batch_size": BATCH_SIZE,
+        "device": args.device,
+        "dtype": args.dtype,
+        "batch_size": args.batch_size,
         "no_training": True,
         "no_backward": True,
         "no_optimizer_step": True,
@@ -235,6 +267,24 @@ def enforce_expected_hashes(args: argparse.Namespace, hashes: dict[str, str]) ->
         got = hashes[key]
         if got != expected:
             raise ValueError(f"{key} mismatch: got {got}, expected {expected}")
+
+
+def enforce_runtime_args(args: argparse.Namespace) -> None:
+    if args.device != "cpu":
+        raise ValueError("only --device cpu is allowed for the q4 audit panel")
+    if args.dtype != "float32":
+        raise ValueError("only --dtype float32 is allowed for the q4 audit panel")
+    if args.batch_size != BATCH_SIZE:
+        raise ValueError(f"batch_size must stay locked at {BATCH_SIZE}")
+    if args.full_panel and args.full_panel_approval_token != FULL_PANEL_APPROVAL_TOKEN:
+        raise PermissionError(
+            "full panel requires --full-panel-approval-token "
+            f"{FULL_PANEL_APPROVAL_TOKEN}"
+        )
+    if args.expected_repo_head is not None and git_head() != args.expected_repo_head:
+        raise ValueError(
+            f"repo_head mismatch: got {git_head()}, expected {args.expected_repo_head}"
+        )
 
 
 @torch.no_grad()
@@ -417,6 +467,151 @@ def run_manifest_only(args: argparse.Namespace, manifest: dict[str, Any]) -> Pat
     return path
 
 
+def full_panel_paths(args: argparse.Namespace) -> dict[str, Path]:
+    return {
+        "plan": args.out_dir / f"{args.panel_id}_plan.json",
+        "manifest": args.out_dir / f"{args.panel_id}_manifest.json",
+        "aggregate": args.out_dir / f"{args.panel_id}_aggregate.json",
+        "summary": args.out_dir / f"{args.panel_id}_summary.json",
+        "raw_dir": args.raw_dir / args.panel_id,
+    }
+
+
+def run_full_panel_dry_run(args: argparse.Namespace, manifest: dict[str, Any]) -> Path:
+    rows = expected_checkpoints()
+    require_all_checkpoints(rows)
+    paths = full_panel_paths(args)
+    plan = {
+        **manifest,
+        "artifact_kind": "maofield_q4_full_panel_plan",
+        "run_mode": "full_panel_dry_run",
+        "panel_id": args.panel_id,
+        "checkpoint_count": len(rows),
+        "expected_checkpoints": rows,
+        "raw_dir": str(paths["raw_dir"]),
+        "full_panel_generated": False,
+        "no_checkpoint_loaded": True,
+        "approval_token_required_for_full_panel": FULL_PANEL_APPROVAL_TOKEN,
+        "gate_status": {
+            **manifest["gate_status"],
+            "checkpoint_enumeration": "pass",
+            "full_panel_dry_run": "pass",
+        },
+    }
+    write_json(paths["plan"], plan)
+    return paths["plan"]
+
+
+def run_full_panel(
+    args: argparse.Namespace,
+    manifest: dict[str, Any],
+    schema: dict[str, Any],
+    source_data: dict[str, Any],
+) -> dict[str, Path]:
+    rows = expected_checkpoints()
+    require_all_checkpoints(rows)
+    paths = full_panel_paths(args)
+    paths["raw_dir"].mkdir(parents=True, exist_ok=True)
+
+    t0 = time.time()
+    aggregate_rows: list[dict[str, Any]] = []
+    panel_records: list[dict[str, Any]] = []
+    reproduction_statuses: list[str] = []
+
+    for item in rows:
+        seed = int(item["seed"])
+        generation = int(item["generation"])
+        ckpt = checkpoint_path(seed, generation)
+        model = load_model(ckpt)
+        lp = get_logprob_arrays(model, source_data["blocks"])
+        del model
+        if len(lp) != schema["source"]["n_next_token_positions"]:
+            raise ValueError(f"logprob length mismatch for seed={seed} gen={generation}: {len(lp)}")
+
+        aggregate = aggregate_smoke(lp, source_data, schema, seed, generation)
+        reproduction = old_reproduction_check(lp, source_data, seed, generation, args.old_result)
+        raw_path = paths["raw_dir"] / f"seed{seed}_generation{generation}_token_panel.jsonl"
+        write_raw_jsonl(raw_path, lp, source_data, schema, seed, generation)
+        raw_hash = sha256_file(raw_path)
+
+        aggregate["raw_jsonl_path"] = str(raw_path)
+        aggregate["raw_jsonl_sha256"] = raw_hash
+        aggregate["checkpoint_path"] = str(ckpt.relative_to(REPO))
+        aggregate["old_aggregate_reproduction"] = reproduction
+        aggregate_rows.append(aggregate)
+        reproduction_statuses.append(reproduction["status"])
+        panel_records.append(
+            {
+                **item,
+                "raw_jsonl_path": str(raw_path),
+                "raw_jsonl_sha256": raw_hash,
+                "old_aggregate_reproduction_status": reproduction["status"],
+            }
+        )
+
+    aggregate_doc = {
+        "artifact_kind": "maofield_q4_full_panel_aggregate",
+        "artifact_version": "2026-06-23.d623.full_panel.v1",
+        "panel_id": args.panel_id,
+        "schema_id": schema["primary_schema"]["schema_id"],
+        "row_count": len(aggregate_rows),
+        "seeds": SEEDS,
+        "generations": GENERATIONS,
+        "rows": aggregate_rows,
+        "claim_boundary": {
+            "full_panel_result_only": True,
+            "does_not_authorize_training": True,
+            "does_not_establish_glass_box": True,
+        },
+    }
+    write_json(paths["aggregate"], aggregate_doc)
+
+    summary = {
+        "artifact_kind": "maofield_q4_full_panel_summary",
+        "panel_id": args.panel_id,
+        "row_count": len(aggregate_rows),
+        "elapsed_s": round(time.time() - t0, 3),
+        "all_old_aggregate_reproductions_pass": all(
+            status == "pass" for status in reproduction_statuses
+        ),
+        "reproduction_status_counts": dict(Counter(reproduction_statuses)),
+        "aggregate_path": str(paths["aggregate"]),
+        "raw_dir": str(paths["raw_dir"]),
+    }
+    write_json(paths["summary"], summary)
+
+    full_manifest = {
+        **manifest,
+        "run_mode": "full_panel",
+        "panel_id": args.panel_id,
+        "checkpoint_count": len(rows),
+        "expected_checkpoints": rows,
+        "panel_records": panel_records,
+        "aggregate_path": str(paths["aggregate"]),
+        "aggregate_sha256": sha256_file(paths["aggregate"]),
+        "summary_path": str(paths["summary"]),
+        "summary_sha256": sha256_file(paths["summary"]),
+        "raw_dir": str(paths["raw_dir"]),
+        "elapsed_s": summary["elapsed_s"],
+        "full_panel_generated": True,
+        "one_checkpoint_smoke": False,
+        "gate_status": {
+            **manifest["gate_status"],
+            "checkpoint_enumeration": "pass",
+            "full_panel_generated": "pass",
+            "old_aggregate_reproduction_all_rows": (
+                "pass" if summary["all_old_aggregate_reproductions_pass"] else "fail"
+            ),
+        },
+    }
+    write_json(paths["manifest"], full_manifest)
+    return {
+        "manifest": paths["manifest"],
+        "aggregate": paths["aggregate"],
+        "summary": paths["summary"],
+    }
+
+
 def run_one_checkpoint_smoke(
     args: argparse.Namespace,
     manifest: dict[str, Any],
@@ -478,14 +673,31 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--old-result", type=Path, default=DEFAULT_OLD_RESULT)
     parser.add_argument("--manifest-only", action="store_true")
     parser.add_argument("--one-checkpoint-smoke", action="store_true")
+    parser.add_argument("--full-panel-dry-run", action="store_true")
+    parser.add_argument("--full-panel", action="store_true")
     parser.add_argument("--expected-schema-sha256")
     parser.add_argument("--expected-builder-sha256")
     parser.add_argument("--expected-generator-sha256")
+    parser.add_argument("--expected-repo-head")
+    parser.add_argument("--device", default="cpu")
+    parser.add_argument("--dtype", default="float32")
+    parser.add_argument("--batch-size", type=int, default=BATCH_SIZE)
+    parser.add_argument("--panel-id", default="q4_full_panel_20260623")
+    parser.add_argument("--full-panel-approval-token")
     parser.add_argument("--seed", type=int, default=1)
     parser.add_argument("--generation", type=int, default=0)
     args = parser.parse_args()
-    if args.manifest_only == args.one_checkpoint_smoke:
-        parser.error("choose exactly one of --manifest-only or --one-checkpoint-smoke")
+    modes = [
+        args.manifest_only,
+        args.one_checkpoint_smoke,
+        args.full_panel_dry_run,
+        args.full_panel,
+    ]
+    if sum(bool(mode) for mode in modes) != 1:
+        parser.error(
+            "choose exactly one of --manifest-only, --one-checkpoint-smoke, "
+            "--full-panel-dry-run, or --full-panel"
+        )
     if args.seed not in SEEDS:
         parser.error(f"seed must be one of {SEEDS}")
     if args.generation not in GENERATIONS:
@@ -497,17 +709,29 @@ def main() -> None:
     os.environ.setdefault("HF_HUB_OFFLINE", "1")
     os.environ.setdefault("TOKENIZERS_PARALLELISM", "false")
     args = parse_args()
+    enforce_runtime_args(args)
     args.out_dir.mkdir(parents=True, exist_ok=True)
 
     hashes = provenance_hashes(args.schema)
     enforce_expected_hashes(args, hashes)
     schema = load_json(args.schema)
     source_data = build_blocks_and_targets(schema)
-    manifest = base_manifest(args.schema, schema, source_data, hashes)
+    manifest = base_manifest(args.schema, schema, source_data, hashes, args)
 
     if args.manifest_only:
         path = run_manifest_only(args, manifest)
         print(path)
+        return
+
+    if args.full_panel_dry_run:
+        path = run_full_panel_dry_run(args, manifest)
+        print(path)
+        return
+
+    if args.full_panel:
+        paths = run_full_panel(args, manifest, schema, source_data)
+        for path in paths.values():
+            print(path)
         return
 
     paths = run_one_checkpoint_smoke(args, manifest, schema, source_data)
