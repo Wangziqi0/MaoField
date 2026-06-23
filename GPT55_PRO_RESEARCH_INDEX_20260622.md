@@ -52,6 +52,10 @@
 > confirms the report(11) boundary: `Q_freq4 x B_tokenpos4` is a zero-GPU
 > formal-preregistration coordinate system only, not an observed hypercube
 > residual field. No code, full-panel, training, or new-loss work is authorized.
+> D623 report(13) RAG update: default node36 RAG was refreshed again with
+> temporary node22 bge-m3 vector acceleration. Runtime index: 323 active
+> markdown files / 8780 chunks; `kb.faiss=2a40df24...`,
+> `kb_meta=63c51366...`. Node22 service was stopped after promotion.
 
 ## 0. Scope And Evidence Boundary
 

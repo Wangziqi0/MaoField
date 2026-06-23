@@ -21,6 +21,8 @@ the canonical RAG index.
   scope used for the D623 report(9) node22-vector refresh.
 - `canonical_scope_active_20260623_1148_report11.txt` — global active canonical
   scope used for the D623 report(11) node22-vector refresh.
+- `canonical_scope_active_20260623_1250_report13.txt` — global active canonical
+  scope used for the D623 report(13) node22-vector refresh.
 - `NODE22_VECTOR_REBUILD_20260622.md` — rebuild record, index hashes, backup
   paths, and verification boundary for the temporary node22 GPU vector worker.
 - `NODE22_VECTOR_REFRESH_REPORT7_20260623.md` — D623 refresh record proving
@@ -34,6 +36,9 @@ the canonical RAG index.
 - `NODE22_VECTOR_REFRESH_REPORT11_20260623.md` — D623 refresh record proving
   report(11), its adoption note, and q4 hypercube zero-GPU feasibility artifacts
   are discoverable through default RAG.
+- `NODE22_VECTOR_REFRESH_REPORT13_20260623.md` — D623 refresh record proving
+  report(13), its adoption note, and current-repo q4 hypercube guardrails are
+  discoverable through default RAG.
 
 ## Policy
 
@@ -58,6 +63,10 @@ residual-field strict math audit and code guard updates. See
 D623 report(11): default `/media/amd/raid1/rag/index` was refreshed after the
 q4 hypercube extension strict math audit and zero-GPU feasibility artifacts. See
 `NODE22_VECTOR_REFRESH_REPORT11_20260623.md`.
+
+D623 report(13): default `/media/amd/raid1/rag/index` was refreshed after the
+current-repo q4 hypercube strict audit and adoption note. See
+`NODE22_VECTOR_REFRESH_REPORT13_20260623.md`.
 
 Rebuild entry point:
 
