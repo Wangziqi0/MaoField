@@ -85,6 +85,14 @@
 > node22 bge-m3 vector acceleration. Runtime index: 333 active markdown files /
 > 8916 chunks; `kb.faiss=762ecd2f...`, `kb_meta=451bd903...`. Node22 service
 > was stopped after the candidate build.
+> D623 report(19) update: Mode A quotient-residual kill framework archived.
+> Adopted synthesis: the bottom-level object is the general nuisance quotient
+> residual `R_t = Pi_{N_perp,w} K_t`; weighted interaction fields,
+> functional-ANOVA terms, tensor rank, coarsening naturality, commutators, and
+> gluing obstruction are derived structures. Current MaoField Mode B verdict
+> remains `insufficient_artifact`; existing interaction smoke remains
+> `smoke_conjecture_only`; no full panel, training, or new-loss work is
+> authorized.
 
 ## 0. Scope And Evidence Boundary
 
@@ -166,6 +174,10 @@ Use this order for a cold start:
 15. D623 Mode A discovery prompt and future-only Mode B gate skeleton:
    - [GPT55_PRO_MODE_A_MATH_DISCOVERY_PROMPT_20260623.md](docs/infra/gpt_deep_research/GPT55_PRO_MODE_A_MATH_DISCOVERY_PROMPT_20260623.md)
    - [q4_hypercube_interaction_prereg_analysis.py](scripts/q4_hypercube_interaction_prereg_analysis.py)
+16. D623 Mode A quotient-residual kill framework:
+   - [deep_research_mode_a_quotient_residual_kill_framework_20260623.md](docs/infra/gpt_deep_research/deep_research_mode_a_quotient_residual_kill_framework_20260623.md)
+   - [MODE_A_QUOTIENT_RESIDUAL_KILL_FRAMEWORK_ADOPTION_NOTE_20260623.md](docs/infra/gpt_deep_research/MODE_A_QUOTIENT_RESIDUAL_KILL_FRAMEWORK_ADOPTION_NOTE_20260623.md)
+   - [GPT55_PRO_QUOTIENT_RESIDUAL_NEXT_PROMPT_20260623.md](docs/infra/gpt_deep_research/GPT55_PRO_QUOTIENT_RESIDUAL_NEXT_PROMPT_20260623.md)
 
 ## 2. Current Scientific Position
 
@@ -549,6 +561,57 @@ Still blocked:
 - full panel run;
 - interaction field observed;
 - residual field observed;
+- `LOSO passed`;
+- `F3 positive`;
+- `glass box broken`;
+- training authorization;
+- new loss authorization.
+
+### 4.14 D623 Mode A Quotient Residual Kill Framework
+
+Primary local interpretation:
+[MODE_A_QUOTIENT_RESIDUAL_KILL_FRAMEWORK_ADOPTION_NOTE_20260623.md](docs/infra/gpt_deep_research/MODE_A_QUOTIENT_RESIDUAL_KILL_FRAMEWORK_ADOPTION_NOTE_20260623.md)
+
+External/PRO synthesis:
+[deep_research_mode_a_quotient_residual_kill_framework_20260623.md](docs/infra/gpt_deep_research/deep_research_mode_a_quotient_residual_kill_framework_20260623.md)
+
+Follow-up prompt:
+[GPT55_PRO_QUOTIENT_RESIDUAL_NEXT_PROMPT_20260623.md](docs/infra/gpt_deep_research/GPT55_PRO_QUOTIENT_RESIDUAL_NEXT_PROMPT_20260623.md)
+
+Adopted synthesis:
+
+```text
+Best bottom-level object:
+R_t = Pi_{N_perp,w} K_t
+```
+
+Interpretation:
+
+- `I_t = Pi_{A_perp,w} K_t` is the strict weighted additive interaction special
+  case, not the mother object.
+- Functional ANOVA / Hoeffding decompositions, tensor-rank diagnostics,
+  coarsening/refinement naturality, projection-evolution commutators, and
+  gluing obstruction are derived structures around the general quotient
+  residual.
+- The strongest mathematical route now includes no-go theorems: rank-1 scalar
+  shadow, random same-dimension subspace indistinguishability, and
+  coarsening/projection non-naturality.
+
+Current MaoField status:
+
+- Mode B remains `insufficient_artifact` for stable non-scalar structure.
+- Existing interaction residual smoke remains `smoke_conjecture_only`.
+- The rank-1 shadow warning is a future likely failure mode, not a current
+  formal verdict.
+- No full panel, interaction field, residual field, training, or new loss is
+  authorized.
+
+Still blocked:
+
+- stable non-scalar structure observed;
+- hypercube interaction field observed;
+- residual field observed;
+- full panel run;
 - `LOSO passed`;
 - `F3 positive`;
 - `glass box broken`;
