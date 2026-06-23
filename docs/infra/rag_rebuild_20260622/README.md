@@ -15,10 +15,15 @@ the canonical RAG index.
   used for the D622 post-q4 node22-vector rebuild.
 - `canonical_scope_active_20260623_091046.txt` — global active canonical scope
   used for the D623 report(7) node22-vector refresh.
+- `canonical_scope_active_20260623_095411.txt` — global active canonical scope
+  used for the D623 q4 implementation-gate node22-vector refresh.
 - `NODE22_VECTOR_REBUILD_20260622.md` — rebuild record, index hashes, backup
   paths, and verification boundary for the temporary node22 GPU vector worker.
 - `NODE22_VECTOR_REFRESH_REPORT7_20260623.md` — D623 refresh record proving
   report(7) and its adoption note are discoverable through default RAG.
+- `NODE22_VECTOR_REFRESH_Q4_GATE_20260623.md` — D623 refresh record proving the
+  q4 implementation gate and updated pointers are discoverable through default
+  RAG.
 
 ## Policy
 
@@ -32,6 +37,9 @@ generation. See `NODE22_VECTOR_REBUILD_20260622.md`.
 D623 report(7): default `/media/amd/raid1/rag/index` was refreshed again after
 archiving the q4 object strict math audit and adoption note. See
 `NODE22_VECTOR_REFRESH_REPORT7_20260623.md`.
+
+D623 q4 gate: default `/media/amd/raid1/rag/index` was refreshed after the q4
+implementation gate commit. See `NODE22_VECTOR_REFRESH_Q4_GATE_20260623.md`.
 
 Rebuild entry point:
 

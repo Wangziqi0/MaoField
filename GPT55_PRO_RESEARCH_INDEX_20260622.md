@@ -26,6 +26,11 @@
 > is the separate analysis path for a future q4 full-panel aggregate. No full
 > panel, training, or new scientific result was produced. See
 > `docs/infra/math_turn_20260622/Q4_IMPLEMENTATION_GATE_UPDATE_20260623.md`.
+> D623 q4-gate RAG update: default node36 RAG was refreshed again with
+> temporary node22 bge-m3 vector acceleration. Runtime index: 313 active
+> markdown files / 8615 chunks; `kb.faiss=ab63caba...`,
+> `kb_meta=224a1d37...`. The q4 implementation gate is now discoverable through
+> default RAG.
 
 ## 0. Scope And Evidence Boundary
 

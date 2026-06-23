@@ -34,7 +34,9 @@
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/math_turn_20260622/PANEL_PRIMARY_ARTIFACT_PREREG_DRAFT_20260622.md
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/math_turn_20260622/PANEL_PRIMARY_ARTIFACT_RUNBOOK_20260622.md
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/math_turn_20260622/PANEL_PRIMARY_ARTIFACT_SMOKE_20260622.md
+/media/amd/raid1/canonical/projects/MaoField/docs/infra/math_turn_20260622/Q4_IMPLEMENTATION_GATE_UPDATE_20260623.md
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REBUILD_20260622.md
+/media/amd/raid1/canonical/projects/MaoField/docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_REPORT7_20260623.md
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/rag_rebuild_20260622/README.md
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/three-machine-architecture.md
 /media/amd/raid1/canonical/projects/MaoField/docs/philosophy/D-3-dialectical-reflection.md
