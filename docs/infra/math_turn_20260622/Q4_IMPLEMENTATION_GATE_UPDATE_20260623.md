@@ -52,6 +52,19 @@ cells with min cell count 324, but the audit verdict is only
 `formal_prereg_only`. This is not a full panel and does not support a scientific
 claim.
 
+## Report(13) Current-Repo Hypercube Audit
+
+After `deep_research_q4_hypercube_current_repo_strict_audit_20260623.md`, the
+same boundary remains in force. Report (13) confirms against current repository
+state that `Q_freq4 x B_tokenpos4` is a formal preregistration coordinate
+system, not an observed hypercube residual field.
+
+No code change is authorized by report (13). Its suggested hypercube fold-local
+analysis path is a future-only design target and would require a separate
+artifact kind, PI-approved full-panel generation, strict additive nuisance
+controls, matched-slope gates, generation-block leave-out, coarsening/refinement
+checks, and random same-dimension subspace guards.
+
 ## Local Verification
 
 Verification ran only under node36 scratch:

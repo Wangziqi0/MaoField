@@ -48,6 +48,10 @@
 > temporary node22 bge-m3 vector acceleration. Runtime index: 320 active
 > markdown files / 8734 chunks; `kb.faiss=964e05a0...`,
 > `kb_meta=f275d96a...`. Node22 service was stopped after promotion.
+> D623 report(13) update: current-repo hypercube strict audit archived. It
+> confirms the report(11) boundary: `Q_freq4 x B_tokenpos4` is a zero-GPU
+> formal-preregistration coordinate system only, not an observed hypercube
+> residual field. No code, full-panel, training, or new-loss work is authorized.
 
 ## 0. Scope And Evidence Boundary
 
@@ -115,6 +119,9 @@ Use this order for a cold start:
    - [deep_research_q4_hypercube_extension_strict_math_audit_20260623.md](docs/infra/gpt_deep_research/deep_research_q4_hypercube_extension_strict_math_audit_20260623.md)
    - [Q4_HYPERCUBE_EXTENSION_STRICT_MATH_AUDIT_ADOPTION_NOTE_20260623.md](docs/infra/gpt_deep_research/Q4_HYPERCUBE_EXTENSION_STRICT_MATH_AUDIT_ADOPTION_NOTE_20260623.md)
    - [Q4_HYPERCUBE_ZERO_GPU_AUDIT_20260623.md](docs/infra/math_turn_20260622/Q4_HYPERCUBE_ZERO_GPU_AUDIT_20260623.md)
+12. D623 q4 hypercube current-repo strict audit:
+   - [deep_research_q4_hypercube_current_repo_strict_audit_20260623.md](docs/infra/gpt_deep_research/deep_research_q4_hypercube_current_repo_strict_audit_20260623.md)
+   - [Q4_HYPERCUBE_CURRENT_REPO_STRICT_AUDIT_ADOPTION_NOTE_20260623.md](docs/infra/gpt_deep_research/Q4_HYPERCUBE_CURRENT_REPO_STRICT_AUDIT_ADOPTION_NOTE_20260623.md)
 
 ## 2. Current Scientific Position
 
@@ -442,6 +449,38 @@ Adopted decision:
 Still blocked:
 
 - hypercube residual field observed;
+- full q4 panel approval;
+- `LOSO passed`;
+- `F3 positive`;
+- `mean-null vector field survives`;
+- `glass box broken`;
+- training authorization;
+- new loss authorization.
+
+### 4.10 D623 q4 Hypercube Current-Repo Strict Audit
+
+Primary local interpretation:
+[Q4_HYPERCUBE_CURRENT_REPO_STRICT_AUDIT_ADOPTION_NOTE_20260623.md](docs/infra/gpt_deep_research/Q4_HYPERCUBE_CURRENT_REPO_STRICT_AUDIT_ADOPTION_NOTE_20260623.md)
+
+Current-repo connector audit:
+[deep_research_q4_hypercube_current_repo_strict_audit_20260623.md](docs/infra/gpt_deep_research/deep_research_q4_hypercube_current_repo_strict_audit_20260623.md)
+
+Adopted decision:
+
+- Keep report(11)'s zero-GPU-only boundary.
+- Deflate the identification claim: `Q_freq4 x B_tokenpos4` currently adds
+  coordinate degrees of freedom and does not solve scalar-to-vector
+  non-identification.
+- Treat matched-slope, strict additive nuisance, generation-block leave-out,
+  coarsening/refinement, rank/noise, and random same-dimension subspace checks
+  as future design requirements only.
+- No current code change, full-panel generation, training, or new loss is
+  authorized.
+
+Still blocked:
+
+- hypercube residual field observed;
+- hypercube fold-local analysis artifact;
 - full q4 panel approval;
 - `LOSO passed`;
 - `F3 positive`;
