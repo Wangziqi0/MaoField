@@ -97,6 +97,15 @@
 > temporary node22 bge-m3 vector acceleration. Runtime index: 337 active
 > markdown files / 8962 chunks; `kb.faiss=b4f65861...`,
 > `kb_meta=5766c75e...`. Node22 service was stopped after the candidate build.
+> D623 report(21) update: quotient-residual finite-ANOVA kill-framework report
+> archived. Adopted synthesis: report(21) formalizes report(19), adding
+> admissible triples `(X,w,N)`, product-weight ANOVA / Hoeffding boundaries,
+> rank-1 scalar-shadow no-go, random same-dimension subspace indistinguishability,
+> coarsening/projection non-naturality, commutator leakage, measurable gluing
+> obstruction, and a stricter zero-GPU kill suite. Current MaoField Mode B
+> verdict remains `insufficient_artifact`; existing interaction smoke remains
+> `smoke_conjecture_only`; no full panel, training, or new-loss work is
+> authorized.
 
 ## 0. Scope And Evidence Boundary
 
@@ -182,6 +191,9 @@ Use this order for a cold start:
    - [deep_research_mode_a_quotient_residual_kill_framework_20260623.md](docs/infra/gpt_deep_research/deep_research_mode_a_quotient_residual_kill_framework_20260623.md)
    - [MODE_A_QUOTIENT_RESIDUAL_KILL_FRAMEWORK_ADOPTION_NOTE_20260623.md](docs/infra/gpt_deep_research/MODE_A_QUOTIENT_RESIDUAL_KILL_FRAMEWORK_ADOPTION_NOTE_20260623.md)
    - [GPT55_PRO_QUOTIENT_RESIDUAL_NEXT_PROMPT_20260623.md](docs/infra/gpt_deep_research/GPT55_PRO_QUOTIENT_RESIDUAL_NEXT_PROMPT_20260623.md)
+17. D623 quotient-residual finite ANOVA / no-go formalization:
+   - [deep_research_quotient_residual_finite_anova_kill_framework_20260623.md](docs/infra/gpt_deep_research/deep_research_quotient_residual_finite_anova_kill_framework_20260623.md)
+   - [QUOTIENT_RESIDUAL_FINITE_ANOVA_ADOPTION_NOTE_20260623.md](docs/infra/gpt_deep_research/QUOTIENT_RESIDUAL_FINITE_ANOVA_ADOPTION_NOTE_20260623.md)
 
 ## 2. Current Scientific Position
 
@@ -623,6 +635,37 @@ Still blocked:
 - `glass box broken`;
 - training authorization;
 - new loss authorization.
+
+### 4.15 D623 Quotient Residual Finite ANOVA / No-Go Formalization
+
+Primary local interpretation:
+[QUOTIENT_RESIDUAL_FINITE_ANOVA_ADOPTION_NOTE_20260623.md](docs/infra/gpt_deep_research/QUOTIENT_RESIDUAL_FINITE_ANOVA_ADOPTION_NOTE_20260623.md)
+
+External/PRO synthesis:
+[deep_research_quotient_residual_finite_anova_kill_framework_20260623.md](docs/infra/gpt_deep_research/deep_research_quotient_residual_finite_anova_kill_framework_20260623.md)
+
+Adopted formalization:
+
+- The admissible object is a pre-outcome triple `(X,w,N)` where `X` is a finite
+  product carrier, `w` is positive outcome-independent weight, and `N` is a
+  pre-outcome nuisance subspace.
+- `R_t = Pi_{N_perp,w} K_t` is the unique weighted orthogonal residual and the
+  minimum-norm representative of `[K_t] in H_w / N`.
+- Product-weight ANOVA / Hoeffding decompositions are valid only under product
+  weights and full support. Non-product weights should be called hierarchical
+  weighted projection, not canonical Hoeffding.
+- Preserved no-go agenda: rank-1 scalar shadow, random same-dimension subspace
+  indistinguishability, coarsening/projection non-naturality, commutator
+  leakage, and measurable gluing obstruction.
+
+Current MaoField status:
+
+- Mode B remains `insufficient_artifact`.
+- Existing interaction smoke remains `smoke_conjecture_only`.
+- Report (21) is a formalization of the Mode A theorem/no-go agenda, not new
+  evidence.
+- No full panel, interaction field, residual field, training, or new loss is
+  authorized.
 
 ### 4.9 D623 q4 Hypercube Extension Strict Math Audit
 
