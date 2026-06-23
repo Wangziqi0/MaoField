@@ -75,6 +75,13 @@
 > temporary node22 bge-m3 vector acceleration. Runtime index: 331 active
 > markdown files / 8898 chunks; `kb.faiss=38a48da4...`,
 > `kb_meta=634dea15...`. Node22 service was stopped after the candidate build.
+> D623 Mode A discovery update: added a zero-context GPT-5.5 Pro prompt for
+> free mathematical discovery from deflated MaoField material, plus a future-only
+> q4 x token-position interaction prereg analysis skeleton. The skeleton rejects
+> missing or old aggregates and has strongest verdict
+> `eligible_for_next_design_review_only`; it does not run a panel, load
+> checkpoints, train, or authorize a new loss. RAG refresh is pending for this
+> prompt/skeleton update.
 
 ## 0. Scope And Evidence Boundary
 
@@ -153,6 +160,9 @@ Use this order for a cold start:
    - [deep_research_math_ore_quotient_residual_strict_audit_20260623.md](docs/infra/gpt_deep_research/deep_research_math_ore_quotient_residual_strict_audit_20260623.md)
    - [MATH_ORE_QUOTIENT_RESIDUAL_ADOPTION_NOTE_20260623.md](docs/infra/gpt_deep_research/MATH_ORE_QUOTIENT_RESIDUAL_ADOPTION_NOTE_20260623.md)
    - [HYPERCUBE_INTERACTION_ANALYSIS_PREREG_DESIGN_20260623.md](docs/infra/math_turn_20260622/HYPERCUBE_INTERACTION_ANALYSIS_PREREG_DESIGN_20260623.md)
+15. D623 Mode A discovery prompt and future-only Mode B gate skeleton:
+   - [GPT55_PRO_MODE_A_MATH_DISCOVERY_PROMPT_20260623.md](docs/infra/gpt_deep_research/GPT55_PRO_MODE_A_MATH_DISCOVERY_PROMPT_20260623.md)
+   - [q4_hypercube_interaction_prereg_analysis.py](scripts/q4_hypercube_interaction_prereg_analysis.py)
 
 ## 2. Current Scientific Position
 
@@ -502,6 +512,40 @@ Still blocked:
 - hypercube interaction field observed;
 - residual field observed;
 - full panel run;
+- `LOSO passed`;
+- `F3 positive`;
+- `glass box broken`;
+- training authorization;
+- new loss authorization.
+
+### 4.13 D623 Mode A Discovery Prompt And Mode B Skeleton
+
+Prompt:
+[GPT55_PRO_MODE_A_MATH_DISCOVERY_PROMPT_20260623.md](docs/infra/gpt_deep_research/GPT55_PRO_MODE_A_MATH_DISCOVERY_PROMPT_20260623.md)
+
+Future-only skeleton:
+[q4_hypercube_interaction_prereg_analysis.py](scripts/q4_hypercube_interaction_prereg_analysis.py)
+
+Purpose:
+
+- Mode A: ask GPT-5.5 Pro to search for a new bottom-level mathematical problem
+  from deflated MaoField material, not to defend old MaoField claims.
+- Mode B: enforce future evidence gates for a q4 x token-position interaction
+  analysis without running checkpoints or generating a panel.
+
+Script boundary:
+
+- With no future aggregate, verdict is `insufficient_artifact`.
+- With old q4 rare/freq aggregates, verdict is `invalid_artifact`.
+- With missing provenance, schema, source-only weights, cells, or null-test
+  blocks, the script fails closed.
+- Strongest possible verdict is `eligible_for_next_design_review_only`.
+
+Still blocked:
+
+- full panel run;
+- interaction field observed;
+- residual field observed;
 - `LOSO passed`;
 - `F3 positive`;
 - `glass box broken`;

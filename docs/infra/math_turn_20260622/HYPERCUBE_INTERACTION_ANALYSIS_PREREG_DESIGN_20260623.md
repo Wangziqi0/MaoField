@@ -128,3 +128,18 @@ The future script must be independent from the generator. It may consume raw
 JSONL or a preregistered full-panel aggregate, but it must not load checkpoints,
 run inference, train, or change the model. It must fail closed when provenance,
 schema ids, raw hashes, source-only weights, or required cells are missing.
+
+## Implementation Skeleton
+
+The future-only gate skeleton is:
+
+```text
+scripts/q4_hypercube_interaction_prereg_analysis.py
+```
+
+It does not generate a panel or load checkpoints. With no future aggregate, its
+verdict is `insufficient_artifact`. With malformed provenance, old rare/freq
+rows, missing q4/token-position cells, or missing preregistered null-test result
+blocks, it fails closed. Its strongest possible verdict is
+`eligible_for_next_design_review_only`, never an observed-field or glass-box
+claim.
