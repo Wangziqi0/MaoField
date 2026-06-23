@@ -31,6 +31,11 @@
 > markdown files / 8615 chunks; `kb.faiss=ab63caba...`,
 > `kb_meta=224a1d37...`. The q4 implementation gate is now discoverable through
 > default RAG.
+> D623 report(9) update: residual-field strict math audit archived. Adopted
+> object: `r_i = u_i - <v,u_i>_w v`, plus fold-local scalar-slope residual and
+> random mean-null projection multiplicity guard. Current local code incorporates
+> these into `scripts/q4_full_panel_foldlocal_analysis.py`; no full panel or
+> training was run.
 
 ## 0. Scope And Evidence Boundary
 
@@ -91,6 +96,9 @@ Use this order for a cold start:
    - [Q4_IMPLEMENTATION_GATE_UPDATE_20260623.md](docs/infra/math_turn_20260622/Q4_IMPLEMENTATION_GATE_UPDATE_20260623.md)
    - [highorder_raw_logprob_panel.py](experiments/exp020_metric_stress_test/scripts/highorder_raw_logprob_panel.py)
    - [q4_full_panel_foldlocal_analysis.py](scripts/q4_full_panel_foldlocal_analysis.py)
+10. D623 q4 residual-field strict audit:
+   - [deep_research_q4_residual_field_strict_math_audit_20260623.md](docs/infra/gpt_deep_research/deep_research_q4_residual_field_strict_math_audit_20260623.md)
+   - [Q4_RESIDUAL_FIELD_STRICT_MATH_AUDIT_ADOPTION_NOTE_20260623.md](docs/infra/gpt_deep_research/Q4_RESIDUAL_FIELD_STRICT_MATH_AUDIT_ADOPTION_NOTE_20260623.md)
 
 ## 2. Current Scientific Position
 

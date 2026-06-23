@@ -1,10 +1,14 @@
 #!/usr/bin/env python3
-"""Zero-GPU audit gate for MaoField's math-turn candidate.
+"""Legacy zero-GPU audit gate for MaoField's old high-order aggregate.
 
 This script consumes existing high-order aggregate JSON only. It does not
 load checkpoints, create new bins, or claim that the proposed mean-null vector
 field has been validated. Its job is to decide whether the current aggregate
 F1/F3 artifact is enough to justify moving beyond the negative synthesis.
+
+It is legacy-only. If the input is a q4 full-panel aggregate with `slice_rows`,
+`u_values`, and `primary_projection_P`, use `scripts/q4_full_panel_foldlocal_analysis.py`
+instead.
 """
 
 from __future__ import annotations
@@ -187,6 +191,20 @@ def rank_residual_audit(rows: list[dict[str, Any]]) -> dict[str, Any]:
     }
 
 
+def reject_q4_panel_input(data: dict[str, Any], input_path: Path) -> None:
+    rows = data.get("rows", [])
+    if not rows:
+        return
+    first = rows[0]
+    q4_keys = {"slice_rows", "u_values", "primary_projection_P"}
+    if q4_keys.issubset(first):
+        raise SystemExit(
+            "invalid input for legacy math_turn_loso_audit.py: "
+            f"{input_path} looks like a q4 panel aggregate. Use "
+            "scripts/q4_full_panel_foldlocal_analysis.py instead."
+        )
+
+
 def summarize_verdict(loso: dict[str, Any], matched: dict[str, Any], rank: dict[str, Any]) -> dict[str, Any]:
     f3_loso = loso["F3_slice_gap"]["passes_weak_loso_delta_gate"]
     f3_matched = all(
@@ -321,6 +339,7 @@ def main() -> None:
     outdir.mkdir(parents=True, exist_ok=True)
 
     data = json.loads(input_path.read_text(encoding="utf-8"))
+    reject_q4_panel_input(data, input_path)
     rows = data["rows"]
     loso = loso_audit(rows, args.n_perm, args.seed)
     matched = matched_mean_audit(rows, [0.02, 0.04])

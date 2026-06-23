@@ -21,6 +21,20 @@ new loss, or license any glass-box wording.
   reports only four possible verdicts: `invalid_artifact`, `killed`,
   `insufficient_artifact`, or `eligible_for_next_design_review_only`.
 
+## Report(9) Residual-Field Tightening
+
+After `deep_research_q4_residual_field_strict_math_audit_20260623.md`, the
+separate q4 analysis path was tightened to audit the explicit object:
+
+```text
+r_i = u_i - <v, u_i>_w v
+```
+
+The script now records projection geometry, fold-local scalar-slope residuals,
+rank/noise pressure on the residual field, and a random mean-null projection
+multiplicity guard. The legacy `scripts/math_turn_loso_audit.py` now rejects q4
+panel aggregate inputs and points callers to the q4 fold-local script.
+
 ## Local Verification
 
 Verification ran only under node36 scratch:
@@ -36,6 +50,8 @@ Commands passed:
 - Analysis self-test completed on synthetic q4-shaped input.
 - Old `highorder_result.json` rare/freq aggregate was rejected as
   `invalid_artifact`.
+- Legacy LOSO script accepted old rare/freq aggregate input and rejected
+  q4-shaped input.
 - `git diff --check` passed.
 
 The dry run wrote:
