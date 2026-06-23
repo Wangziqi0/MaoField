@@ -44,6 +44,10 @@
 > Adopted verdict: zero-GPU formal preregistration only. Local code now records
 > a `q4_tokenpos4_hypercube_20260623` schema and zero-GPU feasibility audit over
 > existing smoke raw rows; this is not a full panel and not a scientific result.
+> D623 report(11) RAG update: default node36 RAG was refreshed again with
+> temporary node22 bge-m3 vector acceleration. Runtime index: 320 active
+> markdown files / 8734 chunks; `kb.faiss=964e05a0...`,
+> `kb_meta=f275d96a...`. Node22 service was stopped after promotion.
 
 ## 0. Scope And Evidence Boundary
 
