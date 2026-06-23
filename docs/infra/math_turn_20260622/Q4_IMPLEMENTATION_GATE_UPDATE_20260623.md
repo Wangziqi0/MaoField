@@ -35,6 +35,23 @@ rank/noise pressure on the residual field, and a random mean-null projection
 multiplicity guard. The legacy `scripts/math_turn_loso_audit.py` now rejects q4
 panel aggregate inputs and points callers to the q4 fold-local script.
 
+## Report(11) Hypercube Zero-GPU Feasibility
+
+After `deep_research_q4_hypercube_extension_strict_math_audit_20260623.md`, the
+hypercube extension was limited to formal preregistration / zero-GPU feasibility
+only. Local additions:
+
+- `scripts/build_hypercube_schema_20260623.py`
+- `scripts/q4_hypercube_zero_gpu_audit.py`
+- `hypercube_schema_q4_tokenpos4_20260623.json`
+- `Q4_HYPERCUBE_ZERO_GPU_AUDIT_20260623.{json,md}`
+
+The minimal candidate is `Q_freq4 x B_tokenpos4`, derived from locked q4 slices
+and the existing `token_pos` field. Existing smoke raw rows have 16/16 non-empty
+cells with min cell count 324, but the audit verdict is only
+`formal_prereg_only`. This is not a full panel and does not support a scientific
+claim.
+
 ## Local Verification
 
 Verification ran only under node36 scratch:

@@ -1,0 +1,247 @@
+{
+  "artifact_kind": "maofield_q4_hypercube_zero_gpu_audit",
+  "artifact_version": "2026-06-23.d623.zero_gpu_audit.v1",
+  "created_at": "2026-06-23T11:38:38",
+  "schema_path": "/media/amd/raid1/canonical/projects/MaoField/docs/infra/math_turn_20260622/hypercube_schema_q4_tokenpos4_20260623.json",
+  "schema_id": "q4_tokenpos4_hypercube_20260623",
+  "raw_glob": "/media/amd/raid1/canonical/wip/maofield_panel_primary_20260622/raw/smoke_seed*_generation*_token_panel.jsonl",
+  "raw_files": [
+    "/media/amd/raid1/canonical/wip/maofield_panel_primary_20260622/raw/smoke_seed1_generation0_token_panel.jsonl",
+    "/media/amd/raid1/canonical/wip/maofield_panel_primary_20260622/raw/smoke_seed2_generation5_token_panel.jsonl",
+    "/media/amd/raid1/canonical/wip/maofield_panel_primary_20260622/raw/smoke_seed42_generation9_token_panel.jsonl"
+  ],
+  "file_summaries": [
+    {
+      "path": "/media/amd/raid1/canonical/wip/maofield_panel_primary_20260622/raw/smoke_seed1_generation0_token_panel.jsonl",
+      "status": "parsed",
+      "seed": 1,
+      "generation": 0,
+      "schema_ids": [
+        "freq_q4_audit_targets_20260622"
+      ],
+      "expected_schema_id": "freq_q4_audit_targets_20260622",
+      "schema_id_pass": true,
+      "source_splits": [
+        "train"
+      ],
+      "source_split_pass": true,
+      "n_rows": 8064,
+      "q4_tokenpos4_occupancy": [
+        [
+          363,
+          324,
+          360,
+          327
+        ],
+        [
+          629,
+          690,
+          656,
+          606
+        ],
+        [
+          550,
+          511,
+          499,
+          460
+        ],
+        [
+          506,
+          523,
+          533,
+          527
+        ]
+      ],
+      "q4_tokenpos4_empty_cells": [],
+      "q4_tokenpos4_min_cell_count": 324,
+      "q4_tokenpos4_max_cell_count": 690,
+      "q4_tokenpos4_sparse_cell_threshold": 128,
+      "q4_tokenpos4_passes_occupancy_gate": true,
+      "q4_audit_block128_min_cell_count": 1,
+      "q4_audit_block128_max_cell_count": 36,
+      "audit_block_id_as_primary_axis": "rejected_sparse_high_dimensional_axis",
+      "cell_mean_logprob_summary": {
+        "min": -5.850928512148523,
+        "median": -3.4089255856086016,
+        "max": -1.1731161617420967
+      },
+      "nuisance_dimensions": {
+        "ambient_dimension": 16,
+        "mandatory_nuisance_basis": [
+          "constant cell mean mode",
+          "locked q4 slope lifted across token-position bins",
+          "centered pure token-position main effects"
+        ],
+        "mandatory_nuisance_rank": 5,
+        "mandatory_residual_dimension": 11,
+        "strict_additive_basis": [
+          "constant cell mean mode",
+          "centered q4 frequency main effects",
+          "centered token-position main effects"
+        ],
+        "strict_additive_rank": 7,
+        "strict_additive_residual_dimension": 9
+      }
+    },
+    {
+      "path": "/media/amd/raid1/canonical/wip/maofield_panel_primary_20260622/raw/smoke_seed2_generation5_token_panel.jsonl",
+      "status": "parsed",
+      "seed": 2,
+      "generation": 5,
+      "schema_ids": [
+        "freq_q4_audit_targets_20260622"
+      ],
+      "expected_schema_id": "freq_q4_audit_targets_20260622",
+      "schema_id_pass": true,
+      "source_splits": [
+        "train"
+      ],
+      "source_split_pass": true,
+      "n_rows": 8064,
+      "q4_tokenpos4_occupancy": [
+        [
+          363,
+          324,
+          360,
+          327
+        ],
+        [
+          629,
+          690,
+          656,
+          606
+        ],
+        [
+          550,
+          511,
+          499,
+          460
+        ],
+        [
+          506,
+          523,
+          533,
+          527
+        ]
+      ],
+      "q4_tokenpos4_empty_cells": [],
+      "q4_tokenpos4_min_cell_count": 324,
+      "q4_tokenpos4_max_cell_count": 690,
+      "q4_tokenpos4_sparse_cell_threshold": 128,
+      "q4_tokenpos4_passes_occupancy_gate": true,
+      "q4_audit_block128_min_cell_count": 1,
+      "q4_audit_block128_max_cell_count": 36,
+      "audit_block_id_as_primary_axis": "rejected_sparse_high_dimensional_axis",
+      "cell_mean_logprob_summary": {
+        "min": -6.849134442450982,
+        "median": -3.847288110188673,
+        "max": -1.418464224796436
+      },
+      "nuisance_dimensions": {
+        "ambient_dimension": 16,
+        "mandatory_nuisance_basis": [
+          "constant cell mean mode",
+          "locked q4 slope lifted across token-position bins",
+          "centered pure token-position main effects"
+        ],
+        "mandatory_nuisance_rank": 5,
+        "mandatory_residual_dimension": 11,
+        "strict_additive_basis": [
+          "constant cell mean mode",
+          "centered q4 frequency main effects",
+          "centered token-position main effects"
+        ],
+        "strict_additive_rank": 7,
+        "strict_additive_residual_dimension": 9
+      }
+    },
+    {
+      "path": "/media/amd/raid1/canonical/wip/maofield_panel_primary_20260622/raw/smoke_seed42_generation9_token_panel.jsonl",
+      "status": "parsed",
+      "seed": 42,
+      "generation": 9,
+      "schema_ids": [
+        "freq_q4_audit_targets_20260622"
+      ],
+      "expected_schema_id": "freq_q4_audit_targets_20260622",
+      "schema_id_pass": true,
+      "source_splits": [
+        "train"
+      ],
+      "source_split_pass": true,
+      "n_rows": 8064,
+      "q4_tokenpos4_occupancy": [
+        [
+          363,
+          324,
+          360,
+          327
+        ],
+        [
+          629,
+          690,
+          656,
+          606
+        ],
+        [
+          550,
+          511,
+          499,
+          460
+        ],
+        [
+          506,
+          523,
+          533,
+          527
+        ]
+      ],
+      "q4_tokenpos4_empty_cells": [],
+      "q4_tokenpos4_min_cell_count": 324,
+      "q4_tokenpos4_max_cell_count": 690,
+      "q4_tokenpos4_sparse_cell_threshold": 128,
+      "q4_tokenpos4_passes_occupancy_gate": true,
+      "q4_audit_block128_min_cell_count": 1,
+      "q4_audit_block128_max_cell_count": 36,
+      "audit_block_id_as_primary_axis": "rejected_sparse_high_dimensional_axis",
+      "cell_mean_logprob_summary": {
+        "min": -6.543794357888439,
+        "median": -3.646338751619459,
+        "max": -1.3186706107699393
+      },
+      "nuisance_dimensions": {
+        "ambient_dimension": 16,
+        "mandatory_nuisance_basis": [
+          "constant cell mean mode",
+          "locked q4 slope lifted across token-position bins",
+          "centered pure token-position main effects"
+        ],
+        "mandatory_nuisance_rank": 5,
+        "mandatory_residual_dimension": 11,
+        "strict_additive_basis": [
+          "constant cell mean mode",
+          "centered q4 frequency main effects",
+          "centered token-position main effects"
+        ],
+        "strict_additive_rank": 7,
+        "strict_additive_residual_dimension": 9
+      }
+    }
+  ],
+  "final_verdict": "formal_prereg_only",
+  "verdict_reasons": [
+    "q4 x token_pos4 cells are non-empty in existing smoke raw rows",
+    "this is not a full panel and does not support a scientific claim"
+  ],
+  "strongest_allowed_statement": "The q4 x token_pos4 hypercube is eligible only for formal preregistration review, not scientific interpretation.",
+  "blocked_claims": [
+    "LOSO passed",
+    "F3 positive",
+    "mean-null vector field survives",
+    "residual field observed",
+    "glass box broken",
+    "training authorized",
+    "new loss authorized",
+    "full panel approved"
+  ]
+}

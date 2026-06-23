@@ -40,6 +40,10 @@
 > temporary node22 bge-m3 vector acceleration. Runtime index: 316 active
 > markdown files / 8674 chunks; `kb.faiss=072fa57a...`,
 > `kb_meta=f9335ca9...`.
+> D623 report(11) update: q4 hypercube extension strict math audit archived.
+> Adopted verdict: zero-GPU formal preregistration only. Local code now records
+> a `q4_tokenpos4_hypercube_20260623` schema and zero-GPU feasibility audit over
+> existing smoke raw rows; this is not a full panel and not a scientific result.
 
 ## 0. Scope And Evidence Boundary
 
@@ -103,6 +107,10 @@ Use this order for a cold start:
 10. D623 q4 residual-field strict audit:
    - [deep_research_q4_residual_field_strict_math_audit_20260623.md](docs/infra/gpt_deep_research/deep_research_q4_residual_field_strict_math_audit_20260623.md)
    - [Q4_RESIDUAL_FIELD_STRICT_MATH_AUDIT_ADOPTION_NOTE_20260623.md](docs/infra/gpt_deep_research/Q4_RESIDUAL_FIELD_STRICT_MATH_AUDIT_ADOPTION_NOTE_20260623.md)
+11. D623 q4 hypercube extension strict math audit:
+   - [deep_research_q4_hypercube_extension_strict_math_audit_20260623.md](docs/infra/gpt_deep_research/deep_research_q4_hypercube_extension_strict_math_audit_20260623.md)
+   - [Q4_HYPERCUBE_EXTENSION_STRICT_MATH_AUDIT_ADOPTION_NOTE_20260623.md](docs/infra/gpt_deep_research/Q4_HYPERCUBE_EXTENSION_STRICT_MATH_AUDIT_ADOPTION_NOTE_20260623.md)
+   - [Q4_HYPERCUBE_ZERO_GPU_AUDIT_20260623.md](docs/infra/math_turn_20260622/Q4_HYPERCUBE_ZERO_GPU_AUDIT_20260623.md)
 
 ## 2. Current Scientific Position
 
@@ -394,6 +402,43 @@ Still blocked:
 
 - full q4 object implemented;
 - full 50-checkpoint panel approval;
+- `LOSO passed`;
+- `F3 positive`;
+- `mean-null vector field survives`;
+- `glass box broken`;
+- training authorization;
+- new loss authorization.
+
+### 4.9 D623 q4 Hypercube Extension Strict Math Audit
+
+Primary local interpretation:
+[Q4_HYPERCUBE_EXTENSION_STRICT_MATH_AUDIT_ADOPTION_NOTE_20260623.md](docs/infra/gpt_deep_research/Q4_HYPERCUBE_EXTENSION_STRICT_MATH_AUDIT_ADOPTION_NOTE_20260623.md)
+
+External/package audit:
+[deep_research_q4_hypercube_extension_strict_math_audit_20260623.md](docs/infra/gpt_deep_research/deep_research_q4_hypercube_extension_strict_math_audit_20260623.md)
+
+Local zero-GPU artifacts:
+
+- [hypercube_schema_q4_tokenpos4_20260623.json](docs/infra/math_turn_20260622/hypercube_schema_q4_tokenpos4_20260623.json)
+- [Q4_HYPERCUBE_ZERO_GPU_AUDIT_20260623.md](docs/infra/math_turn_20260622/Q4_HYPERCUBE_ZERO_GPU_AUDIT_20260623.md)
+- [build_hypercube_schema_20260623.py](scripts/build_hypercube_schema_20260623.py)
+- [q4_hypercube_zero_gpu_audit.py](scripts/q4_hypercube_zero_gpu_audit.py)
+
+Adopted decision:
+
+- Hypercube extension is allowed only as formal preregistration / zero-GPU
+  feasibility work.
+- The minimal local candidate is `Q_freq4 x B_tokenpos4`, derived from locked
+  q4 slice IDs and the existing `token_pos` raw field.
+- Existing smoke raw rows have non-empty `q4 x token_pos4` cells, but this is
+  not a full panel and cannot support a scientific claim.
+- `audit_block_id` is rejected as a primary hypercube axis for now because the
+  corresponding q4 x 128-block cells are too sparse.
+
+Still blocked:
+
+- hypercube residual field observed;
+- full q4 panel approval;
 - `LOSO passed`;
 - `F3 positive`;
 - `mean-null vector field survives`;
