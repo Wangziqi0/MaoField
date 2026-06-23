@@ -36,6 +36,10 @@
 > random mean-null projection multiplicity guard. Current local code incorporates
 > these into `scripts/q4_full_panel_foldlocal_analysis.py`; no full panel or
 > training was run.
+> D623 report(9) RAG update: default node36 RAG was refreshed again with
+> temporary node22 bge-m3 vector acceleration. Runtime index: 316 active
+> markdown files / 8674 chunks; `kb.faiss=072fa57a...`,
+> `kb_meta=f9335ca9...`.
 
 ## 0. Scope And Evidence Boundary
 
