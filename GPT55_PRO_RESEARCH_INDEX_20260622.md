@@ -93,6 +93,10 @@
 > remains `insufficient_artifact`; existing interaction smoke remains
 > `smoke_conjecture_only`; no full panel, training, or new-loss work is
 > authorized.
+> D623 report(19) RAG update: default node36 RAG was refreshed again with
+> temporary node22 bge-m3 vector acceleration. Runtime index: 337 active
+> markdown files / 8962 chunks; `kb.faiss=b4f65861...`,
+> `kb_meta=5766c75e...`. Node22 service was stopped after the candidate build.
 
 ## 0. Scope And Evidence Boundary
 
@@ -601,6 +605,8 @@ Current MaoField status:
 
 - Mode B remains `insufficient_artifact` for stable non-scalar structure.
 - Existing interaction residual smoke remains `smoke_conjecture_only`.
+- Default RAG now includes report(19), its adoption note, and the follow-up Pro
+  prompt: 337 active markdown files / 8962 chunks.
 - The rank-1 shadow warning is a future likely failure mode, not a current
   formal verdict.
 - No full panel, interaction field, residual field, training, or new loss is
