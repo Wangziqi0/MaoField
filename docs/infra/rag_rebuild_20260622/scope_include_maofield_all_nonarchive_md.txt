@@ -18,6 +18,7 @@
 /media/amd/raid1/canonical/projects/MaoField/docs/discipline/D-2-parallel.md
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/EXPERIMENT_CONVERGENCE_AND_MATH_TURN_20260622.md
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/FUTURE_MATH_OBJECTS_INTERACTION_FIELD_ADOPTION_NOTE_20260623.md
+/media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/GPT55_PRO_MODE_A_MATH_DISCOVERY_PROMPT_20260623.md
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/MATH_ORE_QUOTIENT_RESIDUAL_ADOPTION_NOTE_20260623.md
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/MATH_TURN_FRAMEWORK_ADOPTION_NOTE_20260622.md
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/Q4_HYPERCUBE_CURRENT_REPO_STRICT_AUDIT_ADOPTION_NOTE_20260623.md
@@ -53,6 +54,7 @@
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_REPORT11_20260623.md
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_REPORT13_20260623.md
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_REPORT15_20260623.md
+/media/amd/raid1/canonical/projects/MaoField/docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_REPORT17_20260623.md
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_REPORT7_20260623.md
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_REPORT9_20260623.md
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/rag_rebuild_20260622/README.md

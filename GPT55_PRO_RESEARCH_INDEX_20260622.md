@@ -80,8 +80,11 @@
 > q4 x token-position interaction prereg analysis skeleton. The skeleton rejects
 > missing or old aggregates and has strongest verdict
 > `eligible_for_next_design_review_only`; it does not run a panel, load
-> checkpoints, train, or authorize a new loss. RAG refresh is pending for this
-> prompt/skeleton update.
+> checkpoints, train, or authorize a new loss.
+> D623 Mode A RAG update: default node36 RAG was refreshed again with temporary
+> node22 bge-m3 vector acceleration. Runtime index: 333 active markdown files /
+> 8916 chunks; `kb.faiss=762ecd2f...`, `kb_meta=451bd903...`. Node22 service
+> was stopped after the candidate build.
 
 ## 0. Scope And Evidence Boundary
 

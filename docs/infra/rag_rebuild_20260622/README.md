@@ -27,6 +27,8 @@ the canonical RAG index.
   scope used for the D623 report(15) node22-vector refresh.
 - `canonical_scope_active_20260623_1509_report17.txt` — global active canonical
   scope used for the D623 report(17) node22-vector refresh.
+- `canonical_scope_active_20260623_1556_modea.txt` — global active canonical
+  scope used for the D623 Mode A prompt / Mode B skeleton node22-vector refresh.
 - `NODE22_VECTOR_REBUILD_20260622.md` — rebuild record, index hashes, backup
   paths, and verification boundary for the temporary node22 GPU vector worker.
 - `NODE22_VECTOR_REFRESH_REPORT7_20260623.md` — D623 refresh record proving
@@ -49,6 +51,9 @@ the canonical RAG index.
 - `NODE22_VECTOR_REFRESH_REPORT17_20260623.md` — D623 refresh record proving
   report(17), its adoption note, and the hypercube interaction prereg design are
   discoverable through default RAG.
+- `NODE22_VECTOR_REFRESH_MODEA_20260623.md` — D623 refresh record proving the
+  Mode A GPT-5.5 Pro prompt and Mode B skeleton pointers are discoverable
+  through default RAG.
 
 ## Policy
 
@@ -85,6 +90,10 @@ future math-object / interaction-field audit and smoke reproduction. See
 D623 report(17): default `/media/amd/raid1/rag/index` was refreshed after the
 math-ore quotient residual strict audit and zero-GPU prereg design. See
 `NODE22_VECTOR_REFRESH_REPORT17_20260623.md`.
+
+D623 ModeA: default `/media/amd/raid1/rag/index` was refreshed after adding the
+GPT-5.5 Pro Mode A prompt and future-only Mode B skeleton. See
+`NODE22_VECTOR_REFRESH_MODEA_20260623.md`.
 
 Rebuild entry point:
 
