@@ -61,6 +61,10 @@
 > `I_i = Pi_{A_perp,w} K_i` over `Q_freq4 x B_tokenpos4`. Local zero-GPU smoke
 > reproduction verdict is `smoke_conjecture_only`; no full-panel, training, or
 > new-loss work is authorized.
+> D623 report(15) RAG update: default node36 RAG was refreshed again with
+> temporary node22 bge-m3 vector acceleration. Runtime index: 327 active
+> markdown files / 8843 chunks; `kb.faiss=86909830...`,
+> `kb_meta=acc697ee...`. Node22 service was stopped after the candidate build.
 
 ## 0. Scope And Evidence Boundary
 
@@ -648,9 +652,11 @@ Known coverage caveats:
 - `MD_CATALOG.md` is useful but stale; it is a navigation map, not latest truth.
 - `sessions/handoff-gpt-20260626/` is outside the MaoField repo and not reliably available to GitHub/web indexing.
 - This file is the repository-local replacement for the research subset of that handoff.
-- As of the D622 post-q4 rebuild, default local RAG includes report (6), adoption notes, q4
-  runbook/smoke records, and the refreshed data digest. Use RAG to locate
-  files, then verify claims against code, JSON/JSONL, logs, or verdict files.
+- As of the D623 report(15) refresh, default local RAG includes reports
+  (6)/(7)/(9)/(11)/(13)/(15), adoption notes, q4 runbook/smoke records,
+  interaction-field smoke records, and the refreshed data digest. Use RAG to
+  locate files, then verify claims against code, JSON/JSONL, logs, or verdict
+  files.
 
 ## 9. GitHub / Web Indexing Package
 
