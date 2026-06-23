@@ -1,0 +1,276 @@
+{
+  "artifact_kind": "maofield_q4_hypercube_interaction_smoke_audit",
+  "artifact_version": "2026-06-23.d623.interaction_smoke.v1",
+  "created_at": "2026-06-23T13:29:27",
+  "schema_path": "/media/amd/raid1/canonical/projects/MaoField/docs/infra/math_turn_20260622/hypercube_schema_q4_tokenpos4_20260623.json",
+  "schema_sha256": "40b2782f47cdf13cd212ee4b950791f934365e1a895fcb1728702fcf6d12cbbd",
+  "schema_id": "q4_tokenpos4_hypercube_20260623",
+  "raw_glob": "/media/amd/raid1/canonical/wip/maofield_panel_primary_20260622/raw/smoke_seed*_generation*_token_panel.jsonl",
+  "raw_files": [
+    "/media/amd/raid1/canonical/wip/maofield_panel_primary_20260622/raw/smoke_seed1_generation0_token_panel.jsonl",
+    "/media/amd/raid1/canonical/wip/maofield_panel_primary_20260622/raw/smoke_seed2_generation5_token_panel.jsonl",
+    "/media/amd/raid1/canonical/wip/maofield_panel_primary_20260622/raw/smoke_seed42_generation9_token_panel.jsonl"
+  ],
+  "weight_source": "hypercube_schema_q4_tokenpos4_20260623.json source-only cell weights",
+  "additive_nuisance_space": [
+    "constant cell mean",
+    "q4 frequency main effects",
+    "token-position main effects"
+  ],
+  "file_summaries": [
+    {
+      "path": "/media/amd/raid1/canonical/wip/maofield_panel_primary_20260622/raw/smoke_seed1_generation0_token_panel.jsonl",
+      "filename": "smoke_seed1_generation0_token_panel.jsonl",
+      "raw_sha256": "90e5104f714306f7e1eaa7c14b26aa8333f4c42ad0e684521e757efa992d5dbe",
+      "seed": 1,
+      "generation": 0,
+      "n_rows": 8064,
+      "occupancy_q_by_tokenpos4": [
+        [
+          363,
+          324,
+          360,
+          327
+        ],
+        [
+          629,
+          690,
+          656,
+          606
+        ],
+        [
+          550,
+          511,
+          499,
+          460
+        ],
+        [
+          506,
+          523,
+          533,
+          527
+        ]
+      ],
+      "weighted_mean_logprob": -3.1623526844625918,
+      "cell_mean_logprob_q_by_tokenpos4": [
+        [
+          -5.850928512148523,
+          -4.998067510049117,
+          -5.155028188332087,
+          -4.884188442502388
+        ],
+        [
+          -5.138659736699394,
+          -4.076303921329668,
+          -4.045097397422912,
+          -3.7384676526842058
+        ],
+        [
+          -3.079383518532997,
+          -2.05609760282622,
+          -1.9636093543227455,
+          -2.021732463325555
+        ],
+        [
+          -1.5643430908893023,
+          -1.2334138976901081,
+          -1.1731161617420967,
+          -1.185921418672925
+        ]
+      ],
+      "mean_null_norm": 1.5434603617536697,
+      "additive_main_effect_norm": 1.5356883380544468,
+      "interaction_residual_norm": 0.1546971773121226,
+      "interaction_to_mean_null_ratio": 0.10022750252967731
+    },
+    {
+      "path": "/media/amd/raid1/canonical/wip/maofield_panel_primary_20260622/raw/smoke_seed2_generation5_token_panel.jsonl",
+      "filename": "smoke_seed2_generation5_token_panel.jsonl",
+      "raw_sha256": "3449396dc2378c939d8ae10f8fa95d6b3e786f68c0fc307f7bdbbd10c6b440cc",
+      "seed": 2,
+      "generation": 5,
+      "n_rows": 8064,
+      "occupancy_q_by_tokenpos4": [
+        [
+          363,
+          324,
+          360,
+          327
+        ],
+        [
+          629,
+          690,
+          656,
+          606
+        ],
+        [
+          550,
+          511,
+          499,
+          460
+        ],
+        [
+          506,
+          523,
+          533,
+          527
+        ]
+      ],
+      "weighted_mean_logprob": -3.6537632264723383,
+      "cell_mean_logprob_q_by_tokenpos4": [
+        [
+          -6.849134442450982,
+          -5.67882212073047,
+          -5.8657553346659475,
+          -5.58361276694309
+        ],
+        [
+          -5.900080389544106,
+          -4.600846836107361,
+          -4.607887595921744,
+          -4.252643884206906
+        ],
+        [
+          -3.441932336170441,
+          -2.2946926314113276,
+          -2.2982446908550584,
+          -2.425412589544581
+        ],
+        [
+          -1.9154221903512403,
+          -1.6604984858166258,
+          -1.418464224796436,
+          -1.5043595349082004
+        ]
+      ],
+      "mean_null_norm": 1.7217832237958255,
+      "additive_main_effect_norm": 1.7110335376065566,
+      "interaction_residual_norm": 0.19209815962246998,
+      "interaction_to_mean_null_ratio": 0.11156930615166082
+    },
+    {
+      "path": "/media/amd/raid1/canonical/wip/maofield_panel_primary_20260622/raw/smoke_seed42_generation9_token_panel.jsonl",
+      "filename": "smoke_seed42_generation9_token_panel.jsonl",
+      "raw_sha256": "6f434848b7024e20c01c1a401a15b09145e3e0c103f4d4a7dc544b478b090338",
+      "seed": 42,
+      "generation": 9,
+      "n_rows": 8064,
+      "occupancy_q_by_tokenpos4": [
+        [
+          363,
+          324,
+          360,
+          327
+        ],
+        [
+          629,
+          690,
+          656,
+          606
+        ],
+        [
+          550,
+          511,
+          499,
+          460
+        ],
+        [
+          506,
+          523,
+          533,
+          527
+        ]
+      ],
+      "weighted_mean_logprob": -3.4199153824421664,
+      "cell_mean_logprob_q_by_tokenpos4": [
+        [
+          -6.543794357888439,
+          -5.346383114364774,
+          -5.5908551301044,
+          -5.21677339734689
+        ],
+        [
+          -5.533623770086816,
+          -4.328136012360029,
+          -4.278006016355349,
+          -4.087746425833313
+        ],
+        [
+          -3.2049310774056052,
+          -2.1482686941699045,
+          -2.006167034884114,
+          -2.1804365952661873
+        ],
+        [
+          -1.7740104823015332,
+          -1.4989355972289693,
+          -1.3186706107699393,
+          -1.4276476245153173
+        ]
+      ],
+      "mean_null_norm": 1.649146238631071,
+      "additive_main_effect_norm": 1.639353253678354,
+      "interaction_residual_norm": 0.1794553594775164,
+      "interaction_to_mean_null_ratio": 0.10881712929623472
+    }
+  ],
+  "interaction_summary": {
+    "pairwise_weighted_correlations": [
+      {
+        "left": "smoke_seed1_generation0_token_panel.jsonl",
+        "right": "smoke_seed2_generation5_token_panel.jsonl",
+        "weighted_interaction_correlation": 0.9481851684640693
+      },
+      {
+        "left": "smoke_seed1_generation0_token_panel.jsonl",
+        "right": "smoke_seed42_generation9_token_panel.jsonl",
+        "weighted_interaction_correlation": 0.9471586751970514
+      },
+      {
+        "left": "smoke_seed2_generation5_token_panel.jsonl",
+        "right": "smoke_seed42_generation9_token_panel.jsonl",
+        "weighted_interaction_correlation": 0.9691981473951986
+      }
+    ],
+    "weighted_uncentered_singular_values": [
+      0.3006574328979052,
+      0.0397940554598102,
+      0.032537468204918006
+    ],
+    "weighted_uncentered_sigma2_over_sigma1": 0.13235679915261944,
+    "weighted_centered_singular_values": [
+      0.0485195392125077,
+      0.0328953895522347,
+      2.2507365339789883e-17
+    ],
+    "weighted_centered_sigma2_over_sigma1": 0.677982315704983,
+    "unweighted_uncentered_singular_values": [
+      1.1824409209311355,
+      0.17322969786539763,
+      0.13586127168481624
+    ],
+    "unweighted_uncentered_sigma2_over_sigma1": 0.1465017784812324
+  },
+  "final_verdict": "smoke_conjecture_only",
+  "strongest_allowed_statement": "Existing smoke raw rows reproduce a small interaction-field calculation, but this is not a full-panel result and is only eligible as a conjectural math direction / future audit candidate.",
+  "blocked_claims": [
+    "LOSO passed",
+    "F3 positive",
+    "mean-null vector field survives",
+    "residual field observed",
+    "hypercube residual observed",
+    "glass box broken",
+    "training authorized",
+    "new loss authorized",
+    "full panel approved"
+  ],
+  "missing_controls_before_promotion": [
+    "random equal-size token-position partition controls",
+    "within-q token-position shuffle controls",
+    "bad-axis controls beyond existing sparse audit_block_id rejection",
+    "cell variance/noise model",
+    "held-out seed tests",
+    "generation-block leave-out tests",
+    "PI-approved 16-cell full-panel aggregate"
+  ]
+}

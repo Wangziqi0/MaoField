@@ -65,6 +65,30 @@ artifact kind, PI-approved full-panel generation, strict additive nuisance
 controls, matched-slope gates, generation-block leave-out, coarsening/refinement
 checks, and random same-dimension subspace guards.
 
+## Report(15) Interaction-Field Smoke Direction
+
+After `deep_research_future_math_objects_interaction_field_audit_20260623.md`,
+the best future mathematical object is recorded as a weighted product-partition
+interaction field over `Q_freq4 x B_tokenpos4`:
+
+```text
+I_i = Pi_{A_perp,w} K_i
+```
+
+where `A` removes constant cell mean, q4 frequency main effects, and
+token-position main effects.
+
+Local zero-GPU reproduction was added in
+`scripts/q4_hypercube_interaction_smoke_audit.py`, with canonical outputs:
+
+- `Q4_HYPERCUBE_INTERACTION_SMOKE_AUDIT_20260623.json`
+- `Q4_HYPERCUBE_INTERACTION_SMOKE_AUDIT_20260623.md`
+
+The verdict is only `smoke_conjecture_only`. The calculation reproduces the
+small report(15) smoke hint, but it is not a full-panel artifact, not a
+scientific result, and not authorization for training, a new loss, or hypercube
+full-panel generation.
+
 ## Local Verification
 
 Verification ran only under node36 scratch:

@@ -56,6 +56,11 @@
 > temporary node22 bge-m3 vector acceleration. Runtime index: 323 active
 > markdown files / 8780 chunks; `kb.faiss=2a40df24...`,
 > `kb_meta=63c51366...`. Node22 service was stopped after promotion.
+> D623 report(15) update: future math-object / interaction-field memo archived.
+> Adopted object: weighted product-partition interaction field
+> `I_i = Pi_{A_perp,w} K_i` over `Q_freq4 x B_tokenpos4`. Local zero-GPU smoke
+> reproduction verdict is `smoke_conjecture_only`; no full-panel, training, or
+> new-loss work is authorized.
 
 ## 0. Scope And Evidence Boundary
 
@@ -126,6 +131,10 @@ Use this order for a cold start:
 12. D623 q4 hypercube current-repo strict audit:
    - [deep_research_q4_hypercube_current_repo_strict_audit_20260623.md](docs/infra/gpt_deep_research/deep_research_q4_hypercube_current_repo_strict_audit_20260623.md)
    - [Q4_HYPERCUBE_CURRENT_REPO_STRICT_AUDIT_ADOPTION_NOTE_20260623.md](docs/infra/gpt_deep_research/Q4_HYPERCUBE_CURRENT_REPO_STRICT_AUDIT_ADOPTION_NOTE_20260623.md)
+13. D623 future math objects / interaction-field audit:
+   - [deep_research_future_math_objects_interaction_field_audit_20260623.md](docs/infra/gpt_deep_research/deep_research_future_math_objects_interaction_field_audit_20260623.md)
+   - [FUTURE_MATH_OBJECTS_INTERACTION_FIELD_ADOPTION_NOTE_20260623.md](docs/infra/gpt_deep_research/FUTURE_MATH_OBJECTS_INTERACTION_FIELD_ADOPTION_NOTE_20260623.md)
+   - [Q4_HYPERCUBE_INTERACTION_SMOKE_AUDIT_20260623.md](docs/infra/math_turn_20260622/Q4_HYPERCUBE_INTERACTION_SMOKE_AUDIT_20260623.md)
 
 ## 2. Current Scientific Position
 
@@ -489,6 +498,45 @@ Still blocked:
 - `LOSO passed`;
 - `F3 positive`;
 - `mean-null vector field survives`;
+- `glass box broken`;
+- training authorization;
+- new loss authorization.
+
+### 4.11 D623 Future Math Objects / Interaction Field Audit
+
+Primary local interpretation:
+[FUTURE_MATH_OBJECTS_INTERACTION_FIELD_ADOPTION_NOTE_20260623.md](docs/infra/gpt_deep_research/FUTURE_MATH_OBJECTS_INTERACTION_FIELD_ADOPTION_NOTE_20260623.md)
+
+External/future-object memo:
+[deep_research_future_math_objects_interaction_field_audit_20260623.md](docs/infra/gpt_deep_research/deep_research_future_math_objects_interaction_field_audit_20260623.md)
+
+Local smoke-only reproduction:
+
+- [q4_hypercube_interaction_smoke_audit.py](scripts/q4_hypercube_interaction_smoke_audit.py)
+- [Q4_HYPERCUBE_INTERACTION_SMOKE_AUDIT_20260623.md](docs/infra/math_turn_20260622/Q4_HYPERCUBE_INTERACTION_SMOKE_AUDIT_20260623.md)
+
+Adopted decision:
+
+- Keep the weighted product-partition interaction field as a future mathematical
+  research and MaoField audit direction.
+- The object is `I_i = Pi_{A_perp,w} K_i`, where `A` is the weighted additive
+  nuisance space of constant cell mean, q4 frequency main effects, and
+  token-position main effects.
+- Existing smoke raw rows reproduce interaction / mean-null ratios of about
+  `0.100`, `0.112`, and `0.109`, with weighted correlations about `0.95`.
+- The local verdict is only `smoke_conjecture_only`; low uncentered
+  `sigma2/sigma1` warns that the three-smoke pattern is close to one dominant
+  shape.
+
+Still blocked:
+
+- interaction field observed;
+- hypercube residual field observed;
+- full 16-cell hypercube panel aggregate;
+- random partition / shuffle / bad-axis controls;
+- held-out seed and generation-block gates;
+- `LOSO passed`;
+- `F3 positive`;
 - `glass box broken`;
 - training authorization;
 - new loss authorization.
