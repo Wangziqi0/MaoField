@@ -70,7 +70,11 @@
 > removal, test whether `R_t = Pi_{N_perp,w} K_t` survives as a stable
 > non-scalar object. MaoField itself remains negative-centered /
 > `smoke_conjecture_only`; no full panel, training, or new-loss work is
-> authorized. RAG refresh is pending for report(17).
+> authorized.
+> D623 report(17) RAG update: default node36 RAG was refreshed again with
+> temporary node22 bge-m3 vector acceleration. Runtime index: 331 active
+> markdown files / 8898 chunks; `kb.faiss=38a48da4...`,
+> `kb_meta=634dea15...`. Node22 service was stopped after the candidate build.
 
 ## 0. Scope And Evidence Boundary
 
