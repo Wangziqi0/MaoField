@@ -2,6 +2,18 @@
 
 Extended documentation for the MaoField framework.
 
+## Current Entry Points
+
+The current live state is in [`../STATE.md`](../STATE.md).
+
+The D624 mathematical turn separates MaoField's negative-centered empirical
+line from a debranded finite weighted residual transport / holonomy / no-go
+project:
+
+- [`infra/DEBRANDED_RESIDUAL_TRANSPORT_STATUS_20260624.md`](infra/DEBRANDED_RESIDUAL_TRANSPORT_STATUS_20260624.md)
+- [`infra/DEBRANDED_RESIDUAL_TRANSPORT_CORE_DESCRIPTION_20260624.md`](infra/DEBRANDED_RESIDUAL_TRANSPORT_CORE_DESCRIPTION_20260624.md)
+- [`infra/gpt_deep_research/GPT55_PRO_DEBRANDED_RESIDUAL_TRANSPORT_HIGHEST_PROMPT_20260624.md`](infra/gpt_deep_research/GPT55_PRO_DEBRANDED_RESIDUAL_TRANSPORT_HIGHEST_PROMPT_20260624.md)
+
 ## Contents (planned for v0.1.0)
 
 | Document | Scope |

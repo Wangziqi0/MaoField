@@ -16,8 +16,11 @@
 /media/amd/raid1/canonical/projects/MaoField/docs/TIMELINE_D22_D60.md
 /media/amd/raid1/canonical/projects/MaoField/docs/discipline/D-1-five-disciplines.md
 /media/amd/raid1/canonical/projects/MaoField/docs/discipline/D-2-parallel.md
+/media/amd/raid1/canonical/projects/MaoField/docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_CORE_DESCRIPTION_20260624.md
+/media/amd/raid1/canonical/projects/MaoField/docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_STATUS_20260624.md
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/EXPERIMENT_CONVERGENCE_AND_MATH_TURN_20260622.md
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/FUTURE_MATH_OBJECTS_INTERACTION_FIELD_ADOPTION_NOTE_20260623.md
+/media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/GPT55_PRO_DEBRANDED_RESIDUAL_TRANSPORT_HIGHEST_PROMPT_20260624.md
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/GPT55_PRO_MODE_A_MATH_DISCOVERY_PROMPT_20260623.md
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/GPT55_PRO_QUOTIENT_RESIDUAL_NEXT_PROMPT_20260623.md
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/MATH_ORE_QUOTIENT_RESIDUAL_ADOPTION_NOTE_20260623.md
@@ -74,6 +77,7 @@
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_REPORT21_20260623.md
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_REPORT22_20260624.md
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_REPORT23_20260624.md
+/media/amd/raid1/canonical/projects/MaoField/docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_REPORT24_20260624.md
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_REPORT7_20260623.md
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_REPORT9_20260623.md
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_TRANSPORT_HARNESS_20260624.md

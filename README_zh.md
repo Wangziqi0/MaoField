@@ -2,6 +2,22 @@
 
 > *一个辩证唯物主义的非统计语义表示框架*
 
+## 当前研究状态（2026-06-24）
+
+本 README 是 MaoField v0.1.0 的历史公开发布锚点。后续审计和 negative
+result 实验已经把当前内部研究状态降级、去魅。
+
+实时项目真相源请看 [`STATE.md`](STATE.md)。当前结论：MaoField 最适合被看作
+negative-centered empirical pilot 和 measurement-audit case。它**没有**打破玻璃箱，
+**没有**运行完整 q4/token-position panel，**没有**观察到 residual / interaction /
+transport / holonomy field，也**没有**授权训练或新 loss。
+
+现在活跃的数学方向已经与 MaoField 的实证声明分离：一个去品牌化的 finite
+weighted residual transport / holonomy / no-go 项目。入口见
+[`DEBRANDED_RESIDUAL_TRANSPORT_CORE_DESCRIPTION_20260624.md`](docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_CORE_DESCRIPTION_20260624.md)
+和
+[`DEBRANDED_RESIDUAL_TRANSPORT_STATUS_20260624.md`](docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_STATUS_20260624.md)。
+
 [![DOI](https://zenodo.org/badge/1209133162.svg)](https://doi.org/10.5281/zenodo.19550341)
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
 [![Status: v0.1.0](https://img.shields.io/badge/status-v0.1.0_initial_release-orange)](paper/)

@@ -167,6 +167,14 @@
 > D624 report(24) RAG refresh complete: default index now contains
 > 351 active canonical markdown files / 9171 chunks; `kb.faiss=e89ec4eb...`,
 > `kb_meta=7e077d59...`. Node22 temporary bge-m3 service was stopped.
+> D624 debranded-project update: current next direction is now explicit in
+> `docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_CORE_DESCRIPTION_20260624.md`,
+> `docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_STATUS_20260624.md`, and
+> `docs/infra/gpt_deep_research/GPT55_PRO_DEBRANDED_RESIDUAL_TRANSPORT_HIGHEST_PROMPT_20260624.md`.
+> This is a Mode A mathematics start point, not a MaoField evidence upgrade.
+> D624 debranded-project RAG refresh complete: default index now contains
+> 357 active canonical markdown files / 9228 chunks; `kb.faiss=98a9ca4c...`,
+> `kb_meta=90b01342...`. Node22 temporary bge-m3 service was stopped.
 
 ## 0. Scope And Evidence Boundary
 
@@ -280,6 +288,12 @@ Use this order for a cold start:
    - [TRANSPORT_HOLONOMY_MATH_TURN_AUDIT_ADOPTION_NOTE_20260624.md](docs/infra/gpt_deep_research/TRANSPORT_HOLONOMY_MATH_TURN_AUDIT_ADOPTION_NOTE_20260624.md)
    - Current allowed interpretation: Mode A professor verdict E and
      non-product-weight caveat; not a Mode B evidence upgrade.
+23. D624 debranded residual transport start point:
+   - [DEBRANDED_RESIDUAL_TRANSPORT_STATUS_20260624.md](docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_STATUS_20260624.md)
+   - [DEBRANDED_RESIDUAL_TRANSPORT_CORE_DESCRIPTION_20260624.md](docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_CORE_DESCRIPTION_20260624.md)
+   - [GPT55_PRO_DEBRANDED_RESIDUAL_TRANSPORT_HIGHEST_PROMPT_20260624.md](docs/infra/gpt_deep_research/GPT55_PRO_DEBRANDED_RESIDUAL_TRANSPORT_HIGHEST_PROMPT_20260624.md)
+   - Current allowed interpretation: formal Mode A project kickoff; MaoField
+     Mode B remains `insufficient_artifact` / `smoke_conjecture_only`.
 
 ## 2. Current Scientific Position
 
@@ -878,6 +892,27 @@ Current MaoField status:
 - Existing interaction smoke remains `smoke_conjecture_only`.
 - Synthetic harness pass remains definition/code viability only.
 - No full panel, checkpoint loading, training, or new loss is authorized.
+
+### 4.20 D624 Debranded Residual Transport Direction
+
+Primary status snapshot:
+[DEBRANDED_RESIDUAL_TRANSPORT_STATUS_20260624.md](docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_STATUS_20260624.md)
+
+Core project description:
+[DEBRANDED_RESIDUAL_TRANSPORT_CORE_DESCRIPTION_20260624.md](docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_CORE_DESCRIPTION_20260624.md)
+
+Highest Pro prompt:
+[GPT55_PRO_DEBRANDED_RESIDUAL_TRANSPORT_HIGHEST_PROMPT_20260624.md](docs/infra/gpt_deep_research/GPT55_PRO_DEBRANDED_RESIDUAL_TRANSPORT_HIGHEST_PROMPT_20260624.md)
+
+Allowed interpretation:
+
+- MaoField empirical line stays negative-centered and evidence-gated.
+- The new mathematics line is debranded finite weighted residual transport /
+  holonomy / no-go work.
+- It may succeed through a theorem, counterexample, or no-go result.
+- It does not need and does not imply a positive MaoField empirical claim.
+- It does not authorize a full panel, checkpoint loading, training, or a new
+  loss.
 
 ### 4.9 D623 q4 Hypercube Extension Strict Math Audit
 

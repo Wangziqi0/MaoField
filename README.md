@@ -2,6 +2,25 @@
 
 > *A Dialectical-Materialist Framework for Non-Statistical Semantic Representation*
 
+## Current Research Status (2026-06-24)
+
+This README is the historical public-release anchor for MaoField v0.1.0. The
+current internal research state has since been deflated by later audits and
+negative-result experiments.
+
+Use [`STATE.md`](STATE.md) as the live project truth source. Current standing:
+MaoField is best treated as a negative-centered empirical pilot and
+measurement-audit case. It has **not** broken the glass box, has **not** run a
+full q4/token-position panel, has **not** observed a residual / interaction /
+transport / holonomy field, and has **not** authorized training or a new loss.
+
+The active mathematical direction is now separated from MaoField's empirical
+claims: a debranded finite weighted residual transport / holonomy / no-go
+project. See
+[`DEBRANDED_RESIDUAL_TRANSPORT_CORE_DESCRIPTION_20260624.md`](docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_CORE_DESCRIPTION_20260624.md)
+and
+[`DEBRANDED_RESIDUAL_TRANSPORT_STATUS_20260624.md`](docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_STATUS_20260624.md).
+
 [![DOI](https://zenodo.org/badge/1209133162.svg)](https://doi.org/10.5281/zenodo.19550341)
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
 [![Status: v0.1.0](https://img.shields.io/badge/status-v0.1.0_initial_release-orange)](paper/)
