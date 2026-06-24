@@ -35,6 +35,9 @@ the canonical RAG index.
   scope used for the D623 report(21) finite-ANOVA node22-vector refresh.
 - `canonical_scope_active_20260624_1322_report22.txt` — global active canonical
   scope used for the D624 report(22) mainline node22-vector refresh.
+- `canonical_scope_active_20260624_1530_proprompt.txt` — global active
+  canonical scope used for the D624 null-tests contract / updated Pro-prompt
+  final node22-vector refresh.
 - `NODE22_VECTOR_REBUILD_20260622.md` — rebuild record, index hashes, backup
   paths, and verification boundary for the temporary node22 GPU vector worker.
 - `NODE22_VECTOR_REFRESH_REPORT7_20260623.md` — D623 refresh record proving
@@ -69,6 +72,10 @@ the canonical RAG index.
 - `NODE22_VECTOR_REFRESH_REPORT22_20260624.md` — D624 refresh record proving
   report(22), its adoption note, and mainline no-go guardrails are discoverable
   through default RAG.
+- `rag_build_node22_20260624_1530_proprompt.log` — D624 final node22 build log
+  after `GPT55_PRO_MODE_A_MATH_DISCOVERY_PROMPT_20260623.md` was updated to
+  include report(21), report(22), public-404 guardrails, smoke-not-evidence
+  wording, and `NULL_TESTS_CONTRACT_20260624.md`.
 
 ## Policy
 
@@ -121,6 +128,13 @@ adoption note. See `NODE22_VECTOR_REFRESH_REPORT21_20260623.md`.
 D624 report(22): default `/media/amd/raid1/rag/index` was refreshed after
 adding the quotient-residual mainline / debranded program report and adoption
 note. See `NODE22_VECTOR_REFRESH_REPORT22_20260624.md`.
+
+D624 null-tests / Pro prompt final: default `/media/amd/raid1/rag/index` was
+refreshed with a node36-controlled, node22-temporary bge-m3 build after updating
+the Mode A Pro prompt and D624 null-tests contract. Final runtime index:
+345 active canonical markdown files / 9073 chunks; `kb.faiss=d33dade...`,
+`kb_meta=cedfde51...`. The earlier node36 CPU rebuild attempt was stopped
+before promotion and did not overwrite the default index.
 
 Rebuild entry point:
 

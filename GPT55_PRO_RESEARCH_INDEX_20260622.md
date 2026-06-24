@@ -122,6 +122,21 @@
 > markdown files / 9027 chunks; `kb.faiss=b4492a73...`,
 > `kb_meta=77efe884...`. Node22 service was stopped after the final candidate
 > build.
+> D624 null-tests contract update: `NULL_TESTS_CONTRACT_20260624.md` and
+> `scripts/q4_hypercube_interaction_prereg_analysis.py` now require structured,
+> machine-readable `null_tests` blocks with boolean `pass` and fail-closed
+> verdict mapping. Empty block-name presence is invalid. The rank-shadow
+> design-review floor is `weighted_uncentered_sigma2_over_sigma1 >= 0.25`.
+> Passing every future gate still gives at most
+> `eligible_for_next_design_review_only`, not evidence of an observed residual
+> or interaction field.
+> D624 final RAG/prompt update: `GPT55_PRO_MODE_A_MATH_DISCOVERY_PROMPT_20260623.md`
+> now reads report(21), report(22), and `NULL_TESTS_CONTRACT_20260624.md` first
+> and explicitly blocks public-GitHub-404 and smoke-as-evidence errors. Default
+> RAG was refreshed with node22 temporary bge-m3 vector acceleration after this
+> prompt update. Runtime index: 345 active canonical markdown files / 9073
+> chunks; `kb.faiss=d33dade...`, `kb_meta=cedfde51...`. Node22 service was
+> stopped after the final candidate build.
 
 ## 0. Scope And Evidence Boundary
 
@@ -213,6 +228,11 @@ Use this order for a cold start:
 18. D624 quotient-residual mainline consolidation:
    - [deep_research_quotient_residual_mainline_debranded_program_20260624.md](docs/infra/gpt_deep_research/deep_research_quotient_residual_mainline_debranded_program_20260624.md)
    - [QUOTIENT_RESIDUAL_MAINLINE_ADOPTION_NOTE_20260624.md](docs/infra/gpt_deep_research/QUOTIENT_RESIDUAL_MAINLINE_ADOPTION_NOTE_20260624.md)
+19. D624 fail-closed null-tests contract:
+   - [NULL_TESTS_CONTRACT_20260624.md](docs/infra/math_turn_20260622/NULL_TESTS_CONTRACT_20260624.md)
+   - [q4_hypercube_interaction_prereg_analysis.py](scripts/q4_hypercube_interaction_prereg_analysis.py)
+   - Current allowed ceiling: `eligible_for_next_design_review_only`; no
+     observed residual/interaction/quotient field claim.
 
 ## 2. Current Scientific Position
 
@@ -712,8 +732,13 @@ Current MaoField status:
 - Existing interaction smoke remains `smoke_conjecture_only`.
 - The strongest allowed project direction is
   `negative-centered measurement-audit / no-go framework; no current observed residual field`.
-- Default RAG now includes report(22) and its adoption note: 342 active
-  markdown files / 9027 chunks.
+- Default RAG now includes report(22), its adoption note, D624 null-tests
+  contract, and the updated Mode A Pro prompt: 345 active canonical markdown
+  files / 9073 chunks.
+- D624 null-tests contract is binding for any future aggregate: missing,
+  malformed, non-boolean, failed, outcome-derived, or provenance-mismatched
+  `null_tests` blocks are fail-closed; rank-shadow design-review floor is
+  `sigma2/sigma1 >= 0.25`.
 - Any full-panel generation, checkpoint loading for a new panel, training, or
   new-loss work remains future PI-gated and is not authorized here.
 
