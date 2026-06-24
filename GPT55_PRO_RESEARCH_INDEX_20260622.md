@@ -147,6 +147,15 @@
 > D624 report(23) RAG refresh complete: default index now contains
 > 347 active canonical markdown files / 9111 chunks; `kb.faiss=8525c962...`,
 > `kb_meta=321bd7cb...`. Node22 temporary bge-m3 service was stopped.
+> D624 synthetic harness update: `scripts/residual_transport_holonomy_synthetic.py`
+> implements toy finite-table controls for edge defects, square holonomy,
+> rank-shadow guard, and random same-dimension subspace calibration. First run:
+> all four toy controls passed, strongest allowed verdict
+> `synthetic_harness_only_no_maofield_claim`; this is not a MaoField evidence
+> upgrade.
+> D624 synthetic harness RAG refresh complete: default index now contains
+> 349 active canonical markdown files / 9128 chunks; `kb.faiss=797e1186...`,
+> `kb_meta=752293de...`. Node22 temporary bge-m3 service was stopped.
 
 ## 0. Scope And Evidence Boundary
 
@@ -249,6 +258,12 @@ Use this order for a cold start:
    - Current allowed interpretation: Mode A mathematical recommendation for a
      debranded finite-dimensional operator/no-go project; not a Mode B evidence
      upgrade and not an automatic repo split.
+21. D624 zero-GPU residual transport / holonomy synthetic harness:
+   - [RESIDUAL_TRANSPORT_HOLONOMY_SYNTHETIC_HARNESS_20260624.md](docs/infra/math_turn_20260622/RESIDUAL_TRANSPORT_HOLONOMY_SYNTHETIC_HARNESS_20260624.md)
+   - [RESIDUAL_TRANSPORT_HOLONOMY_SYNTHETIC_RESULT_20260624.md](docs/infra/math_turn_20260622/RESIDUAL_TRANSPORT_HOLONOMY_SYNTHETIC_RESULT_20260624.md)
+   - [residual_transport_holonomy_synthetic.py](scripts/residual_transport_holonomy_synthetic.py)
+   - Current allowed interpretation: toy definition/code viability only;
+     strongest verdict `synthetic_harness_only_no_maofield_claim`.
 
 ## 2. Current Scientific Position
 
@@ -785,6 +800,34 @@ Current MaoField status:
 - `split into a new project` is a recommendation to PI, not an already-made
   project-management decision.
 - No full panel, checkpoint loading, training, or new loss is authorized.
+
+### 4.18 D624 Residual Transport / Holonomy Synthetic Harness
+
+Taskbook:
+[RESIDUAL_TRANSPORT_HOLONOMY_SYNTHETIC_HARNESS_20260624.md](docs/infra/math_turn_20260622/RESIDUAL_TRANSPORT_HOLONOMY_SYNTHETIC_HARNESS_20260624.md)
+
+Result:
+[RESIDUAL_TRANSPORT_HOLONOMY_SYNTHETIC_RESULT_20260624.md](docs/infra/math_turn_20260622/RESIDUAL_TRANSPORT_HOLONOMY_SYNTHETIC_RESULT_20260624.md)
+
+Script:
+[residual_transport_holonomy_synthetic.py](scripts/residual_transport_holonomy_synthetic.py)
+
+What passed:
+
+- `scale_square_holonomy`;
+- `nuisance_functoriality_digest`;
+- `rank1_angle_vacuity_guard`;
+- `random_same_dim_angle_gap`.
+
+Current allowed interpretation:
+
+- toy finite-table definitions are executable;
+- the proposed positive and negative controls can distinguish natural
+  coarsening from deliberately non-functorial nuisance, rank-1 shadows from
+  multidirectional toy residuals, and known toy subspaces from random
+  same-dimension subspaces;
+- strongest verdict is `synthetic_harness_only_no_maofield_claim`;
+- this is not MaoField empirical evidence and does not change Mode B.
 
 ### 4.9 D623 q4 Hypercube Extension Strict Math Audit
 

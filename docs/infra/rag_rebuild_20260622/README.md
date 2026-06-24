@@ -41,6 +41,9 @@ the canonical RAG index.
 - `canonical_scope_active_20260624_1555_report23.txt` — global active
   canonical scope used for the D624 report(23) residual transport / holonomy
   node22-vector refresh.
+- `canonical_scope_active_20260624_1648_transport.txt` — global active
+  canonical scope used for the D624 residual transport / holonomy synthetic
+  harness node22-vector refresh.
 - `NODE22_VECTOR_REBUILD_20260622.md` — rebuild record, index hashes, backup
   paths, and verification boundary for the temporary node22 GPU vector worker.
 - `NODE22_VECTOR_REFRESH_REPORT7_20260623.md` — D623 refresh record proving
@@ -78,12 +81,17 @@ the canonical RAG index.
 - `NODE22_VECTOR_REFRESH_REPORT23_20260624.md` — D624 refresh record proving
   report(23), its adoption note, and residual transport / holonomy pointers are
   discoverable through default RAG.
+- `NODE22_VECTOR_REFRESH_TRANSPORT_HARNESS_20260624.md` — D624 refresh record
+  proving the report(23) zero-GPU synthetic harness and result are
+  discoverable through default RAG.
 - `rag_build_node22_20260624_1530_proprompt.log` — D624 final node22 build log
   after `GPT55_PRO_MODE_A_MATH_DISCOVERY_PROMPT_20260623.md` was updated to
   include report(21), report(22), public-404 guardrails, smoke-not-evidence
   wording, and `NULL_TESTS_CONTRACT_20260624.md`.
 - `rag_build_node22_20260624_1555_report23.log` — D624 node22 build log after
   archiving report(23) and its adoption note.
+- `rag_build_node22_20260624_1648_transport.log` — D624 node22 build log after
+  adding the residual transport / holonomy synthetic harness and result.
 
 ## Policy
 
@@ -149,6 +157,14 @@ adding the residual transport / holonomy split-project proposal and adoption
 note. See `NODE22_VECTOR_REFRESH_REPORT23_20260624.md`. Runtime index:
 347 active canonical markdown files / 9111 chunks; `kb.faiss=8525c962...`,
 `kb_meta=321bd7cb...`. Node22 was used only as a temporary bge-m3 worker and
+the service was stopped after build.
+
+D624 residual transport / holonomy harness: default
+`/media/amd/raid1/rag/index` was refreshed after adding the zero-GPU synthetic
+harness and result for report(23)'s transport/holonomy definitions. See
+`NODE22_VECTOR_REFRESH_TRANSPORT_HARNESS_20260624.md`. Runtime index:
+349 active canonical markdown files / 9128 chunks; `kb.faiss=797e1186...`,
+`kb_meta=752293de...`. Node22 was used only as a temporary bge-m3 worker and
 the service was stopped after build.
 
 Rebuild entry point:

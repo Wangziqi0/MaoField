@@ -10,14 +10,14 @@ DESKTOP_SPOTCHECK_20260419.md	17476	2026-04-19T08:31:25+00:00	.md	markdown	S	exc
 DESKTOP_SPOTCHECK_ROUND2_20260419.md	16958	2026-04-19T08:57:28+00:00	.md	markdown	S	exclude_markdown_superseded	86df800be62bd11ee7c9f35839b904d3e1e8d9516833477ab48fca1b358a215b
 DESKTOP_SPOTCHECK_ROUND3_20260419.md	8067	2026-04-19T09:13:39+00:00	.md	markdown	S	exclude_markdown_superseded	fac8b179b19a0a1fa868a8bd3d46e27d98e6e869d08628e145fb6c9673c5d3c8
 DESKTOP_SPOTCHECK_ROUND5_20260419.md	5585	2026-04-19T09:21:41+00:00	.md	markdown	S	exclude_markdown_superseded	9b5f1ea9d02ac52f54ea5b45dee1342ad7d8d117a5e3e982c9fcbb7001e6fdcb
-GPT55_PRO_RESEARCH_INDEX_20260622.md	53412	2026-06-24T07:51:49+00:00	.md	markdown	A	index_markdown_active	4cd5bc2a585676d122db616556e34f5ce0b0b82fc1ab26d7287bf798e9b175b3
+GPT55_PRO_RESEARCH_INDEX_20260622.md	55704	2026-06-24T08:44:59+00:00	.md	markdown	A	index_markdown_active	0ecffd5c01f74fce85b7d7fce85cd38ad6e209d6614a7eaff2049b1497651694
 LICENSE	11308	2026-04-18T09:25:21+00:00	[no_ext]	no_extension_or_generated		inventory_only	a83b0783b5835fe2e946c5bc330ea0898aa7c3f3981dcf35ce1d8355c65b70aa
-MD_CATALOG.md	28422	2026-06-24T07:55:19+00:00	.md	markdown	A	index_markdown_active	3554d13c35f0b544deb498d71536c00031889729d0dc02117b5395e74ecf2663
+MD_CATALOG.md	29110	2026-06-24T08:44:36+00:00	.md	markdown	A	index_markdown_active	09a2ce3630dbc1be389c273db37be78846c3a4fe21a09ed6db4510b409d2f1f9
 NOTICE	1114	2026-04-18T09:25:21+00:00	[no_ext]	no_extension_or_generated		inventory_only	074cac52dcc88cb31a5bf6b2d7ce681109e2241291bbb2dcd17353ccde158b75
 NOTICE.md	2873	2026-04-15T06:37:15+00:00	.md	markdown	A	index_markdown_active	1b973f27e12d4e4d7db14bdd5a6ca6295679fe8b5a770752a85547def123a1c5
 README.md	9313	2026-04-18T09:25:21+00:00	.md	markdown	A	index_markdown_active	9b2590fdc5ebdd99dbce275940650df3659fdeb4053573522c7254864b8062b4
 README_zh.md	8157	2026-04-18T09:25:21+00:00	.md	markdown	A	index_markdown_active	349f9d8d1ff6d70d8edfdb35b7cdf3a01cd4f9422e5360baedf5855d87c6099e
-STATE.md	22932	2026-06-24T07:54:45+00:00	.md	markdown	A	index_markdown_active	a6466f47299a58c203f2f69dc964de052073198588a53af22d3958e36166cc0e
+STATE.md	23379	2026-06-24T08:44:36+00:00	.md	markdown	A	index_markdown_active	b8025e8afcdb00ead0b0b7f2045e6c39f86adba813a1fb4cb771a52f9c4096d4
 data/README.md	1256	2026-04-18T09:25:21+00:00	.md	markdown	A	index_markdown_active	6e44b03a3680046901cea2a049330d4e43a4980727c5a1d6d49774c4fd96bdd0
 docs/README.md	1339	2026-04-18T09:25:21+00:00	.md	markdown	A	index_markdown_active	d7bd59c2d4a8d20e2708cc0ca034f3e319b17d8462c1284b30062a598309b3ca
 docs/TIMELINE_D22_D60.md	2699	2026-05-26T06:19:01+00:00	.md	markdown	A	index_markdown_active	027033d36637365a8ee15d664eada5b71321cacc073ce260aa1e3ef6e2ebb6fa
@@ -37,8 +37,8 @@ docs/infra/gpt_deep_research/Q4_PANEL_STRICT_AUDIT_ADOPTION_NOTE_20260622.md	280
 docs/infra/gpt_deep_research/Q4_RESIDUAL_FIELD_STRICT_MATH_AUDIT_ADOPTION_NOTE_20260623.md	2798	2026-06-23T02:51:06+00:00	.md	markdown	A	index_markdown_active	dab9a991670ef620aa71d1fec87e95998cf87f7b804d134bc50e9ea01dc2fdfc
 docs/infra/gpt_deep_research/QUOTIENT_RESIDUAL_FINITE_ANOVA_ADOPTION_NOTE_20260623.md	3154	2026-06-23T09:25:29+00:00	.md	markdown	A	index_markdown_active	7d5783ce8483f2fac93192ef488c3f17f6ddf116b5c4825d6cfe718744fd356c
 docs/infra/gpt_deep_research/QUOTIENT_RESIDUAL_MAINLINE_ADOPTION_NOTE_20260624.md	3408	2026-06-24T05:40:12+00:00	.md	markdown	A	index_markdown_active	cd66693a33dc6e39fd3d175e6d2b2b8270fd75f35300fb2e2578da37bb8e2db7
-docs/infra/gpt_deep_research/README_20260622.md	12906	2026-06-24T07:51:28+00:00	.md	markdown	A	index_markdown_active	3fdc2dd3db75f2d0aa1ee71c14e0ae73e880a8376456f2aed55f35fd1fa9e693
-docs/infra/gpt_deep_research/RESIDUAL_TRANSPORT_HOLONOMY_ADOPTION_NOTE_20260624.md	4470	2026-06-24T07:51:05+00:00	.md	markdown	A	index_markdown_active	944a3fc548b293d3698269ac9524d3c0ed2ced42ae05619128b3cfab1602b8f7
+docs/infra/gpt_deep_research/README_20260622.md	13080	2026-06-24T08:07:09+00:00	.md	markdown	A	index_markdown_active	7d51ea6ee094fc9db0dbe62e7b6b8df022c442d1901301b7a7d528dc28523da9
+docs/infra/gpt_deep_research/RESIDUAL_TRANSPORT_HOLONOMY_ADOPTION_NOTE_20260624.md	4593	2026-06-24T08:12:25+00:00	.md	markdown	A	index_markdown_active	026e28628a86b213bba21e0035b1e7223ce6e7a27d4526d04919211b52ac1af4
 docs/infra/gpt_deep_research/deep_research_current_code_math_glassbox_20260622.md	28440	2026-06-22T05:47:28+00:00	.md	markdown	A	index_markdown_active	8f07a29cbe595e4d83d032d83e7f5ec2e033e22b06ad600941385eab23f7caa7
 docs/infra/gpt_deep_research/deep_research_future_math_objects_interaction_field_audit_20260623.md	33359	2026-06-23T05:30:22+00:00	.md	markdown	A	index_markdown_active	ab94273493b1d5097c0647ceb50bc6ce687cf7eb5dcfc240cb29ea90ce79b1d7
 docs/infra/gpt_deep_research/deep_research_math_ore_quotient_residual_strict_audit_20260623.md	30585	2026-06-23T07:02:25+00:00	.md	markdown	A	index_markdown_active	e4a567be7a06a537b353b9235b1013ccff83b70087d05ce5efa8aaef0d474895
@@ -53,7 +53,7 @@ docs/infra/gpt_deep_research/deep_research_q4_panel_strict_audit_20260622.md	221
 docs/infra/gpt_deep_research/deep_research_q4_residual_field_strict_math_audit_20260623.md	35916	2026-06-23T02:55:53+00:00	.md	markdown	A	index_markdown_active	d3ced7ff34108d39bd3e5922696d19ee01c4a430c0798c3d8e2fc825afa7fe16
 docs/infra/gpt_deep_research/deep_research_quotient_residual_finite_anova_kill_framework_20260623.md	26113	2026-06-23T09:24:59+00:00	.md	markdown	A	index_markdown_active	98e56f1b8ff8864f9ac88bf39652d48e71096a4cbceb3e530fdd875fe43bc8ab
 docs/infra/gpt_deep_research/deep_research_quotient_residual_mainline_debranded_program_20260624.md	27474	2026-06-24T05:36:58+00:00	.md	markdown	A	index_markdown_active	792134c7e207dfb9bc290d674abb4e96d46c1ecf3937e45228f20f3dfc836335
-docs/infra/gpt_deep_research/deep_research_residual_transport_holonomy_split_project_20260624.md	24028	2026-06-24T07:48:45+00:00	.md	markdown	A	index_markdown_active	78ae75a38c5b0a1c8bd2ad2297abf8382ff13550ade972f06cac4eaa779d2de7
+docs/infra/gpt_deep_research/deep_research_residual_transport_holonomy_split_project_20260624.md	24016	2026-06-24T08:12:13+00:00	.md	markdown	A	index_markdown_active	3025217867b1a70f226ed77f5f22ac4297e1eea4768f5e8613f98a16613753f5
 docs/infra/math_turn_20260622/HYPERCUBE_INTERACTION_ANALYSIS_PREREG_DESIGN_20260623.md	4926	2026-06-24T06:13:39+00:00	.md	markdown	A	index_markdown_active	e52d814d934b656264e6fc821d0cb8003a0d32165503d22afc15e6df394cadaa
 docs/infra/math_turn_20260622/MATH_TURN_LOSO_AUDIT_VERDICT_20260622.md	1961	2026-06-22T08:13:53+00:00	.md	markdown	A	index_markdown_active	e70ba6fbb29d678a4efa7f47f24e9f101ca275bfe3180d7bfc3747347237e69a
 docs/infra/math_turn_20260622/NULL_TESTS_CONTRACT_20260624.md	4765	2026-06-24T06:13:30+00:00	.md	markdown	A	index_markdown_active	dc519e618428de931ec8409fdc8057f756d2c0f1ade92963c96a24a12d2dc8cd
@@ -68,6 +68,9 @@ docs/infra/math_turn_20260622/Q4_HYPERCUBE_INTERACTION_SMOKE_AUDIT_20260623.md	2
 docs/infra/math_turn_20260622/Q4_HYPERCUBE_ZERO_GPU_AUDIT_20260623.json	7480	2026-06-23T03:38:38+00:00	.json	structured_or_text_data		digest_only_data	57d8de9fabb9cb07aad8f9491bfeb5c50b82ef380534003ac27f418284501e40
 docs/infra/math_turn_20260622/Q4_HYPERCUBE_ZERO_GPU_AUDIT_20260623.md	2045	2026-06-23T03:38:38+00:00	.md	markdown	A	index_markdown_active	9e8ebe722200b4bd605b37cfec457ffc33480f7694b214ba6de8361d2b85e14f
 docs/infra/math_turn_20260622/Q4_IMPLEMENTATION_GATE_UPDATE_20260623.md	5239	2026-06-23T05:28:56+00:00	.md	markdown	A	index_markdown_active	113f4da5ebda386b62d395dc4065298bb35c5262ec987d6952b63dc358af1729
+docs/infra/math_turn_20260622/RESIDUAL_TRANSPORT_HOLONOMY_SYNTHETIC_HARNESS_20260624.md	2919	2026-06-24T08:43:16+00:00	.md	markdown	A	index_markdown_active	1a5a777fea61e7a3d4fcd6d75cc85df0e84efd1ccf90011fab4eef633a6d64f3
+docs/infra/math_turn_20260622/RESIDUAL_TRANSPORT_HOLONOMY_SYNTHETIC_RESULT_20260624.json	2502	2026-06-24T08:42:23+00:00	.json	structured_or_text_data		digest_only_data	5c0d9586f31c60512a645020d4b1f0ee0a516a2fa8437c10db30e7f59f8884fd
+docs/infra/math_turn_20260622/RESIDUAL_TRANSPORT_HOLONOMY_SYNTHETIC_RESULT_20260624.md	2297	2026-06-24T08:43:16+00:00	.md	markdown	A	index_markdown_active	b8348aec708fb9d6480ab0c2d44f90ad38a4b0f348b70538049ba9221c906000
 docs/infra/math_turn_20260622/hypercube_schema_q4_tokenpos4_20260623.json	8262	2026-06-23T03:38:37+00:00	.json	structured_or_text_data		digest_only_data	40b2782f47cdf13cd212ee4b950791f934365e1a895fcb1728702fcf6d12cbbd
 docs/infra/math_turn_20260622/math_turn_loso_audit_result_20260622.json	4485	2026-06-22T08:13:53+00:00	.json	structured_or_text_data		digest_only_data	4e234a0336713937420d9c6c5c086a6b75e753dac16d066641cb79343a0a2f5c
 docs/infra/math_turn_20260622/panel_schema_freq_q4_audit_targets_20260622.json	78584	2026-06-22T09:17:28+00:00	.json	structured_or_text_data		digest_only_data	25027448058bab6e79aa27f5c96446ccdfed85a01855a0d6d60db244c84d64d7
@@ -81,10 +84,12 @@ docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_REPORT17_20260623.md	3593	
 docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_REPORT19_20260623.md	3735	2026-06-23T08:47:00+00:00	.md	markdown	A	index_markdown_active	ebef6451e16bee54b16074be68c6ab3aef402061956b0f74da02c77fef2d602f
 docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_REPORT21_20260623.md	3279	2026-06-23T09:38:32+00:00	.md	markdown	A	index_markdown_active	33eb36e3e9a842e5e113d6fdb85ea255c57f269080cee5f1ae5e834f76dc4d57
 docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_REPORT22_20260624.md	4427	2026-06-24T05:40:12+00:00	.md	markdown	A	index_markdown_active	fc2d8fa8478bab8875f8e23a1bba1c637e10a28edc9e609d0712051ad0e3e36c
+docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_REPORT23_20260624.md	4253	2026-06-24T08:13:34+00:00	.md	markdown	A	index_markdown_active	3daaa01e6546c7a438f32d95686c5cb4352b56a2d2be190cc41ad1842054ab0e
 docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_REPORT7_20260623.md	2711	2026-06-23T01:14:50+00:00	.md	markdown	A	index_markdown_active	243bae05b297ecdf1469ea46dd8c107ad31891484f7a83a83dc3817e40f59567
 docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_REPORT9_20260623.md	3056	2026-06-23T03:00:32+00:00	.md	markdown	A	index_markdown_active	e6b95c0f1fbb88bf5626b9bc195a6e9d10acef17c0e0acb2a68d5a15ec9da985
-docs/infra/rag_rebuild_20260622/README.md	8153	2026-06-24T07:03:35+00:00	.md	markdown	A	index_markdown_active	31f7420135beed4c58b1f44e25bdeab882fc09f0fc22690332bf6a2d3d80eabc
+docs/infra/rag_rebuild_20260622/README.md	9060	2026-06-24T08:10:07+00:00	.md	markdown	A	index_markdown_active	947f005fe9f6b5023fa3e2fdc64b00f78f25c6db11f648ec1474a7945c356d7d
 docs/infra/rag_rebuild_20260622/rag_build_node22_20260624_1530_proprompt.log	2283	2026-06-24T07:00:53+00:00	.log	structured_or_text_data		digest_only_data	d834f93e3f18ef70d44a76c669a6b5289f302004a5f03cd48cef8439e74e7fcb
+docs/infra/rag_rebuild_20260622/rag_build_node22_20260624_1555_report23.log	2281	2026-06-24T07:59:56+00:00	.log	structured_or_text_data		digest_only_data	81ee07afbbdaa08e3948d362ae67aa88f53ee86546ab664597f8bd35ff2a5479
 docs/infra/rag_rebuild_20260622/rag_build_node22_modea_20260623_1556.log	2214	2026-06-23T07:58:36+00:00	.log	structured_or_text_data		digest_only_data	b632c84fa5837e82477789d78079a023983b7fb010b074b76eb967a01c8a3a26
 docs/infra/rag_rebuild_20260622/rag_build_node22_nullcontract_20260624_1450.log	2289	2026-06-24T06:50:04+00:00	.log	structured_or_text_data		digest_only_data	e74e701eef13c5c169ee50017a40627dd74025c78437f50d2e0054a6b39017a4
 docs/infra/rag_rebuild_20260622/rag_build_node22_report15_20260623_1336.log	2220	2026-06-23T05:36:35+00:00	.log	structured_or_text_data		digest_only_data	1316a527a9829f9ec42bd9acc252636da0818130bda3ebec129da8d94e5adc1a
@@ -7816,6 +7821,7 @@ scripts/q4_panel_negative_smoke_20260622.py	8871	2026-06-22T13:42:22+00:00	.py	c
 scripts/rag_rebuild_maofield_36.sh	2005	2026-06-22T04:09:21+00:00	.sh	code_or_config		inventory_only	937729f523c140a7b1fb13935d266c0c5a5c60bdfe772b11a6befa1b1cf31ece
 scripts/rag_rebuild_node22_runner.sh	2764	2026-06-22T04:09:21+00:00	.sh	code_or_config		inventory_only	a09683e4527772e4b2fa43dfdab785aeeeb0a7f75a5d21851cbc282db14fce1d
 scripts/rag_scan_maofield.py	14493	2026-06-22T15:09:51+00:00	.py	code_or_config		inventory_only	e1dc2eeb895da3336985f892e2114d4ee08d0b5f9ce078990b4442c8cb3ba4dc
+scripts/residual_transport_holonomy_synthetic.py	13039	2026-06-24T08:41:12+00:00	.py	code_or_config		inventory_only	a60e4069a821ac5ae8e8af05729e97fbf9c264bdd31bfd6c5dc192f25a16d4af
 sessions/domain_positioning/ANTITHESIS_NATURE_AUDIT.md	30886	2026-05-14T11:59:55+00:00	.md	markdown	A	exclude_markdown_archive_or_wip	2ede72543f639ced95385fd59bdd12256d2185a56e8a72388ab9503a3763b906
 sessions/domain_positioning/DEEPSEEK_CROSS_PHILOSOPHY_AUDIT.md	22079	2026-05-14T11:57:10+00:00	.md	markdown	A	exclude_markdown_archive_or_wip	250c666a298bbf1820850ba20c8a64a12e99b8c378aa5947e8ded81176c5caa7
 sessions/domain_positioning/MATH_SECTION_DRAFT.md	27994	2026-05-14T11:56:08+00:00	.md	markdown	A	exclude_markdown_archive_or_wip	4ad43049cf3bea4232a0811dd49ee2ddce898dc3a131695f07ecd3706aab0061
