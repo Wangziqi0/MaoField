@@ -143,3 +143,16 @@ rows, missing q4/token-position cells, or missing preregistered null-test result
 blocks, it fails closed. Its strongest possible verdict is
 `eligible_for_next_design_review_only`, never an observed-field or glass-box
 claim.
+
+D624 contract update:
+
+```text
+docs/infra/math_turn_20260622/NULL_TESTS_CONTRACT_20260624.md
+```
+
+The script now requires structured `null_tests` blocks under contract version
+`2026-06-24.fail_closed.v1`; block-name presence alone is insufficient. Each
+block must expose machine-readable provenance, thresholds, metrics, a boolean
+`pass`, and a `kill_verdict_if_fail`. The rank-shadow design-review floor is
+`weighted_uncentered_sigma2_over_sigma1 >= 0.25`; the old `<0.10` threshold is
+only a hard warning floor, not a pass line.

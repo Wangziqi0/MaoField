@@ -30,6 +30,10 @@ EXPECTED_GENERATIONS = list(range(10))
 EXPECTED_ROW_COUNT = len(EXPECTED_SEEDS) * len(EXPECTED_GENERATIONS)
 CELL_COUNT = 16
 INTERACTION_DIMENSION = 9
+NULL_TESTS_CONTRACT_VERSION = "2026-06-24.fail_closed.v1"
+RANK_SHADOW_HARD_FAIL = 0.10
+RANK_SHADOW_STRICT_MIN = 0.25
+RANDOM_NULL_MIN_DRAWS = 1000
 ALLOWED_VERDICTS = [
     "invalid_artifact",
     "killed_by_noise_floor",
@@ -49,6 +53,108 @@ BLOCKED_CLAIMS = [
     "training_authorized",
     "new_loss_authorized",
 ]
+NULL_KILL_PRIORITY = [
+    "invalid_artifact",
+    "killed_by_noise_floor",
+    "killed_by_rank1_shadow",
+    "killed_by_random_axis",
+    "killed_by_coarsening",
+    "insufficient_artifact",
+]
+COMMON_NULL_REQUIRED_KEYS = [
+    "test_id",
+    "contract_version",
+    "computed_from",
+    "schema_id",
+    "weights_source",
+    "parameters",
+    "metrics",
+    "thresholds",
+    "stat_name",
+    "primary_value",
+    "null_distribution_summary",
+    "empirical_p_or_quantile",
+    "pass",
+    "kill_verdict_if_fail",
+    "reasons",
+    "notes",
+    "required_fields",
+    "failure_behavior",
+    "no_checkpoint_loaded_by_checker",
+    "no_model_inference_by_checker",
+    "no_training",
+    "no_new_loss",
+]
+NULL_TEST_SPECS = {
+    "matched_mean_slope": {
+        "stat_name": "matched_residual_stability_after_global_mean_and_q4_slope",
+        "kill_verdict": "killed_by_rank1_shadow",
+        "fine_reason": "absorbed_by_mean_or_q4_slope",
+        "required_metrics": [
+            "global_mean",
+            "q4_slope",
+            "direction_alignment",
+            "sign_consistency",
+            "matched_z",
+        ],
+    },
+    "random_equal_size_partition": {
+        "stat_name": "true_tokenpos_axis_vs_equal_size_random_partitions",
+        "kill_verdict": "killed_by_random_axis",
+        "fine_reason": "true_axis_not_better_than_equal_size_random_axis",
+        "required_metrics": ["n_draws", "true_axis_stat", "true_axis_quantile"],
+        "min_draws": RANDOM_NULL_MIN_DRAWS,
+    },
+    "within_q_position_shuffle": {
+        "stat_name": "q_local_position_label_shuffle_drop",
+        "kill_verdict": "killed_by_random_axis",
+        "fine_reason": "position_labels_do_not_matter_within_q",
+        "required_metrics": ["n_draws", "true_stat", "shuffle_quantile", "median_drop_ratio"],
+        "min_draws": RANDOM_NULL_MIN_DRAWS,
+    },
+    "bad_axis_audit_block_id": {
+        "stat_name": "audit_block_id_bad_axis_control",
+        "kill_verdict": "killed_by_random_axis",
+        "fine_reason": "known_bad_axis_creates_comparable_signal",
+        "required_metrics": ["true_axis_stat", "bad_axis_stat", "bad_axis_ratio_to_true"],
+    },
+    "same_dimension_random_subspace": {
+        "stat_name": "true_9d_interaction_subspace_vs_random_9d_subspaces",
+        "kill_verdict": "killed_by_random_axis",
+        "fine_reason": "true_subspace_not_distinguishable_from_random_subspace",
+        "required_metrics": [
+            "ambient_dim",
+            "candidate_dim",
+            "n_draws",
+            "true_subspace_stat",
+            "true_subspace_quantile",
+        ],
+        "min_draws": RANDOM_NULL_MIN_DRAWS,
+        "expected_dims": {"ambient_dim": CELL_COUNT, "candidate_dim": INTERACTION_DIMENSION},
+    },
+    "coarsen_refine_naturality": {
+        "stat_name": "coarsening_projection_naturality_defect",
+        "kill_verdict": "killed_by_coarsening",
+        "fine_reason": "partition_artifact_or_naturality_failure",
+        "required_metrics": ["max_relative_defect", "direction_retention_min"],
+    },
+    "principal_angle_stability": {
+        "stat_name": "heldout_residual_subspace_principal_angle_stability",
+        "kill_verdict": "insufficient_artifact",
+        "fine_reason": "killed_by_subspace_instability",
+        "required_metrics": ["median_max_angle_deg", "worst_max_angle_deg", "angle_quantile"],
+    },
+    "gluing_sanity": {
+        "stat_name": "local_overlap_obstruction_after_nuisance_expansion",
+        "kill_verdict": "killed_by_coarsening",
+        "fine_reason": "gluing_mismatch_absorbed_by_local_nuisance",
+        "required_metrics": [
+            "obs_value",
+            "obs_after_local_nuisance_expansion",
+            "absorbed_by_local_nuisance",
+        ],
+    },
+}
 
 
 def utc_now() -> str:
@@ -270,39 +376,228 @@ def interaction_statistics(rows: list[dict[str, Any]], weights: list[float]) -> 
     }
 
 
-def required_nulls(data: dict[str, Any]) -> tuple[list[str], list[str]]:
+def required_null_names() -> list[str]:
+    return list(NULL_TEST_SPECS)
+
+
+def null_metric(block: dict[str, Any], name: str) -> Any:
+    metrics = block.get("metrics", {})
+    if isinstance(metrics, dict) and name in metrics:
+        return metrics[name]
+    params = block.get("parameters", {})
+    if isinstance(params, dict) and name in params:
+        return params[name]
+    summary = block.get("null_distribution_summary", {})
+    if isinstance(summary, dict) and name in summary:
+        return summary[name]
+    return None
+
+
+def validate_null_tests(data: dict[str, Any]) -> dict[str, Any]:
+    summary: dict[str, Any] = {
+        "contract_version": data.get("null_tests_contract_version"),
+        "expected_contract_version": NULL_TESTS_CONTRACT_VERSION,
+        "required": required_null_names(),
+        "present": [],
+        "passed": [],
+        "missing": [],
+        "schema_errors": [],
+        "invalid_errors": [],
+        "failed": [],
+    }
+    if data.get("null_tests_contract_version") != NULL_TESTS_CONTRACT_VERSION:
+        summary["schema_errors"].append(
+            f"null_tests_contract_version must be {NULL_TESTS_CONTRACT_VERSION!r}"
+        )
     nulls = data.get("null_tests", {})
     if not isinstance(nulls, dict):
-        return [], ["null_tests must be an object"]
-    required = [
-        "matched_mean_slope",
-        "random_equal_size_partition",
-        "within_q_position_shuffle",
-        "bad_axis_audit_block_id",
-        "same_dimension_random_subspace",
-        "coarsen_refine_naturality",
-        "principal_angle_stability",
-        "gluing_sanity",
-    ]
-    missing = [name for name in required if name not in nulls]
-    return required, missing
+        summary["schema_errors"].append("null_tests must be an object")
+        summary["missing"] = required_null_names()
+        return summary
+    for name, spec in NULL_TEST_SPECS.items():
+        block = nulls.get(name)
+        if block is None:
+            summary["missing"].append(name)
+            continue
+        summary["present"].append(name)
+        schema_error_start = len(summary["schema_errors"])
+        invalid_error_start = len(summary["invalid_errors"])
+        if not isinstance(block, dict):
+            summary["schema_errors"].append(f"{name}: block must be an object")
+            continue
+        missing_keys = [key for key in COMMON_NULL_REQUIRED_KEYS if key not in block]
+        if missing_keys:
+            summary["schema_errors"].append(f"{name}: missing required keys {missing_keys}")
+            continue
+        if block.get("test_id") != name:
+            summary["schema_errors"].append(f"{name}: test_id must equal {name!r}")
+        if block.get("contract_version") != NULL_TESTS_CONTRACT_VERSION:
+            summary["schema_errors"].append(
+                f"{name}: contract_version must be {NULL_TESTS_CONTRACT_VERSION!r}"
+            )
+        if block.get("schema_id") != EXPECTED_AGGREGATE_SCHEMA_ID:
+            summary["schema_errors"].append(
+                f"{name}: schema_id must be {EXPECTED_AGGREGATE_SCHEMA_ID!r}"
+            )
+        if block.get("stat_name") != spec["stat_name"]:
+            summary["schema_errors"].append(f"{name}: stat_name mismatch")
+        for guard in (
+            "no_checkpoint_loaded_by_checker",
+            "no_model_inference_by_checker",
+            "no_training",
+            "no_new_loss",
+        ):
+            if block.get(guard) is not True:
+                summary["invalid_errors"].append(f"{name}: {guard} must be true")
+        weights_source = block.get("weights_source")
+        if not isinstance(weights_source, dict):
+            summary["schema_errors"].append(f"{name}: weights_source must be an object")
+        elif weights_source.get("outcome_independent") is not True:
+            summary["invalid_errors"].append(
+                f"{name}: weights_source must be outcome-independent"
+            )
+        computed_from = block.get("computed_from")
+        if not isinstance(computed_from, dict):
+            summary["schema_errors"].append(f"{name}: computed_from must be an object")
+        elif computed_from.get("raw_jsonl_sha256") != data.get("raw_jsonl_sha256"):
+            summary["invalid_errors"].append(f"{name}: computed_from.raw_jsonl_sha256 mismatch")
+        for object_key in (
+            "parameters",
+            "metrics",
+            "thresholds",
+            "primary_value",
+            "null_distribution_summary",
+            "empirical_p_or_quantile",
+            "failure_behavior",
+        ):
+            if not isinstance(block.get(object_key), dict):
+                summary["schema_errors"].append(f"{name}: {object_key} must be an object")
+        if not isinstance(block.get("required_fields"), list):
+            summary["schema_errors"].append(f"{name}: required_fields must be a list")
+        if not isinstance(block.get("reasons"), list):
+            summary["schema_errors"].append(f"{name}: reasons must be a list")
+        null_summary = block.get("null_distribution_summary", {})
+        if isinstance(null_summary, dict):
+            if not isinstance(null_summary.get("method"), str) or not null_summary.get("method"):
+                summary["schema_errors"].append(f"{name}: null_distribution_summary.method missing")
+            if null_summary.get("direction") not in (
+                "higher_is_better",
+                "lower_is_better",
+                "two_sided",
+            ):
+                summary["schema_errors"].append(
+                    f"{name}: null_distribution_summary.direction invalid"
+                )
+        metrics = block.get("metrics", {})
+        if isinstance(metrics, dict):
+            missing_metrics = [
+                metric for metric in spec["required_metrics"] if metric not in metrics
+            ]
+            if missing_metrics:
+                summary["schema_errors"].append(
+                    f"{name}: missing required metrics {missing_metrics}"
+                )
+        kill = block.get("kill_verdict_if_fail")
+        if not isinstance(kill, dict):
+            summary["schema_errors"].append(f"{name}: kill_verdict_if_fail must be an object")
+            final_verdict = None
+        else:
+            final_verdict = kill.get("final_verdict")
+            if final_verdict not in ALLOWED_VERDICTS or final_verdict == "eligible_for_next_design_review_only":
+                summary["schema_errors"].append(f"{name}: invalid kill_verdict_if_fail.final_verdict")
+            elif final_verdict != spec["kill_verdict"]:
+                summary["schema_errors"].append(
+                    f"{name}: kill verdict must be {spec['kill_verdict']!r}"
+                )
+        if "min_draws" in spec:
+            n_draws = null_metric(block, "n_draws")
+            if not isinstance(n_draws, int) or n_draws < int(spec["min_draws"]):
+                summary["schema_errors"].append(
+                    f"{name}: n_draws must be an integer >= {spec['min_draws']}"
+                )
+        dims = spec.get("expected_dims", {})
+        if isinstance(metrics, dict):
+            for metric, expected in dims.items():
+                if metrics.get(metric) != expected:
+                    summary["invalid_errors"].append(
+                        f"{name}: {metric} must be {expected}, got {metrics.get(metric)!r}"
+                    )
+        if name == "gluing_sanity" and isinstance(metrics, dict):
+            if not isinstance(metrics.get("absorbed_by_local_nuisance"), bool):
+                summary["schema_errors"].append(
+                    "gluing_sanity: absorbed_by_local_nuisance must be boolean"
+                )
+        passed = block.get("pass")
+        if not isinstance(passed, bool):
+            summary["schema_errors"].append(f"{name}: pass must be boolean")
+        elif not passed:
+            summary["failed"].append(
+                {
+                    "name": name,
+                    "final_verdict": final_verdict or spec["kill_verdict"],
+                    "fine_reason": kill.get("fine_reason", spec["fine_reason"])
+                    if isinstance(kill, dict)
+                    else spec["fine_reason"],
+                    "reasons": block.get("reasons", []),
+                }
+            )
+        elif (
+            len(summary["schema_errors"]) == schema_error_start
+            and len(summary["invalid_errors"]) == invalid_error_start
+        ):
+            summary["passed"].append(name)
+    return summary
 
 
-def verdict_from_checks(metadata_errors: list[str], row_errors: list[str], null_missing: list[str], stats: dict[str, Any] | None) -> tuple[str, list[str]]:
+def highest_priority_null_failure(failed: list[dict[str, Any]]) -> tuple[str, list[str]]:
+    by_verdict: dict[str, list[dict[str, Any]]] = {}
+    for item in failed:
+        by_verdict.setdefault(str(item.get("final_verdict")), []).append(item)
+    for verdict in NULL_KILL_PRIORITY:
+        if verdict in by_verdict:
+            reasons = [
+                f"{item['name']} failed: {item.get('fine_reason', 'null test failed')}"
+                for item in by_verdict[verdict]
+            ]
+            return verdict, reasons
+    return "insufficient_artifact", ["one or more null tests failed"]
+
+
+def verdict_from_checks(
+    metadata_errors: list[str],
+    row_errors: list[str],
+    null_summary: dict[str, Any],
+    stats: dict[str, Any] | None,
+) -> tuple[str, list[str]]:
     if metadata_errors or row_errors:
         return "invalid_artifact", metadata_errors + row_errors
     if stats is None:
         return "insufficient_artifact", ["no interaction statistics computed"]
     ratio = stats.get("interaction_to_noise_median_ratio")
     sigma2_ratio = stats.get("weighted_uncentered_sigma2_over_sigma1")
+    if null_summary["invalid_errors"]:
+        return "invalid_artifact", null_summary["invalid_errors"]
+    if null_summary["missing"]:
+        return "insufficient_artifact", [
+            f"missing preregistered null test: {name}" for name in null_summary["missing"]
+        ]
+    if null_summary["schema_errors"]:
+        return "insufficient_artifact", null_summary["schema_errors"]
     if ratio is not None and ratio <= 1.0:
         return "killed_by_noise_floor", ["median interaction norm is at or below estimated noise floor"]
-    if sigma2_ratio is not None and sigma2_ratio < 0.10:
-        return "killed_by_rank1_shadow", ["singular spectrum is too close to a rank-1 scalar shadow"]
-    if null_missing:
-        return "insufficient_artifact", [f"missing preregistered null test: {name}" for name in null_missing]
+    if sigma2_ratio is not None and sigma2_ratio < RANK_SHADOW_STRICT_MIN:
+        threshold_note = (
+            f"below hard rank-1 shadow floor {RANK_SHADOW_HARD_FAIL}"
+            if sigma2_ratio < RANK_SHADOW_HARD_FAIL
+            else f"below strict design-review floor {RANK_SHADOW_STRICT_MIN}"
+        )
+        return "killed_by_rank1_shadow", [
+            f"weighted sigma2/sigma1={sigma2_ratio:.6g} is {threshold_note}"
+        ]
+    if null_summary["failed"]:
+        return highest_priority_null_failure(null_summary["failed"])
     return "eligible_for_next_design_review_only", [
-        "all required provenance fields, rows, statistics, and null-test result blocks are present",
+        "all required provenance fields, rows, statistics, and structured null-test result blocks are present and pass",
         "this is not a scientific claim and still requires strict review",
     ]
 
@@ -325,7 +620,25 @@ def empty_result(reason: str, schema_path: Path) -> dict[str, Any]:
 
 def analyze_aggregate(aggregate_path: Path, schema_path: Path) -> dict[str, Any]:
     schema_id, schema_weights = load_schema_weights(schema_path)
-    data = load_json(aggregate_path)
+    try:
+        data = load_json(aggregate_path)
+    except FileNotFoundError:
+        result = empty_result(f"aggregate path does not exist: {aggregate_path}", schema_path)
+        result["aggregate_path"] = str(aggregate_path)
+        return result
+    except json.JSONDecodeError as exc:
+        return {
+            "generated_utc": utc_now(),
+            "aggregate_path": str(aggregate_path),
+            "final_verdict": "invalid_artifact",
+            "reasons": [f"aggregate is not valid JSON: {exc}"],
+            "allowed_verdicts": ALLOWED_VERDICTS,
+            "blocked_claims": BLOCKED_CLAIMS,
+            "no_checkpoint_loaded": True,
+            "no_model_inference": True,
+            "no_training": True,
+            "no_new_loss": True,
+        }
     if not isinstance(data, dict):
         return {
             "generated_utc": utc_now(),
@@ -342,8 +655,8 @@ def analyze_aggregate(aggregate_path: Path, schema_path: Path) -> dict[str, Any]
     stats = None
     if not metadata_errors and not row_errors:
         stats = interaction_statistics(rows, schema_weights)
-    _, null_missing = required_nulls(data)
-    verdict, reasons = verdict_from_checks(metadata_errors, row_errors, null_missing, stats)
+    null_summary = validate_null_tests(data)
+    verdict, reasons = verdict_from_checks(metadata_errors, row_errors, null_summary, stats)
     return {
         "generated_utc": utc_now(),
         "script": "scripts/q4_hypercube_interaction_prereg_analysis.py",
@@ -357,7 +670,7 @@ def analyze_aggregate(aggregate_path: Path, schema_path: Path) -> dict[str, Any]
         "blocked_claims": BLOCKED_CLAIMS,
         "row_count": len(rows),
         "interaction_statistics": stats,
-        "missing_null_tests": null_missing,
+        "null_test_summary": null_summary,
         "no_checkpoint_loaded": True,
         "no_model_inference": True,
         "no_training": True,
@@ -365,14 +678,88 @@ def analyze_aggregate(aggregate_path: Path, schema_path: Path) -> dict[str, Any]
     }
 
 
+def null_test_template(name: str, spec: dict[str, Any], raw_jsonl_sha256: str) -> dict[str, Any]:
+    return {
+        "test_id": name,
+        "contract_version": NULL_TESTS_CONTRACT_VERSION,
+        "computed_from": {
+            "raw_jsonl_sha256": raw_jsonl_sha256,
+            "aggregate_schema_id": EXPECTED_AGGREGATE_SCHEMA_ID,
+            "source": "future full-panel aggregate only",
+        },
+        "schema_id": EXPECTED_AGGREGATE_SCHEMA_ID,
+        "weights_source": {
+            "kind": "source_only_weights",
+            "outcome_independent": True,
+        },
+        "parameters": {
+            "preregistered": True,
+            "n_draws": spec.get("min_draws"),
+        },
+        "metrics": {
+            metric: f"<future {metric}>"
+            for metric in spec["required_metrics"]
+        },
+        "thresholds": {
+            "pass_rule": "<future preregistered threshold>",
+            "multiplicity_adjustment": "<none | holm | maxT | preregistered_other>",
+        },
+        "stat_name": spec["stat_name"],
+        "primary_value": {
+            "field_or_formula": "<future machine-readable statistic path or formula>"
+        },
+        "null_distribution_summary": {
+            "method": "<future source-only null construction>",
+            "n_draws": spec.get("min_draws"),
+            "statistic": spec["stat_name"],
+            "direction": "higher_is_better",
+            "quantiles": {
+                "p05": "<finite number>",
+                "p50": "<finite number>",
+                "p90": "<finite number>",
+                "p95": "<finite number>",
+                "p99": "<finite number>",
+            },
+            "mean": "<finite number or null>",
+            "sd": "<finite number or null>",
+            "multiplicity_adjustment": "<none | holm | maxT | preregistered_other>",
+            "random_seed_or_manifest": "<future seed or manifest digest>",
+            "provenance": ["<source-only field list>"],
+        },
+        "empirical_p_or_quantile": {
+            "type": "<upper_quantile | lower_tail | two_sided | ratio>",
+            "value": "<finite number>",
+        },
+        "pass": "<future boolean>",
+        "kill_verdict_if_fail": {
+            "final_verdict": spec["kill_verdict"],
+            "fine_reason": spec["fine_reason"],
+        },
+        "reasons": [],
+        "notes": "Design-only future null-test block; notes cannot override pass=false.",
+        "required_fields": spec["required_metrics"],
+        "failure_behavior": {
+            "missing": "insufficient_artifact",
+            "malformed": "invalid_artifact",
+            "pass_false": spec["kill_verdict"],
+        },
+        "no_checkpoint_loaded_by_checker": True,
+        "no_model_inference_by_checker": True,
+        "no_training": True,
+        "no_new_loss": True,
+    }
+
+
 def template(schema_path: Path) -> dict[str, Any]:
     schema_id, schema_weights = load_schema_weights(schema_path)
+    raw_jsonl_sha256 = "<sha256 of raw token-level panel or manifest digest>"
     return {
         "artifact_kind": "maofield_q4_tokenpos4_interaction_full_panel_aggregate",
         "aggregate_schema_id": EXPECTED_AGGREGATE_SCHEMA_ID,
+        "null_tests_contract_version": NULL_TESTS_CONTRACT_VERSION,
         "repo_head": "<git head used by the future aggregate builder>",
         "builder_script_sha256": "<sha256 of future aggregate builder script>",
-        "raw_jsonl_sha256": "<sha256 of raw token-level panel or manifest digest>",
+        "raw_jsonl_sha256": raw_jsonl_sha256,
         "axis_definitions": {
             "hypercube_schema_id": schema_id,
             "q4_schema_id": EXPECTED_Q4_SCHEMA_ID,
@@ -392,14 +779,8 @@ def template(schema_path: Path) -> dict[str, Any]:
             }
         ],
         "null_tests": {
-            "matched_mean_slope": "<future result block>",
-            "random_equal_size_partition": "<future result block>",
-            "within_q_position_shuffle": "<future result block>",
-            "bad_axis_audit_block_id": "<future result block>",
-            "same_dimension_random_subspace": "<future result block>",
-            "coarsen_refine_naturality": "<future result block>",
-            "principal_angle_stability": "<future result block>",
-            "gluing_sanity": "<future result block>",
+            name: null_test_template(name, spec, raw_jsonl_sha256)
+            for name, spec in NULL_TEST_SPECS.items()
         },
     }
 
