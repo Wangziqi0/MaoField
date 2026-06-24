@@ -110,6 +110,18 @@
 > temporary node22 bge-m3 vector acceleration. Runtime index: 340 active
 > markdown files / 9006 chunks; `kb.faiss=e522eccb...`,
 > `kb_meta=2920ce4d...`. Node22 service was stopped after the candidate build.
+> D624 report(22) update: quotient-residual mainline / debranded research
+> program archived. Adopted synthesis: report(17)=problematization,
+> report(19)=mother-object selection, report(21)=finite formalization /
+> kill-suite, and report(22)=negative-centered measurement-audit / no-go
+> program. Current MaoField Mode B remains `insufficient_artifact`; existing
+> interaction smoke remains `smoke_conjecture_only`; no full panel, training,
+> or new-loss work is authorized.
+> D624 report(22) RAG update: default node36 RAG was refreshed again with
+> temporary node22 bge-m3 vector acceleration. Runtime index: 342 active
+> markdown files / 9027 chunks; `kb.faiss=b4492a73...`,
+> `kb_meta=77efe884...`. Node22 service was stopped after the final candidate
+> build.
 
 ## 0. Scope And Evidence Boundary
 
@@ -198,6 +210,9 @@ Use this order for a cold start:
 17. D623 quotient-residual finite ANOVA / no-go formalization:
    - [deep_research_quotient_residual_finite_anova_kill_framework_20260623.md](docs/infra/gpt_deep_research/deep_research_quotient_residual_finite_anova_kill_framework_20260623.md)
    - [QUOTIENT_RESIDUAL_FINITE_ANOVA_ADOPTION_NOTE_20260623.md](docs/infra/gpt_deep_research/QUOTIENT_RESIDUAL_FINITE_ANOVA_ADOPTION_NOTE_20260623.md)
+18. D624 quotient-residual mainline consolidation:
+   - [deep_research_quotient_residual_mainline_debranded_program_20260624.md](docs/infra/gpt_deep_research/deep_research_quotient_residual_mainline_debranded_program_20260624.md)
+   - [QUOTIENT_RESIDUAL_MAINLINE_ADOPTION_NOTE_20260624.md](docs/infra/gpt_deep_research/QUOTIENT_RESIDUAL_MAINLINE_ADOPTION_NOTE_20260624.md)
 
 ## 2. Current Scientific Position
 
@@ -672,6 +687,35 @@ Current MaoField status:
   markdown files / 9006 chunks.
 - No full panel, interaction field, residual field, training, or new loss is
   authorized.
+
+### 4.16 D624 Quotient Residual Mainline / Debranded Program
+
+Primary local interpretation:
+[QUOTIENT_RESIDUAL_MAINLINE_ADOPTION_NOTE_20260624.md](docs/infra/gpt_deep_research/QUOTIENT_RESIDUAL_MAINLINE_ADOPTION_NOTE_20260624.md)
+
+External/PRO synthesis:
+[deep_research_quotient_residual_mainline_debranded_program_20260624.md](docs/infra/gpt_deep_research/deep_research_quotient_residual_mainline_debranded_program_20260624.md)
+
+Adopted synthesis:
+
+- report (17) problematized the quotient-residual existence problem.
+- report (19) selected the general nuisance quotient residual
+  `R_t = Pi_{N_perp,w} K_t` as the mother object.
+- report (21) formalized admissible triples `(X,w,N)`, finite weighted quotient
+  geometry, ANOVA boundaries, and no-go / kill-suite structure.
+- report (22) consolidates the line as a negative-centered measurement-audit /
+  no-go program, not as a positive MaoField result.
+
+Current MaoField status:
+
+- Mode B remains `insufficient_artifact`.
+- Existing interaction smoke remains `smoke_conjecture_only`.
+- The strongest allowed project direction is
+  `negative-centered measurement-audit / no-go framework; no current observed residual field`.
+- Default RAG now includes report(22) and its adoption note: 342 active
+  markdown files / 9027 chunks.
+- Any full-panel generation, checkpoint loading for a new panel, training, or
+  new-loss work remains future PI-gated and is not authorized here.
 
 ### 4.9 D623 q4 Hypercube Extension Strict Math Audit
 
