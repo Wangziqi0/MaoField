@@ -1,0 +1,37 @@
+[1/4] files=351
+[2/4] chunks=9171 chunk_seconds=13.2
+[3/4] remote_embed endpoint=http://192.168.31.22:18080 model=bge-m3-temp batch=32 batches=287
+  embedded_batches=1/287 texts=32/9171 rate=36.01 text/s
+  embedded_batches=10/287 texts=320/9171 rate=85.21 text/s
+  embedded_batches=20/287 texts=640/9171 rate=85.21 text/s
+  embedded_batches=30/287 texts=960/9171 rate=89.31 text/s
+  embedded_batches=40/287 texts=1280/9171 rate=93.79 text/s
+  embedded_batches=50/287 texts=1600/9171 rate=93.27 text/s
+  embedded_batches=60/287 texts=1920/9171 rate=93.04 text/s
+  embedded_batches=70/287 texts=2240/9171 rate=94.10 text/s
+  embedded_batches=80/287 texts=2560/9171 rate=95.76 text/s
+  embedded_batches=90/287 texts=2880/9171 rate=95.86 text/s
+  embedded_batches=100/287 texts=3200/9171 rate=94.49 text/s
+  embedded_batches=110/287 texts=3520/9171 rate=94.08 text/s
+  embedded_batches=120/287 texts=3840/9171 rate=94.27 text/s
+  embedded_batches=130/287 texts=4160/9171 rate=94.46 text/s
+  embedded_batches=140/287 texts=4480/9171 rate=94.39 text/s
+  embedded_batches=150/287 texts=4800/9171 rate=94.68 text/s
+  embedded_batches=160/287 texts=5120/9171 rate=94.21 text/s
+  embedded_batches=170/287 texts=5440/9171 rate=94.20 text/s
+  embedded_batches=180/287 texts=5760/9171 rate=94.87 text/s
+  embedded_batches=190/287 texts=6080/9171 rate=95.00 text/s
+  embedded_batches=200/287 texts=6400/9171 rate=95.03 text/s
+  embedded_batches=210/287 texts=6720/9171 rate=95.44 text/s
+  embedded_batches=220/287 texts=7040/9171 rate=95.43 text/s
+  embedded_batches=230/287 texts=7360/9171 rate=95.61 text/s
+  embedded_batches=240/287 texts=7680/9171 rate=96.59 text/s
+  embedded_batches=250/287 texts=8000/9171 rate=96.76 text/s
+  embedded_batches=260/287 texts=8320/9171 rate=96.64 text/s
+  embedded_batches=270/287 texts=8640/9171 rate=96.34 text/s
+  embedded_batches=280/287 texts=8960/9171 rate=96.97 text/s
+  embedded_batches=287/287 texts=9171/9171 rate=96.88 text/s
+[4/4] wrote index
+      faiss=/home/amd/codex-node36/tmp/maofield-rag-20260624_1908_report24/index/kb.faiss bytes=37564461 vectors=9171 dim=1024
+      meta=/home/amd/codex-node36/tmp/maofield-rag-20260624_1908_report24/index/kb_meta.jsonl bytes=11292469
+[stat] files=351 chunks=9171 embed_seconds=94.7 rate=96.874text/s

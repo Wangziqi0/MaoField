@@ -156,6 +156,17 @@
 > D624 synthetic harness RAG refresh complete: default index now contains
 > 349 active canonical markdown files / 9128 chunks; `kb.faiss=797e1186...`,
 > `kb_meta=752293de...`. Node22 temporary bge-m3 service was stopped.
+> D624 report(24) update: transport / holonomy math-turn audit archived.
+> Adopted as a Mode A recommendation only: professor verdict E favors splitting
+> the mathematics into a debranded finite weighted residual transport /
+> holonomy project. Node36 verified report(24)'s product-weight warning:
+> current q4 x tokenpos4 schema weights are not exact product-form
+> (`max_abs_error=0.0045863`), so use non-product weighted hierarchical
+> projection language unless future product weights are supplied. Mode B remains
+> `insufficient_artifact` / `smoke_conjecture_only`.
+> D624 report(24) RAG refresh complete: default index now contains
+> 351 active canonical markdown files / 9171 chunks; `kb.faiss=e89ec4eb...`,
+> `kb_meta=7e077d59...`. Node22 temporary bge-m3 service was stopped.
 
 ## 0. Scope And Evidence Boundary
 
@@ -264,6 +275,11 @@ Use this order for a cold start:
    - [residual_transport_holonomy_synthetic.py](scripts/residual_transport_holonomy_synthetic.py)
    - Current allowed interpretation: toy definition/code viability only;
      strongest verdict `synthetic_harness_only_no_maofield_claim`.
+22. D624 transport / holonomy math-turn audit:
+   - [deep_research_transport_holonomy_math_turn_audit_20260624.md](docs/infra/gpt_deep_research/deep_research_transport_holonomy_math_turn_audit_20260624.md)
+   - [TRANSPORT_HOLONOMY_MATH_TURN_AUDIT_ADOPTION_NOTE_20260624.md](docs/infra/gpt_deep_research/TRANSPORT_HOLONOMY_MATH_TURN_AUDIT_ADOPTION_NOTE_20260624.md)
+   - Current allowed interpretation: Mode A professor verdict E and
+     non-product-weight caveat; not a Mode B evidence upgrade.
 
 ## 2. Current Scientific Position
 
@@ -828,6 +844,40 @@ Current allowed interpretation:
   same-dimension subspaces;
 - strongest verdict is `synthetic_harness_only_no_maofield_claim`;
 - this is not MaoField empirical evidence and does not change Mode B.
+
+### 4.19 D624 Transport / Holonomy Math-Turn Audit
+
+Primary local interpretation:
+[TRANSPORT_HOLONOMY_MATH_TURN_AUDIT_ADOPTION_NOTE_20260624.md](docs/infra/gpt_deep_research/TRANSPORT_HOLONOMY_MATH_TURN_AUDIT_ADOPTION_NOTE_20260624.md)
+
+External/PRO synthesis:
+[deep_research_transport_holonomy_math_turn_audit_20260624.md](docs/infra/gpt_deep_research/deep_research_transport_holonomy_math_turn_audit_20260624.md)
+
+Adopted Mode A recommendation:
+
+- professor verdict E: split into a debranded finite weighted residual
+  transport / holonomy project;
+- still a PI decision, not an already-executed repository split;
+- current q4 x tokenpos4 weights are not exact product-form weights, so local
+  language should be non-product weighted hierarchical projection / residual
+  program unless future product weights or explicit product reweighting are
+  supplied.
+
+Node36 primary-source check:
+
+```text
+schema = docs/infra/math_turn_20260622/hypercube_schema_q4_tokenpos4_20260623.json
+max_abs_error_vs_q_marginal_outer_b_marginal = 0.0045863252708490815
+max_rel_error_vs_actual = 0.06724386724386727
+max_rel_error_vs_product_expected = 0.07209158415841586
+```
+
+Current MaoField status:
+
+- Mode B remains `insufficient_artifact`.
+- Existing interaction smoke remains `smoke_conjecture_only`.
+- Synthetic harness pass remains definition/code viability only.
+- No full panel, checkpoint loading, training, or new loss is authorized.
 
 ### 4.9 D623 q4 Hypercube Extension Strict Math Audit
 
