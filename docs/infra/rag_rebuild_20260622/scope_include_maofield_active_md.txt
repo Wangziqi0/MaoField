@@ -26,6 +26,7 @@
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/QUOTIENT_RESIDUAL_FINITE_ANOVA_ADOPTION_NOTE_20260623.md
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/QUOTIENT_RESIDUAL_MAINLINE_ADOPTION_NOTE_20260624.md
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/README_20260622.md
+/media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/RESIDUAL_TRANSPORT_HOLONOMY_ADOPTION_NOTE_20260624.md
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_current_code_math_glassbox_20260622.md
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_future_math_objects_interaction_field_audit_20260623.md
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_math_ore_quotient_residual_strict_audit_20260623.md
@@ -40,6 +41,7 @@
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_q4_residual_field_strict_math_audit_20260623.md
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_quotient_residual_finite_anova_kill_framework_20260623.md
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_quotient_residual_mainline_debranded_program_20260624.md
+/media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_residual_transport_holonomy_split_project_20260624.md
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/math_turn_20260622/HYPERCUBE_INTERACTION_ANALYSIS_PREREG_DESIGN_20260623.md
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/math_turn_20260622/MATH_TURN_LOSO_AUDIT_VERDICT_20260622.md
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/math_turn_20260622/NULL_TESTS_CONTRACT_20260624.md

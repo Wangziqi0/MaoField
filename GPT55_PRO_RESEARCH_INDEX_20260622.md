@@ -137,6 +137,16 @@
 > prompt update. Runtime index: 345 active canonical markdown files / 9073
 > chunks; `kb.faiss=d33dade...`, `kb_meta=cedfde51...`. Node22 service was
 > stopped after the final candidate build.
+> D624 report(23) update: residual transport / holonomy split-project proposal
+> archived. Adopted as a Mode A recommendation only: the next mathematical
+> object should be finite scale-lattice residual transport with edge defects,
+> square holonomy defects, rank-shadow guards, and random-subspace calibration.
+> This is not a MaoField evidence upgrade and not an already-approved new
+> project; Mode B remains `insufficient_artifact` /
+> `smoke_conjecture_only`.
+> D624 report(23) RAG refresh complete: default index now contains
+> 347 active canonical markdown files / 9111 chunks; `kb.faiss=8525c962...`,
+> `kb_meta=321bd7cb...`. Node22 temporary bge-m3 service was stopped.
 
 ## 0. Scope And Evidence Boundary
 
@@ -233,6 +243,12 @@ Use this order for a cold start:
    - [q4_hypercube_interaction_prereg_analysis.py](scripts/q4_hypercube_interaction_prereg_analysis.py)
    - Current allowed ceiling: `eligible_for_next_design_review_only`; no
      observed residual/interaction/quotient field claim.
+20. D624 residual transport / holonomy split-project proposal:
+   - [deep_research_residual_transport_holonomy_split_project_20260624.md](docs/infra/gpt_deep_research/deep_research_residual_transport_holonomy_split_project_20260624.md)
+   - [RESIDUAL_TRANSPORT_HOLONOMY_ADOPTION_NOTE_20260624.md](docs/infra/gpt_deep_research/RESIDUAL_TRANSPORT_HOLONOMY_ADOPTION_NOTE_20260624.md)
+   - Current allowed interpretation: Mode A mathematical recommendation for a
+     debranded finite-dimensional operator/no-go project; not a Mode B evidence
+     upgrade and not an automatic repo split.
 
 ## 2. Current Scientific Position
 
@@ -741,6 +757,34 @@ Current MaoField status:
   `sigma2/sigma1 >= 0.25`.
 - Any full-panel generation, checkpoint loading for a new panel, training, or
   new-loss work remains future PI-gated and is not authorized here.
+
+### 4.17 D624 Residual Transport / Holonomy Split-Project Proposal
+
+Primary local interpretation:
+[RESIDUAL_TRANSPORT_HOLONOMY_ADOPTION_NOTE_20260624.md](docs/infra/gpt_deep_research/RESIDUAL_TRANSPORT_HOLONOMY_ADOPTION_NOTE_20260624.md)
+
+External/PRO synthesis:
+[deep_research_residual_transport_holonomy_split_project_20260624.md](docs/infra/gpt_deep_research/deep_research_residual_transport_holonomy_split_project_20260624.md)
+
+Adopted Mode A recommendation:
+
+- single-scale `R_t = Pi_{N_perp,w} K_t` is too easy to confuse with rank-1
+  shadows, random same-dimension subspaces, or scale-choice artifacts;
+- the next mathematical object should be a finite scale-lattice residual
+  transport system with local projections `P_s`, coarsening maps `C_rho`,
+  edge defects `D_rho`, square holonomy defects `H_square`, and
+  random-subspace calibration;
+- candidate theorem/no-go agenda: rank-1 principal-angle vacuity, square
+  holonomy no-go, local gluing absorption, random same-dimension
+  indistinguishability, and transport-stable rank classification.
+
+Current MaoField status:
+
+- Mode B remains `insufficient_artifact`.
+- Existing interaction smoke remains `smoke_conjecture_only`.
+- `split into a new project` is a recommendation to PI, not an already-made
+  project-management decision.
+- No full panel, checkpoint loading, training, or new loss is authorized.
 
 ### 4.9 D623 q4 Hypercube Extension Strict Math Audit
 
