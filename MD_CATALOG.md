@@ -32,7 +32,7 @@
 
 ## §0 新 session 导航 TL;DR ★最重要
 
-### 当前 (D29-D31) ACTIVE 核心 ~25 份 (该看)
+### 导航 ACTIVE 核心与 D624 当前入口 (该看)
 | 类 | 文件 (在 `experiments/exp018_cat/dppl_bridge_verify_d21_output/` 除非注明) |
 |---|---|
 | **数据 ground truth** | `D29_VERIFICATION_CASCADE_UPDATE_20260529` (最新更正主锚) · `MAOFIELD_GATE_DATA_INTEGRITY_20260529` · `MAOFIELD_EXP_METADATA_MASTER_20260529` |
