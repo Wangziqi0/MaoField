@@ -46,11 +46,11 @@ v1 的 **Invariance Under Transport Isomorphism** 段落是目前 formal note �
 
 ## 更强的 v1.1 定理与反例议程
 
-v1.1 的第一优先级，不是再加新语言，而是把 **quotient transport** 写清楚。当前 v1 已有 quotient representative `P_NK`，却还没有把“什么时候 `C:H_s\to H_t` 能在商空间上下降成 `\bar C:H_s/N_s\to H_t/N_t`”写成命题。一个干净的 v1.1 target 应是：  
+v1.1 的第一优先级，不是再加新语言，而是把 **quotient transport** 写清楚。当前 v1 已有 quotient representative `P_NK`，却还没有把“什么时候 `C:H_s\to H_t` 能在商空间上下降成 `\bar C:H_s/N_s\to H_t/N_t`”写成命题。一个干净的 v1.1 target 应是：
 `C(N_s)\subseteq N_t` 当且仅当 `\bar C([h])=[Ch]` well-defined；在此基础上，再讨论由 residual representative 给出的自然性条件何时加强为 `CP_s=P_tC`。这会把“quotient representatives”从口号补成真正的 category-level 结构。它也会让 edge commutation 与 quotient descent 之间的关系变得严格。〔prompt/GPT55_PRO_FOUNDATIONAL_RESIDUAL_TRANSPORT_V1_PROMPT_20260625.md:L22-L24; from_repo/docs/infra/debranded_residual_transport/FORMAL_NOTE_V1_20260625.md:L90-L121; from_repo/docs/infra/debranded_residual_transport/FORMAL_NOTE_V1_20260625.md:L194-L207〕
 
-第二优先级，是把 **projection-evolution commutator** 补回来，而且要写成 theorem，而不是只靠 v0 的遗留 harness。最佳表述是：对单空间上的 source-fixed linear operator `T:H\to H`，  
-`PT=TP` 当且仅当 `T(N)\subseteq N` 且 `T(N^{\perp,w})\subseteq N^{\perp,w}`；  
+第二优先级，是把 **projection-evolution commutator** 补回来，而且要写成 theorem，而不是只靠 v0 的遗留 harness。最佳表述是：对单空间上的 source-fixed linear operator `T:H\to H`，
+`PT=TP` 当且仅当 `T(N)\subseteq N` 且 `T(N^{\perp,w})\subseteq N^{\perp,w}`；
 等价地，也可写成 `T(N)\subseteq N` 与 `T^*(N)\subseteq N` 的双包含条件。再进一步，最好给出 operator-norm defect `\|PT-TP\|` 与 leakage 的上界。这个 theorem 既服务于 dynamic paths，也能把 v1 prompt 明说要保留的 commutator theme 补齐。〔prompt/GPT55_PRO_FOUNDATIONAL_RESIDUAL_TRANSPORT_V1_PROMPT_20260625.md:L118-L123; from_repo/docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_FORMAL_NOTE_OUTLINE_20260625.md:L144-L152; from_repo/docs/infra/debranded_residual_transport/SYNTHETIC_HARNESS_V0_20260625.md:L36-L69〕
 
 第三优先级，是给 **square holonomy** 一个更有信息量的分解公式。v1 只有 no-go：若所有 edge commute 且 raw paths agree，则 holonomy vanishes。更强的 v1.1 应该写出一个 telescoping decomposition，把 `\widehat C_p-\widehat C_q` 分拆成“raw path difference 项”与“沿路径被 transport 的 edge defect 项”。一旦有了这个公式，今后任何非零 holonomy 都可以被归类为：原始路径不一致、局部 edge leakage、还是路径依赖 nuisance。那会比现在的 yes/no no-go 强得多。〔from_repo/docs/infra/debranded_residual_transport/FORMAL_NOTE_V1_20260625.md:L216-L267; from_repo/docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_CORE_DESCRIPTION_20260624.md:L71-L89〕
