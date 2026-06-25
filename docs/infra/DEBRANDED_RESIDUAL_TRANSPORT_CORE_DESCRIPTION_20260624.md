@@ -133,6 +133,30 @@ The project succeeds if it produces any of:
 
 It does not need a positive MaoField empirical result to be valuable.
 
+## D625 Formal Note Agenda
+
+The first formal note should be written as an operator/no-go note, not as a
+MaoField finding. Its minimum structure is now:
+
+1. admissible finite weighted systems `(X_s,w_s,N_s)`;
+2. local residuals `R_s(K)=P_sK_s`;
+3. fixed coarsening/refinement maps `C_rho`;
+4. edge defects `D_rho(K)=C_rho P_sK_s - P_s' C_rho K_s`;
+5. square holonomy defects as terminal-space path differences;
+6. nuisance-gauge and transport-isomorphism equivalences;
+7. invariants: residual norms, singular spectra, principal angles, edge
+   defects, square holonomy, random-subspace quantiles, and transport-stable
+   rank;
+8. no-go targets for rank-1 shadows, random subspaces, coarsening
+   non-naturality, square holonomy, commutator leakage, gluing absorption, and
+   non-product weights.
+
+The companion outline is:
+
+```text
+docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_FORMAL_NOTE_OUTLINE_20260625.md
+```
+
 ## First Work Items
 
 1. Formalize admissible triples `(X,w,N)` and allowed maps.

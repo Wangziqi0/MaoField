@@ -175,6 +175,15 @@
 > D624 debranded-project RAG refresh complete: default index now contains
 > 357 active canonical markdown files / 9228 chunks; `kb.faiss=98a9ca4c...`,
 > `kb_meta=90b01342...`. Node22 temporary bge-m3 service was stopped.
+> D625 report(25) update: debranded residual transport strict audit archived.
+> Adopted as a Mode A formal-note agenda only: split into a standalone finite
+> weighted residual transport / holonomy / operator no-go project; write the
+> first formal note; develop seven theorem/no-go targets and a seven-block
+> zero-GPU synthetic harness. No MaoField empirical upgrade, full panel,
+> training, or new loss is authorized.
+> D625 report(25) RAG refresh complete: default index now contains
+> 362 active canonical markdown files / 9301 chunks; `kb.faiss=546a3fd5...`,
+> `kb_meta=f9436c5e...`. Node22 temporary bge-m3 service was stopped.
 
 ## 0. Scope And Evidence Boundary
 
@@ -913,6 +922,38 @@ Allowed interpretation:
 - It does not need and does not imply a positive MaoField empirical claim.
 - It does not authorize a full panel, checkpoint loading, training, or a new
   loss.
+
+### 4.21 D625 Strict Audit And First Formal Note Agenda
+
+Archived report:
+[deep_research_debranded_residual_transport_strict_audit_20260625.md](docs/infra/gpt_deep_research/deep_research_debranded_residual_transport_strict_audit_20260625.md)
+
+Primary local interpretation:
+[DEBRANDED_RESIDUAL_TRANSPORT_STRICT_AUDIT_ADOPTION_NOTE_20260625.md](docs/infra/gpt_deep_research/DEBRANDED_RESIDUAL_TRANSPORT_STRICT_AUDIT_ADOPTION_NOTE_20260625.md)
+
+Formal note outline:
+[DEBRANDED_RESIDUAL_TRANSPORT_FORMAL_NOTE_OUTLINE_20260625.md](docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_FORMAL_NOTE_OUTLINE_20260625.md)
+
+Adopted decision:
+
+- Report (25) did complete the intended Mode A task: it did not try to rescue
+  the old MaoField claim, and it selected option E.
+- The new line should be written as a finite weighted residual transport /
+  holonomy / operator no-go project.
+- The first formal note should fix admissible triples, weighted projections,
+  coarsening maps, edge defects, square holonomy, equivalence notions, and
+  invariants.
+- The theorem agenda includes rank-shadow, random-subspace, coarsening,
+  square-holonomy, commutator, gluing, and non-product-weight no-go targets.
+- The next synthetic harness target has seven blocks and remains zero-GPU.
+
+Boundary:
+
+- Strongest current local verdict: `formal_note_agenda_adopted`.
+- Strongest future harness verdict: `definitions_and_harness_viable_only`.
+- Strongest future empirical-design verdict: `eligible_for_next_design_review_only`.
+- No residual / interaction / quotient-residual / transport / holonomy field
+  has been observed.
 
 ### 4.9 D623 q4 Hypercube Extension Strict Math Audit
 

@@ -75,6 +75,39 @@ model separation, and gluing obstruction.
 If no, the no-go result shows that complex collapse narratives were scalar,
 coordinate, scale, or projection artifacts.
 
+## 2026-06-25 Strict-Audit Refinement
+
+Report (25) completed the first strict GPT-5.5 Pro audit of this debranded
+direction. Node36 adopted it as a Mode A refinement only:
+
+```text
+docs/infra/gpt_deep_research/deep_research_debranded_residual_transport_strict_audit_20260625.md
+docs/infra/gpt_deep_research/DEBRANDED_RESIDUAL_TRANSPORT_STRICT_AUDIT_ADOPTION_NOTE_20260625.md
+docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_FORMAL_NOTE_OUTLINE_20260625.md
+```
+
+Accepted local output:
+
+- the project should be an operator/no-go project, not a MaoField rescue;
+- the first formal note should fix admissible triples, projections,
+  coarsening maps, edge defects, square holonomy, equivalence notions, and
+  invariants;
+- the theorem agenda is rank-shadow vacuity, random-subspace
+  indistinguishability, coarsening/projection commutation, square holonomy
+  no-go, commutator leakage, gluing absorption, and non-product-weight
+  counterexample;
+- the next zero-GPU synthetic harness should expand to seven blocks:
+  non-product weighted projection, edge defect, square holonomy, rank-shadow,
+  random subspace, gluing absorption, and commutator obstruction.
+
+Strongest current local verdict:
+
+```text
+formal_note_agenda_adopted
+```
+
+This is not a MaoField empirical evidence upgrade.
+
 ## Product-Weight Boundary
 
 Node36 directly verified that the current q4 x tokenpos4 schema weights are not
