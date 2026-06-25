@@ -1,0 +1,285 @@
+{
+  "artifact_kind": "debranded_residual_transport_synthetic_harness_v1_1",
+  "created_utc": "2026-06-25T14:11:37+00:00",
+  "seed": 20260625,
+  "random_draws": 2000,
+  "environment": {
+    "python": "3.14.4",
+    "numpy": "2.4.6",
+    "platform": "Linux-7.0.0-15-generic-x86_64-with-glibc2.43"
+  },
+  "threshold_contract": {
+    "exact_product_weight_equality_control": {
+      "max_product_weight_error": 1e-12,
+      "max_residual_difference_norm": 1e-12
+    },
+    "product_reweighting_separation": {
+      "max_abs_diff_tolerance": 1e-09,
+      "raw_weight_norm_diff_tolerance": 1e-09
+    },
+    "outcome_derived_nuisance_invalidation": {
+      "min_source_fixed_residual_norm": 0.5,
+      "max_outcome_derived_residual_norm": 1e-12
+    },
+    "transport_stable_multidirectional_positive_control": {
+      "max_edge_relative_defect_norm": 1e-10,
+      "min_sigma2_over_sigma1": 0.25
+    },
+    "bad_edge_defect_control": {
+      "max_good_edge_relative_defect_norm": 1e-10,
+      "min_bad_edge_relative_defect_norm": 1e-06
+    },
+    "projection_evolution_commutator_obstruction": {
+      "max_good_commutator_fro_norm": 1e-12,
+      "min_bad_commutator_fro_norm": 0.1,
+      "min_bad_signal_leakage_norm": 0.1
+    },
+    "raw_path_equality_square_control": {
+      "max_raw_path_diff": 1e-12,
+      "max_square_holonomy_norm": 1e-10
+    },
+    "coarsening_non_naturality_trap": {
+      "max_raw_path_diff": 1e-12,
+      "min_bad_holonomy_norm": 1e-06
+    },
+    "rank1_plus_noise_floor_trap": {
+      "max_rank1_noise_sigma2_over_sigma1": 0.01,
+      "min_multidirectional_sigma2_over_sigma1": 0.25
+    },
+    "random_subspace_in_residual_space": {
+      "min_true_capture_minus_p99": 0.05,
+      "min_true_capture_quantile": 0.99
+    },
+    "equal_cell_count_random_axes": {
+      "min_named_capture_quantile": 0.99
+    },
+    "within_axis_shuffle_null_distribution": {
+      "min_named_capture_quantile": 0.99,
+      "max_bad_axis_capture_ratio": 0.25
+    },
+    "gluing_absorption": {
+      "max_absorbed_residual_norm": 1e-10,
+      "min_obstruction_residual_norm": 0.5
+    },
+    "triple_overlap_gluing_cocycle": {
+      "max_absorbed_cycle_residual_norm": 1e-10,
+      "min_obstruction_cycle_residual_norm": 0.5
+    }
+  },
+  "boundary": {
+    "synthetic_only": true,
+    "no_maofield_data_read": true,
+    "no_checkpoint_loaded": true,
+    "no_model_inference": true,
+    "no_training": true,
+    "no_new_loss": true,
+    "not_evidence_of_observed_field": true
+  },
+  "tests": [
+    {
+      "test_id": "exact_product_weight_equality_control",
+      "product_weight_max_abs_error": 0.0,
+      "residual_difference_norm_under_observed_weight": 0.0,
+      "pass": true,
+      "interpretation": "when weights are exactly product-form, observed and product-reference projections agree"
+    },
+    {
+      "test_id": "product_reweighting_separation",
+      "observed_residual": [
+        1.4754098360655723,
+        -0.7377049180327928,
+        -0.4918032786885247,
+        0.2950819672131102
+      ],
+      "product_reference_residual": [
+        1.3884297520661146,
+        -0.7933884297520688,
+        -0.5206611570247937,
+        0.2975206611570229
+      ],
+      "residual_difference": [
+        0.08698008399945767,
+        0.05568351171927599,
+        0.02885787833626896,
+        -0.0024386939439127175
+      ],
+      "max_abs_diff": 0.08698008399945767,
+      "observed_raw_weight_norm_diff": 0.12765151598906804,
+      "expected_max_abs_diff_from_formal_note_v1": 0.086980083999,
+      "expected_raw_weight_norm_diff_from_formal_note_v1": 0.127651515989,
+      "pass": true,
+      "interpretation": "product-reweighted Hoeffding lives in a different weighted Hilbert geometry"
+    },
+    {
+      "test_id": "outcome_derived_nuisance_invalidation",
+      "source_fixed_residual_norm": 1.0,
+      "outcome_derived_residual_norm": 0.0,
+      "verdict": "invalid_artifact",
+      "pass": true,
+      "interpretation": "choosing N=span(K) after seeing K kills the residual and invalidates the claim"
+    },
+    {
+      "test_id": "transport_stable_multidirectional_positive_control",
+      "max_edge_relative_defect_norm": 2.3397922610675218e-15,
+      "coarse_residual_singular_values": [
+        1.6600984522570255,
+        1.0768605686760861,
+        4.925440812216582e-16,
+        1.4570682787094726e-16
+      ],
+      "coarse_residual_sigma2_over_sigma1": 0.6486727140863334,
+      "floor": 0.25,
+      "pass": true,
+      "interpretation": "a source-fixed coarse-block toy field can survive natural coarsening with two residual directions"
+    },
+    {
+      "test_id": "bad_edge_defect_control",
+      "good_edge_relative_defect_norm": 1.6365343370376786e-15,
+      "bad_edge_relative_defect_norm": 0.4636219741234647,
+      "thresholds": {
+        "max_good_edge_relative_defect_norm": 1e-10,
+        "min_bad_edge_relative_defect_norm": 1e-06
+      },
+      "pass": true,
+      "interpretation": "a compatible edge closes, while a registered bad terminal nuisance leaks"
+    },
+    {
+      "test_id": "projection_evolution_commutator_obstruction",
+      "good_commutator_fro_norm": 0.0,
+      "bad_commutator_fro_norm": 0.6123724356957945,
+      "bad_signal_leakage_norm": 0.875,
+      "thresholds": {
+        "max_good_commutator_fro_norm": 1e-12,
+        "min_bad_commutator_fro_norm": 0.1,
+        "min_bad_signal_leakage_norm": 0.1
+      },
+      "pass": true,
+      "interpretation": "nonzero [P,T] is an operator leakage diagnostic, not a discovery by itself"
+    },
+    {
+      "test_id": "raw_path_equality_square_control",
+      "raw_path_max_abs_diff": 0.0,
+      "square_holonomy_norm": 1.9229626863835638e-16,
+      "pass": true,
+      "interpretation": "raw-equal compatible square paths close after registered projections"
+    },
+    {
+      "test_id": "coarsening_non_naturality_trap",
+      "raw_path_max_abs_diff": 0.0,
+      "path_dependent_bad_nuisance_holonomy_norm": 1.1944444444444446,
+      "verdict": "killed_by_coarsening",
+      "pass": true,
+      "interpretation": "nonzero holonomy caused by a path-dependent nuisance choice is a trap, not a discovery"
+    },
+    {
+      "test_id": "rank1_plus_noise_floor_trap",
+      "rank1_noise_singular_values": [
+        1.5315566160925924,
+        9.551832897016966e-05,
+        7.828336811331004e-05,
+        4.442435657803846e-05,
+        2.7650734726121466e-05
+      ],
+      "rank1_noise_sigma2_over_sigma1": 6.236682860204168e-05,
+      "multidirectional_singular_values": [
+        1.135085760598758,
+        0.3111429666818248,
+        1.4640272432485606e-16,
+        1.1474702558609822e-16
+      ],
+      "multidirectional_sigma2_over_sigma1": 0.27411406034879404,
+      "floor": 0.25,
+      "verdict": "killed_by_rank1_shadow",
+      "pass": true,
+      "interpretation": "small noise around one template remains a rank-shadow artifact"
+    },
+    {
+      "test_id": "random_subspace_in_residual_space",
+      "draws_requested": 2000,
+      "draws_used": 2000,
+      "discarded_random_draws": 0,
+      "residual_space_dimension": 9,
+      "random_k_plane_dimension": 2,
+      "analytic_capture_law_for_unit_vector": "Beta(k/2,(d-k)/2) for squared capture after whitening",
+      "analytic_beta_alpha": 1.0,
+      "analytic_beta_beta": 3.5,
+      "true_subspace_capture_ratio": 0.9822801235442707,
+      "random_capture_mean": 0.427724741720154,
+      "random_capture_p95": 0.7563176065932401,
+      "random_capture_p99": 0.859050072162475,
+      "true_capture_quantile": 1.0,
+      "thresholds": {
+        "min_true_capture_minus_p99": 0.05,
+        "min_true_capture_quantile": 0.99
+      },
+      "pass": true,
+      "interpretation": "heldout contains source-fixed structure plus an orthogonal perturbation; the null is inside N-perp"
+    },
+    {
+      "test_id": "equal_cell_count_random_axes",
+      "draws": 1997,
+      "named_axis_capture_ratio": 1.0000000000000002,
+      "random_equal_cell_axis_capture_mean": 0.23184890218131018,
+      "random_equal_cell_axis_capture_p95": 0.6324555320336758,
+      "random_equal_cell_axis_capture_p99": 0.7559289460184543,
+      "named_capture_quantile": 0.99949924887331,
+      "pass": true,
+      "interpretation": "a named toy axis must beat balanced random cell partitions"
+    },
+    {
+      "test_id": "within_axis_shuffle_null_distribution",
+      "draws_requested": 2000,
+      "draws_used": 1986,
+      "discarded_random_draws": 14,
+      "named_capture_ratio": 1.0000000000000004,
+      "within_axis_shuffle_capture_mean": 0.24976404712115904,
+      "within_axis_shuffle_capture_p95": 0.6324555320336759,
+      "within_axis_shuffle_capture_p99": 0.8017837257372731,
+      "named_capture_quantile": 1.0,
+      "bad_axis_label_capture_ratio": 8.326672684688674e-17,
+      "thresholds": {
+        "min_named_capture_quantile": 0.99,
+        "max_bad_axis_capture_ratio": 0.25
+      },
+      "pass": true,
+      "interpretation": "within-axis shuffles are treated as a null distribution, not a single lucky draw"
+    },
+    {
+      "test_id": "gluing_absorption",
+      "absorbed_mismatch_residual_norm": 4.440892098500626e-16,
+      "obstruction_mismatch_residual_norm": 1.0,
+      "verdict": "killed_by_gluing_absorption",
+      "pass": true,
+      "interpretation": "overlap mismatch inside nuisance is absorbed; checkerboard mismatch survives"
+    },
+    {
+      "test_id": "triple_overlap_gluing_cocycle",
+      "absorbed_pairwise_residual_max": 3.188872858294072e-16,
+      "obstruction_pairwise_residual_min": 0.4,
+      "absorbed_cycle_residual_norm": 0.0,
+      "obstruction_cycle_residual_norm": 2.1,
+      "thresholds": {
+        "max_absorbed_cycle_residual_norm": 1e-10,
+        "min_obstruction_cycle_residual_norm": 0.5
+      },
+      "pass": true,
+      "interpretation": "a finite three-overlap cocycle can survive nuisance removal; pairwise absorption alone is not a sheaf theorem"
+    }
+  ],
+  "all_synthetic_controls_pass": true,
+  "strongest_allowed_verdict": "definitions_and_harness_viable_only",
+  "blocked_claims": [
+    "full_panel_has_run",
+    "sixteen_cell_full_panel_aggregate_exists",
+    "residual_field_observed",
+    "interaction_field_observed",
+    "quotient_residual_field_observed",
+    "transport_field_observed",
+    "holonomy_field_observed",
+    "glass_box_broken",
+    "LOSO_passed",
+    "F3_positive",
+    "training_authorized",
+    "new_loss_authorized"
+  ]
+}

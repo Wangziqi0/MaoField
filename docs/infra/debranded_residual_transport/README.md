@@ -34,6 +34,19 @@ It is intentionally separated from the MaoField empirical line:
   strict Pro audit of v1: quotient descent, projection-evolution commutator,
   holonomy decomposition, analytic/random nulls, rank perturbation, and
   triple-overlap gluing.
+- `FORMAL_NOTE_V1_1_20260625.md` — proof-style v1.1 patch note: quotient
+  descent, `[P,T]` commutator criterion, square-holonomy decomposition,
+  transported-invariant ambient-space requirement, random-subspace analytic
+  null, rank perturbation, finite gluing complex, and product-weight
+  equivalence boundary.
+- `SYNTHETIC_HARNESS_V1_1_20260625.md` — v1.1 zero-GPU synthetic harness
+  summary: bad-edge defect, projection-evolution commutator, harder
+  random-subspace heldout, shuffle null distribution, triple-overlap gluing,
+  threshold contract, and environment metadata.
+- `synthetic_harness_v1_1_20260625.json` — v1.1 harness JSON output.
+- `../rag_rebuild_20260622/NODE22_VECTOR_REFRESH_V11PATCH_20260625.md` —
+  default RAG refresh record proving the v1.1 patch materials are discoverable
+  through the node36 RAG locator.
 
 ## Current Verdict
 
@@ -49,6 +62,7 @@ residual, interaction, transport, or holonomy field.
 
 ## Current Next Step
 
-Patch toward Formal Note v1.1 under the same zero-GPU/synthetic boundary. The
-strict audit says v1 is a serious draft, not a completed formal system. Do not
-turn the v1 note or synthetic harness into an empirical claim.
+Use v1.1 as the next strict audit target. It patches the v1 gaps identified by
+report (26), and the default RAG now indexes the v1.1 patch materials, but this
+remains zero-GPU synthetic/formal work. Do not turn the v1.1 note or synthetic
+harness into an empirical claim.

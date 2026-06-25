@@ -249,6 +249,54 @@ harness contract.
 This still does not authorize full-panel work, checkpoint loading, inference,
 training, new loss, or observed-field language.
 
+## 2026-06-25 Formal v1.1 Patch And Harness
+
+Node36 implemented the v1.1 formal patch and separate zero-GPU harness:
+
+```text
+docs/infra/debranded_residual_transport/FORMAL_NOTE_V1_1_20260625.md
+scripts/debranded_residual_transport_harness_v1_1.py
+docs/infra/debranded_residual_transport/SYNTHETIC_HARNESS_V1_1_20260625.md
+docs/infra/debranded_residual_transport/synthetic_harness_v1_1_20260625.json
+```
+
+The run was executed under node36 SSD scratch:
+
+```text
+/home/amd/codex-node36/tmp/debranded-residual-transport-20260625_v1_1/
+```
+
+All 14 v1.1 synthetic controls passed. v1.1 adds explicit bad-edge,
+projection-evolution commutator, tougher random-subspace, shuffle-null,
+triple-overlap gluing, threshold-contract, and environment-metadata checks.
+
+Key hashes:
+
+```text
+script  272e29b8edcee6c72f1067c9359d4eb62135f2a6f10db24e86e3a225905c3c22
+note    b21eee8ffc51243b32f687efe4694411ad4907cc181caca926f82418385a4d03
+summary 9b33bb46224c2d66354a45b343e98ec12bf0f80e1dd206501877f28abb99ac50
+json    5c75a5070f147e20eb49a5d76d1bd65f8c17e35bda889b022f4c8a392fea5801
+```
+
+Default RAG has also been refreshed with a node22 one-shot bge-m3 worker:
+
+```text
+docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_V11PATCH_20260625.md
+runtime index: 387 active canonical md / 9614 chunks
+kb.faiss=a7bcd313...
+kb_meta=9ccf1498...
+```
+
+Strongest current local verdict remains:
+
+```text
+definitions_and_harness_viable_only
+```
+
+This still does not authorize full-panel work, checkpoint loading, inference,
+training, new loss, or observed-field language.
+
 ## Product-Weight Boundary
 
 Node36 directly verified that the current q4 x tokenpos4 schema weights are not

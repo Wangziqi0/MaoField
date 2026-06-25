@@ -71,6 +71,8 @@ the canonical RAG index.
 - `canonical_scope_active_20260625_2151_report26.txt` — global active
   canonical scope used for the D625 report(26) strict-audit / v1.1 workplan
   node22-vector refresh.
+- `canonical_scope_active_20260625_2218_v11patch.txt` — global active
+  canonical scope used for the D625 Formal v1.1 patch node22-vector refresh.
 - `NODE22_VECTOR_REBUILD_20260622.md` — rebuild record, index hashes, backup
   paths, and verification boundary for the temporary node22 GPU vector worker.
 - `NODE22_VECTOR_REFRESH_REPORT7_20260623.md` — D623 refresh record proving
@@ -138,6 +140,9 @@ the canonical RAG index.
 - `NODE22_VECTOR_REFRESH_REPORT26_20260625.md` — D625 refresh record proving
   report(26), its adoption note, and the v1.1 workplan are discoverable through
   default RAG.
+- `NODE22_VECTOR_REFRESH_V11PATCH_20260625.md` — D625 refresh record proving
+  the Formal v1.1 note, v1.1 synthetic harness, and updated navigation records
+  are discoverable through default RAG.
 - `rag_build_node22_20260624_1530_proprompt.log` — D624 final node22 build log
   after `GPT55_PRO_MODE_A_MATH_DISCOVERY_PROMPT_20260623.md` was updated to
   include report(21), report(22), public-404 guardrails, smoke-not-evidence
@@ -166,6 +171,9 @@ the canonical RAG index.
   after adding the Formal v1 harness, prompt, and node142 package record.
 - `rag_build_node22_20260625_2151_report26.log` — D625 node22 build log after
   adding report(26), the adoption note, the v1.1 workplan, and updated
+  navigation/status files.
+- `rag_build_node22_20260625_2218_v11patch.log` — D625 node22 build log after
+  adding the Formal v1.1 patch note, harness script, summary, JSON, and updated
   navigation/status files.
 
 ## Policy
@@ -304,10 +312,18 @@ the service was stopped after build.
 D625 report(26) / v1.1 workplan: default `/media/amd/raid1/rag/index` was
 refreshed after adding the Formal v1 strict audit, adoption note, v1.1
 workplan, and updated navigation/status files. See
-`NODE22_VECTOR_REFRESH_REPORT26_20260625.md`. Current runtime index: 384 active
-canonical markdown files / 9574 chunks; `kb.faiss=2fd6f4e...`,
+`NODE22_VECTOR_REFRESH_REPORT26_20260625.md`. Runtime index at that point: 384
+active canonical markdown files / 9574 chunks; `kb.faiss=2fd6f4e...`,
 `kb_meta=72b357...`. Node22 was used only as a temporary bge-m3 worker and the
 service was stopped after build.
+
+D625 Formal v1.1 patch: default `/media/amd/raid1/rag/index` was refreshed
+after adding the Formal v1.1 patch note, v1.1 harness script, summary, JSON,
+and updated navigation/status files. See
+`NODE22_VECTOR_REFRESH_V11PATCH_20260625.md`. Current runtime index: 387 active
+canonical markdown files / 9614 chunks; `kb.faiss=a7bcd313...`,
+`kb_meta=9ccf1498...`. Node22 was used only as a temporary bge-m3 worker and
+the service was stopped after build.
 
 Rebuild entry point:
 

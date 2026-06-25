@@ -20,6 +20,8 @@ project:
 - [`infra/debranded_residual_transport/FORMAL_NOTE_V1_20260625.md`](infra/debranded_residual_transport/FORMAL_NOTE_V1_20260625.md)
 - [`infra/debranded_residual_transport/SYNTHETIC_HARNESS_V1_20260625.md`](infra/debranded_residual_transport/SYNTHETIC_HARNESS_V1_20260625.md)
 - [`infra/debranded_residual_transport/FORMAL_NOTE_V1_1_WORKPLAN_20260625.md`](infra/debranded_residual_transport/FORMAL_NOTE_V1_1_WORKPLAN_20260625.md)
+- [`infra/debranded_residual_transport/FORMAL_NOTE_V1_1_20260625.md`](infra/debranded_residual_transport/FORMAL_NOTE_V1_1_20260625.md)
+- [`infra/debranded_residual_transport/SYNTHETIC_HARNESS_V1_1_20260625.md`](infra/debranded_residual_transport/SYNTHETIC_HARNESS_V1_1_20260625.md)
 - [`infra/gpt_deep_research/GPT55_PRO_DEBRANDED_RESIDUAL_TRANSPORT_HIGHEST_PROMPT_20260624.md`](infra/gpt_deep_research/GPT55_PRO_DEBRANDED_RESIDUAL_TRANSPORT_HIGHEST_PROMPT_20260624.md)
 - [`infra/gpt_deep_research/GPT55_PRO_FOUNDATIONAL_RESIDUAL_TRANSPORT_PROMPT_20260625.md`](infra/gpt_deep_research/GPT55_PRO_FOUNDATIONAL_RESIDUAL_TRANSPORT_PROMPT_20260625.md)
 - [`infra/gpt_deep_research/GPT55_PRO_FOUNDATIONAL_RESIDUAL_TRANSPORT_V1_PROMPT_20260625.md`](infra/gpt_deep_research/GPT55_PRO_FOUNDATIONAL_RESIDUAL_TRANSPORT_V1_PROMPT_20260625.md)
@@ -30,6 +32,7 @@ project:
 - [`infra/DEBRANDED_RESIDUAL_TRANSPORT_142_PACKAGE_FORMALV1_20260625.md`](infra/DEBRANDED_RESIDUAL_TRANSPORT_142_PACKAGE_FORMALV1_20260625.md)
 - [`infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_FORMALV1_PACKAGE_20260625.md`](infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_FORMALV1_PACKAGE_20260625.md)
 - [`infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_REPORT26_20260625.md`](infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_REPORT26_20260625.md)
+- [`infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_V11PATCH_20260625.md`](infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_V11PATCH_20260625.md)
 
 ## Contents (planned for v0.1.0)
 

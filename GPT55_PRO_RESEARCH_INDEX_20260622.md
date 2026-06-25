@@ -247,9 +247,23 @@
 > dedicated projection-evolution commutator theorem, and the v1 harness lacks a
 > standalone `commutator_obstruction` / bad-edge-defect block. This is not a
 > MaoField evidence upgrade.
-> D625 report(26) / v1.1 RAG refresh complete: default index now contains
-> 384 active canonical markdown files / 9574 chunks; `kb.faiss=2fd6f4e...`,
-> `kb_meta=72b357...`. Node22 temporary bge-m3 service was stopped.
+> D625 report(26) / v1.1-workplan RAG refresh complete: default index then
+> contained 384 active canonical markdown files / 9574 chunks; this was
+> superseded by the Formal v1.1 patch refresh below.
+> D625 Formal v1.1 patch update: added
+> `docs/infra/debranded_residual_transport/FORMAL_NOTE_V1_1_20260625.md`,
+> `scripts/debranded_residual_transport_harness_v1_1.py`,
+> `docs/infra/debranded_residual_transport/SYNTHETIC_HARNESS_V1_1_20260625.md`,
+> and `docs/infra/debranded_residual_transport/synthetic_harness_v1_1_20260625.json`.
+> The v1.1 harness passed 14 zero-GPU synthetic controls under node36 SSD
+> scratch and records threshold/environment metadata. Strongest verdict remains
+> `definitions_and_harness_viable_only`; this is not a MaoField evidence
+> upgrade.
+> D625 Formal v1.1 patch RAG refresh complete: default index now contains
+> 387 active canonical markdown files / 9614 chunks; `kb.faiss=a7bcd313...`,
+> `kb_meta=9ccf1498...`. Record:
+> `docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_V11PATCH_20260625.md`.
+> Node22 temporary bge-m3 service was stopped.
 
 ## 0. Scope And Evidence Boundary
 
@@ -404,6 +418,13 @@ Use this order for a cold start:
    - Current allowed interpretation: v1 is a serious draft that needs v1.1
      formal/harness revision; strongest local evidence verdict remains
      `definitions_and_harness_viable_only`.
+28. D625 Formal v1.1 patch and harness:
+   - [FORMAL_NOTE_V1_1_20260625.md](docs/infra/debranded_residual_transport/FORMAL_NOTE_V1_1_20260625.md)
+   - [SYNTHETIC_HARNESS_V1_1_20260625.md](docs/infra/debranded_residual_transport/SYNTHETIC_HARNESS_V1_1_20260625.md)
+   - [synthetic_harness_v1_1_20260625.json](docs/infra/debranded_residual_transport/synthetic_harness_v1_1_20260625.json)
+   - [debranded_residual_transport_harness_v1_1.py](scripts/debranded_residual_transport_harness_v1_1.py)
+   - Current allowed interpretation: v1.1 patches the report(26) formal and
+     harness gaps on toy finite systems only; no Mode B evidence upgrade.
 
 ## 2. Current Scientific Position
 
@@ -1195,6 +1216,52 @@ keep_math_project_revise_v1_kill_empirical_positive_story
 The strict audit is a Mode A claim-source/adoption item only. It does not
 authorize full-panel work, checkpoint loading, inference, training, new loss,
 or observed-field language.
+
+### 4.26 D625 Formal v1.1 Patch And Harness
+
+Formal note:
+[FORMAL_NOTE_V1_1_20260625.md](docs/infra/debranded_residual_transport/FORMAL_NOTE_V1_1_20260625.md)
+
+Synthetic harness summary:
+[SYNTHETIC_HARNESS_V1_1_20260625.md](docs/infra/debranded_residual_transport/SYNTHETIC_HARNESS_V1_1_20260625.md)
+
+Harness JSON:
+[synthetic_harness_v1_1_20260625.json](docs/infra/debranded_residual_transport/synthetic_harness_v1_1_20260625.json)
+
+Harness source:
+[debranded_residual_transport_harness_v1_1.py](scripts/debranded_residual_transport_harness_v1_1.py)
+
+RAG refresh record:
+[NODE22_VECTOR_REFRESH_V11PATCH_20260625.md](docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_V11PATCH_20260625.md)
+
+v1.1 formal additions:
+
+- quotient descent criterion;
+- projection-evolution commutator theorem `PT=TP`;
+- square-holonomy decomposition;
+- common ambient-space requirement for transported invariants;
+- random-subspace analytic null;
+- rank-1 perturbation bound;
+- finite triple-overlap gluing/cocycle screen;
+- product-weight equivalence boundary.
+
+v1.1 harness additions:
+
+- bad-edge defect control;
+- projection-evolution commutator obstruction;
+- tougher random-subspace heldout;
+- within-axis shuffle null distribution;
+- triple-overlap gluing/cocycle;
+- threshold contract and environment metadata in JSON.
+
+Allowed interpretation:
+
+```text
+definitions_and_harness_viable_only
+```
+
+This is a Mode A formal patch only. It does not authorize full-panel work,
+checkpoint loading, inference, training, new loss, or observed-field language.
 
 ### 4.9 D623 q4 Hypercube Extension Strict Math Audit
 
