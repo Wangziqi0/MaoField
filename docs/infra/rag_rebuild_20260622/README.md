@@ -55,6 +55,9 @@ the canonical RAG index.
   node22-vector refresh.
 - `canonical_scope_active_20260625_1132_formalstart.txt` — global active
   canonical scope used for the D625 formal-start node22-vector refresh.
+- `canonical_scope_active_20260625_1212_formalpro.txt` — global active
+  canonical scope used for the D625 formal-start Pro package node22-vector
+  refresh.
 - `NODE22_VECTOR_REBUILD_20260622.md` — rebuild record, index hashes, backup
   paths, and verification boundary for the temporary node22 GPU vector worker.
 - `NODE22_VECTOR_REFRESH_REPORT7_20260623.md` — D623 refresh record proving
@@ -107,6 +110,9 @@ the canonical RAG index.
 - `NODE22_VECTOR_REFRESH_FORMALSTART_20260625.md` — D625 refresh record
   proving the formal-start directory, formal note v0, and seven-block harness
   summary are discoverable through default RAG.
+- `NODE22_VECTOR_REFRESH_FORMALPRO_20260625.md` — D625 refresh record proving
+  the formal-start GPT-5.5 Pro prompt and 142 package record are discoverable
+  through default RAG.
 - `rag_build_node22_20260624_1530_proprompt.log` — D624 final node22 build log
   after `GPT55_PRO_MODE_A_MATH_DISCOVERY_PROMPT_20260623.md` was updated to
   include report(21), report(22), public-404 guardrails, smoke-not-evidence
@@ -123,6 +129,8 @@ the canonical RAG index.
   archiving report(25), its adoption note, and the first formal-note outline.
 - `rag_build_node22_20260625_1132_formalstart.log` — D625 node22 build log
   after adding the formal-start debranded residual transport directory.
+- `rag_build_node22_20260625_1212_formalpro.log` — D625 node22 build log after
+  adding the formal-start Pro prompt and 142 package record.
 
 ## Policy
 
@@ -226,6 +234,13 @@ adding `docs/infra/debranded_residual_transport/` and
 366 active canonical markdown files / 9330 chunks; `kb.faiss=302dee6b...`,
 `kb_meta=9abd07a7...`. Node22 was used only as a temporary bge-m3 worker and
 the service was stopped after build.
+
+D625 formal-start Pro package: default `/media/amd/raid1/rag/index` was
+refreshed after adding the formal-start GPT-5.5 Pro prompt, package README, and
+node142 package record. See `NODE22_VECTOR_REFRESH_FORMALPRO_20260625.md`.
+Runtime index: 370 active canonical markdown files / 9362 chunks;
+`kb.faiss=aa97f87a...`, `kb_meta=7f237c05...`. Node22 was used only as a
+temporary bge-m3 worker and the service was stopped after build.
 
 Rebuild entry point:
 

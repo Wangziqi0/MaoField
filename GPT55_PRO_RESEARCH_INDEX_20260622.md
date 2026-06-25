@@ -191,6 +191,21 @@
 > D625 formal-start RAG refresh complete: default index now contains
 > 366 active canonical markdown files / 9330 chunks; `kb.faiss=302dee6b...`,
 > `kb_meta=9abd07a7...`. Node22 temporary bge-m3 service was stopped.
+> D625 formal-start Pro package update: new zero-context prompt
+> `docs/infra/gpt_deep_research/GPT55_PRO_FOUNDATIONAL_RESIDUAL_TRANSPORT_PROMPT_20260625.md`
+> and package record
+> `docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_142_PACKAGE_FORMALSTART_20260625.md`
+> were added. The 142 desktop zip
+> `MaoField_PRO_FoundationalResidualTransport_20260625_1206.zip` was verified
+> with sha256 `b5d4b99fde418514e176ef892d4120b134a02c158681a845b2bce8257f46e111`;
+> standalone prompt sha256
+> `eed57e80799a67e5e19e1ee9d8ae1858f652602bb1b3e7b0782f41d2efa02a43`.
+> This package is for Formal Note v1 theorem/no-go work only, not a MaoField
+> empirical upgrade.
+> D625 formal-start Pro package RAG refresh complete: default index now
+> contains 370 active canonical markdown files / 9362 chunks;
+> `kb.faiss=aa97f87a...`, `kb_meta=7f237c05...`. Node22 temporary bge-m3
+> service was stopped.
 
 ## 0. Scope And Evidence Boundary
 
@@ -310,6 +325,17 @@ Use this order for a cold start:
    - [GPT55_PRO_DEBRANDED_RESIDUAL_TRANSPORT_HIGHEST_PROMPT_20260624.md](docs/infra/gpt_deep_research/GPT55_PRO_DEBRANDED_RESIDUAL_TRANSPORT_HIGHEST_PROMPT_20260624.md)
    - Current allowed interpretation: formal Mode A project kickoff; MaoField
      Mode B remains `insufficient_artifact` / `smoke_conjecture_only`.
+24. D625 formal start and Formal Note v1 Pro package:
+   - [debranded_residual_transport/README.md](docs/infra/debranded_residual_transport/README.md)
+   - [FORMAL_NOTE_V0_20260625.md](docs/infra/debranded_residual_transport/FORMAL_NOTE_V0_20260625.md)
+   - [SYNTHETIC_HARNESS_V0_20260625.md](docs/infra/debranded_residual_transport/SYNTHETIC_HARNESS_V0_20260625.md)
+   - [synthetic_harness_v0_20260625.json](docs/infra/debranded_residual_transport/synthetic_harness_v0_20260625.json)
+   - [debranded_residual_transport_harness.py](scripts/debranded_residual_transport_harness.py)
+   - [GPT55_PRO_FOUNDATIONAL_RESIDUAL_TRANSPORT_PROMPT_20260625.md](docs/infra/gpt_deep_research/GPT55_PRO_FOUNDATIONAL_RESIDUAL_TRANSPORT_PROMPT_20260625.md)
+   - [DEBRANDED_RESIDUAL_TRANSPORT_142_PACKAGE_FORMALSTART_20260625.md](docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_142_PACKAGE_FORMALSTART_20260625.md)
+   - Current allowed interpretation: definitions and toy harness viability
+     only; strongest verdict `definitions_and_harness_viable_only`; no
+     observed residual/interaction/quotient/transport/holonomy field claim.
 
 ## 2. Current Scientific Position
 
