@@ -222,6 +222,20 @@
 > D625 Formal Note v1 draft RAG refresh complete: default index now contains
 > 376 active canonical markdown files / 9464 chunks; `kb.faiss=dd835027...`,
 > `kb_meta=6d7bc59b...`. Node22 temporary bge-m3 service was stopped.
+> D625 Formal v1 harness/package update: added
+> `scripts/debranded_residual_transport_harness_v1.py`,
+> `docs/infra/debranded_residual_transport/SYNTHETIC_HARNESS_V1_20260625.md`,
+> `docs/infra/debranded_residual_transport/synthetic_harness_v1_20260625.json`,
+> `docs/infra/gpt_deep_research/GPT55_PRO_FOUNDATIONAL_RESIDUAL_TRANSPORT_V1_PROMPT_20260625.md`,
+> and `docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_142_PACKAGE_FORMALV1_20260625.md`.
+> All 11 v1 synthetic controls passed under node36 SSD scratch. The 142 desktop
+> package `MaoField_PRO_FoundationalResidualTransport_FormalV1_20260625_1759.zip`
+> and standalone v1 prompt were copied and hash-verified. Strongest verdict
+> remains `definitions_and_harness_viable_only`; this is not a MaoField
+> empirical upgrade.
+> D625 Formal v1 package RAG refresh complete: default index now contains
+> 380 active canonical markdown files / 9501 chunks; `kb.faiss=bad6c713...`,
+> `kb_meta=e2a941b...`. Node22 temporary bge-m3 service was stopped.
 
 ## 0. Scope And Evidence Boundary
 
@@ -360,6 +374,15 @@ Use this order for a cold start:
    - Current allowed interpretation: Mode A theorem/no-go workplan only;
      accepted verdict `keep_the_math_project_kill_the_empirical_positive_story`;
      strongest local evidence verdict remains `definitions_and_harness_viable_only`.
+26. D625 Formal v1 harness and Pro package:
+   - [SYNTHETIC_HARNESS_V1_20260625.md](docs/infra/debranded_residual_transport/SYNTHETIC_HARNESS_V1_20260625.md)
+   - [synthetic_harness_v1_20260625.json](docs/infra/debranded_residual_transport/synthetic_harness_v1_20260625.json)
+   - [debranded_residual_transport_harness_v1.py](scripts/debranded_residual_transport_harness_v1.py)
+   - [GPT55_PRO_FOUNDATIONAL_RESIDUAL_TRANSPORT_V1_PROMPT_20260625.md](docs/infra/gpt_deep_research/GPT55_PRO_FOUNDATIONAL_RESIDUAL_TRANSPORT_V1_PROMPT_20260625.md)
+   - [DEBRANDED_RESIDUAL_TRANSPORT_142_PACKAGE_FORMALV1_20260625.md](docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_142_PACKAGE_FORMALV1_20260625.md)
+   - Current allowed interpretation: Formal v1 synthetic controls and strict
+     Pro audit package only; no full panel, checkpoint loading, inference,
+     training, new loss, or observed-field claim.
 
 ## 2. Current Scientific Position
 
@@ -1079,6 +1102,47 @@ Boundary:
 - Strongest local evidence verdict remains `definitions_and_harness_viable_only`.
 - No residual / interaction / quotient-residual / transport / holonomy field
   has been observed.
+
+### 4.24 D625 Formal v1 Harness And Pro Package
+
+Synthetic harness v1:
+[SYNTHETIC_HARNESS_V1_20260625.md](docs/infra/debranded_residual_transport/SYNTHETIC_HARNESS_V1_20260625.md)
+
+Harness JSON:
+[synthetic_harness_v1_20260625.json](docs/infra/debranded_residual_transport/synthetic_harness_v1_20260625.json)
+
+Harness source:
+[debranded_residual_transport_harness_v1.py](scripts/debranded_residual_transport_harness_v1.py)
+
+Zero-context Pro prompt:
+[GPT55_PRO_FOUNDATIONAL_RESIDUAL_TRANSPORT_V1_PROMPT_20260625.md](docs/infra/gpt_deep_research/GPT55_PRO_FOUNDATIONAL_RESIDUAL_TRANSPORT_V1_PROMPT_20260625.md)
+
+142 package record:
+[DEBRANDED_RESIDUAL_TRANSPORT_142_PACKAGE_FORMALV1_20260625.md](docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_142_PACKAGE_FORMALV1_20260625.md)
+
+What v1 adds:
+
+- exact product-weight equality control;
+- product-reweighting separation against the Formal Note v1 2x2
+  non-product-weight counterexample;
+- outcome-derived nuisance invalidation;
+- transport-stable multidirectional positive control;
+- raw-path-equality square control;
+- coarsening non-naturality trap;
+- rank-1 plus noise-floor trap;
+- random subspace sampled in `N^perp`;
+- equal-cell-count random axes;
+- within-axis shuffle and bad-axis label controls;
+- gluing absorption.
+
+Allowed interpretation:
+
+```text
+definitions_and_harness_viable_only
+```
+
+The v1 harness and package support strict mathematical audit and v1.1 theorem /
+no-go planning only. They do not create MaoField empirical evidence.
 
 ### 4.9 D623 q4 Hypercube Extension Strict Math Audit
 

@@ -25,6 +25,11 @@ It is intentionally separated from the MaoField empirical line:
 - `FORMAL_NOTE_V1_20260625.md` — proof-style v1 note: finite weighted Hilbert
   systems, source-fixed nuisance, edge/path no-go lemmas, random/rank/gluing
   guards, and a non-product-weight counterexample.
+- `SYNTHETIC_HARNESS_V1_20260625.md` — v1 zero-GPU synthetic harness summary:
+  product-weight equality, product-reweighting separation, outcome-derived
+  nuisance invalidation, transport-stable multidirectional control, square
+  no-go controls, rank/random-axis controls, and gluing absorption.
+- `synthetic_harness_v1_20260625.json` — v1 harness JSON output.
 
 ## Current Verdict
 
@@ -40,5 +45,5 @@ residual, interaction, transport, or holonomy field.
 
 ## Current Next Step
 
-Review Formal Note v1 and design the v1 synthetic harness additions. Do not
-turn the v1 note into an empirical claim.
+Use the Formal v1 package for strict GPT-5.5 Pro audit of the v1 note and
+harness. Do not turn the v1 note or synthetic harness into an empirical claim.

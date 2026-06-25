@@ -169,6 +169,55 @@ non-product-weight counterexample.
 This still does not authorize full-panel work, checkpoint loading, inference,
 training, new loss, or observed-field language.
 
+## 2026-06-25 Formal v1 Synthetic Harness And Package
+
+Node36 added a separate v1 synthetic harness script instead of mutating the v0
+result:
+
+```text
+scripts/debranded_residual_transport_harness_v1.py
+docs/infra/debranded_residual_transport/SYNTHETIC_HARNESS_V1_20260625.md
+docs/infra/debranded_residual_transport/synthetic_harness_v1_20260625.json
+```
+
+The run was executed under node36 SSD scratch:
+
+```text
+/home/amd/codex-node36/tmp/debranded-residual-transport-20260625_v1/
+```
+
+All v1 synthetic controls passed:
+
+```text
+exact_product_weight_equality_control
+product_reweighting_separation
+outcome_derived_nuisance_invalidation
+transport_stable_multidirectional_positive_control
+raw_path_equality_square_control
+coarsening_non_naturality_trap
+rank1_plus_noise_floor_trap
+random_subspace_in_residual_space
+equal_cell_count_random_axes
+within_axis_shuffle_and_bad_axis_controls
+gluing_absorption
+```
+
+The v1 harness only supports the local formal verdict:
+
+```text
+definitions_and_harness_viable_only
+```
+
+The Formal v1 Pro package was copied to node142 desktop and hash-verified:
+
+```text
+docs/infra/gpt_deep_research/GPT55_PRO_FOUNDATIONAL_RESIDUAL_TRANSPORT_V1_PROMPT_20260625.md
+docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_142_PACKAGE_FORMALV1_20260625.md
+```
+
+This still does not authorize full-panel work, checkpoint loading, inference,
+training, new loss, or observed-field language.
+
 ## Product-Weight Boundary
 
 Node36 directly verified that the current q4 x tokenpos4 schema weights are not
