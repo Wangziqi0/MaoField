@@ -211,12 +211,17 @@
 > and adopted it through
 > `docs/infra/gpt_deep_research/FOUNDATIONAL_RESIDUAL_TRANSPORT_V1_ADOPTION_NOTE_20260625.md`.
 > Local deliverable:
-> `docs/infra/debranded_residual_transport/FORMAL_NOTE_V1_WORKPLAN_20260625.md`.
+> `docs/infra/debranded_residual_transport/FORMAL_NOTE_V1_WORKPLAN_20260625.md`
+> and drafted note
+> `docs/infra/debranded_residual_transport/FORMAL_NOTE_V1_20260625.md`.
 > Accepted verdict: keep the mathematical project, kill the empirical positive
 > story. This is not a MaoField evidence upgrade.
 > D625 Formal Note v1 audit RAG refresh complete: default index now contains
 > 374 active canonical markdown files / 9438 chunks; `kb.faiss=a5a3e616...`,
 > `kb_meta=fc5af9e1...`. Node22 temporary bge-m3 service was stopped.
+> D625 Formal Note v1 draft RAG refresh complete: default index now contains
+> 376 active canonical markdown files / 9464 chunks; `kb.faiss=dd835027...`,
+> `kb_meta=6d7bc59b...`. Node22 temporary bge-m3 service was stopped.
 
 ## 0. Scope And Evidence Boundary
 
@@ -351,6 +356,7 @@ Use this order for a cold start:
    - [deep_research_foundational_residual_transport_v1_20260625.md](docs/infra/gpt_deep_research/deep_research_foundational_residual_transport_v1_20260625.md)
    - [FOUNDATIONAL_RESIDUAL_TRANSPORT_V1_ADOPTION_NOTE_20260625.md](docs/infra/gpt_deep_research/FOUNDATIONAL_RESIDUAL_TRANSPORT_V1_ADOPTION_NOTE_20260625.md)
    - [FORMAL_NOTE_V1_WORKPLAN_20260625.md](docs/infra/debranded_residual_transport/FORMAL_NOTE_V1_WORKPLAN_20260625.md)
+   - [FORMAL_NOTE_V1_20260625.md](docs/infra/debranded_residual_transport/FORMAL_NOTE_V1_20260625.md)
    - Current allowed interpretation: Mode A theorem/no-go workplan only;
      accepted verdict `keep_the_math_project_kill_the_empirical_positive_story`;
      strongest local evidence verdict remains `definitions_and_harness_viable_only`.
@@ -1042,6 +1048,9 @@ Primary local interpretation:
 Formal Note v1 workplan:
 [FORMAL_NOTE_V1_WORKPLAN_20260625.md](docs/infra/debranded_residual_transport/FORMAL_NOTE_V1_WORKPLAN_20260625.md)
 
+Formal Note v1 drafted note:
+[FORMAL_NOTE_V1_20260625.md](docs/infra/debranded_residual_transport/FORMAL_NOTE_V1_20260625.md)
+
 Adopted decision:
 
 - The report's main verdict is accepted: keep the mathematics project, kill the
@@ -1053,6 +1062,10 @@ Adopted decision:
   vacuity, random-subspace guard, gluing absorption no-go, non-product-weight
   counterexample, commutator leakage, multiscale non-naturality, and
   product-reweighting separation.
+- The drafted v1 note formalizes these targets as finite real weighted Hilbert
+  systems, exact projection / quotient lemmas, source-fixed nuisance, edge and
+  path no-go lemmas, rank/random/gluing guards, and an explicit non-product
+  weight counterexample.
 - Harness v1 should add product-weight equality, transport-stable
   multidirectional, raw-path-equality, outcome-derived nuisance, random-axis,
   shuffle, bad-axis, rank-plus-noise, product-reweighting, and coarsening

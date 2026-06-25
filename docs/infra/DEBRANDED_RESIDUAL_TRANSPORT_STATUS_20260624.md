@@ -140,15 +140,16 @@ definitions_and_harness_viable_only
 
 This still is not a MaoField empirical evidence upgrade.
 
-## 2026-06-25 Formal Note v1 Workplan
+## 2026-06-25 Formal Note v1 Workplan And Draft
 
 The next GPT-5.5 Pro pass on the formal-start package is archived and adopted
-as a Mode A v1 workplan source:
+as a Mode A v1 workplan source. Node36 then drafted the proof-style v1 note:
 
 ```text
 docs/infra/gpt_deep_research/deep_research_foundational_residual_transport_v1_20260625.md
 docs/infra/gpt_deep_research/FOUNDATIONAL_RESIDUAL_TRANSPORT_V1_ADOPTION_NOTE_20260625.md
 docs/infra/debranded_residual_transport/FORMAL_NOTE_V1_WORKPLAN_20260625.md
+docs/infra/debranded_residual_transport/FORMAL_NOTE_V1_20260625.md
 ```
 
 Accepted local verdict:
@@ -160,7 +161,10 @@ keep_the_math_project_kill_the_empirical_positive_story
 The v1 workplan should promote projection, quotient-representative, edge
 commutation, square holonomy, rank-shadow, random-subspace, gluing absorption,
 non-product-weight, commutator leakage, and product-reweighting separation
-items into precise lemmas, counterexamples, and kill gates.
+items into precise lemmas, counterexamples, and kill gates. The drafted v1 note
+adds finite real Hilbert-space conventions, source-fixed nuisance admissibility,
+edge/path no-go lemmas, random/rank/gluing guards, and an explicit 2x2
+non-product-weight counterexample.
 
 This still does not authorize full-panel work, checkpoint loading, inference,
 training, new loss, or observed-field language.

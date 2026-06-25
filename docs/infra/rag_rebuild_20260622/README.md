@@ -61,8 +61,10 @@ the canonical RAG index.
 - `canonical_scope_active_20260625_1457_v1audit.txt` — global active
   canonical scope used for the D625 Formal Note v1 audit node22-vector refresh.
 - `canonical_scope_active_20260625_1512_v1auditclean.txt` — same D625 Formal
-  Note v1 audit scope used for the post-clean node22-vector refresh promoted as
-  the current default RAG.
+  Note v1 audit scope used for the post-clean node22-vector refresh.
+- `canonical_scope_active_20260625_1735_formalv1.txt` — global active
+  canonical scope used for the D625 Formal Note v1 draft node22-vector refresh
+  promoted as the current default RAG.
 - `NODE22_VECTOR_REBUILD_20260622.md` — rebuild record, index hashes, backup
   paths, and verification boundary for the temporary node22 GPU vector worker.
 - `NODE22_VECTOR_REFRESH_REPORT7_20260623.md` — D623 refresh record proving
@@ -121,6 +123,9 @@ the canonical RAG index.
 - `NODE22_VECTOR_REFRESH_V1AUDIT_20260625.md` — D625 refresh record proving
   the Formal Note v1 audit, adoption note, and workplan are discoverable
   through default RAG.
+- `NODE22_VECTOR_REFRESH_FORMALV1_20260625.md` — D625 refresh record proving
+  the drafted Formal Note v1 and updated project indexes are discoverable
+  through default RAG.
 - `rag_build_node22_20260624_1530_proprompt.log` — D624 final node22 build log
   after `GPT55_PRO_MODE_A_MATH_DISCOVERY_PROMPT_20260623.md` was updated to
   include report(21), report(22), public-404 guardrails, smoke-not-evidence
@@ -143,6 +148,8 @@ the canonical RAG index.
   adding the Formal Note v1 audit, adoption note, and workplan.
 - `rag_build_node22_20260625_1512_v1auditclean.log` — D625 node22 build log
   after post-clean normalization of the raw Pro report and adoption-note hash.
+- `rag_build_node22_20260625_1735_formalv1.log` — D625 node22 build log after
+  drafting Formal Note v1 and updating project indexes.
 
 ## Policy
 
@@ -257,9 +264,16 @@ temporary bge-m3 worker and the service was stopped after build.
 D625 Formal Note v1 audit: default `/media/amd/raid1/rag/index` was refreshed
 after adding the GPT-5.5 Pro v1 audit, node36 adoption note, and v1 workplan,
 then refreshed once more after post-clean normalization of the raw Pro report.
-See `NODE22_VECTOR_REFRESH_V1AUDIT_20260625.md`. Current runtime index: 374
+See `NODE22_VECTOR_REFRESH_V1AUDIT_20260625.md`. Runtime index: 374
 active canonical markdown files / 9438 chunks; `kb.faiss=a5a3e616...`,
 `kb_meta=fc5af9e1...`. Node22 was used only as a temporary bge-m3 worker and
+the service was stopped after build.
+
+D625 Formal Note v1 draft: default `/media/amd/raid1/rag/index` was refreshed
+after adding `FORMAL_NOTE_V1_20260625.md` and updating the canonical index
+files. See `NODE22_VECTOR_REFRESH_FORMALV1_20260625.md`. Current runtime index:
+376 active canonical markdown files / 9464 chunks; `kb.faiss=dd835027...`,
+`kb_meta=6d7bc59b...`. Node22 was used only as a temporary bge-m3 worker and
 the service was stopped after build.
 
 Rebuild entry point:

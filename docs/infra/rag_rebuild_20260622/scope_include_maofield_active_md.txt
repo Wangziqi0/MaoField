@@ -18,6 +18,7 @@
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_STATUS_20260624.md
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/EXPERIMENT_CONVERGENCE_AND_MATH_TURN_20260622.md
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/debranded_residual_transport/FORMAL_NOTE_V0_20260625.md
+/media/amd/raid1/canonical/projects/MaoField/docs/infra/debranded_residual_transport/FORMAL_NOTE_V1_20260625.md
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/debranded_residual_transport/FORMAL_NOTE_V1_WORKPLAN_20260625.md
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/debranded_residual_transport/README.md
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/debranded_residual_transport/README_FOR_PRO_FOUNDATIONAL_20260625.md
@@ -93,6 +94,7 @@
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_REPORT7_20260623.md
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_REPORT9_20260623.md
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_TRANSPORT_HARNESS_20260624.md
+/media/amd/raid1/canonical/projects/MaoField/docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_V1AUDIT_20260625.md
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/rag_rebuild_20260622/README.md
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/three-machine-architecture.md
 /media/amd/raid1/canonical/projects/MaoField/docs/philosophy/D-3-dialectical-reflection.md

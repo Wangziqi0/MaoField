@@ -22,6 +22,9 @@ It is intentionally separated from the MaoField empirical line:
 - `synthetic_harness_v0_20260625.json` — first run JSON output.
 - `FORMAL_NOTE_V1_WORKPLAN_20260625.md` — node36 workplan for the next
   operator/no-go formal note, based on the GPT-5.5 Pro v1 audit.
+- `FORMAL_NOTE_V1_20260625.md` — proof-style v1 note: finite weighted Hilbert
+  systems, source-fixed nuisance, edge/path no-go lemmas, random/rank/gluing
+  guards, and a non-product-weight counterexample.
 
 ## Current Verdict
 
@@ -37,5 +40,5 @@ residual, interaction, transport, or holonomy field.
 
 ## Current Next Step
 
-Draft Formal Note v1 as definitions, lemmas, counterexamples, and kill gates.
-Do not turn the v1 workplan into an empirical claim.
+Review Formal Note v1 and design the v1 synthetic harness additions. Do not
+turn the v1 note into an empirical claim.
