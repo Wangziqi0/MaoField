@@ -108,6 +108,38 @@ formal_note_agenda_adopted
 
 This is not a MaoField empirical evidence upgrade.
 
+## 2026-06-25 Formal Start
+
+The debranded direction is now formally started inside the MaoField repository:
+
+```text
+docs/infra/debranded_residual_transport/README.md
+docs/infra/debranded_residual_transport/FORMAL_NOTE_V0_20260625.md
+docs/infra/debranded_residual_transport/SYNTHETIC_HARNESS_V0_20260625.md
+docs/infra/debranded_residual_transport/synthetic_harness_v0_20260625.json
+scripts/debranded_residual_transport_harness.py
+```
+
+Seven zero-GPU toy controls passed:
+
+```text
+non_product_weighted_projection
+edge_defect
+square_holonomy
+rank_shadow_guard
+random_subspace_guard
+gluing_absorption
+commutator_obstruction
+```
+
+Strongest current local verdict:
+
+```text
+definitions_and_harness_viable_only
+```
+
+This still is not a MaoField empirical evidence upgrade.
+
 ## Product-Weight Boundary
 
 Node36 directly verified that the current q4 x tokenpos4 schema weights are not

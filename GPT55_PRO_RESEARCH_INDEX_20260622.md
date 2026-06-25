@@ -184,6 +184,13 @@
 > D625 report(25) RAG refresh complete: default index now contains
 > 362 active canonical markdown files / 9301 chunks; `kb.faiss=546a3fd5...`,
 > `kb_meta=f9436c5e...`. Node22 temporary bge-m3 service was stopped.
+> D625 formal-start update: the new debranded mathematics direction now has a
+> dedicated directory at `docs/infra/debranded_residual_transport/`, a first
+> formal note v0, and a seven-block zero-GPU toy harness. Strongest verdict:
+> `definitions_and_harness_viable_only`; still no MaoField empirical upgrade.
+> D625 formal-start RAG refresh complete: default index now contains
+> 366 active canonical markdown files / 9330 chunks; `kb.faiss=302dee6b...`,
+> `kb_meta=9abd07a7...`. Node22 temporary bge-m3 service was stopped.
 
 ## 0. Scope And Evidence Boundary
 
@@ -954,6 +961,31 @@ Boundary:
 - Strongest future empirical-design verdict: `eligible_for_next_design_review_only`.
 - No residual / interaction / quotient-residual / transport / holonomy field
   has been observed.
+
+### 4.22 D625 Formal Start Of Debranded Direction
+
+Directory:
+[debranded_residual_transport/](docs/infra/debranded_residual_transport/README.md)
+
+Formal note v0:
+[FORMAL_NOTE_V0_20260625.md](docs/infra/debranded_residual_transport/FORMAL_NOTE_V0_20260625.md)
+
+Seven-block synthetic harness:
+[SYNTHETIC_HARNESS_V0_20260625.md](docs/infra/debranded_residual_transport/SYNTHETIC_HARNESS_V0_20260625.md)
+
+Harness JSON:
+[synthetic_harness_v0_20260625.json](docs/infra/debranded_residual_transport/synthetic_harness_v0_20260625.json)
+
+Script:
+[debranded_residual_transport_harness.py](scripts/debranded_residual_transport_harness.py)
+
+Local result:
+
+- all seven zero-GPU toy controls passed;
+- strongest local verdict: `definitions_and_harness_viable_only`;
+- no MaoField aggregate, checkpoint, inference, training, or new loss was used;
+- no observed residual / interaction / quotient-residual / transport /
+  holonomy field is claimed.
 
 ### 4.9 D623 q4 Hypercube Extension Strict Math Audit
 

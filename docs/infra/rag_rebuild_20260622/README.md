@@ -53,6 +53,8 @@ the canonical RAG index.
 - `canonical_scope_active_20260625_1044_report25.txt` — global active
   canonical scope used for the D625 report(25) strict-audit / formal-note
   node22-vector refresh.
+- `canonical_scope_active_20260625_1132_formalstart.txt` — global active
+  canonical scope used for the D625 formal-start node22-vector refresh.
 - `NODE22_VECTOR_REBUILD_20260622.md` — rebuild record, index hashes, backup
   paths, and verification boundary for the temporary node22 GPU vector worker.
 - `NODE22_VECTOR_REFRESH_REPORT7_20260623.md` — D623 refresh record proving
@@ -102,6 +104,9 @@ the canonical RAG index.
 - `NODE22_VECTOR_REFRESH_REPORT25_20260625.md` — D625 refresh record proving
   report(25), its adoption note, and the first formal-note outline are
   discoverable through default RAG.
+- `NODE22_VECTOR_REFRESH_FORMALSTART_20260625.md` — D625 refresh record
+  proving the formal-start directory, formal note v0, and seven-block harness
+  summary are discoverable through default RAG.
 - `rag_build_node22_20260624_1530_proprompt.log` — D624 final node22 build log
   after `GPT55_PRO_MODE_A_MATH_DISCOVERY_PROMPT_20260623.md` was updated to
   include report(21), report(22), public-404 guardrails, smoke-not-evidence
@@ -116,6 +121,8 @@ the canonical RAG index.
   adding the debranded residual transport kickoff documents and highest prompt.
 - `rag_build_node22_20260625_1044_report25.log` — D625 node22 build log after
   archiving report(25), its adoption note, and the first formal-note outline.
+- `rag_build_node22_20260625_1132_formalstart.log` — D625 node22 build log
+  after adding the formal-start debranded residual transport directory.
 
 ## Policy
 
@@ -210,6 +217,14 @@ adding the debranded strict-audit report, adoption note, and first formal-note
 outline. See `NODE22_VECTOR_REFRESH_REPORT25_20260625.md`. Runtime index:
 362 active canonical markdown files / 9301 chunks; `kb.faiss=546a3fd5...`,
 `kb_meta=f9436c5e...`. Node22 was used only as a temporary bge-m3 worker and
+the service was stopped after build.
+
+D625 formal start: default `/media/amd/raid1/rag/index` was refreshed after
+adding `docs/infra/debranded_residual_transport/` and
+`scripts/debranded_residual_transport_harness.py` pointers. See
+`NODE22_VECTOR_REFRESH_FORMALSTART_20260625.md`. Runtime index:
+366 active canonical markdown files / 9330 chunks; `kb.faiss=302dee6b...`,
+`kb_meta=9abd07a7...`. Node22 was used only as a temporary bge-m3 worker and
 the service was stopped after build.
 
 Rebuild entry point:

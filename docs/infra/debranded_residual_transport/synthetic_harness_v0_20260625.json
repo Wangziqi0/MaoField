@@ -1,0 +1,94 @@
+{
+  "artifact_kind": "debranded_residual_transport_synthetic_harness_v0",
+  "created_utc": "2026-06-25T03:31:26+00:00",
+  "seed": 20260625,
+  "random_draws": 2000,
+  "boundary": {
+    "synthetic_only": true,
+    "no_maofield_data_read": true,
+    "no_checkpoint_loaded": true,
+    "no_model_inference": true,
+    "no_training": true,
+    "no_new_loss": true,
+    "not_evidence_of_observed_field": true
+  },
+  "tests": [
+    {
+      "test_id": "non_product_weighted_projection",
+      "observed_minus_product_max_abs": 0.02250000000000002,
+      "residual_difference_norm_under_observed_weight": 0.027132122792771367,
+      "pass": true,
+      "interpretation": "positive non-product weights change the weighted projection residual; current legal language is projection residual, not canonical product Hoeffding"
+    },
+    {
+      "test_id": "edge_defect",
+      "natural_relative_defect_norm": 1.6365343370376786e-15,
+      "bad_nuisance_relative_defect_norm": 0.4636219741234647,
+      "pass": true,
+      "interpretation": "edge defects detect nuisance/coarsening incompatibility"
+    },
+    {
+      "test_id": "square_holonomy",
+      "natural_square_holonomy_norm": 3.1401849173675503e-16,
+      "bad_nuisance_square_holonomy_norm": 1.1944444444444446,
+      "pass": true,
+      "interpretation": "compatible projected paths close; non-functorial nuisance opens holonomy"
+    },
+    {
+      "test_id": "rank_shadow_guard",
+      "rank1_singular_values": [
+        1.3310165056345493,
+        1.296056630442814e-16,
+        1.8277975639643643e-17,
+        6.83573121527455e-18
+      ],
+      "rank1_sigma2_over_sigma1": 9.737344540479095e-17,
+      "multidirectional_singular_values": [
+        1.1822796172435905,
+        0.2989571883690208,
+        1.2252682592919327e-16,
+        2.81021341828808e-17
+      ],
+      "multidirectional_sigma2_over_sigma1": 0.25286504479035204,
+      "floor": 0.25,
+      "pass": true,
+      "interpretation": "rank-1 templates are killed; two-direction toy residual clears the design floor"
+    },
+    {
+      "test_id": "random_subspace_guard",
+      "draws": 2000,
+      "true_subspace_capture_ratio": 1.0,
+      "random_capture_mean": 0.3135213679331394,
+      "random_capture_p95": 0.5858554253068023,
+      "true_capture_quantile": 1.0,
+      "pass": true,
+      "interpretation": "named toy subspace must beat random same-dimensional subspaces"
+    },
+    {
+      "test_id": "gluing_absorption",
+      "absorbed_mismatch_residual_norm": 4.440892098500626e-16,
+      "obstruction_mismatch_residual_norm": 1.0,
+      "pass": true,
+      "interpretation": "overlap mismatch inside nuisance is absorbed; checkerboard mismatch survives"
+    },
+    {
+      "test_id": "commutator_obstruction",
+      "good_operator_commutator_norm": 0.0,
+      "bad_operator_commutator_norm": 0.4062019202317981,
+      "pass": true,
+      "interpretation": "operators preserving nuisance quotient commute; nuisance-leaking operators do not"
+    }
+  ],
+  "all_synthetic_controls_pass": true,
+  "strongest_allowed_verdict": "definitions_and_harness_viable_only",
+  "blocked_claims": [
+    "residual_field_observed",
+    "interaction_field_observed",
+    "quotient_residual_field_observed",
+    "transport_field_observed",
+    "holonomy_field_observed",
+    "glass_box_broken",
+    "training_authorized",
+    "new_loss_authorized"
+  ]
+}

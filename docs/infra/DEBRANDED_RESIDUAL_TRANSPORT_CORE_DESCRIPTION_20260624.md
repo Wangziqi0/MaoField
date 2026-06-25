@@ -157,13 +157,27 @@ The companion outline is:
 docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_FORMAL_NOTE_OUTLINE_20260625.md
 ```
 
+The first formal-start directory is:
+
+```text
+docs/infra/debranded_residual_transport/
+```
+
+It contains `FORMAL_NOTE_V0_20260625.md`, the seven-block synthetic harness
+summary, the harness JSON output, and the executable harness script pointer.
+
+Current strongest local verdict:
+
+```text
+definitions_and_harness_viable_only
+```
+
 ## First Work Items
 
-1. Formalize admissible triples `(X,w,N)` and allowed maps.
-2. Extend the synthetic harness to non-product weighted hierarchical
-   projection.
-3. Prove or falsify rank-shadow and random-subspace no-go propositions.
-4. Define square holonomy and gluing obstruction in finite weighted Hilbert
-   spaces.
-5. Only after these definitions are stable, decide whether any future MaoField
+1. Tighten `FORMAL_NOTE_V0_20260625.md` into a proof-style v1.
+2. Turn the edge commutation, square holonomy, rank-shadow, gluing absorption,
+   and non-product-weight checks into named lemmas or counterexamples.
+3. Ask a strict mathematical reviewer to try to kill the operator package
+   without using MaoField empirical claims.
+4. Only after these definitions are stable, decide whether any future MaoField
    aggregate is worth PI-approved generation.

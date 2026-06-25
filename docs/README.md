@@ -13,6 +13,9 @@ project:
 - [`infra/DEBRANDED_RESIDUAL_TRANSPORT_STATUS_20260624.md`](infra/DEBRANDED_RESIDUAL_TRANSPORT_STATUS_20260624.md)
 - [`infra/DEBRANDED_RESIDUAL_TRANSPORT_CORE_DESCRIPTION_20260624.md`](infra/DEBRANDED_RESIDUAL_TRANSPORT_CORE_DESCRIPTION_20260624.md)
 - [`infra/DEBRANDED_RESIDUAL_TRANSPORT_FORMAL_NOTE_OUTLINE_20260625.md`](infra/DEBRANDED_RESIDUAL_TRANSPORT_FORMAL_NOTE_OUTLINE_20260625.md)
+- [`infra/debranded_residual_transport/README.md`](infra/debranded_residual_transport/README.md)
+- [`infra/debranded_residual_transport/FORMAL_NOTE_V0_20260625.md`](infra/debranded_residual_transport/FORMAL_NOTE_V0_20260625.md)
+- [`infra/debranded_residual_transport/SYNTHETIC_HARNESS_V0_20260625.md`](infra/debranded_residual_transport/SYNTHETIC_HARNESS_V0_20260625.md)
 - [`infra/gpt_deep_research/GPT55_PRO_DEBRANDED_RESIDUAL_TRANSPORT_HIGHEST_PROMPT_20260624.md`](infra/gpt_deep_research/GPT55_PRO_DEBRANDED_RESIDUAL_TRANSPORT_HIGHEST_PROMPT_20260624.md)
 
 ## Contents (planned for v0.1.0)
