@@ -140,6 +140,31 @@ definitions_and_harness_viable_only
 
 This still is not a MaoField empirical evidence upgrade.
 
+## 2026-06-25 Formal Note v1 Workplan
+
+The next GPT-5.5 Pro pass on the formal-start package is archived and adopted
+as a Mode A v1 workplan source:
+
+```text
+docs/infra/gpt_deep_research/deep_research_foundational_residual_transport_v1_20260625.md
+docs/infra/gpt_deep_research/FOUNDATIONAL_RESIDUAL_TRANSPORT_V1_ADOPTION_NOTE_20260625.md
+docs/infra/debranded_residual_transport/FORMAL_NOTE_V1_WORKPLAN_20260625.md
+```
+
+Accepted local verdict:
+
+```text
+keep_the_math_project_kill_the_empirical_positive_story
+```
+
+The v1 workplan should promote projection, quotient-representative, edge
+commutation, square holonomy, rank-shadow, random-subspace, gluing absorption,
+non-product-weight, commutator leakage, and product-reweighting separation
+items into precise lemmas, counterexamples, and kill gates.
+
+This still does not authorize full-panel work, checkpoint loading, inference,
+training, new loss, or observed-field language.
+
 ## Product-Weight Boundary
 
 Node36 directly verified that the current q4 x tokenpos4 schema weights are not

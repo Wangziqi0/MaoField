@@ -23,10 +23,12 @@
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_STATUS_20260624.md
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/EXPERIMENT_CONVERGENCE_AND_MATH_TURN_20260622.md
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/debranded_residual_transport/FORMAL_NOTE_V0_20260625.md
+/media/amd/raid1/canonical/projects/MaoField/docs/infra/debranded_residual_transport/FORMAL_NOTE_V1_WORKPLAN_20260625.md
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/debranded_residual_transport/README.md
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/debranded_residual_transport/README_FOR_PRO_FOUNDATIONAL_20260625.md
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/debranded_residual_transport/SYNTHETIC_HARNESS_V0_20260625.md
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/DEBRANDED_RESIDUAL_TRANSPORT_STRICT_AUDIT_ADOPTION_NOTE_20260625.md
+/media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/FOUNDATIONAL_RESIDUAL_TRANSPORT_V1_ADOPTION_NOTE_20260625.md
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/FUTURE_MATH_OBJECTS_INTERACTION_FIELD_ADOPTION_NOTE_20260623.md
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/GPT55_PRO_DEBRANDED_RESIDUAL_TRANSPORT_HIGHEST_PROMPT_20260624.md
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/GPT55_PRO_FOUNDATIONAL_RESIDUAL_TRANSPORT_PROMPT_20260625.md
@@ -47,6 +49,7 @@
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/TRANSPORT_HOLONOMY_MATH_TURN_AUDIT_ADOPTION_NOTE_20260624.md
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_current_code_math_glassbox_20260622.md
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_debranded_residual_transport_strict_audit_20260625.md
+/media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_foundational_residual_transport_v1_20260625.md
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_future_math_objects_interaction_field_audit_20260623.md
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_math_ore_quotient_residual_strict_audit_20260623.md
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_math_turn_framework_gate_20260622.md
@@ -78,6 +81,7 @@
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/math_turn_20260622/RESIDUAL_TRANSPORT_HOLONOMY_SYNTHETIC_RESULT_20260624.md
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REBUILD_20260622.md
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_DEBRANDED_20260624.md
+/media/amd/raid1/canonical/projects/MaoField/docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_FORMALPRO_20260625.md
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_FORMALSTART_20260625.md
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_MODEA_20260623.md
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_Q4_GATE_20260623.md

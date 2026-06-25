@@ -206,6 +206,17 @@
 > contains 370 active canonical markdown files / 9362 chunks;
 > `kb.faiss=aa97f87a...`, `kb_meta=7f237c05...`. Node22 temporary bge-m3
 > service was stopped.
+> D625 Formal Note v1 audit update: archived
+> `docs/infra/gpt_deep_research/deep_research_foundational_residual_transport_v1_20260625.md`
+> and adopted it through
+> `docs/infra/gpt_deep_research/FOUNDATIONAL_RESIDUAL_TRANSPORT_V1_ADOPTION_NOTE_20260625.md`.
+> Local deliverable:
+> `docs/infra/debranded_residual_transport/FORMAL_NOTE_V1_WORKPLAN_20260625.md`.
+> Accepted verdict: keep the mathematical project, kill the empirical positive
+> story. This is not a MaoField evidence upgrade.
+> D625 Formal Note v1 audit RAG refresh complete: default index now contains
+> 374 active canonical markdown files / 9438 chunks; `kb.faiss=a5a3e616...`,
+> `kb_meta=fc5af9e1...`. Node22 temporary bge-m3 service was stopped.
 
 ## 0. Scope And Evidence Boundary
 
@@ -336,6 +347,13 @@ Use this order for a cold start:
    - Current allowed interpretation: definitions and toy harness viability
      only; strongest verdict `definitions_and_harness_viable_only`; no
      observed residual/interaction/quotient/transport/holonomy field claim.
+25. D625 Formal Note v1 audit / workplan:
+   - [deep_research_foundational_residual_transport_v1_20260625.md](docs/infra/gpt_deep_research/deep_research_foundational_residual_transport_v1_20260625.md)
+   - [FOUNDATIONAL_RESIDUAL_TRANSPORT_V1_ADOPTION_NOTE_20260625.md](docs/infra/gpt_deep_research/FOUNDATIONAL_RESIDUAL_TRANSPORT_V1_ADOPTION_NOTE_20260625.md)
+   - [FORMAL_NOTE_V1_WORKPLAN_20260625.md](docs/infra/debranded_residual_transport/FORMAL_NOTE_V1_WORKPLAN_20260625.md)
+   - Current allowed interpretation: Mode A theorem/no-go workplan only;
+     accepted verdict `keep_the_math_project_kill_the_empirical_positive_story`;
+     strongest local evidence verdict remains `definitions_and_harness_viable_only`.
 
 ## 2. Current Scientific Position
 
@@ -1012,6 +1030,42 @@ Local result:
 - no MaoField aggregate, checkpoint, inference, training, or new loss was used;
 - no observed residual / interaction / quotient-residual / transport /
   holonomy field is claimed.
+
+### 4.23 D625 Formal Note v1 Audit And Workplan
+
+Archived report:
+[deep_research_foundational_residual_transport_v1_20260625.md](docs/infra/gpt_deep_research/deep_research_foundational_residual_transport_v1_20260625.md)
+
+Primary local interpretation:
+[FOUNDATIONAL_RESIDUAL_TRANSPORT_V1_ADOPTION_NOTE_20260625.md](docs/infra/gpt_deep_research/FOUNDATIONAL_RESIDUAL_TRANSPORT_V1_ADOPTION_NOTE_20260625.md)
+
+Formal Note v1 workplan:
+[FORMAL_NOTE_V1_WORKPLAN_20260625.md](docs/infra/debranded_residual_transport/FORMAL_NOTE_V1_WORKPLAN_20260625.md)
+
+Adopted decision:
+
+- The report's main verdict is accepted: keep the mathematics project, kill the
+  empirical positive story.
+- Formal Note v1 should be a definitions / lemmas / counterexamples / kill
+  gates document.
+- Accepted v1 targets include weighted projection, quotient representative,
+  source-fixed nuisance, edge commutation, square holonomy no-go, rank-shadow
+  vacuity, random-subspace guard, gluing absorption no-go, non-product-weight
+  counterexample, commutator leakage, multiscale non-naturality, and
+  product-reweighting separation.
+- Harness v1 should add product-weight equality, transport-stable
+  multidirectional, raw-path-equality, outcome-derived nuisance, random-axis,
+  shuffle, bad-axis, rank-plus-noise, product-reweighting, and coarsening
+  non-naturality controls.
+
+Boundary:
+
+- This is a Mode A workplan source, not a Mode B evidence upgrade.
+- The report's external literature references remain unverified by node36 in
+  this adoption pass.
+- Strongest local evidence verdict remains `definitions_and_harness_viable_only`.
+- No residual / interaction / quotient-residual / transport / holonomy field
+  has been observed.
 
 ### 4.9 D623 q4 Hypercube Extension Strict Math Audit
 

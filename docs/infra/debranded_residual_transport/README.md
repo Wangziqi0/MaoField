@@ -20,6 +20,8 @@ It is intentionally separated from the MaoField empirical line:
 - `SYNTHETIC_HARNESS_V0_20260625.md` — seven-block zero-GPU harness
   specification and first run summary.
 - `synthetic_harness_v0_20260625.json` — first run JSON output.
+- `FORMAL_NOTE_V1_WORKPLAN_20260625.md` — node36 workplan for the next
+  operator/no-go formal note, based on the GPT-5.5 Pro v1 audit.
 
 ## Current Verdict
 
@@ -32,3 +34,8 @@ definitions_and_harness_viable_only
 This means the definitions are executable on toy finite systems and have
 positive/negative controls. It does not mean that MaoField contains an observed
 residual, interaction, transport, or holonomy field.
+
+## Current Next Step
+
+Draft Formal Note v1 as definitions, lemmas, counterexamples, and kill gates.
+Do not turn the v1 workplan into an empirical claim.
