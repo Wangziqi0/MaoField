@@ -10,32 +10,34 @@ DESKTOP_SPOTCHECK_20260419.md	17476	2026-04-19T08:31:25+00:00	.md	markdown	S	exc
 DESKTOP_SPOTCHECK_ROUND2_20260419.md	16958	2026-04-19T08:57:28+00:00	.md	markdown	S	exclude_markdown_superseded	86df800be62bd11ee7c9f35839b904d3e1e8d9516833477ab48fca1b358a215b
 DESKTOP_SPOTCHECK_ROUND3_20260419.md	8067	2026-04-19T09:13:39+00:00	.md	markdown	S	exclude_markdown_superseded	fac8b179b19a0a1fa868a8bd3d46e27d98e6e869d08628e145fb6c9673c5d3c8
 DESKTOP_SPOTCHECK_ROUND5_20260419.md	5585	2026-04-19T09:21:41+00:00	.md	markdown	S	exclude_markdown_superseded	9b5f1ea9d02ac52f54ea5b45dee1342ad7d8d117a5e3e982c9fcbb7001e6fdcb
-GPT55_PRO_RESEARCH_INDEX_20260622.md	79369	2026-06-25T14:18:11+00:00	.md	markdown	A	index_markdown_active	e95be892cdf72d193d9f2f0a9675cf3f16ce05e78aa12d64c5e14dcea68b83c5
+GPT55_PRO_RESEARCH_INDEX_20260622.md	83171	2026-06-25T15:21:03+00:00	.md	markdown	A	index_markdown_active	4ad9589cd0c96abd182aae332545e5f52f3f9a2b81ffcaa7f289056e5311dbe2
 LICENSE	11308	2026-04-18T09:25:21+00:00	[no_ext]	no_extension_or_generated		inventory_only	a83b0783b5835fe2e946c5bc330ea0898aa7c3f3981dcf35ce1d8355c65b70aa
-MD_CATALOG.md	39704	2026-06-25T14:17:42+00:00	.md	markdown	A	index_markdown_active	b5f9d53e4ce910d028ea76b712edcda30573fcbb01267d74526197bb4a5afcc5
+MD_CATALOG.md	41545	2026-06-25T15:21:03+00:00	.md	markdown	A	index_markdown_active	f1c7cf133ec27e812fb4486662ed898459ad63660730e2877eae72157b7a216b
 NOTICE	1114	2026-04-18T09:25:21+00:00	[no_ext]	no_extension_or_generated		inventory_only	074cac52dcc88cb31a5bf6b2d7ce681109e2241291bbb2dcd17353ccde158b75
 NOTICE.md	2873	2026-04-15T06:37:15+00:00	.md	markdown	A	index_markdown_active	1b973f27e12d4e4d7db14bdd5a6ca6295679fe8b5a770752a85547def123a1c5
 README.md	10335	2026-06-24T13:11:41+00:00	.md	markdown	A	index_markdown_active	d8c24e5019fdceee150cee4a9e7ab28fcccf9e970564729a5862899870a56377
 README_zh.md	9120	2026-06-24T13:11:42+00:00	.md	markdown	A	index_markdown_active	04619cdfab81ea14f903529537e2f6ff5862fd1d2f93e7bdb0ac6080a979a5e1
-STATE.md	25158	2026-06-25T14:16:20+00:00	.md	markdown	A	index_markdown_active	4e4d4ff2677135536f2ef0bf4048f9968ca739c579019649b13e9ce82757bed2
+STATE.md	25721	2026-06-25T15:21:02+00:00	.md	markdown	A	index_markdown_active	164737ac4f1b2f79105baaa92a56a79863606aa1707a0b0b76d9c088bbf9e14f
 data/README.md	1256	2026-04-18T09:25:21+00:00	.md	markdown	A	index_markdown_active	6e44b03a3680046901cea2a049330d4e43a4980727c5a1d6d49774c4fd96bdd0
-docs/README.md	4915	2026-06-25T14:15:18+00:00	.md	markdown	A	index_markdown_active	b2219c27ee9c6d4272ae5386e662acf87a613677e6a60b848598358f3c154c74
+docs/README.md	5738	2026-06-25T15:15:07+00:00	.md	markdown	A	index_markdown_active	27349653bf66030e49343134cb049435a0eee88d50ff800ce9659daf4d69b874
 docs/TIMELINE_D22_D60.md	2699	2026-05-26T06:19:01+00:00	.md	markdown	A	index_markdown_active	027033d36637365a8ee15d664eada5b71321cacc073ce260aa1e3ef6e2ebb6fa
 docs/discipline/D-1-five-disciplines.md	7260	2026-05-26T06:18:27+00:00	.md	markdown	A	index_markdown_active	b0c9a9121d148a304d5aa02e1fa1846de6f74631d23137ec965722ff1b4f058c
 docs/discipline/D-2-parallel.md	2056	2026-05-26T06:18:41+00:00	.md	markdown	A	index_markdown_active	a4ee4f8ce111a0222803af5ebd62f77a3c2e68111750f3dd304326a917bf01f3
 docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_142_PACKAGE_20260624.md	2682	2026-06-24T13:29:39+00:00	.md	markdown	A	index_markdown_active	e9035ddb1688b090685edf0163603cd6affe291cda92adb466920b473218f1ed
 docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_142_PACKAGE_FORMALSTART_20260625.md	2687	2026-06-25T04:08:13+00:00	.md	markdown	A	index_markdown_active	7b98b7574b9658a4ad5e30200ea361538785ba9ea0e0fcbfe678d2d441052c47
+docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_142_PACKAGE_FORMALV11_AUDIT_20260625.md	3144	2026-06-25T15:21:01+00:00	.md	markdown	A	index_markdown_active	5cd21103902d47ca138ebf94ea750cd3cc5b39d65796931243ff8517a70f9067
 docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_142_PACKAGE_FORMALV1_20260625.md	2804	2026-06-25T10:22:09+00:00	.md	markdown	A	index_markdown_active	75f21a0e4f4cfc303c5e78f1f28dd4c25c1717faafdc977be5cbf039b850585c
 docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_CORE_DESCRIPTION_20260624.md	5613	2026-06-25T03:34:05+00:00	.md	markdown	A	index_markdown_active	f9d8b71dcf71b0aab34dcc3f931c0b9ad06ced23a8cb10bb220cbc85629d57d7
 docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_FORMAL_NOTE_OUTLINE_20260625.md	5866	2026-06-25T03:05:56+00:00	.md	markdown	A	index_markdown_active	3e5cd931da3e85f4ba500826a982bbe0a22f809eb625bb614f686bc1093288d3
-docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_STATUS_20260624.md	11403	2026-06-25T14:15:18+00:00	.md	markdown	A	index_markdown_active	b21afb54c18f677379221c0d046d0eb3117e25dd937e5e343a607ae4f88e7bba
+docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_STATUS_20260624.md	13113	2026-06-25T15:21:04+00:00	.md	markdown	A	index_markdown_active	cb56386e4839e950f5c75eca08bee2a9e3838b496a857cc7f436a88c5cdf53a3
 docs/infra/EXPERIMENT_CONVERGENCE_AND_MATH_TURN_20260622.md	5927	2026-06-22T13:24:26+00:00	.md	markdown	A	index_markdown_active	85de662c9b7eec00e80cf81035a04c8c720fe1916d48aaa4ca1dc3bacfe11a7a
 docs/infra/debranded_residual_transport/FORMAL_NOTE_V0_20260625.md	5433	2026-06-25T03:31:03+00:00	.md	markdown	A	index_markdown_active	bf1625534df8814012da2a529319192b4399c86ac8e5c731ee4600500868ce45
 docs/infra/debranded_residual_transport/FORMAL_NOTE_V1_1_20260625.md	8660	2026-06-25T14:14:01+00:00	.md	markdown	A	index_markdown_active	b21eee8ffc51243b32f687efe4694411ad4907cc181caca926f82418385a4d03
 docs/infra/debranded_residual_transport/FORMAL_NOTE_V1_1_WORKPLAN_20260625.md	5215	2026-06-25T13:45:57+00:00	.md	markdown	A	index_markdown_active	1546df609601f7f9c986e75ca941be6d599c1c5999d91d937db6f6d7c48d4797
 docs/infra/debranded_residual_transport/FORMAL_NOTE_V1_20260625.md	12137	2026-06-25T09:35:48+00:00	.md	markdown	A	index_markdown_active	77e33bbe0699aa39f16720c32365e6f81cd3250f52e9e2d5d490bb05670abc6f
 docs/infra/debranded_residual_transport/FORMAL_NOTE_V1_WORKPLAN_20260625.md	4689	2026-06-25T06:56:42+00:00	.md	markdown	A	index_markdown_active	de001d20b7782f2f2ae549bc6f3804ca3385a0aa93a61db3bd621c9e23bdf364
-docs/infra/debranded_residual_transport/README.md	3009	2026-06-25T14:15:17+00:00	.md	markdown	A	index_markdown_active	57ff549d0e4f0dd420331807c4bf73e7749a60ca8d6f77d4be05fc235c97ae64
+docs/infra/debranded_residual_transport/README.md	3652	2026-06-25T15:15:08+00:00	.md	markdown	A	index_markdown_active	5bc4390b218e386707502516cba00d432af9e1630896676947c613e1cc2ab737
+docs/infra/debranded_residual_transport/README_FOR_PRO_FORMALV11_AUDIT_20260625.md	2831	2026-06-25T15:16:34+00:00	.md	markdown	A	index_markdown_active	327837611ee7e5a0bcc0c951c68640c81b77dbbd8e06b6ae4bbe90d0387672d2
 docs/infra/debranded_residual_transport/README_FOR_PRO_FOUNDATIONAL_20260625.md	3242	2026-06-25T04:06:02+00:00	.md	markdown	A	index_markdown_active	aa1b530a2ed0d1934f7f9e235e8edaadf38c5ce26c6cd69347cec54058b01f88
 docs/infra/debranded_residual_transport/SYNTHETIC_HARNESS_V0_20260625.md	2367	2026-06-25T03:32:01+00:00	.md	markdown	A	index_markdown_active	6d85a87de9185a812982bbf00fe925ed3c4318bd221d771c12394d84c95fec01
 docs/infra/debranded_residual_transport/SYNTHETIC_HARNESS_V1_1_20260625.md	4153	2026-06-25T14:14:24+00:00	.md	markdown	A	index_markdown_active	9b33bb46224c2d66354a45b343e98ec12bf0f80e1dd206501877f28abb99ac50
@@ -49,6 +51,7 @@ docs/infra/gpt_deep_research/FOUNDATIONAL_RESIDUAL_TRANSPORT_V1_ADOPTION_NOTE_20
 docs/infra/gpt_deep_research/FUTURE_MATH_OBJECTS_INTERACTION_FIELD_ADOPTION_NOTE_20260623.md	3961	2026-06-23T05:30:32+00:00	.md	markdown	A	index_markdown_active	12b00a6ee3eb9102d50504e3a7a777b62fbbd5f45b65b581d4ebc5d2ebd77fd0
 docs/infra/gpt_deep_research/GPT55_PRO_DEBRANDED_RESIDUAL_TRANSPORT_HIGHEST_PROMPT_20260624.md	6376	2026-06-24T13:11:17+00:00	.md	markdown	A	index_markdown_active	72a361219870b723d24b58b13b6ba7f61f46c89aa8937a9489e43c7005d94aee
 docs/infra/gpt_deep_research/GPT55_PRO_FOUNDATIONAL_RESIDUAL_TRANSPORT_PROMPT_20260625.md	8884	2026-06-25T04:06:02+00:00	.md	markdown	A	index_markdown_active	eed57e80799a67e5e19e1ee9d8ae1858f652602bb1b3e7b0782f41d2efa02a43
+docs/infra/gpt_deep_research/GPT55_PRO_FOUNDATIONAL_RESIDUAL_TRANSPORT_V1_1_AUDIT_PROMPT_20260625.md	9127	2026-06-25T15:16:34+00:00	.md	markdown	A	index_markdown_active	89f43026b87145aa91c199ad94cf4fb45bc2422c4055db45b777019ea88b6a87
 docs/infra/gpt_deep_research/GPT55_PRO_FOUNDATIONAL_RESIDUAL_TRANSPORT_V1_PROMPT_20260625.md	7910	2026-06-25T09:58:44+00:00	.md	markdown	A	index_markdown_active	ddbd690ac1dc880f4e0f9c5f58130c8f494fbe6c63bbf1710b0b61d6c5c702b0
 docs/infra/gpt_deep_research/GPT55_PRO_MODE_A_MATH_DISCOVERY_PROMPT_20260623.md	9992	2026-06-24T06:57:15+00:00	.md	markdown	A	index_markdown_active	3da22bf240cb68c133bedbd87834603ee1931c97f2a5a332d291bc0a92960dab
 docs/infra/gpt_deep_research/GPT55_PRO_QUOTIENT_RESIDUAL_NEXT_PROMPT_20260623.md	7205	2026-06-23T08:36:07+00:00	.md	markdown	A	index_markdown_active	7275acf7b36794f45e0d9974b8673e0033cb010583b2165266521247ad926ad3
@@ -108,6 +111,7 @@ docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REBUILD_20260622.md	2822	2026-06-2
 docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_DEBRANDED_20260624.md	4847	2026-06-24T13:20:03+00:00	.md	markdown	A	index_markdown_active	f597a8b26a4a24baccd61eea3344fddb67df6868ef356677961d54379cc71395
 docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_FORMALPRO_20260625.md	3093	2026-06-25T04:15:50+00:00	.md	markdown	A	index_markdown_active	abb784ed6dfb1cc801ba11ab61e13da89e4fa69d45e0e04d7b4439bb95da0504
 docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_FORMALSTART_20260625.md	2461	2026-06-25T03:40:49+00:00	.md	markdown	A	index_markdown_active	403a8f6a15796a76c485e2e8f73243eea4388c4e026b48358684f744fe7d9c11
+docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_FORMALV11_PRO_20260625.md	4946	2026-06-25T15:12:13+00:00	.md	markdown	A	index_markdown_active	aa912186af6a002ff6eb74d6027a8441b24abbfe966ecbdb87ab42dc153db534
 docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_FORMALV1_20260625.md	3251	2026-06-25T09:42:45+00:00	.md	markdown	A	index_markdown_active	56a74c9629e239fbc310203299fcf7de17e2d4cd8e9b0f590410358dc2817c22
 docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_FORMALV1_PACKAGE_20260625.md	3497	2026-06-25T10:17:10+00:00	.md	markdown	A	index_markdown_active	f1d7ecc6d44d838dd1e5c7a6a09a5944f0f72f6711c36fe52a135b111858d62b
 docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_MODEA_20260623.md	3278	2026-06-23T08:01:08+00:00	.md	markdown	A	index_markdown_active	ab7e77a8d88061a14b3f63660c8f0c7b5023bfdd2a55305e4097d563050041a4
@@ -126,8 +130,9 @@ docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_REPORT26_20260625.md	3762	
 docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_REPORT7_20260623.md	2711	2026-06-23T01:14:50+00:00	.md	markdown	A	index_markdown_active	243bae05b297ecdf1469ea46dd8c107ad31891484f7a83a83dc3817e40f59567
 docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_REPORT9_20260623.md	3056	2026-06-23T03:00:32+00:00	.md	markdown	A	index_markdown_active	e6b95c0f1fbb88bf5626b9bc195a6e9d10acef17c0e0acb2a68d5a15ec9da985
 docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_TRANSPORT_HARNESS_20260624.md	4293	2026-06-24T09:06:23+00:00	.md	markdown	A	index_markdown_active	d31ab25ad7c61f72b51242a457c586575ae7bc23ce596b4409d222d662e0a7d3
+docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_V11PATCH_20260625.md	4639	2026-06-25T14:38:58+00:00	.md	markdown	A	index_markdown_active	997fd266819f65284d3b1088b1c4676bf3b5389d7c67b4e62736ca729ba3a513
 docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_V1AUDIT_20260625.md	3444	2026-06-25T07:17:40+00:00	.md	markdown	A	index_markdown_active	ed64987e78a72e71b09e9d8caa8aa0ff22e5b67cb9ac3263636ae143a785a5a6
-docs/infra/rag_rebuild_20260622/README.md	18827	2026-06-25T14:00:22+00:00	.md	markdown	A	index_markdown_active	9cfab93d3acc6b44ae3db906fdbcdcb04291016ac7ef578f817da8491908d808
+docs/infra/rag_rebuild_20260622/README.md	20836	2026-06-25T15:12:14+00:00	.md	markdown	A	index_markdown_active	37580e8c96ff0e06102ee7fcb3c3555c1f01ea632913750a16a3a8550efb182a
 docs/infra/rag_rebuild_20260622/rag_build_node22_20260624_1530_proprompt.log	2283	2026-06-24T07:00:53+00:00	.log	structured_or_text_data		digest_only_data	d834f93e3f18ef70d44a76c669a6b5289f302004a5f03cd48cef8439e74e7fcb
 docs/infra/rag_rebuild_20260622/rag_build_node22_20260624_1555_report23.log	2281	2026-06-24T07:59:56+00:00	.log	structured_or_text_data		digest_only_data	81ee07afbbdaa08e3948d362ae67aa88f53ee86546ab664597f8bd35ff2a5479
 docs/infra/rag_rebuild_20260622/rag_build_node22_20260624_1648_transport.log	2283	2026-06-24T08:49:12+00:00	.log	structured_or_text_data		digest_only_data	9383e2c4cafaae867ed7d800981b5c31abcc8ac0200d4bea0a15a057fa96a13d
@@ -141,6 +146,8 @@ docs/infra/rag_rebuild_20260622/rag_build_node22_20260625_1512_v1auditclean.log	
 docs/infra/rag_rebuild_20260622/rag_build_node22_20260625_1735_formalv1.log	2342	2026-06-25T09:42:06+00:00	.log	structured_or_text_data		digest_only_data	90a5e06e6089dbee8b8951336ef9f27461e1163e3f6fb2fe61dbcd903557fad8
 docs/infra/rag_rebuild_20260622/rag_build_node22_20260625_1811_formalv1package.log	2356	2026-06-25T10:15:45+00:00	.log	structured_or_text_data		digest_only_data	7f93ba83b8e864031d70d201869843f43f715129d591ddd8e0823767de7d7cc8
 docs/infra/rag_rebuild_20260622/rag_build_node22_20260625_2151_report26.log	2342	2026-06-25T13:54:55+00:00	.log	structured_or_text_data		digest_only_data	c6f5793d87fde35acad65fdba00d0b1307881bcadf406ee3e0d7d941721b490b
+docs/infra/rag_rebuild_20260622/rag_build_node22_20260625_2218_v11patch.log	2403	2026-06-25T14:26:43+00:00	.log	structured_or_text_data		digest_only_data	72e51d58ca010b1de86f5ba2cc4c311fc7d5678e53316dd2ead30e2ca24222f4
+docs/infra/rag_rebuild_20260622/rag_build_node22_20260625_2248_formalv11pro.log	2411	2026-06-25T15:06:59+00:00	.log	structured_or_text_data		digest_only_data	d6fab56510e9ff2c4b8962e2663467d63d4494f8ecd5c918b4555eeb9b7d7833
 docs/infra/rag_rebuild_20260622/rag_build_node22_modea_20260623_1556.log	2214	2026-06-23T07:58:36+00:00	.log	structured_or_text_data		digest_only_data	b632c84fa5837e82477789d78079a023983b7fb010b074b76eb967a01c8a3a26
 docs/infra/rag_rebuild_20260622/rag_build_node22_nullcontract_20260624_1450.log	2289	2026-06-24T06:50:04+00:00	.log	structured_or_text_data		digest_only_data	e74e701eef13c5c169ee50017a40627dd74025c78437f50d2e0054a6b39017a4
 docs/infra/rag_rebuild_20260622/rag_build_node22_report15_20260623_1336.log	2220	2026-06-23T05:36:35+00:00	.log	structured_or_text_data		digest_only_data	1316a527a9829f9ec42bd9acc252636da0818130bda3ebec129da8d94e5adc1a

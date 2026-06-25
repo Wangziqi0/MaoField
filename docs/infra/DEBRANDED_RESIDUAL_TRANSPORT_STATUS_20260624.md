@@ -169,6 +169,45 @@ non-product-weight counterexample.
 This still does not authorize full-panel work, checkpoint loading, inference,
 training, new loss, or observed-field language.
 
+## 2026-06-25 Formal v1.1 Strict-Audit Pro Package
+
+Node36 prepared and copied a zero-context GPT-5.5 Pro audit package for Formal
+v1.1:
+
+```text
+docs/infra/gpt_deep_research/GPT55_PRO_FOUNDATIONAL_RESIDUAL_TRANSPORT_V1_1_AUDIT_PROMPT_20260625.md
+docs/infra/debranded_residual_transport/README_FOR_PRO_FORMALV11_AUDIT_20260625.md
+docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_142_PACKAGE_FORMALV11_AUDIT_20260625.md
+```
+
+Node142 desktop artifacts:
+
+```text
+C:\Users\amd\Desktop\MaoField_PRO_FoundationalResidualTransport_FormalV11_Audit_20260625_2315.zip
+C:\Users\amd\Desktop\GPT55_PRO_FOUNDATIONAL_RESIDUAL_TRANSPORT_V1_1_AUDIT_PROMPT_20260625.md
+```
+
+Remote `certutil` verification matched:
+
+```text
+zip sha256=8afb1e4a86750d406fc3f16a18be8bd74b0b96c60f84dd9ca589f02e5beaac06
+prompt sha256=89f43026b87145aa91c199ad94cf4fb45bc2422c4055db45b777019ea88b6a87
+```
+
+The prompt asks Pro to audit whether v1.1 actually fixes report(26)'s formal
+gaps. It explicitly forbids MaoField empirical validation, full-panel
+recommendations, training/new-loss discussion, and observed-field language.
+
+Default RAG has been refreshed with a node22 one-shot bge-m3 worker after this
+package was added:
+
+```text
+docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_FORMALV11_FINAL_20260625.md
+runtime index: 392 active canonical md / 9660 chunks
+kb.faiss=9a652b4e...
+kb_meta=581753b0...
+```
+
 ## 2026-06-25 Formal v1 Synthetic Harness And Package
 
 Node36 added a separate v1 synthetic harness script instead of mutating the v0
@@ -279,7 +318,9 @@ summary 9b33bb46224c2d66354a45b343e98ec12bf0f80e1dd206501877f28abb99ac50
 json    5c75a5070f147e20eb49a5d76d1bd65f8c17e35bda889b022f4c8a392fea5801
 ```
 
-Default RAG has also been refreshed with a node22 one-shot bge-m3 worker:
+This v1.1 patch RAG refresh was completed with a node22 one-shot bge-m3 worker
+and was later superseded as default by the Formal v1.1 Pro audit package
+refresh:
 
 ```text
 docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_V11PATCH_20260625.md

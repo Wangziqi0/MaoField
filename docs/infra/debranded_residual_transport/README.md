@@ -45,8 +45,17 @@ It is intentionally separated from the MaoField empirical line:
   threshold contract, and environment metadata.
 - `synthetic_harness_v1_1_20260625.json` — v1.1 harness JSON output.
 - `../rag_rebuild_20260622/NODE22_VECTOR_REFRESH_V11PATCH_20260625.md` —
-  default RAG refresh record proving the v1.1 patch materials are discoverable
-  through the node36 RAG locator.
+  RAG refresh record proving the v1.1 patch materials are discoverable through
+  the node36 RAG locator.
+- `README_FOR_PRO_FORMALV11_AUDIT_20260625.md` — upload/package guide for the
+  GPT-5.5 Pro Formal v1.1 strict proof/harness audit.
+- `../rag_rebuild_20260622/NODE22_VECTOR_REFRESH_FORMALV11_PRO_20260625.md` —
+  pre-final RAG refresh record proving the Formal v1.1 Pro audit prompt,
+  package README, and node142 package record were discoverable through the
+  node36 RAG locator before the final `2315` rebuild.
+- `../rag_rebuild_20260622/NODE22_VECTOR_REFRESH_FORMALV11_FINAL_20260625.md` —
+  current final RAG refresh record for the `2315` node142 package and updated
+  standalone prompt hash.
 
 ## Current Verdict
 
@@ -62,7 +71,7 @@ residual, interaction, transport, or holonomy field.
 
 ## Current Next Step
 
-Use v1.1 as the next strict audit target. It patches the v1 gaps identified by
-report (26), and the default RAG now indexes the v1.1 patch materials, but this
-remains zero-GPU synthetic/formal work. Do not turn the v1.1 note or synthetic
-harness into an empirical claim.
+Use the Formal v1.1 Pro audit package as the next strict audit target. It asks
+GPT-5.5 Pro to check whether v1.1 really patches the gaps identified by report
+(26), but this remains zero-GPU synthetic/formal work. Do not turn the v1.1
+note or synthetic harness into an empirical claim.

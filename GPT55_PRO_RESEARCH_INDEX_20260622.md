@@ -259,10 +259,26 @@
 > scratch and records threshold/environment metadata. Strongest verdict remains
 > `definitions_and_harness_viable_only`; this is not a MaoField evidence
 > upgrade.
-> D625 Formal v1.1 patch RAG refresh complete: default index now contains
+> D625 Formal v1.1 patch RAG refresh complete: default index then contained
 > 387 active canonical markdown files / 9614 chunks; `kb.faiss=a7bcd313...`,
 > `kb_meta=9ccf1498...`. Record:
 > `docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_V11PATCH_20260625.md`.
+> Node22 temporary bge-m3 service was stopped.
+> D625 Formal v1.1 strict-audit Pro package update: added
+> `docs/infra/gpt_deep_research/GPT55_PRO_FOUNDATIONAL_RESIDUAL_TRANSPORT_V1_1_AUDIT_PROMPT_20260625.md`,
+> `docs/infra/debranded_residual_transport/README_FOR_PRO_FORMALV11_AUDIT_20260625.md`,
+> and `docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_142_PACKAGE_FORMALV11_AUDIT_20260625.md`.
+> The package was copied to node142 Desktop and verified by hash. D625
+> FormalV11-Pro RAG refresh complete: default index now contains 391 active
+> canonical markdown files / 9646 chunks; `kb.faiss=63e1bc97...`,
+> `kb_meta=3d5b0c80...`. Record:
+> `docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_FORMALV11_PRO_20260625.md`.
+> Node22 temporary bge-m3 service was stopped.
+> D625 final Formal v1.1 Pro package refresh complete: after rebuilding the
+> node142 package as `2315` and updating the standalone prompt hash, default
+> index now contains 392 active canonical markdown files / 9660 chunks;
+> `kb.faiss=9a652b4e...`, `kb_meta=581753b0...`. Record:
+> `docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_FORMALV11_FINAL_20260625.md`.
 > Node22 temporary bge-m3 service was stopped.
 
 ## 0. Scope And Evidence Boundary
@@ -425,6 +441,15 @@ Use this order for a cold start:
    - [debranded_residual_transport_harness_v1_1.py](scripts/debranded_residual_transport_harness_v1_1.py)
    - Current allowed interpretation: v1.1 patches the report(26) formal and
      harness gaps on toy finite systems only; no Mode B evidence upgrade.
+29. D625 Formal v1.1 strict-audit Pro package:
+   - [GPT55_PRO_FOUNDATIONAL_RESIDUAL_TRANSPORT_V1_1_AUDIT_PROMPT_20260625.md](docs/infra/gpt_deep_research/GPT55_PRO_FOUNDATIONAL_RESIDUAL_TRANSPORT_V1_1_AUDIT_PROMPT_20260625.md)
+   - [README_FOR_PRO_FORMALV11_AUDIT_20260625.md](docs/infra/debranded_residual_transport/README_FOR_PRO_FORMALV11_AUDIT_20260625.md)
+   - [DEBRANDED_RESIDUAL_TRANSPORT_142_PACKAGE_FORMALV11_AUDIT_20260625.md](docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_142_PACKAGE_FORMALV11_AUDIT_20260625.md)
+   - [NODE22_VECTOR_REFRESH_FORMALV11_PRO_20260625.md](docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_FORMALV11_PRO_20260625.md)
+   - [NODE22_VECTOR_REFRESH_FORMALV11_FINAL_20260625.md](docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_FORMALV11_FINAL_20260625.md)
+   - Current allowed interpretation: zero-context Pro proof/harness audit
+     package only; no full panel, checkpoint loading, inference, training, new
+     loss, or observed-field claim.
 
 ## 2. Current Scientific Position
 
@@ -1263,6 +1288,47 @@ definitions_and_harness_viable_only
 This is a Mode A formal patch only. It does not authorize full-panel work,
 checkpoint loading, inference, training, new loss, or observed-field language.
 
+### 4.27 D625 Formal v1.1 Strict-Audit Pro Package
+
+Primary zero-context prompt:
+[GPT55_PRO_FOUNDATIONAL_RESIDUAL_TRANSPORT_V1_1_AUDIT_PROMPT_20260625.md](docs/infra/gpt_deep_research/GPT55_PRO_FOUNDATIONAL_RESIDUAL_TRANSPORT_V1_1_AUDIT_PROMPT_20260625.md)
+
+Package README:
+[README_FOR_PRO_FORMALV11_AUDIT_20260625.md](docs/infra/debranded_residual_transport/README_FOR_PRO_FORMALV11_AUDIT_20260625.md)
+
+142 package record:
+[DEBRANDED_RESIDUAL_TRANSPORT_142_PACKAGE_FORMALV11_AUDIT_20260625.md](docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_142_PACKAGE_FORMALV11_AUDIT_20260625.md)
+
+RAG refresh record:
+[NODE22_VECTOR_REFRESH_FORMALV11_PRO_20260625.md](docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_FORMALV11_PRO_20260625.md)
+
+Final RAG refresh record:
+[NODE22_VECTOR_REFRESH_FORMALV11_FINAL_20260625.md](docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_FORMALV11_FINAL_20260625.md)
+
+Copied package:
+
+```text
+C:\Users\amd\Desktop\MaoField_PRO_FoundationalResidualTransport_FormalV11_Audit_20260625_2315.zip
+zip sha256=8afb1e4a86750d406fc3f16a18be8bd74b0b96c60f84dd9ca589f02e5beaac06
+prompt sha256=89f43026b87145aa91c199ad94cf4fb45bc2422c4055db45b777019ea88b6a87
+default RAG=392 active canonical md / 9660 chunks
+kb.faiss=9a652b4e67c6eace0bcbe753fecd9d52c49ca919e78a8a1d852c5e3ac0e6caa1
+kb_meta=581753b052f7a99f310e525aa4274348530a3c9777377e51983fde4d5e479378
+```
+
+Allowed task:
+
+```text
+strict proof/harness audit of Formal v1.1 against report(26) gaps
+```
+
+Forbidden task:
+
+```text
+MaoField empirical validation, full-panel recommendation, training, new loss,
+or observed-field/glass-box/F3/LOSO claim promotion
+```
+
 ### 4.9 D623 q4 Hypercube Extension Strict Math Audit
 
 Primary local interpretation:
@@ -1511,14 +1577,20 @@ Repository-local evidence preferred for web indexing:
 
 Best next steps for GPT-5.5 Pro research:
 
-1. Do not launch full q4 panel yet; first review full-panel generator mode and
-   fold-local analysis implementation.
-2. Treat q4 as a locked diagnostic carrier, not a pristine confirmatory proof.
-3. If the q4 implementation gate is repaired, decide whether the 50-checkpoint
-   panel is worth running before any training or new-loss work.
-4. Keep the older zero-GPU T2 toy sufficiency script and linear-difference
-   kill-test as secondary math tasks.
-5. If PI wants external validity, design outward generalization to another collapse setup rather than another inward MaoField-only negative.
+1. Audit Formal Residual Transport v1.1 as a Mode A proof/harness package:
+   quotient descent, `[P,T]` commutator, square-holonomy decomposition,
+   random-subspace null, rank perturbation, finite gluing/cocycle, product
+   weight boundary, and JSON threshold/environment contract.
+2. Compare v1.1 directly against report(26)'s required patch themes. Decide
+   whether the correct classification is `accept_formal_v1_1_as_patch_only`,
+   `accept_with_v1_2_required`, `reject_as_formal_project`, or
+   `insufficient_artifact_for_audit`.
+3. Do not ask Pro to validate old MaoField empirical claims, chase glass-box
+   language, recommend a full q4 panel, or discuss training/new-loss work.
+4. Keep MaoField Mode B at `insufficient_artifact`; the current package is
+   formal mathematics and synthetic harness auditing only.
+5. If Pro finds a gap, request the smallest v1.2 theorem/counterexample/harness
+   patch that would close it.
 6. Keep philosophical interpretation `[?]` unless Win + PI promote it with evidence.
 
 The main guardrail: do not let a cleaner index become a cleaner overclaim.

@@ -73,6 +73,12 @@ the canonical RAG index.
   node22-vector refresh.
 - `canonical_scope_active_20260625_2218_v11patch.txt` — global active
   canonical scope used for the D625 Formal v1.1 patch node22-vector refresh.
+- `canonical_scope_active_20260625_2248_formalv11pro.txt` — global active
+  canonical scope used for the D625 Formal v1.1 strict-audit Pro package
+  node22-vector refresh.
+- `canonical_scope_active_20260625_2320_formalv11final.txt` — global active
+  canonical scope used for the D625 final Formal v1.1 strict-audit Pro package
+  node22-vector refresh.
 - `NODE22_VECTOR_REBUILD_20260622.md` — rebuild record, index hashes, backup
   paths, and verification boundary for the temporary node22 GPU vector worker.
 - `NODE22_VECTOR_REFRESH_REPORT7_20260623.md` — D623 refresh record proving
@@ -143,6 +149,12 @@ the canonical RAG index.
 - `NODE22_VECTOR_REFRESH_V11PATCH_20260625.md` — D625 refresh record proving
   the Formal v1.1 note, v1.1 synthetic harness, and updated navigation records
   are discoverable through default RAG.
+- `NODE22_VECTOR_REFRESH_FORMALV11_PRO_20260625.md` — D625 refresh record
+  proving the Formal v1.1 strict-audit Pro prompt, package README, and node142
+  package record are discoverable through default RAG.
+- `NODE22_VECTOR_REFRESH_FORMALV11_FINAL_20260625.md` — D625 final refresh
+  record after rebuilding the node142 package as `2315` and re-indexing the
+  updated prompt/package/status materials.
 - `rag_build_node22_20260624_1530_proprompt.log` — D624 final node22 build log
   after `GPT55_PRO_MODE_A_MATH_DISCOVERY_PROMPT_20260623.md` was updated to
   include report(21), report(22), public-404 guardrails, smoke-not-evidence
@@ -175,6 +187,12 @@ the canonical RAG index.
 - `rag_build_node22_20260625_2218_v11patch.log` — D625 node22 build log after
   adding the Formal v1.1 patch note, harness script, summary, JSON, and updated
   navigation/status files.
+- `rag_build_node22_20260625_2248_formalv11pro.log` — D625 node22 build log
+  after adding the Formal v1.1 strict-audit Pro prompt, package README, and
+  node142 package record.
+- `rag_build_node22_20260625_2320_formalv11final.log` — D625 node22 build log
+  after rebuilding the final `2315` Formal v1.1 Pro package and re-indexing the
+  updated prompt/package/status materials.
 
 ## Policy
 
@@ -320,9 +338,26 @@ service was stopped after build.
 D625 Formal v1.1 patch: default `/media/amd/raid1/rag/index` was refreshed
 after adding the Formal v1.1 patch note, v1.1 harness script, summary, JSON,
 and updated navigation/status files. See
-`NODE22_VECTOR_REFRESH_V11PATCH_20260625.md`. Current runtime index: 387 active
+`NODE22_VECTOR_REFRESH_V11PATCH_20260625.md`. Runtime index: 387 active
 canonical markdown files / 9614 chunks; `kb.faiss=a7bcd313...`,
 `kb_meta=9ccf1498...`. Node22 was used only as a temporary bge-m3 worker and
+the service was stopped after build.
+
+D625 Formal v1.1 Pro audit package: default `/media/amd/raid1/rag/index` was
+refreshed after adding the Formal v1.1 strict-audit GPT-5.5 Pro prompt, package
+README, and node142 package record. See
+`NODE22_VECTOR_REFRESH_FORMALV11_PRO_20260625.md`. Runtime index:
+391 active canonical markdown files / 9646 chunks; `kb.faiss=63e1bc97...`,
+`kb_meta=3d5b0c80...`. Node22 was used only as a temporary bge-m3 worker and
+the service was stopped after build.
+
+D625 Formal v1.1 final Pro package: default `/media/amd/raid1/rag/index` was
+refreshed after rebuilding the final node142 package as
+`MaoField_PRO_FoundationalResidualTransport_FormalV11_Audit_20260625_2315.zip`
+and updating the standalone prompt hash. See
+`NODE22_VECTOR_REFRESH_FORMALV11_FINAL_20260625.md`. Current runtime index:
+392 active canonical markdown files / 9660 chunks; `kb.faiss=9a652b4e...`,
+`kb_meta=581753b0...`. Node22 was used only as a temporary bge-m3 worker and
 the service was stopped after build.
 
 Rebuild entry point:
