@@ -30,6 +30,10 @@ It is intentionally separated from the MaoField empirical line:
   nuisance invalidation, transport-stable multidirectional control, square
   no-go controls, rank/random-axis controls, and gluing absorption.
 - `synthetic_harness_v1_20260625.json` — v1 harness JSON output.
+- `FORMAL_NOTE_V1_1_WORKPLAN_20260625.md` — node36 patch plan after the
+  strict Pro audit of v1: quotient descent, projection-evolution commutator,
+  holonomy decomposition, analytic/random nulls, rank perturbation, and
+  triple-overlap gluing.
 
 ## Current Verdict
 
@@ -45,5 +49,6 @@ residual, interaction, transport, or holonomy field.
 
 ## Current Next Step
 
-Use the Formal v1 package for strict GPT-5.5 Pro audit of the v1 note and
-harness. Do not turn the v1 note or synthetic harness into an empirical claim.
+Patch toward Formal Note v1.1 under the same zero-GPU/synthetic boundary. The
+strict audit says v1 is a serious draft, not a completed formal system. Do not
+turn the v1 note or synthetic harness into an empirical claim.

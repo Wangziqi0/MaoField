@@ -236,6 +236,20 @@
 > D625 Formal v1 package RAG refresh complete: default index now contains
 > 380 active canonical markdown files / 9501 chunks; `kb.faiss=bad6c713...`,
 > `kb_meta=e2a941b...`. Node22 temporary bge-m3 service was stopped.
+> D625 report(26) strict v1 audit update: archived
+> `docs/infra/gpt_deep_research/deep_research_formal_residual_transport_v1_strict_audit_20260625.md`
+> and adopted it through
+> `docs/infra/gpt_deep_research/FORMAL_RESIDUAL_TRANSPORT_V1_STRICT_AUDIT_ADOPTION_NOTE_20260625.md`.
+> Local next-step plan:
+> `docs/infra/debranded_residual_transport/FORMAL_NOTE_V1_1_WORKPLAN_20260625.md`.
+> Accepted verdict: keep the mathematical project, revise v1, kill the empirical
+> positive story. Node36 locally verified the main coverage gap: v1 lacks a
+> dedicated projection-evolution commutator theorem, and the v1 harness lacks a
+> standalone `commutator_obstruction` / bad-edge-defect block. This is not a
+> MaoField evidence upgrade.
+> D625 report(26) / v1.1 RAG refresh complete: default index now contains
+> 384 active canonical markdown files / 9574 chunks; `kb.faiss=2fd6f4e...`,
+> `kb_meta=72b357...`. Node22 temporary bge-m3 service was stopped.
 
 ## 0. Scope And Evidence Boundary
 
@@ -383,6 +397,13 @@ Use this order for a cold start:
    - Current allowed interpretation: Formal v1 synthetic controls and strict
      Pro audit package only; no full panel, checkpoint loading, inference,
      training, new loss, or observed-field claim.
+27. D625 Formal v1 strict audit and v1.1 patch plan:
+   - [deep_research_formal_residual_transport_v1_strict_audit_20260625.md](docs/infra/gpt_deep_research/deep_research_formal_residual_transport_v1_strict_audit_20260625.md)
+   - [FORMAL_RESIDUAL_TRANSPORT_V1_STRICT_AUDIT_ADOPTION_NOTE_20260625.md](docs/infra/gpt_deep_research/FORMAL_RESIDUAL_TRANSPORT_V1_STRICT_AUDIT_ADOPTION_NOTE_20260625.md)
+   - [FORMAL_NOTE_V1_1_WORKPLAN_20260625.md](docs/infra/debranded_residual_transport/FORMAL_NOTE_V1_1_WORKPLAN_20260625.md)
+   - Current allowed interpretation: v1 is a serious draft that needs v1.1
+     formal/harness revision; strongest local evidence verdict remains
+     `definitions_and_harness_viable_only`.
 
 ## 2. Current Scientific Position
 
@@ -1143,6 +1164,37 @@ definitions_and_harness_viable_only
 
 The v1 harness and package support strict mathematical audit and v1.1 theorem /
 no-go planning only. They do not create MaoField empirical evidence.
+
+### 4.25 D625 Formal v1 Strict Audit And v1.1 Patch Plan
+
+Strict audit:
+[deep_research_formal_residual_transport_v1_strict_audit_20260625.md](docs/infra/gpt_deep_research/deep_research_formal_residual_transport_v1_strict_audit_20260625.md)
+
+Node36 adoption:
+[FORMAL_RESIDUAL_TRANSPORT_V1_STRICT_AUDIT_ADOPTION_NOTE_20260625.md](docs/infra/gpt_deep_research/FORMAL_RESIDUAL_TRANSPORT_V1_STRICT_AUDIT_ADOPTION_NOTE_20260625.md)
+
+v1.1 workplan:
+[FORMAL_NOTE_V1_1_WORKPLAN_20260625.md](docs/infra/debranded_residual_transport/FORMAL_NOTE_V1_1_WORKPLAN_20260625.md)
+
+Adopted correction:
+
+- keep the debranded mathematical project;
+- revise v1 before calling it a completed formal system;
+- keep killing any MaoField empirical-positive story;
+- patch quotient descent, projection-evolution commutator, square holonomy
+  decomposition, transported invariant definitions, analytic/random-subspace
+  nulls, rank perturbation, triple-overlap gluing, product-weight equivalence,
+  and harness threshold/environment contracts.
+
+Allowed interpretation:
+
+```text
+keep_math_project_revise_v1_kill_empirical_positive_story
+```
+
+The strict audit is a Mode A claim-source/adoption item only. It does not
+authorize full-panel work, checkpoint loading, inference, training, new loss,
+or observed-field language.
 
 ### 4.9 D623 q4 Hypercube Extension Strict Math Audit
 

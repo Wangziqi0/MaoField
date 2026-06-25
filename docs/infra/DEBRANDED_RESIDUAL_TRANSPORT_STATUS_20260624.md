@@ -218,6 +218,37 @@ docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_142_PACKAGE_FORMALV1_20260625.md
 This still does not authorize full-panel work, checkpoint loading, inference,
 training, new loss, or observed-field language.
 
+## 2026-06-25 Formal v1 Strict Audit And v1.1 Patch Plan
+
+The strict Pro audit of the Formal v1 package is archived and adopted here:
+
+```text
+docs/infra/gpt_deep_research/deep_research_formal_residual_transport_v1_strict_audit_20260625.md
+docs/infra/gpt_deep_research/FORMAL_RESIDUAL_TRANSPORT_V1_STRICT_AUDIT_ADOPTION_NOTE_20260625.md
+docs/infra/debranded_residual_transport/FORMAL_NOTE_V1_1_WORKPLAN_20260625.md
+```
+
+Accepted local verdict:
+
+```text
+keep_math_project_revise_v1_kill_empirical_positive_story
+```
+
+Node36 locally verified the audit's main criticism: Formal Note v1 has no
+dedicated projection-evolution commutator theorem, and the v1 harness run list
+does not include a standalone `commutator_obstruction` or bad-edge-defect block
+even though the v1 workplan asked to keep them. The v1 thresholds are fixed in
+Python, but not yet fully registered as a JSON threshold/environment contract.
+
+Therefore the next local task is v1.1, not a new empirical run. v1.1 should
+patch quotient descent, `PT=TP` / `[P,T]`, square holonomy decomposition,
+transported-invariant definitions, analytic/random-subspace nulls, rank-1
+perturbation, triple-overlap gluing, product-weight equivalence, and a tougher
+harness contract.
+
+This still does not authorize full-panel work, checkpoint loading, inference,
+training, new loss, or observed-field language.
+
 ## Product-Weight Boundary
 
 Node36 directly verified that the current q4 x tokenpos4 schema weights are not
