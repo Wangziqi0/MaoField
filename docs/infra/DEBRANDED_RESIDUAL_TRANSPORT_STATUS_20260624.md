@@ -338,6 +338,65 @@ definitions_and_harness_viable_only
 This still does not authorize full-panel work, checkpoint loading, inference,
 training, new loss, or observed-field language.
 
+## 2026-06-26 Formal v1.1 Strict Audit And v1.2 Minimal Patch
+
+The strict Pro audit of the Formal v1.1 package is archived and adopted here:
+
+```text
+docs/infra/gpt_deep_research/deep_research_formal_residual_transport_v1_1_strict_audit_20260626.md
+docs/infra/gpt_deep_research/FORMAL_RESIDUAL_TRANSPORT_V1_1_STRICT_AUDIT_ADOPTION_NOTE_20260626.md
+docs/infra/debranded_residual_transport/FORMAL_NOTE_V1_2_WORKPLAN_20260626.md
+docs/infra/debranded_residual_transport/README_FOR_PRO_FORMALV12_PATCH_20260626.md
+docs/infra/gpt_deep_research/GPT55_PRO_FOUNDATIONAL_RESIDUAL_TRANSPORT_V1_2_PATCH_PROMPT_20260626.md
+docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_142_PACKAGE_FORMALV12_PATCH_20260626.md
+docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_REPORT27_V12_20260626.md
+```
+
+Accepted local verdict:
+
+```text
+accept_with_v1_2_required
+```
+
+Node36 adopts report (27) as a Mode A claim-source only. Formal v1.1 is a
+valid patch direction, but not a completed formal system. The next correct
+target is the smallest mathematically honest v1.2 patch:
+
+- common ambient registration and invariant definitions;
+- random-subspace squared-capture statistic aligned with its Beta null;
+- product-weight Hoeffding positive theorem proof;
+- square-holonomy telescoping defect bookkeeping;
+- single-source threshold contract that drives both proof prose and harness
+  JSON checks.
+
+Strongest current local verdict remains:
+
+```text
+definitions_and_harness_viable_only
+```
+
+This still does not authorize full-panel work, checkpoint loading, inference,
+training, new loss, or observed-field language.
+
+The Formal v1.2 minimal-patch package was copied to node142 desktop and
+hash-verified:
+
+```text
+C:\Users\amd\Desktop\MaoField_PRO_FoundationalResidualTransport_FormalV12_MinimalPatch_20260626_1250.zip
+zip sha256=7b6c233690a4468b6e448b5fc9ae5f3bb7bb4785ac9dcd8b37ef4a8f398043d9
+prompt sha256=cb41ab362a3720cfe1769e3ab6a449f71252660925fe48fb8dd12dc88d53ffa3
+```
+
+Default RAG has been refreshed with a node22 one-shot bge-m3 worker after this
+package was added:
+
+```text
+docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_REPORT27_V12_20260626.md
+runtime index: 400 active canonical md / 9749 chunks
+kb.faiss=12697c08...
+kb_meta=d858b281...
+```
+
 ## Product-Weight Boundary
 
 Node36 directly verified that the current q4 x tokenpos4 schema weights are not

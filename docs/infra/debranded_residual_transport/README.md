@@ -56,6 +56,22 @@ It is intentionally separated from the MaoField empirical line:
 - `../rag_rebuild_20260622/NODE22_VECTOR_REFRESH_FORMALV11_FINAL_20260625.md` —
   current final RAG refresh record for the `2315` node142 package and updated
   standalone prompt hash.
+- `../gpt_deep_research/deep_research_formal_residual_transport_v1_1_strict_audit_20260626.md` —
+  strict GPT-5.5 Pro audit of Formal v1.1, with final classification
+  `accept_with_v1_2_required`.
+- `../gpt_deep_research/FORMAL_RESIDUAL_TRANSPORT_V1_1_STRICT_AUDIT_ADOPTION_NOTE_20260626.md` —
+  node36 adoption note for report (27).
+- `FORMAL_NOTE_V1_2_WORKPLAN_20260626.md` — minimal v1.2 patch plan:
+  common ambient registration, squared-capture random null closure,
+  product-weight theorem proof, holonomy telescoping, and single-source
+  threshold contract.
+- `README_FOR_PRO_FORMALV12_PATCH_20260626.md` — upload/package guide for the
+  GPT-5.5 Pro Formal v1.2 minimal patch pass.
+- `../DEBRANDED_RESIDUAL_TRANSPORT_142_PACKAGE_FORMALV12_PATCH_20260626.md` —
+  node142 package record for the Formal v1.2 minimal-patch prompt and bundle.
+- `../rag_rebuild_20260622/NODE22_VECTOR_REFRESH_REPORT27_V12_20260626.md` —
+  current default RAG refresh record for report (27), the v1.2 prompt, and the
+  FormalV12 package record.
 
 ## Current Verdict
 
@@ -71,7 +87,7 @@ residual, interaction, transport, or holonomy field.
 
 ## Current Next Step
 
-Use the Formal v1.1 Pro audit package as the next strict audit target. It asks
-GPT-5.5 Pro to check whether v1.1 really patches the gaps identified by report
-(26), but this remains zero-GPU synthetic/formal work. Do not turn the v1.1
-note or synthetic harness into an empirical claim.
+Use the Formal v1.2 Pro patch package as the next strict target. It asks
+GPT-5.5 Pro to design the smallest mathematically honest v1.2 patch after
+report (27)'s `accept_with_v1_2_required` verdict. Do not turn the v1.1 note,
+v1.2 plan, Pro package, or synthetic harness into an empirical claim.

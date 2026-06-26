@@ -280,6 +280,33 @@
 > `kb.faiss=9a652b4e...`, `kb_meta=581753b0...`. Record:
 > `docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_FORMALV11_FINAL_20260625.md`.
 > Node22 temporary bge-m3 service was stopped.
+> D626 report(27) / Formal v1.2 patch update: archived
+> `docs/infra/gpt_deep_research/deep_research_formal_residual_transport_v1_1_strict_audit_20260626.md`
+> and adopted it through
+> `docs/infra/gpt_deep_research/FORMAL_RESIDUAL_TRANSPORT_V1_1_STRICT_AUDIT_ADOPTION_NOTE_20260626.md`.
+> Final classification: `accept_with_v1_2_required`. Formal v1.1 is an
+> effective Mode A patch direction but not a completed formal system. Local next
+> target: `docs/infra/debranded_residual_transport/FORMAL_NOTE_V1_2_WORKPLAN_20260626.md`
+> and
+> `docs/infra/gpt_deep_research/GPT55_PRO_FOUNDATIONAL_RESIDUAL_TRANSPORT_V1_2_PATCH_PROMPT_20260626.md`.
+> Mode B MaoField remains `insufficient_artifact`; no full panel, training, new
+> loss, or observed residual/interaction/transport/holonomy field claim is
+> authorized.
+> D626 Formal v1.2 minimal-patch package update: added
+> `docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_142_PACKAGE_FORMALV12_PATCH_20260626.md`.
+> The node142 desktop package is
+> `MaoField_PRO_FoundationalResidualTransport_FormalV12_MinimalPatch_20260626_1250.zip`;
+> zip sha256
+> `7b6c233690a4468b6e448b5fc9ae5f3bb7bb4785ac9dcd8b37ef4a8f398043d9`;
+> standalone prompt sha256
+> `cb41ab362a3720cfe1769e3ab6a449f71252660925fe48fb8dd12dc88d53ffa3`.
+> It is for zero-context v1.2 minimal-patch design, not v1.2 implementation
+> audit and not MaoField empirical validation.
+> D626 report(27)/FormalV12 final RAG refresh complete: default node36 RAG now
+> contains 400 active canonical markdown files / 9749 chunks;
+> `kb.faiss=12697c08...`, `kb_meta=d858b281...`. Record:
+> `docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_REPORT27_V12_20260626.md`.
+> Node22 temporary bge-m3 service was stopped.
 
 ## 0. Scope And Evidence Boundary
 
@@ -450,6 +477,17 @@ Use this order for a cold start:
    - Current allowed interpretation: zero-context Pro proof/harness audit
      package only; no full panel, checkpoint loading, inference, training, new
      loss, or observed-field claim.
+30. D626 report(27) and Formal v1.2 minimal patch prompt:
+   - [deep_research_formal_residual_transport_v1_1_strict_audit_20260626.md](docs/infra/gpt_deep_research/deep_research_formal_residual_transport_v1_1_strict_audit_20260626.md)
+   - [FORMAL_RESIDUAL_TRANSPORT_V1_1_STRICT_AUDIT_ADOPTION_NOTE_20260626.md](docs/infra/gpt_deep_research/FORMAL_RESIDUAL_TRANSPORT_V1_1_STRICT_AUDIT_ADOPTION_NOTE_20260626.md)
+   - [FORMAL_NOTE_V1_2_WORKPLAN_20260626.md](docs/infra/debranded_residual_transport/FORMAL_NOTE_V1_2_WORKPLAN_20260626.md)
+   - [README_FOR_PRO_FORMALV12_PATCH_20260626.md](docs/infra/debranded_residual_transport/README_FOR_PRO_FORMALV12_PATCH_20260626.md)
+   - [GPT55_PRO_FOUNDATIONAL_RESIDUAL_TRANSPORT_V1_2_PATCH_PROMPT_20260626.md](docs/infra/gpt_deep_research/GPT55_PRO_FOUNDATIONAL_RESIDUAL_TRANSPORT_V1_2_PATCH_PROMPT_20260626.md)
+   - [DEBRANDED_RESIDUAL_TRANSPORT_142_PACKAGE_FORMALV12_PATCH_20260626.md](docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_142_PACKAGE_FORMALV12_PATCH_20260626.md)
+   - [NODE22_VECTOR_REFRESH_REPORT27_V12_20260626.md](docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_REPORT27_V12_20260626.md)
+   - Current allowed interpretation: design the smallest mathematically honest
+     v1.2 patch after `accept_with_v1_2_required`; do not repeat v1.1 audit as
+     if it were still the frontier and do not upgrade Mode B evidence.
 
 ## 2. Current Scientific Position
 
@@ -1327,6 +1365,71 @@ Forbidden task:
 ```text
 MaoField empirical validation, full-panel recommendation, training, new loss,
 or observed-field/glass-box/F3/LOSO claim promotion
+```
+
+### 4.28 D626 Formal v1.1 Strict Audit And v1.2 Minimal Patch
+
+Strict audit report:
+[deep_research_formal_residual_transport_v1_1_strict_audit_20260626.md](docs/infra/gpt_deep_research/deep_research_formal_residual_transport_v1_1_strict_audit_20260626.md)
+
+Node36 adoption note:
+[FORMAL_RESIDUAL_TRANSPORT_V1_1_STRICT_AUDIT_ADOPTION_NOTE_20260626.md](docs/infra/gpt_deep_research/FORMAL_RESIDUAL_TRANSPORT_V1_1_STRICT_AUDIT_ADOPTION_NOTE_20260626.md)
+
+v1.2 workplan:
+[FORMAL_NOTE_V1_2_WORKPLAN_20260626.md](docs/infra/debranded_residual_transport/FORMAL_NOTE_V1_2_WORKPLAN_20260626.md)
+
+v1.2 package README:
+[README_FOR_PRO_FORMALV12_PATCH_20260626.md](docs/infra/debranded_residual_transport/README_FOR_PRO_FORMALV12_PATCH_20260626.md)
+
+Primary zero-context prompt:
+[GPT55_PRO_FOUNDATIONAL_RESIDUAL_TRANSPORT_V1_2_PATCH_PROMPT_20260626.md](docs/infra/gpt_deep_research/GPT55_PRO_FOUNDATIONAL_RESIDUAL_TRANSPORT_V1_2_PATCH_PROMPT_20260626.md)
+
+142 package record:
+[DEBRANDED_RESIDUAL_TRANSPORT_142_PACKAGE_FORMALV12_PATCH_20260626.md](docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_142_PACKAGE_FORMALV12_PATCH_20260626.md)
+
+RAG refresh record:
+[NODE22_VECTOR_REFRESH_REPORT27_V12_20260626.md](docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_REPORT27_V12_20260626.md)
+
+Report (27) verdict:
+
+```text
+accept_with_v1_2_required
+```
+
+Meaning:
+
+- Formal v1.1 is a serious Mode A patch direction.
+- Formal v1.1 should not be called a completed formal system.
+- The next correct task is a minimal v1.2 patch, not another empirical
+  MaoField rescue attempt.
+- The four main v1.2 obligations are common ambient / invariant definitions,
+  random-subspace statistic alignment with the squared-capture Beta law,
+  product-weight positive Hoeffding theorem proof, and a threshold contract
+  whose JSON is the single source of truth.
+
+Allowed task:
+
+```text
+design the smallest mathematically honest v1.2 formal/harness patch
+```
+
+Copied package:
+
+```text
+C:\Users\amd\Desktop\MaoField_PRO_FoundationalResidualTransport_FormalV12_MinimalPatch_20260626_1250.zip
+zip sha256=7b6c233690a4468b6e448b5fc9ae5f3bb7bb4785ac9dcd8b37ef4a8f398043d9
+prompt sha256=cb41ab362a3720cfe1769e3ab6a449f71252660925fe48fb8dd12dc88d53ffa3
+default RAG=400 active canonical md / 9749 chunks
+kb.faiss=12697c08f4fd16b7cd83bd1a49e298b1eb3d058da36e3090be0f2c13cecab862
+kb_meta=d858b281da1b74ea4858d67dbb83fb134ba85963906e6be7dce4461a7e23f41c
+```
+
+Forbidden task:
+
+```text
+MaoField empirical validation, full-panel recommendation, checkpoint loading,
+inference, training, new loss, or observed residual/interaction/quotient/
+transport/holonomy field claim promotion
 ```
 
 ### 4.9 D623 q4 Hypercube Extension Strict Math Audit
