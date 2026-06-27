@@ -1,6 +1,17 @@
 # MaoField GPT-5.5 Pro Research Index
 
 > Built on 2026-06-22 after a node-36 takeover audit, six-agent read-only review, RAG-assisted discovery, and direct source reads. This file is a **sanitized repository-local research index** for GitHub / web indexing. It does not replace `STATE.md`; volatile project status still belongs there.
+>
+> D627 update: report (28) was archived as the Formal v1.2 minimal patch design
+> report and adopted as `v1_2_small_patch_feasible`. Node36 implemented
+> `FORMAL_NOTE_V1_2_20260627.md`, `scripts/debranded_residual_transport_harness_v1_2.py`,
+> `SYNTHETIC_HARNESS_V1_2_20260627.md`, and
+> `synthetic_harness_v1_2_20260627.json`. The next Pro task is a strict
+> implementation audit using
+> `GPT55_PRO_FOUNDATIONAL_RESIDUAL_TRANSPORT_V1_2_IMPLEMENTATION_AUDIT_PROMPT_20260627.md`,
+> not another design pass. Mode B remains `insufficient_artifact`; no full
+> panel, training, new loss, observed field, or completed-formal-system claim
+> is authorized.
 
 > **D622 21:21 update.** PRO report (6) has been archived locally as a q4
 > strict bundle audit. It did **not** approve full 50-checkpoint panel
@@ -1430,6 +1441,78 @@ Forbidden task:
 MaoField empirical validation, full-panel recommendation, checkpoint loading,
 inference, training, new loss, or observed residual/interaction/quotient/
 transport/holonomy field claim promotion
+```
+
+### 4.29 D627 Formal v1.2 Implementation And Next Audit
+
+Minimal-patch design report:
+[deep_research_formal_residual_transport_v1_2_minimal_patch_20260627.md](docs/infra/gpt_deep_research/deep_research_formal_residual_transport_v1_2_minimal_patch_20260627.md)
+
+Node36 adoption note:
+[FORMAL_RESIDUAL_TRANSPORT_V1_2_MINIMAL_PATCH_ADOPTION_NOTE_20260627.md](docs/infra/gpt_deep_research/FORMAL_RESIDUAL_TRANSPORT_V1_2_MINIMAL_PATCH_ADOPTION_NOTE_20260627.md)
+
+Formal note:
+[FORMAL_NOTE_V1_2_20260627.md](docs/infra/debranded_residual_transport/FORMAL_NOTE_V1_2_20260627.md)
+
+Harness script:
+[debranded_residual_transport_harness_v1_2.py](scripts/debranded_residual_transport_harness_v1_2.py)
+
+Harness summary and JSON:
+
+- [SYNTHETIC_HARNESS_V1_2_20260627.md](docs/infra/debranded_residual_transport/SYNTHETIC_HARNESS_V1_2_20260627.md)
+- [synthetic_harness_v1_2_20260627.json](docs/infra/debranded_residual_transport/synthetic_harness_v1_2_20260627.json)
+
+Next Pro prompt:
+[GPT55_PRO_FOUNDATIONAL_RESIDUAL_TRANSPORT_V1_2_IMPLEMENTATION_AUDIT_PROMPT_20260627.md](docs/infra/gpt_deep_research/GPT55_PRO_FOUNDATIONAL_RESIDUAL_TRANSPORT_V1_2_IMPLEMENTATION_AUDIT_PROMPT_20260627.md)
+
+142 package record:
+[DEBRANDED_RESIDUAL_TRANSPORT_142_PACKAGE_FORMALV12_IMPLEMENTATION_AUDIT_20260627.md](docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_142_PACKAGE_FORMALV12_IMPLEMENTATION_AUDIT_20260627.md)
+
+Report (28) verdict:
+
+```text
+v1_2_small_patch_feasible
+```
+
+Local implementation status:
+
+```text
+all_synthetic_controls_passed=true
+threshold_contract_sha256=0bb99a4a711405fb65e81413cfd283d6e68d0ecd4e9c34dc027c052f332110e0
+```
+
+Copied package:
+
+```text
+C:\Users\amd\Desktop\MaoField_PRO_FoundationalResidualTransport_FormalV12_ImplementationAudit_20260627_1308.zip
+zip sha256=ddb74fa1620324f59a4a5384eccf29c8089216a5a5a6af38dff7d465ceecbbf2
+prompt sha256=58be0c35904789a41ba94a3bef6445c23a66527c7bb5d2bef484306d227008b4
+```
+
+Meaning:
+
+- v1.2 now has a local finite-dimensional formal note and synthetic harness.
+- Registered ambient language is explicit before stack/spectrum/angle/norm
+  diagnostics.
+- Random-subspace closure uses squared capture, not unsquared norm ratio.
+- Product-weight Hoeffding language is restricted to exact product weights.
+- Square-holonomy telescoping is implemented as finite internal-projection
+  insertion bookkeeping.
+- Thresholds are evaluated through a single contract and central evaluator.
+
+Allowed next task:
+
+```text
+strictly audit whether the local v1.2 implementation is mathematically and
+reproducibly correct
+```
+
+Forbidden interpretation:
+
+```text
+completed formal system, MaoField empirical validation, full panel,
+checkpoint loading, inference, training, new loss, or observed
+residual/interaction/quotient/transport/holonomy field claim promotion
 ```
 
 ### 4.9 D623 q4 Hypercube Extension Strict Math Audit

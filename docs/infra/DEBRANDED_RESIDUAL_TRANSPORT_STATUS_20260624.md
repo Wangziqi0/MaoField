@@ -397,6 +397,54 @@ kb.faiss=12697c08...
 kb_meta=d858b281...
 ```
 
+## 2026-06-27 Formal v1.2 Implementation
+
+Node36 adopts report (28) as a Mode A claim-source and implementation guide:
+
+```text
+v1_2_small_patch_feasible
+```
+
+The local v1.2 implementation adds:
+
+```text
+docs/infra/gpt_deep_research/deep_research_formal_residual_transport_v1_2_minimal_patch_20260627.md
+docs/infra/gpt_deep_research/FORMAL_RESIDUAL_TRANSPORT_V1_2_MINIMAL_PATCH_ADOPTION_NOTE_20260627.md
+docs/infra/debranded_residual_transport/FORMAL_NOTE_V1_2_20260627.md
+scripts/debranded_residual_transport_harness_v1_2.py
+docs/infra/debranded_residual_transport/SYNTHETIC_HARNESS_V1_2_20260627.md
+docs/infra/debranded_residual_transport/synthetic_harness_v1_2_20260627.json
+docs/infra/debranded_residual_transport/README_FOR_PRO_FORMALV12_IMPLEMENTATION_AUDIT_20260627.md
+docs/infra/gpt_deep_research/GPT55_PRO_FOUNDATIONAL_RESIDUAL_TRANSPORT_V1_2_IMPLEMENTATION_AUDIT_PROMPT_20260627.md
+```
+
+The v1.2 harness was run under node36 SSD scratch:
+
+```text
+/home/amd/codex-node36/tmp/maofield-formal-v12-impl-20260627_1255/
+```
+
+Observed local synthetic result:
+
+```text
+all_synthetic_controls_passed=true
+block_count=12
+threshold_contract_sha256=0bb99a4a711405fb65e81413cfd283d6e68d0ecd4e9c34dc027c052f332110e0
+```
+
+This is still only a synthetic finite-dimensional formal-design result. It
+does not authorize full-panel work, checkpoint loading, inference, training,
+new loss, observed-field language, or completed-formal-system language.
+
+The Formal v1.2 implementation-audit package was copied to node142 desktop and
+hash-verified:
+
+```text
+C:\Users\amd\Desktop\MaoField_PRO_FoundationalResidualTransport_FormalV12_ImplementationAudit_20260627_1308.zip
+zip sha256=ddb74fa1620324f59a4a5384eccf29c8089216a5a5a6af38dff7d465ceecbbf2
+prompt sha256=58be0c35904789a41ba94a3bef6445c23a66527c7bb5d2bef484306d227008b4
+```
+
 ## Product-Weight Boundary
 
 Node36 directly verified that the current q4 x tokenpos4 schema weights are not

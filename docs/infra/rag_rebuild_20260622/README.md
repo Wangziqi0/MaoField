@@ -360,6 +360,23 @@ and updating the standalone prompt hash. See
 `kb_meta=581753b0...`. Node22 was used only as a temporary bge-m3 worker and
 the service was stopped after build.
 
+D626 report(27) / Formal v1.2 design package: default
+`/media/amd/raid1/rag/index` was refreshed after adding report (27), the v1.2
+workplan, the FormalV12 minimal-patch Pro prompt, and node142 package record.
+See `NODE22_VECTOR_REFRESH_REPORT27_V12_20260626.md`. Runtime index:
+400 active canonical markdown files / 9749 chunks; `kb.faiss=12697c08...`,
+`kb_meta=d858b281...`. Node22 was used only as a temporary bge-m3 worker and
+the service was stopped after build.
+
+D627 report(28) / Formal v1.2 implementation audit package: default
+`/media/amd/raid1/rag/index` was refreshed after adding report (28), the local
+v1.2 note, v1.2 harness script/summary/JSON, the implementation-audit prompt,
+and node142 package record. See
+`NODE22_VECTOR_REFRESH_FORMALV12_IMPL_AUDIT_20260627.md`. Runtime index:
+407 active canonical markdown files / 9843 chunks; `kb.faiss=c9aa97af...`,
+`kb_meta=e25f9fa3...`. Node22 was used only as a temporary bge-m3 worker and
+the service was stopped after build.
+
 Rebuild entry point:
 
 ```bash
