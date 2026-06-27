@@ -445,6 +445,95 @@ zip sha256=ddb74fa1620324f59a4a5384eccf29c8089216a5a5a6af38dff7d465ceecbbf2
 prompt sha256=58be0c35904789a41ba94a3bef6445c23a66527c7bb5d2bef484306d227008b4
 ```
 
+## 2026-06-27 Formal v1.2 Report(29) Minor Revision
+
+Node36 adopts report (29) as a Mode A implementation-audit claim-source:
+
+```text
+formal_v1_2_patch_requires_minor_revision
+```
+
+Report (29) accepted the v1.2 mathematical body within the finite-dimensional
+synthetic boundary, but required a minor threshold-contract repair:
+
+- `threshold_contract_single_source_control` must not self-assign pass/fail;
+- `json_threshold_contract_sha256` must come from a written JSON readback.
+
+Node36 applied only that repair. Post-repair harness facts:
+
+```text
+scratch=/home/amd/codex-node36/tmp/maofield-formal-v12-minor-20260627_1505/
+all_synthetic_controls_passed=true
+threshold_contract_sha256=0bb99a4a711405fb65e81413cfd283d6e68d0ecd4e9c34dc027c052f332110e0
+threshold_contract_single_source_control.pass=true
+threshold_contract_single_source_control.evaluated_by=evaluate_test
+threshold_contract_single_source_control.json_threshold_contract_source=readback_from_written_json_threshold_contract
+threshold_contract_single_source_control.per_test_threshold_mismatches=[]
+```
+
+Current allowed interpretation:
+
+```text
+definitions_and_harness_viable_only
+```
+
+Mode B MaoField empirical status remains:
+
+```text
+insufficient_artifact
+```
+
+The next Pro task is a narrow report(29) minor-revision audit, not a new broad
+design pass and not MaoField empirical validation.
+
+## 2026-06-27 Report(29) Minor Revision Patch
+
+Node36 adopts report (29) as:
+
+```text
+formal_v1_2_patch_requires_minor_revision
+```
+
+The mathematical body of Formal v1.2 remains locally viable inside the
+finite/synthetic boundary, but report (29) found a minor implementation issue
+in the threshold-contract meta-audit. Node36 applied the narrow repair:
+
+```text
+threshold_contract_single_source_control.pass is assigned by evaluate_test()
+json_threshold_contract_sha256 is read back from the written JSON
+per_test_threshold_mismatches=[]
+```
+
+The report(29) minor-revision Pro package is now on node142:
+
+```text
+C:\Users\amd\Desktop\MaoField_PRO_FoundationalResidualTransport_FormalV12_Report29_MinorRevisionAudit_20260627_1512.zip
+zip sha256=dc1eee38200170cca3852d292bc90f8a243bb6edb53f621e6a476b01d6549656
+prompt sha256=e44dcbd7db0355707a0628ba0c53bac5428a653ed8309c1db3b2015e7c3e1f11
+```
+
+Default RAG has been refreshed again with a node22 one-shot bge-m3 worker. The
+first report29 refresh is:
+
+```text
+docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_REPORT29_FORMALV12_MINOR_20260627.md
+runtime index: 413 active canonical md / 9915 chunks
+kb.faiss=4f085559...
+kb_meta=c9301dac...
+```
+
+The current final metadata refresh is:
+
+```text
+docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_REPORT29_FINAL_20260627.md
+runtime index: 414 active canonical md / 9929 chunks
+kb.faiss=8a5fe6f7...
+kb_meta=ee5d42e4...
+```
+
+This remains Mode A formal/synthetic work only. It does not authorize a
+completed-formal-system claim or any MaoField empirical upgrade.
+
 ## Product-Weight Boundary
 
 Node36 directly verified that the current q4 x tokenpos4 schema weights are not

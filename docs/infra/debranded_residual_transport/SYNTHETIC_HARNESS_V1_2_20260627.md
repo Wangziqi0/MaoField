@@ -33,7 +33,8 @@ docs/infra/debranded_residual_transport/synthetic_harness_v1_2_20260627.json
 - pass/fail is assigned only by `evaluate_test`;
 - all thresholds come from `build_threshold_contract`;
 - top-level JSON serializes the same threshold contract;
-- `threshold_contract_single_source_control` verifies the contract path.
+- `threshold_contract_single_source_control` verifies the central evaluator path;
+- JSON-side threshold hash is read back from a written JSON artifact.
 
 ## Blocks
 
@@ -72,6 +73,9 @@ random_subspace_beta_squared_capture_control.true_subspace_squared_capture = 0.9
 square_holonomy_telescoping_control.max_telescoping_identity_error = 2.22044604925e-16
 square_holonomy_telescoping_control.square_identity_error = 1.11022302463e-16
 threshold_contract_single_source_control.runtime_threshold_contract_sha256 = 0bb99a4a711405fb65e81413cfd283d6e68d0ecd4e9c34dc027c052f332110e0
+threshold_contract_single_source_control.json_threshold_contract_sha256 = 0bb99a4a711405fb65e81413cfd283d6e68d0ecd4e9c34dc027c052f332110e0
+threshold_contract_single_source_control.json_threshold_contract_source = readback_from_written_json_threshold_contract
+threshold_contract_single_source_control.central_evaluator_used = True
 ```
 
 ## Interpretation

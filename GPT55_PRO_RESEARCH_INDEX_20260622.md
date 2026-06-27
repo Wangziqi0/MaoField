@@ -2,16 +2,25 @@
 
 > Built on 2026-06-22 after a node-36 takeover audit, six-agent read-only review, RAG-assisted discovery, and direct source reads. This file is a **sanitized repository-local research index** for GitHub / web indexing. It does not replace `STATE.md`; volatile project status still belongs there.
 >
-> D627 update: report (28) was archived as the Formal v1.2 minimal patch design
-> report and adopted as `v1_2_small_patch_feasible`. Node36 implemented
-> `FORMAL_NOTE_V1_2_20260627.md`, `scripts/debranded_residual_transport_harness_v1_2.py`,
-> `SYNTHETIC_HARNESS_V1_2_20260627.md`, and
-> `synthetic_harness_v1_2_20260627.json`. The next Pro task is a strict
-> implementation audit using
-> `GPT55_PRO_FOUNDATIONAL_RESIDUAL_TRANSPORT_V1_2_IMPLEMENTATION_AUDIT_PROMPT_20260627.md`,
-> not another design pass. Mode B remains `insufficient_artifact`; no full
-> panel, training, new loss, observed field, or completed-formal-system claim
-> is authorized.
+> D627 update: report (29) was archived as the Formal v1.2 implementation
+> audit and adopted as `formal_v1_2_patch_requires_minor_revision`. Node36
+> applied the narrow threshold-contract minor revision in
+> `scripts/debranded_residual_transport_harness_v1_2.py`, regenerated
+> `SYNTHETIC_HARNESS_V1_2_20260627.md` and
+> `synthetic_harness_v1_2_20260627.json`, and prepared
+> `GPT55_PRO_FOUNDATIONAL_RESIDUAL_TRANSPORT_V1_2_REPORT29_MINOR_REVISION_AUDIT_PROMPT_20260627.md`
+> for the next Pro pass. The node142 package
+> `MaoField_PRO_FoundationalResidualTransport_FormalV12_Report29_MinorRevisionAudit_20260627_1512.zip`
+> has zip sha256
+> `dc1eee38200170cca3852d292bc90f8a243bb6edb53f621e6a476b01d6549656`; standalone
+> prompt sha256
+> `e44dcbd7db0355707a0628ba0c53bac5428a653ed8309c1db3b2015e7c3e1f11`.
+> Default RAG was refreshed with node22 one-shot embedding to 414 active
+> canonical markdown files / 9929 chunks; `kb.faiss=8a5fe6f7...`,
+> `kb_meta=ee5d42e4...`; current final record:
+> `docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_REPORT29_FINAL_20260627.md`.
+> Mode B remains `insufficient_artifact`; no full panel, training, new loss,
+> observed field, or completed-formal-system claim is authorized.
 
 > **D622 21:21 update.** PRO report (6) has been archived locally as a q4
 > strict bundle audit. It did **not** approve full 50-checkpoint panel
@@ -317,6 +326,16 @@
 > contains 400 active canonical markdown files / 9749 chunks;
 > `kb.faiss=12697c08...`, `kb_meta=d858b281...`. Record:
 > `docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_REPORT27_V12_20260626.md`.
+> Node22 temporary bge-m3 service was stopped.
+> D627 report(29)/FormalV12 minor-revision RAG refresh complete: default
+> node36 RAG now contains 413 active canonical markdown files / 9915 chunks;
+> `kb.faiss=4f085559...`, `kb_meta=c9301dac...`. Record:
+> `docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_REPORT29_FORMALV12_MINOR_20260627.md`.
+> Node22 temporary bge-m3 service was stopped.
+> D627 report(29) final metadata RAG refresh complete: default node36 RAG now
+> contains 414 active canonical markdown files / 9929 chunks;
+> `kb.faiss=8a5fe6f7...`, `kb_meta=ee5d42e4...`. Current final record:
+> `docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_REPORT29_FINAL_20260627.md`.
 > Node22 temporary bge-m3 service was stopped.
 
 ## 0. Scope And Evidence Boundary
@@ -1515,6 +1534,77 @@ checkpoint loading, inference, training, new loss, or observed
 residual/interaction/quotient/transport/holonomy field claim promotion
 ```
 
+### 4.30 D627 Report(29) Formal v1.2 Minor Revision
+
+Implementation-audit report:
+[deep_research_formal_residual_transport_v1_2_implementation_audit_20260627.md](docs/infra/gpt_deep_research/deep_research_formal_residual_transport_v1_2_implementation_audit_20260627.md)
+
+Node36 adoption note:
+[FORMAL_RESIDUAL_TRANSPORT_V1_2_IMPLEMENTATION_AUDIT_ADOPTION_NOTE_20260627.md](docs/infra/gpt_deep_research/FORMAL_RESIDUAL_TRANSPORT_V1_2_IMPLEMENTATION_AUDIT_ADOPTION_NOTE_20260627.md)
+
+Patched script and regenerated artifacts:
+
+- [debranded_residual_transport_harness_v1_2.py](scripts/debranded_residual_transport_harness_v1_2.py)
+- [SYNTHETIC_HARNESS_V1_2_20260627.md](docs/infra/debranded_residual_transport/SYNTHETIC_HARNESS_V1_2_20260627.md)
+- [synthetic_harness_v1_2_20260627.json](docs/infra/debranded_residual_transport/synthetic_harness_v1_2_20260627.json)
+
+Next Pro prompt:
+[GPT55_PRO_FOUNDATIONAL_RESIDUAL_TRANSPORT_V1_2_REPORT29_MINOR_REVISION_AUDIT_PROMPT_20260627.md](docs/infra/gpt_deep_research/GPT55_PRO_FOUNDATIONAL_RESIDUAL_TRANSPORT_V1_2_REPORT29_MINOR_REVISION_AUDIT_PROMPT_20260627.md)
+
+142 package record:
+[DEBRANDED_RESIDUAL_TRANSPORT_142_PACKAGE_FORMALV12_REPORT29_MINOR_REVISION_AUDIT_20260627.md](docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_142_PACKAGE_FORMALV12_REPORT29_MINOR_REVISION_AUDIT_20260627.md)
+
+RAG refresh record:
+[NODE22_VECTOR_REFRESH_REPORT29_FORMALV12_MINOR_20260627.md](docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_REPORT29_FORMALV12_MINOR_20260627.md)
+
+Final RAG refresh record:
+[NODE22_VECTOR_REFRESH_REPORT29_FINAL_20260627.md](docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_REPORT29_FINAL_20260627.md)
+
+Report (29) verdict:
+
+```text
+formal_v1_2_patch_requires_minor_revision
+```
+
+Local patch facts:
+
+```text
+threshold_contract_single_source_control.evaluated_by=evaluate_test
+threshold_contract_single_source_control.json_threshold_contract_source=readback_from_written_json_threshold_contract
+threshold_contract_single_source_control.per_test_threshold_mismatches=[]
+all_synthetic_controls_passed=true
+```
+
+Copied package:
+
+```text
+C:\Users\amd\Desktop\MaoField_PRO_FoundationalResidualTransport_FormalV12_Report29_MinorRevisionAudit_20260627_1512.zip
+zip sha256=dc1eee38200170cca3852d292bc90f8a243bb6edb53f621e6a476b01d6549656
+prompt sha256=e44dcbd7db0355707a0628ba0c53bac5428a653ed8309c1db3b2015e7c3e1f11
+```
+
+Meaning:
+
+- Report (29) accepted the mathematical body of v1.2 within the finite
+  synthetic boundary.
+- The only local repair was the threshold-contract meta-audit path.
+- The repaired harness remains a synthetic formal-design artifact only.
+
+Allowed next task:
+
+```text
+strictly audit whether the report(29) threshold-contract minor revision is now
+closed locally
+```
+
+Forbidden interpretation:
+
+```text
+completed formal system, MaoField empirical validation, full panel,
+checkpoint loading, inference, training, new loss, or observed
+residual/interaction/quotient/transport/holonomy field claim promotion
+```
+
 ### 4.9 D623 q4 Hypercube Extension Strict Math Audit
 
 Primary local interpretation:
@@ -1763,20 +1853,24 @@ Repository-local evidence preferred for web indexing:
 
 Best next steps for GPT-5.5 Pro research:
 
-1. Audit Formal Residual Transport v1.1 as a Mode A proof/harness package:
-   quotient descent, `[P,T]` commutator, square-holonomy decomposition,
-   random-subspace null, rank perturbation, finite gluing/cocycle, product
-   weight boundary, and JSON threshold/environment contract.
-2. Compare v1.1 directly against report(26)'s required patch themes. Decide
-   whether the correct classification is `accept_formal_v1_1_as_patch_only`,
-   `accept_with_v1_2_required`, `reject_as_formal_project`, or
-   `insufficient_artifact_for_audit`.
-3. Do not ask Pro to validate old MaoField empirical claims, chase glass-box
+1. Use
+   `GPT55_PRO_FOUNDATIONAL_RESIDUAL_TRANSPORT_V1_2_REPORT29_MINOR_REVISION_AUDIT_PROMPT_20260627.md`
+   as the zero-context prompt and attach the report(29) minor-revision package
+   from node142.
+2. Audit only whether node36's threshold-contract repair closes report(29)'s
+   two minor implementation concerns: central `evaluate_test()` ownership of
+   the meta-block pass/fail value, and JSON-side threshold hash readback from
+   the written JSON.
+3. Allowed final classifications are limited to
+   `formal_v1_2_patch_accepted_after_minor_revision`,
+   `formal_v1_2_patch_requires_another_minor_revision`,
+   `formal_v1_2_patch_rejected`, or `insufficient_artifact_for_audit`.
+4. Do not ask Pro to validate old MaoField empirical claims, chase glass-box
    language, recommend a full q4 panel, or discuss training/new-loss work.
-4. Keep MaoField Mode B at `insufficient_artifact`; the current package is
+5. Keep MaoField Mode B at `insufficient_artifact`; the current package is
    formal mathematics and synthetic harness auditing only.
-5. If Pro finds a gap, request the smallest v1.2 theorem/counterexample/harness
-   patch that would close it.
-6. Keep philosophical interpretation `[?]` unless Win + PI promote it with evidence.
+6. If Pro finds a gap, request the smallest theorem/counterexample/harness
+   patch that would close the report(29) minor revision without expanding scope.
+7. Keep philosophical interpretation `[?]` unless Win + PI promote it with evidence.
 
 The main guardrail: do not let a cleaner index become a cleaner overclaim.

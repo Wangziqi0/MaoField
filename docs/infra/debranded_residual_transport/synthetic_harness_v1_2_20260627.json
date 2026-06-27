@@ -1,6 +1,6 @@
 {
   "schema": "debranded_residual_transport_synthetic_harness_v1_2",
-  "created_utc": "2026-06-27T05:04:15+00:00",
+  "created_utc": "2026-06-27T07:04:03+00:00",
   "seed": 20260627,
   "draws": 5000,
   "environment": {
@@ -99,6 +99,7 @@
         "max_residual_difference_norm": 1e-12
       },
       "threshold_contract_hash": "0bb99a4a711405fb65e81413cfd283d6e68d0ecd4e9c34dc027c052f332110e0",
+      "evaluated_by": "evaluate_test",
       "pass": true
     },
     {
@@ -132,6 +133,7 @@
         "raw_weight_norm_diff_tolerance": 1e-09
       },
       "threshold_contract_hash": "0bb99a4a711405fb65e81413cfd283d6e68d0ecd4e9c34dc027c052f332110e0",
+      "evaluated_by": "evaluate_test",
       "pass": true
     },
     {
@@ -147,6 +149,7 @@
         "min_bad_coset_disagreement": 0.5
       },
       "threshold_contract_hash": "0bb99a4a711405fb65e81413cfd283d6e68d0ecd4e9c34dc027c052f332110e0",
+      "evaluated_by": "evaluate_test",
       "pass": true
     },
     {
@@ -167,6 +170,7 @@
         "min_bad_registration_metric_diff": 0.1
       },
       "threshold_contract_hash": "0bb99a4a711405fb65e81413cfd283d6e68d0ecd4e9c34dc027c052f332110e0",
+      "evaluated_by": "evaluate_test",
       "pass": true
     },
     {
@@ -182,6 +186,7 @@
         "min_bad_signal_leakage_norm": 0.1
       },
       "threshold_contract_hash": "0bb99a4a711405fb65e81413cfd283d6e68d0ecd4e9c34dc027c052f332110e0",
+      "evaluated_by": "evaluate_test",
       "pass": true
     },
     {
@@ -195,6 +200,7 @@
         "max_square_holonomy_norm": 1e-10
       },
       "threshold_contract_hash": "0bb99a4a711405fb65e81413cfd283d6e68d0ecd4e9c34dc027c052f332110e0",
+      "evaluated_by": "evaluate_test",
       "pass": true
     },
     {
@@ -209,6 +215,7 @@
         "min_bad_holonomy_norm": 1e-06
       },
       "threshold_contract_hash": "0bb99a4a711405fb65e81413cfd283d6e68d0ecd4e9c34dc027c052f332110e0",
+      "evaluated_by": "evaluate_test",
       "pass": true
     },
     {
@@ -238,6 +245,7 @@
         "min_multidirectional_sigma2_over_sigma1": 0.25
       },
       "threshold_contract_hash": "0bb99a4a711405fb65e81413cfd283d6e68d0ecd4e9c34dc027c052f332110e0",
+      "evaluated_by": "evaluate_test",
       "pass": true
     },
     {
@@ -269,6 +277,7 @@
         "min_true_sq_capture_quantile": 0.99
       },
       "threshold_contract_hash": "0bb99a4a711405fb65e81413cfd283d6e68d0ecd4e9c34dc027c052f332110e0",
+      "evaluated_by": "evaluate_test",
       "pass": true
     },
     {
@@ -287,6 +296,7 @@
         "max_square_identity_error": 1e-10
       },
       "threshold_contract_hash": "0bb99a4a711405fb65e81413cfd283d6e68d0ecd4e9c34dc027c052f332110e0",
+      "evaluated_by": "evaluate_test",
       "pass": true
     },
     {
@@ -300,6 +310,7 @@
         "min_obstruction_cycle_residual_norm": 0.5
       },
       "threshold_contract_hash": "0bb99a4a711405fb65e81413cfd283d6e68d0ecd4e9c34dc027c052f332110e0",
+      "evaluated_by": "evaluate_test",
       "pass": true
     },
     {
@@ -307,16 +318,18 @@
       "kind": "meta_contract_control",
       "runtime_threshold_contract_sha256": "0bb99a4a711405fb65e81413cfd283d6e68d0ecd4e9c34dc027c052f332110e0",
       "json_threshold_contract_sha256": "0bb99a4a711405fb65e81413cfd283d6e68d0ecd4e9c34dc027c052f332110e0",
+      "json_threshold_contract_source": "readback_from_written_json_threshold_contract",
       "per_test_threshold_mismatches": [],
       "central_evaluator_function": "evaluate_test",
       "central_evaluator_used": true,
-      "interpretation": "all pass/fail logic is evaluated against the serialized top-level threshold contract",
+      "interpretation": "all pass/fail logic is assigned by evaluate_test against the serialized top-level threshold contract",
       "thresholds": {
         "require_contract_hash_match": true,
         "require_per_test_threshold_match": true,
         "require_central_evaluator": true
       },
       "threshold_contract_hash": "0bb99a4a711405fb65e81413cfd283d6e68d0ecd4e9c34dc027c052f332110e0",
+      "evaluated_by": "evaluate_test",
       "pass": true
     }
   ],

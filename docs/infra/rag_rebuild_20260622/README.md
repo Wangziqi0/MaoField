@@ -377,6 +377,22 @@ and node142 package record. See
 `kb_meta=e25f9fa3...`. Node22 was used only as a temporary bge-m3 worker and
 the service was stopped after build.
 
+D627 report(29) / Formal v1.2 report29 minor revision package: default
+`/media/amd/raid1/rag/index` was refreshed after adding report (29), the
+adoption note, patched v1.2 note/script/summary/JSON, the report29
+minor-revision prompt, and node142 package record. See
+`NODE22_VECTOR_REFRESH_REPORT29_FORMALV12_MINOR_20260627.md`. Runtime index:
+413 active canonical markdown files / 9915 chunks; `kb.faiss=4f085559...`,
+`kb_meta=c9301dac...`. Node22 was used only as a temporary bge-m3 worker and
+the service was stopped after build.
+
+D627 report(29) final metadata refresh: default `/media/amd/raid1/rag/index`
+was refreshed again after final navigation/package metadata polish. See
+`NODE22_VECTOR_REFRESH_REPORT29_FINAL_20260627.md`. Runtime index:
+414 active canonical markdown files / 9929 chunks; `kb.faiss=8a5fe6f7...`,
+`kb_meta=ee5d42e4...`. Node22 was used only as a temporary bge-m3 worker and
+the service was stopped after build.
+
 Rebuild entry point:
 
 ```bash

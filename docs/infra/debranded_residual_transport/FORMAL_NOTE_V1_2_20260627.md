@@ -287,10 +287,12 @@ The v1.2 contract rule is:
 
 1. `build_threshold_contract()` is the single source of thresholds.
 2. Block functions compute metrics only.
-3. `evaluate_test()` assigns pass/fail from the single contract.
+3. `evaluate_test()` assigns pass/fail from the single contract, including the
+   `threshold_contract_single_source_control` meta-block.
 4. JSON serializes the same contract and its hash.
 5. `threshold_contract_single_source_control` verifies per-test threshold
-   equality and contract hash equality.
+   equality, central-evaluator usage, and contract hash equality against a
+   JSON-side threshold hash read back from a written JSON artifact.
 
 The v1.2 blocks are:
 

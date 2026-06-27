@@ -70,22 +70,43 @@ It is intentionally separated from the MaoField empirical line:
 - `../DEBRANDED_RESIDUAL_TRANSPORT_142_PACKAGE_FORMALV12_PATCH_20260626.md` —
   node142 package record for the Formal v1.2 minimal-patch prompt and bundle.
 - `../rag_rebuild_20260622/NODE22_VECTOR_REFRESH_REPORT27_V12_20260626.md` —
-  current default RAG refresh record for report (27), the v1.2 prompt, and the
-  FormalV12 package record.
+  previous RAG refresh record for report (27), the v1.2 prompt, and the
+  FormalV12 package record; superseded as current by the report(29) refresh
+  below.
 - `../gpt_deep_research/deep_research_formal_residual_transport_v1_2_minimal_patch_20260627.md` —
   report (28), a Formal v1.2 minimal-patch design pass with classification
   `v1_2_small_patch_feasible`.
 - `../gpt_deep_research/FORMAL_RESIDUAL_TRANSPORT_V1_2_MINIMAL_PATCH_ADOPTION_NOTE_20260627.md` —
   node36 adoption note for report (28) and the local v1.2 implementation.
+- `../gpt_deep_research/deep_research_formal_residual_transport_v1_2_implementation_audit_20260627.md` —
+  report (29), a Formal v1.2 implementation audit with classification
+  `formal_v1_2_patch_requires_minor_revision`.
+- `../gpt_deep_research/FORMAL_RESIDUAL_TRANSPORT_V1_2_IMPLEMENTATION_AUDIT_ADOPTION_NOTE_20260627.md` —
+  node36 adoption note for report (29) and the local threshold-contract
+  minor revision.
 - `FORMAL_NOTE_V1_2_20260627.md` — implemented v1.2 formal note: registered
   ambient data, squared-capture Beta null, exact product-weight Hoeffding
-  theorem, square-holonomy telescoping, and single-source harness contract.
+  theorem, square-holonomy telescoping, and repaired single-source harness
+  contract.
 - `SYNTHETIC_HARNESS_V1_2_20260627.md` — v1.2 zero-GPU synthetic harness
   summary; all 12 synthetic blocks passed.
 - `synthetic_harness_v1_2_20260627.json` — v1.2 harness JSON output with
   `threshold_contract_sha256=0bb99a4a711405fb65e81413cfd283d6e68d0ecd4e9c34dc027c052f332110e0`.
 - `README_FOR_PRO_FORMALV12_IMPLEMENTATION_AUDIT_20260627.md` — upload/package
   guide for the next GPT-5.5 Pro implementation audit.
+- `README_FOR_PRO_FORMALV12_REPORT29_MINOR_REVISION_AUDIT_20260627.md` —
+  upload/package guide for the next GPT-5.5 Pro report(29) minor-revision
+  audit.
+- `../DEBRANDED_RESIDUAL_TRANSPORT_142_PACKAGE_FORMALV12_REPORT29_MINOR_REVISION_AUDIT_20260627.md` —
+  node142 package record for the report(29) minor-revision audit prompt and
+  bundle.
+- `../rag_rebuild_20260622/NODE22_VECTOR_REFRESH_REPORT29_FORMALV12_MINOR_20260627.md` —
+  first report(29) RAG refresh record proving the report(29) materials,
+  threshold-contract patch, report29 minor-revision prompt, and package record
+  are discoverable through the node36 RAG locator.
+- `../rag_rebuild_20260622/NODE22_VECTOR_REFRESH_REPORT29_FINAL_20260627.md` —
+  current final RAG refresh record after the report(29) navigation/package
+  metadata polish.
 
 ## Current Verdict
 
@@ -101,8 +122,8 @@ residual, interaction, transport, or holonomy field.
 
 ## Current Next Step
 
-Use the Formal v1.2 implementation-audit package as the next strict target. It
-asks GPT-5.5 Pro to audit whether the local v1.2 note, script, JSON, and
-summary actually close report (28)'s small-patch obligations. Do not turn the
-v1.2 note, implementation package, or synthetic harness into an empirical
-claim.
+Use the Formal v1.2 report(29) minor-revision audit package as the next strict
+target. It asks GPT-5.5 Pro to audit only whether the local threshold-contract
+minor revision closes report (29)'s two implementation findings. Do not turn
+the v1.2 note, implementation package, minor-revision package, or synthetic
+harness into an empirical claim.
