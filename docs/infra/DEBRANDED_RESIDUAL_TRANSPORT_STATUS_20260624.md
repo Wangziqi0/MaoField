@@ -588,7 +588,7 @@ Node19 desktop package:
 
 ```text
 C:\Users\amd\Desktop\MaoField_PRO_FoundationalResidualTransport_FormalV13_TheoremStrengthening_Report30_20260628_1127.zip
-zip sha256=ae230f5f3256d4399aab736a31835984e62ab1f6b111f5c922f46bdf98186407
+zip sha256=4536e12c6532c2d2dd6ae99f9ae68d1ded140ba8f1146a39644af5526cb51007
 prompt sha256=c607037b3d9b9a5907ffc430d99230b4c541e3740f51d96c571b93944e516f84
 ```
 

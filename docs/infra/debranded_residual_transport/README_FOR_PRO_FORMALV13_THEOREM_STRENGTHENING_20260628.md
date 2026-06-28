@@ -43,6 +43,14 @@ Forbidden upgrades:
 - no completed formal system wording unless the reviewer provides complete
   proof-level justification.
 
+## Package Snapshot Boundary
+
+This zip is a snapshot prepared on node36. Files inside the zip may include
+package records, status files, or manifests captured before the final zip hash
+was known. Do not use an internal file to prove the final zip hash. The final
+zip and prompt hashes must be checked against the external canonical package
+record and the node19 desktop `Get-FileHash` result.
+
 ## Output Expected From Pro
 
 The desired output is a strict report deciding the smallest useful Formal v1.3

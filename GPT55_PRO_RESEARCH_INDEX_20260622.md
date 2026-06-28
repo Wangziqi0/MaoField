@@ -14,7 +14,7 @@
 > `GPT55_PRO_FOUNDATIONAL_RESIDUAL_TRANSPORT_V1_3_THEOREM_STRENGTHENING_PROMPT_20260628.md`.
 > The node19 package has been copied and hash-verified; package record
 > `DEBRANDED_RESIDUAL_TRANSPORT_19_PACKAGE_FORMALV13_THEOREM_STRENGTHENING_20260628.md`,
-> zip sha256 `ae230f5f3256d4399aab736a31835984e62ab1f6b111f5c922f46bdf98186407`.
+> zip sha256 `4536e12c6532c2d2dd6ae99f9ae68d1ded140ba8f1146a39644af5526cb51007`.
 > Default RAG has been refreshed to 421 active canonical md / 9992 chunks
 > (`kb.faiss=47b7603d...`, `kb_meta=3fdf961f...`) with node22 stopped. No full
 > panel, training, new loss, observed field, glass-box, F3/LOSO, or
@@ -1674,7 +1674,7 @@ Copied package:
 
 ```text
 C:\Users\amd\Desktop\MaoField_PRO_FoundationalResidualTransport_FormalV13_TheoremStrengthening_Report30_20260628_1127.zip
-zip sha256=ae230f5f3256d4399aab736a31835984e62ab1f6b111f5c922f46bdf98186407
+zip sha256=4536e12c6532c2d2dd6ae99f9ae68d1ded140ba8f1146a39644af5526cb51007
 prompt sha256=c607037b3d9b9a5907ffc430d99230b4c541e3740f51d96c571b93944e516f84
 ```
 
