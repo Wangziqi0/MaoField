@@ -141,6 +141,24 @@ It is intentionally separated from the MaoField empirical line:
 - `../DEBRANDED_RESIDUAL_TRANSPORT_19_PACKAGE_FORMALV13_ORDER_DEFECT_PROOF_20260628.md` —
   node19 package record for the Formal v1.3 order-defect proof-audit prompt
   and bundle.
+- `../gpt_deep_research/deep_research_formal_residual_transport_v1_3_order_defect_proof_audit_20260628.md` —
+  report (32), a Formal v1.3 order-defect proof audit with internal
+  classification `v1_3_order_defect_proof_plan_accepted`.
+- `../gpt_deep_research/FORMAL_RESIDUAL_TRANSPORT_V1_3_ORDER_DEFECT_PROOF_AUDIT_ADOPTION_NOTE_20260628.md` —
+  node36 adoption note for report (32), with the local verdict
+  `formal_v1_3_order_defect_proof_audit_accepted_with_minor_arithmetic_correction_and_claim_guards`.
+- `FORMAL_NOTE_V1_3_ORDER_DEFECT_20260628.md` — local proof note for the
+  product/non-product weight boundary, ordered residual operators, and
+  sequential stripping artifact no-go.
+- `SYNTHETIC_HARNESS_V1_3_20260628.md` — deterministic v1.3 zero-GPU theorem
+  controls; all four blocks passed.
+- `synthetic_harness_v1_3_20260628.json` — v1.3 harness JSON output with
+  `threshold_contract_sha256=ec2a3a70dce8d19be5635b2b2a7f51caae17ee8e0a8bce2ec20ed4a55f9a82f6`.
+- `README_FOR_PRO_FORMALV13_ORDER_DEFECT_IMPLEMENTATION_AUDIT_20260628.md` —
+  upload/package guide for the next GPT-5.5 Pro proof-note and harness audit.
+- `../gpt_deep_research/GPT55_PRO_FOUNDATIONAL_RESIDUAL_TRANSPORT_V1_3_ORDER_DEFECT_IMPLEMENTATION_AUDIT_PROMPT_20260628.md` —
+  zero-context prompt for auditing the local v1.3 note, script, summary, and
+  JSON.
 
 ## Current Verdict
 
@@ -156,9 +174,9 @@ residual, interaction, transport, or holonomy field.
 
 ## Current Next Step
 
-Use the Formal v1.3 order-defect proof-audit package as the next strict target.
-It asks GPT-5.5 Pro to audit the smallest useful theorem/no-go advance after
-report (31): the product vs non-product weight boundary for finite weighted
-ANOVA and ordered residual stripping. Do not turn the v1.2 note, report (30),
-report (31), v1.3 prompt, package, or synthetic harness into an empirical
-MaoField claim or a completed formal-system claim.
+Use the Formal v1.3 order-defect implementation-audit package as the next
+strict target. It asks GPT-5.5 Pro to audit the local v1.3 proof note, script,
+summary, and JSON after report (32), including the corrected symmetric witness
+coordinates. Do not turn the v1.2/v1.3 notes, report (30/31/32), prompts,
+packages, or synthetic harnesses into an empirical MaoField claim or a
+completed formal-system claim.

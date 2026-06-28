@@ -665,6 +665,78 @@ This proof-audit direction does not authorize full-panel work, checkpoint
 loading, training, a new loss, observed-field language, glass-box language,
 F3/LOSO upgrades, or MaoField empirical validation.
 
+## 2026-06-28 Formal v1.3 Proof Note And Harness
+
+Report (32) is the proof audit of the report(31) order-defect target:
+
+```text
+docs/infra/gpt_deep_research/deep_research_formal_residual_transport_v1_3_order_defect_proof_audit_20260628.md
+docs/infra/gpt_deep_research/FORMAL_RESIDUAL_TRANSPORT_V1_3_ORDER_DEFECT_PROOF_AUDIT_ADOPTION_NOTE_20260628.md
+```
+
+Node36 adopts it as:
+
+```text
+formal_v1_3_order_defect_proof_audit_accepted_with_minor_arithmetic_correction_and_claim_guards
+```
+
+Local v1.3 artifacts:
+
+```text
+docs/infra/debranded_residual_transport/FORMAL_NOTE_V1_3_ORDER_DEFECT_20260628.md
+scripts/debranded_residual_transport_harness_v1_3.py
+docs/infra/debranded_residual_transport/SYNTHETIC_HARNESS_V1_3_20260628.md
+docs/infra/debranded_residual_transport/synthetic_harness_v1_3_20260628.json
+```
+
+The deterministic zero-GPU theorem controls all pass:
+
+```text
+product_weight_order_independence_control
+centered_indicator_product_iff_control
+nonproduct_pure_main_effect_no_go_control
+threshold_contract_single_source_control
+```
+
+Key local hashes:
+
+```text
+report32 sha256=a41cb203f5ac66138898822bad5fa84f8be4ecdebbb57620dd45c9e751df2d97
+v1.3 json sha256=e8757a172c352ffdb173ed22eae669d546183342f6b55f0e65692080b4bcef1f
+v1.3 summary sha256=0169186a4e659c429801782dbf0f992ac8302ab2d6aa7554669e69a23516be02
+threshold_contract_sha256=ec2a3a70dce8d19be5635b2b2a7f51caae17ee8e0a8bce2ec20ed4a55f9a82f6
+```
+
+Report (32)'s main `B0` witness is accepted. Its optional symmetric `A`
+witness had an 11x arithmetic slip; the local proof note and harness use the
+corrected coordinates:
+
+```text
+R_B_then_Q K' = (1/42, -1/84, 5/224, -3/224)
+```
+
+Next Pro package on node19:
+
+```text
+C:\Users\amd\Desktop\MaoField_PRO_FoundationalResidualTransport_FormalV13_OrderDefectImplementationAudit_Report32_20260628_2033final.zip
+zip sha256=e2b42dfa1369ad13901be12f72a2f2a36d6f6cdd82f1c6634eab1574f0ab509b
+prompt sha256=a13b36de95278b41121c37917afeef2207590b56133291809557585422e20ab0
+```
+
+Default RAG has been refreshed with a node22 one-shot bge-m3 worker:
+
+```text
+docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_REPORT32_FINAL_20260628.md
+runtime index: 436 active canonical markdown files / 10179 chunks
+kb.faiss=bd818e75...
+kb_meta=59317e5d...
+node22 service stopped after build
+```
+
+This remains Mode A finite-dimensional mathematics only. Strongest local
+verdict remains `definitions_and_harness_viable_only`; Mode B MaoField
+empirical status remains `insufficient_artifact`.
+
 ## Product-Weight Boundary
 
 Node36 directly verified that the current q4 x tokenpos4 schema weights are not

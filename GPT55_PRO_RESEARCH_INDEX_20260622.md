@@ -2,6 +2,33 @@
 
 > Built on 2026-06-22 after a node-36 takeover audit, six-agent read-only review, RAG-assisted discovery, and direct source reads. This file is a **sanitized repository-local research index** for GitHub / web indexing. It does not replace `STATE.md`; volatile project status still belongs there.
 >
+> D628 20:33 update: report (32) was archived as the Formal v1.3
+> order-defect proof audit. Pro's internal classification was
+> `v1_3_order_defect_proof_plan_accepted`; node36 adopts it as
+> `formal_v1_3_order_defect_proof_audit_accepted_with_minor_arithmetic_correction_and_claim_guards`.
+> The accepted local output is a Mode A finite-dimensional proof note plus a
+> deterministic zero-GPU theorem-control harness:
+> `FORMAL_NOTE_V1_3_ORDER_DEFECT_20260628.md`,
+> `scripts/debranded_residual_transport_harness_v1_3.py`,
+> `SYNTHETIC_HARNESS_V1_3_20260628.md`, and
+> `synthetic_harness_v1_3_20260628.json`.
+> The v1.3 harness has four passing blocks and threshold hash
+> `ec2a3a70dce8d19be5635b2b2a7f51caae17ee8e0a8bce2ec20ed4a55f9a82f6`.
+> Report (32)'s optional symmetric witness had an 11x arithmetic slip; the
+> local corrected vector is `(1/42, -1/84, 5/224, -3/224)`.
+> Node19 implementation-audit package:
+> `MaoField_PRO_FoundationalResidualTransport_FormalV13_OrderDefectImplementationAudit_Report32_20260628_2033final.zip`,
+> zip sha256 `e2b42dfa1369ad13901be12f72a2f2a36d6f6cdd82f1c6634eab1574f0ab509b`,
+> prompt sha256 `a13b36de95278b41121c37917afeef2207590b56133291809557585422e20ab0`.
+> Default RAG was refreshed with node22 one-shot embedding to 436 active
+> canonical markdown files / 10179 chunks; `kb.faiss=bd818e75...`,
+> `kb_meta=59317e5d...`; current final record:
+> `docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_REPORT32_FINAL_20260628.md`.
+> This remains `definitions_and_harness_viable_only`; Mode B remains
+> `insufficient_artifact`. No full panel, training, new loss, observed field,
+> glass-box, F3/LOSO, Formal-v1.3-completed-as-whole, or
+> completed-formal-system claim is authorized.
+>
 > D628 15:54 update: report (31) was archived as the Formal v1.3
 > theorem-strengthening plan report. Pro's internal classification was
 > `v1_3_theorem_strengthening_plan_accepted`; node36 adopts it more narrowly

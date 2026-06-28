@@ -1,0 +1,43 @@
+Script started on 2026-06-28 20:44:04+08:00 [COMMAND="/home/amd/venv/bin/python /home/amd/codex-node36/tmp/maofield-rag-20260628_2041_report32final/build_index_node22_http.py --file-list /home/amd/codex-node36/tmp/maofield-rag-20260628_2041_report32final/canonical_scope_active_20260628_2041_report32final.txt --index-dir /home/amd/codex-node36/tmp/maofield-rag-20260628_2041_report32final/index --endpoint http://192.168.31.22:18080 --model bge-m3-temp --batch-size 32" <not executed on terminal>]
+[1/4] files=436
+[2/4] chunks=10179 chunk_seconds=14.0
+[3/4] remote_embed endpoint=http://192.168.31.22:18080 model=bge-m3-temp batch=32 batches=319
+  embedded_batches=1/319 texts=32/10179 rate=34.52 text/s
+  embedded_batches=10/319 texts=320/10179 rate=68.81 text/s
+  embedded_batches=20/319 texts=640/10179 rate=89.90 text/s
+  embedded_batches=30/319 texts=960/10179 rate=96.12 text/s
+  embedded_batches=40/319 texts=1280/10179 rate=93.33 text/s
+  embedded_batches=50/319 texts=1600/10179 rate=90.24 text/s
+  embedded_batches=60/319 texts=1920/10179 rate=93.53 text/s
+  embedded_batches=70/319 texts=2240/10179 rate=95.41 text/s
+  embedded_batches=80/319 texts=2560/10179 rate=94.66 text/s
+  embedded_batches=90/319 texts=2880/10179 rate=93.93 text/s
+  embedded_batches=100/319 texts=3200/10179 rate=94.93 text/s
+  embedded_batches=110/319 texts=3520/10179 rate=95.64 text/s
+  embedded_batches=120/319 texts=3840/10179 rate=95.99 text/s
+  embedded_batches=130/319 texts=4160/10179 rate=94.71 text/s
+  embedded_batches=140/319 texts=4480/10179 rate=94.09 text/s
+  embedded_batches=150/319 texts=4800/10179 rate=94.09 text/s
+  embedded_batches=160/319 texts=5120/10179 rate=94.42 text/s
+  embedded_batches=170/319 texts=5440/10179 rate=94.16 text/s
+  embedded_batches=180/319 texts=5760/10179 rate=94.37 text/s
+  embedded_batches=190/319 texts=6080/10179 rate=94.01 text/s
+  embedded_batches=200/319 texts=6400/10179 rate=93.62 text/s
+  embedded_batches=210/319 texts=6720/10179 rate=94.08 text/s
+  embedded_batches=220/319 texts=7040/10179 rate=94.33 text/s
+  embedded_batches=230/319 texts=7360/10179 rate=94.15 text/s
+  embedded_batches=240/319 texts=7680/10179 rate=94.54 text/s
+  embedded_batches=250/319 texts=8000/10179 rate=94.51 text/s
+  embedded_batches=260/319 texts=8320/10179 rate=94.59 text/s
+  embedded_batches=270/319 texts=8640/10179 rate=95.36 text/s
+  embedded_batches=280/319 texts=8960/10179 rate=95.78 text/s
+  embedded_batches=290/319 texts=9280/10179 rate=95.47 text/s
+  embedded_batches=300/319 texts=9600/10179 rate=95.29 text/s
+  embedded_batches=310/319 texts=9920/10179 rate=95.54 text/s
+  embedded_batches=319/319 texts=10179/10179 rate=95.54 text/s
+[4/4] wrote index
+      faiss=/home/amd/codex-node36/tmp/maofield-rag-20260628_2041_report32final/index/kb.faiss bytes=41693229 vectors=10179 dim=1024
+      meta=/home/amd/codex-node36/tmp/maofield-rag-20260628_2041_report32final/index/kb_meta.jsonl bytes=12508964
+[stat] files=436 chunks=10179 embed_seconds=106.6 rate=95.530text/s
+
+Script done on 2026-06-28 20:46:06+08:00 [COMMAND_EXIT_CODE="0"]

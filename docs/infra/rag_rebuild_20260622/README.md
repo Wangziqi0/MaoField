@@ -409,6 +409,16 @@ proof-audit prompt, node19 package record, and updated status/navigation files.
 See `NODE22_VECTOR_REFRESH_REPORT31_FINAL_20260628.md`. Runtime index: see final RAG record. Node22 was used only as a temporary bge-m3 worker and
 the service was stopped after build.
 
+D628 report(32) / Formal v1.3 order-defect implementation-audit package:
+default `/media/amd/raid1/rag/index` was refreshed after adding report (32),
+its guarded adoption note, the local v1.3 proof note, v1.3 theorem-control
+harness script/summary/JSON, the implementation-audit prompt, node19 package
+record, and updated status/navigation files. See
+`NODE22_VECTOR_REFRESH_REPORT32_FINAL_20260628.md`. Runtime index: 436 active
+canonical markdown files / 10179 chunks; `kb.faiss=bd818e75...`,
+`kb_meta=59317e5d...`. Node22 was used only as a temporary bge-m3 worker and
+the service was stopped after build.
+
 Rebuild entry point:
 
 ```bash
