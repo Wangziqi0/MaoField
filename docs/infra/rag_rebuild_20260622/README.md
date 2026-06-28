@@ -393,6 +393,15 @@ was refreshed again after final navigation/package metadata polish. See
 `kb_meta=ee5d42e4...`. Node22 was used only as a temporary bge-m3 worker and
 the service was stopped after build.
 
+D628 report(30) / Formal v1.3 theorem-strengthening package: default
+`/media/amd/raid1/rag/index` was refreshed after adding report (30), its
+adoption note, the Formal v1.3 GPT-5.5 Pro prompt, node19 package record, and
+updated status/navigation files. See
+`NODE22_VECTOR_REFRESH_REPORT30_FORMALV13_20260628.md`. Runtime index:
+421 active canonical markdown files / 9992 chunks; `kb.faiss=47b7603d...`,
+`kb_meta=3fdf961f...`. Node22 was used only as a temporary bge-m3 worker and
+the service was stopped after build.
+
 Rebuild entry point:
 
 ```bash

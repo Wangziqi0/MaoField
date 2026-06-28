@@ -107,6 +107,23 @@ It is intentionally separated from the MaoField empirical line:
 - `../rag_rebuild_20260622/NODE22_VECTOR_REFRESH_REPORT29_FINAL_20260627.md` —
   current final RAG refresh record after the report(29) navigation/package
   metadata polish.
+- `../gpt_deep_research/deep_research_formal_residual_transport_v1_2_report29_minor_revision_audit_20260628.md` —
+  report (30), a Formal v1.2 report(29) minor-revision audit with
+  classification `formal_v1_2_patch_accepted_after_minor_revision`.
+- `../gpt_deep_research/FORMAL_RESIDUAL_TRANSPORT_V1_2_REPORT30_ACCEPTANCE_ADOPTION_NOTE_20260628.md` —
+  node36 adoption note for report (30). It accepts only local threshold-contract
+  closure and keeps Mode B at `insufficient_artifact`.
+- `README_FOR_PRO_FORMALV13_THEOREM_STRENGTHENING_20260628.md` —
+  upload/package guide for the next GPT-5.5 Pro Formal v1.3 theorem-strengthening
+  review.
+- `../gpt_deep_research/GPT55_PRO_FOUNDATIONAL_RESIDUAL_TRANSPORT_V1_3_THEOREM_STRENGTHENING_PROMPT_20260628.md` —
+  zero-context prompt for the next Mode A theorem/no-go strengthening pass.
+- `../DEBRANDED_RESIDUAL_TRANSPORT_19_PACKAGE_FORMALV13_THEOREM_STRENGTHENING_20260628.md` —
+  node19 package record for the Formal v1.3 theorem-strengthening prompt and
+  bundle.
+- `../rag_rebuild_20260622/NODE22_VECTOR_REFRESH_REPORT30_FORMALV13_20260628.md` —
+  current RAG refresh record after report (30), the v1.3 prompt, and node19
+  package metadata were promoted into the default node36 RAG locator.
 
 ## Current Verdict
 
@@ -122,8 +139,8 @@ residual, interaction, transport, or holonomy field.
 
 ## Current Next Step
 
-Use the Formal v1.2 report(29) minor-revision audit package as the next strict
-target. It asks GPT-5.5 Pro to audit only whether the local threshold-contract
-minor revision closes report (29)'s two implementation findings. Do not turn
-the v1.2 note, implementation package, minor-revision package, or synthetic
-harness into an empirical claim.
+Use the Formal v1.3 theorem-strengthening package as the next strict target.
+It asks GPT-5.5 Pro to decide the smallest useful theorem/no-go advance after
+report (30) accepted the report (29) minor revision. Do not turn the v1.2 note,
+report (30), v1.3 prompt, package, or synthetic harness into an empirical
+MaoField claim.

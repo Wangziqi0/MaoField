@@ -2,6 +2,24 @@
 
 > Built on 2026-06-22 after a node-36 takeover audit, six-agent read-only review, RAG-assisted discovery, and direct source reads. This file is a **sanitized repository-local research index** for GitHub / web indexing. It does not replace `STATE.md`; volatile project status still belongs there.
 >
+> D628 update: report (30) was archived as the Formal v1.2 report(29)
+> minor-revision audit and adopted as
+> `formal_v1_2_patch_accepted_after_minor_revision`. The accepted closure is
+> narrow: the local threshold-contract meta-block is now centrally evaluated by
+> `evaluate_test()`, and the JSON-side threshold hash is read back from the
+> written JSON artifact. The strongest local verdict remains
+> `definitions_and_harness_viable_only`; Mode B remains `insufficient_artifact`.
+> The next Pro task is no longer a report(29) closure audit. It is the
+> zero-context Formal v1.3 theorem/no-go strengthening prompt
+> `GPT55_PRO_FOUNDATIONAL_RESIDUAL_TRANSPORT_V1_3_THEOREM_STRENGTHENING_PROMPT_20260628.md`.
+> The node19 package has been copied and hash-verified; package record
+> `DEBRANDED_RESIDUAL_TRANSPORT_19_PACKAGE_FORMALV13_THEOREM_STRENGTHENING_20260628.md`,
+> zip sha256 `ae230f5f3256d4399aab736a31835984e62ab1f6b111f5c922f46bdf98186407`.
+> Default RAG has been refreshed to 421 active canonical md / 9992 chunks
+> (`kb.faiss=47b7603d...`, `kb_meta=3fdf961f...`) with node22 stopped. No full
+> panel, training, new loss, observed field, glass-box, F3/LOSO, or
+> completed-formal-system claim is authorized.
+>
 > D627 update: report (29) was archived as the Formal v1.2 implementation
 > audit and adopted as `formal_v1_2_patch_requires_minor_revision`. Node36
 > applied the narrow threshold-contract minor revision in
@@ -1605,6 +1623,69 @@ checkpoint loading, inference, training, new loss, or observed
 residual/interaction/quotient/transport/holonomy field claim promotion
 ```
 
+### 4.31 D628 Report(30) Formal v1.2 Acceptance And v1.3 Next Step
+
+Report (30) archive:
+[deep_research_formal_residual_transport_v1_2_report29_minor_revision_audit_20260628.md](docs/infra/gpt_deep_research/deep_research_formal_residual_transport_v1_2_report29_minor_revision_audit_20260628.md)
+
+Node36 adoption note:
+[FORMAL_RESIDUAL_TRANSPORT_V1_2_REPORT30_ACCEPTANCE_ADOPTION_NOTE_20260628.md](docs/infra/gpt_deep_research/FORMAL_RESIDUAL_TRANSPORT_V1_2_REPORT30_ACCEPTANCE_ADOPTION_NOTE_20260628.md)
+
+Next Pro prompt:
+[GPT55_PRO_FOUNDATIONAL_RESIDUAL_TRANSPORT_V1_3_THEOREM_STRENGTHENING_PROMPT_20260628.md](docs/infra/gpt_deep_research/GPT55_PRO_FOUNDATIONAL_RESIDUAL_TRANSPORT_V1_3_THEOREM_STRENGTHENING_PROMPT_20260628.md)
+
+Pro package README:
+[README_FOR_PRO_FORMALV13_THEOREM_STRENGTHENING_20260628.md](docs/infra/debranded_residual_transport/README_FOR_PRO_FORMALV13_THEOREM_STRENGTHENING_20260628.md)
+
+19 package record:
+[DEBRANDED_RESIDUAL_TRANSPORT_19_PACKAGE_FORMALV13_THEOREM_STRENGTHENING_20260628.md](docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_19_PACKAGE_FORMALV13_THEOREM_STRENGTHENING_20260628.md)
+
+Report (30) verdict:
+
+```text
+formal_v1_2_patch_accepted_after_minor_revision
+```
+
+Accepted local facts:
+
+```text
+threshold_contract_single_source_control.evaluated_by=evaluate_test
+threshold_contract_single_source_control.json_threshold_contract_source=readback_from_written_json_threshold_contract
+threshold_contract_single_source_control.per_test_threshold_mismatches=[]
+all_synthetic_controls_passed=true
+```
+
+JSON wording guard:
+
+```text
+the archived JSON is sufficient to verify the local threshold contract,
+pass/fail snapshot, and evidence boundary; it is not a byte-identical
+cross-environment reproducibility promise
+```
+
+Allowed next task:
+
+```text
+Formal v1.3 theorem/no-go strengthening: choose the smallest mathematically
+valuable finite-dimensional theorem, counterexample, or boundary after v1.2.
+```
+
+Copied package:
+
+```text
+C:\Users\amd\Desktop\MaoField_PRO_FoundationalResidualTransport_FormalV13_TheoremStrengthening_Report30_20260628_1127.zip
+zip sha256=ae230f5f3256d4399aab736a31835984e62ab1f6b111f5c922f46bdf98186407
+prompt sha256=c607037b3d9b9a5907ffc430d99230b4c541e3740f51d96c571b93944e516f84
+```
+
+Forbidden interpretation:
+
+```text
+completed formal system, MaoField empirical validation, full panel,
+checkpoint loading, inference, training, new loss, or observed
+residual/interaction/quotient/transport/holonomy field claim promotion
+```
+
 ### 4.9 D623 q4 Hypercube Extension Strict Math Audit
 
 Primary local interpretation:
@@ -1854,23 +1935,25 @@ Repository-local evidence preferred for web indexing:
 Best next steps for GPT-5.5 Pro research:
 
 1. Use
-   `GPT55_PRO_FOUNDATIONAL_RESIDUAL_TRANSPORT_V1_2_REPORT29_MINOR_REVISION_AUDIT_PROMPT_20260627.md`
-   as the zero-context prompt and attach the report(29) minor-revision package
-   from node142.
-2. Audit only whether node36's threshold-contract repair closes report(29)'s
-   two minor implementation concerns: central `evaluate_test()` ownership of
-   the meta-block pass/fail value, and JSON-side threshold hash readback from
-   the written JSON.
-3. Allowed final classifications are limited to
-   `formal_v1_2_patch_accepted_after_minor_revision`,
-   `formal_v1_2_patch_requires_another_minor_revision`,
-   `formal_v1_2_patch_rejected`, or `insufficient_artifact_for_audit`.
-4. Do not ask Pro to validate old MaoField empirical claims, chase glass-box
+   `GPT55_PRO_FOUNDATIONAL_RESIDUAL_TRANSPORT_V1_3_THEOREM_STRENGTHENING_PROMPT_20260628.md`
+   as the zero-context prompt and attach the Formal v1.3 theorem-strengthening
+   package from node19.
+2. Treat report (30) as closing the report (29) minor revision only inside the
+   finite synthetic harness boundary. Do not re-run the old closure audit unless
+   the uploaded package itself introduces a new inconsistency.
+3. Ask Pro to choose the smallest mathematically valuable Formal v1.3 target:
+   quotient/registration theorem, product/non-product weight boundary, square
+   holonomy interpretation limit, projection-evolution commutator, random/rank
+   no-go, gluing obstruction, or coarsening/refinement naturality.
+4. Allowed final classifications are limited to
+   `v1_3_theorem_strengthening_plan_accepted`,
+   `v1_2_sufficient_stop_here`, `requires_v1_2_revision_again`, or
+   `insufficient_artifact_for_v1_3_planning`.
+5. Do not ask Pro to validate old MaoField empirical claims, chase glass-box
    language, recommend a full q4 panel, or discuss training/new-loss work.
-5. Keep MaoField Mode B at `insufficient_artifact`; the current package is
-   formal mathematics and synthetic harness auditing only.
-6. If Pro finds a gap, request the smallest theorem/counterexample/harness
-   patch that would close the report(29) minor revision without expanding scope.
-7. Keep philosophical interpretation `[?]` unless Win + PI promote it with evidence.
+6. Keep MaoField Mode B at `insufficient_artifact`; the current package is
+   Mode A finite-dimensional mathematics and synthetic harness auditing only.
+7. Keep philosophical interpretation as translation after the mathematics, not
+   as proof or evidence.
 
 The main guardrail: do not let a cleaner index become a cleaner overclaim.

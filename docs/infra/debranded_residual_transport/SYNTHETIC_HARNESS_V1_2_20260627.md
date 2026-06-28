@@ -36,6 +36,11 @@ docs/infra/debranded_residual_transport/synthetic_harness_v1_2_20260627.json
 - `threshold_contract_single_source_control` verifies the central evaluator path;
 - JSON-side threshold hash is read back from a written JSON artifact.
 
+The JSON artifact is sufficient to audit the local threshold contract,
+pass/fail snapshot, and evidence boundary. It is not a byte-identical
+cross-environment reproducibility promise because the JSON includes
+`created_utc` and `environment` metadata.
+
 ## Blocks
 
 - `exact_product_weight_equality_control`: pass

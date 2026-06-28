@@ -534,6 +534,76 @@ kb_meta=ee5d42e4...
 This remains Mode A formal/synthetic work only. It does not authorize a
 completed-formal-system claim or any MaoField empirical upgrade.
 
+## 2026-06-28 Formal v1.2 Report(30) Acceptance
+
+Report (30) audits only whether the report (29) threshold-contract minor
+revision was locally closed:
+
+```text
+docs/infra/gpt_deep_research/deep_research_formal_residual_transport_v1_2_report29_minor_revision_audit_20260628.md
+docs/infra/gpt_deep_research/FORMAL_RESIDUAL_TRANSPORT_V1_2_REPORT30_ACCEPTANCE_ADOPTION_NOTE_20260628.md
+```
+
+Node36 adopts report (30) as:
+
+```text
+formal_v1_2_patch_accepted_after_minor_revision
+```
+
+This means the report (29) implementation-level minor revision is closed inside
+the finite synthetic harness boundary:
+
+```text
+threshold_contract_single_source_control.pass is assigned by evaluate_test()
+json_threshold_contract_source=readback_from_written_json_threshold_contract
+per_test_threshold_mismatches=[]
+```
+
+The JSON reproducibility wording is narrow: the archived JSON is sufficient to
+verify the local threshold contract, pass/fail snapshot, and evidence boundary.
+It does not promise byte-identical reproduction across reruns or environments
+because it contains `created_utc` and `environment` metadata.
+
+Strongest local verdict remains:
+
+```text
+definitions_and_harness_viable_only
+```
+
+Mode B MaoField empirical status remains:
+
+```text
+insufficient_artifact
+```
+
+The next Pro task is now Formal v1.3 theorem/no-go strengthening:
+
+```text
+docs/infra/gpt_deep_research/GPT55_PRO_FOUNDATIONAL_RESIDUAL_TRANSPORT_V1_3_THEOREM_STRENGTHENING_PROMPT_20260628.md
+docs/infra/debranded_residual_transport/README_FOR_PRO_FORMALV13_THEOREM_STRENGTHENING_20260628.md
+docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_19_PACKAGE_FORMALV13_THEOREM_STRENGTHENING_20260628.md
+```
+
+Node19 desktop package:
+
+```text
+C:\Users\amd\Desktop\MaoField_PRO_FoundationalResidualTransport_FormalV13_TheoremStrengthening_Report30_20260628_1127.zip
+zip sha256=ae230f5f3256d4399aab736a31835984e62ab1f6b111f5c922f46bdf98186407
+prompt sha256=c607037b3d9b9a5907ffc430d99230b4c541e3740f51d96c571b93944e516f84
+```
+
+Default RAG has been refreshed with a node22 one-shot bge-m3 worker:
+
+```text
+docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_REPORT30_FORMALV13_20260628.md
+runtime index: 421 active canonical md / 9992 chunks
+kb.faiss=47b7603d...
+kb_meta=3fdf961f...
+```
+
+This is not another report(29) closure audit and not MaoField empirical
+validation.
+
 ## Product-Weight Boundary
 
 Node36 directly verified that the current q4 x tokenpos4 schema weights are not

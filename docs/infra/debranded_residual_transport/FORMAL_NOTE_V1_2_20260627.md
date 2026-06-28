@@ -294,6 +294,11 @@ The v1.2 contract rule is:
    equality, central-evaluator usage, and contract hash equality against a
    JSON-side threshold hash read back from a written JSON artifact.
 
+This JSON-side check is a local audit contract, not a byte-identical
+cross-environment reproducibility promise. The archived JSON is sufficient to
+verify the local threshold contract, pass/fail snapshot, and evidence boundary;
+it still includes `created_utc` and `environment` metadata.
+
 The v1.2 blocks are:
 
 ```text

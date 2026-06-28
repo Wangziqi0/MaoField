@@ -1,0 +1,51 @@
+query: D628 report30 accepted after minor revision Formal v1.3 theorem strengthening node19 package c11ed233   (top-10, 源=知识, project=MaoField)
+
+[1] score=0.7365  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/debranded_residual_transport/README.md
+    sect: Debranded Residual Transport Direction > Current Entry Points
+    cation `formal_v1_2_patch_accepted_after_minor_revision`. - `../gpt_deep_research/FORMAL_RESIDUAL_TRANSPORT_V1_2_REPORT30_ACCEPTANCE_ADOPTION_NOTE_20260628.md` —   node36 adoption note for report (30). It accepts only lo ...
+
+[2] score=0.7190  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/STATE.md
+    sect: MaoField — PROJECT STATE (canonical 单一真相源) > §0 一句话 + 今天
+    entation audit、本地 minor threshold-contract patch、report(30) acceptance audit 与 Formal v1.3 prompt/package 已进入 canonical。v1.2 harness 12 synthetic blocks 全 pass; meta-block 已记录 `evaluated_by=evaluate_test` 与 JSON readback ...
+
+[3] score=0.6972  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_REPORT30_FORMALV13_20260628.md
+    sect: Node22 Vector Refresh — Report(30) / Formal v1.3 Package > Smoke Queries
+    The first smoke query:  ```text D628 report30 accepted after minor revision Formal v1.3 theorem strengthening node19 package ```  returned top hits including:  - `docs/infra/debranded_residual_transport/README.md`; - `GP ...
+
+[4] score=0.6905  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_REPORT30_FORMALV13_20260628.md
+    sect: Node22 Vector Refresh — Report(30) / Formal v1.3 Package > Scope
+    This refresh promotes the report (30) acceptance materials and the Formal v1.3 theorem-strengthening prompt/package metadata into the default node36 RAG locator.  Primary additions before the final build included:  - `de ...
+
+[5] score=0.6889  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/GPT55_PRO_RESEARCH_INDEX_20260622.md
+    sect: MaoField GPT-5.5 Pro Research Index > 4. Experiment Verdict Map > 4.31 D628 Report(30) Formal v1.2 Acceptance And v1.3 Next Step
+    19 package record: [DEBRANDED_RESIDUAL_TRANSPORT_19_PACKAGE_FORMALV13_THEOREM_STRENGTHENING_20260628.md](docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_19_PACKAGE_FORMALV13_THEOREM_STRENGTHENING_20260628.md)  Report (30) verdic ...
+
+[6] score=0.6809  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/GPT55_PRO_RESEARCH_INDEX_20260622.md
+    sect: MaoField GPT-5.5 Pro Research Index > 4. Experiment Verdict Map > 4.31 D628 Report(30) Formal v1.2 Acceptance And v1.3 Next Step
+    Report (30) archive: [deep_research_formal_residual_transport_v1_2_report29_minor_revision_audit_20260628.md](docs/infra/gpt_deep_research/deep_research_formal_residual_transport_v1_2_report29_minor_revision_audit_202606 ...
+
+[7] score=0.6778  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/GPT55_PRO_RESEARCH_INDEX_20260622.md
+    sect: MaoField GPT-5.5 Pro Research Index
+    > Built on 2026-06-22 after a node-36 takeover audit, six-agent read-only review, RAG-assisted discovery, and direct source reads. This file is a **sanitized repository-local research index** for GitHub / web indexing. I ...
+
+[8] score=0.6742  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/STATE.md
+    sect: MaoField — PROJECT STATE (canonical 单一真相源) > 戳
+    | 项 | 值 | |---|---| | 最后更新 | **2026-06-28 D628 11:22-11:40 CST** (`date` verified 11:22 CST; source HEAD before update `5c40ac3`)。report(30) 已归档为 `docs/infra/gpt_deep_research/deep_research_formal_residual_transport_v1_2 ...
+
+[9] score=0.6715  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/FORMAL_RESIDUAL_TRANSPORT_V1_2_REPORT30_ACCEPTANCE_ADOPTION_NOTE_20260628.md
+    sect: Formal Residual Transport v1.2 Report (30) Acceptance Adoption Note
+    Date: 2026-06-28 CST Scope: node36 adoption of report (30), archived as `deep_research_formal_residual_transport_v1_2_report29_minor_revision_audit_20260628.md`. ...
+
+[10] score=0.6635  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/FORMAL_RESIDUAL_TRANSPORT_V1_1_STRICT_AUDIT_ADOPTION_NOTE_20260626.md
+    sect: Formal Residual Transport v1.1 Strict Audit Adoption Note > Adopted Verdict
+    Report (27) classifies Formal v1.1 as:  ```text accept_with_v1_2_required ```  Node36 adopts this strictly:  - v1.1 is not a failed object. - v1.1 is not a completed formal system. - v1.1 is an effective patch direction  ...

@@ -1,0 +1,51 @@
+query: MaoField current state D628 report30 node19 v1.3 prompt insufficient_artifact   (top-10, 源=知识, project=MaoField)
+
+[1] score=0.6851  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_formal_residual_transport_v1_2_report29_minor_revision_audit_20260628.md
+    sect: Formal v1.2 Report 29 Minor Revision Audit > 最终分类
+    ```text formal_v1_2_patch_accepted_after_minor_revision ```  Mode B MaoField empirical status 仍然必须保持为 `insufficient_artifact`。 ...
+
+[2] score=0.6650  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/GPT55_PRO_RESEARCH_INDEX_20260622.md
+    sect: MaoField GPT-5.5 Pro Research Index
+    60626.md` > and > `docs/infra/gpt_deep_research/GPT55_PRO_FOUNDATIONAL_RESIDUAL_TRANSPORT_V1_2_PATCH_PROMPT_20260626.md`. > Mode B MaoField remains `insufficient_artifact`; no full panel, training, new > loss, or observe ...
+
+[3] score=0.6521  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/MATH_TURN_FRAMEWORK_ADOPTION_NOTE_20260622.md
+    sect: Math-Turn Framework Adoption Note > Adopted Next Sentence
+    The current aggregate artifact remains insufficient. The next MaoField step is to produce a slice-level primary JSON from existing checkpoints/logprobs under a preregistered schema; only that artifact can decide whether  ...
+
+[4] score=0.6508  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/GPT55_PRO_RESEARCH_INDEX_20260622.md
+    sect: MaoField GPT-5.5 Pro Research Index > 4. Experiment Verdict Map > 4.15 D623 Quotient Residual Finite ANOVA / No-Go Formalization
+    Current MaoField status:  - Mode B remains `insufficient_artifact`. - Existing interaction smoke remains `smoke_conjecture_only`. - Report (21) is a formalization of the Mode A theorem/no-go agenda, not new   evidence. - ...
+
+[5] score=0.6488  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/GPT55_PRO_RESEARCH_INDEX_20260622.md
+    sect: MaoField GPT-5.5 Pro Research Index > 4. Experiment Verdict Map > 4.14 D623 Mode A Quotient Residual Kill Framework
+    Current MaoField status:  - Mode B remains `insufficient_artifact` for stable non-scalar structure. - Existing interaction residual smoke remains `smoke_conjecture_only`. - Default RAG now includes report(19), its adopti ...
+
+[6] score=0.6483  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_STATUS_20260624.md
+    sect: Debranded Residual Transport Direction Status Snapshot > 2026-06-28 Formal v1.2 Report(30) Acceptance
+    ```text definitions_and_harness_viable_only ```  Mode B MaoField empirical status remains:  ```text insufficient_artifact ```  The next Pro task is now Formal v1.3 theorem/no-go strengthening:  ```text docs/infra/gpt_dee ...
+
+[7] score=0.6462  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/debranded_residual_transport/FORMAL_NOTE_V1_2_20260627.md
+    sect: Finite Weighted Residual Transport -- Formal Note v1.2 > 0. Boundary
+    This note patches Formal Note v1.1. It keeps the same evidence boundary:  - no full MaoField panel has run; - no 16-cell full-panel aggregate exists; - no residual, interaction, quotient-residual, transport, or holonomy  ...
+
+[8] score=0.6456  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/experiments/exp018_cat/dppl_bridge_verify_d21_output/MAOFIELD_D26_NEW_FILE_INVENTORY_20260526.md
+    sect: (无标题)
+    [额外 agent] # MaoField D26 7B13 新增 file 详细 inventory (zero-context inventory 子代理) ...
+
+[9] score=0.6414  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/GPT55_PRO_RESEARCH_INDEX_20260622.md
+    sect: MaoField GPT-5.5 Pro Research Index > 4. Experiment Verdict Map > 4.16 D624 Quotient Residual Mainline / Debranded Program
+    Current MaoField status:  - Mode B remains `insufficient_artifact`. - Existing interaction smoke remains `smoke_conjecture_only`. - The strongest allowed project direction is   `negative-centered measurement-audit / no-g ...
+
+[10] score=0.6387  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_formal_residual_transport_v1_2_implementation_audit_20260627.md
+    sect: Formal Residual Transport v1.2 实现审计报告 > 通俗解释与最终分类
+    并且无论这个分类如何，Mode B MaoField empirical status 都必须保持：  **insufficient_artifact**〔证据：00-README_FOR_142_AND_PRO.md:15-19；prompt/GPT55_PRO_FOUNDATIONAL_RESIDUAL_TRANSPORT_V1_2_IMPLEMENTATION_AUDIT_PROMPT_20260627.md:24-32；from ...
