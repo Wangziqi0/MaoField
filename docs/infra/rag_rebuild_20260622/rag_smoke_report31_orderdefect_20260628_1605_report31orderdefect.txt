@@ -1,0 +1,41 @@
+query: D628 report31 Formal v1.3 order defect product non-product weight boundary proof audit   (top-8, 源=知识, project=MaoField)
+
+[1] score=0.6909  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/MD_CATALOG.md
+    sect: MaoField MD_CATALOG — 全 ~429 md 分层梳理 (navigate reference) > §0 新 session 导航 TL;DR ★最重要 > 导航 ACTIVE 核心与 D628 当前入口 (该看)
+     现在进入 v1.3 order-defect proof-audit: report(31) node36 窄采纳为 `formal_v1_3_weighted_anova_order_defect_plan_accepted_with_guards`; 下一步只审 product/non-product weight boundary 的 weighted ANOVA order-defect theorem/no-go, 不声称定 ...
+
+[2] score=0.6845  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/debranded_residual_transport/FORMAL_NOTE_V1_3_ORDER_DEFECT_WORKPLAN_20260628.md
+    sect: Formal Note v1.3 Order-Defect Workplan > Target
+    Formal v1.3 should first strengthen the product versus non-product weight boundary in the v1.2 product-weight Hoeffding proposition.  Working name:  ```text weighted_anova_order_defect_product_weight_boundary ``` ...
+
+[3] score=0.6650  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/debranded_residual_transport/README.md
+    sect: Debranded Residual Transport Direction > Current Next Step
+    Use the Formal v1.3 order-defect proof-audit package as the next strict target. It asks GPT-5.5 Pro to audit the smallest useful theorem/no-go advance after report (31): the product vs non-product weight boundary for fin ...
+
+[4] score=0.6638  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/debranded_residual_transport/README.md
+    sect: Debranded Residual Transport Direction > Current Entry Points
+    he default node36 RAG locator. - `../gpt_deep_research/deep_research_formal_residual_transport_v1_3_theorem_strengthening_plan_20260628.md` —   report (31), a Formal v1.3 theorem-strengthening plan source. Node36 adopts  ...
+
+[5] score=0.6627  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/FORMAL_RESIDUAL_TRANSPORT_V1_3_THEOREM_STRENGTHENING_PLAN_ADOPTION_NOTE_20260628.md
+    sect: Formal Residual Transport v1.3 Theorem-Strengthening Plan Adoption Note > Adopted Classification
+    ```text formal_v1_3_weighted_anova_order_defect_plan_accepted_with_guards ```  Node36 adopts report (31) as a narrow Mode A mathematical planning verdict: Formal v1.3 should first pursue the product versus non-product we ...
+
+[6] score=0.6515  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/debranded_residual_transport/README.md
+    sect: Debranded Residual Transport Direction > Current Entry Points
+    628.md` —   zero-context prompt for the next proof-audit pass. - `../DEBRANDED_RESIDUAL_TRANSPORT_19_PACKAGE_FORMALV13_ORDER_DEFECT_PROOF_20260628.md` —   node19 package record for the Formal v1.3 order-defect proof-audi ...
+
+[7] score=0.6478  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/GPT55_PRO_RESEARCH_INDEX_20260622.md
+    sect: MaoField GPT-5.5 Pro Research Index
+    OrderDefectProof_Report31_20260628_1555.zip`, > zip sha256 `de259712a233e6b0c11f945823d4817fabba86d8e4846df6936383aa7cd884b0`, > prompt sha256 `2450a5ef34e1730d4fe178a28fd6f72b9f7afe451d093f5342f1fc812795ffde`. > No full ...
+
+[8] score=0.6473  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/STATE.md
+    sect: MaoField — PROJECT STATE (canonical 单一真相源) > 戳
+    | 项 | 值 | |---|---| | 最后更新 | **2026-06-28 D628 15:54 CST** (`date` verified 15:54 CST; source HEAD before update `21790ea`)。report(31) 已归档为 `docs/infra/gpt_deep_research/deep_research_formal_residual_transport_v1_3_theor ...

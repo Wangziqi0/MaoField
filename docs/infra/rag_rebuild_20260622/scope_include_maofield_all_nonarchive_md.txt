@@ -23,6 +23,7 @@
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_142_PACKAGE_FORMALV12_PATCH_20260626.md
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_142_PACKAGE_FORMALV12_REPORT29_MINOR_REVISION_AUDIT_20260627.md
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_142_PACKAGE_FORMALV1_20260625.md
+/media/amd/raid1/canonical/projects/MaoField/docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_19_PACKAGE_FORMALV13_ORDER_DEFECT_PROOF_20260628.md
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_19_PACKAGE_FORMALV13_THEOREM_STRENGTHENING_20260628.md
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_CORE_DESCRIPTION_20260624.md
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_FORMAL_NOTE_OUTLINE_20260625.md
@@ -34,12 +35,14 @@
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/debranded_residual_transport/FORMAL_NOTE_V1_20260625.md
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/debranded_residual_transport/FORMAL_NOTE_V1_2_20260627.md
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/debranded_residual_transport/FORMAL_NOTE_V1_2_WORKPLAN_20260626.md
+/media/amd/raid1/canonical/projects/MaoField/docs/infra/debranded_residual_transport/FORMAL_NOTE_V1_3_ORDER_DEFECT_WORKPLAN_20260628.md
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/debranded_residual_transport/FORMAL_NOTE_V1_WORKPLAN_20260625.md
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/debranded_residual_transport/README.md
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/debranded_residual_transport/README_FOR_PRO_FORMALV11_AUDIT_20260625.md
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/debranded_residual_transport/README_FOR_PRO_FORMALV12_IMPLEMENTATION_AUDIT_20260627.md
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/debranded_residual_transport/README_FOR_PRO_FORMALV12_PATCH_20260626.md
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/debranded_residual_transport/README_FOR_PRO_FORMALV12_REPORT29_MINOR_REVISION_AUDIT_20260627.md
+/media/amd/raid1/canonical/projects/MaoField/docs/infra/debranded_residual_transport/README_FOR_PRO_FORMALV13_ORDER_DEFECT_PROOF_20260628.md
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/debranded_residual_transport/README_FOR_PRO_FORMALV13_THEOREM_STRENGTHENING_20260628.md
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/debranded_residual_transport/README_FOR_PRO_FOUNDATIONAL_20260625.md
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/debranded_residual_transport/SYNTHETIC_HARNESS_V0_20260625.md
@@ -51,6 +54,7 @@
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/FORMAL_RESIDUAL_TRANSPORT_V1_2_IMPLEMENTATION_AUDIT_ADOPTION_NOTE_20260627.md
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/FORMAL_RESIDUAL_TRANSPORT_V1_2_MINIMAL_PATCH_ADOPTION_NOTE_20260627.md
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/FORMAL_RESIDUAL_TRANSPORT_V1_2_REPORT30_ACCEPTANCE_ADOPTION_NOTE_20260628.md
+/media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/FORMAL_RESIDUAL_TRANSPORT_V1_3_THEOREM_STRENGTHENING_PLAN_ADOPTION_NOTE_20260628.md
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/FORMAL_RESIDUAL_TRANSPORT_V1_STRICT_AUDIT_ADOPTION_NOTE_20260625.md
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/FOUNDATIONAL_RESIDUAL_TRANSPORT_V1_ADOPTION_NOTE_20260625.md
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/FUTURE_MATH_OBJECTS_INTERACTION_FIELD_ADOPTION_NOTE_20260623.md
@@ -60,6 +64,7 @@
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/GPT55_PRO_FOUNDATIONAL_RESIDUAL_TRANSPORT_V1_2_IMPLEMENTATION_AUDIT_PROMPT_20260627.md
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/GPT55_PRO_FOUNDATIONAL_RESIDUAL_TRANSPORT_V1_2_PATCH_PROMPT_20260626.md
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/GPT55_PRO_FOUNDATIONAL_RESIDUAL_TRANSPORT_V1_2_REPORT29_MINOR_REVISION_AUDIT_PROMPT_20260627.md
+/media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/GPT55_PRO_FOUNDATIONAL_RESIDUAL_TRANSPORT_V1_3_ORDER_DEFECT_PROOF_PROMPT_20260628.md
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/GPT55_PRO_FOUNDATIONAL_RESIDUAL_TRANSPORT_V1_3_THEOREM_STRENGTHENING_PROMPT_20260628.md
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/GPT55_PRO_FOUNDATIONAL_RESIDUAL_TRANSPORT_V1_PROMPT_20260625.md
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/GPT55_PRO_MODE_A_MATH_DISCOVERY_PROMPT_20260623.md
@@ -83,6 +88,7 @@
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_formal_residual_transport_v1_2_implementation_audit_20260627.md
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_formal_residual_transport_v1_2_minimal_patch_20260627.md
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_formal_residual_transport_v1_2_report29_minor_revision_audit_20260628.md
+/media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_formal_residual_transport_v1_3_theorem_strengthening_plan_20260628.md
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_formal_residual_transport_v1_strict_audit_20260625.md
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_foundational_residual_transport_v1_20260625.md
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_future_math_objects_interaction_field_audit_20260623.md
@@ -140,6 +146,7 @@
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_REPORT29_FINAL_20260627.md
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_REPORT29_FORMALV12_MINOR_20260627.md
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_REPORT30_FORMALV13_20260628.md
+/media/amd/raid1/canonical/projects/MaoField/docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_REPORT31_ORDERDEFECT_20260628.md
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_REPORT7_20260623.md
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_REPORT9_20260623.md
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_TRANSPORT_HARNESS_20260624.md

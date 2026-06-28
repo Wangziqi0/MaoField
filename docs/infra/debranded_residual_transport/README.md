@@ -124,6 +124,23 @@ It is intentionally separated from the MaoField empirical line:
 - `../rag_rebuild_20260622/NODE22_VECTOR_REFRESH_REPORT30_FORMALV13_20260628.md` —
   current RAG refresh record after report (30), the v1.3 prompt, and node19
   package metadata were promoted into the default node36 RAG locator.
+- `../gpt_deep_research/deep_research_formal_residual_transport_v1_3_theorem_strengthening_plan_20260628.md` —
+  report (31), a Formal v1.3 theorem-strengthening plan source. Node36 adopts
+  only the guarded next target: product vs non-product weight boundary and
+  weighted ANOVA order-defect proof audit.
+- `../gpt_deep_research/FORMAL_RESIDUAL_TRANSPORT_V1_3_THEOREM_STRENGTHENING_PLAN_ADOPTION_NOTE_20260628.md` —
+  node36 adoption note for report (31), with the local verdict
+  `formal_v1_3_weighted_anova_order_defect_plan_accepted_with_guards`.
+- `FORMAL_NOTE_V1_3_ORDER_DEFECT_WORKPLAN_20260628.md` — proof-audit workplan
+  for the product/non-product weight boundary, ordered residual operators, and
+  sequential stripping artifact no-go.
+- `README_FOR_PRO_FORMALV13_ORDER_DEFECT_PROOF_20260628.md` — upload/package
+  guide for the GPT-5.5 Pro Formal v1.3 order-defect proof audit.
+- `../gpt_deep_research/GPT55_PRO_FOUNDATIONAL_RESIDUAL_TRANSPORT_V1_3_ORDER_DEFECT_PROOF_PROMPT_20260628.md` —
+  zero-context prompt for the next proof-audit pass.
+- `../DEBRANDED_RESIDUAL_TRANSPORT_19_PACKAGE_FORMALV13_ORDER_DEFECT_PROOF_20260628.md` —
+  node19 package record for the Formal v1.3 order-defect proof-audit prompt
+  and bundle.
 
 ## Current Verdict
 
@@ -139,8 +156,9 @@ residual, interaction, transport, or holonomy field.
 
 ## Current Next Step
 
-Use the Formal v1.3 theorem-strengthening package as the next strict target.
-It asks GPT-5.5 Pro to decide the smallest useful theorem/no-go advance after
-report (30) accepted the report (29) minor revision. Do not turn the v1.2 note,
-report (30), v1.3 prompt, package, or synthetic harness into an empirical
-MaoField claim.
+Use the Formal v1.3 order-defect proof-audit package as the next strict target.
+It asks GPT-5.5 Pro to audit the smallest useful theorem/no-go advance after
+report (31): the product vs non-product weight boundary for finite weighted
+ANOVA and ordered residual stripping. Do not turn the v1.2 note, report (30),
+report (31), v1.3 prompt, package, or synthetic harness into an empirical
+MaoField claim or a completed formal-system claim.

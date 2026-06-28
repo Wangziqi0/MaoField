@@ -1,0 +1,40 @@
+[1/4] files=428
+[2/4] chunks=10074 chunk_seconds=13.6
+[3/4] remote_embed endpoint=http://192.168.31.22:18080 model=bge-m3-temp batch=32 batches=315
+  embedded_batches=1/315 texts=32/10074 rate=33.33 text/s
+  embedded_batches=10/315 texts=320/10074 rate=67.99 text/s
+  embedded_batches=20/315 texts=640/10074 rate=87.46 text/s
+  embedded_batches=30/315 texts=960/10074 rate=91.16 text/s
+  embedded_batches=40/315 texts=1280/10074 rate=88.89 text/s
+  embedded_batches=50/315 texts=1600/10074 rate=86.42 text/s
+  embedded_batches=60/315 texts=1920/10074 rate=91.15 text/s
+  embedded_batches=70/315 texts=2240/10074 rate=92.42 text/s
+  embedded_batches=80/315 texts=2560/10074 rate=92.11 text/s
+  embedded_batches=90/315 texts=2880/10074 rate=92.48 text/s
+  embedded_batches=100/315 texts=3200/10074 rate=93.56 text/s
+  embedded_batches=110/315 texts=3520/10074 rate=94.42 text/s
+  embedded_batches=120/315 texts=3840/10074 rate=94.17 text/s
+  embedded_batches=130/315 texts=4160/10074 rate=93.45 text/s
+  embedded_batches=140/315 texts=4480/10074 rate=93.28 text/s
+  embedded_batches=150/315 texts=4800/10074 rate=93.44 text/s
+  embedded_batches=160/315 texts=5120/10074 rate=93.44 text/s
+  embedded_batches=170/315 texts=5440/10074 rate=93.21 text/s
+  embedded_batches=180/315 texts=5760/10074 rate=93.59 text/s
+  embedded_batches=190/315 texts=6080/10074 rate=93.22 text/s
+  embedded_batches=200/315 texts=6400/10074 rate=93.12 text/s
+  embedded_batches=210/315 texts=6720/10074 rate=93.70 text/s
+  embedded_batches=220/315 texts=7040/10074 rate=93.57 text/s
+  embedded_batches=230/315 texts=7360/10074 rate=93.71 text/s
+  embedded_batches=240/315 texts=7680/10074 rate=93.95 text/s
+  embedded_batches=250/315 texts=8000/10074 rate=94.05 text/s
+  embedded_batches=260/315 texts=8320/10074 rate=94.22 text/s
+  embedded_batches=270/315 texts=8640/10074 rate=95.00 text/s
+  embedded_batches=280/315 texts=8960/10074 rate=95.10 text/s
+  embedded_batches=290/315 texts=9280/10074 rate=95.23 text/s
+  embedded_batches=300/315 texts=9600/10074 rate=94.94 text/s
+  embedded_batches=310/315 texts=9920/10074 rate=95.55 text/s
+  embedded_batches=315/315 texts=10074/10074 rate=95.31 text/s
+[4/4] wrote index
+      faiss=/home/amd/codex-node36/tmp/maofield-rag-20260628_1737_report31final/index/kb.faiss bytes=41263149 vectors=10074 dim=1024
+      meta=/home/amd/codex-node36/tmp/maofield-rag-20260628_1737_report31final/index/kb_meta.jsonl bytes=12379785
+[stat] files=428 chunks=10074 embed_seconds=105.7 rate=95.301text/s

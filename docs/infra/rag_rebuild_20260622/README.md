@@ -402,6 +402,13 @@ updated status/navigation files. See
 `kb_meta=3fdf961f...`. Node22 was used only as a temporary bge-m3 worker and
 the service was stopped after build.
 
+D628 report(31) / Formal v1.3 order-defect proof-audit package: default
+`/media/amd/raid1/rag/index` was refreshed after adding report (31), its
+guarded adoption note, the v1.3 order-defect workplan, the next GPT-5.5 Pro
+proof-audit prompt, node19 package record, and updated status/navigation files.
+See `NODE22_VECTOR_REFRESH_REPORT31_FINAL_20260628.md`. Runtime index: see final RAG record. Node22 was used only as a temporary bge-m3 worker and
+the service was stopped after build.
+
 Rebuild entry point:
 
 ```bash

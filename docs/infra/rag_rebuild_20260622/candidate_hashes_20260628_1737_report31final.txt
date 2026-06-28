@@ -1,0 +1,3 @@
+ca498170f96ad7b09015194e688df92def0461d0607ed98c2dda2f60cfe82e2a  /home/amd/codex-node36/tmp/maofield-rag-20260628_1737_report31final/index/kb.faiss
+18efe1b9fda30663ed1dca63f54ee98be08caf20547f693b28224d4f321ab67d  /home/amd/codex-node36/tmp/maofield-rag-20260628_1737_report31final/index/kb_meta.jsonl
+80ae320b75ade8334e6e86ed691e794c9cdcc459be6b006630275976ff86bca0  /home/amd/codex-node36/tmp/maofield-rag-20260628_1737_report31final/canonical_scope_active_20260628_1737_report31final.txt

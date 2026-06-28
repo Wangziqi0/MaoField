@@ -576,7 +576,8 @@ Mode B MaoField empirical status remains:
 insufficient_artifact
 ```
 
-The next Pro task is now Formal v1.3 theorem/no-go strengthening:
+At the report (30) checkpoint, the next Pro task was Formal v1.3
+theorem/no-go strengthening:
 
 ```text
 docs/infra/gpt_deep_research/GPT55_PRO_FOUNDATIONAL_RESIDUAL_TRANSPORT_V1_3_THEOREM_STRENGTHENING_PROMPT_20260628.md
@@ -592,7 +593,7 @@ zip sha256=4536e12c6532c2d2dd6ae99f9ae68d1ded140ba8f1146a39644af5526cb51007
 prompt sha256=c607037b3d9b9a5907ffc430d99230b4c541e3740f51d96c571b93944e516f84
 ```
 
-Default RAG has been refreshed with a node22 one-shot bge-m3 worker:
+The report (30) RAG state was refreshed with a node22 one-shot bge-m3 worker:
 
 ```text
 docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_REPORT30_FORMALV13_20260628.md
@@ -603,6 +604,62 @@ kb_meta=3fdf961f...
 
 This is not another report(29) closure audit and not MaoField empirical
 validation.
+
+## 2026-06-28 Formal v1.3 Order-Defect Proof Audit
+
+Report (31) is a plan source for the next theorem/no-go target:
+
+```text
+docs/infra/gpt_deep_research/deep_research_formal_residual_transport_v1_3_theorem_strengthening_plan_20260628.md
+docs/infra/gpt_deep_research/FORMAL_RESIDUAL_TRANSPORT_V1_3_THEOREM_STRENGTHENING_PLAN_ADOPTION_NOTE_20260628.md
+```
+
+Node36 adopts it only as:
+
+```text
+formal_v1_3_weighted_anova_order_defect_plan_accepted_with_guards
+```
+
+This is a proof-audit plan, not a completed theorem and not a completed formal
+system. The immediate mathematical target is the product vs non-product weight
+boundary for finite weighted ANOVA:
+
+```text
+docs/infra/debranded_residual_transport/FORMAL_NOTE_V1_3_ORDER_DEFECT_WORKPLAN_20260628.md
+docs/infra/gpt_deep_research/GPT55_PRO_FOUNDATIONAL_RESIDUAL_TRANSPORT_V1_3_ORDER_DEFECT_PROOF_PROMPT_20260628.md
+docs/infra/debranded_residual_transport/README_FOR_PRO_FORMALV13_ORDER_DEFECT_PROOF_20260628.md
+docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_19_PACKAGE_FORMALV13_ORDER_DEFECT_PROOF_20260628.md
+```
+
+The intended proof audit must keep these guards:
+
+- `P_A` and `P_B0` are joint-weight orthogonal projections, not conditional
+  expectations.
+- `R_{Q->B}-R_{B->Q}=(P_B0 P_A-P_A P_B0)(I-P_C)` before simplification.
+- Non-product weight conclusions should assert operator difference and
+  existence of witnesses, not that every input differs.
+- The wrong-order residual from a pure main effect is a sequential stripping
+  artifact or interaction-like artifact, not an observed true interaction.
+
+Node19 desktop package:
+
+```text
+C:\Users\amd\Desktop\MaoField_PRO_FoundationalResidualTransport_FormalV13_OrderDefectProof_Report31_20260628_1734final.zip
+zip sha256=50421728ac178716074cf917208c3670e2d9202c8a3b37965456bc8addb0462c
+prompt sha256=2450a5ef34e1730d4fe178a28fd6f72b9f7afe451d093f5342f1fc812795ffde
+```
+
+Default RAG has been refreshed with a node22 one-shot bge-m3 worker:
+
+```text
+docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_REPORT31_FINAL_20260628.md
+runtime index: see final RAG record
+node22 service stopped after build
+```
+
+This proof-audit direction does not authorize full-panel work, checkpoint
+loading, training, a new loss, observed-field language, glass-box language,
+F3/LOSO upgrades, or MaoField empirical validation.
 
 ## Product-Weight Boundary
 

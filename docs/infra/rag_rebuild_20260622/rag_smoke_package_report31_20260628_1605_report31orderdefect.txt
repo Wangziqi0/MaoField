@@ -1,0 +1,41 @@
+query: DEBRANDED_RESIDUAL_TRANSPORT_19_PACKAGE_FORMALV13_ORDER_DEFECT_PROOF zip sha256 prompt sha256   (top-8, 源=知识, project=MaoField)
+
+[1] score=0.7186  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/MD_CATALOG.md
+    sect: MaoField MD_CATALOG — 全 ~429 md 分层梳理 (navigate reference)
+    _2315.zip` 已复制并用 `certutil` 校验, zip sha256=`8afb1e4a86750d406fc3f16a18be8bd74b0b96c60f84dd9ca589f02e5beaac06`, prompt sha256=`89f43026b87145aa91c199ad94cf4fb45bc2422c4055db45b777019ea88b6a87`。默认 RAG 已刷新到 final Formal v1. ...
+
+[2] score=0.7125  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_19_PACKAGE_FORMALV13_ORDER_DEFECT_PROOF_20260628.md
+    sect: Node19 Package Record — Formal v1.3 Order-Defect Proof Audit > Included Core Files
+    The zip includes:  - `00-README_FOR_19_AND_PRO.md`; - `00-CURRENT_STATUS_FOR_PRO.md`; - `prompt/GPT55_PRO_FOUNDATIONAL_RESIDUAL_TRANSPORT_V1_3_ORDER_DEFECT_PROOF_PROMPT_20260628.md`; - current repository status and navig ...
+
+[3] score=0.7055  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_DEBRANDED_20260624.md
+    sect: Node22 Vector Refresh — Debranded Residual Transport Kickoff > Inputs
+    Status snapshot:  ```text docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_STATUS_20260624.md sha256=3d4334c9393da56fefc32568242ae26c35d7d6ab508947632fc7339d58d8a3fa ```  Core description:  ```text docs/infra/DEBRANDED_RESIDUAL_T ...
+
+[4] score=0.6978  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_142_PACKAGE_FORMALV12_PATCH_20260626.md
+    sect: Debranded Residual Transport Formal-v1.2 Minimal Patch 142 Package Record > Local Build
+    Package built under node36 SSD scratch:  ```text /home/amd/codex-node36/tmp/maofield-pro-formalv12-patch-20260626_1250/ ```  Package:  ```text MaoField_PRO_FoundationalResidualTransport_FormalV12_MinimalPatch_20260626_12 ...
+
+[5] score=0.6956  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_142_PACKAGE_20260624.md
+    sect: Debranded Residual Transport 142 Package Record > Node142 Destination
+    Copied to node142 desktop:  ```text C:\Users\amd\Desktop\MaoField_PRO_DebrandedResidualTransport_20260624_2110.zip C:\Users\amd\Desktop\MaoField_PRO_DebrandedResidualTransport_20260624_2110.zip.sha256 C:\Users\amd\Deskto ...
+
+[6] score=0.6922  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/README.md
+    sect: Documentation > Current Entry Points
+    randed_residual_transport/README_FOR_PRO_FORMALV13_ORDER_DEFECT_PROOF_20260628.md`](infra/debranded_residual_transport/README_FOR_PRO_FORMALV13_ORDER_DEFECT_PROOF_20260628.md) - [`infra/gpt_deep_research/FOUNDATIONAL_RES ...
+
+[7] score=0.6826  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/MD_CATALOG.md
+    sect: MaoField MD_CATALOG — 全 ~429 md 分层梳理 (navigate reference)
+    > **2026-06-25 formal-start Pro package 补丁**: 新增 `docs/infra/gpt_deep_research/GPT55_PRO_FOUNDATIONAL_RESIDUAL_TRANSPORT_PROMPT_20260625.md`, `docs/infra/debranded_residual_transport/README_FOR_PRO_FOUNDATIONAL_20260625. ...
+
+[8] score=0.6802  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_142_PACKAGE_FORMALV12_IMPLEMENTATION_AUDIT_20260627.md
+    sect: Debranded Residual Transport Formal-v1.2 Implementation Audit 142 Package Record > Local Build
+    Package built under node36 SSD scratch:  ```text /home/amd/codex-node36/tmp/maofield-pro-formalv12-implaudit-20260627_1308/ ```  Package:  ```text MaoField_PRO_FoundationalResidualTransport_FormalV12_ImplementationAudit_ ...

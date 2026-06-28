@@ -2,6 +2,26 @@
 
 > Built on 2026-06-22 after a node-36 takeover audit, six-agent read-only review, RAG-assisted discovery, and direct source reads. This file is a **sanitized repository-local research index** for GitHub / web indexing. It does not replace `STATE.md`; volatile project status still belongs there.
 >
+> D628 15:54 update: report (31) was archived as the Formal v1.3
+> theorem-strengthening plan report. Pro's internal classification was
+> `v1_3_theorem_strengthening_plan_accepted`; node36 adopts it more narrowly
+> as `formal_v1_3_weighted_anova_order_defect_plan_accepted_with_guards`.
+> The accepted next target is the product/non-product weight boundary:
+> a weighted ANOVA order-defect theorem/no-go proof audit. This is a plan-level
+> Mode A mathematics target only, not a proved theorem stack and not a MaoField
+> empirical upgrade. The next Pro prompt is
+> `GPT55_PRO_FOUNDATIONAL_RESIDUAL_TRANSPORT_V1_3_ORDER_DEFECT_PROOF_PROMPT_20260628.md`.
+> Node19 package:
+> `MaoField_PRO_FoundationalResidualTransport_FormalV13_OrderDefectProof_Report31_20260628_1734final.zip`,
+> zip sha256 `50421728ac178716074cf917208c3670e2d9202c8a3b37965456bc8addb0462c`,
+> prompt sha256 `2450a5ef34e1730d4fe178a28fd6f72b9f7afe451d093f5342f1fc812795ffde`.
+> Default RAG has been refreshed to final counts in RAG record
+> (`kb.faiss=see final RAG record`, `kb_meta=see final RAG record`) with node22 used only as a
+> one-shot bge-m3 embedding worker and stopped afterward; current record
+> `docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_REPORT31_FINAL_20260628.md`.
+> No full panel, training, new loss, observed field, glass-box, F3/LOSO, or
+> completed-formal-system claim is authorized.
+>
 > D628 update: report (30) was archived as the Formal v1.2 report(29)
 > minor-revision audit and adopted as
 > `formal_v1_2_patch_accepted_after_minor_revision`. The accepted closure is
@@ -9,13 +29,14 @@
 > `evaluate_test()`, and the JSON-side threshold hash is read back from the
 > written JSON artifact. The strongest local verdict remains
 > `definitions_and_harness_viable_only`; Mode B remains `insufficient_artifact`.
-> The next Pro task is no longer a report(29) closure audit. It is the
-> zero-context Formal v1.3 theorem/no-go strengthening prompt
+> At the report (30) checkpoint, the next Pro task was no longer a report(29)
+> closure audit; it was the zero-context Formal v1.3 theorem/no-go
+> strengthening prompt
 > `GPT55_PRO_FOUNDATIONAL_RESIDUAL_TRANSPORT_V1_3_THEOREM_STRENGTHENING_PROMPT_20260628.md`.
 > The node19 package has been copied and hash-verified; package record
 > `DEBRANDED_RESIDUAL_TRANSPORT_19_PACKAGE_FORMALV13_THEOREM_STRENGTHENING_20260628.md`,
 > zip sha256 `4536e12c6532c2d2dd6ae99f9ae68d1ded140ba8f1146a39644af5526cb51007`.
-> Default RAG has been refreshed to 421 active canonical md / 9992 chunks
+> That report(30) RAG state was refreshed to 421 active canonical md / 9992 chunks
 > (`kb.faiss=47b7603d...`, `kb_meta=3fdf961f...`) with node22 stopped. No full
 > panel, training, new loss, observed field, glass-box, F3/LOSO, or
 > completed-formal-system claim is authorized.
@@ -1935,25 +1956,28 @@ Repository-local evidence preferred for web indexing:
 Best next steps for GPT-5.5 Pro research:
 
 1. Use
-   `GPT55_PRO_FOUNDATIONAL_RESIDUAL_TRANSPORT_V1_3_THEOREM_STRENGTHENING_PROMPT_20260628.md`
-   as the zero-context prompt and attach the Formal v1.3 theorem-strengthening
+   `GPT55_PRO_FOUNDATIONAL_RESIDUAL_TRANSPORT_V1_3_ORDER_DEFECT_PROOF_PROMPT_20260628.md`
+   as the zero-context prompt and attach the Formal v1.3 order-defect proof
    package from node19.
-2. Treat report (30) as closing the report (29) minor revision only inside the
-   finite synthetic harness boundary. Do not re-run the old closure audit unless
-   the uploaded package itself introduces a new inconsistency.
-3. Ask Pro to choose the smallest mathematically valuable Formal v1.3 target:
-   quotient/registration theorem, product/non-product weight boundary, square
-   holonomy interpretation limit, projection-evolution commutator, random/rank
-   no-go, gluing obstruction, or coarsening/refinement naturality.
+2. Treat report (31) as selecting a plan-level target only. Node36 adopted the
+   target as
+   `formal_v1_3_weighted_anova_order_defect_plan_accepted_with_guards`; it did
+   not adopt Formal v1.3 as proved, implemented, or complete.
+3. Ask Pro to proof-audit the weighted ANOVA order-defect package:
+   product-weight iff main-effect orthogonality, sequential stripping
+   order-defect criterion, and non-product pure-main-effect artifact no-go.
 4. Allowed final classifications are limited to
-   `v1_3_theorem_strengthening_plan_accepted`,
-   `v1_2_sufficient_stop_here`, `requires_v1_2_revision_again`, or
-   `insufficient_artifact_for_v1_3_planning`.
+   `v1_3_order_defect_proof_plan_accepted`,
+   `requires_v1_3_definition_revision`, `requires_v1_2_boundary_reopen`,
+   `reject_order_defect_choose_different_v13_target`, or
+   `insufficient_artifact_for_order_defect_review`.
 5. Do not ask Pro to validate old MaoField empirical claims, chase glass-box
    language, recommend a full q4 panel, or discuss training/new-loss work.
 6. Keep MaoField Mode B at `insufficient_artifact`; the current package is
    Mode A finite-dimensional mathematics and synthetic harness auditing only.
-7. Keep philosophical interpretation as translation after the mathematics, not
+7. Use `sequential stripping artifact` or `interaction-like artifact` for the
+   non-product wrong-order witness unless a stronger interpretation is proved.
+8. Keep philosophical interpretation as translation after the mathematics, not
    as proof or evidence.
 
 The main guardrail: do not let a cleaner index become a cleaner overclaim.
