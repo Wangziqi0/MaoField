@@ -8,8 +8,9 @@ NODE22_VECTOR_REFRESH_REPORT31_FINAL_20260628.md
 ```
 
 Reason: after this index was promoted, `STATE.md` and the node19 package were
-corrected to the `1734final` snapshot. The final RAG pass indexes that corrected
-STATE/package context.
+corrected again. The current usable package is `1758fixed`; `1734final` and the
+transient `1751fixed` repair are superseded. The final RAG record tracks the
+corrected STATE/package context.
 
 Date: 2026-06-28 CST
 Authority: node36

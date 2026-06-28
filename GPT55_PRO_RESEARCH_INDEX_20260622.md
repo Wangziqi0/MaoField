@@ -12,9 +12,11 @@
 > empirical upgrade. The next Pro prompt is
 > `GPT55_PRO_FOUNDATIONAL_RESIDUAL_TRANSPORT_V1_3_ORDER_DEFECT_PROOF_PROMPT_20260628.md`.
 > Node19 package:
-> `MaoField_PRO_FoundationalResidualTransport_FormalV13_OrderDefectProof_Report31_20260628_1734final.zip`,
-> zip sha256 `50421728ac178716074cf917208c3670e2d9202c8a3b37965456bc8addb0462c`,
+> `MaoField_PRO_FoundationalResidualTransport_FormalV13_OrderDefectProof_Report31_20260628_1758fixed.zip`,
+> zip sha256 `3780b31e6f420c7dbf07d9378849f348c3ee151680c20e14aa84ee3ba4a6f7bb`,
 > prompt sha256 `2450a5ef34e1730d4fe178a28fd6f72b9f7afe451d093f5342f1fc812795ffde`.
+> This supersedes `1734final`, whose top-level README still pointed to the
+> intermediate `NODE22_VECTOR_REFRESH_REPORT31_ORDERDEFECT_20260628.md` record.
 > Default RAG has been refreshed to final counts in RAG record
 > (`kb.faiss=see final RAG record`, `kb_meta=see final RAG record`) with node22 used only as a
 > one-shot bge-m3 embedding worker and stopped afterward; current record

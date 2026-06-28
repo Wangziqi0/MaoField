@@ -1,0 +1,41 @@
+query: DEBRANDED_RESIDUAL_TRANSPORT_19_PACKAGE_FORMALV13_ORDER_DEFECT_PROOF 1758fixed 3780b31e prompt sha256   (top-8, 源=知识, project=MaoField)
+
+[1] score=0.7191  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_REPORT31_FINAL_20260628.md
+    sect: Node22 Vector Refresh — Report(31) Final Order-Defect Package > Smoke And Direct Checks
+    Smoke query:  ```text D628 17:58 report31 1758fixed order defect proof audit 3780b31e ```  returned top hits including:  - `GPT55_PRO_RESEARCH_INDEX_20260622.md` with the `1758fixed` package hash; - `STATE.md` with the D ...
+
+[2] score=0.7155  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/MD_CATALOG.md
+    sect: MaoField MD_CATALOG — 全 ~429 md 分层梳理 (navigate reference)
+    F_20260628.md`, `docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_19_PACKAGE_FORMALV13_ORDER_DEFECT_PROOF_20260628.md`。Pro 内部 classification=`v1_3_theorem_strengthening_plan_accepted`; node36 窄采纳为 `formal_v1_3_weighted_anova_orde ...
+
+[3] score=0.7044  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/README.md
+    sect: Documentation > Current Entry Points
+    randed_residual_transport/README_FOR_PRO_FORMALV13_ORDER_DEFECT_PROOF_20260628.md`](infra/debranded_residual_transport/README_FOR_PRO_FORMALV13_ORDER_DEFECT_PROOF_20260628.md) - [`infra/gpt_deep_research/FOUNDATIONAL_RES ...
+
+[4] score=0.6935  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/README.md
+    sect: Documentation > Current Entry Points
+    (infra/DEBRANDED_RESIDUAL_TRANSPORT_142_PACKAGE_FORMALV12_PATCH_20260626.md) - [`infra/DEBRANDED_RESIDUAL_TRANSPORT_142_PACKAGE_FORMALV12_IMPLEMENTATION_AUDIT_20260627.md`](infra/DEBRANDED_RESIDUAL_TRANSPORT_142_PACKAGE_ ...
+
+[5] score=0.6923  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/STATE.md
+    sect: MaoField — PROJECT STATE (canonical 单一真相源) > 戳
+    20260628_1758fixed.zip`, zip=`3780b31e6f420c7dbf07d9378849f348c3ee151680c20e14aa84ee3ba4a6f7bb`, prompt=`2450a5ef34e1730d4fe178a28fd6f72b9f7afe451d093f5342f1fc812795ffde`; package record=`docs/infra/DEBRANDED_RESIDUAL_TR ...
+
+[6] score=0.6917  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_FORMALV11_PRO_20260625.md
+    sect: Node22 Vector Refresh -- Formal v1.1 Pro Audit Package > Hashes
+    GPT55_PRO_FOUNDATIONAL_RESIDUAL_TRANSPORT_V1_1_AUDIT_PROMPT_20260625.md sha256=0ea8a9e0ed97f4b0573c77a0af6b37e79911ecd562063eaf6deade15a210494c ``` ...
+
+[7] score=0.6900  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/MD_CATALOG.md
+    sect: MaoField MD_CATALOG — 全 ~429 md 分层梳理 (navigate reference)
+    V13_TheoremStrengthening_Report30_20260628_1127.zip` 已复制并用 `Get-FileHash` 校验, zip sha256=`4536e12c6532c2d2dd6ae99f9ae68d1ded140ba8f1146a39644af5526cb51007`, prompt sha256=`c607037b3d9b9a5907ffc430d99230b4c541e3740f51d96c ...
+
+[8] score=0.6851  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_DEBRANDED_20260624.md
+    sect: Node22 Vector Refresh — Debranded Residual Transport Kickoff > Inputs
+    Status snapshot:  ```text docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_STATUS_20260624.md sha256=3d4334c9393da56fefc32568242ae26c35d7d6ab508947632fc7339d58d8a3fa ```  Core description:  ```text docs/infra/DEBRANDED_RESIDUAL_T ...

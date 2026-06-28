@@ -141,6 +141,7 @@
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_REPORT29_FINAL_20260627.md
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_REPORT29_FORMALV12_MINOR_20260627.md
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_REPORT30_FORMALV13_20260628.md
+/media/amd/raid1/canonical/projects/MaoField/docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_REPORT31_FINAL_20260628.md
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_REPORT31_ORDERDEFECT_20260628.md
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_REPORT7_20260623.md
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_REPORT9_20260623.md

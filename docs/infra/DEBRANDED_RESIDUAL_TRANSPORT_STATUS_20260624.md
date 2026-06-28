@@ -644,10 +644,14 @@ The intended proof audit must keep these guards:
 Node19 desktop package:
 
 ```text
-C:\Users\amd\Desktop\MaoField_PRO_FoundationalResidualTransport_FormalV13_OrderDefectProof_Report31_20260628_1734final.zip
-zip sha256=50421728ac178716074cf917208c3670e2d9202c8a3b37965456bc8addb0462c
+C:\Users\amd\Desktop\MaoField_PRO_FoundationalResidualTransport_FormalV13_OrderDefectProof_Report31_20260628_1758fixed.zip
+zip sha256=3780b31e6f420c7dbf07d9378849f348c3ee151680c20e14aa84ee3ba4a6f7bb
 prompt sha256=2450a5ef34e1730d4fe178a28fd6f72b9f7afe451d093f5342f1fc812795ffde
 ```
+
+Use `1758fixed` only. It supersedes `1734final`, whose top-level package
+README still pointed to the intermediate `NODE22_VECTOR_REFRESH_REPORT31_ORDERDEFECT_20260628.md`
+record instead of the final RAG record.
 
 Default RAG has been refreshed with a node22 one-shot bge-m3 worker:
 

@@ -18,13 +18,13 @@ MaoField empirical validation package.
 Scratch staging directory:
 
 ```text
-/home/amd/codex-node36/tmp/maofield-pro-formalv13-orderdefect-report31-20260628_1734final
+/home/amd/codex-node36/tmp/maofield-pro-formalv13-orderdefect-report31-20260628_1758fixed
 ```
 
 Local zip:
 
 ```text
-/home/amd/codex-node36/tmp/MaoField_PRO_FoundationalResidualTransport_FormalV13_OrderDefectProof_Report31_20260628_1734final.zip
+/home/amd/codex-node36/tmp/MaoField_PRO_FoundationalResidualTransport_FormalV13_OrderDefectProof_Report31_20260628_1758fixed.zip
 ```
 
 Standalone prompt source:
@@ -44,22 +44,22 @@ No errors detected in compressed data
 Node36 hashes:
 
 ```text
-zip sha256=50421728ac178716074cf917208c3670e2d9202c8a3b37965456bc8addb0462c
+zip sha256=3780b31e6f420c7dbf07d9378849f348c3ee151680c20e14aa84ee3ba4a6f7bb
 prompt sha256=2450a5ef34e1730d4fe178a28fd6f72b9f7afe451d093f5342f1fc812795ffde
-manifest sha256=3e3af5c4ed1e1aeb5ce638adcaf5185158a0f11d85bf624479fd327cb1e8147b
+manifest sha256=3b5fb3f18de4fa56e3a86017db16632462a63f25bb12eb5ac4ff4ca851ffd921
 ```
 
 Node19 desktop artifacts:
 
 ```text
-C:\Users\amd\Desktop\MaoField_PRO_FoundationalResidualTransport_FormalV13_OrderDefectProof_Report31_20260628_1734final.zip
+C:\Users\amd\Desktop\MaoField_PRO_FoundationalResidualTransport_FormalV13_OrderDefectProof_Report31_20260628_1758fixed.zip
 C:\Users\amd\Desktop\GPT55_PRO_FOUNDATIONAL_RESIDUAL_TRANSPORT_V1_3_ORDER_DEFECT_PROOF_PROMPT_20260628.md
 ```
 
 Node19 `Get-FileHash -Algorithm SHA256` matched:
 
 ```text
-zip sha256=50421728AC178716074CF917208C3670E2D9202C8A3B37965456BC8ADDB0462C
+zip sha256=3780B31E6F420C7DBF07D9378849F348C3EE151680C20E14AA84EE3BA4A6F7BB
 prompt sha256=2450A5EF34E1730D4FE178A28FD6F72B9F7AFE451D093F5342F1FC812795FFDE
 ```
 
@@ -75,9 +75,12 @@ If an internal package snapshot contains older status text, that is not
 evidence of a transfer failure by itself. Resolve conflicts using this
 canonical package record plus the node19 desktop `Get-FileHash` result.
 
-The earlier `1555` package was a valid intermediate snapshot but is superseded
-by the `1734final` package because the latter includes the D628 17:28
-STATE/RAG correction context.
+Use only the `1758fixed` package for the next Pro pass. Earlier `1555`,
+`1734final`, and transient `1751fixed` packages are superseded: `1734final`
+still had a stale top-level README pointer to the intermediate
+`NODE22_VECTOR_REFRESH_REPORT31_ORDERDEFECT_20260628.md` record, while
+`1758fixed` points to `NODE22_VECTOR_REFRESH_REPORT31_FINAL_20260628.md` and
+treats `ORDERDEFECT` only as superseded provenance.
 
 ## Included Core Files
 

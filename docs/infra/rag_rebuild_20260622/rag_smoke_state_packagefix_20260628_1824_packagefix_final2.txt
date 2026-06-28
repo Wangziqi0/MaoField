@@ -1,0 +1,41 @@
+query: D628 17:58 report31 1758fixed order defect proof audit 3780b31e insufficient_artifact   (top-8, 源=知识, project=MaoField)
+
+[1] score=0.6493  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_REPORT31_FINAL_20260628.md
+    sect: Node22 Vector Refresh — Report(31) Final Order-Defect Package > Scope
+    This final report(31) refresh record now tracks the corrected `1758fixed` package state, the guarded Formal v1.3 order-defect proof-audit materials, and the D628 17:58 `STATE.md` truth source.  Primary indexed context be ...
+
+[2] score=0.6477  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/GPT55_PRO_RESEARCH_INDEX_20260622.md
+    sect: MaoField GPT-5.5 Pro Research Index
+    OrderDefectProof_Report31_20260628_1758fixed.zip`, > zip sha256 `3780b31e6f420c7dbf07d9378849f348c3ee151680c20e14aa84ee3ba4a6f7bb`, > prompt sha256 `2450a5ef34e1730d4fe178a28fd6f72b9f7afe451d093f5342f1fc812795ffde`. > Th ...
+
+[3] score=0.6420  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_REPORT31_FINAL_20260628.md
+    sect: Node22 Vector Refresh — Report(31) Final Order-Defect Package > Smoke And Direct Checks
+    Smoke query:  ```text D628 17:58 report31 1758fixed order defect proof audit 3780b31e ```  returned top hits including:  - `GPT55_PRO_RESEARCH_INDEX_20260622.md` with the `1758fixed` package hash; - `STATE.md` with the D ...
+
+[4] score=0.6237  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/STATE.md
+    sect: MaoField — PROJECT STATE (canonical 单一真相源) > 戳
+    20260628_1758fixed.zip`, zip=`3780b31e6f420c7dbf07d9378849f348c3ee151680c20e14aa84ee3ba4a6f7bb`, prompt=`2450a5ef34e1730d4fe178a28fd6f72b9f7afe451d093f5342f1fc812795ffde`; package record=`docs/infra/DEBRANDED_RESIDUAL_TR ...
+
+[5] score=0.6205  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_REPORT31_ORDERDEFECT_20260628.md
+    sect: Node22 Vector Refresh — Report(31) / Formal v1.3 Order-Defect Proof Audit > Smoke Queries
+    The first smoke query:  ```text D628 report31 Formal v1.3 order defect product non-product weight boundary proof audit ```  returned top hits including:  - `MD_CATALOG.md`; - `FORMAL_NOTE_V1_3_ORDER_DEFECT_WORKPLAN_20260 ...
+
+[6] score=0.5968  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_q4_panel_strict_audit_20260622.md
+    sect: MaoField q4 Panel 严格审计报告 > Must Fix Before Full Panel
+    **第六，旧脚本的措辞污染还没清干净。** `highorder_ppl_run.py` 的说明和变量注释仍写着 “fixed true wikitext eval” 和 “eval target token frequency”，但它实际加载的是 `raw["train"]` 的前 128 个 blocks；runbook 已经把这种误称明确定义为 `invalid_artifact`。同样，`math_turn_loso_audit ...
+
+[7] score=0.5942  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_V11PATCH_20260625.md
+    sect: Node22 Vector Refresh For Formal v1.1 Patch -- 2026-06-25 > Hashes
+    Promoted audit artifacts:  ```text cb748db02d959550aad90899d3150406b3a8bdecf2fa51515112061b981a8409  docs/infra/rag_rebuild_20260622/canonical_scope_active_20260625_2218_v11patch.txt 72e51d58ca010b1de86f5ba2cc4c311fc7d56 ...
+
+[8] score=0.5931  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_mode_a_quotient_residual_kill_framework_20260623.md
+    sect: MaoField 去魅后的底层数学问题与严格击杀框架 > 谨慎回译到 MaoField Mode B
+    现在只准用允许的 verdict 说话。  对**今天**这包材料，关于“稳定非标量结构是否已被证立”的 Mode B 结论，只能是：  \[ \boxed{\texttt{insufficient\_artifact}} \]  原因不在于“smoke 完全没有东西”，而在于：没有 PI 批准的 50-checkpoint full panel；没有 interaction full-panel aggregate；没有 prereg ...
