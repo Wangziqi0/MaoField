@@ -157,6 +157,12 @@ It is intentionally separated from the MaoField empirical line:
 - `PREPRINT_PLACEHOLDER_ORDER_DEFECT_20260629.md` — local preprint placeholder
   for the narrow order-defect note, including duplicate-work boundaries and
   related-work cautions. This is not an external submission.
+- `README_FOR_PRO_ORDER_DEFECT_PREPRINT_RIGOR_20260629.md` — upload/package
+  guide for a GPT-5.5 Pro proof-rigor, related-work, future-object, and
+  preprint-safe drafting audit.
+- `../DEBRANDED_RESIDUAL_TRANSPORT_19_PACKAGE_ORDER_DEFECT_PREPRINT_RIGOR_20260629.md` —
+  node19 package record for the 2026-06-29 preprint-rigor/future-objects
+  prompt and zip.
 - `README_FOR_PRO_FORMALV13_ORDER_DEFECT_IMPLEMENTATION_AUDIT_20260628.md` —
   upload/package guide for the next GPT-5.5 Pro proof-note and harness audit.
 - `../gpt_deep_research/GPT55_PRO_FOUNDATIONAL_RESIDUAL_TRANSPORT_V1_3_ORDER_DEFECT_IMPLEMENTATION_AUDIT_PROMPT_20260628.md` —
