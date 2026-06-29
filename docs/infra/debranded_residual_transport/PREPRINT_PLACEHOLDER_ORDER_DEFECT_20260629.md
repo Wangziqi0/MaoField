@@ -10,7 +10,7 @@ Order Defects in Finite Weighted Residual Decompositions
 
 ## One-Sentence Claim
 
-In a finite two-axis weighted diagnostic field, sequentially stripping centered
+In a finite weighted two-way array/table, sequentially stripping centered
 main-effect subspaces is order-independent exactly in the product-weight case;
 under non-product weights, a pure main-effect signal can produce a nonzero
 wrong-order residual even though its true additive residual is zero.
@@ -40,7 +40,7 @@ a true interaction residual and not a product-measure Hoeffding interaction.
 The note is intentionally finite, elementary, and implementation-oriented.  It
 does not introduce a new theory of functional ANOVA, Sobol indices, Shapley
 effects, or dependent-input decompositions.  Its purpose is narrower: to give a
-minimal rational witness and a deterministic harness for detecting when a
+minimal rational witness and a deterministic regression harness for detecting when a
 weighted diagnostic residual has been created by the order of nuisance removal
 rather than by a stable non-additive field.
 
@@ -64,16 +64,26 @@ R_Q_then_B K = (1/32, 5/168, -1/96, -1/84)
 ||R_Q_then_B K||_w^2 = 61/177408
 ```
 
-5. Deterministic zero-GPU harness boundary:
+5. Exact rational witness certificate:
+   `docs/infra/debranded_residual_transport/EXACT_WITNESS_V1_4_20260629.md`
+   and
+   `docs/infra/debranded_residual_transport/exact_witness_v1_4_20260629.json`.
+6. Deterministic zero-GPU regression harness boundary:
    `docs/infra/debranded_residual_transport/SYNTHETIC_HARNESS_V1_3_20260628.md`
    and
    `docs/infra/debranded_residual_transport/synthetic_harness_v1_3_20260628.json`.
+   This harness is not a proof artifact.
 
 ## Related Work Boundary
 
-This placeholder must not claim broad novelty over dependent-input ANOVA or
-sensitivity analysis.  At minimum, cite and position against:
+This placeholder must not claim broad novelty over dependent-input ANOVA,
+sensitivity analysis, or noncommuting projection theory. Before any external
+draft, durable bibliography records must replace any chat-internal citation
+handles. At minimum, cite and position against:
 
+- Hooker, "Generalized Functional ANOVA Diagnostics for High-Dimensional
+  Functions of Dependent Variables", 2007. DOI:
+  https://doi.org/10.1198/106186007x237892
 - Chastaing, Gamboa, and Prieur, "Generalized Hoeffding-Sobol decomposition
   for dependent variables - application to sensitivity analysis", Electronic
   Journal of Statistics, 2012. DOI: https://doi.org/10.1214/12-ejs749
@@ -89,6 +99,16 @@ sensitivity analysis.  At minimum, cite and position against:
 - Il Idrissi, Bousquet, Gamboa, Iooss, and Loubes, "Hoeffding decomposition
   of functions of random dependent variables", Journal of Multivariate
   Analysis, 2025. DOI: https://doi.org/10.1016/j.jmva.2025.105444
+- Böttcher and Spitkovsky, "A gentle guide to the basics of two projections
+  theory", Linear Algebra and its Applications, 2010. DOI:
+  https://doi.org/10.1016/j.laa.2009.11.002
+- Corach and Maestripieri, "Products of orthogonal projections and polar
+  decompositions", arXiv: https://arxiv.org/abs/1011.5237
+- Classical two-subspace / noncommuting orthogonal projection literature,
+  including Halmos-style two-subspace theory, projection commutators, and
+  alternating-projection order-dependence results. The exact Halmos record and
+  any additional projection-theory citations must be normalized before
+  external release.
 
 The safe novelty framing is not "new ANOVA".  It is a compact diagnostic
 warning: if an empirical pipeline uses non-product cell weights and removes
@@ -120,15 +140,17 @@ insufficient_artifact
 
 ## Preprint-Safe Next Step
 
-Turn `FORMAL_NOTE_V1_3_ORDER_DEFECT_20260628.md` into a short standalone note
-of 4-6 pages:
+Revise first. The current placeholder is not yet an external submission
+candidate. Before posting, turn `FORMAL_NOTE_V1_3_ORDER_DEFECT_20260628.md`
+into a short standalone note of 4-6 pages and complete:
 
 1. finite weighted setup;
 2. product-weight iff theorem;
 3. ordered stripping theorem;
 4. pure-main-effect no-go;
 5. `2 x 2` witness;
-6. short related-work paragraph emphasizing that this is a diagnostic
-   artifact note, not a replacement for dependent-input ANOVA or Shapley
-   sensitivity analysis.
-
+6. exact rational appendix/certificate;
+7. short related-work paragraph emphasizing that this is a finite weighted
+   projection-order artifact note, not a new ANOVA theory, not a replacement
+   for dependent-input ANOVA or Shapley sensitivity analysis, and not a new
+   theory of noncommuting projections.

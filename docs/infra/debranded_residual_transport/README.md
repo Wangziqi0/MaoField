@@ -163,6 +163,27 @@ It is intentionally separated from the MaoField empirical line:
 - `../DEBRANDED_RESIDUAL_TRANSPORT_19_PACKAGE_ORDER_DEFECT_PREPRINT_RIGOR_20260629.md` —
   node19 package record for the 2026-06-29 preprint-rigor/future-objects
   prompt and zip.
+- `../gpt_deep_research/deep_research_order_defect_preprint_rigor_audit_20260629.md` —
+  strict Pro audit of the order-defect preprint placeholder, with
+  classification `preprint_placeholder_requires_related_work_reframing`.
+- `../gpt_deep_research/ORDER_DEFECT_PREPRINT_RIGOR_AUDIT_ADOPTION_NOTE_20260629.md` —
+  node36 adoption note for the preprint-rigor audit, with local verdict
+  `revise_first_before_preprint_package`.
+- `EXACT_WITNESS_V1_4_20260629.md` — exact rational certificate for the 2x2
+  witness using fraction arithmetic; all exact checks passed.
+- `exact_witness_v1_4_20260629.json` — machine-readable exact certificate
+  output.
+- `../../../scripts/debranded_residual_transport_exact_witness_v1_4.py` —
+  script that generated the exact certificate under SSD scratch before
+  promotion to canonical.
+- `README_FOR_PRO_ORDER_DEFECT_V1_4_EXACT_BIBLIO_AUDIT_20260629.md` —
+  upload/package guide for the next GPT-5.5 Pro exact-symbolic and
+  bibliography audit.
+- `../gpt_deep_research/GPT55_PRO_ORDER_DEFECT_V1_4_EXACT_BIBLIOGRAPHY_AUDIT_PROMPT_20260629.md` —
+  zero-context prompt for the next exact appendix / bibliography / duplicate
+  risk pass.
+- `../DEBRANDED_RESIDUAL_TRANSPORT_19_PACKAGE_ORDER_DEFECT_V14_EXACT_BIBLIO_AUDIT_20260629.md` —
+  node19 package record for the v1.4 exact/bibliography audit package.
 - `README_FOR_PRO_FORMALV13_ORDER_DEFECT_IMPLEMENTATION_AUDIT_20260628.md` —
   upload/package guide for the next GPT-5.5 Pro proof-note and harness audit.
 - `../gpt_deep_research/GPT55_PRO_FOUNDATIONAL_RESIDUAL_TRANSPORT_V1_3_ORDER_DEFECT_IMPLEMENTATION_AUDIT_PROMPT_20260628.md` —
@@ -183,9 +204,10 @@ residual, interaction, transport, or holonomy field.
 
 ## Current Next Step
 
-Use the Formal v1.3 order-defect implementation-audit package as the next
-strict target. It asks GPT-5.5 Pro to audit the local v1.3 proof note, script,
-summary, and JSON after report (32), including the corrected symmetric witness
-coordinates. Do not turn the v1.2/v1.3 notes, report (30/31/32), prompts,
-packages, or synthetic harnesses into an empirical MaoField claim or a
-completed formal-system claim.
+Use the v1.4 exact-symbolic / bibliography package as the next strict target.
+It should ask GPT-5.5 Pro to audit the exact rational certificate, confirm that
+harness wording is regression-support-only, and verify durable related-work
+records before any preprint-readiness claim. Do not request more roadmap
+generation in that pass. Do not turn the v1.2/v1.3/v1.4 notes, reports,
+prompts, packages, exact certificate, or synthetic harnesses into an empirical
+MaoField claim or a completed formal-system claim.

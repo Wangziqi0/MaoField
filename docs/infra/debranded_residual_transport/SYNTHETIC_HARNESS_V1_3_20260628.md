@@ -99,6 +99,10 @@ independence, centered-indicator product iff, and the non-product
 pure-main-effect no-go witness. Passing these controls supports
 formal design/proof review only.
 
+The harness is regression support only. It is not a proof artifact and should
+not be cited as a substitute for the analytic proof or the exact rational
+certificate in `EXACT_WITNESS_V1_4_20260629.md`.
+
 Blocked interpretations:
 
 ```text
