@@ -154,6 +154,9 @@ It is intentionally separated from the MaoField empirical line:
   controls; all four blocks passed.
 - `synthetic_harness_v1_3_20260628.json` — v1.3 harness JSON output with
   `threshold_contract_sha256=ec2a3a70dce8d19be5635b2b2a7f51caae17ee8e0a8bce2ec20ed4a55f9a82f6`.
+- `PREPRINT_PLACEHOLDER_ORDER_DEFECT_20260629.md` — local preprint placeholder
+  for the narrow order-defect note, including duplicate-work boundaries and
+  related-work cautions. This is not an external submission.
 - `README_FOR_PRO_FORMALV13_ORDER_DEFECT_IMPLEMENTATION_AUDIT_20260628.md` —
   upload/package guide for the next GPT-5.5 Pro proof-note and harness audit.
 - `../gpt_deep_research/GPT55_PRO_FOUNDATIONAL_RESIDUAL_TRANSPORT_V1_3_ORDER_DEFECT_IMPLEMENTATION_AUDIT_PROMPT_20260628.md` —
