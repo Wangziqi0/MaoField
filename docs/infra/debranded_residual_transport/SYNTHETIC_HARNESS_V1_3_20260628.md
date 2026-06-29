@@ -9,6 +9,10 @@ finite-dimensional mathematics direction. It is not a MaoField empirical
 result and does not authorize training, checkpoint loading, full-panel
 generation, model inference, or a new loss.
 
+The harness is deterministic regression support only. The analytic
+proof and exact rational certificate carry the mathematical claim; the
+JSON floating-point outputs are not proof artifacts.
+
 Strongest allowed verdict:
 
 ```text
@@ -99,9 +103,10 @@ independence, centered-indicator product iff, and the non-product
 pure-main-effect no-go witness. Passing these controls supports
 formal design/proof review only.
 
-The harness is regression support only. It is not a proof artifact and should
-not be cited as a substitute for the analytic proof or the exact rational
-certificate in `EXACT_WITNESS_V1_4_20260629.md`.
+The mathematical order-defect claim is carried by the analytic proof
+in `FORMAL_NOTE_V1_3_ORDER_DEFECT_20260628.md` and the exact rational
+certificate in `EXACT_WITNESS_V1_4_20260629.md`; this harness only
+guards regressions in finite synthetic examples.
 
 Blocked interpretations:
 

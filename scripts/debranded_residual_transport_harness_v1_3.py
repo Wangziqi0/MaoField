@@ -3,7 +3,9 @@
 
 This is a synthetic-only theorem-control harness for the debranded mathematics
 direction. It does not read MaoField aggregates, load checkpoints, run
-inference, train, or authorize a new loss.
+inference, train, or authorize a new loss. The mathematical claims are carried
+by the analytic proof and exact rational certificate, not by this floating-point
+regression harness.
 """
 
 from __future__ import annotations
@@ -407,14 +409,17 @@ def build_result(json_threshold_contract_sha256: str, json_threshold_contract_so
             "mode": "Mode A finite-dimensional synthetic theorem controls only",
             "strongest_allowed_verdict": "definitions_and_harness_viable_only",
             "mode_b_maofield_empirical_status": "insufficient_artifact",
+            "harness_boundary": "deterministic regression support only; not a proof artifact",
+            "proof_responsibility": "analytic proof plus exact rational certificate, not JSON floats",
             "blocked_claims": BLOCKED_CLAIMS,
         },
         "threshold_contract": contract,
         "threshold_contract_sha256": sha256_json(contract),
         "all_synthetic_controls_passed": all(block["pass"] for block in evaluated),
         "blocks": evaluated,
-        "allowed_interpretation": "v1.3 order-defect theorem controls are internally checkable on finite synthetic examples only",
-        "forbidden_interpretation": "passing this harness is not MaoField empirical evidence and does not authorize training or a new loss",
+        "allowed_interpretation": "v1.3 order-defect theorem controls are internally checkable on finite synthetic examples only as deterministic regression support",
+        "proof_responsibility": "the analytic proof and exact rational certificate carry the mathematical claim; JSON floats do not",
+        "forbidden_interpretation": "passing this harness is not a proof artifact, not MaoField empirical evidence, and does not authorize training or a new loss",
     }
 
 
@@ -444,6 +449,10 @@ def write_summary(path: Path, result: dict[str, Any], json_rel: str) -> None:
         "finite-dimensional mathematics direction. It is not a MaoField empirical",
         "result and does not authorize training, checkpoint loading, full-panel",
         "generation, model inference, or a new loss.",
+        "",
+        "The harness is deterministic regression support only. The analytic",
+        "proof and exact rational certificate carry the mathematical claim; the",
+        "JSON floating-point outputs are not proof artifacts.",
         "",
         "Strongest allowed verdict:",
         "",
@@ -565,6 +574,11 @@ def write_summary(path: Path, result: dict[str, Any], json_rel: str) -> None:
             "independence, centered-indicator product iff, and the non-product",
             "pure-main-effect no-go witness. Passing these controls supports",
             "formal design/proof review only.",
+            "",
+            "The mathematical order-defect claim is carried by the analytic proof",
+            "in `FORMAL_NOTE_V1_3_ORDER_DEFECT_20260628.md` and the exact rational",
+            "certificate in `EXACT_WITNESS_V1_4_20260629.md`; this harness only",
+            "guards regressions in finite synthetic examples.",
             "",
             "Blocked interpretations:",
             "",

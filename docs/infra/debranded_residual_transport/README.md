@@ -184,6 +184,20 @@ It is intentionally separated from the MaoField empirical line:
   risk pass.
 - `../DEBRANDED_RESIDUAL_TRANSPORT_19_PACKAGE_ORDER_DEFECT_V14_EXACT_BIBLIO_AUDIT_20260629.md` —
   node19 package record for the v1.4 exact/bibliography audit package.
+- `../gpt_deep_research/deep_research_order_defect_v1_4_exact_bibliography_audit_20260629.md` —
+  strict Pro audit of the v1.4 exact rational certificate and bibliography
+  package, with top-level classification
+  `preprint_requires_minor_bibliography_or_wording_fixes`.
+- `../gpt_deep_research/ORDER_DEFECT_V1_4_EXACT_BIBLIOGRAPHY_AUDIT_ADOPTION_NOTE_20260629.md` —
+  node36 adoption note for the v1.4 exact/bibliography audit. It accepts the
+  math core as passing but keeps posting at `revise_first`.
+- `BIBLIOGRAPHY_AND_POSITIONING_V1_5_20260629.md` — local DOI/arXiv-backed
+  bibliography and novelty-positioning floor for the narrow order-defect note.
+  It adds Lamboni 2026 and locks the wording to finite weighted
+  projection-order artifact, not new ANOVA/dependent-input/projection theory.
+- `README_FOR_PRO_ORDER_DEFECT_PREPRINT_FINAL_GATE_20260629.md` — upload/package
+  guide for the next GPT-5.5 Pro final-gate check after the v1.5 bibliography
+  and harness-boundary fixes.
 - `README_FOR_PRO_FORMALV13_ORDER_DEFECT_IMPLEMENTATION_AUDIT_20260628.md` —
   upload/package guide for the next GPT-5.5 Pro proof-note and harness audit.
 - `../gpt_deep_research/GPT55_PRO_FOUNDATIONAL_RESIDUAL_TRANSPORT_V1_3_ORDER_DEFECT_IMPLEMENTATION_AUDIT_PROMPT_20260628.md` —
@@ -204,10 +218,11 @@ residual, interaction, transport, or holonomy field.
 
 ## Current Next Step
 
-Use the v1.4 exact-symbolic / bibliography package as the next strict target.
-It should ask GPT-5.5 Pro to audit the exact rational certificate, confirm that
-harness wording is regression-support-only, and verify durable related-work
-records before any preprint-readiness claim. Do not request more roadmap
-generation in that pass. Do not turn the v1.2/v1.3/v1.4 notes, reports,
-prompts, packages, exact certificate, or synthetic harnesses into an empirical
-MaoField claim or a completed formal-system claim.
+Use the v1.5 preprint-final-gate package as the next strict target. It should
+ask GPT-5.5 Pro to verify that the v1.4 audit's remaining WARN items are closed:
+formal bibliography/positioning, Lamboni 2026 inclusion, harness wording as
+regression-support-only across markdown/JSON/script, and project-internal term
+removal. Do not request more roadmap generation in that pass. Do not turn the
+v1.2/v1.3/v1.4/v1.5 notes, reports, prompts, packages, exact certificate, or
+synthetic harnesses into an empirical MaoField claim or a completed
+formal-system claim.

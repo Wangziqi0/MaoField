@@ -39,10 +39,12 @@ a true interaction residual and not a product-measure Hoeffding interaction.
 
 The note is intentionally finite, elementary, and implementation-oriented.  It
 does not introduce a new theory of functional ANOVA, Sobol indices, Shapley
-effects, or dependent-input decompositions.  Its purpose is narrower: to give a
-minimal rational witness and a deterministic regression harness for detecting when a
-weighted diagnostic residual has been created by the order of nuisance removal
-rather than by a stable non-additive field.
+effects, or dependent-input decompositions. This note isolates a finite
+weighted projection-order artifact in a two-way table; it is not proposed as a
+new dependent-input ANOVA or Hoeffding decomposition theory. Its purpose is
+narrower: to give a minimal rational witness and deterministic regression
+checks for detecting when a finite weighted-table residual has been created by
+the order of nuisance removal rather than by a true non-additive component.
 
 ## Narrow Contribution To Preserve
 
@@ -72,14 +74,18 @@ R_Q_then_B K = (1/32, 5/168, -1/96, -1/84)
    `docs/infra/debranded_residual_transport/SYNTHETIC_HARNESS_V1_3_20260628.md`
    and
    `docs/infra/debranded_residual_transport/synthetic_harness_v1_3_20260628.json`.
-   This harness is not a proof artifact.
+   This harness is deterministic regression support only; the mathematical
+   claims are carried by the analytic proof and exact rational certificate, not
+   by JSON floating-point outputs.
 
 ## Related Work Boundary
 
 This placeholder must not claim broad novelty over dependent-input ANOVA,
 sensitivity analysis, or noncommuting projection theory. Before any external
 draft, durable bibliography records must replace any chat-internal citation
-handles. At minimum, cite and position against:
+handles. Closest antecedents lie in dependent-variable ANOVA-Hoeffding
+decompositions and in the classical theory of two noncommuting orthogonal
+projections. At minimum, cite and position against:
 
 - Hooker, "Generalized Functional ANOVA Diagnostics for High-Dimensional
   Functions of Dependent Variables", 2007. DOI:
@@ -99,19 +105,24 @@ handles. At minimum, cite and position against:
 - Il Idrissi, Bousquet, Gamboa, Iooss, and Loubes, "Hoeffding decomposition
   of functions of random dependent variables", Journal of Multivariate
   Analysis, 2025. DOI: https://doi.org/10.1016/j.jmva.2025.105444
+- Lamboni, "On ANOVA-Type Decompositions of Functions with Non-independent
+  Variables: Sensitivity Analysis", SIAM/ASA Journal on Uncertainty
+  Quantification, 2026. DOI: https://doi.org/10.1137/24M1712680
 - Böttcher and Spitkovsky, "A gentle guide to the basics of two projections
   theory", Linear Algebra and its Applications, 2010. DOI:
   https://doi.org/10.1016/j.laa.2009.11.002
 - Corach and Maestripieri, "Products of orthogonal projections and polar
   decompositions", arXiv: https://arxiv.org/abs/1011.5237
-- Classical two-subspace / noncommuting orthogonal projection literature,
-  including Halmos-style two-subspace theory, projection commutators, and
-  alternating-projection order-dependence results. The exact Halmos record and
-  any additional projection-theory citations must be normalized before
-  external release.
+- Halmos, "Two subspaces", Transactions of the American Mathematical Society,
+  1969. DOI: https://doi.org/10.1090/S0002-9947-1969-0251519-5
 
-The safe novelty framing is not "new ANOVA".  It is a compact diagnostic
-warning: if an empirical pipeline uses non-product cell weights and removes
+The formal bibliography/positioning record for this local placeholder is:
+`docs/infra/debranded_residual_transport/BIBLIOGRAPHY_AND_POSITIONING_V1_5_20260629.md`.
+
+The safe novelty framing is not "new ANOVA", not a new dependent-input
+decomposition theory, and not a new noncommuting projection theory. It is a
+compact finite weighted projection-order artifact note with an exact `2 x 2`
+witness: if an empirical pipeline uses non-product cell weights and removes
 nuisance axes sequentially, the resulting residual can be an order artifact.
 
 ## Forbidden Claims
@@ -153,4 +164,6 @@ into a short standalone note of 4-6 pages and complete:
 7. short related-work paragraph emphasizing that this is a finite weighted
    projection-order artifact note, not a new ANOVA theory, not a replacement
    for dependent-input ANOVA or Shapley sensitivity analysis, and not a new
-   theory of noncommuting projections.
+   theory of noncommuting projections;
+8. final gate confirmation that all harness references are deterministic
+   regression support only, not proof artifacts.
