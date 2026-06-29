@@ -3,9 +3,7 @@
 
 This is a synthetic-only theorem-control harness for the debranded mathematics
 direction. It does not read MaoField aggregates, load checkpoints, run
-inference, train, or authorize a new loss. The mathematical claims are carried
-by the analytic proof and exact rational certificate, not by this floating-point
-regression harness.
+inference, train, or authorize a new loss. The floating-point harness is deterministic regression support only; the mathematical claims are carried by the analytic proof and exact rational certificate, not by JSON floats.
 """
 
 from __future__ import annotations
@@ -24,6 +22,7 @@ import numpy as np
 
 
 EPS = 1e-12
+CANONICAL_HARNESS_BOUNDARY_SENTENCE = "The floating-point harness is deterministic regression support only; the mathematical claims are carried by the analytic proof and exact rational certificate, not by JSON floats."
 BLOCKED_CLAIMS = [
     "full_panel_has_run",
     "sixteen_cell_full_panel_aggregate_exists",
@@ -409,8 +408,8 @@ def build_result(json_threshold_contract_sha256: str, json_threshold_contract_so
             "mode": "Mode A finite-dimensional synthetic theorem controls only",
             "strongest_allowed_verdict": "definitions_and_harness_viable_only",
             "mode_b_maofield_empirical_status": "insufficient_artifact",
-            "harness_boundary": "deterministic regression support only; not a proof artifact",
-            "proof_responsibility": "analytic proof plus exact rational certificate, not JSON floats",
+            "harness_boundary": CANONICAL_HARNESS_BOUNDARY_SENTENCE,
+            "proof_responsibility": CANONICAL_HARNESS_BOUNDARY_SENTENCE,
             "blocked_claims": BLOCKED_CLAIMS,
         },
         "threshold_contract": contract,
@@ -418,7 +417,8 @@ def build_result(json_threshold_contract_sha256: str, json_threshold_contract_so
         "all_synthetic_controls_passed": all(block["pass"] for block in evaluated),
         "blocks": evaluated,
         "allowed_interpretation": "v1.3 order-defect theorem controls are internally checkable on finite synthetic examples only as deterministic regression support",
-        "proof_responsibility": "the analytic proof and exact rational certificate carry the mathematical claim; JSON floats do not",
+        "canonical_harness_boundary_sentence": CANONICAL_HARNESS_BOUNDARY_SENTENCE,
+        "proof_responsibility": CANONICAL_HARNESS_BOUNDARY_SENTENCE,
         "forbidden_interpretation": "passing this harness is not a proof artifact, not MaoField empirical evidence, and does not authorize training or a new loss",
     }
 
@@ -450,9 +450,7 @@ def write_summary(path: Path, result: dict[str, Any], json_rel: str) -> None:
         "result and does not authorize training, checkpoint loading, full-panel",
         "generation, model inference, or a new loss.",
         "",
-        "The harness is deterministic regression support only. The analytic",
-        "proof and exact rational certificate carry the mathematical claim; the",
-        "JSON floating-point outputs are not proof artifacts.",
+        CANONICAL_HARNESS_BOUNDARY_SENTENCE,
         "",
         "Strongest allowed verdict:",
         "",

@@ -1,6 +1,6 @@
 {
   "schema": "debranded_residual_transport_synthetic_harness_v1_3",
-  "created_utc": "2026-06-29T06:14:00+00:00",
+  "created_utc": "2026-06-29T07:33:26+00:00",
   "environment": {
     "python": "3.14.4",
     "numpy": "2.4.6",
@@ -10,8 +10,8 @@
     "mode": "Mode A finite-dimensional synthetic theorem controls only",
     "strongest_allowed_verdict": "definitions_and_harness_viable_only",
     "mode_b_maofield_empirical_status": "insufficient_artifact",
-    "harness_boundary": "deterministic regression support only; not a proof artifact",
-    "proof_responsibility": "analytic proof plus exact rational certificate, not JSON floats",
+    "harness_boundary": "The floating-point harness is deterministic regression support only; the mathematical claims are carried by the analytic proof and exact rational certificate, not by JSON floats.",
+    "proof_responsibility": "The floating-point harness is deterministic regression support only; the mathematical claims are carried by the analytic proof and exact rational certificate, not by JSON floats.",
     "blocked_claims": [
       "full_panel_has_run",
       "sixteen_cell_full_panel_aggregate_exists",
@@ -207,6 +207,7 @@
     }
   ],
   "allowed_interpretation": "v1.3 order-defect theorem controls are internally checkable on finite synthetic examples only as deterministic regression support",
-  "proof_responsibility": "the analytic proof and exact rational certificate carry the mathematical claim; JSON floats do not",
+  "canonical_harness_boundary_sentence": "The floating-point harness is deterministic regression support only; the mathematical claims are carried by the analytic proof and exact rational certificate, not by JSON floats.",
+  "proof_responsibility": "The floating-point harness is deterministic regression support only; the mathematical claims are carried by the analytic proof and exact rational certificate, not by JSON floats.",
   "forbidden_interpretation": "passing this harness is not a proof artifact, not MaoField empirical evidence, and does not authorize training or a new loss"
 }

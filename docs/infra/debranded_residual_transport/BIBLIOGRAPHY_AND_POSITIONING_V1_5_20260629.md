@@ -60,9 +60,7 @@ a pure main-effect signal even though the true additive residual is zero.
 
 ## Harness Boundary
 
-The accompanying floating-point harness is deterministic regression support
-only. The mathematical claims are carried by the analytic proof and exact
-rational certificate, not by JSON floats.
+The floating-point harness is deterministic regression support only; the mathematical claims are carried by the analytic proof and exact rational certificate, not by JSON floats.
 
 ## Duplicate-Risk Status
 

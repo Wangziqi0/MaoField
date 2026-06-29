@@ -419,6 +419,16 @@ canonical markdown files / 10179 chunks; `kb.faiss=bd818e75...`,
 `kb_meta=59317e5d...`. Node22 was used only as a temporary bge-m3 worker and
 the service was stopped after build.
 
+D629 Order-Defect v1.6 paper-draft final package: default
+`/media/amd/raid1/rag/index` was refreshed after adding the v1.5 final-gate
+audit, adoption note, v1.6 wording lock, paper-draft prompt, node19 package
+record, updated status/navigation files, and the final package/RAG records. See
+`NODE22_VECTOR_REFRESH_ORDERDEFECT_PAPERDRAFT_V16_FINAL_20260629.md`.
+Runtime index: 461 active canonical markdown files / 10466 chunks;
+`kb.faiss=8ea8eaad...`, `kb_meta=5c9a5015...`, scope `5ca9b31e...`.
+Node22 was used only as a temporary bge-m3 worker and the service was stopped
+after build.
+
 Rebuild entry point:
 
 ```bash

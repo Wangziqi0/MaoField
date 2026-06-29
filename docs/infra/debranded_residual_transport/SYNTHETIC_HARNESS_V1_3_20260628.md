@@ -9,9 +9,7 @@ finite-dimensional mathematics direction. It is not a MaoField empirical
 result and does not authorize training, checkpoint loading, full-panel
 generation, model inference, or a new loss.
 
-The harness is deterministic regression support only. The analytic
-proof and exact rational certificate carry the mathematical claim; the
-JSON floating-point outputs are not proof artifacts.
+The floating-point harness is deterministic regression support only; the mathematical claims are carried by the analytic proof and exact rational certificate, not by JSON floats.
 
 Strongest allowed verdict:
 

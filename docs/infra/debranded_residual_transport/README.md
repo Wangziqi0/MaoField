@@ -195,9 +195,22 @@ It is intentionally separated from the MaoField empirical line:
   bibliography and novelty-positioning floor for the narrow order-defect note.
   It adds Lamboni 2026 and locks the wording to finite weighted
   projection-order artifact, not new ANOVA/dependent-input/projection theory.
+- `WORDING_LOCK_V1_6_20260629.md` — canonical harness-boundary wording lock
+  after the v1.5 final-gate audit.
+- `README_FOR_PRO_ORDER_DEFECT_PAPER_DRAFT_V16_20260629.md` — upload/package
+  guide for the gate-conditioned GPT-5.5 Pro paper-drafting pass.
 - `README_FOR_PRO_ORDER_DEFECT_PREPRINT_FINAL_GATE_20260629.md` — upload/package
   guide for the next GPT-5.5 Pro final-gate check after the v1.5 bibliography
   and harness-boundary fixes.
+- `../gpt_deep_research/GPT55_PRO_ORDER_DEFECT_PAPER_DRAFT_V16_PROMPT_20260629.md` —
+  zero-context prompt that first checks the v1.6 wording/evidence gates and
+  drafts the short note only if those gates pass.
+- `../gpt_deep_research/deep_research_order_defect_v1_5_final_gate_audit_20260629.md` —
+  Pro final-gate report returning
+  `short_note_requires_minor_wording_or_bibliography_fixes`.
+- `../gpt_deep_research/ORDER_DEFECT_V1_5_FINAL_GATE_AUDIT_ADOPTION_NOTE_20260629.md` —
+  node36 adoption note for the v1.5 final-gate report; local verdict
+  `v1_5_final_gate_warn_not_closed`.
 - `README_FOR_PRO_FORMALV13_ORDER_DEFECT_IMPLEMENTATION_AUDIT_20260628.md` —
   upload/package guide for the next GPT-5.5 Pro proof-note and harness audit.
 - `../gpt_deep_research/GPT55_PRO_FOUNDATIONAL_RESIDUAL_TRANSPORT_V1_3_ORDER_DEFECT_IMPLEMENTATION_AUDIT_PROMPT_20260628.md` —
@@ -218,11 +231,12 @@ residual, interaction, transport, or holonomy field.
 
 ## Current Next Step
 
-Use the v1.5 preprint-final-gate package as the next strict target. It should
-ask GPT-5.5 Pro to verify that the v1.4 audit's remaining WARN items are closed:
-formal bibliography/positioning, Lamboni 2026 inclusion, harness wording as
-regression-support-only across markdown/JSON/script, and project-internal term
-removal. Do not request more roadmap generation in that pass. Do not turn the
-v1.2/v1.3/v1.4/v1.5 notes, reports, prompts, packages, exact certificate, or
-synthetic harnesses into an empirical MaoField claim or a completed
-formal-system claim.
+The floating-point harness is deterministic regression support only; the mathematical claims are carried by the analytic proof and exact rational certificate, not by JSON floats.
+
+Use the v1.6 wording-lock and paper-drafting package as the next strict target.
+It should ask GPT-5.5 Pro to first verify that the v1.5 final-gate WARN is
+closed across README, placeholder, harness markdown, harness JSON, and harness
+script. Only if that gate passes should Pro draft a short note. Do not request
+more roadmap generation in that pass. Do not turn the v1.2/v1.3/v1.4/v1.5/v1.6
+notes, reports, prompts, packages, exact certificate, or synthetic harnesses
+into an empirical MaoField claim or a completed formal-system claim.

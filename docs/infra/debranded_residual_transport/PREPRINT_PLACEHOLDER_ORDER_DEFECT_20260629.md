@@ -1,4 +1,4 @@
-# Preprint Placeholder -- Order Defects in Finite Weighted Residual Decompositions
+# Preprint Placeholder -- A Finite Weighted Two-Way Projection-Order Artifact
 
 Date: 2026-06-29 CST
 Status: local preprint placeholder, not an external submission
@@ -6,7 +6,7 @@ Classification: wip/core bridge
 
 ## Working Title
 
-Order Defects in Finite Weighted Residual Decompositions
+A Finite Weighted Two-Way Projection-Order Artifact with an Exact 2 x 2 Witness
 
 ## One-Sentence Claim
 
@@ -74,9 +74,7 @@ R_Q_then_B K = (1/32, 5/168, -1/96, -1/84)
    `docs/infra/debranded_residual_transport/SYNTHETIC_HARNESS_V1_3_20260628.md`
    and
    `docs/infra/debranded_residual_transport/synthetic_harness_v1_3_20260628.json`.
-   This harness is deterministic regression support only; the mathematical
-   claims are carried by the analytic proof and exact rational certificate, not
-   by JSON floating-point outputs.
+   The floating-point harness is deterministic regression support only; the mathematical claims are carried by the analytic proof and exact rational certificate, not by JSON floats.
 
 ## Related Work Boundary
 
