@@ -1,0 +1,41 @@
+query: This is the light zero-context package for the next GPT-5.5 Pro advisory audit after report(10) include this V6 package record Markdown   (top-8, 源=知识, project=MaoField)
+
+[1] score=0.8487  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_19_PACKAGE_ORDER_DEFECT_METADATA_LABEL_PATCH_V6_20260630.md
+    sect: Node19 Package Record -- Order-Defect Metadata/Label Patch V6 > Purpose
+    This is the light zero-context package for the next GPT-5.5 Pro advisory audit after report(10).  It repairs metadata and label blockers only:  - include the V5 package record Markdown in the bundle; - include this V6 pa ...
+
+[2] score=0.8057  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/debranded_residual_transport/README_FOR_PRO_FORMALV13_THEOREM_STRENGTHENING_20260628.md
+    sect: README For GPT-5.5 Pro Formal v1.3 Theorem-Strengthening Package
+    Date: 2026-06-28 CST  This package is for a zero-context GPT-5.5 Pro review of the next mathematical step after Formal v1.2 report (30). ...
+
+[3] score=0.7934  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_19_PACKAGE_ORDER_DEFECT_PROOF_REPAIR_RECHECK_V4_20260630.md
+    sect: Node19 Package Record -- Order-Defect Proof-Repair Recheck V4 > Purpose
+    This is the light zero-context package for the next GPT-5.5 Pro advisory audit after report(8). It is for proof-repair recheck, bibliography conservatism, and claim-boundary audit only.  It must not be used to draft a pa ...
+
+[4] score=0.7760  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_19_PACKAGE_ORDER_DEFECT_LOCAL_DRAFT_LOCK_V5_20260630.md
+    sect: Node19 Package Record -- Order-Defect Local-Draft Lock Audit V5 FINAL > Purpose
+    This is the light zero-context package for the next GPT-5.5 Pro advisory audit after report(9). It is for status/RAG/package/proof-label/bibliography and forbidden-claim consistency only.  It must not be used to draft a  ...
+
+[5] score=0.7635  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/debranded_residual_transport/README_FOR_PRO_FORMALV13_ORDER_DEFECT_IMPLEMENTATION_AUDIT_20260628.md
+    sect: README For GPT-5.5 Pro Formal v1.3 Order-Defect Implementation Audit Package
+    Date: 2026-06-28 CST  This package is for a zero-context GPT-5.5 Pro audit of the local Formal v1.3 order-defect proof note and deterministic zero-GPU harness after report (32). ...
+
+[6] score=0.7521  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/debranded_residual_transport/README_FOR_PRO_FORMALV13_ORDER_DEFECT_PROOF_20260628.md
+    sect: README For GPT-5.5 Pro Formal v1.3 Order-Defect Proof Package
+    Date: 2026-06-28 CST  This package is for a zero-context GPT-5.5 Pro proof audit of the proposed Formal v1.3 order-defect theorem package. ...
+
+[7] score=0.7445  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_142_PACKAGE_FORMALV12_REPORT29_MINOR_REVISION_AUDIT_20260627.md
+    sect: Debranded Residual Transport Formal-v1.2 Report(29) Minor Revision Audit 142 Package Record > Package Contents
+    The package contains:  - a zero-context GPT-5.5 Pro Formal v1.2 report(29) minor-revision audit   prompt; - `STATE.md`, `MD_CATALOG.md`, `GPT55_PRO_RESEARCH_INDEX_20260622.md`, and   `docs/README.md`; - report (29) sourc ...
+
+[8] score=0.7443  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_142_PACKAGE_FORMALV1_20260625.md
+    sect: Debranded Residual Transport Formal-v1 142 Package Record > Package Contents
+    The package contains:  - a new zero-context GPT-5.5 Pro Formal v1 audit prompt; - `STATE.md`, `MD_CATALOG.md`, and `GPT55_PRO_RESEARCH_INDEX_20260622.md`; - Formal Note v1 and its workplan; - v1 synthetic harness summary ...

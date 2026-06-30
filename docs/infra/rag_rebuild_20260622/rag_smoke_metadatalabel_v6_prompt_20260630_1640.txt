@@ -1,0 +1,41 @@
+query: METADATA_LABEL_PATCH_ACCEPTED_KEEP_LOCK PATCH_METADATA_OR_LABELS_AGAIN KEEP_LOCAL_DRAFT_LOCKED_AND_PREPARE_USER_DECISION Identity Chain Label Drift Required Output   (top-8, 源=知识, project=MaoField)
+
+[1] score=0.6572  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/GPT55_PRO_ORDER_DEFECT_METADATA_LABEL_PATCH_V6_PROMPT_20260630.md
+    sect: GPT-5.5 Pro Zero-Context Prompt: Order-Defect Metadata/Label Patch V6 > Required Output
+    Return a concise audit report with this structure:  1. `Verdict`: choose exactly one:  ```text METADATA_LABEL_PATCH_ACCEPTED_KEEP_LOCK PATCH_METADATA_OR_LABELS_AGAIN KEEP_LOCK_AND_FIX DO_NOT_DRAFT_EVIDENCE_INSUFFICIENT ` ...
+
+[2] score=0.6557  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_order_defect_local_draft_lock_audit_v5_report10_20260630.md
+    sect: Order-Defect Local-Draft Lock Audit V5 > Proof Labels
+    | 项目 | 应使用的标签 | 依据 | |---|---|---| | Proposition 1 | `COMPLETE_LOCAL_DRAFT` | Adoption note、taskbook、verification、STATE、catalog 均一致如此写。（`from_repo/docs/infra/gpt_deep_research/ORDER_DEFECT_PROOF_REPAIR_RECHECK_REPORT9_AD ...
+
+[3] score=0.6539  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_order_defect_local_draft_lock_audit_v5_report10_20260630.md
+    sect: Order-Defect Local-Draft Lock Audit V5 > Verdict
+    ```text PATCH_METADATA_OR_LABELS_AGAIN ``` ...
+
+[4] score=0.6539  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/STATE.md
+    sect: MaoField — PROJECT STATE (canonical 单一真相源) > §7 指针 (detail 去哪找)
+    22/NODE22_VECTOR_REFRESH_ORDERDEFECT_RECOVERY_REPAIR_V2_20260630.md` (Pro/agent consensus: `KEEP_LOCK_AND_FIX`; Gate 1/2 supported for recovery audit only; external-model lock remains; old v1.6 paper-draft prompt is supe ...
+
+[5] score=0.6536  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/recovery/ORDER_DEFECT_D630_REPORT9_LOCAL_VERIFICATION_20260630.md
+    sect: Order-Defect Report 9 Local Verification > Source Report
+    ```text docs/infra/gpt_deep_research/deep_research_order_defect_proof_repair_recheck_report9_20260630.md sha256=be486334cb1d9765cc4bf64f9c34ba43d664b84ae7c64685841d06a2428dc979 ```  Accepted local verdict:  ```text LOCAL ...
+
+[6] score=0.6476  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/recovery/ORDER_DEFECT_D630_METADATA_LABEL_PATCH_V6_TASKBOOK_20260630.md
+    sect: Order-Defect D630 Metadata/Label Patch V6 Taskbook > Goal
+    Repair the remaining V5 metadata/label blockers without changing the math claim boundary.  Current verdict remains:  ```text LOCAL_DRAFT_OK_BUT_KEEP_EMERGENCY_LOCK KEEP_LOCK_AND_FIX ``` ...
+
+[7] score=0.6451  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/recovery/ORDER_DEFECT_D630_LOCAL_DRAFT_LOCKED_TASKBOOK_20260630.md
+    sect: Order-Defect D630 Local-Draft Locked Taskbook > Current Verdict
+    ```text LOCAL_DRAFT_OK_BUT_KEEP_EMERGENCY_LOCK ```  This verdict is still under the broader recovery lock:  ```text KEEP_LOCK_AND_FIX ``` ...
+
+[8] score=0.6423  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/STATE.md
+    sect: MaoField — PROJECT STATE (canonical 单一真相源) > §0 一句话 + 今天
+    - **项目**: MaoField — 原 empirical pilot 仍是 negative-centered / measurement-audit case; 当前主线在同一仓库内转为 debranded finite weighted order-defect local-draft rescue。 - **今天 D630 (2026-06-30)**。D630 report(10) 已被 node36 窄采纳为 `PAT ...
