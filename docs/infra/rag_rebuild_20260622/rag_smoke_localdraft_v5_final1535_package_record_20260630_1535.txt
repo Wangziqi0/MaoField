@@ -1,0 +1,26 @@
+query: 3d0a477877caed45a499de86dd86593193b8cf0324c2427645ebe452eb0dc47e MaoField_PRO_OrderDefect_LocalDraftLockAudit_V5_FINAL_20260630_1535   (top-5, 源=知识, project=MaoField)
+
+[1] score=0.8586  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_19_PACKAGE_ORDER_DEFECT_LOCAL_DRAFT_LOCK_V5_20260630.md
+    sect: Node19 Package Record -- Order-Defect Local-Draft Lock Audit V5 FINAL > Current Hashes
+    Node36:  ```text 3d0a477877caed45a499de86dd86593193b8cf0324c2427645ebe452eb0dc47e  MaoField_PRO_OrderDefect_LocalDraftLockAudit_V5_FINAL_20260630_1535.zip fe88047622456df6990d4cf99651c647c614b6a3ce0b449e8c8480258e7453b8  ...
+
+[2] score=0.7949  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_19_PACKAGE_ORDER_DEFECT_LOCAL_DRAFT_LOCK_V5_20260630.md
+    sect: Node19 Package Record -- Order-Defect Local-Draft Lock Audit V5 FINAL > Current Files On Node19 Desktop
+    ```text C:\Users\amd\Desktop\MaoField_PRO_OrderDefect_LocalDraftLockAudit_V5_FINAL_20260630_1535.zip C:\Users\amd\Desktop\GPT55_PRO_ORDER_DEFECT_LOCAL_DRAFT_LOCK_AUDIT_V5_PROMPT_20260630.md ``` ...
+
+[3] score=0.7540  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_19_PACKAGE_ORDER_DEFECT_LOCAL_DRAFT_LOCK_V5_20260630.md
+    sect: Node19 Package Record -- Order-Defect Local-Draft Lock Audit V5 FINAL > Current Source Files On Node36 Scratch
+    ```text /home/amd/codex-node36/tmp/orderdefect_localdraft_lock_v5_final_20260630_1535/out/MaoField_PRO_OrderDefect_LocalDraftLockAudit_V5_FINAL_20260630_1535.zip /home/amd/codex-node36/tmp/orderdefect_localdraft_lock_v5_ ...
+
+[4] score=0.7439  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_19_PACKAGE_ORDER_DEFECT_PROOF_REPAIR_RECHECK_V4_20260630.md
+    sect: Node19 Package Record -- Order-Defect Proof-Repair Recheck V4 > Hashes
+    Node36:  ```text 0285cf2678f149eddf2caaf8ffd94032e3e47b2c3b9d4ebdfe0e3aaaf46d512c  MaoField_PRO_OrderDefect_ProofRepairRecheck_V4_FINAL_20260630_1358.zip 25b16d9d4f9ca1c160222c31ea1698e7b77b9681c30fb6b17277ee231e515d7b   ...
+
+[5] score=0.7293  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_19_PACKAGE_ORDER_DEFECT_PROOF_REPAIR_RECHECK_V4_20260630.md
+    sect: Node19 Package Record -- Order-Defect Proof-Repair Recheck V4 > Files On Node19 Desktop
+    ```text C:\Users\amd\Desktop\MaoField_PRO_OrderDefect_ProofRepairRecheck_V4_FINAL_20260630_1358.zip C:\Users\amd\Desktop\GPT55_PRO_ORDER_DEFECT_PROOF_REPAIR_RECHECK_V4_PROMPT_20260630.md ``` ...

@@ -1,0 +1,41 @@
+query: Mode B insufficient_artifact no full panel no training no observed residual field   (top-8, 源=知识, project=MaoField)
+
+[1] score=0.5256  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_formal_residual_transport_v1_2_report29_minor_revision_audit_20260628.md
+    sect: Formal v1.2 Report 29 Minor Revision Audit > 最终分类
+    ```text formal_v1_2_patch_accepted_after_minor_revision ```  Mode B MaoField empirical status 仍然必须保持为 `insufficient_artifact`。 ...
+
+[2] score=0.5195  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/GPT55_PRO_RESEARCH_INDEX_20260622.md
+    sect: MaoField GPT-5.5 Pro Research Index > 4. Experiment Verdict Map > 4.19 D624 Transport / Holonomy Math-Turn Audit
+    Current MaoField status:  - Mode B remains `insufficient_artifact`. - Existing interaction smoke remains `smoke_conjecture_only`. - Synthetic harness pass remains definition/code viability only. - No full panel, checkpoi ...
+
+[3] score=0.5100  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_STATUS_20260624.md
+    sect: Debranded Residual Transport Direction Status Snapshot > 2026-06-25 Formal v1 Synthetic Harness And Package
+    This still does not authorize full-panel work, checkpoint loading, inference, training, new loss, or observed-field language. ...
+
+[4] score=0.5054  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/FORMAL_RESIDUAL_TRANSPORT_V1_2_REPORT30_ACCEPTANCE_ADOPTION_NOTE_20260628.md
+    sect: Formal Residual Transport v1.2 Report (30) Acceptance Adoption Note > Still Forbidden
+    This adoption does not authorize any of the following claims:  - completed formal system; - theorem stack complete; - empirical MaoField upgrade; - full panel has run; - 16-cell full-panel aggregate exists; - checkpoint  ...
+
+[5] score=0.4923  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/GPT55_PRO_RESEARCH_INDEX_20260622.md
+    sect: MaoField GPT-5.5 Pro Research Index > 4. Experiment Verdict Map > 4.15 D623 Quotient Residual Finite ANOVA / No-Go Formalization
+    Current MaoField status:  - Mode B remains `insufficient_artifact`. - Existing interaction smoke remains `smoke_conjecture_only`. - Report (21) is a formalization of the Mode A theorem/no-go agenda, not new   evidence. - ...
+
+[6] score=0.4916  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/debranded_residual_transport/EXACT_WITNESS_V1_4_20260629.md
+    sect: Exact Witness Certificate v1.4 -- Order Defect > Boundary
+    Allowed ceiling:  ```text definitions_and_harness_viable_only ```  Mode B MaoField empirical status:  ```text insufficient_artifact ``` ...
+
+[7] score=0.4883  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/GPT55_PRO_RESEARCH_INDEX_20260622.md
+    sect: MaoField GPT-5.5 Pro Research Index > 4. Experiment Verdict Map > 4.14 D623 Mode A Quotient Residual Kill Framework
+    Current MaoField status:  - Mode B remains `insufficient_artifact` for stable non-scalar structure. - Existing interaction residual smoke remains `smoke_conjecture_only`. - Default RAG now includes report(19), its adopti ...
+
+[8] score=0.4854  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/ORDER_DEFECT_V1_5_FINAL_GATE_AUDIT_ADOPTION_NOTE_20260629.md
+    sect: Order-Defect v1.5 Final-Gate Audit Adoption Note > Evidence Boundary
+    This adoption note does not upgrade the project to an empirical MaoField claim. It does not claim a full panel, observed residual field, interaction field, transport field, holonomy field, LOSO pass, F3 positive result,  ...

@@ -1,0 +1,1 @@
+f6b240950e37133477c2936dc1f24ece85727156b9d4d1ec9b711a8690496147  docs/infra/rag_rebuild_20260622/canonical_scope_active_20260630_1520_localdraft_v5_pkgrecord.txt

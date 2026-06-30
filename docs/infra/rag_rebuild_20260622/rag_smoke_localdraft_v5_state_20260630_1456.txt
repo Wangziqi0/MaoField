@@ -1,0 +1,41 @@
+query: STATE D630 report9 LOCAL_DRAFT_OK_BUT_KEEP_EMERGENCY_LOCK Mode B insufficient_artifact   (top-8, 源=知识, project=MaoField)
+
+[1] score=0.5107  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_formal_residual_transport_v1_2_report29_minor_revision_audit_20260628.md
+    sect: Formal v1.2 Report 29 Minor Revision Audit > 最终分类
+    ```text formal_v1_2_patch_accepted_after_minor_revision ```  Mode B MaoField empirical status 仍然必须保持为 `insufficient_artifact`。 ...
+
+[2] score=0.4982  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/recovery/ORDER_DEFECT_D630_LOCAL_DRAFT_LOCKED_TASKBOOK_20260630.md
+    sect: Order-Defect D630 Local-Draft Locked Taskbook > Current Verdict
+    ```text LOCAL_DRAFT_OK_BUT_KEEP_EMERGENCY_LOCK ```  This verdict is still under the broader recovery lock:  ```text KEEP_LOCK_AND_FIX ``` ...
+
+[3] score=0.4881  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/recovery/HANDOFF_TO_GPT55PRO_20260629.md
+    sect: Handoff To GPT-5.5 Pro 2026-06-29 > 3. Hard Blockers
+    - STATE.md contains D629 external-model emergency lock: current OpenAI/Pro output is non_authoritative_scratch / gate_only_audit only. ...
+
+[4] score=0.4791  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/GPT55_PRO_ORDER_DEFECT_LOCAL_DRAFT_LOCK_AUDIT_V5_PROMPT_20260630.md
+    sect: GPT-5.5 Pro Zero-Context Prompt: Order-Defect Local-Draft Lock Audit V5 > Current Local State To Audit
+    Node36 has adopted report (9) with this current state:  ```text LOCAL_DRAFT_OK_BUT_KEEP_EMERGENCY_LOCK ```  This remains under the broader lock:  ```text KEEP_LOCK_AND_FIX ```  Your task is to audit whether node36's repo ...
+
+[5] score=0.4789  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/debranded_residual_transport/EXACT_WITNESS_V1_4_20260629.md
+    sect: Exact Witness Certificate v1.4 -- Order Defect > Boundary
+    Allowed ceiling:  ```text definitions_and_harness_viable_only ```  Mode B MaoField empirical status:  ```text insufficient_artifact ``` ...
+
+[6] score=0.4762  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/recovery/ORDER_DEFECT_D630_REPORT9_LOCAL_VERIFICATION_20260630.md
+    sect: Order-Defect Report 9 Local Verification > Source Report
+    ```text docs/infra/gpt_deep_research/deep_research_order_defect_proof_repair_recheck_report9_20260630.md sha256=be486334cb1d9765cc4bf64f9c34ba43d664b84ae7c64685841d06a2428dc979 ```  Accepted local verdict:  ```text LOCAL ...
+
+[7] score=0.4740  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/GPT55_PRO_RESEARCH_INDEX_20260622.md
+    sect: MaoField GPT-5.5 Pro Research Index > 4. Experiment Verdict Map > 4.19 D624 Transport / Holonomy Math-Turn Audit
+    Current MaoField status:  - Mode B remains `insufficient_artifact`. - Existing interaction smoke remains `smoke_conjecture_only`. - Synthetic harness pass remains definition/code viability only. - No full panel, checkpoi ...
+
+[8] score=0.4716  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/STATE.md
+    sect: MaoField — PROJECT STATE (canonical 单一真相源) > 戳
+    修复项; exact/harness 已在 SSD scratch 复跑, controls pass。D630 recovery locks 仍保留: Gate 1/2 只支撑 recovery audit / local draft boundary, 不授权 paper。Mode B 仍 `insufficient_artifact`; strongest empirical local 仍 `definitions_and_ha ...

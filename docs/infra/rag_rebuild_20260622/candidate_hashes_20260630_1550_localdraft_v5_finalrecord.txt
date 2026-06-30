@@ -1,0 +1,2 @@
+468ac4fbd8163f10131746021393938090750d118c515deb4b7a7c63c027d607  /home/amd/codex-node36/tmp/orderdefect_localdraft_lock_v5_final_20260630_1550/rag/index/kb.faiss
+bc27dcfb6f1fae51025d48c7a1b0627dffe433013069391137bd2886827283cc  /home/amd/codex-node36/tmp/orderdefect_localdraft_lock_v5_final_20260630_1550/rag/index/kb_meta.jsonl

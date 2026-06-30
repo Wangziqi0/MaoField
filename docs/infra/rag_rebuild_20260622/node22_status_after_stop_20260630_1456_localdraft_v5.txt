@@ -1,0 +1,19 @@
+stopped pid=2771149
+2771597 bash -c kill 2771149 2>/dev/null && echo stopped pid=2771149 || echo already_stopped pid=2771149; sleep 2; if pgrep -af "llama-server.*18080"; then true; else echo not running port=18080 log=/home/amd/codex-node22/tmp/maofield-rag-vector-20260630_1456_localdraft_v5/bge-m3-llama-18080-restart2.log; fi; rocm-smi --showuse --showmemuse
+
+
+============================ ROCm System Management Interface ============================
+=================================== % time GPU is busy ===================================
+GPU[0]		: GPU use (%): 35
+GPU[1]		: GPU use (%): 0
+==========================================================================================
+=================================== Current Memory Use ===================================
+GPU[0]		: GPU Memory Allocated (VRAM%): 8
+GPU[0]		: GPU Memory Read/Write Activity (%): 2
+GPU[0]		: Memory Activity: N/A
+GPU[0]		: Avg. Memory Bandwidth: 0
+GPU[1]		: GPU Memory Allocated (VRAM%): 4
+GPU[1]		: Memory Activity: N/A
+GPU[1]		: Not supported on the given system
+==========================================================================================
+================================== End of ROCm SMI Log ===================================

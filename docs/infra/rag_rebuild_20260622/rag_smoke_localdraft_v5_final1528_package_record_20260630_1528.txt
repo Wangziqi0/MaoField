@@ -1,0 +1,41 @@
+query: MaoField_PRO_OrderDefect_LocalDraftLockAudit_V5_FINAL_20260630_1528.zip 6951f8ef47f9dce972e2e7f0463bbba44396bd3ca38f139eca990bc1e17d4d70   (top-8, 源=知识, project=MaoField)
+
+[1] score=0.8324  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_19_PACKAGE_ORDER_DEFECT_LOCAL_DRAFT_LOCK_V5_20260630.md
+    sect: Node19 Package Record -- Order-Defect Local-Draft Lock Audit V5 > Hashes
+    Node36:  ```text 61ea40594849288c48aa8a04766ed77da92806e011a74e26ddea9dcfb4637572  MaoField_PRO_OrderDefect_LocalDraftLockAudit_V5_20260630_1505.zip 1e07a31adfaad78f0d05a5bf30d1cb4855816101034d7ccb81709983d4574a58  GPT55 ...
+
+[2] score=0.7968  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_19_PACKAGE_ORDER_DEFECT_LOCAL_DRAFT_LOCK_V5_20260630.md
+    sect: Node19 Package Record -- Order-Defect Local-Draft Lock Audit V5 > Files On Node19 Desktop
+    ```text C:\Users\amd\Desktop\MaoField_PRO_OrderDefect_LocalDraftLockAudit_V5_20260630_1505.zip C:\Users\amd\Desktop\GPT55_PRO_ORDER_DEFECT_LOCAL_DRAFT_LOCK_AUDIT_V5_PROMPT_20260630.md ``` ...
+
+[3] score=0.7565  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_19_PACKAGE_ORDER_DEFECT_LOCAL_DRAFT_LOCK_V5_20260630.md
+    sect: Node19 Package Record -- Order-Defect Local-Draft Lock Audit V5 > Source Files On Node36 Scratch
+    ```text /home/amd/codex-node36/tmp/orderdefect_localdraft_lock_v5_20260630_1505/out/MaoField_PRO_OrderDefect_LocalDraftLockAudit_V5_20260630_1505.zip /home/amd/codex-node36/tmp/orderdefect_localdraft_lock_v5_20260630_150 ...
+
+[4] score=0.7528  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_19_PACKAGE_ORDER_DEFECT_PROOF_REPAIR_RECHECK_V4_20260630.md
+    sect: Node19 Package Record -- Order-Defect Proof-Repair Recheck V4 > Files On Node19 Desktop
+    ```text C:\Users\amd\Desktop\MaoField_PRO_OrderDefect_ProofRepairRecheck_V4_FINAL_20260630_1358.zip C:\Users\amd\Desktop\GPT55_PRO_ORDER_DEFECT_PROOF_REPAIR_RECHECK_V4_PROMPT_20260630.md ``` ...
+
+[5] score=0.7344  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_19_PACKAGE_ORDER_DEFECT_PROOF_REPAIR_RECHECK_V4_20260630.md
+    sect: Node19 Package Record -- Order-Defect Proof-Repair Recheck V4 > Hashes
+    Node36:  ```text 0285cf2678f149eddf2caaf8ffd94032e3e47b2c3b9d4ebdfe0e3aaaf46d512c  MaoField_PRO_OrderDefect_ProofRepairRecheck_V4_FINAL_20260630_1358.zip 25b16d9d4f9ca1c160222c31ea1698e7b77b9681c30fb6b17277ee231e515d7b   ...
+
+[6] score=0.7221  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/MD_CATALOG.md
+    sect: MaoField MD_CATALOG — 全 ~429 md 分层梳理 (navigate reference)
+    260630.md` (sha256 `be486334...`), 采纳说明 `ORDER_DEFECT_PROOF_REPAIR_RECHECK_REPORT9_ADOPTION_NOTE_20260630.md`, 任务书 `docs/infra/recovery/ORDER_DEFECT_D630_LOCAL_DRAFT_LOCKED_TASKBOOK_20260630.md`, 本地复跑记录 `ORDER_DEFECT_D63 ...
+
+[7] score=0.7116  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_19_PACKAGE_ORDER_DEFECT_PROOF_REPAIR_RECHECK_V4_20260630.md
+    sect: Node19 Package Record -- Order-Defect Proof-Repair Recheck V4 > Source Files On Node36 Scratch
+    ```text /home/amd/codex-node36/tmp/orderdefect_proof_repair_recheck_v4_final_20260630_1358/out/MaoField_PRO_OrderDefect_ProofRepairRecheck_V4_FINAL_20260630_1358.zip /home/amd/codex-node36/tmp/orderdefect_proof_repair_re ...
+
+[8] score=0.7009  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_19_PACKAGE_ORDER_DEFECT_V14_EXACT_BIBLIO_AUDIT_20260629.md
+    sect: Node19 Package Record -- Order-Defect v1.4 Exact/Bibliography Audit > Verification
+    Node19 desktop artifacts:  ```text C:\Users\amd\Desktop\MaoField_PRO_OrderDefect_V14_ExactBiblioAudit_20260629_1335final.zip C:\Users\amd\Desktop\MaoField_PRO_OrderDefect_V14_ExactBiblioAudit_20260629_1335final.zip.sha25 ...

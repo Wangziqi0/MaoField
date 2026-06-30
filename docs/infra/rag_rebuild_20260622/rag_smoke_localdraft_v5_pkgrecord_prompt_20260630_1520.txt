@@ -1,0 +1,41 @@
+query: GPT55_PRO_ORDER_DEFECT_LOCAL_DRAFT_LOCK_AUDIT_V5_PROMPT current Pro 0 context uploaded zip only   (top-8, 源=知识, project=MaoField)
+
+[1] score=0.7089  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_19_PACKAGE_ORDER_DEFECT_LOCAL_DRAFT_LOCK_V5_20260630.md
+    sect: Node19 Package Record -- Order-Defect Local-Draft Lock Audit V5 > Included Categories
+    The zip contains:  - `prompt/GPT55_PRO_ORDER_DEFECT_LOCAL_DRAFT_LOCK_AUDIT_V5_PROMPT_20260630.md`; - `from_repo/STATE.md`, `MD_CATALOG.md`, project `AGENTS.md`, `CLAUDE.md`, and   `GPT55_PRO_RESEARCH_INDEX_20260622.md`;  ...
+
+[2] score=0.7034  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/debranded_residual_transport/README_FOR_PRO_FORMALV13_ORDER_DEFECT_IMPLEMENTATION_AUDIT_20260628.md
+    sect: README For GPT-5.5 Pro Formal v1.3 Order-Defect Implementation Audit Package > Recommended Use
+    Upload the zip, then paste the standalone prompt:  ```text GPT55_PRO_FOUNDATIONAL_RESIDUAL_TRANSPORT_V1_3_ORDER_DEFECT_IMPLEMENTATION_AUDIT_PROMPT_20260628.md ```  The prompt asks Pro for a strict PASS/WARN/FAIL audit of ...
+
+[3] score=0.6916  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_19_PACKAGE_FORMALV13_ORDER_DEFECT_PROOF_20260628.md
+    sect: Node19 Package Record — Formal v1.3 Order-Defect Proof Audit > Included Core Files
+    The zip includes:  - `00-README_FOR_19_AND_PRO.md`; - `00-CURRENT_STATUS_FOR_PRO.md`; - `prompt/GPT55_PRO_FOUNDATIONAL_RESIDUAL_TRANSPORT_V1_3_ORDER_DEFECT_PROOF_PROMPT_20260628.md`; - current repository status and navig ...
+
+[4] score=0.6829  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/GPT55_PRO_FOUNDATIONAL_RESIDUAL_TRANSPORT_V1_2_REPORT29_MINOR_REVISION_AUDIT_PROMPT_20260627.md
+    sect: GPT-5.5 Pro Zero-Context Prompt: Formal v1.2 Report(29) Minor Revision Audit
+    Date: 2026-06-27 CST  Use this prompt for a fresh GPT-5.5 Pro session after uploading the Formal v1.2 minor-revision audit bundle. The task is a narrow implementation audit of the threshold-contract fix requested by repo ...
+
+[5] score=0.6818  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_19_PACKAGE_ORDER_DEFECT_PROOF_REPAIR_RECHECK_V4_20260630.md
+    sect: Node19 Package Record -- Order-Defect Proof-Repair Recheck V4 > Included Categories
+    The zip contains:  - `prompt/GPT55_PRO_ORDER_DEFECT_PROOF_REPAIR_RECHECK_V4_PROMPT_20260630.md`; - `from_repo/STATE.md`; - `from_repo/MD_CATALOG.md`; - `from_repo/GPT55_PRO_RESEARCH_INDEX_20260622.md`; - current report(8 ...
+
+[6] score=0.6737  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_19_PACKAGE_ORDER_DEFECT_RECOVERY_REPAIR_V2_20260630.md
+    sect: Order-Defect Recovery Repair v2 Package Record
+    Date: 2026-06-30 CST Destination: node19 desktop Authority: node36 Purpose: zero-context GPT-5.5 Pro gate-only recovery-repair audit, superseding the old v1.6 paper-draft prompt while the external-model emergency lock re ...
+
+[7] score=0.6644  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/debranded_residual_transport/README_FOR_PRO_ORDER_DEFECT_PREPRINT_FINAL_GATE_20260629.md
+    sect: README For GPT-5.5 Pro — Order-Defect Preprint Final Gate > Primary Files
+    Use the standalone prompt in:  ```text prompt/GPT55_PRO_ORDER_DEFECT_PREPRINT_FINAL_GATE_PROMPT_20260629.md ``` ...
+
+[8] score=0.6635  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_19_PACKAGE_FORMALV13_ORDER_DEFECT_IMPLEMENTATION_AUDIT_20260628.md
+    sect: Node19 Package Record -- Formal v1.3 Order-Defect Implementation Audit > Included Core Files
+    The zip includes:  - `00-README_FOR_19_AND_PRO.md`; - `00-CURRENT_STATUS_FOR_PRO.md`; - `prompt/GPT55_PRO_FOUNDATIONAL_RESIDUAL_TRANSPORT_V1_3_ORDER_DEFECT_IMPLEMENTATION_AUDIT_PROMPT_20260628.md`; - current repository s ...

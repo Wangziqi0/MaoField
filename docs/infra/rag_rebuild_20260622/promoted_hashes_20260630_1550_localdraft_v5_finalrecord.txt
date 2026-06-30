@@ -1,0 +1,2 @@
+468ac4fbd8163f10131746021393938090750d118c515deb4b7a7c63c027d607  /media/amd/raid1/rag/index/kb.faiss
+bc27dcfb6f1fae51025d48c7a1b0627dffe433013069391137bd2886827283cc  /media/amd/raid1/rag/index/kb_meta.jsonl

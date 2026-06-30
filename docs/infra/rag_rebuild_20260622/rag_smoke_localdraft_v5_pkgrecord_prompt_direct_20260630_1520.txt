@@ -1,0 +1,41 @@
+query: Use uploaded zip only Do not use public web public GitHub raw.githubusercontent.com GitHub connector outside this bundle   (top-8, 源=知识, project=MaoField)
+
+[1] score=0.7184  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/GPT55_PRO_ORDER_DEFECT_LOCAL_DRAFT_LOCK_AUDIT_V5_PROMPT_20260630.md
+    sect: GPT-5.5 Pro Zero-Context Prompt: Order-Defect Local-Draft Lock Audit V5
+    Use the uploaded zip as the only evidence bundle. Do not use public web browsing, public GitHub pages, raw.githubusercontent.com, search-engine results, GitHub connector content outside the uploaded bundle, or memory of  ...
+
+[2] score=0.7093  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/GPT55_PRO_ORDER_DEFECT_PROOF_REPAIR_RECHECK_V4_PROMPT_20260630.md
+    sect: GPT-5.5 Pro Zero-Context Prompt: Order-Defect Proof-Repair Recheck V4
+    Use the uploaded zip as the only evidence bundle. Do not use public web browsing, public GitHub pages, raw.githubusercontent.com, search-engine results, or memory of previous chats. If the zip is missing or unreadable, s ...
+
+[3] score=0.6615  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/GPT55_PRO_FOUNDATIONAL_RESIDUAL_TRANSPORT_V1_3_ORDER_DEFECT_PROOF_PROMPT_20260628.md
+    sect: Zero-Context Prompt For GPT-5.5 Pro
+    You are GPT-5.5 Pro acting as a strict mathematics professor and adversarial methodology reviewer.  You are given a repository-local bundle from the private repository `Wangziqi0/MaoField`. Treat the uploaded bundle as t ...
+
+[4] score=0.6615  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/GPT55_PRO_ORDER_DEFECT_RECOVERY_REPAIR_V2_PROMPT_20260630.md
+    sect: GPT-5.5 Pro Zero-Context Prompt: Order-Defect Recovery Repair v2
+    You are GPT-5.5 Pro acting as a strict mathematical recovery auditor.  You are not continuing any prior chat context.  Use only the uploaded bundle files.  Do not use public GitHub, public web browsing, search engines, r ...
+
+[5] score=0.6615  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/GPT55_PRO_FOUNDATIONAL_RESIDUAL_TRANSPORT_V1_3_THEOREM_STRENGTHENING_PROMPT_20260628.md
+    sect: Zero-Context Prompt For GPT-5.5 Pro
+    You are GPT-5.5 Pro acting as a strict mathematics professor and adversarial methodology reviewer.  You are given a repository-local bundle from the private repository `Wangziqi0/MaoField`. Treat the uploaded bundle as t ...
+
+[6] score=0.6397  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_q4_hypercube_extension_strict_math_audit_20260623.md
+    sect: MaoField 超立方体扩展严格数学审计 > 证据边界
+    我本次审计**只使用上传的仓库 bundle** 作为主证据，不用 public GitHub、不用 raw.githubusercontent、不用搜索引擎摘要，也不根据记忆补文件内容。这与 bundle 内现有 strict-audit 文件的边界一致。 (`repo_files/docs/infra/gpt_deep_research/deep_research_q4_panel_strict_audit_20260622.md` ...
+
+[7] score=0.6293  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/GPT55_PRO_ORDER_DEFECT_PAPER_DRAFT_V16_PROMPT_20260629.md
+    sect: GPT-5.5 Pro Zero-Context Prompt: Order-Defect Paper Draft v1.6
+    Use the uploaded zip as the primary evidence bundle for local repository facts. Do not use public GitHub, raw GitHub URLs, search-engine snippets, or model memory as evidence for local files. If a local file is absent fr ...
+
+[8] score=0.6222  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_transport_holonomy_math_turn_audit_20260624.md
+    sect: 运输与 Holonomy 数学转向审计报告
+    连接器边界先说清楚：本次运行里，我没有成功建立可用的 GitHub connector 读取链路，因此**没有**把公共 GitHub 页面、`raw.githubusercontent.com`、搜索摘要或 404 页面当作规范仓库证据；以下关于 MaoField 仓库现状的判断，全部以上传的两份 ZIP bundle 为证据边界，并只把外部网络用于补充一般数学文献背景。 ...

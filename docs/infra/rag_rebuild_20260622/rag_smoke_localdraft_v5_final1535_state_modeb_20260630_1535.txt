@@ -1,0 +1,26 @@
+query: LOCAL_DRAFT_OK_BUT_KEEP_EMERGENCY_LOCK insufficient_artifact no paper body no training no observed residual field   (top-5, 源=知识, project=MaoField)
+
+[1] score=0.6853  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_19_PACKAGE_ORDER_DEFECT_LOCAL_DRAFT_LOCK_V5_20260630.md
+    sect: Node19 Package Record -- Order-Defect Local-Draft Lock Audit V5 FINAL > Boundary
+    Current local state:  ```text LOCAL_DRAFT_OK_BUT_KEEP_EMERGENCY_LOCK KEEP_LOCK_AND_FIX ```  Current labels:  ```text Proposition 1: COMPLETE_LOCAL_DRAFT Proposition 2: COMPLETE_LOCAL_DRAFT Proposition 3: COMPLETE_LOCAL_D ...
+
+[2] score=0.6751  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_ORDERDEFECT_LOCAL_DRAFT_LOCK_V5_20260630.md
+    sect: Node22 Vector Refresh -- Order-Defect Local-Draft Lock V5 > Smoke Checks
+    Smoke query:  ```text Mode B insufficient_artifact no full panel no training no observed residual field ```  returned boundary hits that preserve Mode B as `insufficient_artifact`; exact current boundary remains `STATE.m ...
+
+[3] score=0.6366  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/recovery/ORDER_DEFECT_D630_LOCAL_DRAFT_LOCKED_TASKBOOK_20260630.md
+    sect: Order-Defect D630 Local-Draft Locked Taskbook > Current Verdict
+    ```text LOCAL_DRAFT_OK_BUT_KEEP_EMERGENCY_LOCK ```  This verdict is still under the broader recovery lock:  ```text KEEP_LOCK_AND_FIX ``` ...
+
+[4] score=0.6335  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/recovery/EVIDENCE_INDEX_SINCE_20260625.md
+    sect: Evidence Index Since 2026-06-25 > GPT / deep research / audit artifacts since 2026-06-25
+    ess_viable_only.<br>L74: residual structure remains insufficient_artifact unless future primary | | docs/infra/gpt_deep_research/GPT55_PRO_ORDER_DEFECT_PAPER_DRAFT_V16_PROMPT_20260629.md | exists | PLACEHOLDER | ONLY_WIT ...
+
+[5] score=0.6275  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/recovery/ORDER_DEFECT_D630_REPORT9_LOCAL_VERIFICATION_20260630.md
+    sect: Order-Defect Report 9 Local Verification > Source Report
+    ```text docs/infra/gpt_deep_research/deep_research_order_defect_proof_repair_recheck_report9_20260630.md sha256=be486334cb1d9765cc4bf64f9c34ba43d664b84ae7c64685841d06a2428dc979 ```  Accepted local verdict:  ```text LOCAL ...

@@ -1,0 +1,41 @@
+query: GPT55_PRO_ORDER_DEFECT_LOCAL_DRAFT_LOCK_AUDIT_V5_PROMPT package identity V4 package record   (top-8, 源=知识, project=MaoField)
+
+[1] score=0.5133  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_19_PACKAGE_ORDER_DEFECT_PROOF_REPAIR_RECHECK_V4_20260630.md
+    sect: Node19 Package Record -- Order-Defect Proof-Repair Recheck V4 > Files On Node19 Desktop
+    ```text C:\Users\amd\Desktop\MaoField_PRO_OrderDefect_ProofRepairRecheck_V4_FINAL_20260630_1358.zip C:\Users\amd\Desktop\GPT55_PRO_ORDER_DEFECT_PROOF_REPAIR_RECHECK_V4_PROMPT_20260630.md ``` ...
+
+[2] score=0.4921  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/GPT55_PRO_ORDER_DEFECT_LOCAL_DRAFT_LOCK_AUDIT_V5_PROMPT_20260630.md
+    sect: GPT-5.5 Pro Zero-Context Prompt: Order-Defect Local-Draft Lock Audit V5 > First Package Checks
+    Before substantive analysis:  1. read `PACKAGE_README.md`; 2. inspect `SHA256SUMS.txt` and `PACKAGE_FILE_MANIFEST.sha256` if present; 3. confirm whether the bundle contains the earlier V4 package record:    `from_repo/do ...
+
+[3] score=0.4828  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/experiments/exp018_cat/dppl_bridge_verify_d21_output/MAOFIELD_D26_MULTIAGENT_DEEP_DIGEST_20260526.md
+    sect: §1 audit md 关键 binary fact deep digest (file 1, 696 行) > §1.8 反题 line 305 v4=54 vs audit §10.1 v4=43.4 binary differ (audit §10.1 + §12.4 list)
+    V8_FINAL_AUDIT line 305 verbatim "v3 43.4 → v4 54 → v5 48 → v6 48 → v8 55" vs audit §10.1 line 478 verbatim "v4 (mtime D16) line 58, 124 **43.4**", binary 不 reconcile, 留 PI grep `paper_v4*.md` 全 PPL 数字 verbatim list。 ...
+
+[4] score=0.4813  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/debranded_residual_transport/README_FOR_PRO_ORDER_DEFECT_PREPRINT_FINAL_GATE_20260629.md
+    sect: README For GPT-5.5 Pro — Order-Defect Preprint Final Gate > Primary Files
+    Use the standalone prompt in:  ```text prompt/GPT55_PRO_ORDER_DEFECT_PREPRINT_FINAL_GATE_PROMPT_20260629.md ``` ...
+
+[5] score=0.4782  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/debranded_residual_transport/README_FOR_PRO_FORMALV13_ORDER_DEFECT_IMPLEMENTATION_AUDIT_20260628.md
+    sect: README For GPT-5.5 Pro Formal v1.3 Order-Defect Implementation Audit Package
+    Date: 2026-06-28 CST  This package is for a zero-context GPT-5.5 Pro audit of the local Formal v1.3 order-defect proof note and deterministic zero-GPU harness after report (32). ...
+
+[6] score=0.4745  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_142_PACKAGE_FORMALV1_20260625.md
+    sect: Debranded Residual Transport Formal-v1 142 Package Record > Package Contents
+    The package contains:  - a new zero-context GPT-5.5 Pro Formal v1 audit prompt; - `STATE.md`, `MD_CATALOG.md`, and `GPT55_PRO_RESEARCH_INDEX_20260622.md`; - Formal Note v1 and its workplan; - v1 synthetic harness summary ...
+
+[7] score=0.4745  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/MD_CATALOG.md
+    sect: MaoField MD_CATALOG — 全 ~429 md 分层梳理 (navigate reference)
+    260630.md` (sha256 `be486334...`), 采纳说明 `ORDER_DEFECT_PROOF_REPAIR_RECHECK_REPORT9_ADOPTION_NOTE_20260630.md`, 任务书 `docs/infra/recovery/ORDER_DEFECT_D630_LOCAL_DRAFT_LOCKED_TASKBOOK_20260630.md`, 本地复跑记录 `ORDER_DEFECT_D63 ...
+
+[8] score=0.4736  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/debranded_residual_transport/README_FOR_PRO_FORMALV13_ORDER_DEFECT_PROOF_20260628.md
+    sect: README For GPT-5.5 Pro Formal v1.3 Order-Defect Proof Package
+    Date: 2026-06-28 CST  This package is for a zero-context GPT-5.5 Pro proof audit of the proposed Formal v1.3 order-defect theorem package. ...
