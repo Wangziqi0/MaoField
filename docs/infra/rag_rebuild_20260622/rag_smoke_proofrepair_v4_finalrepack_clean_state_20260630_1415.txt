@@ -1,0 +1,26 @@
+query: PATCH_PROOFS_THEN_RECHECK PROOF_REPAIR_CANDIDATE exact witness CERTIFICATE harness HARNESS_ONLY   (top-5, 源=知识, project=MaoField)
+
+[1] score=0.7208  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/recovery/ORDER_DEFECT_D630_PROOF_REPAIR_TASKBOOK_20260630.md
+    sect: Order-Defect D630 Proof Repair Taskbook > Current Proof Labels
+    Preserve these labels until the next recheck:  ```text Proposition 1: COMPLETE_LOCAL_DRAFT Proposition 2: PROOF_REPAIR_CANDIDATE Proposition 3: PROOF_REPAIR_CANDIDATE Exact 2 x 2 rational witness: CERTIFICATE Determinist ...
+
+[2] score=0.6851  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/recovery/ORDER_DEFECT_D630_DUAL_PRO_REPAIR_TASKBOOK_20260630.md
+    sect: Order-Defect D630 Dual-Pro Repair Taskbook > Proof-Risk Labels
+    Preserve these labels unless a later proof-repair audit changes them:  ```text Proposition 1: COMPLETE_LOCAL_DRAFT Proposition 2: PLAUSIBLE_LOCAL_DRAFT Proposition 3: PLAUSIBLE_LOCAL_DRAFT Exact 2 x 2 rational witness: C ...
+
+[3] score=0.6805  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/STATE.md
+    sect: MaoField — PROJECT STATE (canonical 单一真相源) > §7 指针 (detail 去哪找)
+    rdict=`PATCH_PROOFS_THEN_RECHECK` under `KEEP_LOCK_AND_FIX`; Prop2/Prop3=`PROOF_REPAIR_CANDIDATE`; exact witness=`CERTIFICATE`; harness=`HARNESS_ONLY`; RAG v4 exact hashes/counts in finalclean promoted-hash/scope/build-l ...
+
+[4] score=0.6572  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/recovery/EVIDENCE_INDEX_SINCE_20260625.md
+    sect: Evidence Index Since 2026-06-25 > GPT / deep research / audit artifacts since 2026-06-25
+    s，但不是精确证明工件。** 这就是为什么 `harness_script_summary_json_consistency` 给 **WARN**。正面部分很多：script 的 docstring 明说 synthetic-only；代码只包 | | docs/infra/gpt_deep_research/deep_research_order_defect_v1_4_exact_bibliography_audit_202606 ...
+
+[5] score=0.6561  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/GPT55_PRO_ORDER_DEFECT_V1_4_EXACT_BIBLIOGRAPHY_AUDIT_PROMPT_20260629.md
+    sect: GPT-5.5 Pro Zero-Context Prompt: Order-Defect v1.4 Exact Appendix And Bibliography Audit > Harness Boundary Audit
+    The v1.3 harness uses floating point regression checks. Audit whether every current text says this clearly:  ```text The harness is deterministic regression support only. The analytic proof and exact rational certificate ...

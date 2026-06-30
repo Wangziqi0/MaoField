@@ -1,0 +1,2 @@
+723064fe6aaae687ca4902541a943bc6556dcb8e10e8f9c09a4259c4690c6057  /media/amd/raid1/rag/index/backups/pre_proofrepair_v4_finalrepack_clean_20260630_1415/kb.faiss.bak
+ecafa750949cf2562899ee01953bb939f191d4a8c5f937d2ef42315343b167cc  /media/amd/raid1/rag/index/backups/pre_proofrepair_v4_finalrepack_clean_20260630_1415/kb_meta.jsonl.bak

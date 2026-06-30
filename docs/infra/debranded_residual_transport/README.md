@@ -16,12 +16,22 @@ It is intentionally separated from the MaoField empirical line:
 
 ## Current Entry Points
 
-- `../recovery/ORDER_DEFECT_D630_TASKBOOK_NEXT_PRO_20260630.md` — current
-  recovery-repair taskbook.  This supersedes the old v1.6 paper-draft prompt
-  while the external-model emergency lock is active.
-- `../gpt_deep_research/GPT55_PRO_ORDER_DEFECT_RECOVERY_REPAIR_V2_PROMPT_20260630.md` —
-  current zero-context GPT-5.5 Pro prompt.  It asks for gate-only recovery /
-  proof / bibliography audit, not a paper body.
+- `../recovery/ORDER_DEFECT_D630_PROOF_REPAIR_TASKBOOK_20260630.md` — current
+  report(8) proof-repair taskbook.  It narrows the next action to
+  `PATCH_PROOFS_THEN_RECHECK` under the broader `KEEP_LOCK_AND_FIX` lock.
+- `FORMAL_NOTE_V1_3_ORDER_DEFECT_PROOF_REPAIR_CANDIDATE_20260630.md` —
+  current proof-repair candidate for Proposition 2 and Proposition 3. It is for
+  recheck only and is not proof authority.
+- `../gpt_deep_research/GPT55_PRO_ORDER_DEFECT_PROOF_REPAIR_RECHECK_V4_PROMPT_20260630.md` —
+  current zero-context GPT-5.5 Pro prompt.  It asks for proof-repair recheck /
+  bibliography conservatism / claim-boundary audit, not a paper body.
+- `../DEBRANDED_RESIDUAL_TRANSPORT_19_PACKAGE_ORDER_DEFECT_PROOF_REPAIR_RECHECK_V4_20260630.md` —
+  node19 desktop package record for the current v4 proof-repair recheck zip
+  and standalone prompt.
+- `../recovery/ORDER_DEFECT_D630_TASKBOOK_NEXT_PRO_20260630.md` and
+  `../gpt_deep_research/GPT55_PRO_ORDER_DEFECT_RECOVERY_REPAIR_V2_PROMPT_20260630.md` —
+  previous D630 recovery-repair provenance. They remain useful for why the lock
+  exists, but v4 is the current next prompt.
 - `../DEBRANDED_RESIDUAL_TRANSPORT_19_PACKAGE_ORDER_DEFECT_RECOVERY_REPAIR_V2_20260630.md` —
   node19 desktop package record for the 252K v2 recovery-repair zip.
 - `FORMAL_NOTE_V0_20260625.md` — first finite-dimensional definition note.
@@ -241,14 +251,15 @@ residual, interaction, transport, or holonomy field.
 
 The floating-point harness is deterministic regression support only; the mathematical claims are carried by the analytic proof and exact rational certificate, not by JSON floats.
 
-Use the D630 recovery-repair taskbook and v2 prompt as the current strict
-target. The old v1.6 wording-lock / paper-drafting package is superseded-risk
-provenance only while the external-model emergency lock remains active.
+Use the D630 report(8) proof-repair taskbook, proof-repair candidate, and v4
+prompt as the current strict target. The old v1.6 wording-lock / paper-drafting
+package is superseded-risk provenance only while the external-model emergency
+lock remains active.
 
-The next pass is recovery / proof / bibliography audit only. It may check Gate
-1, Gate 2, proof-risk labels, controlled-file scope, clean-snapshot evidence,
-and bibliography conservatism. It must not draft a short-note body unless the
-user explicitly lifts the emergency lock and node36 provides a clean committed
-snapshot. Do not turn the v1.2/v1.3/v1.4/v1.5/v1.6 notes, reports, prompts,
-packages, exact certificate, or synthetic harnesses into an empirical MaoField
-claim or a completed formal-system claim.
+The next pass is proof-repair recheck / bibliography conservatism / claim-boundary
+audit only. It may classify Proposition 1, Proposition 2, Proposition 3, the
+exact witness, deterministic harness, and bibliography risk. It must not draft a
+short-note body unless the user explicitly lifts the emergency lock and node36
+provides a clean committed snapshot. Do not turn the v1.2/v1.3/v1.4/v1.5/v1.6
+notes, reports, prompts, packages, exact certificate, or synthetic harnesses into
+an empirical MaoField claim or a completed formal-system claim.

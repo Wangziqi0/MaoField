@@ -1,0 +1,41 @@
+query: PATCH_PROOFS_THEN_RECHECK report8 proof repair candidate Prop2 Prop3   (top-8, 源=知识, project=MaoField)
+
+[1] score=0.7586  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_ORDERDEFECT_PROOF_REPAIR_RECHECK_V4_20260630.md
+    sect: Node22 Vector Refresh -- Order-Defect Proof-Repair Recheck V4 > Smoke Checks
+    Smoke query:  ```text PATCH_PROOFS_THEN_RECHECK report8 proof repair candidate ```  returned top hits including:  - `docs/infra/gpt_deep_research/deep_research_order_defect_proof_biblio_repair_audit_report8_20260630.md`; ...
+
+[2] score=0.7071  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_order_defect_proof_biblio_repair_audit_report8_20260630.md
+    sect: Order-Defect Proof Repair and Bibliography Audit > Node36 建议
+    **Recommended Next Node36 Action**  `PATCH_PROOFS_THEN_RECHECK` ...
+
+[3] score=0.6829  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/STATE.md
+    sect: MaoField — PROJECT STATE (canonical 单一真相源) > 戳
+    | 项 | 值 | |---|---| | 最后更新 | **2026-06-30 D630 13:03 CST** (`date` verified 13:03 CST; source HEAD before this update `7b3e330`)。Pro report(8) 已归档为 `docs/infra/gpt_deep_research/deep_research_order_defect_proof_biblio_re ...
+
+[4] score=0.6813  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/debranded_residual_transport/README.md
+    sect: Debranded Residual Transport Direction > Current Entry Points
+    - `../recovery/ORDER_DEFECT_D630_PROOF_REPAIR_TASKBOOK_20260630.md` — current   report(8) proof-repair taskbook.  It narrows the next action to   `PATCH_PROOFS_THEN_RECHECK` under the broader `KEEP_LOCK_AND_FIX` lock. -  ...
+
+[5] score=0.6748  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/recovery/ORDER_DEFECT_D630_PROOF_REPAIR_TASKBOOK_20260630.md
+    sect: Order-Defect D630 Proof Repair Taskbook > Current Proof Labels
+    Preserve these labels until the next recheck:  ```text Proposition 1: COMPLETE_LOCAL_DRAFT Proposition 2: PROOF_REPAIR_CANDIDATE Proposition 3: PROOF_REPAIR_CANDIDATE Exact 2 x 2 rational witness: CERTIFICATE Determinist ...
+
+[6] score=0.6723  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/MD_CATALOG.md
+    sect: MaoField MD_CATALOG — 全 ~429 md 分层梳理 (navigate reference)
+    eport8_20260630.md` (sha256 `eefe6f28...`), 采纳说明 `ORDER_DEFECT_PROOF_BIBLIO_REPAIR_REPORT8_ADOPTION_NOTE_20260630.md`, proof-repair taskbook `docs/infra/recovery/ORDER_DEFECT_D630_PROOF_REPAIR_TASKBOOK_20260630.md`, proo ...
+
+[7] score=0.6601  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/recovery/ORDER_DEFECT_D630_PROOF_REPAIR_TASKBOOK_20260630.md
+    sect: Order-Defect D630 Proof Repair Taskbook > Allowed Activity
+    ```text proof_repair_candidate proof_repair_audit bibliography_conservatism_check claim_boundary_audit status_catalog_rag_sync package_for_next_pro_recheck ``` ...
+
+[8] score=0.6573  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_ORDERDEFECT_PROOF_REPAIR_RECHECK_V4_20260630.md
+    sect: Node22 Vector Refresh -- Order-Defect Proof-Repair Recheck V4 > Logs And Manifests
+    ```text docs/infra/rag_rebuild_20260622/canonical_scope_active_20260630_1303_proofrepair_v4.txt docs/infra/rag_rebuild_20260622/rag_build_node22_candidate_20260630_1303_proofrepair_v4.log docs/infra/rag_rebuild_20260622/ ...

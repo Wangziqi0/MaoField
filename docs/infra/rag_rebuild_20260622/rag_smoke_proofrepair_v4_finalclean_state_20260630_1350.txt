@@ -1,0 +1,41 @@
+query: D630 finalclean PATCH_PROOFS_THEN_RECHECK promoted_hashes_20260630_1350   (top-8, 源=知识, project=MaoField)
+
+[1] score=0.6781  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/MD_CATALOG.md
+    sect: MaoField MD_CATALOG — 全 ~429 md 分层梳理 (navigate reference)
+    36-scope / 22-one-shot-vector finalclean 流程刷新; exact promoted hashes / scope / chunk counts 只以 `docs/infra/rag_rebuild_20260622/promoted_hashes_20260630_1350_proofrepair_v4_finalclean.txt`, scope file, build log, and smo ...
+
+[2] score=0.6747  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_order_defect_proof_biblio_repair_audit_report8_20260630.md
+    sect: Order-Defect Proof Repair and Bibliography Audit > Node36 建议
+    **Recommended Next Node36 Action**  `PATCH_PROOFS_THEN_RECHECK` ...
+
+[3] score=0.6689  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/STATE.md
+    sect: MaoField — PROJECT STATE (canonical 单一真相源) > §7 指针 (detail 去哪找)
+    rdict=`PATCH_PROOFS_THEN_RECHECK` under `KEEP_LOCK_AND_FIX`; Prop2/Prop3=`PROOF_REPAIR_CANDIDATE`; exact witness=`CERTIFICATE`; harness=`HARNESS_ONLY`; RAG v4 exact hashes/counts in finalclean promoted-hash/scope/build-l ...
+
+[4] score=0.6650  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_ORDERDEFECT_PROOF_REPAIR_RECHECK_V4_20260630.md
+    sect: Node22 Vector Refresh -- Order-Defect Proof-Repair Recheck V4 > Smoke Checks
+    Smoke query:  ```text PATCH_PROOFS_THEN_RECHECK report8 proof repair candidate ```  returned top hits including:  - `docs/infra/gpt_deep_research/deep_research_order_defect_proof_biblio_repair_audit_report8_20260630.md`; ...
+
+[5] score=0.6626  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_REPORT32_FINAL_20260628.md
+    sect: Node22 Vector Refresh - Report(32) Final Implementation-Audit Package > Self-Reference Boundary
+    This record is written after final index promotion. The promoted index can locate the report(32) STATE/package/proof-note context and may locate a pre-final or absent version of this record. The hash lines in this file a ...
+
+[6] score=0.6594  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/MD_CATALOG.md
+    sect: MaoField MD_CATALOG — 全 ~429 md 分层梳理 (navigate reference) > §0 新 session 导航 TL;DR ★最重要 > 导航 ACTIVE 核心与 D628 当前入口 (该看)
+    * | `docs/infra/rag_rebuild_20260622/` + `scripts/rag_scan_maofield.py` + `scripts/rag_rebuild_maofield_36.sh` + `scripts/rag_rebuild_node22_runner.sh` + `scripts/rag_build_index_node22_http.py`; D630 dual-Pro recovery-r ...
+
+[7] score=0.6563  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_ORDERDEFECT_PAPERDRAFT_V16_20260629.md
+    sect: Node22 Vector Refresh -- Order-Defect Paper Draft v1.6 > Self-Reference Boundary
+    This record is written after final index promotion.  The promoted index can locate the v1.6 prompt, wording lock, adoption note, STATE, MD_CATALOG, and related files, but it may not locate this refresh record or any late ...
+
+[8] score=0.6516  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/MD_CATALOG.md
+    sect: MaoField MD_CATALOG — 全 ~429 md 分层梳理 (navigate reference) > §0 新 session 导航 TL;DR ★最重要 > 导航 ACTIVE 核心与 D628 当前入口 (该看)
+    · `RAID1_BACKUP_MANIFEST_D30_20260530` · `E1E2_DECISION_PACKAGE_VERIFIED_20260529` | | **最新文献线** | `MODEL_COLLAPSE_LITERATURE_AUDIT_D30_20260530` (+ near-dup `_FIXABILITY_` 版) | | **方向入口** | `MAOFIELD_INDEX_{EXP_LOGIC,MA ...

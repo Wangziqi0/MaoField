@@ -1,0 +1,2 @@
+45595d9fbf6a045b1d385b7f4e746d45309f262757ae14bfe915432b970d7b13  /home/amd/codex-node36/tmp/orderdefect_proof_repair_recheck_v4_20260630_1303/rag/candidate_index_finalstate/kb.faiss
+8db1e36b3342cc289797a7c8b9f3fd44470cf1df40e43c55dc9d87a6fd6e103d  /home/amd/codex-node36/tmp/orderdefect_proof_repair_recheck_v4_20260630_1303/rag/candidate_index_finalstate/kb_meta.jsonl

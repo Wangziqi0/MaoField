@@ -1,0 +1,41 @@
+query: ProofRepairRecheck V4 e866971c package record node19 desktop   (top-8, 源=知识, project=MaoField)
+
+[1] score=0.6863  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/MD_CATALOG.md
+    sect: MaoField MD_CATALOG — 全 ~429 md 分层梳理 (navigate reference) > §0 新 session 导航 TL;DR ★最重要 > 导航 ACTIVE 核心与 D628 当前入口 (该看)
+    BRANDED_RESIDUAL_TRANSPORT_19_PACKAGE_ORDER_DEFECT_PROOF_REPAIR_RECHECK_V4_20260630.md`; node19 desktop zip `MaoField_PRO_OrderDefect_ProofRepairRecheck_V4_20260630_1303.zip` sha256=`external package record / SHA256SUMS  ...
+
+[2] score=0.6695  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_19_PACKAGE_ORDER_DEFECT_PROOF_REPAIR_RECHECK_V4_20260630.md
+    sect: Node19 Package Record -- Order-Defect Proof-Repair Recheck V4 > Hashes
+    Node36:  ```text e866971c5ea51a698e2942677e24b93968d6605e35d4db90e6a8a1aaf4b91dc2  MaoField_PRO_OrderDefect_ProofRepairRecheck_V4_20260630_1303.zip 25b16d9d4f9ca1c160222c31ea1698e7b77b9681c30fb6b17277ee231e515d7b  GPT55_ ...
+
+[3] score=0.6635  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/STATE.md
+    sect: MaoField — PROJECT STATE (canonical 单一真相源) > §7 指针 (detail 去哪找)
+    rdict=`PATCH_PROOFS_THEN_RECHECK` under `KEEP_LOCK_AND_FIX`; Prop2/Prop3=`PROOF_REPAIR_CANDIDATE`; exact witness=`CERTIFICATE`; harness=`HARNESS_ONLY`; RAG v4=485 files / 10934 chunks, `kb.faiss=d0242292...`, `kb_meta=4d ...
+
+[4] score=0.6113  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_19_PACKAGE_ORDER_DEFECT_PROOF_REPAIR_RECHECK_V4_20260630.md
+    sect: Node19 Package Record -- Order-Defect Proof-Repair Recheck V4 > Source Files On Node36 Scratch
+    ```text /home/amd/codex-node36/tmp/orderdefect_proof_repair_recheck_v4_20260630_1303/out/MaoField_PRO_OrderDefect_ProofRepairRecheck_V4_20260630_1303.zip /home/amd/codex-node36/tmp/orderdefect_proof_repair_recheck_v4_202 ...
+
+[5] score=0.6082  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/MD_CATALOG.md
+    sect: MaoField MD_CATALOG — 全 ~429 md 分层梳理 (navigate reference)
+    eport8_20260630.md` (sha256 `eefe6f28...`), 采纳说明 `ORDER_DEFECT_PROOF_BIBLIO_REPAIR_REPORT8_ADOPTION_NOTE_20260630.md`, proof-repair taskbook `docs/infra/recovery/ORDER_DEFECT_D630_PROOF_REPAIR_TASKBOOK_20260630.md`, proo ...
+
+[6] score=0.5990  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_19_PACKAGE_ORDER_DEFECT_RECOVERY_REPAIR_V2_20260630.md
+    sect: Order-Defect Recovery Repair v2 Package Record > Current Final3 Artifacts
+    Node36 scratch package:  ```text /home/amd/codex-node36/tmp/orderdefect_20260630_1058final3_recoveryrepair_v2/MaoField_PRO_OrderDefect_RecoveryRepair_V2_20260630_1058final3.zip ```  Node19 desktop files:  ```text C:\User ...
+
+[7] score=0.5958  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/debranded_residual_transport/README.md
+    sect: Debranded Residual Transport Direction > Current Entry Points
+     recovery-repair provenance. They remain useful for why the lock   exists, but v4 is the current next prompt. - `../DEBRANDED_RESIDUAL_TRANSPORT_19_PACKAGE_ORDER_DEFECT_RECOVERY_REPAIR_V2_20260630.md` —   node19 desktop  ...
+
+[8] score=0.5939  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_order_defect_proof_biblio_repair_audit_report8_20260630.md
+    sect: Order-Defect Proof Repair and Bibliography Audit > Node36 建议
+    **Recommended Next Node36 Action**  `PATCH_PROOFS_THEN_RECHECK` ...

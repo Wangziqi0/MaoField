@@ -1,0 +1,41 @@
+query: D630 13:34 finalfix 487 files 10959 chunks PATCH_PROOFS_THEN_RECHECK   (top-8, 源=知识, project=MaoField)
+
+[1] score=0.6825  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_order_defect_proof_biblio_repair_audit_report8_20260630.md
+    sect: Order-Defect Proof Repair and Bibliography Audit > Node36 建议
+    **Recommended Next Node36 Action**  `PATCH_PROOFS_THEN_RECHECK` ...
+
+[2] score=0.6777  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/STATE.md
+    sect: MaoField — PROJECT STATE (canonical 单一真相源) > §7 指针 (detail 去哪找)
+    rdict=`PATCH_PROOFS_THEN_RECHECK` under `KEEP_LOCK_AND_FIX`; Prop2/Prop3=`PROOF_REPAIR_CANDIDATE`; exact witness=`CERTIFICATE`; harness=`HARNESS_ONLY`; RAG v4 finalfix=487 files / 10959 chunks, promoted hashes in `promot ...
+
+[3] score=0.6352  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/MD_CATALOG.md
+    sect: MaoField MD_CATALOG — 全 ~429 md 分层梳理 (navigate reference)
+    36-scope / 22-one-shot-vector 规则刷新到 finalfix 487 files / 10959 chunks; promoted hash 见 `docs/infra/rag_rebuild_20260622/promoted_hashes_20260630_1330_proofrepair_v4_finalfix.txt`; smoke 已能第一命中 package record 的最终 `e1a0... ...
+
+[4] score=0.6210  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_ORDERDEFECT_PROOF_REPAIR_RECHECK_V4_20260630.md
+    sect: Node22 Vector Refresh -- Order-Defect Proof-Repair Recheck V4 > Finalfix Package-Record Locator Refresh
+    Finalfix pre-refresh backups:  ```text /media/amd/raid1/rag/index/backups/pre_proofrepair_v4_finalfix_20260630_1330/kb.faiss.bak /media/amd/raid1/rag/index/backups/pre_proofrepair_v4_finalfix_20260630_1330/kb_meta.jsonl. ...
+
+[5] score=0.6118  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/recovery/ORDER_DEFECT_D630_PROOF_REPAIR_TASKBOOK_20260630.md
+    sect: Order-Defect D630 Proof Repair Taskbook > Current Verdict
+    ```text PATCH_PROOFS_THEN_RECHECK ```  This verdict is a subtask under the broader lock:  ```text KEEP_LOCK_AND_FIX ``` ...
+
+[6] score=0.6042  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/STATE.md
+    sect: MaoField — PROJECT STATE (canonical 单一真相源) > 戳
+    fix scope 刷新为 487 files / 10959 chunks; promoted hash 以 `docs/infra/rag_rebuild_20260622/promoted_hashes_20260630_1330_proofrepair_v4_finalfix.txt` 为准, live smoke `rag_smoke_proofrepair_v4_finalfix_package_record_2026063 ...
+
+[7] score=0.6037  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_ORDERDEFECT_PROOF_REPAIR_RECHECK_V4_20260630.md
+    sect: Node22 Vector Refresh -- Order-Defect Proof-Repair Recheck V4 > Finalfix Package-Record Locator Refresh
+    ```text default canonical active scope files: 487 chunks: 10959 promoted hashes: see promoted_hashes_20260630_1330_proofrepair_v4_finalfix.txt ```  Finalfix logs and manifests:  ```text docs/infra/rag_rebuild_20260622/ca ...
+
+[8] score=0.5982  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/experiments/exp018_cat/dppl_bridge_verify_d21_output/MAOFIELD_L0_ROUND2_INTEGRATION_20260529.md
+    sect: MaoField L0 第二轮 — 三阶段 orchestration 总整合(D29 2026-05-29)
+    > ⚠️ **D29 LATE UPDATE (非破坏性更正 banner, D-1 纪律 5)**: 本文件原文保留作 audit trail。此后跨三机数据 + 元数据校验产生 3 处更正, 见 [`D29_VERIFICATION_CASCADE_UPDATE_20260529.md`](D29_VERIFICATION_CASCADE_UPDATE_20260529.md): > (1) §4 "C3 退化 90-95%" →  ...
