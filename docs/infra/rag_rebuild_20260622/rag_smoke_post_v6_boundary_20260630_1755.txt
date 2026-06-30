@@ -1,0 +1,41 @@
+query: LOCAL_DRAFT_OK_BUT_KEEP_EMERGENCY_LOCK LOCKED_NO_PAPER_BODY Mode B insufficient_artifact no full panel no training   (top-8, 源=知识, project=MaoField)
+
+[1] score=0.7314  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_19_PACKAGE_ORDER_DEFECT_POST_V6_DECISION_GATE_V7_20260630.md
+    sect: Node19 Package Record -- Order-Defect Post-V6 Decision Gate V7 > Boundary
+    Current local state:  ```text LOCAL_DRAFT_OK_BUT_KEEP_EMERGENCY_LOCK KEEP_LOCK_AND_FIX LOCKED_NO_PAPER_BODY ```  Current live labels:  ```text Proposition 1: COMPLETE_LOCAL_DRAFT Proposition 2: COMPLETE_LOCAL_DRAFT Propo ...
+
+[2] score=0.7247  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_19_PACKAGE_ORDER_DEFECT_LOCAL_DRAFT_LOCK_V5_20260630.md
+    sect: Node19 Package Record -- Order-Defect Local-Draft Lock Audit V5 FINAL > Boundary
+    Current local state:  ```text LOCAL_DRAFT_OK_BUT_KEEP_EMERGENCY_LOCK KEEP_LOCK_AND_FIX ```  Current labels:  ```text Proposition 1: COMPLETE_LOCAL_DRAFT Proposition 2: COMPLETE_LOCAL_DRAFT Proposition 3: COMPLETE_LOCAL_D ...
+
+[3] score=0.7195  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_ORDERDEFECT_LOCAL_DRAFT_LOCK_V5_20260630.md
+    sect: Node22 Vector Refresh -- Order-Defect Local-Draft Lock V5 > Smoke Checks
+    Smoke query:  ```text Mode B insufficient_artifact no full panel no training no observed residual field ```  returned boundary hits that preserve Mode B as `insufficient_artifact`; exact current boundary remains `STATE.m ...
+
+[4] score=0.7168  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_19_PACKAGE_ORDER_DEFECT_METADATA_LABEL_PATCH_V6_20260630.md
+    sect: Node19 Package Record -- Order-Defect Metadata/Label Patch V6 > Boundary
+    Current local state:  ```text LOCAL_DRAFT_OK_BUT_KEEP_EMERGENCY_LOCK KEEP_LOCK_AND_FIX ```  Current live labels:  ```text Proposition 1: COMPLETE_LOCAL_DRAFT Proposition 2: COMPLETE_LOCAL_DRAFT Proposition 3: COMPLETE_LO ...
+
+[5] score=0.7020  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/ORDER_DEFECT_METADATA_LABEL_PATCH_V6_REPORT11_ADOPTION_NOTE_20260630.md
+    sect: Order-Defect Metadata/Label Patch V6 Report 11 Adoption Note > Boundary Kept
+    The live state remains:  ```text LOCAL_DRAFT_OK_BUT_KEEP_EMERGENCY_LOCK KEEP_LOCK_AND_FIX LOCKED_NO_PAPER_BODY ```  Current labels remain:  ```text Proposition 1: COMPLETE_LOCAL_DRAFT Proposition 2: COMPLETE_LOCAL_DRAFT  ...
+
+[6] score=0.6651  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_order_defect_local_draft_lock_audit_v5_report10_20260630.md
+    sect: Order-Defect Local-Draft Lock Audit V5 > Status Consistency
+    就当前活状态而言，`STATE.md`、`MD_CATALOG.md`、report(9) adoption note、local-draft taskbook、local verification 是相互对齐的：都把总锁保持为 `KEEP_LOCK_AND_FIX`，把本轮窄升级写成 `LOCAL_DRAFT_OK_BUT_KEEP_EMERGENCY_LOCK`，把 Proposition 1/2/3 写成 `COMPLETE_LO ...
+
+[7] score=0.6650  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_19_PACKAGE_ORDER_DEFECT_PROOF_REPAIR_RECHECK_V4_20260630.md
+    sect: Node19 Package Record -- Order-Defect Proof-Repair Recheck V4 > Boundary
+    Current local state remains:  ```text KEEP_LOCK_AND_FIX PATCH_PROOFS_THEN_RECHECK ```  Current proof labels remain:  ```text Proposition 1: COMPLETE_LOCAL_DRAFT Proposition 2: PROOF_REPAIR_CANDIDATE Proposition 3: PROOF_ ...
+
+[8] score=0.6587  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/STATE.md
+    sect: MaoField — PROJECT STATE (canonical 单一真相源) > §7 指针 (detail 去哪找)
+    liography/package/status/boundary blockers remain before a human under-lock drafting decision; live verdict remains `LOCAL_DRAFT_OK_BUT_KEEP_EMERGENCY_LOCK` / `LOCKED_NO_PAPER_BODY`; no paper body / no proof-authority pr ...
