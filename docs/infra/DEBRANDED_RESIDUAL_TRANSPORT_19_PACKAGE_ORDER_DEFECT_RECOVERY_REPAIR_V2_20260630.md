@@ -7,36 +7,36 @@ Purpose: zero-context GPT-5.5 Pro gate-only recovery-repair audit, superseding
 the old v1.6 paper-draft prompt while the external-model emergency lock remains
 active.
 
-## Current Final2 Artifacts
+## Current Final3 Artifacts
 
 Node36 scratch package:
 
 ```text
-/home/amd/codex-node36/tmp/orderdefect_20260630_1043final2_recoveryrepair_v2/MaoField_PRO_OrderDefect_RecoveryRepair_V2_20260630_1043final2.zip
+/home/amd/codex-node36/tmp/orderdefect_20260630_1058final3_recoveryrepair_v2/MaoField_PRO_OrderDefect_RecoveryRepair_V2_20260630_1058final3.zip
 ```
 
 Node19 desktop files:
 
 ```text
-C:\Users\amd\Desktop\MaoField_PRO_OrderDefect_RecoveryRepair_V2_20260630_1043final2.zip
-C:\Users\amd\Desktop\MaoField_PRO_OrderDefect_RecoveryRepair_V2_20260630_1043final2.zip.sha256
+C:\Users\amd\Desktop\MaoField_PRO_OrderDefect_RecoveryRepair_V2_20260630_1058final3.zip
+C:\Users\amd\Desktop\MaoField_PRO_OrderDefect_RecoveryRepair_V2_20260630_1058final3.zip.sha256
 C:\Users\amd\Desktop\GPT55_PRO_ORDER_DEFECT_RECOVERY_REPAIR_V2_PROMPT_20260630.md
 C:\Users\amd\Desktop\GPT55_PRO_ORDER_DEFECT_RECOVERY_REPAIR_V2_PROMPT_20260630.md.sha256
 ```
 
-## Final2 Hashes
+## Final3 Hashes
 
-Node36 `sha256sum` after final2 rebuild:
+Node36 `sha256sum` after final3 rebuild:
 
 ```text
-eeb288e239345c06f60f14d0800c1ead94e570915729e1176d1b9b2f4c936303  MaoField_PRO_OrderDefect_RecoveryRepair_V2_20260630_1043final2.zip
+d976df7b4c8b3a68efc9f24763fe3325975d4fb16845a6ed43c7aa1fbf76c14e  MaoField_PRO_OrderDefect_RecoveryRepair_V2_20260630_1058final3.zip
 8ab9cad85b33324907f2b9af12b44acb3db2fbe69aff33b37b21691e93880d2f  GPT55_PRO_ORDER_DEFECT_RECOVERY_REPAIR_V2_PROMPT_20260630.md
 ```
 
-Node19 PowerShell `Get-FileHash` readback after final2 copy:
+Node19 PowerShell `Get-FileHash` readback after final3 copy:
 
 ```text
-SHA256  EEB288E239345C06F60F14D0800C1EAD94E570915729E1176D1B9B2F4C936303  C:\Users\amd\Desktop\MaoField_PRO_OrderDefect_RecoveryRepair_V2_20260630_1043final2.zip
+SHA256  D976DF7B4C8B3A68EFC9F24763FE3325975D4FB16845A6ED43C7AA1FBF76C14E  C:\Users\amd\Desktop\MaoField_PRO_OrderDefect_RecoveryRepair_V2_20260630_1058final3.zip
 SHA256  8AB9CAD85B33324907F2B9AF12B44ACB3DB2FBE69AFF33B37B21691E93880D2F  C:\Users\amd\Desktop\GPT55_PRO_ORDER_DEFECT_RECOVERY_REPAIR_V2_PROMPT_20260630.md
 ```
 
@@ -67,11 +67,11 @@ Its previous zip hash was:
 0f43a152f637d58244408001882933e299d49093db857ea1bd31eff011e06a0b
 ```
 
-Do not use the `1030final` package as the next Pro handoff.
+Do not use the `1030final` or `1043final2` packages as the next Pro handoff.
 
 ## Included Core Files
 
-The final2 package includes:
+The final3 package includes:
 
 - `STATE.md`, `MD_CATALOG.md`, and local project/node rule files;
 - `docs/infra/recovery/ORDER_DEFECT_D630_TASKBOOK_NEXT_PRO_20260630.md`;

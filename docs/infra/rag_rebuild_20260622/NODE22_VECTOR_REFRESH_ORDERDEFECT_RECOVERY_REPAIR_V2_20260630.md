@@ -156,6 +156,71 @@ RAG remains a locator only.  These hits do not prove mathematical claims or
 empirical MaoField claims; primary files, exact certificates, scripts, JSON,
 logs, and verdicts remain the evidence sources.
 
+## Final3 Rerun For Package Self-Consistency
+
+After independent audit found that the `1043final2` zip contained a pre-hash
+snapshot of `STATE.md`, `MD_CATALOG.md`, and this RAG record, node36 moved the
+zip digest out of `STATE.md`/`MD_CATALOG.md` and into the external package
+record plus adjacent `.sha256` file.  This avoids embedding a zip's own digest
+inside the zip payload.
+
+Final3 package name:
+
+```text
+MaoField_PRO_OrderDefect_RecoveryRepair_V2_20260630_1058final3.zip
+```
+
+Final3 authoritative promoted index:
+
+```text
+scanned MaoField files: 8109
+active canonical markdown files: 476
+chunks: 10771
+kb.faiss sha256=7599c7e55bba96e2d01862d29005d5b61b2e5d1bd4ee2366944bd5b60a6c3683
+kb_meta.jsonl sha256=7a46557561845348940ed0937314911e7f5bed889fa067066b856df25a89a5e7
+canonical scope sha256=dc3be6001279b0342d8a584a6dd4a669481ea4aab057c713fb0607d2590abf65
+embedding rate=93.468 text/s
+```
+
+Final3 logs:
+
+```text
+docs/infra/rag_rebuild_20260622/canonical_scope_active_20260630_1100_recoveryrepair_v2_final3.txt
+docs/infra/rag_rebuild_20260622/rag_scan_20260630_1100_recoveryrepair_v2_final3.log
+docs/infra/rag_rebuild_20260622/scope_select_20260630_1100_recoveryrepair_v2_final3.log
+docs/infra/rag_rebuild_20260622/rag_build_node22_candidate_20260630_1100_recoveryrepair_v2_final3.log
+docs/infra/rag_rebuild_20260622/candidate_hashes_20260630_1100_recoveryrepair_v2_final3.txt
+docs/infra/rag_rebuild_20260622/promoted_hashes_20260630_1100_recoveryrepair_v2_final3.txt
+docs/infra/rag_rebuild_20260622/node22_stop_20260630_1100_recoveryrepair_v2_final3.txt
+docs/infra/rag_rebuild_20260622/node22_status_after_stop_20260630_1100_recoveryrepair_v2_final3.txt
+docs/infra/rag_rebuild_20260622/node22_status_after_stop2_20260630_1100_recoveryrepair_v2_final3.txt
+docs/infra/rag_rebuild_20260622/rag_smoke_final3_package_record_20260630_1100.txt
+docs/infra/rag_rebuild_20260622/rag_smoke_final3_verdict_options_20260630_1100.txt
+docs/infra/rag_rebuild_20260622/rag_smoke_final3_emergency_lock_20260630_1100.txt
+```
+
+Final3 node22 worker status:
+
+```text
+not running port=18080
+GPU use after second stop check: 0%
+```
+
+Final3 smoke checks confirm the index can locate:
+
+- final3 package name and external-digest policy in `STATE.md`,
+  `MD_CATALOG.md`, and the package record;
+- D630 taskbook verdict options
+  `KEEP_LOCK_AND_FIX` /
+  `LIFT_LOCK_ONLY_IF_USER_CONFIRMS_AND_SNAPSHOT_CLEAN` /
+  `DO_NOT_DRAFT_EVIDENCE_INSUFFICIENT`;
+- external-model emergency-lock wording in `STATE.md`, recovery handoff, and
+  adoption notes.
+
+RAG remains a locator only.  These hits do not prove mathematical claims or
+empirical MaoField claims; primary files, exact certificates, scripts, JSON,
+logs, and verdicts remain the evidence sources.
+
 ## Final Rerun After Package Hash Update
 
 After replacing the intermediate `1025` package with the `1030final` package in

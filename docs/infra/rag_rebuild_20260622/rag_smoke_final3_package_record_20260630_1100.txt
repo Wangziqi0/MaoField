@@ -1,0 +1,41 @@
+query: 1058final3 RecoveryRepair v2 external package record sha256   (top-8, 源=知识, project=MaoField)
+
+[1] score=0.6428  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/MD_CATALOG.md
+    sect: MaoField MD_CATALOG — 全 ~429 md 分层梳理 (navigate reference)
+    : Gate 1/2 可作 recovery audit 支撑, 但 external-model emergency lock 仍有效, 旧 v1.6 paper-draft prompt 已降级为 superseded-risk artifact; 当前下一轮 Pro 只能做 gate-only recovery/proof/bibliography audit, 不写 paper body。zip=`MaoField_PRO_Or ...
+
+[2] score=0.6376  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/STATE.md
+    sect: MaoField — PROJECT STATE (canonical 单一真相源) > §7 指针 (detail 去哪找)
+    , sha256=`external .sha256 / package record only`; final3 RAG refresh pending, node22 stopped after rebuild) | | **GPT/PRO report(4) 数学框架审计 (D622)** | `docs/infra/gpt_deep_research/deep_research_math_turn_framework_gate_ ...
+
+[3] score=0.6365  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_19_PACKAGE_ORDER_DEFECT_RECOVERY_REPAIR_V2_20260630.md
+    sect: Order-Defect Recovery Repair v2 Package Record > Final3 Hashes
+    Node36 `sha256sum` after final3 rebuild:  ```text FINAL3_SHA256_PENDING_EXTERNAL_MANIFEST  MaoField_PRO_OrderDefect_RecoveryRepair_V2_20260630_1058final3.zip 8ab9cad85b33324907f2b9af12b44acb3db2fbe69aff33b37b21691e93880d ...
+
+[4] score=0.6169  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_ORDERDEFECT_RECOVERY_REPAIR_V2_20260630.md
+    sect: Node22 Vector Refresh -- Order-Defect Recovery Repair v2 > Final2 Rerun After Prompt Hash Drift Correction
+    After the independent audit found that a later whitespace cleanup changed the canonical v2 prompt hash from `5346722e...` to `8ab9cad8...`, node36 rebuilt the light package as `1043final2`, updated `STATE.md`, `MD_CATALO ...
+
+[5] score=0.6119  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/experiments/exp018_cat/dppl_bridge_verify_d21_output/RAID1_BACKUP_MANIFEST_D30_20260530.md
+    sect: 核对传输清单 (应只有 log/jsonl, 无 *.safetensors) → 去掉 --dry-run 实跑 > ⊕ APPENDIX · 2026-06-03 D34 更正 (append-only, 原记录不动) > 2. 实证证据 (sha256 二通道, 已取回)
+    - **132/132 ckpt sha256 ≡ `canonical/projects/MaoField`**（D34 主会话 + migrate-22 二通道验证）。 - 本子协作者**独立复核**抢救暂存区 `/media/amd/raid1/from_22/_VERIFICATION/` 内两份 sha 清单:   - `22_static_backup_132ckpt_sha256.txt`（22 静态备份, 132 行）  ...
+
+[6] score=0.6110  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_ORDERDEFECT_RECOVERY_REPAIR_V2_20260630.md
+    sect: Node22 Vector Refresh -- Order-Defect Recovery Repair v2 > Final Rerun After Package Hash Update
+    After replacing the intermediate `1025` package with the `1030final` package in `STATE.md`, `MD_CATALOG.md`, and the package record, node36 performed one final node22-vector refresh so the runtime RAG index contains the  ...
+
+[7] score=0.6057  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/experiments/exp018_cat/dppl_bridge_verify_d21_output/MAOFIELD_GATE_DATA_INTEGRITY_20260529.md
+    sect: MaoField 数据完整性 GATE — 字节级校验 + 3 anomaly adjudicate + L0 白名单 > 附: 校验方法 binary trace
+    - `sha256sum -c archive/v1.0_release_20260516/manifest.sha256` → 47/47 OK (0 mismatch)。 - host22_backup ↔ archive: 10/10 文件名对 sha256 逐一 MATCH。 - 22 机: `ssh amd@192.168.31.22 sha256sum /tmp/dppl_bridge_verify/output/candi ...
+
+[8] score=0.6050  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_REPORT21_20260623.md
+    sect: Node22 Vector Refresh For Report 21 Finite ANOVA Formalization — 2026-06-23 > Runtime Index After Promotion
+    Promoted to `/media/amd/raid1/rag/index` on 2026-06-23.  ```text kb.faiss sha256:       e522eccb5ed21554f33a9ec9fe567fb3821664c7eb2ec20419ce49535ee090d2 kb_meta.jsonl sha256:  2920ce4dcf36eeda9c813d128fd5805a61c87491afc3 ...

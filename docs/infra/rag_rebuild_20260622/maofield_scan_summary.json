@@ -1,13 +1,13 @@
 {
-  "generated_utc": "2026-06-30T02:49:25+00:00",
+  "generated_utc": "2026-06-30T03:00:08+00:00",
   "project_root": "/media/amd/raid1/canonical/projects/MaoField",
-  "git_head": "c4b114d",
-  "total_files": 8097,
+  "git_head": "2da19c8",
+  "total_files": 8109,
   "by_category": {
     "no_extension_or_generated": 2255,
     "markdown": 641,
     "other": 1441,
-    "structured_or_text_data": 2252,
+    "structured_or_text_data": 2264,
     "code_or_config": 319,
     "model_or_binary_artifact": 1189
   },
@@ -15,7 +15,7 @@
     "inventory_only": 4015,
     "index_markdown_active": 371,
     "exclude_markdown_superseded": 249,
-    "digest_only_data": 2252,
+    "digest_only_data": 2264,
     "inventory_only_binary_artifact": 1189,
     "exclude_markdown_archive_or_wip": 21
   },
@@ -25,8 +25,8 @@
     ".cff": 1,
     ".bak": 7,
     ".json": 1871,
-    ".txt": 250,
-    ".log": 38,
+    ".txt": 260,
+    ".log": 40,
     ".zip": 2,
     ".sha256": 2,
     ".xml": 1,
