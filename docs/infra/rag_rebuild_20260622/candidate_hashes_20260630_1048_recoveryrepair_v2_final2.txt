@@ -1,0 +1,2 @@
+c2802dcb71a1959030f754a37dfe891c5926e815e0e540e2896594f4c3c6650c  /home/amd/codex-node36/tmp/maofield-rag-20260630_1048_recoveryrepair_v2_final2/index/kb.faiss
+0afec8f7b558bb660a7657c1ebc103f902225046ec38177b68a01bda61ab53d3  /home/amd/codex-node36/tmp/maofield-rag-20260630_1048_recoveryrepair_v2_final2/index/kb_meta.jsonl

@@ -1,0 +1,41 @@
+query: external-model emergency lock gate_only_audit non_authoritative_scratch no paper body   (top-8, 源=知识, project=MaoField)
+
+[1] score=0.7108  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/recovery/HANDOFF_TO_GPT55PRO_20260629.md
+    sect: Handoff To GPT-5.5 Pro 2026-06-29 > 3. Hard Blockers
+    - STATE.md contains D629 external-model emergency lock: current OpenAI/Pro output is non_authoritative_scratch / gate_only_audit only. ...
+
+[2] score=0.7025  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/recovery/ORDER_DEFECT_D630_TASKBOOK_NEXT_PRO_20260630.md
+    sect: Order-Defect D630 Taskbook For Next Pro Pass > Emergency Lock
+    `STATE.md` currently contains an external-model emergency lock.  Until the user explicitly lifts it, current OpenAI/Pro/external-model outputs are allowed only as:  ```text non_authoritative_scratch gate_only_audit ```   ...
+
+[3] score=0.6296  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_19_PACKAGE_ORDER_DEFECT_RECOVERY_REPAIR_V2_20260630.md
+    sect: Order-Defect Recovery Repair v2 Package Record
+    Date: 2026-06-30 CST Destination: node19 desktop Authority: node36 Purpose: zero-context GPT-5.5 Pro gate-only recovery-repair audit, superseding the old v1.6 paper-draft prompt while the external-model emergency lock re ...
+
+[4] score=0.6182  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/ORDER_DEFECT_RECOVERY_GATE_AUDIT_ADOPTION_NOTE_20260630.md
+    sect: Order-Defect Recovery Gate Audit Adoption Note > Adopted Classification
+    ```text STOP_AND_FIX_GATES ```  Node36 adopts the report only as a gate-only recovery audit.  The report is consistent with the local recovery materials: Gate 1 and Gate 2 are supported by the recovery files, but the hig ...
+
+[5] score=0.6030  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/MD_CATALOG.md
+    sect: MaoField MD_CATALOG — 全 ~429 md 分层梳理 (navigate reference)
+    : Gate 1/2 可作 recovery audit 支撑, 但 external-model emergency lock 仍有效, 旧 v1.6 paper-draft prompt 已降级为 superseded-risk artifact; 当前下一轮 Pro 只能做 gate-only recovery/proof/bibliography audit, 不写 paper body。zip=`MaoField_PRO_Or ...
+
+[6] score=0.5924  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/STATE.md
+    sect: MaoField — PROJECT STATE (canonical 单一真相源) > §7 指针 (detail 去哪找)
+     inference / no training / no new loss / no observed field / no completed formal system claim) | | **D630 recovery-repair / next-Pro gate-only audit** | `docs/infra/recovery/ORDER_DEFECT_D630_TASKBOOK_NEXT_PRO_20260630.m ...
+
+[7] score=0.5680  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/STATE.md
+    sect: MaoField — PROJECT STATE (canonical 单一真相源) > §0 一句话 + 今天
+    - **项目**: MaoField — 自迭代崩溃 + 两项 EMA-deviation contradiction loss 的 empirical pilot study (negative result) - **今天 D630 (2026-06-30)**。D629 v1.6 paper-draft 入口已被外部模型 emergency lock 降级: 旧 `GPT55_PRO_ORDER_DEFECT_PAPER_DRAF ...
+
+[8] score=0.5651  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/debranded_residual_transport/README_FOR_PRO_ORDER_DEFECT_PAPER_DRAFT_V16_20260629.md
+    sect: README For GPT-5.5 Pro -- Order-Defect Paper Draft v1.6 > Primary Files
+    Use the standalone prompt in:  ```text prompt/GPT55_PRO_ORDER_DEFECT_PAPER_DRAFT_V16_PROMPT_20260629.md ```  The prompt is gate-conditioned.  If the wording or evidence gate fails, Pro must not write the paper. ...

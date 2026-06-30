@@ -1,0 +1,41 @@
+query: 8ab9cad85b33324907f2b9af12b44acb3db2fbe69aff33b37b21691e93880d2f GPT55_PRO_ORDER_DEFECT_RECOVERY_REPAIR_V2_PROMPT   (top-8, 源=知识, project=MaoField)
+
+[1] score=0.7045  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_FORMALV11_PRO_20260625.md
+    sect: Node22 Vector Refresh -- Formal v1.1 Pro Audit Package > Hashes
+    GPT55_PRO_FOUNDATIONAL_RESIDUAL_TRANSPORT_V1_1_AUDIT_PROMPT_20260625.md sha256=0ea8a9e0ed97f4b0573c77a0af6b37e79911ecd562063eaf6deade15a210494c ``` ...
+
+[2] score=0.6923  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/debranded_residual_transport/README_FOR_PRO_ORDER_DEFECT_PREPRINT_FINAL_GATE_20260629.md
+    sect: README For GPT-5.5 Pro — Order-Defect Preprint Final Gate > Primary Files
+    Use the standalone prompt in:  ```text prompt/GPT55_PRO_ORDER_DEFECT_PREPRINT_FINAL_GATE_PROMPT_20260629.md ``` ...
+
+[3] score=0.6718  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_19_PACKAGE_ORDER_DEFECT_PREPRINT_FINAL_GATE_V15_20260629.md
+    sect: Node19 Package Record -- Order-Defect Preprint Final Gate v1.5 > Included Core Files
+    /gpt_deep_research/GPT55_PRO_ORDER_DEFECT_PREPRINT_FINAL_GATE_PROMPT_20260629.md`; - `from_repo/docs/infra/gpt_deep_research/deep_research_order_defect_v1_4_exact_bibliography_audit_20260629.md`; - `from_repo/docs/infra/ ...
+
+[4] score=0.6579  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/debranded_residual_transport/README.md
+    sect: Debranded Residual Transport Direction > Current Entry Points
+    - `../recovery/ORDER_DEFECT_D630_TASKBOOK_NEXT_PRO_20260630.md` — current   recovery-repair taskbook.  This supersedes the old v1.6 paper-draft prompt   while the external-model emergency lock is active. - `../gpt_deep_r ...
+
+[5] score=0.6473  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_ORDERDEFECT_RECOVERY_REPAIR_V2_20260630.md
+    sect: Node22 Vector Refresh -- Order-Defect Recovery Repair v2 > Smoke Checks
+    Smoke query:  ```text Order Defect recovery repair v2 emergency lock STOP_AND_FIX_GATES ```  returned top hits including:  - `docs/infra/recovery/HANDOFF_TO_GPT55PRO_20260629.md`; - `docs/infra/gpt_deep_research/ORDER_DE ...
+
+[6] score=0.6331  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/recovery/ORDER_DEFECT_D630_TASKBOOK_NEXT_PRO_20260630.md
+    sect: Order-Defect D630 Taskbook For Next Pro Pass > Required Read Order
+    1. `STATE.md` 2. `AGENTS.md` 3. `MD_CATALOG.md` 4. `docs/infra/recovery/HANDOFF_TO_GPT55PRO_20260629.md` 5. `docs/infra/recovery/GATE_RESCUE_AUDIT_20260629.md` 6. `docs/infra/recovery/MATH_PROOF_RESCUE_AUDIT_20260629.md` ...
+
+[7] score=0.6302  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_19_PACKAGE_ORDER_DEFECT_V14_EXACT_BIBLIO_AUDIT_20260629.md
+    sect: Node19 Package Record -- Order-Defect v1.4 Exact/Bibliography Audit > Included Core Files
+    - `FILELIST.txt`; - `MANIFEST.sha256`; - `prompt/GPT55_PRO_ORDER_DEFECT_V1_4_EXACT_BIBLIOGRAPHY_AUDIT_PROMPT_20260629.md`; - `from_repo/STATE.md`; - `from_repo/MD_CATALOG.md`; - `from_repo/docs/infra/debranded_residual_t ...
+
+[8] score=0.6274  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_REPORT31_FINAL_20260628.md
+    sect: Node22 Vector Refresh — Report(31) Final Order-Defect Package > Smoke And Direct Checks
+    Smoke query:  ```text D628 17:58 report31 1758fixed order defect proof audit 3780b31e ```  returned top hits including:  - `GPT55_PRO_RESEARCH_INDEX_20260622.md` with the `1758fixed` package hash; - `STATE.md` with the D ...

@@ -1,0 +1,41 @@
+query: eeb288e239345c06f60f14d0800c1ead94e570915729e1176d1b9b2f4c936303 1043final2 RecoveryRepair V2   (top-8, 源=知识, project=MaoField)
+
+[1] score=0.6456  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_ORDERDEFECT_RECOVERY_REPAIR_V2_20260630.md
+    sect: Node22 Vector Refresh -- Order-Defect Recovery Repair v2 > Logs And Manifests
+    ```text docs/infra/rag_rebuild_20260622/canonical_scope_active_20260630_1030_recoveryrepair_v2.txt docs/infra/rag_rebuild_20260622/rag_scan_20260630_1030_recoveryrepair_v2.log docs/infra/rag_rebuild_20260622/scope_select ...
+
+[2] score=0.6405  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/rag_rebuild_20260622/maofield_data_digest_20260622.md
+    sect: MaoField RAG Data Digest — 2026-06-22 > Key Data / Verdict / Result Files
+    e_d628_20260628_1152_report30final2.txt | 0.004 | .txt | | docs/infra/rag_rebuild_20260622/rag_smoke_state_final_20260628_1737_report31final.txt | 0.004 | .txt | | docs/infra/rag_rebuild_20260622/rag_smoke_state_packagef ...
+
+[3] score=0.6291  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/recovery/RECOVERY_TIMELINE_SINCE_20260625.md
+    sect: Recovery Timeline Since 2026-06-25 > Commits Since 2026-06-25
+    8.md<br>docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_REPORT31_ORDERDEFECT_20260628.md<br>docs/infra/rag_rebuild_20260622/candidate_hashes_20260628_1824_packagefix_final2.txt<br>docs/infra/rag_rebuild_20260622/ca ...
+
+[4] score=0.6254  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_REPORT30_FORMALV13_20260628.md
+    sect: Node22 Vector Refresh — Report(30) / Formal v1.3 Package > Logs And Manifests
+    ```text docs/infra/rag_rebuild_20260622/canonical_scope_active_20260628_1152_report30final2.txt docs/infra/rag_rebuild_20260622/rag_scan_20260628_1152_report30final2.log docs/infra/rag_rebuild_20260622/rag_build_node22_c ...
+
+[5] score=0.6225  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_19_PACKAGE_ORDER_DEFECT_PAPERDRAFT_V16_20260629.md
+    sect: Node19 Package Record -- Order-Defect Paper Draft v1.6 > Included Core Files
+    OR_REFRESH_ORDERDEFECT_PAPERDRAFT_V16_FINAL_20260629.md`; - `from_repo/docs/infra/rag_rebuild_20260622/promoted_hashes_20260629_1540_v16paper.txt`; - `from_repo/docs/infra/rag_rebuild_20260622/promoted_hashes_20260629_16 ...
+
+[6] score=0.6217  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/README.md
+    sect: Documentation > Current Entry Points
+    260622/NODE22_VECTOR_REFRESH_REPORT26_20260625.md`](infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_REPORT26_20260625.md) - [`infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_V11PATCH_20260625.md`](infra/rag_rebuild_202 ...
+
+[7] score=0.6170  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/recovery/RECOVERY_TIMELINE_SINCE_20260625.md
+    sect: Recovery Timeline Since 2026-06-25 > Commits Since 2026-06-25
+    /rag_rebuild_20260622/promoted_hashes_20260628_1737_report31final.txt<br>docs/infra/rag_rebuild_20260622/rag_build_node22_candidate_20260628_1605_report31orderdefect.log<br>docs/infra/rag_rebuild_20260622/rag_build_node2 ...
+
+[8] score=0.6164  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/experiments/exp018_cat/dppl_bridge_verify_d21_output/MAOFIELD_D26_STRATEGIC_PANORAMA_REPORT_20260526.md
+    sect: §2 D26 multi-agent 之 13 file (9 ATTEMPT1 + 4 partial)
+    参 `MAOFIELD_D26_MULTIAGENT_DEEP_DIGEST_20260526.md` (Sub B) §0-§9, sha256 `b03d5882...`。 ...

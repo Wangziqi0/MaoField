@@ -203,3 +203,75 @@ Final smoke checks confirm the index can locate:
 - the D630 v2 prompt output format;
 - the D630 recovery audit adoption note;
 - the emergency-lock boundary in `STATE.md` and recovery handoff files.
+
+## Final2 Rerun After Prompt Hash Drift Correction
+
+After the independent audit found that a later whitespace cleanup changed the
+canonical v2 prompt hash from `5346722e...` to `8ab9cad8...`, node36 rebuilt the
+light package as `1043final2`, updated `STATE.md`, `MD_CATALOG.md`, and the
+package record, copied the corrected package and prompt to node19, and then ran
+one final node22-vector refresh.
+
+Final2 node19 package:
+
+```text
+MaoField_PRO_OrderDefect_RecoveryRepair_V2_20260630_1043final2.zip
+sha256=eeb288e239345c06f60f14d0800c1ead94e570915729e1176d1b9b2f4c936303
+size=248K
+files=62
+prompt_sha256=8ab9cad85b33324907f2b9af12b44acb3db2fbe69aff33b37b21691e93880d2f
+```
+
+Final2 authoritative promoted index:
+
+```text
+scanned MaoField files: 8088
+active canonical markdown files: 476
+chunks: 10767
+kb.faiss sha256=c2802dcb71a1959030f754a37dfe891c5926e815e0e540e2896594f4c3c6650c
+kb_meta.jsonl sha256=0afec8f7b558bb660a7657c1ebc103f902225046ec38177b68a01bda61ab53d3
+canonical scope sha256=dc3be6001279b0342d8a584a6dd4a669481ea4aab057c713fb0607d2590abf65
+embedding rate=94.252 text/s
+```
+
+Final2 logs:
+
+```text
+docs/infra/rag_rebuild_20260622/canonical_scope_active_20260630_1048_recoveryrepair_v2_final2.txt
+docs/infra/rag_rebuild_20260622/rag_scan_20260630_1048_recoveryrepair_v2_final2.log
+docs/infra/rag_rebuild_20260622/scope_select_20260630_1048_recoveryrepair_v2_final2.log
+docs/infra/rag_rebuild_20260622/rag_build_node22_candidate_20260630_1048_recoveryrepair_v2_final2.log
+docs/infra/rag_rebuild_20260622/candidate_hashes_20260630_1048_recoveryrepair_v2_final2.txt
+docs/infra/rag_rebuild_20260622/promoted_hashes_20260630_1048_recoveryrepair_v2_final2.txt
+docs/infra/rag_rebuild_20260622/node22_stop_20260630_1048_recoveryrepair_v2_final2.txt
+docs/infra/rag_rebuild_20260622/node22_status_after_stop_20260630_1048_recoveryrepair_v2_final2.txt
+docs/infra/rag_rebuild_20260622/node22_status_after_stop2_20260630_1048_recoveryrepair_v2_final2.txt
+docs/infra/rag_rebuild_20260622/rag_smoke_final2_package_hash_20260630_1048.txt
+docs/infra/rag_rebuild_20260622/rag_smoke_final2_prompt_hash_20260630_1048.txt
+docs/infra/rag_rebuild_20260622/rag_smoke_final2_verdict_options_20260630_1048.txt
+docs/infra/rag_rebuild_20260622/rag_smoke_final2_emergency_lock_20260630_1048.txt
+docs/infra/rag_rebuild_20260622/rag_smoke_final2_package_record_exact_20260630_1048.txt
+```
+
+Final2 node22 worker status:
+
+```text
+not running port=18080
+GPU use after second stop check: 0%
+```
+
+Final2 smoke checks confirm the index can locate:
+
+- final2 package record and `1043final2` package path;
+- final2 package hash `eeb288e239...`;
+- final2 prompt hash `8ab9cad85...`;
+- D630 taskbook verdict options
+  `KEEP_LOCK_AND_FIX` /
+  `LIFT_LOCK_ONLY_IF_USER_CONFIRMS_AND_SNAPSHOT_CLEAN` /
+  `DO_NOT_DRAFT_EVIDENCE_INSUFFICIENT`;
+- external-model emergency-lock wording in `STATE.md`, recovery handoff, and
+  adoption notes.
+
+RAG remains a locator only.  These hits do not prove mathematical claims or
+empirical MaoField claims; primary files, exact certificates, scripts, JSON,
+logs, and verdicts remain the evidence sources.
