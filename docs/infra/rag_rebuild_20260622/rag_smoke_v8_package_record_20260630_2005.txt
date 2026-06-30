@@ -1,0 +1,41 @@
+query: MaoField_PRO_OrderDefect_HumanDecisionUnderLock V8 package record   (top-8, 源=知识, project=MaoField)
+
+[1] score=0.7504  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_19_PACKAGE_ORDER_DEFECT_HUMAN_DECISION_UNDER_LOCK_V8_20260630.md
+    sect: Node19 Package Record -- Order-Defect Human Decision Under Lock V8 > Current Files On Node19 Desktop
+    ```text C:\Users\amd\Desktop\MaoField_PRO_OrderDefect_HumanDecisionUnderLock_V8_FINAL_20260630_2005.zip C:\Users\amd\Desktop\GPT55_PRO_ORDER_DEFECT_HUMAN_DECISION_UNDER_LOCK_V8_PROMPT_20260630.md ``` ...
+
+[2] score=0.7211  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_19_PACKAGE_ORDER_DEFECT_HUMAN_DECISION_UNDER_LOCK_V8_20260630.md
+    sect: Node19 Package Record -- Order-Defect Human Decision Under Lock V8 > Source Files On Node36 Scratch
+    ```text /home/amd/codex-node36/tmp/orderdefect_human_decision_v8_20260630_2005/out/MaoField_PRO_OrderDefect_HumanDecisionUnderLock_V8_FINAL_20260630_2005.zip /home/amd/codex-node36/tmp/orderdefect_human_decision_v8_20260 ...
+
+[3] score=0.6772  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/STATE.md
+    sect: MaoField — PROJECT STATE (canonical 单一真相源) > 戳
+    cient_artifact`。当前下一步是 V8 human-decision-under-lock package: 任务书=`docs/infra/recovery/ORDER_DEFECT_D630_HUMAN_DECISION_UNDER_LOCK_V8_TASKBOOK_20260630.md`; prompt=`docs/infra/gpt_deep_research/GPT55_PRO_ORDER_DEFECT_HUMA ...
+
+[4] score=0.6651  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_19_PACKAGE_ORDER_DEFECT_POST_V6_DECISION_GATE_V7_20260630.md
+    sect: Node19 Package Record -- Order-Defect Post-V6 Decision Gate V7 > Current Files On Node19 Desktop
+    ```text C:\Users\amd\Desktop\MaoField_PRO_OrderDefect_PostV6DecisionGate_V7_FINAL_20260630_1755.zip C:\Users\amd\Desktop\GPT55_PRO_ORDER_DEFECT_POST_V6_DECISION_GATE_V7_PROMPT_20260630.md ``` ...
+
+[5] score=0.6644  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/MD_CATALOG.md
+    sect: MaoField MD_CATALOG — 全 ~429 md 分层梳理 (navigate reference)
+    CISION_UNDER_LOCK_V8_TASKBOOK_20260630.md`, V8 零上下文提示词 `GPT55_PRO_ORDER_DEFECT_HUMAN_DECISION_UNDER_LOCK_V8_PROMPT_20260630.md` (sha256 `9878f099...`), V8 package record `docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_19_PACKAG ...
+
+[6] score=0.6642  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_19_PACKAGE_ORDER_DEFECT_LOCAL_DRAFT_LOCK_V5_20260630.md
+    sect: Node19 Package Record -- Order-Defect Local-Draft Lock Audit V5 FINAL > Current Hashes
+    Node36:  ```text 71fbd35050649c6447367107dce6f6ecc2a520bdc6a5cd09177ac9437c7c32e5  MaoField_PRO_OrderDefect_LocalDraftLockAudit_V5_FINAL_20260630_1550.zip fe88047622456df6990d4cf99651c647c614b6a3ce0b449e8c8480258e7453b8  ...
+
+[7] score=0.6636  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/MD_CATALOG.md
+    sect: MaoField MD_CATALOG — 全 ~429 md 分层梳理 (navigate reference) > §0 新 session 导航 TL;DR ★最重要 > 导航 ACTIVE 核心与 D628 当前入口 (该看)
+    y / no claim promotion / Mode B remains `insufficient_artifact` | | **当前 Pro V8 human-decision 包到 19 ★** | `docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_19_PACKAGE_ORDER_DEFECT_HUMAN_DECISION_UNDER_LOCK_V8_20260630.md`; node1 ...
+
+[8] score=0.6563  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_19_PACKAGE_ORDER_DEFECT_PROOF_REPAIR_RECHECK_V4_20260630.md
+    sect: Node19 Package Record -- Order-Defect Proof-Repair Recheck V4 > Files On Node19 Desktop
+    ```text C:\Users\amd\Desktop\MaoField_PRO_OrderDefect_ProofRepairRecheck_V4_FINAL_20260630_1358.zip C:\Users\amd\Desktop\GPT55_PRO_ORDER_DEFECT_PROOF_REPAIR_RECHECK_V4_PROMPT_20260630.md ``` ...

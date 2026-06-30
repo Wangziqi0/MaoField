@@ -1,0 +1,41 @@
+query: LOCKED_NO_PAPER_BODY insufficient_artifact HUMAN_DECISION_UNDER_LOCK_ACCEPTED   (top-8, 源=知识, project=MaoField)
+
+[1] score=0.6658  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_order_defect_post_v6_decision_gate_v7_report12_20260630.md
+    sect: Order-Defect Post-V6 Decision Gate V7 审计报告 > Remaining Blockers
+    `no decision-gate blocker found; emergency lock still active`  更具体地说：  仍然存在的“未放行项”是 lock 的一部分，而不是本轮阻止 human under-lock decision 的新 blocker：`LOCKED_NO_PAPER_BODY`、paper-ready / preprint-ready 禁止、Mode B=`insufficient_artif ...
+
+[2] score=0.6536  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/STATE.md
+    sect: MaoField — PROJECT STATE (canonical 单一真相源) > 戳
+    cient_artifact`。当前下一步是 V8 human-decision-under-lock package: 任务书=`docs/infra/recovery/ORDER_DEFECT_D630_HUMAN_DECISION_UNDER_LOCK_V8_TASKBOOK_20260630.md`; prompt=`docs/infra/gpt_deep_research/GPT55_PRO_ORDER_DEFECT_HUMA ...
+
+[3] score=0.6531  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/recovery/ORDER_DEFECT_D630_HUMAN_DECISION_UNDER_LOCK_V8_TASKBOOK_20260630.md
+    sect: Order-Defect D630 Human Decision Under Lock V8 Taskbook > Current Verdict Chain
+    ```text report(10): PATCH_METADATA_OR_LABELS_AGAIN report(11): METADATA_LABEL_PATCH_ACCEPTED_KEEP_LOCK report(12): POST_V6_DECISION_GATE_ACCEPTED_KEEP_LOCK node36 local action: PREPARE_HUMAN_DECISION_UNDER_LOCK node36 li ...
+
+[4] score=0.6379  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/STATE.md
+    sect: MaoField — PROJECT STATE (canonical 单一真相源) > §7 指针 (detail 去哪找)
+    human PI should authorize a separate future boundary-locked short-note drafting prompt; live verdict remains `LOCAL_DRAFT_OK_BUT_KEEP_EMERGENCY_LOCK` / `LOCKED_NO_PAPER_BODY`; no paper body / no proof-authority promotion ...
+
+[5] score=0.6310  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_19_PACKAGE_ORDER_DEFECT_POST_V6_DECISION_GATE_V7_20260630.md
+    sect: Node19 Package Record -- Order-Defect Post-V6 Decision Gate V7 > Boundary
+    Current local state:  ```text LOCAL_DRAFT_OK_BUT_KEEP_EMERGENCY_LOCK KEEP_LOCK_AND_FIX LOCKED_NO_PAPER_BODY ```  Current live labels:  ```text Proposition 1: COMPLETE_LOCAL_DRAFT Proposition 2: COMPLETE_LOCAL_DRAFT Propo ...
+
+[6] score=0.6273  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_19_PACKAGE_ORDER_DEFECT_HUMAN_DECISION_UNDER_LOCK_V8_20260630.md
+    sect: Node19 Package Record -- Order-Defect Human Decision Under Lock V8 > Boundary
+    Current local state:  ```text LOCAL_DRAFT_OK_BUT_KEEP_EMERGENCY_LOCK KEEP_LOCK_AND_FIX LOCKED_NO_PAPER_BODY ```  Current live labels:  ```text Proposition 1: COMPLETE_LOCAL_DRAFT Proposition 2: COMPLETE_LOCAL_DRAFT Propo ...
+
+[7] score=0.6202  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_mode_a_quotient_residual_kill_framework_20260623.md
+    sect: MaoField 去魅后的底层数学问题与严格击杀框架 > 谨慎回译到 MaoField Mode B
+    现在只准用允许的 verdict 说话。  对**今天**这包材料，关于“稳定非标量结构是否已被证立”的 Mode B 结论，只能是：  \[ \boxed{\texttt{insufficient\_artifact}} \]  原因不在于“smoke 完全没有东西”，而在于：没有 PI 批准的 50-checkpoint full panel；没有 interaction full-panel aggregate；没有 prereg ...
+
+[8] score=0.6188  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/recovery/EVIDENCE_INDEX_SINCE_20260625.md
+    sect: Evidence Index Since 2026-06-25 > Bibliography / related work
+    XACT_BIBLIOGRAPHY_AUDIT_ADOPTION_NOTE_20260629.md | exists | AUDIT | YES | L33: `definitions_and_harness_viable_only` and Mode B<br>L34: `insufficient_artifact`. | ...

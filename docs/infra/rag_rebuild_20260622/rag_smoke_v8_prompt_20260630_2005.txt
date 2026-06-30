@@ -1,0 +1,41 @@
+query: V8 human decision under lock prompt package node19   (top-8, 源=知识, project=MaoField)
+
+[1] score=0.6935  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_19_PACKAGE_ORDER_DEFECT_HUMAN_DECISION_UNDER_LOCK_V8_20260630.md
+    sect: Node19 Package Record -- Order-Defect Human Decision Under Lock V8 > Purpose
+    This is the light zero-context package for the next GPT-5.5 Pro advisory audit after report(12).  Report(12) returned:  ```text POST_V6_DECISION_GATE_ACCEPTED_KEEP_LOCK ```  Node36 adopts this only as:  ```text PREPARE_H ...
+
+[2] score=0.6800  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/STATE.md
+    sect: MaoField — PROJECT STATE (canonical 单一真相源) > §7 指针 (detail 去哪找)
+    rd `docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_19_PACKAGE_ORDER_DEFECT_HUMAN_DECISION_UNDER_LOCK_V8_20260630.md`; node19 desktop zip `MaoField_PRO_OrderDefect_HumanDecisionUnderLock_V8_FINAL_20260630_2005.zip`, zip sha256 e ...
+
+[3] score=0.6759  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/MD_CATALOG.md
+    sect: MaoField MD_CATALOG — 全 ~429 md 分层梳理 (navigate reference) > §0 新 session 导航 TL;DR ★最重要 > 导航 ACTIVE 核心与 D628 当前入口 (该看)
+    y / no claim promotion / Mode B remains `insufficient_artifact` | | **当前 Pro V8 human-decision 包到 19 ★** | `docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_19_PACKAGE_ORDER_DEFECT_HUMAN_DECISION_UNDER_LOCK_V8_20260630.md`; node1 ...
+
+[4] score=0.6718  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/ORDER_DEFECT_POST_V6_DECISION_GATE_V7_REPORT12_ADOPTION_NOTE_20260630.md
+    sect: Order-Defect Report(12) Adoption Note > Node36 Action
+    Report(12)'s recommended local action is adopted as:  ```text PREPARE_HUMAN_DECISION_UNDER_LOCK ```  The next package is therefore V8: a zero-context package for GPT-5.5 Pro to help prepare a human PI decision memo under ...
+
+[5] score=0.6697  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/recovery/ORDER_DEFECT_D630_HUMAN_DECISION_UNDER_LOCK_V8_TASKBOOK_20260630.md
+    sect: Order-Defect D630 Human Decision Under Lock V8 Taskbook > Goal
+    Create a zero-context V8 bundle for GPT-5.5 Pro that starts from report(12)'s accepted V7 decision gate and asks for a narrow human-decision memo under the still-active emergency lock.  The V8 question is:  ```text Given ...
+
+[6] score=0.6666  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/STATE.md
+    sect: MaoField — PROJECT STATE (canonical 单一真相源) > 戳
+    cient_artifact`。当前下一步是 V8 human-decision-under-lock package: 任务书=`docs/infra/recovery/ORDER_DEFECT_D630_HUMAN_DECISION_UNDER_LOCK_V8_TASKBOOK_20260630.md`; prompt=`docs/infra/gpt_deep_research/GPT55_PRO_ORDER_DEFECT_HUMA ...
+
+[7] score=0.6521  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/MD_CATALOG.md
+    sect: MaoField MD_CATALOG — 全 ~429 md 分层梳理 (navigate reference)
+    CISION_UNDER_LOCK_V8_TASKBOOK_20260630.md`, V8 零上下文提示词 `GPT55_PRO_ORDER_DEFECT_HUMAN_DECISION_UNDER_LOCK_V8_PROMPT_20260630.md` (sha256 `9878f099...`), V8 package record `docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_19_PACKAG ...
+
+[8] score=0.6395  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_order_defect_post_v6_decision_gate_v7_report12_20260630.md
+    sect: Order-Defect Post-V6 Decision Gate V7 审计报告 > Recommended Node36 Action
+    `PREPARE_HUMAN_DECISION_UNDER_LOCK`  建议含义是：可以把当前 bundle 视为“post-V6 decision gate 已通过，且仍保持锁”的 advisory basis，供 node36 与 human PI 判断是否在 emergency lock 下准备短札起草决策；但不能据此写 paper body，不能声称 paper-ready / preprint-ready / posted， ...
