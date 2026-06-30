@@ -2,6 +2,31 @@
 
 Generated: `2026-06-29 21:28:29 CST +0800`
 
+## D630 Dual-Pro Repair Overlay
+
+Update: `2026-06-30 11:44 CST` on node36.  This overlay supersedes stale
+D629-only snippets in the generated tables below where they disagree with the
+current `STATE.md`.
+
+| path | role | reliability | Pro rely? | note |
+| --- | --- | --- | --- | --- |
+| `docs/infra/gpt_deep_research/deep_research_order_defect_recovery_repair_dual_pro_report6_20260630.md` | external dual-Pro recovery repair report | AUDIT | ONLY_WITH_BOUNDARY | sha256 `23a1d3996bff38a2360457e09990b4ac40eee3dd84afb8e022c48395adf07807`; supports `KEEP_LOCK_AND_FIX`; model output only |
+| `docs/infra/gpt_deep_research/deep_research_order_defect_recovery_repair_dual_pro_report7_20260630.md` | external dual-Pro recovery repair report | AUDIT | ONLY_WITH_BOUNDARY | sha256 `8d39d7ab9bf64cbf7d871dde7e21842e0a2d7a80b6cbae6aaeadb54a7a26792b`; catches README stale v1.6 next-step more explicitly; model output only |
+| `docs/infra/gpt_deep_research/ORDER_DEFECT_RECOVERY_REPAIR_DUAL_PRO_AUDIT_ADOPTION_NOTE_20260630.md` | node36 adoption note | AUDIT | YES | local verdict `KEEP_LOCK_AND_FIX`; accepts Gate 1/2 recovery support, rejects paper drafting |
+| `docs/infra/recovery/ORDER_DEFECT_D630_DUAL_PRO_REPAIR_TASKBOOK_20260630.md` | temporary taskbook | AUDIT | YES | constrains this repair round to status/index/proof/bibliography recovery work |
+| `docs/infra/debranded_residual_transport/README.md` | current debranded direction index | AUDIT | ONLY_WITH_BOUNDARY | bottom stale v1.6 paper-drafting instruction patched to D630 recovery repair |
+| `docs/infra/debranded_residual_transport/BIBLIOGRAPHY_AND_POSITIONING_V1_5_20260629.md` | bibliography and positioning floor | AUDIT | ONLY_WITH_BOUNDARY | Lamboni 2026 downgraded to DOI / publisher online record status only for current drafting |
+
+Current adopted verdict:
+
+```text
+KEEP_LOCK_AND_FIX
+```
+
+Still forbidden: paper body drafting, proof-authority promotion, bibliography
+authority promotion, MaoField empirical positive claims, completed formal
+system claims, and treating JSON floats / deterministic harnesses as proof.
+
 
 ## Status and indexes
 

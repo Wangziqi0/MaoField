@@ -2,6 +2,21 @@
 
 Generated: `2026-06-29 21:28:29 CST +0800`
 
+## D630 Overlay
+
+On `2026-06-30 11:44 CST`, node36 archived two later recovery-repair Pro
+reports and adopted their shared verdict:
+
+```text
+KEEP_LOCK_AND_FIX
+```
+
+Use `ORDER_DEFECT_RECOVERY_REPAIR_DUAL_PRO_AUDIT_ADOPTION_NOTE_20260630.md`
+and `ORDER_DEFECT_D630_DUAL_PRO_REPAIR_TASKBOOK_20260630.md` before treating
+this older D629 handoff as current.  The core boundary is unchanged: Gate 1/2
+support recovery audit only; the external-model emergency lock remains active;
+do not draft a paper body.
+
 ## 1. Current Verdict
 
 - Can a short note be drafted now? **ONLY_AFTER_FIXES**

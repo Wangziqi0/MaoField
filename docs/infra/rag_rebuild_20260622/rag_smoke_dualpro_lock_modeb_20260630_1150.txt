@@ -1,0 +1,41 @@
+query: Mode B insufficient_artifact no paper body external model emergency lock   (top-8, 源=知识, project=MaoField)
+
+[1] score=0.6281  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_order_defect_recovery_repair_dual_pro_report7_20260630.md
+    sect: Order-Defect Recovery Repair 审计报告 > 3. Hard Blockers
+    第一，**外部模型紧急锁仍然有效**。这不是建议，而是当前 canonical state：只要用户没有明确解除该锁，外部模型输出就只能是 `non_authoritative_scratch` / `gate_only_audit`，不能当论文正文、证明终审、书目终审或发布决策。仅这一条，就足以阻止现在进入 paper drafting。与此同时，D630 taskbook 明确要求“不要在 lock 活跃时写 short note  ...
+
+[2] score=0.6279  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_mode_a_quotient_residual_kill_framework_20260623.md
+    sect: MaoField 去魅后的底层数学问题与严格击杀框架 > 谨慎回译到 MaoField Mode B
+    现在只准用允许的 verdict 说话。  对**今天**这包材料，关于“稳定非标量结构是否已被证立”的 Mode B 结论，只能是：  \[ \boxed{\texttt{insufficient\_artifact}} \]  原因不在于“smoke 完全没有东西”，而在于：没有 PI 批准的 50-checkpoint full panel；没有 interaction full-panel aggregate；没有 prereg ...
+
+[3] score=0.6139  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/recovery/ORDER_DEFECT_D630_TASKBOOK_NEXT_PRO_20260630.md
+    sect: Order-Defect D630 Taskbook For Next Pro Pass > Emergency Lock
+    `STATE.md` currently contains an external-model emergency lock.  Until the user explicitly lifts it, current OpenAI/Pro/external-model outputs are allowed only as:  ```text non_authoritative_scratch gate_only_audit ```   ...
+
+[4] score=0.6126  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/recovery/HANDOFF_TO_GPT55PRO_20260629.md
+    sect: Handoff To GPT-5.5 Pro 2026-06-29 > 3. Hard Blockers
+    - STATE.md contains D629 external-model emergency lock: current OpenAI/Pro output is non_authoritative_scratch / gate_only_audit only. ...
+
+[5] score=0.6013  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/debranded_residual_transport/README_FOR_PRO_FORMALV12_PATCH_20260626.md
+    sect: MaoField PRO Package -- Formal Residual Transport v1.2 Minimal Patch > Boundary
+    This package is Mode A formal mathematics material only.  It does not claim or authorize:  ```text full panel has run 16-cell full-panel aggregate exists MaoField residual field observed MaoField interaction field observ ...
+
+[6] score=0.5987  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/debranded_residual_transport/README_FOR_PRO_FORMALV13_ORDER_DEFECT_PROOF_20260628.md
+    sect: README For GPT-5.5 Pro Formal v1.3 Order-Defect Proof Package > Boundary
+    This is a Mode A mathematics package. It is not a MaoField empirical validation package.  Allowed strongest local status:  ```text definitions_and_harness_viable_only ```  Mode B MaoField empirical status:  ```text insuf ...
+
+[7] score=0.5960  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/debranded_residual_transport/README_FOR_PRO_FORMALV12_IMPLEMENTATION_AUDIT_20260627.md
+    sect: MaoField PRO Package -- Formal Residual Transport v1.2 Implementation Audit > Boundary
+    This package is Mode A formal mathematics material only.  It does not claim or authorize:  ```text full panel has run 16-cell full-panel aggregate exists MaoField residual field observed MaoField interaction field observ ...
+
+[8] score=0.5949  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/MD_CATALOG.md
+    sect: MaoField MD_CATALOG — 全 ~429 md 分层梳理 (navigate reference)
+    : Gate 1/2 可作 recovery audit 支撑, 但 external-model emergency lock 仍有效, 旧 v1.6 paper-draft prompt 已降级为 superseded-risk artifact; 当前下一轮 Pro 只能做 gate-only recovery/proof/bibliography audit, 不写 paper body。zip=`MaoField_PRO_Or ...

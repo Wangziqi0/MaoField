@@ -241,10 +241,14 @@ residual, interaction, transport, or holonomy field.
 
 The floating-point harness is deterministic regression support only; the mathematical claims are carried by the analytic proof and exact rational certificate, not by JSON floats.
 
-Use the v1.6 wording-lock and paper-drafting package as the next strict target.
-It should ask GPT-5.5 Pro to first verify that the v1.5 final-gate WARN is
-closed across README, placeholder, harness markdown, harness JSON, and harness
-script. Only if that gate passes should Pro draft a short note. Do not request
-more roadmap generation in that pass. Do not turn the v1.2/v1.3/v1.4/v1.5/v1.6
-notes, reports, prompts, packages, exact certificate, or synthetic harnesses
-into an empirical MaoField claim or a completed formal-system claim.
+Use the D630 recovery-repair taskbook and v2 prompt as the current strict
+target. The old v1.6 wording-lock / paper-drafting package is superseded-risk
+provenance only while the external-model emergency lock remains active.
+
+The next pass is recovery / proof / bibliography audit only. It may check Gate
+1, Gate 2, proof-risk labels, controlled-file scope, clean-snapshot evidence,
+and bibliography conservatism. It must not draft a short-note body unless the
+user explicitly lifts the emergency lock and node36 provides a clean committed
+snapshot. Do not turn the v1.2/v1.3/v1.4/v1.5/v1.6 notes, reports, prompts,
+packages, exact certificate, or synthetic harnesses into an empirical MaoField
+claim or a completed formal-system claim.

@@ -4,6 +4,41 @@ Generated: `2026-06-29 21:28:29 CST +0800`
 
 Scope: local repository facts from `/media/amd/raid1/canonical/projects/MaoField` only, plus bibliography metadata recorded separately. This is a rescue handoff, not a paper draft.
 
+## D630 Dual-Pro Repair Overlay
+
+Update: `2026-06-30 11:44 CST` on node36.
+
+After this recovery handoff was generated, node36 sealed the final3 package
+self-consistency correction at:
+
+```text
+a0adf14 docs(math): make recovery repair package self-consistent
+```
+
+Two later Pro reports were then archived:
+
+```text
+docs/infra/gpt_deep_research/deep_research_order_defect_recovery_repair_dual_pro_report6_20260630.md
+sha256=23a1d3996bff38a2360457e09990b4ac40eee3dd84afb8e022c48395adf07807
+
+docs/infra/gpt_deep_research/deep_research_order_defect_recovery_repair_dual_pro_report7_20260630.md
+sha256=8d39d7ab9bf64cbf7d871dde7e21842e0a2d7a80b6cbae6aaeadb54a7a26792b
+```
+
+Local adoption:
+
+```text
+docs/infra/gpt_deep_research/ORDER_DEFECT_RECOVERY_REPAIR_DUAL_PRO_AUDIT_ADOPTION_NOTE_20260630.md
+verdict=KEEP_LOCK_AND_FIX
+```
+
+The original frozen dirty state below remains a historical snapshot of the
+D629/D630 recovery package build.  It should not be read as the current
+tracked-file state after `a0adf14`; it remains useful because it explains why
+the Pro reports treated clean-seal evidence as a blocker.  Current status must
+be checked with `git status --short --branch` before any future drafting or
+handoff.
+
 ## Frozen Dirty State
 
 Raw status is saved at `docs/infra/recovery/raw/git_status_short_branch.txt`.

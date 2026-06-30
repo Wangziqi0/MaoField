@@ -1,0 +1,115 @@
+# Order-Defect Recovery Repair 审计报告
+
+## Current Verdict
+
+`KEEP_LOCK_AND_FIX`
+
+当前 bundle 足以支持一次**门控型恢复审计**，但**不足以授权现在开始论文正文起草**。原因有二，而且两者都是硬条件。第一，`STATE.md` 明确保留了 external-model emergency lock，并把当前外部模型输出降格为 `non_authoritative_scratch` / `gate_only_audit`，禁止将其作为 paper draft、proof authority、bibliography authority、posting authority 或 claim promotion 使用；D630 taskbook 与 D630 recovery adoption note 也重复了同样的权限边界。第二，bundle 仍然保存了一份明确的 dirty/untracked 仓库状态：`git status --short --branch` 记录了 `M STATE.md`、`?? AGENTS.md`、`?? docs/infra/recovery/`，而 bundle 内没有给出一个随后完成的 clean committed seal 来消除这个快照歧义。因此，本项目现在应继续停留在**recovery/audit mode**，而不是 paper drafting mode。〔证据：`from_repo/STATE.md:16-18,24-28`；`from_repo/docs/infra/recovery/ORDER_DEFECT_D630_TASKBOOK_NEXT_PRO_20260630.md:34-45,46-59,79-90`；`from_repo/docs/infra/recovery/RECOVERY_TIMELINE_SINCE_20260625.md:7-20`；`from_repo/docs/infra/gpt_deep_research/ORDER_DEFECT_RECOVERY_GATE_AUDIT_ADOPTION_NOTE_20260630.md:15-23,39-46,69-74`〕
+
+bundle 也**清楚地 supersede 了旧的 v1.6 paper-draft prompt**。`STATE.md` 已把 `GPT55_PRO_ORDER_DEFECT_PAPER_DRAFT_V16_PROMPT_20260629.md` 降级为 superseded-risk artifact；`MD_CATALOG.md` 说明 D630 recovery-repair v2 已取代 D629 v1.6 作为下一轮零上下文入口；v2 prompt 则更直接要求把 v1.6 prompt 当作“superseded-risk artifact, not as your active instruction”；adoption note 进一步要求下一轮 Pro 包“must supersede the old v1.6 paper-draft prompt”。因此，旧 v1.6 prompt 可以作为历史风险工件保存，但不应再作为活跃指令流使用。〔证据：`from_repo/STATE.md:24-28`；`from_repo/MD_CATALOG.md:7-9`；`from_repo/docs/infra/gpt_deep_research/GPT55_PRO_ORDER_DEFECT_RECOVERY_REPAIR_V2_PROMPT_20260630.md:21-45`；`from_repo/docs/infra/gpt_deep_research/ORDER_DEFECT_RECOVERY_GATE_AUDIT_ADOPTION_NOTE_20260630.md:69-74`〕
+
+**Gate Results**
+
+| Gate | 结果 | 审计结论 |
+|---|---|---|
+| Gate 1 | **PASS** | v1.6 canonical harness sentence 已在五个指定目标工件中逐字出现；`GATE_RESCUE_AUDIT_20260629.md` 给出逐文件命中位点，而实际 bundle 文件也能复核到相同句子。〔证据：`from_repo/docs/infra/recovery/GATE_RESCUE_AUDIT_20260629.md:7-17`；`from_repo/docs/infra/debranded_residual_transport/README.md:228-244`；`from_repo/docs/infra/debranded_residual_transport/PREPRINT_PLACEHOLDER_ORDER_DEFECT_20260629.md:73-78`；`from_repo/docs/infra/debranded_residual_transport/SYNTHETIC_HARNESS_V1_3_20260628.md:7-18`；`from_repo/docs/infra/debranded_residual_transport/synthetic_harness_v1_3_20260628.json:9-14,209-211`；`from_repo/scripts/debranded_residual_transport_harness_v1_3.py:2-7,24-25`；`from_repo/docs/infra/debranded_residual_transport/WORDING_LOCK_V1_6_20260629.md:7-25`〕 |
+| Gate 2 | **PASS** | bundle 仍把对象严格锁定在 finite positive weighted two-way table；仍把安全上限锁在 `definitions_and_harness_viable_only`，把 Mode B 锁在 `insufficient_artifact`；并保留“product-weight iff orthogonality / order-independence iff product weights / existential witness only / wrong-order output is artifact, not true interaction residual / exact 2×2 certificate”这一整套边界。〔证据：`from_repo/docs/infra/recovery/GATE_RESCUE_AUDIT_20260629.md:19-43`；`from_repo/docs/infra/debranded_residual_transport/FORMAL_NOTE_V1_3_ORDER_DEFECT_20260628.md:16-39,43-100,106-148,177-227,229-255,285-321,360-369`；`from_repo/docs/infra/debranded_residual_transport/EXACT_WITNESS_V1_4_20260629.md:16-28,30-66`；`from_repo/STATE.md:16-18,24-28`〕 |
+
+## Hard Blockers
+
+唯一阻断**现在**起草短札正文的，不是 Gate 1 或 Gate 2，而是两个更高优先级的阻断条件。其一是**external-model emergency lock 仍在生效**；其二是**bundle 没有展示一个 clean, committed, canonical recovery snapshot**。前者直接禁止把本轮 Pro/外部模型输出提升为 draft authority；后者意味着即便局部门已经通过，当前抓包依旧不能被当作“无争议定稿快照”。这两个条件有任一未解，都不应进入 paper drafting。〔证据：`from_repo/STATE.md:16-18,24-28`；`from_repo/docs/infra/recovery/HANDOFF_TO_GPT55PRO_20260629.md:15-18,70-72`；`from_repo/docs/infra/recovery/ORDER_DEFECT_D630_TASKBOOK_NEXT_PRO_20260630.md:34-45,46-59`；`from_repo/docs/infra/recovery/RECOVERY_TIMELINE_SINCE_20260625.md:7-20`〕
+
+更具体地说，Q1 的答案是：**bundle 没有显示 clean committed canonical recovery snapshot，dirty/untracked state 仍是 blocker**。恢复时间线把抓包时的原始 git 状态写得很清楚，而 `STATE.md` 还保留了“source HEAD before update … after commit use `git log -1 --oneline`”这样的未封存表述；这说明 bundle 并未向审计者展示一个后续已完成提交、并已更新 HEAD 的最终封口状态。〔证据：`from_repo/docs/infra/recovery/RECOVERY_TIMELINE_SINCE_20260625.md:7-20`；`from_repo/STATE.md:16-18`〕
+
+因此，Q10 的答案也是明确的：**下一轮 Pro 如果继续介入，也只应继续留在 recovery/audit mode，不应进入 paper drafting mode**；taskbook 已把“下一轮 Pro 该做什么”限定为 clean snapshot / supersession / Gate 1 / Gate 2 / proof risk / bibliography conservatism / controlled file set / blockers / guarded outline，而不是写 paper body。〔证据：`from_repo/docs/infra/recovery/ORDER_DEFECT_D630_TASKBOOK_NEXT_PRO_20260630.md:46-59,92-108`；`from_repo/docs/infra/gpt_deep_research/GPT55_PRO_ORDER_DEFECT_RECOVERY_REPAIR_V2_PROMPT_20260630.md:99-159`〕
+
+## Soft Risks
+
+主要软风险不在“数学对象消失”这一层，而在**表述升级过快**这一层。第一，bundle 自己已经把 Proposition 1 与 Proposition 2、3 区分了等级：前者更接近完成的本地证明稿，后两者仍是 local draft，而不是 completed formal system；因此未来短札必须坚持“局部证明稿 + exact certificate + regression harness”这三层分工，不能把后两者自动升格为形式系统完成。〔证据：`from_repo/docs/infra/recovery/MATH_PROOF_RESCUE_AUDIT_20260629.md:19-35`；`from_repo/docs/infra/debranded_residual_transport/FORMAL_NOTE_V1_3_ORDER_DEFECT_20260628.md:360-369`〕
+
+第二，**Lamboni 2026 仍然需要保守处理**。bibliography rescue audit 明确要求把它视为 DOI / online-or-publisher-record status only，不要在未来草稿中夸张为超出救援审计保守边界的最终 print authority；而 v1.5 bibliography/positioning 文件当前确实写入了更完整的卷期页信息，所以后续草稿最好跟随更严格的 rescue 规则，而不是跟随更“饱满”的本地条目写法。〔证据：`from_repo/docs/infra/recovery/BIBLIOGRAPHY_RESCUE_AUDIT_20260629.md:15-23,24-32`；`from_repo/docs/infra/debranded_residual_transport/BIBLIOGRAPHY_AND_POSITIONING_V1_5_20260629.md:33-49`；`from_repo/docs/infra/recovery/raw/crossref_10_1137_24m1712680.json:1`〕
+
+第三，**历史语汇污染非常重**。forbidden-claim scan 不是在说核心文件当前有 blocker，而是在说整个仓库层面 WARNING 非常多：`247112` 条 WARNING，且旧的 residual / transport / holonomy / gluing / curvature 等词散落在大量包记录、RAG 刷新、旧审计和历史文件中。换言之，Q8 的答案是**是的：必须 controlled-file drafting，不能 whole-repository absorption**。〔证据：`from_repo/docs/infra/recovery/FORBIDDEN_CLAIMS_SCAN_20260629.md:5-15,17-34,47-55`；`from_repo/docs/infra/gpt_deep_research/ORDER_DEFECT_RECOVERY_GATE_AUDIT_ADOPTION_NOTE_20260630.md:37-46`；`from_repo/docs/infra/gpt_deep_research/GPT55_PRO_ORDER_DEFECT_RECOVERY_REPAIR_V2_PROMPT_20260630.md:113-119,149-159`〕
+
+第四，旧 v1.6 draft 入口虽然已被 supersede，但它仍然被保留在 bundle 中；这在档案学上是合理的，在起草流程上却是风险源。未来如果有人整包吸收，很容易把 superseded-risk artifact 误当成 active instruction。〔证据：`from_repo/STATE.md:24-28`；`from_repo/MD_CATALOG.md:7-9`；`from_repo/docs/infra/gpt_deep_research/GPT55_PRO_ORDER_DEFECT_RECOVERY_REPAIR_V2_PROMPT_20260630.md:41-45`〕
+
+## Mathematical Proof Audit
+
+| 对象 | 状态 | 审计意见 |
+|---|---|---|
+| 有限正权二向表设置、`C/A/B0/N_add` 定义、加权投影公式 | **COMPLETE** | 这些内容属于定义层，formal note 已给出完整有限和设置、边缘权、子空间与投影表达式，没有与 bundle 其余部分冲突之处。〔证据：`from_repo/docs/infra/debranded_residual_transport/FORMAL_NOTE_V1_3_ORDER_DEFECT_20260628.md:41-100`；`from_repo/docs/infra/recovery/MATH_PROOF_RESCUE_AUDIT_20260629.md:7-18`〕 |
+| Proposition 1：product weights 当且仅当 `A ⟂ B0` | **COMPLETE** | formal note 给出了双向证明：正向用乘积权分离有限和，反向用 centered indicators 直接抽出 `w(q0,b0)-w_Q(q0)w_B(b0)`；math rescue audit 也把这一项标为 `COMPLETE_LOCAL_DRAFT`。就本 bundle 而言，这一命题可以视为当前最扎实的证明块。〔证据：`from_repo/docs/infra/debranded_residual_transport/FORMAL_NOTE_V1_3_ORDER_DEFECT_20260628.md:106-152`；`from_repo/docs/infra/recovery/MATH_PROOF_RESCUE_AUDIT_20260629.md:21-27`〕 |
+| Proposition 2：`D_w = 0` 与顺序无关，当且仅当 weights 为 product form | **PLAUSIBLE_LOCAL_DRAFT** | formal note 给出了完整本地推导：先把 `D_w` 写成交换子，再从 `D_w b=0` 推导 `P_A b ∈ A∩B0={0}`，进而回到 Proposition 1；但 math rescue audit 有意没有把它升为 completed proof，而是标成 `PLAUSIBLE_LOCAL_DRAFT`。我没有看到反例或内部矛盾，但也不认为 bundle 已授权把它升级为“形式系统完成”。〔证据：`from_repo/docs/infra/debranded_residual_transport/FORMAL_NOTE_V1_3_ORDER_DEFECT_20260628.md:154-227`；`from_repo/docs/infra/recovery/MATH_PROOF_RESCUE_AUDIT_20260629.md:21-27,28-35`〕 |
+| Quantifier guard：非 product 情况下只能说“存在见证”，不能说“每个输入都顺序相关” | **COMPLETE** | 这不是额外的深定理，而是一个被明确写出的量词边界；formal note 明文否认 universal claim，并指出常数与真 `N_add^\perp` 残差都落在两种顺序映射的共同核或不变部分。这个边界文字非常关键，而且 bundle 内部一致。〔证据：`from_repo/docs/infra/debranded_residual_transport/FORMAL_NOTE_V1_3_ORDER_DEFECT_20260628.md:229-239`；`from_repo/docs/infra/recovery/GATE_RESCUE_AUDIT_20260629.md:27-30`〕 |
+| Proposition 3：非 product 权下存在 pure-main-effect witness，使 `(I-P_N)K=0` 但一侧 wrong-order residual 非零 | **PLAUSIBLE_LOCAL_DRAFT** | general existence 证明依赖“非正交性给出 `P_A b ≠ 0`”与“若 wrong-order 为零则逼出 `A∩B0={0}` 冲突”的论证结构；math rescue audit 也把它仅标为 `PLAUSIBLE_LOCAL_DRAFT`。因此，这一命题在本 bundle 中是可信的本地稿，但还不是外部 proof authority。〔证据：`from_repo/docs/infra/debranded_residual_transport/FORMAL_NOTE_V1_3_ORDER_DEFECT_20260628.md:241-283`；`from_repo/docs/infra/recovery/MATH_PROOF_RESCUE_AUDIT_20260629.md:21-27,30-35`〕 |
+| “wrong-order 非零输出是 sequential stripping artifact，不是真 interaction residual”这一解释性结论 | **COMPLETE** | 在 witness 层面，这一点是闭合的：formal note 把 `K` 选在 `N_add` 中，所以 `(I-P_N)K=0`；exact witness 又把这个事实连同非零 wrong-order 输出一起做成 exact certificate。因此，就当前狭义对象而言，“这个非零量是 artifact 而非真 additive residual”是被 bundle 明确支撑的。〔证据：`from_repo/docs/infra/debranded_residual_transport/FORMAL_NOTE_V1_3_ORDER_DEFECT_20260628.md:245-255,263-283,315-321`；`from_repo/docs/infra/debranded_residual_transport/EXACT_WITNESS_V1_4_20260629.md:30-66`〕 |
+| Exact `2×2` rational witness，包括 `||R_Q_then_B K||_w^2 = 61/177408` | **COMPLETE** | 这部分是 bundle 中最强的“证书级”对象。`EXACT_WITNESS_V1_4_20260629.md`、对应 JSON 以及 shipped exact script 一致给出 `K`、`R_Q_then_B K`、零真残差、零正确顺序残差，以及 exact norm `61/177408`；script 还用 `fractions.Fraction` 把该 norm 的精确等式编码成检查条件。Q6 的答案因此是**是的，当前 exact rational witness 复现了所述事实**。〔证据：`from_repo/docs/infra/debranded_residual_transport/EXACT_WITNESS_V1_4_20260629.md:30-66`；`from_repo/docs/infra/debranded_residual_transport/exact_witness_v1_4_20260629.json:24-76`；`from_repo/scripts/debranded_residual_transport_exact_witness_v1_4.py:126-165`〕 |
+| “JSON 浮点或 deterministic harness 本身证明了定理” | **CONTRADICTED** | bundle 反复否认这一点。canonical harness sentence、v1.6 wording lock、taskbook、placeholder 与 harness 文件都明确规定：harness 只是 deterministic regression support，数学责任由 analytic proof 与 exact rational certificate 承担。因此，如果未来草稿把 harness 写成 theorem proof，那将不是“略有夸张”，而是与 bundle 当前规范直接相冲突。〔证据：`from_repo/docs/infra/debranded_residual_transport/WORDING_LOCK_V1_6_20260629.md:7-25`；`from_repo/docs/infra/debranded_residual_transport/SYNTHETIC_HARNESS_V1_3_20260628.md:7-18`；`from_repo/scripts/debranded_residual_transport_harness_v1_3.py:2-7,24-25`；`from_repo/docs/infra/recovery/ORDER_DEFECT_D630_TASKBOOK_NEXT_PRO_20260630.md:88-90`；`from_repo/docs/infra/gpt_deep_research/GPT55_PRO_ORDER_DEFECT_RECOVERY_REPAIR_V2_PROMPT_20260630.md:72-76`〕 |
+
+## Bibliography Audit
+
+bibliography floor 本身是**够用且保守的**。`BIBLIOGRAPHY_RESCUE_AUDIT_20260629.md` 与 `BIBLIOGRAPHY_AND_POSITIONING_V1_5_20260629.md` 一致列出了十个安全近邻：Hooker 2007；Chastaing–Gamboa–Prieur 2012；Chastaing–Gamboa–Prieur 2014/2015；Owen–Prieur 2017；Iooss–Prieur 2019；Il Idrissi et al. 2025；Lamboni 2026；Böttcher–Spitkovsky 2010；Corach–Maestripieri 2010；Halmos 1969。bundle 对它们的统一定位也很明确：这些文献的功能是**限制 broad novelty**，而不是为本 note 提供“无人做过”的兜底背书。〔证据：`from_repo/docs/infra/recovery/BIBLIOGRAPHY_RESCUE_AUDIT_20260629.md:5-18,24-32`；`from_repo/docs/infra/debranded_residual_transport/BIBLIOGRAPHY_AND_POSITIONING_V1_5_20260629.md:17-31,33-49,51-80`；`from_repo/docs/infra/debranded_residual_transport/PREPRINT_PLACEHOLDER_ORDER_DEFECT_20260629.md:79-125`〕
+
+Q7 中最关键的 Lamboni 2026，结论是：**可引，但写法必须继续保守**。bundle 内 raw Crossref 事实上已经包含 DOI、online date、volume、issue、page 与 `published-print` 字段；但 rescue audit 明确要求未来草稿按“DOI / online-or-publisher-record status only”处理，不要把这条元数据写成超出本地保守规则的最终 authority。因此，最安全的做法不是争论“这些字段是否存在”，而是遵守 bundle 内更严格的 drafting discipline：引用 DOI 与题名即可，必要时写 online/publisher record，不把它升级成广义优先权或 broad-theory 论断的支柱。〔证据：`from_repo/docs/infra/recovery/raw/crossref_10_1137_24m1712680.json:1`；`from_repo/docs/infra/recovery/BIBLIOGRAPHY_RESCUE_AUDIT_20260629.md:20-23`；`from_repo/docs/infra/debranded_residual_transport/BIBLIOGRAPHY_AND_POSITIONING_V1_5_20260629.md:45-49`〕
+
+安全的 related-work 说法也已经钉住：这不是新 ANOVA 理论，不是新 dependent-input Hoeffding/Sobol/Shapley 分解理论，也不是新 noncommuting projection theory；它只是一个**finite weighted projection-order artifact note with an exact 2×2 witness**。Q7 中“what not to claim”的答案，因此应当严格跟随 v1.5 positioning 文件与 placeholder，而不是沿历史广义 transport/holonomy 语汇外推。〔证据：`from_repo/docs/infra/debranded_residual_transport/BIBLIOGRAPHY_AND_POSITIONING_V1_5_20260629.md:17-31,51-80`；`from_repo/docs/infra/debranded_residual_transport/PREPRINT_PLACEHOLDER_ORDER_DEFECT_20260629.md:40-47,81-125`〕
+
+## Controlled Drafting File Set
+
+Q8 的直接答案是：**是的，必须 controlled-file drafting，不能整个仓库自由吸收**。forbidden-claim scan 只有 `0` 个 `BLOCKER`，但却有 `247112` 个 `WARNING`；而 D630 adoption note 与 v2 prompt 都已经把“历史 WARNING 语汇很多，所以未来 drafting 必须走 controlled file set”写成了操作要求。〔证据：`from_repo/docs/infra/recovery/FORBIDDEN_CLAIMS_SCAN_20260629.md:7-15`；`from_repo/docs/infra/gpt_deep_research/ORDER_DEFECT_RECOVERY_GATE_AUDIT_ADOPTION_NOTE_20260630.md:37-46`；`from_repo/docs/infra/gpt_deep_research/GPT55_PRO_ORDER_DEFECT_RECOVERY_REPAIR_V2_PROMPT_20260630.md:113-119,149-159`〕
+
+**最大安全 drafting core** 应当严格限制在以下文件，并区分其用途：
+
+- **权限与门控源**：`from_repo/STATE.md`；`from_repo/docs/infra/recovery/ORDER_DEFECT_D630_TASKBOOK_NEXT_PRO_20260630.md`；`from_repo/docs/infra/recovery/GATE_RESCUE_AUDIT_20260629.md`；`from_repo/docs/infra/recovery/MATH_PROOF_RESCUE_AUDIT_20260629.md`；`from_repo/docs/infra/recovery/BIBLIOGRAPHY_RESCUE_AUDIT_20260629.md`。这些文件决定“能不能写”“能写到哪一层”，不负责替代正文数学。〔证据：`from_repo/STATE.md:16-18,24-28`；`from_repo/docs/infra/recovery/ORDER_DEFECT_D630_TASKBOOK_NEXT_PRO_20260630.md:46-59,79-108`；`from_repo/docs/infra/recovery/GATE_RESCUE_AUDIT_20260629.md:7-43`；`from_repo/docs/infra/recovery/MATH_PROOF_RESCUE_AUDIT_20260629.md:19-35`；`from_repo/docs/infra/recovery/BIBLIOGRAPHY_RESCUE_AUDIT_20260629.md:20-32`〕
+- **数学正文源**：`from_repo/docs/infra/debranded_residual_transport/FORMAL_NOTE_V1_3_ORDER_DEFECT_20260628.md`；`from_repo/docs/infra/debranded_residual_transport/EXACT_WITNESS_V1_4_20260629.md`；`from_repo/docs/infra/debranded_residual_transport/exact_witness_v1_4_20260629.json`。未来短札的数学部分最多只能从这里抽取定义、命题、见证与 exact certificate。〔证据：`from_repo/docs/infra/debranded_residual_transport/FORMAL_NOTE_V1_3_ORDER_DEFECT_20260628.md:41-100,106-152,154-227,241-321`；`from_repo/docs/infra/debranded_residual_transport/EXACT_WITNESS_V1_4_20260629.md:30-66`；`from_repo/docs/infra/debranded_residual_transport/exact_witness_v1_4_20260629.json:24-76`〕
+- **措辞与相关工作边界源**：`from_repo/docs/infra/debranded_residual_transport/BIBLIOGRAPHY_AND_POSITIONING_V1_5_20260629.md`；`from_repo/docs/infra/debranded_residual_transport/WORDING_LOCK_V1_6_20260629.md`；`from_repo/docs/infra/debranded_residual_transport/PREPRINT_PLACEHOLDER_ORDER_DEFECT_20260629.md`；`from_repo/docs/infra/debranded_residual_transport/SYNTHETIC_HARNESS_V1_3_20260628.md`；`from_repo/docs/infra/debranded_residual_transport/synthetic_harness_v1_3_20260628.json`；`from_repo/scripts/debranded_residual_transport_harness_v1_3.py`；`from_repo/scripts/debranded_residual_transport_exact_witness_v1_4.py`。这些文件的职责是把 bibliography floor、canonical harness sentence、exact witness 与 regression-only boundary 锁死。〔证据：`from_repo/docs/infra/debranded_residual_transport/BIBLIOGRAPHY_AND_POSITIONING_V1_5_20260629.md:17-31,33-80`；`from_repo/docs/infra/debranded_residual_transport/WORDING_LOCK_V1_6_20260629.md:7-25,27-52`；`from_repo/docs/infra/debranded_residual_transport/PREPRINT_PLACEHOLDER_ORDER_DEFECT_20260629.md:49-78,79-167`；`from_repo/docs/infra/debranded_residual_transport/SYNTHETIC_HARNESS_V1_3_20260628.md:7-39`；`from_repo/docs/infra/debranded_residual_transport/synthetic_harness_v1_3_20260628.json:9-30,209-212`；`from_repo/scripts/debranded_residual_transport_harness_v1_3.py:2-7,24-40`；`from_repo/scripts/debranded_residual_transport_exact_witness_v1_4.py:126-165`〕
+
+**node36 在任何未来 draft 之前应 patch 的文件**，我建议非常精确，只修权限与元数据，不动数学主干：
+- `from_repo/STATE.md`：在真正完成 clean commit 之后，写入新的已提交 HEAD，并明确 lock 是否已由用户解除；否则它仍会是起草阻断源。〔证据：`from_repo/STATE.md:16-18,24-28`〕
+- `from_repo/docs/infra/recovery/RECOVERY_TIMELINE_SINCE_20260625.md`：用一个新的 clean seal 覆盖当前“Frozen Dirty State”作为最新快照证据。〔证据：`from_repo/docs/infra/recovery/RECOVERY_TIMELINE_SINCE_20260625.md:7-20`〕
+- `from_repo/docs/infra/recovery/EVIDENCE_INDEX_SINCE_20260625.md`：在 clean seal 完成后刷新可靠性与 `Pro rely?` 标识，使 controlled drafting set 有一个同步后的索引。〔证据：`from_repo/docs/infra/recovery/EVIDENCE_INDEX_SINCE_20260625.md:19-22,29-33,51-52,107-113`〕
+- `from_repo/docs/infra/debranded_residual_transport/BIBLIOGRAPHY_AND_POSITIONING_V1_5_20260629.md`：把 Lamboni 2026 的表述降格成更保守的 DOI/online-or-publisher-record 写法，以服从 rescue audit 的 stricter rule。〔证据：`from_repo/docs/infra/recovery/BIBLIOGRAPHY_RESCUE_AUDIT_20260629.md:20-23`；`from_repo/docs/infra/debranded_residual_transport/BIBLIOGRAPHY_AND_POSITIONING_V1_5_20260629.md:45-49`〕
+
+**应 ignore 的文件或文件类**，因为它们是 locator / packaging / manifest，不是论文证据源：
+- `from_repo/docs/infra/rag_rebuild_20260622/*`；这些文件在 `MD_CATALOG.md` 中也被定义为 RAG locator，而非 evidence。〔证据：`from_repo/MD_CATALOG.md:7-9`；`from_repo/docs/infra/recovery/FORBIDDEN_CLAIMS_SCAN_20260629.md:17-34`〕
+- `PACKAGE_FILELIST.txt`、`PACKAGE_MANIFEST.sha256`、`from_repo/docs/infra/recovery/PACKAGE_MANIFEST_20260629.sha256`、`from_repo/docs/infra/recovery/RECOVERY_BUILD_SUMMARY_20260629.json`；这些能证明打包结构或自动门审摘要，但不能提升数学结论。〔证据：`from_repo/docs/infra/recovery/ORDER_DEFECT_D630_TASKBOOK_NEXT_PRO_20260630.md:88-90`；`from_repo/docs/infra/recovery/RECOVERY_BUILD_SUMMARY_20260629.json:1-10`〕
+- `from_repo/MD_CATALOG.md` 本身应视为导航定位器，而不是正文 claim source。〔证据：`from_repo/AGENTS.md:22-23`；`from_repo/MD_CATALOG.md:3-4`〕
+
+**应 quarantine 的 superseded-risk 文件**，至少包括以下三项：
+- `from_repo/docs/infra/gpt_deep_research/GPT55_PRO_ORDER_DEFECT_PAPER_DRAFT_V16_PROMPT_20260629.md`
+- `from_repo/docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_19_PACKAGE_ORDER_DEFECT_PAPERDRAFT_V16_20260629.md`
+- `from_repo/docs/infra/debranded_residual_transport/README_FOR_PRO_ORDER_DEFECT_PAPER_DRAFT_V16_20260629.md`
+
+它们不是“错误文件”，但它们已经不再是 active drafting authority。若未来仍需保存，应只作历史归档，不应进入任何自动 drafting context。〔证据：`from_repo/STATE.md:24-28`；`from_repo/MD_CATALOG.md:7-9`；`from_repo/docs/infra/gpt_deep_research/GPT55_PRO_ORDER_DEFECT_RECOVERY_REPAIR_V2_PROMPT_20260630.md:41-45`〕
+
+## Forbidden Claims
+
+未来任何短札都不应出现下列说法，且这些禁令在 bundle 中是一致的，而不是某一文件的孤立意见：
+
+- 已跑 full panel，或已有 16-cell aggregate。〔证据：`from_repo/STATE.md:16,24-28`；`from_repo/docs/infra/recovery/ORDER_DEFECT_D630_TASKBOOK_NEXT_PRO_20260630.md:27-30,81-90`〕
+- 这一线已经做过 checkpoint loading、model inference、training，或获得 new loss 授权。〔证据：`from_repo/STATE.md:16,24-28`；`from_repo/docs/infra/debranded_residual_transport/FORMAL_NOTE_V1_3_ORDER_DEFECT_20260628.md:21-27,366-369`〕
+- MaoField residual / interaction / quotient-residual / transport / holonomy field 已被观测到。〔证据：`from_repo/STATE.md:16,24-28`；`from_repo/docs/infra/debranded_residual_transport/WORDING_LOCK_V1_6_20260629.md:35-52`〕
+- glass box broken、F3 positive、LOSO passed。〔证据：`from_repo/STATE.md:16,24-28`；`from_repo/docs/infra/recovery/HANDOFF_TO_GPT55PRO_20260629.md:59-68`〕
+- completed formal system、posted preprint、paper-ready preprint。〔证据：`from_repo/STATE.md:16,24-28`；`from_repo/docs/infra/gpt_deep_research/GPT55_PRO_ORDER_DEFECT_RECOVERY_REPAIR_V2_PROMPT_20260630.md:56-72`〕
+- broad new ANOVA theory、broad new dependent-input decomposition theory、broad new noncommuting projection theory。〔证据：`from_repo/docs/infra/debranded_residual_transport/BIBLIOGRAPHY_AND_POSITIONING_V1_5_20260629.md:23-31,51-80`；`from_repo/docs/infra/recovery/ORDER_DEFECT_D630_TASKBOOK_NEXT_PRO_20260630.md:81-90`〕
+- JSON floats 或 deterministic harness 自身证明了定理。〔证据：`from_repo/docs/infra/debranded_residual_transport/WORDING_LOCK_V1_6_20260629.md:7-25`；`from_repo/docs/infra/debranded_residual_transport/SYNTHETIC_HARNESS_V1_3_20260628.md:7-18`；`from_repo/docs/infra/gpt_deep_research/GPT55_PRO_ORDER_DEFECT_RECOVERY_REPAIR_V2_PROMPT_20260630.md:72-76`〕
+
+## Guarded Future Outline
+
+**以下仅为 non-authoritative planning text，不是 draft，不在任何意义上解除当前 emergency lock。** 当前 lock 未解除，且 snapshot 未 clean-seal，因此这里只能给出一个受控、未来可能使用的短札骨架。〔证据：`from_repo/STATE.md:16-18,24-28`；`from_repo/docs/infra/recovery/ORDER_DEFECT_D630_TASKBOOK_NEXT_PRO_20260630.md:34-45,81-90,104-108`〕
+
+一个未来**可能**的短札轮廓，可以压缩为六段：
+
+1. **标题与摘要**：标题应尽量保持狭义，例如 “A Finite Weighted Two-Way Projection-Order Artifact with an Exact 2×2 Witness”。摘要只说 finite weighted two-way table、product-weight iff orthogonality、order-independence iff product weights、existential pure-main-effect witness、exact `2×2` rational certificate；不写任何 MaoField empirical upgrade。〔证据：`from_repo/docs/infra/debranded_residual_transport/PREPRINT_PLACEHOLDER_ORDER_DEFECT_20260629.md:7-17,49-78,120-148`〕
+
+2. **有限设置与记号**：给出 `X=Q×B`、正权 `w(q,b)`、加权内积、`C/A/B0/N_add`、`P_C/P_A/P_B0/P_N`，并明确 `N_add` 只是代数直和，不预设正交。〔证据：`from_repo/docs/infra/debranded_residual_transport/FORMAL_NOTE_V1_3_ORDER_DEFECT_20260628.md:41-100`〕
+
+3. **主命题一与二**：先给 Proposition 1，再给 Proposition 2；文字必须保留“iff product weights”的精确范围，不要把本地证明稿包装成 broad projection theory。〔证据：`from_repo/docs/infra/debranded_residual_transport/FORMAL_NOTE_V1_3_ORDER_DEFECT_20260628.md:106-227`；`from_repo/docs/infra/recovery/MATH_PROOF_RESCUE_AUDIT_20260629.md:21-27`〕
+
+4. **non-product 见证与量词护栏**：紧跟 Proposition 3，并显式加入 quantifier guard：只说“there exists a witness”，不说“every input”。同时把“wrong-order nonzero output 是 sequential stripping artifact，不是真 interaction residual”作为解释语句放在此处。〔证据：`from_repo/docs/infra/debranded_residual_transport/FORMAL_NOTE_V1_3_ORDER_DEFECT_20260628.md:229-283`〕
+
+5. **exact `2×2` 证书节**：给出 `w`、`K`、`(I-P_N)K=0`、`R_B_then_Q K=0`、`R_Q_then_B K`、`||R_Q_then_B K||_w^2 = 61/177408`，并把 JSON/script 作为 exact certificate appendix，而不是 theorem proof substitute。〔证据：`from_repo/docs/infra/debranded_residual_transport/FORMAL_NOTE_V1_3_ORDER_DEFECT_20260628.md:285-335`；`from_repo/docs/infra/debranded_residual_transport/EXACT_WITNESS_V1_4_20260629.md:30-66`；`from_repo/scripts/debranded_residual_transport_exact_witness_v1_4.py:143-165`〕
+
+6. **harness 边界、related work、limitations**：只出现一次 canonical harness sentence；related work 只做 narrow positioning，强调“不是新 ANOVA / dependent-input decomposition / projection theory”；limitations 明写 `definitions_and_harness_viable_only` 与 `insufficient_artifact`，并写明本 note 不是 MaoField empirical evidence。〔证据：`from_repo/docs/infra/debranded_residual_transport/WORDING_LOCK_V1_6_20260629.md:7-25`；`from_repo/docs/infra/debranded_residual_transport/BIBLIOGRAPHY_AND_POSITIONING_V1_5_20260629.md:17-31,51-80`；`from_repo/docs/infra/debranded_residual_transport/PREPRINT_PLACEHOLDER_ORDER_DEFECT_20260629.md:79-167`〕
+
+在这些条件都满足之前，尤其是在**用户未显式解除 lock**、**node36 未提供 clean committed snapshot**之前，我不建议任何下一轮 Pro 进入 paper drafting；它仍只适合做另一轮受控的 recovery / proof / bibliography audit。〔证据：`from_repo/docs/infra/recovery/HANDOFF_TO_GPT55PRO_20260629.md:70-72`；`from_repo/docs/infra/recovery/ORDER_DEFECT_D630_TASKBOOK_NEXT_PRO_20260630.md:46-59,92-108`；`from_repo/docs/infra/gpt_deep_research/ORDER_DEFECT_RECOVERY_GATE_AUDIT_ADOPTION_NOTE_20260630.md:69-74`〕

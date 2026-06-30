@@ -156,6 +156,73 @@ RAG remains a locator only.  These hits do not prove mathematical claims or
 empirical MaoField claims; primary files, exact certificates, scripts, JSON,
 logs, and verdicts remain the evidence sources.
 
+## Dual-Pro Adoption Refresh
+
+After receiving two independent Pro recovery-repair reports, node36 archived
+the reports, patched the README supersession drift, downgraded Lamboni 2026
+metadata wording, updated `STATE.md` / `MD_CATALOG.md` / recovery overlays, and
+rebuilt the default RAG index.
+
+This refresh intentionally used the final3 canonical scope as the base and
+added the four new dual-Pro adoption files, instead of using the project-only
+`rag_scan_maofield.py` active scope.  The project scan reports 375 active
+MaoField markdown files, while the default runtime RAG scope is the broader
+canonical scope used by final3 plus the four new D630 files.
+
+Dual-Pro files added to scope:
+
+```text
+docs/infra/gpt_deep_research/deep_research_order_defect_recovery_repair_dual_pro_report6_20260630.md
+docs/infra/gpt_deep_research/deep_research_order_defect_recovery_repair_dual_pro_report7_20260630.md
+docs/infra/gpt_deep_research/ORDER_DEFECT_RECOVERY_REPAIR_DUAL_PRO_AUDIT_ADOPTION_NOTE_20260630.md
+docs/infra/recovery/ORDER_DEFECT_D630_DUAL_PRO_REPAIR_TASKBOOK_20260630.md
+```
+
+Dual-Pro authoritative promoted index:
+
+```text
+scanned MaoField files: 8123
+project-only active markdown files: 375
+default canonical scope files: 480
+chunks: 10856
+kb.faiss sha256=faa520c338b6eabdc2de9037f6eff60ce7463d196788a43c406e3644f065f70f
+kb_meta.jsonl sha256=4b6151cddb0eaaba89fe717055b2813fb3cb210756e499e444045af0e58f5670
+canonical scope sha256=dcd6ff54fe0f02b86a3382de833ee39627b47c32b31f519604a8f0a7f7178985
+embedding rate=95.668 text/s
+```
+
+Dual-Pro logs:
+
+```text
+docs/infra/rag_rebuild_20260622/canonical_scope_active_20260630_1150_dualpro.txt
+docs/infra/rag_rebuild_20260622/candidate_hashes_20260630_1150_dualpro.txt
+docs/infra/rag_rebuild_20260622/promoted_hashes_20260630_1150_dualpro.txt
+docs/infra/rag_rebuild_20260622/node22_stop_20260630_1150_dualpro.txt
+docs/infra/rag_rebuild_20260622/node22_status_after_stop_20260630_1150_dualpro.txt
+docs/infra/rag_rebuild_20260622/rag_smoke_dualpro_reports_20260630_1150.txt
+docs/infra/rag_rebuild_20260622/rag_smoke_dualpro_readme_supersession_20260630_1150.txt
+docs/infra/rag_rebuild_20260622/rag_smoke_dualpro_lamboni_20260630_1150.txt
+docs/infra/rag_rebuild_20260622/rag_smoke_dualpro_lock_modeb_20260630_1150.txt
+```
+
+Dual-Pro node22 worker status:
+
+```text
+not running port=18080
+GPU use after second stop check: 0%
+```
+
+Dual-Pro smoke checks confirm the index can locate:
+
+- dual-Pro report6/report7 and adoption overlays;
+- README v1.6 paper-draft supersession;
+- Lamboni 2026 DOI / publisher-online-record-only handling;
+- external-model emergency lock and Mode B `insufficient_artifact` boundary.
+
+RAG remains a locator only. These hits do not prove mathematical claims or
+empirical MaoField claims; primary files, exact certificates, scripts, JSON,
+logs, and verdicts remain the evidence sources.
+
 ## Final3 Rerun For Package Self-Consistency
 
 After independent audit found that the `1043final2` zip contained a pre-hash
