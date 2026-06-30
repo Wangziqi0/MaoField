@@ -16,6 +16,14 @@ It is intentionally separated from the MaoField empirical line:
 
 ## Current Entry Points
 
+- `../recovery/ORDER_DEFECT_D630_TASKBOOK_NEXT_PRO_20260630.md` — current
+  recovery-repair taskbook.  This supersedes the old v1.6 paper-draft prompt
+  while the external-model emergency lock is active.
+- `../gpt_deep_research/GPT55_PRO_ORDER_DEFECT_RECOVERY_REPAIR_V2_PROMPT_20260630.md` —
+  current zero-context GPT-5.5 Pro prompt.  It asks for gate-only recovery /
+  proof / bibliography audit, not a paper body.
+- `../DEBRANDED_RESIDUAL_TRANSPORT_19_PACKAGE_ORDER_DEFECT_RECOVERY_REPAIR_V2_20260630.md` —
+  node19 desktop package record for the 252K v2 recovery-repair zip.
 - `FORMAL_NOTE_V0_20260625.md` — first finite-dimensional definition note.
 - `SYNTHETIC_HARNESS_V0_20260625.md` — seven-block zero-GPU harness
   specification and first run summary.

@@ -1,0 +1,41 @@
+query: MaoField Order Defect RecoveryRepair V2 zip 442c46ee 252K   (top-8, 源=知识, project=MaoField)
+
+[1] score=0.6797  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/ORDER_DEFECT_V1_4_EXACT_BIBLIOGRAPHY_AUDIT_ADOPTION_NOTE_20260629.md
+    sect: Order-Defect v1.4 Exact/Bibliography Audit — Adoption Note
+    Date: 2026-06-29 CST Node: node36 canonical MaoField Source report: `docs/infra/gpt_deep_research/deep_research_order_defect_v1_4_exact_bibliography_audit_20260629.md` Attachment sha256: `2dd42dbd323e21e54b730e90d38e5840 ...
+
+[2] score=0.6718  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_19_PACKAGE_ORDER_DEFECT_RECOVERY_REPAIR_V2_20260630.md
+    sect: Order-Defect Recovery Repair v2 Package Record > Hashes
+    Node36 `sha256sum`:  ```text 442c46ee576a3ad531380c2b672e026440c951615100599749c2dde07c3df4eb  MaoField_PRO_OrderDefect_RecoveryRepair_V2_20260630_1025.zip 5346722e992913a570f2c0d008d57e231800d78e82b92abdc6a120ac60b15e69 ...
+
+[3] score=0.6670  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/recovery/RECOVERY_TIMELINE_SINCE_20260625.md
+    sect: Recovery Timeline Since 2026-06-25 > Commits Since 2026-06-25
+    8.md<br>docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_REPORT31_ORDERDEFECT_20260628.md<br>docs/infra/rag_rebuild_20260622/candidate_hashes_20260628_1824_packagefix_final2.txt<br>docs/infra/rag_rebuild_20260622/ca ...
+
+[4] score=0.6633  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_19_PACKAGE_ORDER_DEFECT_RECOVERY_REPAIR_V2_20260630.md
+    sect: Order-Defect Recovery Repair v2 Package Record > Artifacts
+    Node36 scratch package:  ```text /home/amd/codex-node36/tmp/orderdefect_20260630_1025_recoveryrepair_v2/MaoField_PRO_OrderDefect_RecoveryRepair_V2_20260630_1025.zip ```  Node19 desktop files:  ```text C:\Users\amd\Deskto ...
+
+[5] score=0.6593  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/recovery/GPT55_PRO_ORDERDEFECT_RECOVERY_HANDOFF_PROMPT_20260629.md
+    sect: GPT-5.5 Pro Zero-Context Prompt: MaoField / Order-Defect Recovery Handoff
+    You are receiving a local evidence bundle prepared on node36:  ```text MaoField_OrderDefect_Recovery_20260625_20260629.zip ```  Do not use public GitHub, public web browsing, search snippets, or model memory as substitut ...
+
+[6] score=0.6541  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/GPT55_PRO_RESEARCH_INDEX_20260622.md
+    sect: MaoField GPT-5.5 Pro Research Index > 4. Experiment Verdict Map > 4.27 D625 Formal v1.1 Strict-Audit Pro Package
+    Copied package:  ```text C:\Users\amd\Desktop\MaoField_PRO_FoundationalResidualTransport_FormalV11_Audit_20260625_2315.zip zip sha256=8afb1e4a86750d406fc3f16a18be8bd74b0b96c60f84dd9ca589f02e5beaac06 prompt sha256=89f4302 ...
+
+[7] score=0.6495  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/experiments/exp018_cat/dppl_bridge_verify_d21_output/MAOFIELD_D26_STRATEGIC_PANORAMA_REPORT_20260526.md
+    sect: §2 D26 multi-agent 之 13 file (9 ATTEMPT1 + 4 partial)
+    参 `MAOFIELD_D26_MULTIAGENT_DEEP_DIGEST_20260526.md` (Sub B) §0-§9, sha256 `b03d5882...`。 ...
+
+[8] score=0.6400  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/recovery/RECOVERY_TIMELINE_SINCE_20260625.md
+    sect: Recovery Timeline Since 2026-06-25 > Commits Since 2026-06-25
+    agefix_final2.txt<br>docs/infra/rag_rebuild_20260622/scope_include_maofield_active_md.txt<br>docs/infra/rag_rebuild_20260622/scope_include_maofield_all_nonarchive_md.txt | proof | | a22b3c7a1086 | Wangziqi0 | 2026-06-28T ...
