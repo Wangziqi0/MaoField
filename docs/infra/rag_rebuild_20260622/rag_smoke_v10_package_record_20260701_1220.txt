@@ -1,0 +1,41 @@
+query: Node19 Package Record Order-Defect Boundary-Locked Draft V10 package record   (top-8, 源=知识, project=MaoField)
+
+[1] score=0.6828  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/STATE.md
+    sect: MaoField — PROJECT STATE (canonical 单一真相源) > §7 指针 (detail 去哪找)
+    PACKAGE_ORDER_DEFECT_METADATA_LABEL_PATCH_V6_20260630.md` + `docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_ORDERDEFECT_METADATA_LABEL_PATCH_V6_20260630.md` (report(11) says V6 closed report(10)'s package-record / ...
+
+[2] score=0.6623  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/STATE.md
+    sect: MaoField — PROJECT STATE (canonical 单一真相源) > 戳
+    RAFT_CANDIDATE_ONLY`; Mode B=`insufficient_artifact`。当前下一步是 V10 boundary-locked local draft package: 任务书=`docs/infra/recovery/ORDER_DEFECT_D701_BOUNDARY_LOCKED_DRAFT_V10_TASKBOOK_20260701.md`; prompt=`docs/infra/gpt_deep ...
+
+[3] score=0.6434  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_19_PACKAGE_ORDER_DEFECT_BOUNDARY_LOCKED_DRAFT_V10_20260701.md
+    sect: Node19 Package Record -- Order-Defect Boundary-Locked Draft V10 > Source Files On Node36 Scratch
+    ```text /home/amd/codex-node36/tmp/orderdefect_boundary_locked_draft_v10_20260701_1220/out/MaoField_PRO_OrderDefect_BoundaryLockedDraft_V10_FINAL_20260701_1220.zip /home/amd/codex-node36/tmp/orderdefect_boundary_locked_d ...
+
+[4] score=0.6361  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/MD_CATALOG.md
+    sect: MaoField MD_CATALOG — 全 ~429 md 分层梳理 (navigate reference) > §0 新 session 导航 TL;DR ★最重要 > 导航 ACTIVE 核心与 D628 当前入口 (该看)
+    e B upgrade | | **当前 Pro V10 boundary-locked draft 包到 19 ★** | `docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_19_PACKAGE_ORDER_DEFECT_BOUNDARY_LOCKED_DRAFT_V10_20260701.md`; node19 desktop zip `MaoField_PRO_OrderDefect_Boundar ...
+
+[5] score=0.6305  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/MD_CATALOG.md
+    sect: MaoField MD_CATALOG — 全 ~429 md 分层梳理 (navigate reference)
+    nfra/recovery/ORDER_DEFECT_D701_BOUNDARY_LOCKED_DRAFT_V10_TASKBOOK_20260701.md`, V10 零上下文提示词 `GPT55_PRO_ORDER_DEFECT_BOUNDARY_LOCKED_SHORT_NOTE_DRAFT_V10_PROMPT_20260701.md`, V10 package record `docs/infra/DEBRANDED_RESI ...
+
+[6] score=0.6263  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/MD_CATALOG.md
+    sect: MaoField MD_CATALOG — 全 ~429 md 分层梳理 (navigate reference)
+    **2026-06-30 report(9) local-draft-lock 补丁**: 新增 Pro report(9) `docs/infra/gpt_deep_research/deep_research_order_defect_proof_repair_recheck_report9_20260630.md` (sha256 `be486334...`), 采纳说明 `ORDER_DEFECT_PROOF_REPAIR_RE ...
+
+[7] score=0.6257  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/STATE.md
+    sect: MaoField — PROJECT STATE (canonical 单一真相源) > §7 指针 (detail 去哪找)
+    fra/gpt_deep_research/deep_research_order_defect_proof_repair_recheck_report9_20260630.md` + `docs/infra/gpt_deep_research/ORDER_DEFECT_PROOF_REPAIR_RECHECK_REPORT9_ADOPTION_NOTE_20260630.md` + `docs/infra/recovery/ORDER ...
+
+[8] score=0.6150  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/STATE.md
+    sect: MaoField — PROJECT STATE (canonical 单一真相源) > §7 指针 (detail 去哪找)
+    AL_TRANSPORT_19_PACKAGE_ORDER_DEFECT_LOCAL_DRAFT_LOCK_V5_20260630.md`; node19 desktop zip `MaoField_PRO_OrderDefect_LocalDraftLockAudit_V5_FINAL_20260630_1550.zip`, zip sha256 以外部 package record + node19 readback 为准（不写入包 ...
