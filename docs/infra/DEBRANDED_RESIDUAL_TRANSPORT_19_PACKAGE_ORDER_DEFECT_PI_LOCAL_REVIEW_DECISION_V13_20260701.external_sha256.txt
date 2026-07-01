@@ -1,0 +1,10 @@
+# External SHA256 -- Order-Defect PI Local Review Decision V13
+
+Date: 2026-07-01 CST
+Authority: node36 scratch output
+Package record: docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_19_PACKAGE_ORDER_DEFECT_PI_LOCAL_REVIEW_DECISION_V13_20260701.md
+
+a7b2e9d2a70280ec49ac3172d678f27fd078d6fe7aa04f8d043544f7cbe97de7  /home/amd/codex-node36/tmp/orderdefect_pi_local_review_decision_v13_20260701_2028/out/MaoField_PRO_OrderDefect_PILocalReviewDecision_V13_FINAL_20260701_2028.zip
+a2e10c248ba78a2ff992b61dabe28a775d82bb5ba906556463c49533207d5744  /home/amd/codex-node36/tmp/orderdefect_pi_local_review_decision_v13_20260701_2028/out/GPT55_PRO_ORDER_DEFECT_PI_LOCAL_REVIEW_DECISION_V13_PROMPT_20260701.md
+
+Note: the zip cannot contain its own final sha256 without changing that sha256.

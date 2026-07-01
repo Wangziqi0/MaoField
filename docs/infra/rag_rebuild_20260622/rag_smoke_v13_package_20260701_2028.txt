@@ -1,0 +1,41 @@
+query: MaoField_PRO_OrderDefect_PILocalReviewDecision_V13_FINAL_20260701_2028 package record node19 desktop   (top-8, 源=知识, project=MaoField)
+
+[1] score=0.7670  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_19_PACKAGE_ORDER_DEFECT_PI_LOCAL_REVIEW_DECISION_V13_20260701.md
+    sect: Node19 Package Record -- Order-Defect PI Local Review Decision V13 > Current Files On Node19 Desktop
+    ```text C:\Users\amd\Desktop\MaoField_PRO_OrderDefect_PILocalReviewDecision_V13_FINAL_20260701_2028.zip C:\Users\amd\Desktop\GPT55_PRO_ORDER_DEFECT_PI_LOCAL_REVIEW_DECISION_V13_PROMPT_20260701.md ``` ...
+
+[2] score=0.7640  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/recovery/ORDER_DEFECT_D701_PI_LOCAL_REVIEW_DECISION_V13_TASKBOOK_20260701.md
+    sect: Order-Defect D701 PI Local Review Decision V13 Taskbook
+    Date: 2026-07-01 CST Node: node36 Previous package: `MaoField_PRO_OrderDefect_PIDecisionEnglishRewriteGate_V12_FINAL_20260701_1810.zip` Previous Pro verdict: `RECOMMEND_PI_LOCAL_REVIEW_ONLY_KEEP_LOCK` Node36 local action ...
+
+[3] score=0.7407  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/MD_CATALOG.md
+    sect: MaoField MD_CATALOG — 全 ~429 md 分层梳理 (navigate reference) > §0 新 session 导航 TL;DR ★最重要 > 导航 ACTIVE 核心与 D628 当前入口 (该看)
+    ocs/infra/DEBRANDED_RESIDUAL_TRANSPORT_19_PACKAGE_ORDER_DEFECT_PI_LOCAL_REVIEW_DECISION_V13_20260701.md`; node19 desktop zip `MaoField_PRO_OrderDefect_PILocalReviewDecision_V13_FINAL_20260701_2028.zip` sha256=`external n ...
+
+[4] score=0.7394  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/recovery/ORDER_DEFECT_D701_PI_DECISION_AND_ENGLISH_REWRITE_GATE_V12_TASKBOOK_20260701.md
+    sect: Order-Defect D701 PI Decision And English Rewrite Gate V12 Taskbook
+    Date: 2026-07-01 CST Node: node36 Previous package: `MaoField_PRO_OrderDefect_BoundaryLockedDraftReview_V11_FIX_20260701_1352.zip` Previous Pro verdict: `DRAFT_CANDIDATE_ACCEPTABLE_FOR_NODE36_PI_LOCAL_REVIEW` Node36 loca ...
+
+[5] score=0.7350  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_19_PACKAGE_ORDER_DEFECT_LOCAL_DRAFT_LOCK_V5_20260630.md
+    sect: Node19 Package Record -- Order-Defect Local-Draft Lock Audit V5 FINAL > Current Hashes
+    Node36:  ```text 71fbd35050649c6447367107dce6f6ecc2a520bdc6a5cd09177ac9437c7c32e5  MaoField_PRO_OrderDefect_LocalDraftLockAudit_V5_FINAL_20260630_1550.zip fe88047622456df6990d4cf99651c647c614b6a3ce0b449e8c8480258e7453b8  ...
+
+[6] score=0.7323  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_19_PACKAGE_ORDER_DEFECT_PI_LOCAL_REVIEW_DECISION_V13_20260701.md
+    sect: Node19 Package Record -- Order-Defect PI Local Review Decision V13 > Source Files On Node36 Scratch
+    ```text /home/amd/codex-node36/tmp/orderdefect_pi_local_review_decision_v13_20260701_2028/out/MaoField_PRO_OrderDefect_PILocalReviewDecision_V13_FINAL_20260701_2028.zip /home/amd/codex-node36/tmp/orderdefect_pi_local_rev ...
+
+[7] score=0.7292  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_19_PACKAGE_ORDER_DEFECT_PROOF_REPAIR_RECHECK_V4_20260630.md
+    sect: Node19 Package Record -- Order-Defect Proof-Repair Recheck V4 > Hashes
+    Node36:  ```text 0285cf2678f149eddf2caaf8ffd94032e3e47b2c3b9d4ebdfe0e3aaaf46d512c  MaoField_PRO_OrderDefect_ProofRepairRecheck_V4_FINAL_20260630_1358.zip 25b16d9d4f9ca1c160222c31ea1698e7b77b9681c30fb6b17277ee231e515d7b   ...
+
+[8] score=0.7153  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/STATE.md
+    sect: MaoField — PROJECT STATE (canonical 单一真相源) > §7 指针 (detail 去哪找)
+    RANDED_RESIDUAL_TRANSPORT_19_PACKAGE_ORDER_DEFECT_PI_DECISION_ENGLISH_REWRITE_GATE_V12_20260701.md`; node19 desktop zip `MaoField_PRO_OrderDefect_PIDecisionEnglishRewriteGate_V12_FINAL_20260701_1810.zip`; RAG record `doc ...

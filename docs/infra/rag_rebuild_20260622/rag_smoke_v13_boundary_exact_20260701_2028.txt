@@ -1,0 +1,41 @@
+query: V13 hard boundary no English draft no paper-ready no preprint-ready insufficient_artifact   (top-8, 源=知识, project=MaoField)
+
+[1] score=0.6366  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/recovery/ORDER_DEFECT_D701_PI_LOCAL_REVIEW_DECISION_V13_TASKBOOK_20260701.md
+    sect: Order-Defect D701 PI Local Review Decision V13 Taskbook > Purpose
+    V13 is not a release gate and not an English drafting gate. V13 prepares a zero-context Pro review package for a human PI local-review decision under lock:  1. confirm that report(15) remains only a Chinese locked local- ...
+
+[2] score=0.6322  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/recovery/ORDER_DEFECT_D701_PI_LOCAL_REVIEW_DECISION_V13_TASKBOOK_20260701.md
+    sect: Order-Defect D701 PI Local Review Decision V13 Taskbook > Hard Boundaries
+    V13 must not:  - lift the emergency lock; - call anything paper-ready, preprint-ready, posted, submission-authorized, or   public-use ready; - produce an English paper draft or English short-note rewrite candidate; - pro ...
+
+[3] score=0.6284  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/MD_CATALOG.md
+    sect: MaoField MD_CATALOG — 全 ~429 md 分层梳理 (navigate reference)
+    nfra/recovery/ORDER_DEFECT_D701_BOUNDARY_LOCKED_DRAFT_V10_TASKBOOK_20260701.md`, V10 零上下文提示词 `GPT55_PRO_ORDER_DEFECT_BOUNDARY_LOCKED_SHORT_NOTE_DRAFT_V10_PROMPT_20260701.md`, V10 package record `docs/infra/DEBRANDED_RESI ...
+
+[4] score=0.6185  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/MD_CATALOG.md
+    sect: MaoField MD_CATALOG — 全 ~429 md 分层梳理 (navigate reference)
+    _DRAFT_AUTHORIZATION_UNDER_LOCK_V9_TASKBOOK_20260701.md`, V9 零上下文提示词 `GPT55_PRO_ORDER_DEFECT_DRAFT_AUTHORIZATION_UNDER_LOCK_V9_PROMPT_20260701.md`, V9 package record `docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_19_PACKAGE_OR ...
+
+[5] score=0.6142  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/STATE.md
+    sect: MaoField — PROJECT STATE (canonical 单一真相源) > §0 一句话 + 今天
+    roof/bibliography/paper-ready/posting authority, 不升级 Mode B, 不跑 full panel/checkpoint inference/training/new loss, 不声称 observed residual/interaction/transport/holonomy/F3/LOSO/glass-box/completed formal system。 - **下一步建议 ...
+
+[6] score=0.6124  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/MD_CATALOG.md
+    sect: MaoField MD_CATALOG — 全 ~429 md 分层梳理 (navigate reference)
+    RAFT_REVIEW_V11_TASKBOOK_20260701.md`, V11 零上下文提示词 `GPT55_PRO_ORDER_DEFECT_BOUNDARY_LOCKED_DRAFT_REVIEW_V11_PROMPT_20260701.md`, V11 package record `docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_19_PACKAGE_ORDER_DEFECT_BOUNDAR ...
+
+[7] score=0.6060  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_order_defect_recovery_gate_audit_20260630.md
+    sect: MaoField / Order-Defect Recovery 严格恢复审计 > 动作裁决
+    我的裁决仍然是：  ```text STOP_AND_FIX_GATES ```  这不是因为证据不足到要落入 `DO_NOT_DRAFT_EVIDENCE_INSUFFICIENT`；恰恰相反，bundle 对 gate-only 审计已经足够：核心对象、exact witness、related-work floor、forbidden claims、以及最小安全命题都已在包内落地。之所以不能选 `DRAFT_SHORT_NOTE_ ...
+
+[8] score=0.6056  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_order_defect_draft_authorization_v9_report14_20260701.md
+    sect: V9 草稿授权锁内审计报告 > Authorization Basis
+    这一动作还与 V8 的上游来源相符。report(12) adoption note 已经把 report(12) 的通过窄化为“V7 package/status/RAG/proof-boundary chain 无剩余 decision-gate blocker”，并把 node36 下一步写成 `PREPARE_HUMAN_DECISION_UNDER_LOCK`，同时明确 V8 不得写 abstract、introduction ...
