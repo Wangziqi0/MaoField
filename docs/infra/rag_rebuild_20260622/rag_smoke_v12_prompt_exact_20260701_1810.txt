@@ -1,0 +1,41 @@
+query: GPT55_PRO_ORDER_DEFECT_PI_DECISION_ENGLISH_REWRITE_GATE_V12_PROMPT_20260701   (top-8, 源=知识, project=MaoField)
+
+[1] score=0.7399  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/debranded_residual_transport/README_FOR_PRO_ORDER_DEFECT_PREPRINT_FINAL_GATE_20260629.md
+    sect: README For GPT-5.5 Pro — Order-Defect Preprint Final Gate > Primary Files
+    Use the standalone prompt in:  ```text prompt/GPT55_PRO_ORDER_DEFECT_PREPRINT_FINAL_GATE_PROMPT_20260629.md ``` ...
+
+[2] score=0.7301  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/MD_CATALOG.md
+    sect: MaoField MD_CATALOG — 全 ~429 md 分层梳理 (navigate reference) > §0 新 session 导航 TL;DR ★最重要 > 导航 ACTIVE 核心与 D628 当前入口 (该看)
+     report(11) V7 prompt=`GPT55_PRO_ORDER_DEFECT_POST_V6_DECISION_GATE_V7_PROMPT_20260630.md` is accepted provenance; D630 report(12) V8 prompt=`GPT55_PRO_ORDER_DEFECT_HUMAN_DECISION_UNDER_LOCK_V8_PROMPT_20260630.md` is acc ...
+
+[3] score=0.7190  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_19_PACKAGE_ORDER_DEFECT_PI_DECISION_ENGLISH_REWRITE_GATE_V12_20260701.md
+    sect: Node19 Package Record -- Order-Defect PI Decision And English Rewrite Gate V12 > Current Files On Node19 Desktop
+    ```text C:\Users\amd\Desktop\MaoField_PRO_OrderDefect_PIDecisionEnglishRewriteGate_V12_FINAL_20260701_1810.zip C:\Users\amd\Desktop\GPT55_PRO_ORDER_DEFECT_PI_DECISION_ENGLISH_REWRITE_GATE_V12_PROMPT_20260701.md ``` ...
+
+[4] score=0.7167  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_19_PACKAGE_ORDER_DEFECT_PREPRINT_FINAL_GATE_V15_20260629.md
+    sect: Node19 Package Record -- Order-Defect Preprint Final Gate v1.5 > Included Core Files
+    /gpt_deep_research/GPT55_PRO_ORDER_DEFECT_PREPRINT_FINAL_GATE_PROMPT_20260629.md`; - `from_repo/docs/infra/gpt_deep_research/deep_research_order_defect_v1_4_exact_bibliography_audit_20260629.md`; - `from_repo/docs/infra/ ...
+
+[5] score=0.7077  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/MD_CATALOG.md
+    sect: MaoField MD_CATALOG — 全 ~429 md 分层梳理 (navigate reference) > §0 新 session 导航 TL;DR ★最重要 > 导航 ACTIVE 核心与 D628 当前入口 (该看)
+     T·U **全判被占/平凡** | | **GPT-5.5 Pro 网页索引入口 ★** | `GPT55_PRO_RESEARCH_INDEX_20260622.md` = 仓库内脱敏研究证据地图; 合并 Claude 数学交接 + 实际 code math + exp019/exp020 verdict + superseded/do-not-revive guardrails | | **当前 D701 report(16) P ...
+
+[6] score=0.6940  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/STATE.md
+    sect: MaoField — PROJECT STATE (canonical 单一真相源) > §7 指针 (detail 去哪找)
+    _DEFECT_PI_DECISION_ENGLISH_REWRITE_GATE_V12_20260701.md` (local action=`PREPARE_PI_DECISION_AND_ENGLISH_REWRITE_GATE_V12`; report16 verdict=`DRAFT_CANDIDATE_ACCEPTABLE_FOR_NODE36_PI_LOCAL_REVIEW`; node36 adoption keeps  ...
+
+[7] score=0.6895  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_19_PACKAGE_ORDER_DEFECT_POST_V6_DECISION_GATE_V7_20260630.md
+    sect: Node19 Package Record -- Order-Defect Post-V6 Decision Gate V7 > Current Files On Node19 Desktop
+    ```text C:\Users\amd\Desktop\MaoField_PRO_OrderDefect_PostV6DecisionGate_V7_FINAL_20260630_1755.zip C:\Users\amd\Desktop\GPT55_PRO_ORDER_DEFECT_POST_V6_DECISION_GATE_V7_PROMPT_20260630.md ``` ...
+
+[8] score=0.6874  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_ORDERDEFECT_DRAFT_AUTHORIZATION_UNDER_LOCK_V9_20260701.md
+    sect: Node22 Vector Refresh -- Order-Defect Draft Authorization Under Lock V9 > Current V9 Files To Locate
+    ```text docs/infra/gpt_deep_research/deep_research_order_defect_human_decision_v8_report13_20260701.md docs/infra/gpt_deep_research/ORDER_DEFECT_HUMAN_DECISION_V8_REPORT13_ADOPTION_NOTE_20260701.md docs/infra/recovery/OR ...

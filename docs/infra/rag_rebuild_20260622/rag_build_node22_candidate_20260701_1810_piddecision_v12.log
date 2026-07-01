@@ -1,0 +1,45 @@
+[transformers] Token indices sequence length is longer than the specified maximum sequence length for this model (14293 > 8192). Running this sequence through the model will result in indexing errors
+[1/4] files=538
+[2/4] chunks=11485 chunk_seconds=14.7
+[3/4] remote_embed endpoint=http://192.168.31.22:18080 model=bge-m3-temp batch=32 batches=359
+  embedded_batches=1/359 texts=32/11485 rate=32.53 text/s
+  embedded_batches=10/359 texts=320/11485 rate=56.67 text/s
+  embedded_batches=20/359 texts=640/11485 rate=71.92 text/s
+  embedded_batches=30/359 texts=960/11485 rate=82.85 text/s
+  embedded_batches=40/359 texts=1280/11485 rate=85.69 text/s
+  embedded_batches=50/359 texts=1600/11485 rate=84.51 text/s
+  embedded_batches=60/359 texts=1920/11485 rate=82.83 text/s
+  embedded_batches=70/359 texts=2240/11485 rate=80.60 text/s
+  embedded_batches=80/359 texts=2560/11485 rate=81.20 text/s
+  embedded_batches=90/359 texts=2880/11485 rate=82.72 text/s
+  embedded_batches=100/359 texts=3200/11485 rate=80.64 text/s
+  embedded_batches=110/359 texts=3520/11485 rate=81.72 text/s
+  embedded_batches=120/359 texts=3840/11485 rate=81.25 text/s
+  embedded_batches=130/359 texts=4160/11485 rate=81.46 text/s
+  embedded_batches=140/359 texts=4480/11485 rate=81.92 text/s
+  embedded_batches=150/359 texts=4800/11485 rate=82.54 text/s
+  embedded_batches=160/359 texts=5120/11485 rate=82.50 text/s
+  embedded_batches=170/359 texts=5440/11485 rate=81.78 text/s
+  embedded_batches=180/359 texts=5760/11485 rate=81.55 text/s
+  embedded_batches=190/359 texts=6080/11485 rate=81.69 text/s
+  embedded_batches=200/359 texts=6400/11485 rate=81.64 text/s
+  embedded_batches=210/359 texts=6720/11485 rate=81.59 text/s
+  embedded_batches=220/359 texts=7040/11485 rate=81.81 text/s
+  embedded_batches=230/359 texts=7360/11485 rate=81.49 text/s
+  embedded_batches=240/359 texts=7680/11485 rate=81.37 text/s
+  embedded_batches=250/359 texts=8000/11485 rate=81.75 text/s
+  embedded_batches=260/359 texts=8320/11485 rate=81.83 text/s
+  embedded_batches=270/359 texts=8640/11485 rate=81.85 text/s
+  embedded_batches=280/359 texts=8960/11485 rate=82.15 text/s
+  embedded_batches=290/359 texts=9280/11485 rate=82.18 text/s
+  embedded_batches=300/359 texts=9600/11485 rate=82.30 text/s
+  embedded_batches=310/359 texts=9920/11485 rate=82.99 text/s
+  embedded_batches=320/359 texts=10240/11485 rate=83.32 text/s
+  embedded_batches=330/359 texts=10560/11485 rate=83.22 text/s
+  embedded_batches=340/359 texts=10880/11485 rate=83.09 text/s
+  embedded_batches=350/359 texts=11200/11485 rate=83.52 text/s
+  embedded_batches=359/359 texts=11485/11485 rate=83.44 text/s
+[4/4] wrote index
+      faiss=/home/amd/codex-node36/tmp/orderdefect_pi_decision_english_rewrite_gate_v12_20260701_1810/rag/candidate_index/kb.faiss bytes=47042605 vectors=11485 dim=1024
+      meta=/home/amd/codex-node36/tmp/orderdefect_pi_decision_english_rewrite_gate_v12_20260701_1810/rag/candidate_index/kb_meta.jsonl bytes=14108864
+[stat] files=538 chunks=11485 embed_seconds=137.7 rate=83.435text/s
