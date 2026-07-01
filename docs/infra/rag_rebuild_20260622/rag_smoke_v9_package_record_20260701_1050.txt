@@ -1,0 +1,41 @@
+query: Node19 Package Record Order-Defect Draft Authorization Under Lock V9 Purpose   (top-8, 源=知识, project=MaoField)
+
+[1] score=0.7123  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/STATE.md
+    sect: MaoField — PROJECT STATE (canonical 单一真相源) > 戳
+    horization-under-lock package: 任务书=`docs/infra/recovery/ORDER_DEFECT_D701_DRAFT_AUTHORIZATION_UNDER_LOCK_V9_TASKBOOK_20260701.md`; prompt=`docs/infra/gpt_deep_research/GPT55_PRO_ORDER_DEFECT_DRAFT_AUTHORIZATION_UNDER_LOC ...
+
+[2] score=0.6865  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/MD_CATALOG.md
+    sect: MaoField MD_CATALOG — 全 ~429 md 分层梳理 (navigate reference)
+    _DRAFT_AUTHORIZATION_UNDER_LOCK_V9_TASKBOOK_20260701.md`, V9 零上下文提示词 `GPT55_PRO_ORDER_DEFECT_DRAFT_AUTHORIZATION_UNDER_LOCK_V9_PROMPT_20260701.md`, V9 package record `docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_19_PACKAGE_OR ...
+
+[3] score=0.6566  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_19_PACKAGE_ORDER_DEFECT_DRAFT_AUTHORIZATION_UNDER_LOCK_V9_20260701.md
+    sect: Node19 Package Record -- Order-Defect Draft Authorization Under Lock V9 > Source Files On Node36 Scratch
+    ```text /home/amd/codex-node36/tmp/orderdefect_draft_authorization_v9_20260701_1050/out/MaoField_PRO_OrderDefect_DraftAuthorizationUnderLock_V9_FINAL_20260701_1050.zip /home/amd/codex-node36/tmp/orderdefect_draft_authori ...
+
+[4] score=0.6525  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/MD_CATALOG.md
+    sect: MaoField MD_CATALOG — 全 ~429 md 分层梳理 (navigate reference)
+    cd6ff54...`; node22 worker 已停; RAG 是 locator, not evidence。 > **2026-06-30 report(9) local-draft-lock 补丁**: 新增 Pro report(9) `docs/infra/gpt_deep_research/deep_research_order_defect_proof_repair_recheck_report9_20260630. ...
+
+[5] score=0.6396  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/recovery/ORDER_DEFECT_D701_DRAFT_AUTHORIZATION_UNDER_LOCK_V9_TASKBOOK_20260701.md
+    sect: Order-Defect D701 Draft Authorization Under Lock V9 Taskbook > Goal
+    Create a zero-context V9 bundle for GPT-5.5 Pro after report(13).  Report(13) returned:  ```text HUMAN_DECISION_UNDER_LOCK_ACCEPTED ```  Node36 adopts it only as:  ```text ASK_PI_FOR_SEPARATE_DRAFT_AUTHORIZATION_UNDER_LO ...
+
+[6] score=0.6381  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/ORDER_DEFECT_HUMAN_DECISION_V8_REPORT13_ADOPTION_NOTE_20260701.md
+    sect: Order-Defect Report(13) Adoption Note > What Report(13) Allows
+    Report(13) supports preparing a V9 package for a human PI authorization decision. The V9 package may ask whether the PI should authorize a separate, future, boundary-locked short-note drafting prompt.  Allowed V9 outputs ...
+
+[7] score=0.6379  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/STATE.md
+    sect: MaoField — PROJECT STATE (canonical 单一真相源) > §7 指针 (detail 去哪找)
+    22/NODE22_VECTOR_REFRESH_ORDERDEFECT_RECOVERY_REPAIR_V2_20260630.md` (Pro/agent consensus: `KEEP_LOCK_AND_FIX`; Gate 1/2 supported for recovery audit only; external-model lock remains; old v1.6 paper-draft prompt is supe ...
+
+[8] score=0.6350  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/STATE.md
+    sect: MaoField — PROJECT STATE (canonical 单一真相源) > §7 指针 (detail 去哪找)
+    _20260630.md` + `docs/infra/gpt_deep_research/ORDER_DEFECT_REPORT9_LABEL_ERRATUM_20260630.md` + `docs/infra/recovery/ORDER_DEFECT_D630_METADATA_LABEL_PATCH_V6_TASKBOOK_20260630.md` + `docs/infra/gpt_deep_research/GPT55_P ...

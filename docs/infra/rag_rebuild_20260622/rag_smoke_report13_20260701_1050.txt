@@ -1,0 +1,41 @@
+query: report13 HUMAN_DECISION_UNDER_LOCK_ACCEPTED ASK_PI_FOR_SEPARATE_DRAFT_AUTHORIZATION_UNDER_LOCK   (top-8, 源=知识, project=MaoField)
+
+[1] score=0.8096  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_order_defect_human_decision_v8_report13_20260701.md
+    sect: Order-Defect V8 人工决策锁内审计报告 > Recommended Node36 Action
+    `ASK_PI_FOR_SEPARATE_DRAFT_AUTHORIZATION_UNDER_LOCK`  推荐理由是：report(12) 已被 node36 窄采纳为 `PREPARE_HUMAN_DECISION_UNDER_LOCK`；V8 包的任务被明确定义为“帮助准备人类 PI 的下一步判断”，而不是直接起草正文；当前 bundle 已经满足进入该人工判断所需的包完整性、状态链一致性、对象边界控制、证书/哈尼斯分级、文献保守 ...
+
+[2] score=0.7445  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/recovery/ORDER_DEFECT_D701_DRAFT_AUTHORIZATION_UNDER_LOCK_V9_TASKBOOK_20260701.md
+    sect: Order-Defect D701 Draft Authorization Under Lock V9 Taskbook > Current Verdict Chain
+    ```text report(12): POST_V6_DECISION_GATE_ACCEPTED_KEEP_LOCK report(13): HUMAN_DECISION_UNDER_LOCK_ACCEPTED node36 local action: ASK_PI_FOR_SEPARATE_DRAFT_AUTHORIZATION_UNDER_LOCK node36 live state: LOCAL_DRAFT_OK_BUT_KE ...
+
+[3] score=0.7286  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/recovery/ORDER_DEFECT_D701_DRAFT_AUTHORIZATION_UNDER_LOCK_V9_TASKBOOK_20260701.md
+    sect: Order-Defect D701 Draft Authorization Under Lock V9 Taskbook > Goal
+    Create a zero-context V9 bundle for GPT-5.5 Pro after report(13).  Report(13) returned:  ```text HUMAN_DECISION_UNDER_LOCK_ACCEPTED ```  Node36 adopts it only as:  ```text ASK_PI_FOR_SEPARATE_DRAFT_AUTHORIZATION_UNDER_LO ...
+
+[4] score=0.7232  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_19_PACKAGE_ORDER_DEFECT_DRAFT_AUTHORIZATION_UNDER_LOCK_V9_20260701.md
+    sect: Node19 Package Record -- Order-Defect Draft Authorization Under Lock V9 > Purpose
+    This is the light zero-context package for the next GPT-5.5 Pro advisory audit after report(13).  Report(13) returned:  ```text HUMAN_DECISION_UNDER_LOCK_ACCEPTED ```  Node36 adopts this only as:  ```text ASK_PI_FOR_SEPA ...
+
+[5] score=0.7163  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/ORDER_DEFECT_HUMAN_DECISION_V8_REPORT13_ADOPTION_NOTE_20260701.md
+    sect: Order-Defect Report(13) Adoption Note > What Report(13) Allows
+    Report(13) supports preparing a V9 package for a human PI authorization decision. The V9 package may ask whether the PI should authorize a separate, future, boundary-locked short-note drafting prompt.  Allowed V9 outputs ...
+
+[6] score=0.7094  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/STATE.md
+    sect: MaoField — PROJECT STATE (canonical 单一真相源) > 戳
+    | 项 | 值 | |---|---| | 最后更新 | **2026-07-01 D701 10:55 CST** (`date` verified 10:55:16 CST; source HEAD before this update `da223a9`)。Pro report(13) 已归档为 `docs/infra/gpt_deep_research/deep_research_order_defect_human_decis ...
+
+[7] score=0.6979  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/GPT55_PRO_ORDER_DEFECT_DRAFT_AUTHORIZATION_UNDER_LOCK_V9_PROMPT_20260701.md
+    sect: GPT-5.5 Pro Zero-Context Prompt: Order-Defect Draft Authorization Under Lock V9 > Authorization-Gate Questions
+    Answer with file and line references where possible:  1. Does report(13) validly support asking the PI for a separate future drafting    authorization under lock? 2. Is there any remaining package identity, status-chain, ...
+
+[8] score=0.6978  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/ORDER_DEFECT_HUMAN_DECISION_V8_REPORT13_ADOPTION_NOTE_20260701.md
+    sect: Order-Defect Report(13) Adoption Note > Narrow Verdict Adopted
+    Report(13) returned:  ```text HUMAN_DECISION_UNDER_LOCK_ACCEPTED ```  Node36 adopts this only as:  ```text ASK_PI_FOR_SEPARATE_DRAFT_AUTHORIZATION_UNDER_LOCK ```  This means the V8 bundle cleared the human-decision-under ...
