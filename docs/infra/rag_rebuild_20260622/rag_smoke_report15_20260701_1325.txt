@@ -1,0 +1,41 @@
+query: report15 boundary locked local draft candidate V11 review   (top-8, 源=知识, project=MaoField)
+
+[1] score=0.7363  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/STATE.md
+    sect: MaoField — PROJECT STATE (canonical 单一真相源) > §7 指针 (detail 去哪找)
+    LOCK_PREPARE_V11_REVIEW`; V11 may review/patch the local short-note draft candidate under lock; external-model emergency lock remains active; no paper-ready / preprint-ready / posting / submission / proof-authority promo ...
+
+[2] score=0.7172  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/ORDER_DEFECT_BOUNDARY_LOCKED_DRAFT_V10_REPORT15_ADOPTION_NOTE_20260701.md
+    sect: Order-Defect Report(15) Adoption Note > Next Local Action
+    Prepare V11:  ```text BOUNDARY_LOCKED_DRAFT_CANDIDATE_REVIEW_V11 ```  V11 should ask Pro to audit report(15)'s draft candidate against the primary proof, exact witness, harness, bibliography, forbidden-claim scan, and cu ...
+
+[3] score=0.7132  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/GPT55_PRO_ORDER_DEFECT_BOUNDARY_LOCKED_DRAFT_REVIEW_V11_PROMPT_20260701.md
+    sect: GPT-5.5 Pro Zero-Context Prompt: Boundary-Locked Draft Candidate Review V11 > Current Task
+    The previous V10 drafting pass returned:  ```text BOUNDARY_LOCKED_LOCAL_DRAFT_CANDIDATE ```  Node36 adopts this only as:  ```text RECEIVE_LOCAL_DRAFT_CANDIDATE_UNDER_LOCK_PREPARE_V11_REVIEW ```  Your task is to review re ...
+
+[4] score=0.7051  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_order_defect_boundary_locked_draft_v10_report15_20260701.md
+    sect: (无标题)
+    BOUNDARY_LOCKED_LOCAL_DRAFT_CANDIDATE ...
+
+[5] score=0.6999  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/ORDER_DEFECT_BOUNDARY_LOCKED_DRAFT_V10_REPORT15_ADOPTION_NOTE_20260701.md
+    sect: Order-Defect Report(15) Adoption Note > Report Verdict
+    Report(15) returned:  ```text BOUNDARY_LOCKED_LOCAL_DRAFT_CANDIDATE ```  It produced a boundary-locked local short-note draft candidate for the narrow finite weighted order-defect object. ...
+
+[6] score=0.6938  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/recovery/ORDER_DEFECT_D701_BOUNDARY_LOCKED_DRAFT_REVIEW_V11_TASKBOOK_20260701.md
+    sect: Order-Defect D701 Boundary-Locked Draft Review V11 Taskbook > Current Verdict Chain
+    ```text report(12): POST_V6_DECISION_GATE_ACCEPTED_KEEP_LOCK report(13): HUMAN_DECISION_UNDER_LOCK_ACCEPTED report(14): DRAFT_AUTHORIZATION_UNDER_LOCK_ACCEPTED report(15): BOUNDARY_LOCKED_LOCAL_DRAFT_CANDIDATE node36 loc ...
+
+[7] score=0.6924  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_19_PACKAGE_ORDER_DEFECT_BOUNDARY_LOCKED_DRAFT_REVIEW_V11_20260701.md
+    sect: Node19 Package Record -- Order-Defect Boundary-Locked Draft Review V11 > Purpose
+    This is the light zero-context package for the next GPT-5.5 Pro task after report(15).  Report(15) returned:  ```text BOUNDARY_LOCKED_LOCAL_DRAFT_CANDIDATE ```  Node36 adopts this only as:  ```text RECEIVE_LOCAL_DRAFT_CA ...
+
+[8] score=0.6831  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/STATE.md
+    sect: MaoField — PROJECT STATE (canonical 单一真相源) > 戳
+    IDATE_ONLY`; Mode B=`insufficient_artifact`。当前下一步是 V11 boundary-locked draft-review package: 任务书=`docs/infra/recovery/ORDER_DEFECT_D701_BOUNDARY_LOCKED_DRAFT_REVIEW_V11_TASKBOOK_20260701.md`; prompt=`docs/infra/gpt_deep_ ...

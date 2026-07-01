@@ -1,0 +1,2 @@
+dd3da1c1caf77dcf9ba4522ba01e1d8a06222755006ab926d2d611b3f7e9e3de  /home/amd/codex-node36/tmp/orderdefect_boundary_locked_draft_review_v11_20260701_1325/rag/candidate_index/kb.faiss
+2d027ae54867e5b5d64ef0dfad0772eb956872acead8624d01c2103c49ee20b3  /home/amd/codex-node36/tmp/orderdefect_boundary_locked_draft_review_v11_20260701_1325/rag/candidate_index/kb_meta.jsonl

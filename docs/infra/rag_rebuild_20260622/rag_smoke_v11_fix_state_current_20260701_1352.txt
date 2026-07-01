@@ -1,0 +1,41 @@
+query: D701 V11 draft-review package to node19 CURRENT V11_FIX 1352 RAG authoritative index promoted_hashes_20260701_1352   (top-8, 源=知识, project=MaoField)
+
+[1] score=0.6876  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/MD_CATALOG.md
+    sect: MaoField MD_CATALOG — 全 ~429 md 分层梳理 (navigate reference) > §0 新 session 导航 TL;DR ★最重要 > 导航 ACTIVE 核心与 D628 当前入口 (该看)
+     submission / claim promotion / Mode B upgrade | | **当前 Pro V11 boundary-locked draft-review 包到 19 ★** | `docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_19_PACKAGE_ORDER_DEFECT_BOUNDARY_LOCKED_DRAFT_REVIEW_V11_20260701.md`; nod ...
+
+[2] score=0.6830  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_ORDERDEFECT_BOUNDARY_LOCKED_DRAFT_REVIEW_V11_20260701.md
+    sect: Node22 Vector Refresh -- Order-Defect Boundary-Locked Draft Review V11 > Purpose
+    Refresh the canonical MaoField RAG index after report(15) and the V11 boundary-locked draft-review package files were added. The final promoted refresh is the `V11_FIX_20260701_1352` rerun after independent audit caught  ...
+
+[3] score=0.6729  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/STATE.md
+    sect: MaoField — PROJECT STATE (canonical 单一真相源) > §7 指针 (detail 去哪找)
+     / raw-label drift blockers; no paper body / no proof-authority promotion / no Mode B upgrade) | | **D701 V11 draft-review package to node19 CURRENT** | package record `docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_19_PACKAGE_ ...
+
+[4] score=0.6699  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/MD_CATALOG.md
+    sect: MaoField MD_CATALOG — 全 ~429 md 分层梳理 (navigate reference) > §0 新 session 导航 TL;DR ★最重要 > 导航 ACTIVE 核心与 D628 当前入口 (该看)
+    ance; D628 implementation-audit prompt/package 与旧 report29/report30/v1.3 target-selection prompts 只作 provenance; 均需回查 code/log/verdict/JSON | | **RAG 重建 / 数据 digest ★** | `docs/infra/rag_rebuild_20260622/` + `scripts/rag ...
+
+[5] score=0.6623  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_ORDERDEFECT_PROOF_REPAIR_RECHECK_V4_20260630.md
+    sect: Node22 Vector Refresh -- Order-Defect Proof-Repair Recheck V4 > Final Package-Record Sync Refresh
+    After the V4 zip was rebuilt to avoid zip self-hash drift, node36 added the external package record to the RAG scope and rebuilt the default index one more time. This final refresh is the authoritative promoted index for ...
+
+[6] score=0.6526  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/STATE.md
+    sect: MaoField — PROJECT STATE (canonical 单一真相源) > §7 指针 (detail 去哪找)
+    l_scope_active_20260701_1352_draftreview_v11_fix.txt` + build log + smoke files locating report(15), V11 prompt, V11 package/boundary; exact live hashes, scope, and chunk counts live only in sidecars/build log to avoid s ...
+
+[7] score=0.6524  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/rag_rebuild_20260622/README.md
+    sect: MaoField RAG Rebuild — 2026-06-22 > Files
+    e v1 and updating project indexes. - `rag_build_node22_20260625_1811_formalv1package.log` — D625 node22 build log   after adding the Formal v1 harness, prompt, and node142 package record. - `rag_build_node22_20260625_215 ...
+
+[8] score=0.6509  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/MD_CATALOG.md
+    sect: MaoField MD_CATALOG — 全 ~429 md 分层梳理 (navigate reference) > §0 新 session 导航 TL;DR ★最重要 > 导航 ACTIVE 核心与 D628 当前入口 (该看)
+    `, scope file `canonical_scope_active_20260701_1352_draftreview_v11_fix.txt`, and build log `rag_build_node22_candidate_20260701_1352_draftreview_v11_fix.log`; record `docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRES ...
