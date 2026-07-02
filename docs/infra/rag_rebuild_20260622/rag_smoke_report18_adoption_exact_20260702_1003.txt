@@ -1,0 +1,41 @@
+query: Order-Defect Report(18) Adoption Note Source attachment sha256 Archived normalized report sha256 PI_LOCAL_REVIEW_ONLY_KEEP_LOCK_CONFIRMED   (top-8, 源=知识, project=MaoField)
+
+[1] score=0.7614  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/STATE.md
+    sect: MaoField — PROJECT STATE (canonical 单一真相源) > 戳
+    | 项 | 值 | |---|---| | 最后更新 | **2026-07-02 D702 10:03 CST** (`date` verified 10:03:00 CST; source HEAD before this update `0b0ae35`)。Pro report(18) 已归档为 `docs/infra/gpt_deep_research/deep_research_order_defect_pi_local_re ...
+
+[2] score=0.7549  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/ORDER_DEFECT_PI_LOCAL_REVIEW_DECISION_V13_REPORT18_ADOPTION_NOTE_20260702.md
+    sect: Order-Defect Report(18) Adoption Note
+    Date: 2026-07-02 CST Node: node36 Source attachment: `/home/amd/.codex/attachments/35ba728c-c98d-4624-9dc8-d9e0e0184d11/deep-research-report (18).md` Archived report: `docs/infra/gpt_deep_research/deep_research_order_def ...
+
+[3] score=0.7387  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/ORDER_DEFECT_V1_5_FINAL_GATE_AUDIT_ADOPTION_NOTE_20260629.md
+    sect: Order-Defect v1.5 Final-Gate Audit Adoption Note
+    Date: 2026-06-29 CST Source report: `deep_research_order_defect_v1_5_final_gate_audit_20260629.md` Attachment sha256: `006d22bae298053fe2819abd77514033866a47e9be9e73e52a68872ffbca1d7d` Local adoption: `v1_5_final_gate_wa ...
+
+[4] score=0.7124  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/ORDER_DEFECT_PROOF_REPAIR_RECHECK_REPORT9_ADOPTION_NOTE_20260630.md
+    sect: Order-Defect Proof-Repair Recheck Report 9 Adoption Note
+    Date: 2026-06-30 CST Source report: `deep_research_order_defect_proof_repair_recheck_report9_20260630.md` Source sha256: `be486334cb1d9765cc4bf64f9c34ba43d664b84ae7c64685841d06a2428dc979` Local verdict: `LOCAL_DRAFT_OK_B ...
+
+[5] score=0.7115  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/FORMAL_RESIDUAL_TRANSPORT_V1_3_ORDER_DEFECT_PROOF_AUDIT_ADOPTION_NOTE_20260628.md
+    sect: Formal Residual Transport v1.3 Order-Defect Proof-Audit Adoption Note
+    Date: 2026-06-28 CST Scope: node36 adoption of report (32), archived as `deep_research_formal_residual_transport_v1_3_order_defect_proof_audit_20260628.md`.  Report attachment sha256:  ```text a41cb203f5ac66138898822bad5 ...
+
+[6] score=0.7104  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/ORDER_DEFECT_DRAFT_AUTHORIZATION_V9_REPORT14_ADOPTION_NOTE_20260701.md
+    sect: Order-Defect Report(14) Adoption Note
+    Date: 2026-07-01 CST Source report: `deep_research_order_defect_draft_authorization_v9_report14_20260701.md` Source sha256: `ced146463534cbc6fe331c9b8203645f48551aeee5a40b6bac732fea0c237ff2` Node36 status: narrow adoptio ...
+
+[7] score=0.7046  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/ORDER_DEFECT_BOUNDARY_LOCKED_DRAFT_V10_REPORT15_ADOPTION_NOTE_20260701.md
+    sect: Order-Defect Report(15) Adoption Note > Source Archive
+    Canonical copy:  ```text docs/infra/gpt_deep_research/deep_research_order_defect_boundary_locked_draft_v10_report15_20260701.md ```  Source sha256:  ```text 3c818b5da17ba066758706719917b5b959358080f1098a3c6c86c6ab27ff4bf ...
+
+[8] score=0.7019  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/ORDER_DEFECT_PI_LOCAL_REVIEW_DECISION_V13_REPORT18_ADOPTION_NOTE_20260702.md
+    sect: Order-Defect Report(18) Adoption Note > External Verdict
+    Report(18) returned:  ```text CONFIRM_PI_LOCAL_REVIEW_ONLY_KEEP_LOCK ``` ...

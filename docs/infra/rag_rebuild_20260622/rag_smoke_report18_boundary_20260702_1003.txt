@@ -1,0 +1,41 @@
+query: BOUNDARY_LOCKED_LOCAL_DRAFT_CANDIDATE_ONLY insufficient_artifact report18 no paper-ready no English draft   (top-8, 源=知识, project=MaoField)
+
+[1] score=0.6965  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_order_defect_boundary_locked_draft_v10_report15_20260701.md
+    sect: (无标题)
+    BOUNDARY_LOCKED_LOCAL_DRAFT_CANDIDATE ...
+
+[2] score=0.6901  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_19_PACKAGE_ORDER_DEFECT_BOUNDARY_LOCKED_DRAFT_REVIEW_V11_20260701.md
+    sect: Node19 Package Record -- Order-Defect Boundary-Locked Draft Review V11 > Boundary
+    Current local state:  ```text RECEIVE_LOCAL_DRAFT_CANDIDATE_UNDER_LOCK_PREPARE_V11_REVIEW BOUNDARY_LOCKED_LOCAL_DRAFT_CANDIDATE_ONLY EMERGENCY_LOCK_STILL_ACTIVE ```  Current live labels:  ```text Proposition 1: COMPLETE_ ...
+
+[3] score=0.6808  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_order_defect_boundary_locked_draft_v10_report15_20260701.md
+    sect: 边界锁定有限加权顺序缺陷短札局部草稿候选 > Boundary Ledger
+    **Release blockers.** 对任何公共发布而言，当前仍有实质性 blocker：emergency lock 仍在；整体状态仍是 `BOUNDARY_LOCKED_LOCAL_DRAFT_CANDIDATE_ONLY`；Mode B 仍是 `insufficient_artifact`；外部模型输出不得被当作 proof authority、bibliography authority、paper-ready autho ...
+
+[4] score=0.6746  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_order_defect_draft_candidate_review_v11_report16_20260701.md
+    sect: Node36 与 PI 本地审查清单
+    This remains a boundary-locked local draft candidate review only. Node36 and the human PI retain final authority. This is not paper-ready, preprint-ready, posted, or submission-authorized. ...
+
+[5] score=0.6714  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_19_PACKAGE_ORDER_DEFECT_BOUNDARY_LOCKED_DRAFT_V10_20260701.md
+    sect: Node19 Package Record -- Order-Defect Boundary-Locked Draft V10 > Boundary
+    Current local state:  ```text PREPARE_SEPARATE_BOUNDARY_LOCKED_SHORT_NOTE_DRAFTING_PROMPT BOUNDARY_LOCKED_LOCAL_DRAFT_CANDIDATE_ONLY EMERGENCY_LOCK_STILL_ACTIVE ```  Current live labels:  ```text Proposition 1: COMPLETE_ ...
+
+[6] score=0.6673  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_19_PACKAGE_ORDER_DEFECT_PI_DECISION_ENGLISH_REWRITE_GATE_V12_20260701.md
+    sect: Node19 Package Record -- Order-Defect PI Decision And English Rewrite Gate V12 > Boundary
+    Current local state:  ```text PREPARE_PI_DECISION_AND_ENGLISH_REWRITE_GATE_V12 DRAFT_CANDIDATE_ACCEPTABLE_FOR_NODE36_PI_LOCAL_REVIEW_BUT_KEEP_LOCK BOUNDARY_LOCKED_LOCAL_DRAFT_CANDIDATE_ONLY EMERGENCY_LOCK_STILL_ACTIVE `` ...
+
+[7] score=0.6597  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_19_PACKAGE_ORDER_DEFECT_PI_LOCAL_REVIEW_DECISION_V13_20260701.md
+    sect: Node19 Package Record -- Order-Defect PI Local Review Decision V13 > Boundary
+    Current local state:  ```text PREPARE_PI_LOCAL_REVIEW_DECISION_V13 PI_LOCAL_REVIEW_ONLY_KEEP_LOCK BOUNDARY_LOCKED_LOCAL_DRAFT_CANDIDATE_ONLY EMERGENCY_LOCK_STILL_ACTIVE ```  Current live labels:  ```text Proposition 1: C ...
+
+[8] score=0.6591  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/ORDER_DEFECT_BOUNDARY_LOCKED_DRAFT_V10_REPORT15_ADOPTION_NOTE_20260701.md
+    sect: Order-Defect Report(15) Adoption Note > Report Verdict
+    Report(15) returned:  ```text BOUNDARY_LOCKED_LOCAL_DRAFT_CANDIDATE ```  It produced a boundary-locked local short-note draft candidate for the narrow finite weighted order-defect object. ...

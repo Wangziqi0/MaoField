@@ -1,0 +1,2 @@
+21331e9576a16e2aa39af7d24487574c509f110ab070e13c3b1278986ddba564  /home/amd/codex-node36/tmp/orderdefect_report18_pilocalreview_confirmed_20260702_1003/rag/live_backup/kb.faiss
+53de088199338e88db821d07dda3de585f38ff537b672434b39c9043b99eb94c  /home/amd/codex-node36/tmp/orderdefect_report18_pilocalreview_confirmed_20260702_1003/rag/live_backup/kb_meta.jsonl
