@@ -1,0 +1,41 @@
+query: Zenodo release DOI PENDING_NOT_CONFIRMED_BY_NODE36 Zenodo preprint DOI NO   (top-8, 源=知识, project=MaoField)
+
+[1] score=0.7497  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/OPEN_MAOFIELD_ZENODO_V1_0_PREP_20260703.md
+    sect: Open-MaoField Zenodo / v1.0.0 Preparation > Current Release Boundary
+    Prepared but not yet done:  - Zenodo repository integration: `NOT_CONFIRMED_BY_NODE36` - GitHub Release `v1.0.0`: `NOT_CREATED` - Zenodo DOI: `NO` - arXiv / journal submission: `NO` - peer review: `NO`  Do not cite a DOI ...
+
+[2] score=0.7490  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/OPEN_MAOFIELD_GITHUB_RELEASE_V1_0_0_20260703.md
+    sect: Open-MaoField GitHub Release v1.0.0 > Zenodo Status
+    PI reported that the Zenodo GitHub integration for `Wangziqi0/Open-MaoField` was enabled before node36 created the release.  Current DOI state from node36:  ```text Zenodo release DOI: PENDING_NOT_CONFIRMED_BY_NODE36 Zen ...
+
+[3] score=0.7217  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/STATE.md
+    sect: MaoField — PROJECT STATE (canonical 单一真相源) > §0 一句话 + 今天
+     现在是 sanitized public repo + GitHub Release `v1.0.0`, 但 Zenodo DOI 仍未由 node36 确认；不是 Zenodo preprint, 不是 arXiv/journal submission, 不是 peer review。Mode B remains `insufficient_artifact`; duplicate risk remains `MEDIUM`。 -  ...
+
+[4] score=0.6957  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/STATE.md
+    sect: MaoField — PROJECT STATE (canonical 单一真相源) > 戳
+    | 项 | 值 | |---|---| | 最后更新 | **2026-07-03 D703 16:53 CST** (`date` verified 16:53:58 CST; source HEAD before this update `d807dad`)。PI reported Zenodo GitHub integration enabled for `Wangziqi0/Open-MaoField`; node36 then ...
+
+[5] score=0.6608  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/NOTICE.md
+    sect: NOTICE — MaoField v0.1.1 > Archival
+    All release artifacts are mirrored on Zenodo under concept DOI [`10.5281/zenodo.19550341`](https://doi.org/10.5281/zenodo.19550341). Specific version DOIs are issued per release; the v0.1.1 version DOI will be assigned u ...
+
+[6] score=0.6588  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/MD_CATALOG.md
+    sect: MaoField MD_CATALOG — 全 ~429 md 分层梳理 (navigate reference)
+    e notes/checklist, README and MANIFEST updates。Canonical record `docs/infra/OPEN_MAOFIELD_ZENODO_V1_0_PREP_20260703.md` records jq/YAML/MANIFEST/exact-witness/harness checks and official Zenodo doc constraints。Current ro ...
+
+[7] score=0.6582  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/OPEN_MAOFIELD_GITHUB_RELEASE_V1_0_0_20260703.md
+    sect: Open-MaoField GitHub Release v1.0.0 > Next Step
+    1. Wait for Zenodo to finish GitHub release archiving. 2. Copy the generated repository/software release DOI back to node36. 3. Create a separate Zenodo `Publication -> Preprint` upload for the PDF if the    target is a  ...
+
+[8] score=0.6431  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/OPEN_MAOFIELD_PUBLIC_REPO_SEED_20260703.md
+    sect: Open-MaoField Public Repository Seed > Current Release Boundary
+    Published to public GitHub main:  ```text YES ```  Created GitHub Release:  ```text NO ```  Created Zenodo DOI:  ```text NO ```  Compiled V2.4 PDF:  ```text NO ```  Reason: node36 did not have a local LaTeX toolchain dur ...
