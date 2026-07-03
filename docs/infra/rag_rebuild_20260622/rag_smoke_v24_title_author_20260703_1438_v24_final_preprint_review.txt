@@ -1,0 +1,42 @@
+Loading weights:   0%|          | 0/391 [00:00<?, ?it/s]Loading weights: 100%|██████████| 391/391 [00:00<00:00, 56607.40it/s]
+query: V2.4 final Pro review Yifan Chen title duplicate risk   (top-8, 源=知识, project=MaoField)
+
+[1] score=0.6027  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/recovery/FINAL_DUPLICATE_RISK_AND_FORBIDDEN_CLAIMS_REVIEW_20260703.md
+    sect: Final Duplicate-Risk and Forbidden-Claims Review for V2.4 > Verdict
+    ```text LOCAL_PI_REVIEW_ONLY_PASS_AFTER_PATCHES PUBLIC_RELEASE_NOT_AUTHORIZED ```  The V2.4 TeX removed the V2.3 lexical risks around `observed ... field`, `measurement field`, and `Metrics as fields`. It also sets autho ...
+
+[2] score=0.5845  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/MD_CATALOG.md
+    sect: MaoField MD_CATALOG — 全 ~429 md 分层梳理 (navigate reference) > §0 新 session 导航 TL;DR ★最重要 > 导航 ACTIVE 核心与 D628 当前入口 (该看)
+    tex` + `docs/infra/recovery/FORMAL_PREPRINT_V2_4_AUTHOR_TITLE_RELEASE_TASKBOOK_20260703.md` + `docs/infra/recovery/BIBLIOGRAPHY_FINAL_METADATA_AUDIT_20260703.md` + `docs/infra/recovery/FINAL_DUPLICATE_RISK_AND_FORBIDDEN_ ...
+
+[3] score=0.5598  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/NOTICE.md
+    sect: NOTICE — MaoField v0.1.1 > Copyright
+    © 2026 Yifan Chen (Chen Yifan). All rights not explicitly granted by the licenses below are reserved. ...
+
+[4] score=0.5581  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/MD_CATALOG.md
+    sect: MaoField MD_CATALOG — 全 ~429 md 分层梳理 (navigate reference)
+    still no paper-ready / no preprint-ready / no posting / no submission / no broad theory / no Mode B upgrade。 > **2026-07-03 V2.4 final Pro review package prep 补丁**: PI 上传 V2.3 under-lock 包后，node36 生成 `docs/infra/debrande ...
+
+[5] score=0.5535  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/recovery/BIBLIOGRAPHY_FINAL_METADATA_AUDIT_20260703.md
+    sect: Bibliography Final Metadata Audit
+    Date verified on node36: 2026-07-03 14:32 CST Scope: V2.4 final Pro review package Status: `LOCAL_METADATA_SPOT_CHECK_COMPLETE_WITH_MEDIUM_DUPLICATE_RISK` ...
+
+[6] score=0.5524  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/GPT55_PRO_MAOFIELD_FINAL_PREPRINT_REVIEW_V2_4_PROMPT_20260703.md
+    sect: GPT-5.5 Pro Zero-Context Prompt: MaoField Final Preprint Review V2.4 > Current Task
+    Review the V2.4 under-lock preprint source:  ```text from_repo/docs/infra/debranded_residual_transport/PREPRINT_DRAFT_PROGRAMMATIC_V2_4_UNDER_LOCK_20260703.tex ```  The author metadata requested by the PI is:  ```text 陈一 ...
+
+[7] score=0.5475  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/recovery/FORMAL_PREPRINT_V2_4_AUTHOR_TITLE_RELEASE_TASKBOOK_20260703.md
+    sect: Formal Preprint V2.4 Author/Title/Release Taskbook > Boundaries
+    Forbidden in V2.4 and in the final Pro prompt:  - MaoField empirical positive result; - full panel / checkpoint inference / training / new loss; - observed residual, interaction, transport, holonomy, or glass-box result; ...
+
+[8] score=0.5427  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/experiments/exp018_cat/dppl_bridge_verify_d21_output/DEEPSEEK_CHECKPOINT3_STRATEGY_AUDIT_20260527.md
+    sect: DeepSeek Checkpoint 3 战略审计 — 三个二进制决策 + Nature 轨迹判断 > Q3 — 论文 v9 venue: 深度综合建议 drop NeurIPS、保留 ICML/ICLR/EMNLP main track + arXiv + workshop。是否合理? Nature 轨迹下哪个 venue 作为 v9 第一站最有利? > 数据源摘要
+    - 深度综合 §5 (Q5 verdict): "4 道墙之 PR strategy consistent with Q3 verdict (drop NeurIPS 主 track 留 PI 决 + (c) decoupled 之 separate paper v9 之 venue 之 D17 binding 严守) — venue tension 留 D27 关卡 3 + PI 决" - 战略全景 §4.2: trojan hors ...
