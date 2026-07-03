@@ -25,16 +25,16 @@
 \newcommand{\RQBt}{R_{Q\to B}}
 \newcommand{\RBQt}{R_{B\to Q}}
 
-\title{Finite Order Defects as Minimal Obstructions to Residual Metric Audits}
+\title{Finite Projection Order Defects in Residual Metric Audits}
 \author{Author list to be fixed by the human PI}
-\affil{MaoField research programme; preprint candidate, local version}
+\affil{MaoField research programme; local draft candidate under lock}
 \date{3 July 2026}
 
 \begin{document}
 \maketitle
 
 \begin{abstract}
-Evaluation scores for large language models are often treated as scalar measurements, but they are produced by composite procedures: prompt sampling, benchmark design, judge choice, rubric design, post-processing, aggregation weights and, increasingly, model-based evaluators. This note isolates a small mathematical warning about such procedures. In a finite positive weighted two-way table $X=Q\times B$, let $C$ be the constant subspace, $A$ the centred row-main-effect subspace, and $B_0$ the centred column-main-effect subspace in $L^2(w)$. We compare two sequential nuisance-stripping maps, $(I-P_{B_0})(I-P_A)(I-P_C)$ and $(I-P_A)(I-P_{B_0})(I-P_C)$. We prove that product weights are equivalent to $A\perp B_0$, and exactly equivalent to order-independence of the two stripping maps. When the weights are not product form, there exists a pure main-effect witness whose true additive residual is zero while the wrong stripping order produces a non-zero residual-like output. An exact $2\times2$ rational certificate is given, with squared weighted norm $61/177408$. The MaoField part of the manuscript is programmatic, not empirical: it proposes residual-metric audits as a future route for studying when complex black-box metrics measure model behaviour, metric design, or their coupling. No MaoField empirical result is reported here.
+Evaluation scores for large language models are often treated as scalar measurements, but they are produced by composite procedures: prompt sampling, benchmark design, judge choice, rubric design, post-processing, aggregation weights and, increasingly, model-based evaluators. This note isolates a small mathematical warning about such procedures. In a finite positive weighted two-way table $X=Q\times B$, let $C$ be the constant subspace, $A$ the centred row-main-effect subspace, and $B_0$ the centred column-main-effect subspace in $L^2(w)$. We compare two sequential nuisance-stripping maps, $(I-P_{B_0})(I-P_A)(I-P_C)$ and $(I-P_A)(I-P_{B_0})(I-P_C)$. We prove that product weights are equivalent to $A\perp B_0$, and exactly equivalent to order-independence of the two stripping maps. When the weights are not product form, there exists a pure main-effect witness whose true additive residual is zero while the wrong stripping order produces a non-zero residual-like output. An exact $2\times2$ rational certificate is given, with squared weighted norm $61/177408$. The MaoField part of the note is programmatic, not empirical: it proposes residual-metric audits as a future route for studying when complex black-box metrics measure model behaviour, metric design, or their coupling. No MaoField empirical result is reported here.
 \end{abstract}
 
 \paragraph{Draft status and claim boundary.}
@@ -42,6 +42,7 @@ This document is a local draft candidate under lock. It is not paper-ready,
 preprint-ready, public-postable, submitted, accepted, or submission-authorized.
 The established contribution in this note is the finite-dimensional theorem and its exact rational witness. The MaoField sections are a research programme and set of proposed objects for later work. They do not assert a new broad ANOVA theory, a new dependent-input decomposition theory, a new theory of noncommuting projections, or an empirical finding about language models.
 The duplicate-risk status is MEDIUM duplicate risk.
+Mode B MaoField empirical status remains \texttt{insufficient_artifact}; accordingly, no MaoField empirical positive claim is made or authorized anywhere in this draft.
 
 \section{Introduction}
 
@@ -52,7 +53,7 @@ The present note studies a deliberately small object: a finite positive weighted
 The point is not that this two-axis theorem explains language models. It does not. The point is that a non-product sampling or aggregation design can make a sequential residual depend on procedural order. In such a case, a non-zero residual-like quantity can be a measurement artifact rather than evidence of a true interaction term. That distinction is central to any future residual-metric audit of black-box model evaluations.
 
 \paragraph{Contributions.}
-The paper makes three bounded contributions:
+This note makes three bounded contributions:
 \begin{enumerate}[leftmargin=*,itemsep=2pt]
 \item It proves a finite theorem: in $L^2(w)$ on $Q\times B$, centred row and column main-effect spaces are orthogonal exactly when $w(q,b)=w_Q(q)w_B(b)$ for every cell.
 \item It proves that two sequential main-effect stripping maps commute exactly under the same product-weight condition.
@@ -296,7 +297,7 @@ The MaoField direction is to make these questions finite, auditable and algebrai
 
 This note is adjacent to, but not a replacement for, several established literatures. Dependent-input functional decompositions and sensitivity analysis already address the difficulty of attributing output variance when inputs are statistically dependent \cite{hooker2007,chastaing2012,chastaing2015,owenprieur2017,ioossprieur2019,ilidrissi2025,lamboni2026}. Classical projection theory studies products, commutators and canonical forms of projections in far greater generality \cite{halmos1969,boettcherspitkovsky2010,corachmaestripieri2010}. Language-model evaluation research has developed broad benchmark suites, model-based evaluation, trustworthiness audits, hallucination detection and contamination analysis \cite{bigbench2022,helm2022,truthfulqa2021,selfcheckgpt2023,geval2023,mtbench2023,decodingtrust2023,llmevalsurvey2023,contamination2024,rethinkingcontamination2023}.
 
-The contribution here is narrower: a finite weighted two-way projection-order artifact with an exact rational certificate, plus a proposed programme for applying the same audit discipline to residual metrics in language-model evaluation. The duplicate-risk ceiling remains medium because neighbouring literatures already contain rich treatments of dependent inputs, projection products and evaluation validity. The manuscript should therefore remain narrow.
+The contribution here is narrower: a finite weighted two-way projection-order artifact with an exact rational certificate, plus a proposed programme for applying the same audit discipline to residual metrics in language-model evaluation. The duplicate-risk ceiling remains medium because neighbouring literatures already contain rich treatments of dependent inputs, projection products and evaluation validity. The note should therefore remain narrow.
 
 \section{Limitations}
 
@@ -366,7 +367,7 @@ Iooss, B. and Prieur, C. Shapley effects for sensitivity analysis with correlate
 Il Idrissi, M., Bousquet, N., Gamboa, F., Iooss, B. and Loubes, J.-M. Hoeffding decomposition of functions of random dependent variables. Journal of Multivariate Analysis 208, 105444 (2025). doi:10.1016/j.jmva.2025.105444.
 
 \bibitem{lamboni2026}
-Lamboni, M. On ANOVA-type decompositions of functions with non-independent variables. Publisher online record / DOI record (2026). doi:10.1137/24M1712680.
+Lamboni, M. On ANOVA-type decompositions of functions with non-independent variables: sensitivity analysis. SIAM/ASA Journal on Uncertainty Quantification, publisher online record / DOI record (2026). doi:10.1137/24M1712680.
 
 \bibitem{halmos1969}
 Halmos, P. R. Two subspaces. Transactions of the American Mathematical Society 144, 381--389 (1969). doi:10.1090/S0002-9947-1969-0251519-5.
