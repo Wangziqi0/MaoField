@@ -1,0 +1,41 @@
+query: Mode B insufficient_artifact V2.5 final synthesis no empirical positive claim   (top-8, 源=知识, project=MaoField)
+
+[1] score=0.6847  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/FORMAL_PREPRINT_V2_2_STRICT_REVIEW_REPORT23_ADOPTION_NOTE_20260703.md
+    sect: Formal Preprint V2.2 Strict Review Report23 Adoption Note > Required Patch Adopted
+    The V2.2 TeX draft must state the package-global Mode B boundary explicitly:  ```text Mode B MaoField empirical status remains insufficient_artifact; accordingly, no MaoField empirical positive claim is made or authorize ...
+
+[2] score=0.6452  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/MD_CATALOG.md
+    sect: MaoField MD_CATALOG — 全 ~429 md 分层梳理 (navigate reference)
+    andoff / checkpoints / raw empirical data / recovery bundles。当前 public route=`GitHub public seed only`; no GitHub Release, no Zenodo DOI, no compiled PDF; Mode B remains `insufficient_artifact`; duplicate risk remains `M ...
+
+[3] score=0.6355  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/FORMAL_RESIDUAL_TRANSPORT_V1_3_ORDER_DEFECT_PROOF_AUDIT_ADOPTION_NOTE_20260628.md
+    sect: Formal Residual Transport v1.3 Order-Defect Proof-Audit Adoption Note > Evidence Boundary
+    Report (32), the local proof note, and the v1.3 synthetic harness are Mode A finite-dimensional mathematics artifacts. They do not add MaoField data, load checkpoints, run inference, run a full panel, or authorize traini ...
+
+[4] score=0.6284  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/debranded_residual_transport/README_FOR_PRO_FORMALV13_ORDER_DEFECT_IMPLEMENTATION_AUDIT_20260628.md
+    sect: README For GPT-5.5 Pro Formal v1.3 Order-Defect Implementation Audit Package > Evidence Boundary
+    This is Mode A finite-dimensional mathematics only. It is not MaoField empirical validation.  Strongest allowed local verdict:  ```text definitions_and_harness_viable_only ```  Mode B MaoField empirical status:  ```text  ...
+
+[5] score=0.6282  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/debranded_residual_transport/README_FOR_PRO_FORMALV13_ORDER_DEFECT_PROOF_20260628.md
+    sect: README For GPT-5.5 Pro Formal v1.3 Order-Defect Proof Package > Boundary
+    This is a Mode A mathematics package. It is not a MaoField empirical validation package.  Allowed strongest local status:  ```text definitions_and_harness_viable_only ```  Mode B MaoField empirical status:  ```text insuf ...
+
+[6] score=0.6280  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_formal_residual_transport_v1_2_report29_minor_revision_audit_20260628.md
+    sect: Formal v1.2 Report 29 Minor Revision Audit > 最终分类
+    ```text formal_v1_2_patch_accepted_after_minor_revision ```  Mode B MaoField empirical status 仍然必须保持为 `insufficient_artifact`。 ...
+
+[7] score=0.6230  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_mode_a_quotient_residual_kill_framework_20260623.md
+    sect: MaoField 去魅后的底层数学问题与严格击杀框架 > 谨慎回译到 MaoField Mode B
+    现在只准用允许的 verdict 说话。  对**今天**这包材料，关于“稳定非标量结构是否已被证立”的 Mode B 结论，只能是：  \[ \boxed{\texttt{insufficient\_artifact}} \]  原因不在于“smoke 完全没有东西”，而在于：没有 PI 批准的 50-checkpoint full panel；没有 interaction full-panel aggregate；没有 prereg ...
+
+[8] score=0.6228  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_formal_preprint_v2_2_strict_review_report23_20260703.md
+    sect: 严格数学审稿报告 > 详细审稿报告 > 边界语句、Mode B 说明与禁用主张扫描
+    ```latex Mode B MaoField empirical status remains \texttt{insufficient_artifact}. Accordingly, no MaoField empirical positive claim is made or authorized anywhere in this draft. ```  这句与包内现有边界体系相容，不会扩大主张，只会把 package-glob ...
