@@ -1,0 +1,41 @@
+query: Mode B insufficient_artifact duplicate risk MEDIUM no empirical positive v1.0.0   (top-8, 源=知识, project=MaoField)
+
+[1] score=0.7089  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/OPEN_MAOFIELD_ZENODO_V1_0_PREP_20260703.md
+    sect: Open-MaoField Zenodo / v1.0.0 Preparation > Claim Boundary
+    This v1.0.0 preparation does not change the scientific ceiling:  - Mode B MaoField empirical status remains `insufficient_artifact`. - Duplicate risk remains `MEDIUM`. - No MaoField empirical positive result is claimed.  ...
+
+[2] score=0.6709  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_formal_residual_transport_v1_2_report29_minor_revision_audit_20260628.md
+    sect: Formal v1.2 Report 29 Minor Revision Audit > 最终分类
+    ```text formal_v1_2_patch_accepted_after_minor_revision ```  Mode B MaoField empirical status 仍然必须保持为 `insufficient_artifact`。 ...
+
+[3] score=0.6514  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/debranded_residual_transport/EXACT_WITNESS_V1_4_20260629.md
+    sect: Exact Witness Certificate v1.4 -- Order Defect > Boundary
+    Allowed ceiling:  ```text definitions_and_harness_viable_only ```  Mode B MaoField empirical status:  ```text insufficient_artifact ``` ...
+
+[4] score=0.6447  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_order_defect_local_draft_lock_audit_v5_report10_20260630.md
+    sect: Order-Defect Local-Draft Lock Audit V5 > Proof Labels
+    RAFT_LOCKED_TASKBOOK_20260630.md:95`；`from_repo/docs/infra/recovery/ORDER_DEFECT_D630_REPORT9_LOCAL_VERIFICATION_20260630.md:79,88`；`from_repo/docs/infra/debranded_residual_transport/SYNTHETIC_HARNESS_V1_3_20260628.md:7- ...
+
+[5] score=0.6403  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_formal_residual_transport_v1_2_implementation_audit_20260627.md
+    sect: Formal Residual Transport v1.2 实现审计报告 > 通俗解释与最终分类
+    并且无论这个分类如何，Mode B MaoField empirical status 都必须保持：  **insufficient_artifact**〔证据：00-README_FOR_142_AND_PRO.md:15-19；prompt/GPT55_PRO_FOUNDATIONAL_RESIDUAL_TRANSPORT_V1_2_IMPLEMENTATION_AUDIT_PROMPT_20260627.md:24-32；from ...
+
+[6] score=0.6400  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/FORMAL_PREPRINT_V2_2_STRICT_REVIEW_REPORT23_ADOPTION_NOTE_20260703.md
+    sect: Formal Preprint V2.2 Strict Review Report23 Adoption Note > Required Patch Adopted
+    The V2.2 TeX draft must state the package-global Mode B boundary explicitly:  ```text Mode B MaoField empirical status remains insufficient_artifact; accordingly, no MaoField empirical positive claim is made or authorize ...
+
+[7] score=0.6398  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_formal_preprint_v2_2_strict_review_report23_20260703.md
+    sect: 严格数学审稿报告 > 详细审稿报告 > 边界语句、Mode B 说明与禁用主张扫描
+    **2）真正的边界缺口：TeX 草稿未明写 Mode B = `insufficient_artifact`。** 包内短提示明确要求 `Mode B remains insufficient_artifact; no MaoField empirical positive claim is allowed`；严格审稿提示也再次锁定该状态；draft-gate taskbook 更明写“must not change Mode B be ...
+
+[8] score=0.6393  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/experiments/exp018_cat/dppl_bridge_verify_d21_output/PATH_AC_PRIOR_ART_DEEP_DIVE_D22_20260522.md
+    sect: Path A + C 之 LLM 域 prior art 深度研究 D22 (2026-05-22) > 4. 实验启动方案 candidate (3 选项 binary 评估) > 4.5 binary 推荐 ranking (但 final 决留 PI + Linux 姐姐 + 反题三方决)
+     code dev fail 之 risk 之 partial active** (sub-agent A D21 之 3 次 deliverable bug case 之 lesson 之 之 复杂 instrument code 之 multi-iteration 之 expect) 3. **★★ candidate B (minimum viable)** — **NOT recommended 之 honest binary* ...

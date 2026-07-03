@@ -1,0 +1,41 @@
+query: Zenodo integration NOT_CONFIRMED_BY_NODE36 GitHub Release NO Zenodo DOI NO   (top-8, 源=知识, project=MaoField)
+
+[1] score=0.8472  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/OPEN_MAOFIELD_ZENODO_V1_0_PREP_20260703.md
+    sect: Open-MaoField Zenodo / v1.0.0 Preparation > Current Release Boundary
+    Prepared but not yet done:  - Zenodo repository integration: `NOT_CONFIRMED_BY_NODE36` - GitHub Release `v1.0.0`: `NOT_CREATED` - Zenodo DOI: `NO` - arXiv / journal submission: `NO` - peer review: `NO`  Do not cite a DOI ...
+
+[2] score=0.7299  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/OPEN_MAOFIELD_PUBLIC_REPO_SEED_20260703.md
+    sect: Open-MaoField Public Repository Seed > Current Release Boundary
+    Published to public GitHub main:  ```text YES ```  Created GitHub Release:  ```text NO ```  Created Zenodo DOI:  ```text NO ```  Compiled V2.4 PDF:  ```text NO ```  Reason: node36 did not have a local LaTeX toolchain dur ...
+
+[3] score=0.7235  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/OPEN_MAOFIELD_ZENODO_V1_0_PREP_20260703.md
+    sect: Open-MaoField Zenodo / v1.0.0 Preparation > Next Step
+    Human owner should enable `Wangziqi0/Open-MaoField` in Zenodo first. Only after that should node36 create the GitHub Release `v1.0.0`, so Zenodo can archive the release and mint the DOI. ...
+
+[4] score=0.7151  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/STATE.md
+    sect: MaoField — PROJECT STATE (canonical 单一真相源) > §0 一句话 + 今天
+    , 不是 GitHub Release, 不是 Zenodo DOI, 不是 arXiv/journal submission, 不是 peer review。Mode B remains `insufficient_artifact`; duplicate risk remains `MEDIUM`。 - **下一步建议**: PI 在 Zenodo 网页端启用 `Wangziqi0/Open-MaoField` 后, 再由 node ...
+
+[5] score=0.6712  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_OPEN_MAOFIELD_ZENODO_V1_0_FINALSYNC_20260703.md
+    sect: Node22 Vector Refresh -- Open-MaoField Zenodo / v1.0.0 Finalsync > Boundary
+    This refresh must not be treated as evidence that Zenodo integration has been enabled, a GitHub Release exists, a Zenodo DOI exists, a preprint has been posted, an arXiv/journal submission has occurred, peer review has o ...
+
+[6] score=0.6711  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_OPEN_MAOFIELD_ZENODO_V1_0_PREP_20260703.md
+    sect: Node22 Vector Refresh -- Open-MaoField Zenodo / v1.0.0 Prep > Boundary
+    This refresh must not be treated as evidence that Zenodo integration has been enabled, a GitHub Release exists, a Zenodo DOI exists, a preprint has been posted, an arXiv/journal submission has occurred, peer review has o ...
+
+[7] score=0.6563  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/STATE.md
+    sect: MaoField — PROJECT STATE (canonical 单一真相源) > 戳
+    e in same-tag sidecars under `docs/infra/rag_rebuild_20260622/`; record=`docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_OPEN_MAOFIELD_ZENODO_V1_0_FINALSYNC_20260703.md`。Current public route=`Open-MaoField public G ...
+
+[8] score=0.6486  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/OPEN_MAOFIELD_ZENODO_V1_0_PREP_20260703.md
+    sect: Open-MaoField Zenodo / v1.0.0 Preparation > Zenodo Rules Verified From Official Docs
+    Zenodo official help says:  - A repository must be enabled from Zenodo's GitHub settings before new   releases are automatically ingested and archived. - `.zenodo.json` can provide Zenodo-specific metadata. - If both `.z ...

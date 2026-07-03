@@ -1,0 +1,41 @@
+query: MaoField Mode B insufficient_artifact duplicate risk MEDIUM no empirical positive   (top-8, 源=知识, project=MaoField)
+
+[1] score=0.7720  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/OPEN_MAOFIELD_ZENODO_V1_0_PREP_20260703.md
+    sect: Open-MaoField Zenodo / v1.0.0 Preparation > Claim Boundary
+    This v1.0.0 preparation does not change the scientific ceiling:  - Mode B MaoField empirical status remains `insufficient_artifact`. - Duplicate risk remains `MEDIUM`. - No MaoField empirical positive result is claimed.  ...
+
+[2] score=0.7602  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_formal_residual_transport_v1_2_report29_minor_revision_audit_20260628.md
+    sect: Formal v1.2 Report 29 Minor Revision Audit > 最终分类
+    ```text formal_v1_2_patch_accepted_after_minor_revision ```  Mode B MaoField empirical status 仍然必须保持为 `insufficient_artifact`。 ...
+
+[3] score=0.7425  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/debranded_residual_transport/EXACT_WITNESS_V1_4_20260629.md
+    sect: Exact Witness Certificate v1.4 -- Order Defect > Boundary
+    Allowed ceiling:  ```text definitions_and_harness_viable_only ```  Mode B MaoField empirical status:  ```text insufficient_artifact ``` ...
+
+[4] score=0.7379  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/debranded_residual_transport/README_FOR_PRO_ORDER_DEFECT_PREPRINT_FINAL_GATE_20260629.md
+    sect: README For GPT-5.5 Pro — Order-Defect Preprint Final Gate > Evidence Boundary
+    This is not MaoField empirical validation. It does not authorize:  - checkpoint loading; - inference; - training; - full-panel generation; - a new loss; - claims that any MaoField residual / interaction / quotient-residu ...
+
+[5] score=0.7379  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/debranded_residual_transport/README_FOR_PRO_ORDER_DEFECT_PAPER_DRAFT_V16_20260629.md
+    sect: README For GPT-5.5 Pro -- Order-Defect Paper Draft v1.6 > Evidence Boundary
+    This is not MaoField empirical validation. It does not authorize:  - checkpoint loading; - inference; - training; - full-panel generation; - a new loss; - claims that any MaoField residual / interaction / quotient-residu ...
+
+[6] score=0.7313  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/FORMAL_PREPRINT_V2_2_STRICT_REVIEW_REPORT23_ADOPTION_NOTE_20260703.md
+    sect: Formal Preprint V2.2 Strict Review Report23 Adoption Note > Required Patch Adopted
+    The V2.2 TeX draft must state the package-global Mode B boundary explicitly:  ```text Mode B MaoField empirical status remains insufficient_artifact; accordingly, no MaoField empirical positive claim is made or authorize ...
+
+[7] score=0.7273  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/debranded_residual_transport/README_FOR_PRO_FORMALV13_ORDER_DEFECT_IMPLEMENTATION_AUDIT_20260628.md
+    sect: README For GPT-5.5 Pro Formal v1.3 Order-Defect Implementation Audit Package > Evidence Boundary
+    This is Mode A finite-dimensional mathematics only. It is not MaoField empirical validation.  Strongest allowed local verdict:  ```text definitions_and_harness_viable_only ```  Mode B MaoField empirical status:  ```text  ...
+
+[8] score=0.7221  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/debranded_residual_transport/README_FOR_PRO_FORMALV13_ORDER_DEFECT_PROOF_20260628.md
+    sect: README For GPT-5.5 Pro Formal v1.3 Order-Defect Proof Package > Boundary
+    This is a Mode A mathematics package. It is not a MaoField empirical validation package.  Allowed strongest local status:  ```text definitions_and_harness_viable_only ```  Mode B MaoField empirical status:  ```text insuf ...
