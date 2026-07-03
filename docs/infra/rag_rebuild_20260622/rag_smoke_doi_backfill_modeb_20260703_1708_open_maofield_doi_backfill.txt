@@ -1,0 +1,41 @@
+query: Mode B insufficient_artifact duplicate risk MEDIUM DOI backfill no empirical positive   (top-8, 源=知识, project=MaoField)
+
+[1] score=0.6996  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/MD_CATALOG.md
+    sect: MaoField MD_CATALOG — 全 ~429 md 分层梳理 (navigate reference)
+    Mode B remains `insufficient_artifact`; duplicate risk remains `MEDIUM`; if target is formal preprint, create separate Zenodo `Publication -> Preprint` upload and reserve DOI before PDF DOI backfill。 > **2026-07-03 Open- ...
+
+[2] score=0.6923  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/OPEN_MAOFIELD_ZENODO_V1_0_PREP_20260703.md
+    sect: Open-MaoField Zenodo / v1.0.0 Preparation > Claim Boundary
+    This v1.0.0 preparation does not change the scientific ceiling:  - Mode B MaoField empirical status remains `insufficient_artifact`. - Duplicate risk remains `MEDIUM`. - No MaoField empirical positive result is claimed.  ...
+
+[3] score=0.6543  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/OPEN_MAOFIELD_ZENODO_DOI_BACKFILL_20260703.md
+    sect: Open-MaoField Zenodo DOI Backfill > Boundary
+    - This is now a citable repository/software release DOI. - It is not a peer-reviewed publication. - It is not an arXiv/journal submission. - It is not a separate Zenodo preprint DOI. - It does not change Mode B MaoField  ...
+
+[4] score=0.6527  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_formal_residual_transport_v1_2_report29_minor_revision_audit_20260628.md
+    sect: Formal v1.2 Report 29 Minor Revision Audit > 最终分类
+    ```text formal_v1_2_patch_accepted_after_minor_revision ```  Mode B MaoField empirical status 仍然必须保持为 `insufficient_artifact`。 ...
+
+[5] score=0.6475  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/FORMAL_PREPRINT_V2_2_STRICT_REVIEW_REPORT23_ADOPTION_NOTE_20260703.md
+    sect: Formal Preprint V2.2 Strict Review Report23 Adoption Note > Required Patch Adopted
+    The V2.2 TeX draft must state the package-global Mode B boundary explicitly:  ```text Mode B MaoField empirical status remains insufficient_artifact; accordingly, no MaoField empirical positive claim is made or authorize ...
+
+[6] score=0.6425  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_formal_preprint_v2_2_strict_review_report23_20260703.md
+    sect: 严格数学审稿报告 > 详细审稿报告 > 边界语句、Mode B 说明与禁用主张扫描
+    **2）真正的边界缺口：TeX 草稿未明写 Mode B = `insufficient_artifact`。** 包内短提示明确要求 `Mode B remains insufficient_artifact; no MaoField empirical positive claim is allowed`；严格审稿提示也再次锁定该状态；draft-gate taskbook 更明写“must not change Mode B be ...
+
+[7] score=0.6405  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/recovery/FORMAL_PREPRINT_V2_2_REPORT23_LOCAL_VERIFICATION_20260703.md
+    sect: Formal Preprint V2.2 Report23 Local Verification > Applied Local Patches
+    - Added explicit Mode B boundary to the TeX draft:   `Mode B MaoField empirical status remains insufficient_artifact; accordingly,   no MaoField empirical positive claim is made or authorized anywhere in this   draft.` - ...
+
+[8] score=0.6376  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/MD_CATALOG.md
+    sect: MaoField MD_CATALOG — 全 ~429 md 分层梳理 (navigate reference)
+    andoff / checkpoints / raw empirical data / recovery bundles。当前 public route=`GitHub public seed only`; no GitHub Release, no Zenodo DOI, no compiled PDF; Mode B remains `insufficient_artifact`; duplicate risk remains `M ...

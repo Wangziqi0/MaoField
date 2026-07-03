@@ -50,6 +50,7 @@
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/OPEN_MAOFIELD_GITHUB_RELEASE_V1_0_0_20260703.md
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/OPEN_MAOFIELD_PUBLIC_REPO_SEED_20260703.md
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/OPEN_MAOFIELD_PUBLIC_REPO_V2_5_FINAL_SYNTHESIS_20260703.md
+/media/amd/raid1/canonical/projects/MaoField/docs/infra/OPEN_MAOFIELD_ZENODO_DOI_BACKFILL_20260703.md
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/OPEN_MAOFIELD_ZENODO_V1_0_PREP_20260703.md
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/debranded_residual_transport/BIBLIOGRAPHY_AND_POSITIONING_V1_5_20260629.md
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/debranded_residual_transport/EXACT_WITNESS_V1_4_20260629.md
@@ -230,6 +231,7 @@
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_FORMALV1_20260625.md
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_FORMALV1_PACKAGE_20260625.md
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_MODEA_20260623.md
+/media/amd/raid1/canonical/projects/MaoField/docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_OPEN_MAOFIELD_DOI_BACKFILL_20260703.md
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_OPEN_MAOFIELD_RELEASE_V1_0_0_20260703.md
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_OPEN_MAOFIELD_ZENODO_V1_0_FINALSYNC_20260703.md
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_OPEN_MAOFIELD_ZENODO_V1_0_PREP_20260703.md

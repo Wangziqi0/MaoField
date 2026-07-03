@@ -1,0 +1,41 @@
+query: repository software release DOI not separate Zenodo Publication Preprint DOI   (top-8, 源=知识, project=MaoField)
+
+[1] score=0.7059  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/STATE.md
+    sect: MaoField — PROJECT STATE (canonical 单一真相源) > 戳
+    le repository/software DOI, not a formal Zenodo `Publication -> Preprint` DOI; do not claim broad theory, empirical MaoField positive result, full panel, checkpoint inference, training, new loss, observed residual/intera ...
+
+[2] score=0.6989  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/NOTICE.md
+    sect: NOTICE — MaoField v0.1.1 > Archival
+    All release artifacts are mirrored on Zenodo under concept DOI [`10.5281/zenodo.19550341`](https://doi.org/10.5281/zenodo.19550341). Specific version DOIs are issued per release; the v0.1.1 version DOI will be assigned u ...
+
+[3] score=0.6840  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/OPEN_MAOFIELD_ZENODO_V1_0_PREP_20260703.md
+    sect: Open-MaoField Zenodo / v1.0.0 Preparation > Current Release Boundary
+    Prepared but not yet done:  - Zenodo repository integration: `NOT_CONFIRMED_BY_NODE36` - GitHub Release `v1.0.0`: `NOT_CREATED` - Zenodo DOI: `NO` - arXiv / journal submission: `NO` - peer review: `NO`  Do not cite a DOI ...
+
+[4] score=0.6726  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/OPEN_MAOFIELD_GITHUB_RELEASE_V1_0_0_20260703.md
+    sect: Open-MaoField GitHub Release v1.0.0 > Next Step
+    1. Wait for Zenodo to finish GitHub release archiving. 2. Copy the generated repository/software release DOI back to node36. 3. Create a separate Zenodo `Publication -> Preprint` upload for the PDF if the    target is a  ...
+
+[5] score=0.6692  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/OPEN_MAOFIELD_GITHUB_RELEASE_V1_0_0_20260703.md
+    sect: Open-MaoField GitHub Release v1.0.0 > Zenodo Status
+    PI reported that the Zenodo GitHub integration for `Wangziqi0/Open-MaoField` was enabled before node36 created the release.  Current DOI state from node36:  ```text Zenodo release DOI: PENDING_NOT_CONFIRMED_BY_NODE36 Zen ...
+
+[6] score=0.6664  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/MD_CATALOG.md
+    sect: MaoField MD_CATALOG — 全 ~429 md 分层梳理 (navigate reference)
+    Mode B remains `insufficient_artifact`; duplicate risk remains `MEDIUM`; if target is formal preprint, create separate Zenodo `Publication -> Preprint` upload and reserve DOI before PDF DOI backfill。 > **2026-07-03 Open- ...
+
+[7] score=0.6658  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/OPEN_MAOFIELD_ZENODO_DOI_BACKFILL_20260703.md
+    sect: Open-MaoField Zenodo DOI Backfill > Next Step For Formal Preprint
+    If PI wants a formal Zenodo preprint, create a separate Zenodo upload:  ```text Resource type: Publication Publication type: Preprint Main file: paper/preprint.pdf ```  Reserve that preprint DOI before publication if the ...
+
+[8] score=0.6591  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/OPEN_MAOFIELD_ZENODO_DOI_BACKFILL_20260703.md
+    sect: Open-MaoField Zenodo DOI Backfill > Boundary
+    - This is now a citable repository/software release DOI. - It is not a peer-reviewed publication. - It is not an arXiv/journal submission. - It is not a separate Zenodo preprint DOI. - It does not change Mode B MaoField  ...
