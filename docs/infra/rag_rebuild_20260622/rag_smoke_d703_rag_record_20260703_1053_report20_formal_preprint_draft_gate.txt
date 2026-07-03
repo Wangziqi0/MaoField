@@ -1,0 +1,32 @@
+query: NODE22_VECTOR_REFRESH_ORDERDEFECT_REPORT20_FORMAL_PREPRINT_DRAFT_GATE sidecar hashes node22 stopped   (top-6, 源=知识, project=MaoField)
+
+[1] score=0.6789  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_ORDERDEFECT_PI_DECISION_ENGLISH_REWRITE_GATE_V12_20260701.md
+    sect: Node22 Vector Refresh -- Order-Defect PI Decision And English Rewrite Gate V12 > Node22 Lifecycle
+    Node36 owns scope, manifest, hash verification, and promotion. Node22 is only a temporary embedding worker. Stop any temporary node22 service after the build and record the stopped status in a sidecar. ...
+
+[2] score=0.6789  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_ORDERDEFECT_BOUNDARY_LOCKED_DRAFT_V10_20260701.md
+    sect: Node22 Vector Refresh -- Order-Defect Boundary-Locked Draft V10 > Node22 Lifecycle
+    Node36 owns scope, manifest, hash verification, and promotion. Node22 is only a temporary embedding worker. Stop any temporary node22 service after the build and record the stopped status in a sidecar. ...
+
+[3] score=0.6789  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_ORDERDEFECT_BOUNDARY_LOCKED_DRAFT_REVIEW_V11_20260701.md
+    sect: Node22 Vector Refresh -- Order-Defect Boundary-Locked Draft Review V11 > Node22 Lifecycle
+    Node36 owns scope, manifest, hash verification, and promotion. Node22 is only a temporary embedding worker. Stop any temporary node22 service after the build and record the stopped status in a sidecar. ...
+
+[4] score=0.6788  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_ORDERDEFECT_PI_LOCAL_REVIEW_CONFIRMED_REPORT18_20260702.md
+    sect: Node22 Vector Refresh -- Order-Defect PI Local Review Confirmed Report18 > Node22 Lifecycle
+    Node36 owns scope, manifest, hash verification, and promotion. Node22 is only a temporary embedding worker. Stop any temporary node22 service after the build and record the stopped status in a sidecar. ...
+
+[5] score=0.6788  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_ORDERDEFECT_PI_LOCAL_REVIEW_DECISION_V13_20260701.md
+    sect: Node22 Vector Refresh -- Order-Defect PI Local Review Decision V13 > Node22 Lifecycle
+    Node36 owns scope, manifest, hash verification, and promotion. Node22 is only a temporary embedding worker. Stop any temporary node22 service after the build and record the stopped status in a sidecar. ...
+
+[6] score=0.6437  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_ORDERDEFECT_HUMAN_DECISION_UNDER_LOCK_V8_20260630.md
+    sect: Node22 Vector Refresh -- Order-Defect Human Decision Under Lock V8 > Self-Hash-Safe Policy
+    Exact live index hashes, scope file counts, chunk counts, node22 status, and smoke outputs are intentionally kept in sidecar files and the build log. This Markdown does not embed final live hashes to avoid self-hash drif ...
+

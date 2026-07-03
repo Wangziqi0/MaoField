@@ -83,6 +83,12 @@ def main() -> None:
     parser.add_argument("--endpoint", default="http://192.168.31.22:18080")
     parser.add_argument("--model", default="bge-m3-temp")
     parser.add_argument("--batch-size", type=int, default=32)
+    parser.add_argument(
+        "--max-input-chars",
+        type=int,
+        default=3000,
+        help="truncate text sent to the HTTP embedding server; metadata keeps the original chunk text",
+    )
     parser.add_argument("--timeout", type=int, default=120)
     parser.add_argument("--retries", type=int, default=3)
     parser.add_argument("--target", type=int, default=450)
@@ -109,7 +115,11 @@ def main() -> None:
         raise SystemExit("no chunks")
 
     texts = [record["text"] for record in records]
-    batches = list(chunks(texts, args.batch_size))
+    if args.max_input_chars > 0:
+        texts_for_embedding = [text[:args.max_input_chars] for text in texts]
+    else:
+        texts_for_embedding = texts
+    batches = list(chunks(texts_for_embedding, args.batch_size))
     vec_parts: list[np.ndarray] = []
     t0 = time.time()
     print(
@@ -120,7 +130,7 @@ def main() -> None:
         vec_parts.append(embed_batch(args.endpoint, args.model, batch, args.timeout, args.retries))
         if idx == 1 or idx % 10 == 0 or idx == len(batches):
             elapsed = time.time() - t0
-            done = min(idx * args.batch_size, len(texts))
+            done = min(idx * args.batch_size, len(texts_for_embedding))
             rate = done / elapsed if elapsed > 0 else 0.0
             print(f"  embedded_batches={idx}/{len(batches)} texts={done}/{len(texts)} rate={rate:.2f} text/s")
     vecs = np.vstack(vec_parts).astype("float32", copy=False)
@@ -136,7 +146,7 @@ def main() -> None:
     print("[4/4] wrote index")
     print(f"      faiss={index_path} bytes={index_path.stat().st_size} vectors={index.ntotal} dim={vecs.shape[1]}")
     print(f"      meta={meta_path} bytes={meta_path.stat().st_size}")
-    print(f"[stat] files={len(files)} chunks={len(records)} embed_seconds={embed_seconds:.1f} rate={len(texts) / embed_seconds:.3f}text/s")
+    print(f"[stat] files={len(files)} chunks={len(records)} embed_seconds={embed_seconds:.1f} rate={len(texts_for_embedding) / embed_seconds:.3f}text/s max_input_chars={args.max_input_chars}")
 
 
 if __name__ == "__main__":

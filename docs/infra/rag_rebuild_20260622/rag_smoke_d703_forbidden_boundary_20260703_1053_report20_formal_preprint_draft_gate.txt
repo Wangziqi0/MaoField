@@ -1,0 +1,42 @@
+query: not paper-ready not preprint-ready not posted not submission-authorized medium duplicate risk harness regression support   (top-8, 源=知识, project=MaoField)
+
+[1] score=0.6412  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/STATE.md
+    sect: MaoField — PROJECT STATE (canonical 单一真相源) > 戳
+    ck, **not** paper-ready / preprint-ready / posting / submission。当前 live labels: Prop1/Prop2/Prop3=`COMPLETE_LOCAL_DRAFT` only inside controlled finite positive weighted two-way-table object; exact 2x2 witness=`CERTIFICAT ...
+
+[2] score=0.6345  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_order_defect_boundary_locked_draft_v10_report15_20260701.md
+    sect: 边界锁定有限加权顺序缺陷短札局部草稿候选 > 局限、禁断断言与 Node36/PI 发布前检查
+    在进入任何公共发布决定之前，Node36 与 human PI 至少需要逐项复核以下事项：其一，确认外部模型输出没有越过上述禁断断言；其二，确认命题标签、证书标签、harness 标签、书目风险标签与整体状态标签保持原样；其三，确认正文只讨论有限正权二向表对象及其局部解析证明依赖；其四，确认 exact witness 仍只作为 certificate，而 harness 仍只作为 regression support；其五，确认 bi ...
+
+[3] score=0.6343  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_order_defect_preprint_rigor_audit_20260629.md
+    sect: Order-Defect 预印本占位稿严格审计报告 > 一页裁决
+    预印本发布决定是：  **revisе first。**  不是“不要写”，也不是“数学推倒重来”，而是先完成三件事再贴：补齐 related work；把 harness 降格成“regression support, not proof”；再在正文或附录里补一个 exact symbolic check，用分数而不是十进制浮点来锁死主见证。这样处理后，它可以成为一篇学术上诚实的 4–6 页短 note；不这样处理，最容易出的问题不是 ...
+
+[4] score=0.6343  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_order_defect_v1_4_exact_bibliography_audit_20260629.md
+    sect: Order-Defect v1.4 精确附录与书目审计报告 > 证明与边界审计
+    harness 边界则是**明显改善，但尚未彻底统一**。好的部分是：`PREPRINT_PLACEHOLDER_ORDER_DEFECT_20260629.md:71-76` 已经写出 “This harness is not a proof artifact”；`SYNTHETIC_HARNESS_V1_3_20260628.md:96-104` 更明确写成 “The harness is regression support on ...
+
+[5] score=0.6313  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_ORDERDEFECT_POST_V6_DECISION_GATE_V7_20260630.md
+    sect: Node22 Vector Refresh -- Order-Defect Post-V6 Decision Gate V7 > Boundary
+    This refresh does not authorize paper-body drafting, paper-ready wording, preprint-ready wording, emergency-lock lifting, full panel, checkpoint inference, training, new loss, observed residual/interaction/transport/holo ...
+
+[6] score=0.6264  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/ORDER_DEFECT_METADATA_LABEL_PATCH_V6_REPORT11_ADOPTION_NOTE_20260630.md
+    sect: Order-Defect Metadata/Label Patch V6 Report 11 Adoption Note > Not Authorized
+    Report(11) does not authorize:  - paper-body drafting; - preprint posting; - paper-ready or preprint-ready wording; - lifting the external-model emergency lock; - treating GPT output as proof or bibliography authority; - ...
+
+[7] score=0.6262  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_order_defect_pi_decision_gate_v12_report17_20260701.md
+    sect: 剩余软风险
+    第一，`MEDIUM duplicate risk` 是实质性风险，不是礼貌性保留。只要措辞稍微外扩到“general theory / ANOVA-type decomposition / projection theory”，就会重新撞上近邻文献边界，因此英文重写在方向和语气上都需要 PI 先定得非常窄。（见 `BIBLIOGRAPHY_AND_POSITIONING_V1_5_20260629.md` 17-31, 53-80；` ...
+
+[8] score=0.6253  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_order_defect_draft_candidate_review_v11_report16_20260701.md
+    sect: 残留软风险
+    第一，report(15) 在 “Harness 边界与相关工作重复风险” 一段里仍保留了一个包外路径引用：`/tmp/orderdefect_v10/rerun/harness.json`。这不是当前 bundle 内证据路径，因此属于归档卫生风险，而不是数学主干风险。它不妨碍 node36/PI 做本地审阅，但在后续继续整理本地说明稿时，最好把这一处统一改写为 bundle 内文件引用，例如 `from_repo/docs/infr ...
+

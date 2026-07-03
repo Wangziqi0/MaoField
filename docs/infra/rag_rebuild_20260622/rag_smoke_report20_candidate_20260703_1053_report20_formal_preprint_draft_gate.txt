@@ -1,0 +1,42 @@
+query: report20 English preprint candidate V1 formal preprint draft gate   (top-8, 源=知识, project=MaoField)
+
+[1] score=0.7249  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/ORDER_DEFECT_ENGLISH_PREPRINT_CANDIDATE_V1_REPORT20_ADOPTION_NOTE_20260703.md
+    sect: Order-Defect Report(20) Adoption Note > Next Gate
+    The next local work may extract report(20)'s English V1 into a clean standalone preprint draft candidate only under a new gate:  ```text docs/infra/recovery/ORDER_DEFECT_D703_FORMAL_PREPRINT_DRAFT_GATE_TASKBOOK_20260703. ...
+
+[2] score=0.7110  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/ORDER_DEFECT_ENGLISH_PREPRINT_CANDIDATE_V1_REPORT20_ADOPTION_NOTE_20260703.md
+    sect: Order-Defect Report(20) Adoption Note > External Verdict
+    Report(20) returned an English V1 draft candidate and explicitly framed it as:  ```text independent English preprint candidate V1 for local review only ```  It also preserved the closing boundary:  ```text This is not pa ...
+
+[3] score=0.7088  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/recovery/ORDER_DEFECT_D703_FORMAL_PREPRINT_DRAFT_GATE_TASKBOOK_20260703.md
+    sect: Order-Defect D703 Formal Preprint Draft Gate Taskbook > Purpose
+    This taskbook opens a local formal preprint drafting gate for the narrow order-defect note. It is a drafting gate, not a public-release gate.  The gate exists because report(20) produced a narrow English V1 candidate for ...
+
+[4] score=0.6846  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/MD_CATALOG.md
+    sect: MaoField MD_CATALOG — 全 ~429 md 分层梳理 (navigate reference)
+    tive next-Pro prompt/package; 下一步必须由 human PI 选择: 中文锁内本地审阅 / 另开 English rewrite gate / 先补 bibliography / stop-park。emergency lock remains active; no English draft / no paper-ready / no preprint-ready / no posting / no su ...
+
+[5] score=0.6818  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/STATE.md
+    sect: MaoField — PROJECT STATE (canonical 单一真相源) > 戳
+    | 项 | 值 | |---|---| | 最后更新 | **2026-07-03 D703 10:53 CST** (`date` verified 10:53:35 CST; source HEAD before this update `63ed133`)。Pro report(20) 已归档为 `docs/infra/gpt_deep_research/deep_research_order_defect_english_pre ...
+
+[6] score=0.6703  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/recovery/ORDER_DEFECT_D703_REPORT20_LOCAL_VERIFICATION_20260703.md
+    sect: Order-Defect D703 Report20 Local Verification
+    Date: 2026-07-03 CST Node: node36 Purpose: local evidence check before adopting report(20) as the next formal preprint draft-gate input. ...
+
+[7] score=0.6697  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/STATE.md
+    sect: MaoField — PROJECT STATE (canonical 单一真相源) > §7 指针 (detail 去哪找)
+    22/NODE22_VECTOR_REFRESH_ORDERDEFECT_RECOVERY_REPAIR_V2_20260630.md` (Pro/agent consensus: `KEEP_LOCK_AND_FIX`; Gate 1/2 supported for recovery audit only; external-model lock remains; old v1.6 paper-draft prompt is supe ...
+
+[8] score=0.6592  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/MD_CATALOG.md
+    sect: MaoField MD_CATALOG — 全 ~429 md 分层梳理 (navigate reference)
+    GATE_PROMPT_20260629.md`, `DEBRANDED_RESIDUAL_TRANSPORT_19_PACKAGE_ORDER_DEFECT_PREPRINT_FINAL_GATE_V15_20260629.md`。Pro v1.4 exact/bibliography audit 分类=`preprint_requires_minor_bibliography_or_wording_fixes`; node36 采纳 ...
+

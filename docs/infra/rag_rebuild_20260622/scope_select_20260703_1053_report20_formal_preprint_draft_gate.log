@@ -1,0 +1,10 @@
+=== scope dry-run (照 RAG_INDEX_SCOPE.md) ===
+INCLUDE 池总: 801
+  MaoField:    697
+  Shape-CFD:   100
+  其余(真相源/knowledge): 4
+  layer [A]: 552   [S]标注(不进默认检索): 249
+  --only-active 输出数: 552
+    其中 [S] 由 layer_map 精确判定: 249   仅 S_STEMS fallback 命中(精确未覆盖): 0
+  自检 法律语料命中(应=0): 0
+白名单写入: docs/infra/rag_rebuild_20260622/canonical_scope_active_20260703_1053_report20_formal_preprint_draft_gate.txt (552 行)
