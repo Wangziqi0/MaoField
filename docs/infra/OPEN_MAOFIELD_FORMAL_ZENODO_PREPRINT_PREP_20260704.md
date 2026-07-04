@@ -2,6 +2,14 @@
 
 Date verified: 2026-07-04 11:10:50 CST.
 
+Superseded status note, added 2026-07-04 18:24 CST:
+
+```text
+This preparation record is superseded by the published formal Zenodo preprint
+record docs/infra/OPEN_MAOFIELD_FORMAL_ZENODO_PREPRINT_PUBLISHED_20260704.md.
+The live formal preprint DOI is 10.5281/zenodo.21190475.
+```
+
 Canonical repo HEAD at preflight: `d2b91c5 docs(release): record Open-MaoField Zenodo DOI`.
 
 Public repo preflight source:
@@ -76,4 +84,3 @@ Forbidden:
 ## Current Hard Stop
 
 Do not call the current Zenodo software DOI a formal preprint DOI. The formal preprint becomes live only after the separate Zenodo `Publication -> Preprint` upload is published.
-

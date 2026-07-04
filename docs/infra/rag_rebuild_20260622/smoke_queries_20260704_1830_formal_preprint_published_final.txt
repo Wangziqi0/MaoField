@@ -1,0 +1,85 @@
+--- query: formal Zenodo preprint published DOI 21190475 Open-MaoField superseded prep guide ---
+query: formal Zenodo preprint published DOI 21190475 Open-MaoField superseded prep guide   (top-8, 源=知识, project=MaoField)
+
+[1] score=0.7571  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/OPEN_MAOFIELD_ZENODO_PREPRINT_UPLOAD_GUIDE_20260704.md
+    sect: Open-MaoField Zenodo Formal Preprint Upload Guide
+    Date verified: 2026-07-04 16:48:36 CST.  Superseded status note, added 2026-07-04 18:24 CST:  ```text This upload guide is superseded by the published formal Zenodo preprint record docs/infra/OPEN_MAOFIELD_FORMAL_ZENODO_ ...
+
+[2] score=0.7554  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/OPEN_MAOFIELD_FORMAL_ZENODO_PREPRINT_PREP_20260704.md
+    sect: Open-MaoField Formal Zenodo Preprint Prep
+    Date verified: 2026-07-04 11:10:50 CST.  Superseded status note, added 2026-07-04 18:24 CST:  ```text This preparation record is superseded by the published formal Zenodo preprint record docs/infra/OPEN_MAOFIELD_FORMAL_Z ...
+
+[3] score=0.7061  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/MD_CATALOG.md
+    sect: MaoField MD_CATALOG — 全 ~429 md 分层梳理 (navigate reference)
+    ODE19_DELIVERY_20260704.md`。Status remains `READY_TO_RESERVE_FORMAL_PREPRINT_DOI`; formal preprint DOI still `NO` until Zenodo `Publication -> Preprint` is published。 > **2026-07-04 formal Zenodo preprint published 补丁**: ...
+
+[4] score=0.6995  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/OPEN_MAOFIELD_FORMAL_ZENODO_PREPRINT_PUBLISHED_20260704.md
+    sect: Open-MaoField Formal Zenodo Preprint Published > Public Repository Backfill
+    The public Open-MaoField repository was updated after Zenodo publication:  ```text Repository: https://github.com/Wangziqi0/Open-MaoField Previous public HEAD: 7aba164 docs: record Zenodo DOI for v1.0.0 New public HEAD:  ...
+
+[5] score=0.6744  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/OPEN_MAOFIELD_ZENODO_PREPRINT_UPLOAD_GUIDE_20260704.md
+    sect: Open-MaoField Zenodo Formal Preprint Upload Guide > Upload Decision
+    ```text Target: formal Zenodo preprint Current state: READY_TO_RESERVE_FORMAL_PREPRINT_DOI Already published: repository/software DOI 10.5281/zenodo.21157578 Not yet published: separate formal preprint DOI ``` ...
+
+[6] score=0.6720  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/OPEN_MAOFIELD_ZENODO_V1_0_PREP_20260703.md
+    sect: Open-MaoField Zenodo / v1.0.0 Preparation > Public Repository State
+    - Repository: `https://github.com/Wangziqi0/Open-MaoField` - Branch: `main` - Public commit prepared for Zenodo/v1.0.0 metadata:   `a7192065ee1e1ffce23785f906970a308a134ffa` - Commit message: `docs: prepare v1.0.0 zenodo ...
+
+[7] score=0.6690  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/STATE.md
+    sect: MaoField — PROJECT STATE (canonical 单一真相源) > §0 一句话 + 今天
+    - **项目**: MaoField — 原 empirical pilot 仍是 negative-centered / measurement-audit case; 当前主线在同一仓库内转为 debranded finite weighted order-defect local-draft rescue。 - **今天 D704 (2026-07-04)**。Open-MaoField v1.0.0 已有 Zenodo repo ...
+
+[8] score=0.6684  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/STATE.md
+    sect: MaoField — PROJECT STATE (canonical 单一真相源) > 戳
+    l_preprint_published`; active files=`591`; chunks=`11974`; promoted hashes: kb.faiss=`dad06e9d8b86d2fa4da36356f0139975181f83f19ff9bbe74d603410d7123e5e`, kb_meta.jsonl=`f3353cbd4ca0ad613d17a48b79308958ad262e2a3506b8a95731 ...
+
+--- query: PUBLISHED_FORMAL_ZENODO_PREPRINT Mode B insufficient_artifact duplicate risk MEDIUM ---
+query: PUBLISHED_FORMAL_ZENODO_PREPRINT Mode B insufficient_artifact duplicate risk MEDIUM   (top-8, 源=知识, project=MaoField)
+
+[1] score=0.7366  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/MD_CATALOG.md
+    sect: MaoField MD_CATALOG — 全 ~429 md 分层梳理 (navigate reference)
+    Mode B remains `insufficient_artifact`; duplicate risk remains `MEDIUM`; if target is formal preprint, create separate Zenodo `Publication -> Preprint` upload and reserve DOI before PDF DOI backfill。 > **2026-07-03 Open- ...
+
+[2] score=0.6974  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_FORMAL_ZENODO_PREPRINT_PREP_20260704.md
+    sect: Node22 Vector Refresh -- Formal Zenodo Preprint Prep > Smoke Targets
+    Smoke queries locate:  - `docs/infra/OPEN_MAOFIELD_FORMAL_ZENODO_PREPRINT_PREP_20260704.md`; - `docs/infra/OPEN_MAOFIELD_FORMAL_ZENODO_PREPRINT_FORM_VALUES_20260704.md`; - `STATE.md` with `READY_TO_RESERVE_FORMAL_PREPRIN ...
+
+[3] score=0.6770  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_FORMAL_PREPRINT_PUBLISHED_20260704.md
+    sect: Node22 Vector Refresh -- Formal Zenodo Preprint Published > Smoke Targets
+    Smoke queries locate:  - `docs/infra/OPEN_MAOFIELD_FORMAL_ZENODO_PREPRINT_PUBLISHED_20260704.md`; - `MD_CATALOG.md` with the formal-preprint-published patch; - `STATE.md` with `PUBLISHED_FORMAL_ZENODO_PREPRINT_AND_PUBLIC ...
+
+[4] score=0.6730  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/OPEN_MAOFIELD_FORMAL_ZENODO_PREPRINT_PUBLISHED_20260704.md
+    sect: Open-MaoField Formal Zenodo Preprint Published > Boundaries
+    Allowed status claim:  ```text Open-MaoField has a published Zenodo preprint DOI: 10.5281/zenodo.21190475. ```  Still forbidden:  - arXiv submission unless it actually occurs; - journal submission unless it actually occu ...
+
+[5] score=0.6602  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/STATE.md
+    sect: MaoField — PROJECT STATE (canonical 单一真相源) > 戳
+    l_preprint_published`; active files=`591`; chunks=`11974`; promoted hashes: kb.faiss=`dad06e9d8b86d2fa4da36356f0139975181f83f19ff9bbe74d603410d7123e5e`, kb_meta.jsonl=`f3353cbd4ca0ad613d17a48b79308958ad262e2a3506b8a95731 ...
+
+[6] score=0.6535  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_OPEN_MAOFIELD_DOI_BACKFILL_20260703.md
+    sect: Node22 Vector Refresh -- Open-MaoField DOI Backfill > Smoke Targets
+    Smoke queries must locate:  - `docs/infra/OPEN_MAOFIELD_ZENODO_DOI_BACKFILL_20260703.md`; - `STATE.md` with Zenodo repository/software DOI `10.5281/zenodo.21157578`; - concept DOI `10.5281/zenodo.21157577`; - the no-Zeno ...
+
+[7] score=0.6512  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_FORMAL_PREPRINT_NODE19_DELIVERY_20260704.md
+    sect: Node22 Vector Refresh -- Formal Preprint Node19 Delivery > Smoke Targets
+    Smoke queries locate:  - `docs/infra/OPEN_MAOFIELD_ZENODO_PREPRINT_UPLOAD_GUIDE_20260704.md`; - `docs/infra/OPEN_MAOFIELD_FORMAL_ZENODO_PREPRINT_NODE19_DELIVERY_20260704.md`; - node19 desktop delivery paths; - formal Zen ...
+
+[8] score=0.6453  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/STATE.md
+    sect: MaoField — PROJECT STATE (canonical 单一真相源) > §0 一句话 + 今天
+    ex record, and node22 one-shot RAG refresh. - **硬边界**: 这是 Zenodo preprint + public GitHub reproducibility surface, 但不是 peer review, 不是 arXiv/journal submission, 不是 MaoField empirical positive result。Mode B remains `insuf ...

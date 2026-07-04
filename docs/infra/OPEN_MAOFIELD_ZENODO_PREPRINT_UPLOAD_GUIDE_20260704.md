@@ -2,6 +2,14 @@
 
 Date verified: 2026-07-04 16:48:36 CST.
 
+Superseded status note, added 2026-07-04 18:24 CST:
+
+```text
+This upload guide is superseded by the published formal Zenodo preprint record
+docs/infra/OPEN_MAOFIELD_FORMAL_ZENODO_PREPRINT_PUBLISHED_20260704.md.
+The live formal preprint DOI is 10.5281/zenodo.21190475.
+```
+
 Use this guide for a new Zenodo upload. Do not edit the existing GitHub-Zenodo
 software record for this step.
 
@@ -173,4 +181,3 @@ node36 should backfill:
 - canonical release records;
 - RAG index;
 - git commit and push.
-
