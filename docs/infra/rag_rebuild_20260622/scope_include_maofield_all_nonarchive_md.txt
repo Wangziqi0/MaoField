@@ -47,6 +47,8 @@
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/EXPERIMENT_CONVERGENCE_AND_MATH_TURN_20260622.md
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/MAOFIELD_FINAL_PREPRINT_REVIEW_V2_4_PACKAGE_20260703.md
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/MAOFIELD_METRIC_FIELD_PROGRAMMATIC_PREPRINT_V2_PACKAGE_20260703.md
+/media/amd/raid1/canonical/projects/MaoField/docs/infra/MAOFIELD_METRIC_IDENTITY_PROGRAMME_20260704.md
+/media/amd/raid1/canonical/projects/MaoField/docs/infra/MAOFIELD_METRIC_IDENTITY_PROGRAMME_ADOPTION_NOTE_20260704.md
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/OPEN_MAOFIELD_FORMAL_ZENODO_PREPRINT_FORM_VALUES_20260704.md
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/OPEN_MAOFIELD_FORMAL_ZENODO_PREPRINT_NODE19_DELIVERY_20260704.md
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/OPEN_MAOFIELD_FORMAL_ZENODO_PREPRINT_PREP_20260704.md

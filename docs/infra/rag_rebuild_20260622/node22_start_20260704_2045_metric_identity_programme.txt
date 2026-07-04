@@ -1,0 +1,1 @@
+started pid=3417703 port=18080 log=/home/amd/codex-node22/tmp/maofield-rag-vector-20260704_2045_metric_identity_programme/bge-m3-llama-18080.log

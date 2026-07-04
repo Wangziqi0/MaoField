@@ -1,0 +1,171 @@
+--- query: measurement-object identity problem metric-form fetishism ---
+query: measurement-object identity problem metric-form fetishism   (top-8, 源=知识, project=MaoField)
+
+[1] score=0.7275  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/MAOFIELD_METRIC_IDENTITY_PROGRAMME_20260704.md
+    sect: MaoField / Open-MaoField：指标对象同一性、指标形式拜物教与真正解决纲领 > 5. 核心概念二：Metric-Form Fetishism / 指标形式拜物教
+    建议定义：  > **Metric-form fetishism**：异质测量关系通过 score-form 表现为模型自身客观属性的过程。  形式上：  ```text (model, prompt distribution, task, judge, rubric, decoding, weighting, aggregation, chart) → score → 被误认为 model-property ```  它不是简单的“指 ...
+
+[2] score=0.7110  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/MAOFIELD_METRIC_IDENTITY_PROGRAMME_20260704.md
+    sect: MaoField / Open-MaoField：指标对象同一性、指标形式拜物教与真正解决纲领 > 18. 可用的项目宗旨表述 > 18.3 English version
+    ```text MaoField studies the material conditions under which metric outputs can be treated as identical objects across black-box evaluation charts. Its critical target is metric-form fetishism: the transformation of hete ...
+
+[3] score=0.6917  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/MAOFIELD_METRIC_IDENTITY_PROGRAMME_20260704.md
+    sect: MaoField / Open-MaoField：指标对象同一性、指标形式拜物教与真正解决纲领 > 16. 建议的下一步技术对象 > 16.2 Metric-Form Fetishism 定义段
+    可写入 future paper：  ```text Metric-form fetishism is the process by which a heterogeneous measurement relation (model, prompt distribution, task, judge, rubric, decoding, weighting, aggregation, chart) appears as an objec ...
+
+[4] score=0.6493  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/MAOFIELD_METRIC_IDENTITY_PROGRAMME_20260704.md
+    sect: MaoField / Open-MaoField：指标对象同一性、指标形式拜物教与真正解决纲领 > 12. 为什么这不是“哲学硬加”
+    它不是把马列毛术语外部贴到 LLM evaluation 上，而是存在结构同构与可形式化落点：  | 马列毛范畴 | MaoField 中的技术落点 | |---|---| | 商品拜物教 | metric-form fetishism | | 社会关系表现为物的属性 | measurement relation 表现为 model-property | | 对立统一 | prompt / judge / rubric / weight ...
+
+[5] score=0.6442  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/MAOFIELD_METRIC_IDENTITY_PROGRAMME_ADOPTION_NOTE_20260704.md
+    sect: MaoField Metric-Identity Programme Adoption Note > Local Adoption
+    Adopt the note as a programme-framing and next-direction document, not as proof, not as a paper-ready manuscript, and not as empirical evidence.  The core adopted direction is:  ```text MaoField Phase II studies the meas ...
+
+[6] score=0.6165  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/STATE.md
+    sect: MaoField — PROJECT STATE (canonical 单一真相源) > 戳
+    | 项 | 值 | |---|---| | 最后更新 | **2026-07-04 D704 20:42 CST** (`date` verified 20:42:40 CST)。PI supplied `maofield_metric_identity_programme.md`; node36 read it and canonicalized it as `docs/infra/MAOFIELD_METRIC_IDENTITY_P ...
+
+[7] score=0.5794  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/MAOFIELD_METRIC_IDENTITY_PROGRAMME_20260704.md
+    sect: MaoField / Open-MaoField：指标对象同一性、指标形式拜物教与真正解决纲领 > 19. 结论
+    本轮讨论后的项目主线应当是：  ```text 不是：批判旧测量范式。 而是：解决指标对象同一性问题。 ```  也就是说：  ```text 1. 指标形式会把异质测量关系物化为模型属性。 2. 这种属性是否成立，不应被默认，而应被证明。 3. 当前 Open-MaoField 的小定理证明：这种同一性至少在 residual audit chart 中不是免费的。 4. 后续 MaoField 要建立一套从 metric-form  ...
+
+[8] score=0.5776  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/MD_CATALOG.md
+    sect: MaoField MD_CATALOG — 全 ~429 md 分层梳理 (navigate reference)
+    sufficient_artifact`; duplicate risk remains `MEDIUM`。 > **2026-07-04 metric-identity programme 补丁**: PI supplied `maofield_metric_identity_programme.md`; node36 canonicalized it as `docs/infra/MAOFIELD_METRIC_IDENTITY_P ...
+
+--- query: evaluation chart identity condition defect certificate audit-order instability OI(w) ---
+query: evaluation chart identity condition defect certificate audit-order instability OI(w)   (top-8, 源=知识, project=MaoField)
+
+[1] score=0.7060  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/MAOFIELD_METRIC_IDENTITY_PROGRAMME_ADOPTION_NOTE_20260704.md
+    sect: MaoField Metric-Identity Programme Adoption Note > Technical Commitments
+    The adopted programme must be translated into finite objects, not only philosophical language:  - define evaluation charts, e.g. `c = (P, T, J, R, D, w, A_g, S)`; - define metric outputs as chart-dependent objects `M_c(m ...
+
+[2] score=0.6291  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_metric_field_programme_reframe_report21_20260703.md
+    sect: 7. 文章结构应重排 > 5. Future mathematical objects
+    具体列对象，不空喊：  ```text multi-axis finite weighted audit cubes near-product perturbation bounds commutator norm as instability index residual chart equivalence classes weight-sensitive leaderboard rank stability judge-order  ...
+
+[3] score=0.6183  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/STATE.md
+    sect: MaoField — PROJECT STATE (canonical 单一真相源) > 戳
+    | 项 | 值 | |---|---| | 最后更新 | **2026-07-04 D704 20:42 CST** (`date` verified 20:42:40 CST)。PI supplied `maofield_metric_identity_programme.md`; node36 read it and canonicalized it as `docs/infra/MAOFIELD_METRIC_IDENTITY_P ...
+
+[4] score=0.6080  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/MAOFIELD_METRIC_IDENTITY_PROGRAMME_20260704.md
+    sect: MaoField / Open-MaoField：指标对象同一性、指标形式拜物教与真正解决纲领 > 16. 建议的下一步技术对象 > 16.3 Exact Certificate Library
+    建议目录：  ```text certificates/   2x2_minimal_order_defect/   2x3_product_control/   2x3_near_product_small_defect/   3x3_large_commutator/   contamination_weight_coupling/   judge_order_defect/   ranking_instability_toy/ ` ...
+
+[5] score=0.5972  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_metric_field_programme_reframe_report21_20260703.md
+    sect: 7. 文章结构应重排 > 4. MaoField programme: metric complexes as audit objects
+    这里正式占位：  ```text evaluation table metric field residual chart order-defect audit contamination coupling judge coupling aggregation coupling temporal drift ``` ...
+
+[6] score=0.5935  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/MD_CATALOG.md
+    sect: MaoField MD_CATALOG — 全 ~429 md 分层梳理 (navigate reference)
+    sufficient_artifact`; duplicate risk remains `MEDIUM`。 > **2026-07-04 metric-identity programme 补丁**: PI supplied `maofield_metric_identity_programme.md`; node36 canonicalized it as `docs/infra/MAOFIELD_METRIC_IDENTITY_P ...
+
+[7] score=0.5901  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/debranded_residual_transport/FORMAL_NOTE_V1_3_ORDER_DEFECT_20260628.md
+    sect: Finite Weighted Residual Transport -- Formal Note v1.3
+    Date: 2026-06-28 CST  Status: Mode A finite-dimensional order-defect proof note after report (32). This is not a MaoField empirical result.  Source workplan and audit:  ```text docs/infra/debranded_residual_transport/FOR ...
+
+[8] score=0.5881  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/GPT55_PRO_ORDER_DEFECT_PAPER_DRAFT_V16_PROMPT_20260629.md
+    sect: GPT-5.5 Pro Zero-Context Prompt: Order-Defect Paper Draft v1.6 > Primary Files To Inspect
+    _audit_20260629.md from_repo/docs/infra/gpt_deep_research/ORDER_DEFECT_V1_5_FINAL_GATE_AUDIT_ADOPTION_NOTE_20260629.md from_repo/docs/infra/gpt_deep_research/deep_research_order_defect_v1_4_exact_bibliography_audit_20260 ...
+
+--- query: metric-form fetishism measurement relation model property MaoField ---
+query: metric-form fetishism measurement relation model property MaoField   (top-8, 源=知识, project=MaoField)
+
+[1] score=0.8167  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/MAOFIELD_METRIC_IDENTITY_PROGRAMME_20260704.md
+    sect: MaoField / Open-MaoField：指标对象同一性、指标形式拜物教与真正解决纲领 > 18. 可用的项目宗旨表述 > 18.3 English version
+    ```text MaoField studies the material conditions under which metric outputs can be treated as identical objects across black-box evaluation charts. Its critical target is metric-form fetishism: the transformation of hete ...
+
+[2] score=0.7247  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/MAOFIELD_METRIC_IDENTITY_PROGRAMME_20260704.md
+    sect: MaoField / Open-MaoField：指标对象同一性、指标形式拜物教与真正解决纲领 > 5. 核心概念二：Metric-Form Fetishism / 指标形式拜物教
+    建议定义：  > **Metric-form fetishism**：异质测量关系通过 score-form 表现为模型自身客观属性的过程。  形式上：  ```text (model, prompt distribution, task, judge, rubric, decoding, weighting, aggregation, chart) → score → 被误认为 model-property ```  它不是简单的“指 ...
+
+[3] score=0.6750  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/MAOFIELD_METRIC_IDENTITY_PROGRAMME_20260704.md
+    sect: MaoField / Open-MaoField：指标对象同一性、指标形式拜物教与真正解决纲领 > 18. 可用的项目宗旨表述 > 18.1 中文短版
+    ```text MaoField 研究的是：在什么物质条件下，不同黑箱评估图表中的指标输出可以被当作同一个测量对象。它批判的核心不是某个 benchmark，而是指标形式拜物教：异质测量关系被转化为看似内在的模型属性。 ``` ...
+
+[4] score=0.6624  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/MAOFIELD_METRIC_IDENTITY_PROGRAMME_20260704.md
+    sect: MaoField / Open-MaoField：指标对象同一性、指标形式拜物教与真正解决纲领 > 12. 为什么这不是“哲学硬加”
+    它不是把马列毛术语外部贴到 LLM evaluation 上，而是存在结构同构与可形式化落点：  | 马列毛范畴 | MaoField 中的技术落点 | |---|---| | 商品拜物教 | metric-form fetishism | | 社会关系表现为物的属性 | measurement relation 表现为 model-property | | 对立统一 | prompt / judge / rubric / weight ...
+
+[5] score=0.6613  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/MAOFIELD_METRIC_IDENTITY_PROGRAMME_20260704.md
+    sect: MaoField / Open-MaoField：指标对象同一性、指标形式拜物教与真正解决纲领 > 16. 建议的下一步技术对象 > 16.2 Metric-Form Fetishism 定义段
+    可写入 future paper：  ```text Metric-form fetishism is the process by which a heterogeneous measurement relation (model, prompt distribution, task, judge, rubric, decoding, weighting, aggregation, chart) appears as an objec ...
+
+[6] score=0.6498  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/MAOFIELD_METRIC_IDENTITY_PROGRAMME_ADOPTION_NOTE_20260704.md
+    sect: MaoField Metric-Identity Programme Adoption Note > Local Adoption
+    Adopt the note as a programme-framing and next-direction document, not as proof, not as a paper-ready manuscript, and not as empirical evidence.  The core adopted direction is:  ```text MaoField Phase II studies the meas ...
+
+[7] score=0.6482  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/MAOFIELD_METRIC_IDENTITY_PROGRAMME_20260704.md
+    sect: MaoField / Open-MaoField：指标对象同一性、指标形式拜物教与真正解决纲领 > 19. 结论
+    本轮讨论后的项目主线应当是：  ```text 不是：批判旧测量范式。 而是：解决指标对象同一性问题。 ```  也就是说：  ```text 1. 指标形式会把异质测量关系物化为模型属性。 2. 这种属性是否成立，不应被默认，而应被证明。 3. 当前 Open-MaoField 的小定理证明：这种同一性至少在 residual audit chart 中不是免费的。 4. 后续 MaoField 要建立一套从 metric-form  ...
+
+[8] score=0.6137  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/STATE.md
+    sect: MaoField — PROJECT STATE (canonical 单一真相源) > 戳
+    | 项 | 值 | |---|---| | 最后更新 | **2026-07-04 D704 20:42 CST** (`date` verified 20:42:40 CST)。PI supplied `maofield_metric_identity_programme.md`; node36 read it and canonicalized it as `docs/infra/MAOFIELD_METRIC_IDENTITY_P ...
+
+--- query: Phase II metric identity programme insufficient_artifact duplicate risk MEDIUM ---
+query: Phase II metric identity programme insufficient_artifact duplicate risk MEDIUM   (top-8, 源=知识, project=MaoField)
+
+[1] score=0.7411  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/MD_CATALOG.md
+    sect: MaoField MD_CATALOG — 全 ~429 md 分层梳理 (navigate reference)
+    sufficient_artifact`; duplicate risk remains `MEDIUM`。 > **2026-07-04 metric-identity programme 补丁**: PI supplied `maofield_metric_identity_programme.md`; node36 canonicalized it as `docs/infra/MAOFIELD_METRIC_IDENTITY_P ...
+
+[2] score=0.6427  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_order_defect_local_draft_lock_audit_v5_report10_20260630.md
+    sect: Order-Defect Local-Draft Lock Audit V5 > Proof Labels
+    RAFT_LOCKED_TASKBOOK_20260630.md:95`；`from_repo/docs/infra/recovery/ORDER_DEFECT_D630_REPORT9_LOCAL_VERIFICATION_20260630.md:79,88`；`from_repo/docs/infra/debranded_residual_transport/SYNTHETIC_HARNESS_V1_3_20260628.md:7- ...
+
+[3] score=0.6394  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_order_defect_proof_repair_recheck_report9_20260630.md
+    sect: Order-Defect Proof-Repair Recheck V4 审计报告 > Bibliography Risks
+    **Duplicate-risk class**  ```text MEDIUM ```  这里的 `MEDIUM` 不是说发现了 exact duplicate；bundle 反而明确说 “No exact duplicate is identified”。我给 `MEDIUM` 的原因是：在 narrow artifact framing 下，精确重复风险低，但 2025–2026 的近邻文献，尤其 Il Idrissi et al ...
+
+[4] score=0.6072  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/STATE.md
+    sect: MaoField — PROJECT STATE (canonical 单一真相源) > §0 一句话 + 今天
+    ty programme note, adopt core into STATE, then rebuild RAG with node22 one-shot vector refresh. - **硬边界**: 这是 Zenodo preprint + public GitHub reproducibility surface, 但不是 peer review, 不是 arXiv/journal submission, 不是 MaoF ...
+
+[5] score=0.5793  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_order_defect_v1_5_final_gate_audit_20260629.md
+    sect: Order-Defect 预印本终门审计 > 文献地板与重复风险
+    关于 duplicate risk，我的判断是：**当前更像 overclaim risk，而不是 exact duplicate risk**。我检查到的稳定近邻记录都在 broad dependent-input decomposition、Shapley/sensitivity、two-projections / two-subspaces 背景里，但没有看到一个稳定记录与这份 bundle 当前锁定的狭义命题完全同构：即“fin ...
+
+[6] score=0.5784  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/MD_CATALOG.md
+    sect: MaoField MD_CATALOG — 全 ~429 md 分层梳理 (navigate reference)
+    artifact`, 旧 q4 aggregate `invalid_artifact`, strongest verdict=`eligible_for_next_design_review_only`。不运行 full panel / 不训练 / 不授权 new loss；默认 RAG 已刷新到 333 active md / 8916 chunks。 > **2026-06-23 report(19) quotient-resid ...
+
+[7] score=0.5778  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/recovery/FINAL_DUPLICATE_RISK_AND_FORBIDDEN_CLAIMS_REVIEW_20260703.md
+    sect: Final Duplicate-Risk and Forbidden-Claims Review for V2.4 > Duplicate Risk
+    Current duplicate risk:  ```text MEDIUM duplicate risk ```  Do not lower this before public release. The project may say the draft is a narrow finite illustrative order-defect note. It must not say that no close work exi ...
+
+[8] score=0.5764  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_order_defect_local_draft_lock_audit_v5_report10_20260630.md
+    sect: Order-Defect Local-Draft Lock Audit V5 > Remaining Blockers
+    bibliography/duplicate-risk 边界则没有发现需要反向收紧的新问题。`BIBLIOGRAPHY_AND_POSITIONING_V1_5_20260629.md` 与 bibliography rescue audit 都把 safe claim 限定在 “finite weighted projection-order artifact note with an exact 2×2 witness”，并显式排除 ...
