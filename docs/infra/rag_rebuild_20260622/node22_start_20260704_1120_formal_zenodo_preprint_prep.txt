@@ -1,0 +1,2 @@
+not running: no pidfile /home/amd/codex-node22/tmp/maofield-rag-vector-20260704_1120_formal_zenodo_preprint_prep/bge-m3-llama-18080.pid
+started pid=3382261 port=18080 log=/home/amd/codex-node22/tmp/maofield-rag-vector-20260704_1120_formal_zenodo_preprint_prep/bge-m3-llama-18080.log

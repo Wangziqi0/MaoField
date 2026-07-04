@@ -1,0 +1,42 @@
+query: READY_TO_RESERVE_FORMAL_PREPRINT_DOI formal Zenodo preprint package form values   (top-8, 源=知识, project=MaoField)
+
+[1] score=0.7855  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/OPEN_MAOFIELD_FORMAL_ZENODO_PREPRINT_PREP_20260704.md
+    sect: Open-MaoField Formal Zenodo Preprint Prep > Verdict
+    ```text READY_TO_RESERVE_FORMAL_PREPRINT_DOI ```  This is not yet `PUBLISHED_FORMAL_PREPRINT`.  The existing Zenodo DOI `10.5281/zenodo.21157578` is a repository/software release DOI. For a formal preprint, create a new  ...
+
+[2] score=0.7239  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/STATE.md
+    sect: MaoField — PROJECT STATE (canonical 单一真相源) > 戳
+    | 项 | 值 | |---|---| | 最后更新 | **2026-07-04 D704 11:10 CST** (`date` verified 11:10:50 CST; source HEAD before this update `d2b91c5`)。Formal Zenodo preprint preparation was run from the public Open-MaoField release surface ...
+
+[3] score=0.6734  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/OPEN_MAOFIELD_FORMAL_ZENODO_PREPRINT_PREP_20260704.md
+    sect: Open-MaoField Formal Zenodo Preprint Prep > Recommended Release Sequence
+    1. Create a new Zenodo upload. 2. Choose `Publication -> Preprint`. 3. Fill the form using `OPEN_MAOFIELD_FORMAL_ZENODO_PREPRINT_FORM_VALUES_20260704.md`. 4. Upload `paper/preprint.pdf` as the primary manuscript. 5. Add  ...
+
+[4] score=0.6648  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/MD_CATALOG.md
+    sect: MaoField MD_CATALOG — 全 ~429 md 分层梳理 (navigate reference)
+    Mode B remains `insufficient_artifact`; duplicate risk remains `MEDIUM`; if target is formal preprint, create separate Zenodo `Publication -> Preprint` upload and reserve DOI before PDF DOI backfill。 > **2026-07-03 Open- ...
+
+[5] score=0.6594  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/STATE.md
+    sect: MaoField — PROJECT STATE (canonical 单一真相源) > §0 一句话 + 今天
+    enodo `Publication -> Preprint` 上传包和表单值已准备；public manifest / exact witness / harness / PDF / forbidden-claim / bibliography metadata preflight 完成。 - **硬边界**: 现在是 sanitized public repo + GitHub Release `v1.0.0` + Zenodo r ...
+
+[6] score=0.6560  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/OPEN_MAOFIELD_ZENODO_DOI_BACKFILL_20260703.md
+    sect: Open-MaoField Zenodo DOI Backfill > Next Step For Formal Preprint
+    If PI wants a formal Zenodo preprint, create a separate Zenodo upload:  ```text Resource type: Publication Publication type: Preprint Main file: paper/preprint.pdf ```  Reserve that preprint DOI before publication if the ...
+
+[7] score=0.6494  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/MD_CATALOG.md
+    sect: MaoField MD_CATALOG — 全 ~429 md 分层梳理 (navigate reference)
+    package without publishing it. Canonical docs: `docs/infra/OPEN_MAOFIELD_FORMAL_ZENODO_PREPRINT_PREP_20260704.md` and `docs/infra/OPEN_MAOFIELD_FORMAL_ZENODO_PREPRINT_FORM_VALUES_20260704.md`; upload zip `/home/amd/Deskt ...
+
+[8] score=0.6489  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/STATE.md
+    sect: MaoField — PROJECT STATE (canonical 单一真相源) > §0 一句话 + 今天
+    - **项目**: MaoField — 原 empirical pilot 仍是 negative-centered / measurement-audit case; 当前主线在同一仓库内转为 debranded finite weighted order-defect local-draft rescue。 - **今天 D704 (2026-07-04)**。Open-MaoField v1.0.0 已有 Zenodo repo ...
+

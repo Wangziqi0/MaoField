@@ -1,0 +1,42 @@
+query: Open-MaoField Zenodo preprint form values Yifan Chen title Publication Preprint   (top-8, 源=知识, project=MaoField)
+
+[1] score=0.6432  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/README.md
+    sect: Once scripts/ is populated: > Citation
+    If you use MaoField or build upon its ideas in academic work:  ```bibtex @software{chen2026maofield,   author       = {Chen, Yifan},   title        = {MaoField: A Dialectical-Materialist Framework for Non-Statistical Sem ...
+
+[2] score=0.6399  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/STATE.md
+    sect: MaoField — PROJECT STATE (canonical 单一真相源) > 戳
+    | 项 | 值 | |---|---| | 最后更新 | **2026-07-04 D704 11:10 CST** (`date` verified 11:10:50 CST; source HEAD before this update `d2b91c5`)。Formal Zenodo preprint preparation was run from the public Open-MaoField release surface ...
+
+[3] score=0.6327  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/README_zh.md
+    sect: 当 scripts/ 就绪后： > 引用
+    学术工作中使用或基于 MaoField 的理念时：  ```bibtex @software{chen2026maofield,   author       = {Chen, Yifan},   title        = {MaoField: A Dialectical-Materialist Framework for Non-Statistical Semantic Representation},   year        ...
+
+[4] score=0.6244  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/OPEN_MAOFIELD_ZENODO_V1_0_PREP_20260703.md
+    sect: Open-MaoField Zenodo / v1.0.0 Preparation > Public Repository State
+    - Repository: `https://github.com/Wangziqi0/Open-MaoField` - Branch: `main` - Public commit prepared for Zenodo/v1.0.0 metadata:   `a7192065ee1e1ffce23785f906970a308a134ffa` - Commit message: `docs: prepare v1.0.0 zenodo ...
+
+[5] score=0.6148  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/README.md
+    sect: Documentation
+    Extended documentation for the MaoField framework. ...
+
+[6] score=0.6138  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/MAOFIELD_FINAL_PREPRINT_REVIEW_V2_4_PACKAGE_20260703.md
+    sect: MaoField Final Preprint Review V2.4 Package Record > Boundary
+    Author metadata requested by PI:  ```text 陈一凡 / Yifan Chen ```  Selected title:  ```text Finite Projection Order Defects in Residual Metric Audits: A Mathematical Starting Point for Black-Box Evaluation ```  Current stat ...
+
+[7] score=0.6025  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/OPEN_MAOFIELD_FORMAL_ZENODO_PREPRINT_FORM_VALUES_20260704.md
+    sect: Open-MaoField Zenodo Preprint Form Values > Related Identifiers
+    Repository/software release DOI:  ```text 10.5281/zenodo.21157578 ```  Zenodo concept DOI for the repository/software release:  ```text 10.5281/zenodo.21157577 ```  GitHub release:  ```text https://github.com/Wangziqi0/O ...
+
+[8] score=0.5962  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/OPEN_MAOFIELD_FORMAL_ZENODO_PREPRINT_FORM_VALUES_20260704.md
+    sect: Open-MaoField Zenodo Preprint Form Values > Creators
+    ```text Yifan Chen ```  If Zenodo requires family/given split:  ```text Family name: Chen Given name: Yifan ``` ...
+

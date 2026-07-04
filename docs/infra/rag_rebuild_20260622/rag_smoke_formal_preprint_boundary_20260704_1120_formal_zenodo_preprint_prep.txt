@@ -1,0 +1,42 @@
+query: formal preprint DOI NO repository software DOI not peer review insufficient_artifact   (top-8, 源=知识, project=MaoField)
+
+[1] score=0.6812  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/OPEN_MAOFIELD_FORMAL_ZENODO_PREPRINT_FORM_VALUES_20260704.md
+    sect: Open-MaoField Zenodo Preprint Form Values > Must Not Write In Zenodo Description
+    - Do not call the repository/software DOI a preprint DOI. - Do not claim peer review. - Do not claim arXiv or journal submission. - Do not claim MaoField empirical positive evidence. - Do not claim broad new ANOVA, depen ...
+
+[2] score=0.6306  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/OPEN_MAOFIELD_ZENODO_V1_0_PREP_20260703.md
+    sect: Open-MaoField Zenodo / v1.0.0 Preparation > Current Release Boundary
+    Prepared but not yet done:  - Zenodo repository integration: `NOT_CONFIRMED_BY_NODE36` - GitHub Release `v1.0.0`: `NOT_CREATED` - Zenodo DOI: `NO` - arXiv / journal submission: `NO` - peer review: `NO`  Do not cite a DOI ...
+
+[3] score=0.6291  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/OPEN_MAOFIELD_ZENODO_DOI_BACKFILL_20260703.md
+    sect: Open-MaoField Zenodo DOI Backfill > Boundary
+    - This is now a citable repository/software release DOI. - It is not a peer-reviewed publication. - It is not an arXiv/journal submission. - It is not a separate Zenodo preprint DOI. - It does not change Mode B MaoField  ...
+
+[4] score=0.6233  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/OPEN_MAOFIELD_FORMAL_ZENODO_PREPRINT_PREP_20260704.md
+    sect: Open-MaoField Formal Zenodo Preprint Prep > Verdict
+    ```text READY_TO_RESERVE_FORMAL_PREPRINT_DOI ```  This is not yet `PUBLISHED_FORMAL_PREPRINT`.  The existing Zenodo DOI `10.5281/zenodo.21157578` is a repository/software release DOI. For a formal preprint, create a new  ...
+
+[5] score=0.6197  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/MD_CATALOG.md
+    sect: MaoField MD_CATALOG — 全 ~429 md 分层梳理 (navigate reference)
+    still no paper-ready / no preprint-ready / no posting / no submission / no broad theory / no Mode B upgrade。 > **2026-07-03 V2.4 final Pro review package prep 补丁**: PI 上传 V2.3 under-lock 包后，node36 生成 `docs/infra/debrande ...
+
+[6] score=0.6193  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/STATE.md
+    sect: MaoField — PROJECT STATE (canonical 单一真相源) > 戳
+    ref/arXiv bibliography metadata checked for the core floor. Existing Zenodo DOI remains repository/software DOI=`10.5281/zenodo.21157578`, concept DOI=`10.5281/zenodo.21157577`; Zenodo preprint DOI=`NO`; arXiv/journal su ...
+
+[7] score=0.6188  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/MD_CATALOG.md
+    sect: MaoField MD_CATALOG — 全 ~429 md 分层梳理 (navigate reference)
+    Mode B remains `insufficient_artifact`; duplicate risk remains `MEDIUM`; if target is formal preprint, create separate Zenodo `Publication -> Preprint` upload and reserve DOI before PDF DOI backfill。 > **2026-07-03 Open- ...
+
+[8] score=0.6178  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/OPEN_MAOFIELD_FORMAL_ZENODO_PREPRINT_PREP_20260704.md
+    sect: Open-MaoField Formal Zenodo Preprint Prep > Current Hard Stop
+    Do not call the current Zenodo software DOI a formal preprint DOI. The formal preprint becomes live only after the separate Zenodo `Publication -> Preprint` upload is published. ...
+

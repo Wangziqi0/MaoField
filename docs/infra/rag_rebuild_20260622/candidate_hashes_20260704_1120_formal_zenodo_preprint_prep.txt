@@ -1,0 +1,2 @@
+27b7312d2a799fdb0c125c70d3bfb6894919b37eefed08fd77c545c0a3761c57  /home/amd/codex-node36/tmp/rag_20260704_1120_formal_zenodo_preprint_prep/candidate_index/kb.faiss
+f20a77d47162b380ebe9b17c13b3ac6bb1463cbc074fd35b355f2567c9c3e97f  /home/amd/codex-node36/tmp/rag_20260704_1120_formal_zenodo_preprint_prep/candidate_index/kb_meta.jsonl
