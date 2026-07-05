@@ -1,0 +1,175 @@
+### query: deep_research_finite_glue_certificate_report27 DESIGN_TWO_CHART_GLUE_CERTIFICATE
+Loading weights:   0%|          | 0/391 [00:00<?, ?it/s]Loading weights: 100%|██████████| 391/391 [00:00<00:00, 49380.41it/s]
+query: deep_research_finite_glue_certificate_report27 DESIGN_TWO_CHART_GLUE_CERTIFICATE   (top-8, 源=知识, project=MaoField)
+
+[1] score=0.7655  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/MAOFIELD_PRO_TWO_CHART_GLUE_CERTIFICATE_REPORT27_PACKAGE_20260705.md
+    sect: MaoField Pro Two-Chart Glue Certificate Report27 Package > Canonical Inputs
+    ```text docs/infra/gpt_deep_research/deep_research_finite_glue_certificate_report27_20260705.md docs/infra/gpt_deep_research/FINITE_GLUE_CERTIFICATE_REPORT27_ADOPTION_NOTE_20260705.md docs/infra/recovery/MAOFIELD_D705_TW ...
+
+[2] score=0.7429  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/FINITE_GLUE_CERTIFICATE_REPORT27_ADOPTION_NOTE_20260705.md
+    sect: Finite Glue Certificate Report27 Adoption Note
+    Date verified on node36: 2026-07-05 12:29:43 CST  Source report:  ```text docs/infra/gpt_deep_research/deep_research_finite_glue_certificate_report27_20260705.md ```  Source attachment sha256:  ```text cdee297e2075d04109 ...
+
+[3] score=0.7051  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/FINITE_GLUE_CERTIFICATE_REPORT27_ADOPTION_NOTE_20260705.md
+    sect: Finite Glue Certificate Report27 Adoption Note > What Report27 Means
+    Report27 answers the Report26 finite-glue package and selects:  ```text DESIGN_TWO_CHART_GLUE_CERTIFICATE ```  The intended object is a **primitive exact rational two-chart overlap obstruction certificate**. The primitiv ...
+
+[4] score=0.6957  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_finite_glue_certificate_report27_20260705.md
+    sect: 有限粘合障碍证书严格评估 > 实现规范与最终决定 > 最终决定
+    ```text DESIGN_TWO_CHART_GLUE_CERTIFICATE ```  原因是：当前包已经拥有这个对象所需的全部“硬部件”——有限加权投影语法、exact rational artifact 模板、gluing absorption 的定义矿脉、正负控历史图样，以及被明确接受的 round-level branch 选择；缺的不是定义层本身，而是把它们真正压成一个最小 exact object。相反，若此时退回 ` ...
+
+[5] score=0.6879  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/STATE.md
+    sect: MaoField — PROJECT STATE (canonical 单一真相源) > 戳
+    RO_FINITE_GLUE_OBJECT_CERTIFICATE_PROMPT_20260705.md`; package record=`docs/infra/MAOFIELD_PRO_FINITE_GLUE_OBJECT_REPORT26_PACKAGE_20260705.md`。Node19 package delivered: `C:\Users\amd\Desktop\MaoField_PRO_FiniteGlueObjec ...
+
+[6] score=0.6855  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/MD_CATALOG.md
+    sect: MaoField MD_CATALOG — 全 ~429 md 分层梳理 (navigate reference)
+    pt `docs/infra/gpt_deep_research/GPT55_PRO_FINITE_GLUE_OBJECT_CERTIFICATE_PROMPT_20260705.md`, package record `docs/infra/MAOFIELD_PRO_FINITE_GLUE_OBJECT_REPORT26_PACKAGE_20260705.md`, and RAG record `docs/infra/rag_rebu ...
+
+[7] score=0.6741  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/STATE.md
+    sect: MaoField — PROJECT STATE (canonical 单一真相源) > §0 一句话 + 今天
+    d_20260622/NODE22_VECTOR_REFRESH_FINITE_GLUE_REPORT26_20260705.md`。 - **本轮落地任务**: Report26 says Pro intends `FINITE_GLUE_OBJECT_FIRST`: design a minimal exact rational finite gluing obstruction certificate, preferably a  ...
+
+[8] score=0.6689  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/MAOFIELD_PRO_TWO_CHART_GLUE_CERTIFICATE_REPORT27_PACKAGE_20260705.md
+    sect: MaoField Pro Two-Chart Glue Certificate Report27 Package > Purpose
+    This package carries Report27's operational verdict:  ```text DESIGN_TWO_CHART_GLUE_CERTIFICATE ```  It asks GPT-5.5 Pro to perform a strict implementation-gate review for a minimal exact rational finite two-chart overla ...
+
+### query: Obs_12 s_1 s_2 Gamma_12 gauge minimized overlap mismatch
+Loading weights:   0%|          | 0/391 [00:00<?, ?it/s]Loading weights: 100%|██████████| 391/391 [00:00<00:00, 52727.16it/s]
+query: Obs_12 s_1 s_2 Gamma_12 gauge minimized overlap mismatch   (top-8, 源=知识, project=MaoField)
+
+[1] score=0.7074  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_finite_glue_certificate_report27_20260705.md
+    sect: 有限粘合障碍证书严格评估 > 证明义务与判定 > `Obs = 0` 当且仅当局部 sections 在允许 gauge 下兼容
+    这个命题为**真**，而且几乎是定义级别的。因为 `Obs_12` 本身就是 mismatch 到有效 overlap gauge 子空间 `Gamma_12` 的加权距离；在有限维带权内积空间里，距离为 0 当且仅当该向量属于该子空间。因此  ```text Obs_12(s_1,s_2)=0 iff m_12(s_1,s_2) in Gamma_12 iff exists g_1,g_2 such that rho_1 s_1 +  ...
+
+[2] score=0.6786  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/GPT55_PRO_TWO_CHART_GLUE_CERTIFICATE_IMPLEMENTATION_PROMPT_20260705.md
+    sect: GPT-5.5 Pro Zero-Context Prompt -- Two-Chart Glue Certificate Implementation Gate > Candidate Definition To Review
+    Report27 proposes the primitive object:  ```text Obs_12(s_1, s_2) ```  Finite data:  ```text I_1, I_2              finite chart carriers O_12                  finite overlap carrier rho_i                 restriction maps ...
+
+[3] score=0.6384  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/GPT55_PRO_TWO_CHART_GLUE_CERTIFICATE_IMPLEMENTATION_PROMPT_20260705.md
+    sect: GPT-5.5 Pro Zero-Context Prompt -- Two-Chart Glue Certificate Implementation Gate > Candidate Controls To Review
+    Use a 2x2 overlap in row-major order:  ```text (q1,b1), (q1,b2), (q2,b1), (q2,b2) ```  Use uniform weights:  ```text w_12 = (1/4, 1/4, 1/4, 1/4) ```  Use additive overlap gauge:  ```text Gamma_12 = N_add(O_12) = span{1,  ...
+
+[4] score=0.6328  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/FINITE_GLUE_CERTIFICATE_REPORT27_ADOPTION_NOTE_20260705.md
+    sect: Finite Glue Certificate Report27 Adoption Note > Accepted Technical Directions
+    The following directions are accepted as bounded next-step targets:  1. Define a finite two-chart certificate with chart carriers, an overlap    carrier, restriction maps, positive rational overlap weights, local gauge   ...
+
+[5] score=0.6290  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_finite_glue_certificate_report27_20260705.md
+    sect: 有限粘合障碍证书严格评估 > 正负控制 > 兼容正控
+    取 overlap 行主序为  ```text (q1,b1), (q1,b2), (q2,b1), (q2,b2) ```  令两个局部 sections 的 overlap mismatch 为  ```text m_plus = (1, 2, 3/2, 5/2). ```  这是一个严格的 additive 向量，因此属于 `N_add(O_12)`，故  ```text Obs_12^2 = 0. ```  若要把它写成真正两图 ...
+
+[6] score=0.6156  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/recovery/MAOFIELD_D705_TWO_CHART_GLUE_CERTIFICATE_TASKBOOK_20260705.md
+    sect: MaoField D705 Two-Chart Glue Certificate Taskbook > Required Exact Controls
+    Use a 2x2 overlap in row-major order:  ```text (q1,b1), (q1,b2), (q2,b1), (q2,b2) ```  Use positive rational uniform overlap weights:  ```text (1/4, 1/4, 1/4, 1/4) ```  Use additive overlap gauge:  ```text Gamma_12 = N_a ...
+
+[7] score=0.6139  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_finite_glue_certificate_report27_20260705.md
+    sect: 有限粘合障碍证书严格评估 > 正负控制 > 障碍反控
+    取 overlap mismatch 为  ```text m_minus = (1, -1, -1, 1). ```  这是标准 checkerboard 方向。对 uniform `2×2` overlap 与 additive nuisance，`m_minus` 恰好张成 `N_add(O_12)^{\perp}`，因此投影 away from `N_add` 后仍是它自己，且 exact weighted norm 为  `` ...
+
+[8] score=0.6077  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_foundational_residual_transport_v1_20260625.md
+    sect: C. Theorem / no-go / counterexample agenda > 5. Gluing absorption no-go
+    **Statement.** For local models on (U_i,U_j) with overlap mismatch (m_{ij}\in H_{ij}), let (N_{ij}^{\mathrm{allow}}) be the allowed overlap nuisance. If  [ \Pi_{(N_{ij}^{\mathrm{allow}})^\perp}m_{ij}=0, ]  then the misma ...
+
+### query: m_plus m_minus checkerboard 2x2 overlap Obs squared
+Loading weights:   0%|          | 0/391 [00:00<?, ?it/s]Loading weights: 100%|██████████| 391/391 [00:00<00:00, 46708.24it/s]
+query: m_plus m_minus checkerboard 2x2 overlap Obs squared   (top-8, 源=知识, project=MaoField)
+
+[1] score=0.6974  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_finite_glue_certificate_report27_20260705.md
+    sect: 有限粘合障碍证书严格评估 > 正负控制 > 障碍反控
+    取 overlap mismatch 为  ```text m_minus = (1, -1, -1, 1). ```  这是标准 checkerboard 方向。对 uniform `2×2` overlap 与 additive nuisance，`m_minus` 恰好张成 `N_add(O_12)^{\perp}`，因此投影 away from `N_add` 后仍是它自己，且 exact weighted norm 为  `` ...
+
+[2] score=0.6632  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/recovery/MAOFIELD_D705_TWO_CHART_GLUE_CERTIFICATE_TASKBOOK_20260705.md
+    sect: MaoField D705 Two-Chart Glue Certificate Taskbook > Required Exact Controls
+    Use a 2x2 overlap in row-major order:  ```text (q1,b1), (q1,b2), (q2,b1), (q2,b2) ```  Use positive rational uniform overlap weights:  ```text (1/4, 1/4, 1/4, 1/4) ```  Use additive overlap gauge:  ```text Gamma_12 = N_a ...
+
+[3] score=0.6539  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_finite_glue_certificate_report27_20260705.md
+    sect: 有限粘合障碍证书严格评估 > 正负控制 > 兼容正控
+    取 overlap 行主序为  ```text (q1,b1), (q1,b2), (q2,b1), (q2,b2) ```  令两个局部 sections 的 overlap mismatch 为  ```text m_plus = (1, 2, 3/2, 5/2). ```  这是一个严格的 additive 向量，因此属于 `N_add(O_12)`，故  ```text Obs_12^2 = 0. ```  若要把它写成真正两图 ...
+
+[4] score=0.6505  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/GPT55_PRO_TWO_CHART_GLUE_CERTIFICATE_IMPLEMENTATION_PROMPT_20260705.md
+    sect: GPT-5.5 Pro Zero-Context Prompt -- Two-Chart Glue Certificate Implementation Gate > Candidate Controls To Review
+    Use a 2x2 overlap in row-major order:  ```text (q1,b1), (q1,b2), (q2,b1), (q2,b2) ```  Use uniform weights:  ```text w_12 = (1/4, 1/4, 1/4, 1/4) ```  Use additive overlap gauge:  ```text Gamma_12 = N_add(O_12) = span{1,  ...
+
+[5] score=0.6323  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/GPT55_PRO_TWO_CHART_GLUE_CERTIFICATE_IMPLEMENTATION_PROMPT_20260705.md
+    sect: GPT-5.5 Pro Zero-Context Prompt -- Two-Chart Glue Certificate Implementation Gate > Required Review > 3. Exact Control Gate
+    Verify the proposed 2x2 additive-gauge controls. State whether `m_plus` is additive and whether `m_minus` is exactly orthogonal to the additive gauge under uniform weights. Check whether `Obs^2=0` and `Obs^2=1` are exact ...
+
+[6] score=0.6157  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_finite_glue_certificate_report27_20260705.md
+    sect: 有限粘合障碍证书严格评估 > 正负控制 > 我建议的最小 exact 控制尺寸
+    如果目标是**尽量紧贴当前 package 的 two-way-table / additive core**，那么最小而又“有内容”的 overlap 不应选 1 维或 2 维线段，而应选一个 **4-cell overlap**。原因是：当前主核的 nuisance 语言是 `C ⊕ A ⊕ B0`，而最小能承载一个真正非加性方向的有限对象，就是 `2×2` 表；这正是 formal note v1.3 与 exact witnes ...
+
+[7] score=0.5896  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/FINITE_GLUE_CERTIFICATE_REPORT27_ADOPTION_NOTE_20260705.md
+    sect: Finite Glue Certificate Report27 Adoption Note > Accepted Technical Directions
+    The following directions are accepted as bounded next-step targets:  1. Define a finite two-chart certificate with chart carriers, an overlap    carrier, restriction maps, positive rational overlap weights, local gauge   ...
+
+[8] score=0.5873  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_finite_glue_certificate_report27_20260705.md
+    sect: 有限粘合障碍证书严格评估 > 正负控制 > 我建议的最小 exact 控制尺寸
+    其中 overlap nuisance 取当前 package 已熟悉的 additive space：  ```text N_add(O_12) = span{1, q-centered, b-centered}. ```  这是对旧 gluing absorption guard 的 exact-rational 正规化，而不是新造一个任意 gauge 线。 [来源：from_repo/docs/infra/debranded_re ...
+
+### query: two chart gluing certificate exact rational fractions Fraction
+Loading weights:   0%|          | 0/391 [00:00<?, ?it/s]Loading weights: 100%|██████████| 391/391 [00:00<00:00, 50951.40it/s]
+query: two chart gluing certificate exact rational fractions Fraction   (top-8, 源=知识, project=MaoField)
+
+[1] score=0.6199  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_finite_glue_certificate_report27_20260705.md
+    sect: 有限粘合障碍证书严格评估 > 与现有 order-defect 主核的关系
+    ```text m_12(K) = rho_1 s_1(K) - rho_2 s_2(K) ```  特化成 `D_w K`。但一般 two-chart glue certificate 允许 carrier、restriction、局部 section map、以及有效 gauge 类都发生变化，因此它比 `D_w` 更一般，又比广义 chart theory 更小。 [来源：from_repo/docs/infra/debrande ...
+
+[2] score=0.6119  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/ORDER_DEFECT_PREPRINT_RIGOR_AUDIT_ADOPTION_NOTE_20260629.md
+    sect: Order-Defect Preprint Rigor Audit Adoption Note > Local Fixes Applied
+    This adoption pass adds:  ```text scripts/debranded_residual_transport_exact_witness_v1_4.py docs/infra/debranded_residual_transport/EXACT_WITNESS_V1_4_20260629.md docs/infra/debranded_residual_transport/exact_witness_v1 ...
+
+[3] score=0.6112  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_finite_glue_certificate_report27_20260705.md
+    sect: 有限粘合障碍证书严格评估 > 结论与证据边界
+    本包已经足以**严格地定义并落地一个最小 exact rational 的两图粘合障碍证书**，但最安全的首个对象不应被包装成广义 sheaf、广义 holonomy、广义 ANOVA，甚至也不应先追求“富含语义的 chart 大一统定义”。更稳妥的做法，是先把对象压缩成一个**有限、加权、可精确重算的 overlap obstruction certificate**：它只比较两个局部 section 在 overlap 上、经声明好 ...
+
+[4] score=0.6063  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_order_defect_boundary_locked_draft_v10_report15_20260701.md
+    sect: 边界锁定有限加权顺序缺陷短札局部草稿候选 > 精确二维见证与证书角色
+    **Exact 2 x 2 rational witness: CERTIFICATE.** 局部证明稿把展示用例固定为 \[ w=\frac1{11}\begin{bmatrix}1&2\\3&5\end{bmatrix}, \qquad K=\left(\frac7{11},-\frac4{11},\frac7{11},-\frac4{11}\right)\in B0. \] 对这个 witness，证书给出精确等式 \[ (I-P ...
+
+[5] score=0.6058  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/recovery/MAOFIELD_D705_TWO_CHART_GLUE_CERTIFICATE_TASKBOOK_20260705.md
+    sect: MaoField D705 Two-Chart Glue Certificate Taskbook > Goal
+    Ask Pro to perform a strict implementation-gate review for a minimal exact rational two-chart gluing obstruction certificate:  ```text Obs_12(s_1, s_2) ```  The primitive input is two local sections. A global-source `Obs ...
+
+[6] score=0.5964  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_finite_glue_certificate_report27_20260705.md
+    sect: 有限粘合障碍证书严格评估 > 证明义务与判定 > 这个对象不是现有两投影 order-defect 定理换词
+    这个命题应判为**真，但要加条件说明**。若把两 chart 退化成“同一 carrier、同一 overlap、restriction 为恒等、gauge 为零”的特例，那么它当然会塌回 order-defect 风格的 same-carrier mismatch，甚至可直接取 `m_12(K)=D_w K`。但一般的 two-chart certificate 还包含三个当前 v1.3 order-defect note 没有的层次 ...
+
+[7] score=0.5933  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_metric_identity_object_atlas_glue_report26_20260705.md
+    sect: MaoField 对象图谱与有限粘贴回合严格评审 > 有限粘贴对象评估
+    在这三个提案里，我认为**最值得立即创建的对象是第一个：两图重叠粘贴证书**。理由很简单。它比 square-holonomy 更小，比三图循环更不依赖复杂 cover，也最直接把 “chart-dependent object + defect certificate + allowed local gauge” 三个新定义压到一张有限表上。它本质上是一条更高阶但仍然完全有限的 no-go：**即便局部对象都是合法 residual- ...
+
+[8] score=0.5877  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/METRIC_IDENTITY_OBJECT_ATLAS_GLUE_REPORT26_ADOPTION_NOTE_20260705.md
+    sect: Metric-Identity Object Atlas / Glue Report26 Adoption Note > What Report26 Means
+    Report26 confirms that the current package boundaries are coherent:  - the hard mathematical spine remains finite positive weighted two-way tables,   additive nuisance spaces, order-defect operators, and the exact 2x2 ra ...

@@ -1,0 +1,2 @@
+f10919e85d4c46c0d09ff447a02b5fd2c97b05307c7939fb605674c7a5e2838a  /home/amd/codex-node36/tmp/rag_20260705_1235_two_chart_glue_report27/candidate_index/kb.faiss
+64b4bb6b717bbd21f677f8124637da7c160fb89ec3be51a72cae257d421c9978  /home/amd/codex-node36/tmp/rag_20260705_1235_two_chart_glue_report27/candidate_index/kb_meta.jsonl
