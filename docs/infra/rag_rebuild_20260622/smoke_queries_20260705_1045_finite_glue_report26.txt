@@ -1,0 +1,179 @@
+
+===== query: deep_research_metric_identity_object_atlas_glue_report26_20260705 FINITE_GLUE_OBJECT_FIRST =====
+Loading weights:   0%|          | 0/391 [00:00<?, ?it/s]Loading weights: 100%|██████████| 391/391 [00:00<00:00, 47626.56it/s]
+query: deep_research_metric_identity_object_atlas_glue_report26_20260705 FINITE_GLUE_OBJECT_FIRST   (top-8, 源=知识, project=MaoField)
+
+[1] score=0.7733  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/METRIC_IDENTITY_OBJECT_ATLAS_GLUE_REPORT26_ADOPTION_NOTE_20260705.md
+    sect: Metric-Identity Object Atlas / Glue Report26 Adoption Note
+    Date verified on node36: 2026-07-05 10:35:34 CST  Source report:  ```text docs/infra/gpt_deep_research/deep_research_metric_identity_object_atlas_glue_report26_20260705.md ```  Source attachment sha256:  ```text ff5a8e26 ...
+
+[2] score=0.7645  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/MAOFIELD_PRO_FINITE_GLUE_OBJECT_REPORT26_PACKAGE_20260705.md
+    sect: MaoField Pro Finite Glue Object Report26 Package > Canonical Inputs
+    ```text docs/infra/gpt_deep_research/deep_research_metric_identity_object_atlas_glue_report26_20260705.md docs/infra/gpt_deep_research/METRIC_IDENTITY_OBJECT_ATLAS_GLUE_REPORT26_ADOPTION_NOTE_20260705.md docs/infra/recov ...
+
+[3] score=0.7084  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/MD_CATALOG.md
+    sect: MaoField MD_CATALOG — 全 ~429 md 分层梳理 (navigate reference)
+    eory / Mode B=`insufficient_artifact` / duplicate risk=`MEDIUM`。 > **2026-07-05 object-atlas / finite-gluing revised package 补丁**: 应 PI 要求，D705 Report25 decision package 修订为 Object Atlas + finite gluing/pasting explorati ...
+
+[4] score=0.7009  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/STATE.md
+    sect: MaoField — PROJECT STATE (canonical 单一真相源) > 戳
+    | 项 | 值 | |---|---| | 最后更新 | **2026-07-05 D705 10:06 CST** (`date` verified 10:06:21 CST)。D705 Report25 decision package was revised into an Object Atlas + finite gluing/pasting exploration package, per PI request. New p ...
+
+[5] score=0.7005  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/STATE.md
+    sect: MaoField — PROJECT STATE (canonical 单一真相源) > 戳
+    246e73a7424ec26604fdd39351d7a201`, bytes=`311562`; prompt `C:\Users\amd\Desktop\GPT55_PRO_METRIC_IDENTITY_OBJECT_ATLAS_AND_GLUE_PROMPT_20260705.md` sha256=`6a115428360439d3c8cb136047f7fdd7bcc602cba91dd473a485fa3749af13b7 ...
+
+[6] score=0.6923  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/MAOFIELD_PRO_METRIC_IDENTITY_OBJECT_ATLAS_GLUE_PACKAGE_20260705.md
+    sect: MaoField Pro Metric-Identity Object Atlas And Glue Package > Canonical Inputs
+    ```text docs/infra/gpt_deep_research/GPT55_PRO_METRIC_IDENTITY_OBJECT_ATLAS_AND_GLUE_PROMPT_20260705.md docs/infra/recovery/MAOFIELD_D705_OBJECT_ATLAS_AND_GLUE_PACKAGE_TASKBOOK_20260705.md docs/infra/gpt_deep_research/de ...
+
+[7] score=0.6745  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_METRIC_IDENTITY_OBJECT_ATLAS_GLUE_20260705.md
+    sect: Node22 Vector Refresh -- Metric-Identity Object Atlas And Glue Package > Newly Indexed Core Files
+    ```text docs/infra/gpt_deep_research/GPT55_PRO_METRIC_IDENTITY_OBJECT_ATLAS_AND_GLUE_PROMPT_20260705.md docs/infra/recovery/MAOFIELD_D705_OBJECT_ATLAS_AND_GLUE_PACKAGE_TASKBOOK_20260705.md docs/infra/MAOFIELD_PRO_METRIC_ ...
+
+[8] score=0.6706  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/METRIC_IDENTITY_PHASEII_REPORT25_ADOPTION_NOTE_20260705.md
+    sect: Metric-Identity Phase II Report25 Adoption Note
+    Date: 2026-07-05 CST  Source report:  ```text docs/infra/gpt_deep_research/deep_research_metric_identity_phaseii_report25_20260705.md ```  Source attachment sha256:  ```text 42a4590ab385d18a3d3f5f3997162e44a2f7a7f1d4380f ...
+
+
+===== query: finite gluing obstruction certificate two chart overlap local nuisance gauge =====
+Loading weights:   0%|          | 0/391 [00:00<?, ?it/s]Loading weights: 100%|██████████| 391/391 [00:00<00:00, 53054.67it/s]
+query: finite gluing obstruction certificate two chart overlap local nuisance gauge   (top-8, 源=知识, project=MaoField)
+
+[1] score=0.7363  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/GPT55_PRO_FINITE_GLUE_OBJECT_CERTIFICATE_PROMPT_20260705.md
+    sect: GPT-5.5 Pro Zero-Context Prompt -- Finite Glue Object Certificate > Main Question
+    Can the programme now define a minimal exact rational finite gluing obstruction certificate?  Preferred target:  ```text Two local charts C1, C2 with a nonempty overlap O12. Each chart has a finite carrier, positive weig ...
+
+[2] score=0.7171  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/GPT55_PRO_FINITE_GLUE_OBJECT_CERTIFICATE_PROMPT_20260705.md
+    sect: GPT-5.5 Pro Zero-Context Prompt -- Finite Glue Object Certificate > Required Output > 1. Exact Finite Definition
+    Give a fully finite definition of a two-chart gluing obstruction certificate. Specify:  - chart data; - carrier/cell sets; - positive weights; - local nuisance or gauge subspaces; - local projections or residual section  ...
+
+[3] score=0.6337  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_foundational_residual_transport_v1_20260625.md
+    sect: C. Theorem / no-go / counterexample agenda > 5. Gluing absorption no-go
+    **Statement.** For local models on (U_i,U_j) with overlap mismatch (m_{ij}\in H_{ij}), let (N_{ij}^{\mathrm{allow}}) be the allowed overlap nuisance. If  [ \Pi_{(N_{ij}^{\mathrm{allow}})^\perp}m_{ij}=0, ]  then the misma ...
+
+[4] score=0.6329  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/recovery/MAOFIELD_D705_FINITE_GLUE_OBJECT_TASKBOOK_20260705.md
+    sect: MaoField D705 Finite Glue Object Taskbook > Goal
+    Ask Pro to determine whether a minimal exact rational finite gluing obstruction certificate can be defined, proved, and implemented in the current MaoField / Open-MaoField style.  The target is not a broad theory. The ta ...
+
+[5] score=0.6179  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/GPT55_PRO_METRIC_IDENTITY_OBJECT_ATLAS_AND_GLUE_PROMPT_20260705.md
+    sect: GPT-5.5 Pro Zero-Context Prompt -- MaoField Object Atlas And Finite Gluing Round > Required Output > 3. Finite Gluing / Pasting Possibility
+    Assess whether a new finite object can be created by gluing local chart objects.  You may propose finite constructions such as:  - a finite category of evaluation charts with systems as sections; - transports as morphism ...
+
+[6] score=0.6150  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/GPT55_PRO_FINITE_GLUE_OBJECT_CERTIFICATE_PROMPT_20260705.md
+    sect: GPT-5.5 Pro Zero-Context Prompt -- Finite Glue Object Certificate > Required Output > 4. Relation To Existing Order-Defect Core
+    Explain precisely how the new gluing certificate relates to:  - finite positive weighted two-way table; - additive nuisance; - true residual versus sequential stripping artifact; - order-defect `D_w`; - exact 2x2 witness ...
+
+[7] score=0.6123  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/METRIC_IDENTITY_OBJECT_ATLAS_GLUE_REPORT26_ADOPTION_NOTE_20260705.md
+    sect: Metric-Identity Object Atlas / Glue Report26 Adoption Note > What Report26 Means
+    Report26 confirms that the current package boundaries are coherent:  - the hard mathematical spine remains finite positive weighted two-way tables,   additive nuisance spaces, order-defect operators, and the exact 2x2 ra ...
+
+[8] score=0.6037  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_mode_a_quotient_residual_kill_framework_20260623.md
+    sect: MaoField 去魅后的底层数学问题与严格击杀框架 > 候选数学对象
+    **候选对象六：局部模型的 gluing obstruction。** 形式定义：取一组局部 chart \(U_\alpha\)，在每个 chart 上拟合局部 nuisance-quotiented residual \(R_\alpha\)，并在重叠区定义 \[ \delta_{\alpha\beta}=R_\alpha|_{U_\alpha\cap U_\beta}-R_\beta|_{U_\alpha\cap U_\beta} ...
+
+
+===== query: triple overlap gluing cocycle scripts debranded_residual_transport_harness_v1_2 =====
+Loading weights:   0%|          | 0/391 [00:00<?, ?it/s]Loading weights: 100%|██████████| 391/391 [00:00<00:00, 52495.93it/s]
+query: triple overlap gluing cocycle scripts debranded_residual_transport_harness_v1_2   (top-8, 源=知识, project=MaoField)
+
+[1] score=0.8307  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/recovery/FORBIDDEN_CLAIMS_SCAN_20260629.md
+    sect: Forbidden Claims Scan 2026-06-29
+    d_residual_transport_harness_v1_1.py | 78 | WARNING | REWRITE | "triple_overlap_gluing_cocycle": { | | gluing | ./scripts/debranded_residual_transport_harness_v1_1.py | 725 | WARNING | REWRITE | thresholds = THRESHOLDS[" ...
+
+[2] score=0.7738  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/recovery/FORBIDDEN_CLAIMS_SCAN_20260629.md
+    sect: Forbidden Claims Scan 2026-06-29
+    bsorption": { | | gluing | ./docs/infra/debranded_residual_transport/synthetic_harness_v1_1_20260625.json | 64 | WARNING | REWRITE | "triple_overlap_gluing_cocycle": { | | gluing | ./docs/infra/debranded_residual_transpo ...
+
+[3] score=0.7635  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/recovery/FORBIDDEN_CLAIMS_SCAN_20260629.md
+    sect: Forbidden Claims Scan 2026-06-29
+    78 | WARNING | REWRITE | block_triple_overlap_gluing_cocycle(), | | gluing | ./scripts/debranded_residual_transport_harness_v1_2.py | 742 | WARNING | REWRITE | elif test_id == "triple_overlap_gluing_cocycle": | | gluing  ...
+
+[4] score=0.7433  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/recovery/FORBIDDEN_CLAIMS_SCAN_20260629.md
+    sect: Forbidden Claims Scan 2026-06-29
+    absorbed_cycle_residual_norm = 0 | | gluing | ./docs/infra/debranded_residual_transport/SYNTHETIC_HARNESS_V1_1_20260625.md | 78 | WARNING | REWRITE | triple_overlap_gluing_cocycle.obstruction_cycle_residual_norm = 2.1 |  ...
+
+[5] score=0.7386  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/recovery/FORBIDDEN_CLAIMS_SCAN_20260629.md
+    sect: Forbidden Claims Scan 2026-06-29
+    08920985e-16 | | gluing | ./docs/infra/debranded_residual_transport/SYNTHETIC_HARNESS_V0_20260625.md | 66 | WARNING | REWRITE | gluing_absorption.obstruction_mismatch_residual_norm = 1 | | gluing | ./docs/infra/debranded ...
+
+[6] score=0.6955  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/debranded_residual_transport/SYNTHETIC_HARNESS_V1_3_20260628.md
+    sect: Debranded Residual Transport Synthetic Harness v1.3 > Artifact
+    ```text docs/infra/debranded_residual_transport/synthetic_harness_v1_3_20260628.json ``` ...
+
+[7] score=0.6932  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/GPT55_PRO_ORDER_DEFECT_HUMAN_DECISION_UNDER_LOCK_V8_PROMPT_20260630.md
+    sect: GPT-5.5 Pro Zero-Context Prompt: Order-Defect Human Decision Under Lock V8 > Read These Files First
+    t/synthetic_harness_v1_3_20260628.json from_repo/scripts/debranded_residual_transport_harness_v1_3.py from_repo/docs/infra/debranded_residual_transport/BIBLIOGRAPHY_AND_POSITIONING_V1_5_20260629.md from_repo/docs/infra/d ...
+
+[8] score=0.6920  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/recovery/FORBIDDEN_CLAIMS_SCAN_20260629.md
+    sect: Forbidden Claims Scan 2026-06-29
+    TION_20260624.md | 178 | WARNING | REWRITE | 2. Turn the edge commutation, square holonomy, rank-shadow, gluing absorption, | | gluing | ./docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_STATUS_20260624.md | 241 | WARNING | REWR ...
+
+
+===== query: REQUEST_TO_NODE36_CODEX synthetic transport holonomy gluing script =====
+Loading weights:   0%|          | 0/391 [00:00<?, ?it/s]Loading weights: 100%|██████████| 391/391 [00:00<00:00, 44211.27it/s]
+query: REQUEST_TO_NODE36_CODEX synthetic transport holonomy gluing script   (top-8, 源=知识, project=MaoField)
+
+[1] score=0.6715  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/math_turn_20260622/RESIDUAL_TRANSPORT_HOLONOMY_SYNTHETIC_RESULT_20260624.md
+    sect: Residual Transport / Holonomy Synthetic Result > Artifact
+    ```text docs/infra/math_turn_20260622/RESIDUAL_TRANSPORT_HOLONOMY_SYNTHETIC_RESULT_20260624.json sha256=5c0d9586f31c60512a645020d4b1f0ee0a516a2fa8437c10db30e7f59f8884fd ```  Script:  ```text scripts/residual_transport_ho ...
+
+[2] score=0.6586  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/debranded_residual_transport/SYNTHETIC_HARNESS_V0_20260625.md
+    sect: Debranded Residual Transport Synthetic Harness v0 > Artifact
+    ```text docs/infra/debranded_residual_transport/synthetic_harness_v0_20260625.json sha256=d999ae147b9a7a641ea1adff297e2582b5dfd7b16c28568dd688abbd34df89af ```  Script:  ```text scripts/debranded_residual_transport_harnes ...
+
+[3] score=0.6524  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_TRANSPORT_HARNESS_20260624.md
+    sect: Node22 Vector Refresh — Residual Transport / Holonomy Synthetic Harness > Inputs
+    Synthetic harness taskbook:  ```text docs/infra/math_turn_20260622/RESIDUAL_TRANSPORT_HOLONOMY_SYNTHETIC_HARNESS_20260624.md sha256=1a5a777fea61e7a3d4fcd6d75cc85df0e84efd1ccf90011fab4eef633a6d64f3 ```  Synthetic result:  ...
+
+[4] score=0.6493  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_STATUS_20260624.md
+    sect: Debranded Residual Transport Direction Status Snapshot > 2026-06-25 Formal v1 Synthetic Harness And Package
+    Node36 added a separate v1 synthetic harness script instead of mutating the v0 result:  ```text scripts/debranded_residual_transport_harness_v1.py docs/infra/debranded_residual_transport/SYNTHETIC_HARNESS_V1_20260625.md  ...
+
+[5] score=0.6480  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/METRIC_IDENTITY_OBJECT_ATLAS_GLUE_REPORT26_ADOPTION_NOTE_20260705.md
+    sect: Metric-Identity Object Atlas / Glue Report26 Adoption Note > Node36 Evidence Response To Report26 Requests
+    Report26 included three optional `REQUEST_TO_NODE36_CODEX` blocks. Node36 local searches found:  - Existing float/regression and formal-note material for product controls and   older gluing/holonomy ideas exists in `docs ...
+
+[6] score=0.6375  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/math_turn_20260622/RESIDUAL_TRANSPORT_HOLONOMY_SYNTHETIC_HARNESS_20260624.md
+    sect: Residual Transport / Holonomy Synthetic Harness > Run Rule
+    Run from node36 SSD scratch, not directly in canonical:  ```bash SCR=/home/amd/codex-node36/tmp/residual-transport-holonomy-20260624 mkdir -p "$SCR" cd "$SCR" /home/amd/venv/bin/python \   /media/amd/raid1/canonical/proj ...
+
+[7] score=0.6370  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/recovery/FORBIDDEN_CLAIMS_SCAN_20260629.md
+    sect: Forbidden Claims Scan 2026-06-29
+    n_1gen_1seed.py | 92 | WARNING | REWRITE | - 拼接 text → tokenize → 切 block_size chunks | | gluing | ./scripts/debranded_residual_transport_harness.py | 286 | WARNING | REWRITE | def block_gluing_absorption() -> dict[str,  ...
+
+[8] score=0.6343  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/MD_CATALOG.md
+    sect: MaoField MD_CATALOG — 全 ~429 md 分层梳理 (navigate reference)
+    .`), 服务已停。 > **2026-06-24 residual transport / holonomy synthetic harness 补丁**: 新增 `scripts/residual_transport_holonomy_synthetic.py`、`docs/infra/math_turn_20260622/RESIDUAL_TRANSPORT_HOLONOMY_SYNTHETIC_HARNESS_20260624. ...

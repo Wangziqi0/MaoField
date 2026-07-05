@@ -1,0 +1,2 @@
+6e870dccd078e688c9f3f220b105b052c58147d892b814fcb75c8185954886e4  /home/amd/codex-node36/tmp/rag_20260705_1045_finite_glue_report26/candidate_index/kb.faiss
+ab181d8fe26ba163c6daa4479b044431da29aafb1c6e14cb946c79cc4065822b  /home/amd/codex-node36/tmp/rag_20260705_1045_finite_glue_report26/candidate_index/kb_meta.jsonl
