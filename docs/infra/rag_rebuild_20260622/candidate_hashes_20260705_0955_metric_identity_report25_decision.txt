@@ -1,0 +1,2 @@
+7cfdc1495b6abed8b85954a88913d85f16810a17666bd6978d88f876b8c46fb1  /home/amd/codex-node36/tmp/rag_20260705_0955_metric_identity_report25_decision/candidate_index/kb.faiss
+589cbdead46d9eeee8103cf0bbac0748e09a88b5c5cb6ef84720469c15249b6f  /home/amd/codex-node36/tmp/rag_20260705_0955_metric_identity_report25_decision/candidate_index/kb_meta.jsonl

@@ -1,0 +1,179 @@
+## query 1: report25 archive
+Loading weights:   0%|          | 0/391 [00:00<?, ?it/s]Loading weights: 100%|██████████| 391/391 [00:00<00:00, 39878.73it/s]
+query: deep_research_metric_identity_phaseii_report25_20260705 FORMALIZE_DEFINITIONS_FIRST   (top-8, 源=知识, project=MaoField)
+
+[1] score=0.7165  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/METRIC_IDENTITY_PHASEII_REPORT25_ADOPTION_NOTE_20260705.md
+    sect: Metric-Identity Phase II Report25 Adoption Note
+    Date: 2026-07-05 CST  Source report:  ```text docs/infra/gpt_deep_research/deep_research_metric_identity_phaseii_report25_20260705.md ```  Source attachment sha256:  ```text 42a4590ab385d18a3d3f5f3997162e44a2f7a7f1d4380f ...
+
+[2] score=0.6912  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/MAOFIELD_PRO_METRIC_IDENTITY_REPORT25_DECISION_PACKAGE_20260705.md
+    sect: MaoField Pro Metric-Identity Report25 Decision Package > Canonical Inputs
+    ```text docs/infra/gpt_deep_research/deep_research_metric_identity_phaseii_report25_20260705.md docs/infra/gpt_deep_research/METRIC_IDENTITY_PHASEII_REPORT25_ADOPTION_NOTE_20260705.md docs/infra/gpt_deep_research/GPT55_P ...
+
+[3] score=0.6238  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/GPT55_PRO_METRIC_IDENTITY_REPORT25_DECISION_PROMPT_20260705.md
+    sect: GPT-5.5 Pro Zero-Context Prompt -- MaoField Metric-Identity Report25 Decision Round > Report25 Intent To Evaluate
+    Report25 recommends:  ```text FORMALIZE_DEFINITIONS_FIRST ```  It proposes that the next object should be a finite formal layer for:  - evaluation charts; - chart-dependent metric objects; - chart transport and object id ...
+
+[4] score=0.6145  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_metric_identity_phaseii_report25_20260705.md
+    sect: MaoField Metric-Identity Phase II 深度研究报告 > Requests to Node36 Codex and Next Decision > Next Decision
+    `FORMALIZE_DEFINITIONS_FIRST`  原因很直接。当前 package 已经足以证明“free identity 是错的”，但还不足以在 paper-safe 口径下说明“什么才算同一对象”。如果先去堆更多 semantic toys，而 identity / transport / invariance / defect / instability 这些对象还没正式锁死，那么新证书库很容易重新坠回“例子很多、对 ...
+
+[5] score=0.6143  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_METRIC_IDENTITY_PHASEII_PRO_PACKAGE_20260704.md
+    sect: Node22 Vector Refresh -- Metric-Identity Phase II Pro Package > Scope And Promotion
+    ```text docs/infra/rag_rebuild_20260622/canonical_scope_active_20260704_2212_metric_identity_phaseii_final_package.txt docs/infra/rag_rebuild_20260622/rag_build_node22_candidate_20260704_2212_metric_identity_phaseii_fina ...
+
+[6] score=0.6026  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/recovery/MAOFIELD_D705_REPORT25_DECISION_PACKAGE_TASKBOOK_20260705.md
+    sect: MaoField D705 Report25 Decision Package Taskbook > Required Interpretation
+    Report25 is a direction-setting audit. It should not be treated as a proof or as new empirical evidence.  The accepted Pro intent is:  ```text FORMALIZE_DEFINITIONS_FIRST ```  The next research decision is whether to:  - ...
+
+[7] score=0.5996  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/MD_CATALOG.md
+    sect: MaoField MD_CATALOG — 全 ~429 md 分层梳理 (navigate reference)
+    sufficient_artifact`; duplicate risk remains `MEDIUM`。 > **2026-07-04 metric-identity programme 补丁**: PI supplied `maofield_metric_identity_programme.md`; node36 canonicalized it as `docs/infra/MAOFIELD_METRIC_IDENTITY_P ...
+
+[8] score=0.5993  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/recovery/MAOFIELD_D705_REPORT25_DECISION_PACKAGE_TASKBOOK_20260705.md
+    sect: MaoField D705 Report25 Decision Package Taskbook > Source
+    ```text /home/amd/.codex/attachments/8f285486-1977-4022-baf3-a04b8deca7df/deep-research-report (25).md ```  Canonical archive:  ```text docs/infra/gpt_deep_research/deep_research_metric_identity_phaseii_report25_20260705 ...
+
+
+## query 2: OI op product form candidate
+Loading weights:   0%|          | 0/391 [00:00<?, ?it/s]Loading weights: 100%|██████████| 391/391 [00:00<00:00, 49803.30it/s]
+query: OI_N op product form audit-order instability D_w restricted N_add   (top-8, 源=知识, project=MaoField)
+
+[1] score=0.6075  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_metric_identity_phaseii_report25_20260705.md
+    sect: MaoField Metric-Identity Phase II 深度研究报告 > Theorem / Counterexample Candidates
+    | Candidate | Status | 核心命题 | 需要的假设 | 精确有限对象 | |---|---|---|---|---| | Restricted nuisance-subspace instability theorem | **PROVABLE_NOW** | 定义 \(OI^{\mathrm{op}}_{N}(w)=\|D_w\!\restriction_{N_{\mathrm{add}}}\|_{op,w}\)。 ...
+
+[2] score=0.6072  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_metric_identity_phaseii_report25_20260705.md
+    sect: MaoField Metric-Identity Phase II 深度研究报告 > Formal Definitions Draft > Audit-order instability
+    第二个版本是**点态证书型**： \[ OI^{\mathrm{pt}}_{w}(K) := \frac{\|D_wK\|_w}{\|K\|_w}, \qquad K\neq0, \] 若特别想对“零真加性残差的主效应 witness”做审计，可再限制 \(K\in A\cup B_0\)。这会让 `OI` 明确变成**程序不稳定性指数**，而不是 capability score、也不是 model property。按照现有 the ...
+
+[3] score=0.6021  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_metric_identity_phaseii_report25_20260705.md
+    sect: MaoField Metric-Identity Phase II 深度研究报告 > Formal Definitions Draft > Audit-order instability
+    `OI(w)=||D_w||` 只有在**域、陪域、范数**都先被说清楚时才诚实。最适合当前 programme 的正式定义不是无下标的 \(\|D_w\|\)，而是至少区分两个版本。  第一个版本是**受限算子型**： \[ OI^{\mathrm{op}}_{N}(w) := \big\|D_w\!\restriction_{N_{\mathrm{add}}}\big\|_{L^2(w)\to L^2(w)}. \] 它只看 add ...
+
+[4] score=0.5849  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/recovery/GATE_RESCUE_AUDIT_20260629.md
+    sect: Gate Rescue Audit 2026-06-29 > Gate 2 -- Evidence And Scope Boundary
+    | OK | | order-independence iff product weights | PASS | `docs/infra/debranded_residual_transport/FORMAL_NOTE_V1_3_ORDER_DEFECT_20260628.md:177` ### Proposition 2<br>`docs/infra/debranded_residual_transport/FORMAL_NOTE_V ...
+
+[5] score=0.5828  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/debranded_residual_transport/README_FOR_PRO_FORMALV13_ORDER_DEFECT_IMPLEMENTATION_AUDIT_20260628.md
+    sect: README For GPT-5.5 Pro Formal v1.3 Order-Defect Implementation Audit Package > Critical Mathematical Guardrails
+    - `N_add = C direct-sum A direct-sum B0` is algebraic in general, not   automatically orthogonal. - `P_C`, `P_A`, and `P_B0` are weighted orthogonal projections onto individual   subspaces. `P_N` is the weighted orthogon ...
+
+[6] score=0.5809  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_order_defect_v1_5_final_gate_audit_20260629.md
+    sect: Order-Defect 预印本终门审计 > 审核矩阵
+    w loss、observed field、completed formal system 等 forbidden upgrades。（本地证据：`STATE.md:16,24-29`；`FORMAL_NOTE_V1_3_ORDER_DEFECT...:16-39,362-369`；`EXACT_WITNESS_V1_4...:16-28,62-66`；`synthetic_harness_v1_3_20260628.json:9-30 ...
+
+[7] score=0.5808  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_order_defect_recovery_repair_dual_pro_report7_20260630.md
+    sect: Order-Defect Recovery Repair 审计报告 > 5. Mathematical Proof Audit
+    **Proposition 2：order-independence iff product weights：PLAUSIBLE_LOCAL_DRAFT。** formal note 的证明思路是清楚的：先把 `D_w` 化为交换子，再由 `D_w=0` 推出 `P_A b ∈ A ∩ B0 = {0}`，进而回到 `A ⟂ B0`，再借 Proposition 1 收束到 product form；反向则由正交分解推出两序无差。尽管这 ...
+
+[8] score=0.5780  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_metric_identity_phaseii_report25_20260705.md
+    sect: MaoField Metric-Identity Phase II 深度研究报告 > Requests to Node36 Codex and Next Decision > Requests to Node36 Codex
+    当前包**足够支持本次报告**，所以没有 blocking request；但若要把“next rigorous stone”从定义推进到新定理或新证书，下面两项补件会明显降低证明风险。  ```text REQUEST_TO_NODE36_CODEX: - path or file category: any existing finite 2x3 / 3x3 exact-certificate notes, scripts, scr ...
+
+
+## query 3: decision prompt request protocol
+Loading weights:   0%|          | 0/391 [00:00<?, ?it/s]Loading weights: 100%|██████████| 391/391 [00:00<00:00, 48710.14it/s]
+query: REQUEST_TO_NODE36_CODEX Report25 decision prompt finite 2x3 exact certificate near product   (top-8, 源=知识, project=MaoField)
+
+[1] score=0.6767  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/METRIC_IDENTITY_PHASEII_REPORT25_ADOPTION_NOTE_20260705.md
+    sect: Metric-Identity Phase II Report25 Adoption Note > Requests Carried Forward
+    Report25 asked node36 for two optional evidence searches before expanding the certificate library:  1. Find any existing finite 2x3 / 3x3 exact-certificate notes, scripts, scratch    markdowns, or JSON artifacts under `d ...
+
+[2] score=0.6487  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_order_defect_pi_local_review_decision_v13_report18_20260702.md
+    sect: CONFIRM_PI_LOCAL_REVIEW_ONLY_KEEP_LOCK > 证书、harness 与书目边界
+    精确 `2 x 2` 证书在 bundle 内是自洽的。certificate Markdown、canonical JSON 与 exact script 一致地给出主 witness `K = ['7/11','-4/11','7/11','-4/11']`，并给出 `(I-P_N)K = 0`、 `R_B_then_Q K = 0`、 `R_Q_then_B K = ['1/32','5/168','-1/96','-1/84'] ...
+
+[3] score=0.6469  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_metric_identity_phaseii_report25_20260705.md
+    sect: MaoField Metric-Identity Phase II 深度研究报告 > Requests to Node36 Codex and Next Decision > Requests to Node36 Codex
+    当前包**足够支持本次报告**，所以没有 blocking request；但若要把“next rigorous stone”从定义推进到新定理或新证书，下面两项补件会明显降低证明风险。  ```text REQUEST_TO_NODE36_CODEX: - path or file category: any existing finite 2x3 / 3x3 exact-certificate notes, scripts, scr ...
+
+[4] score=0.6384  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_order_defect_local_draft_lock_audit_v5_report10_20260630.md
+    sect: Order-Defect Local-Draft Lock Audit V5 > Proof Labels
+    research_order_defect_proof_repair_recheck_report9_20260630.md:28-30,48-56`；`from_repo/docs/infra/gpt_deep_research/ORDER_DEFECT_PROOF_REPAIR_RECHECK_REPORT9_ADOPTION_NOTE_20260630.md:16-18,34-48,54-57`） | | Exact 2×2 wi ...
+
+[5] score=0.6248  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_order_defect_post_v6_decision_gate_v7_report12_20260630.md
+    sect: Order-Defect Post-V6 Decision Gate V7 审计报告 > Proof Boundary
+    同一文件把 Proposition 2 与 Proposition 3 的 repair candidate 写在该受控对象内部，并明确 exact witness 只作 certificate-level anchor，不升级 full proof stack，也不升级 Mode B。`from_repo/docs/infra/debranded_residual_transport/FORMAL_NOTE_V1_3_ORDER_DE ...
+
+[6] score=0.6247  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/GPT55_PRO_METRIC_IDENTITY_PHASEII_POLLING_PROMPT_20260704.md
+    sect: GPT-5.5 Pro Zero-Context Prompt -- MaoField Metric-Identity Phase II > Required Output Format
+    ```text REQUEST_TO_NODE36_CODEX: - path or file category: - why needed: - claim tested: - blocking or optional: ```  9. `Next Decision`    Choose exactly one:    - `BUILD_CERTIFICATE_LIBRARY`    - `FORMALIZE_DEFINITIONS_ ...
+
+[7] score=0.6210  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/debranded_residual_transport/README.md
+    sect: Debranded Residual Transport Direction > Current Entry Points
+    prompt and zip. - `../gpt_deep_research/deep_research_order_defect_preprint_rigor_audit_20260629.md` —   strict Pro audit of the order-defect preprint placeholder, with   classification `preprint_placeholder_requires_rel ...
+
+[8] score=0.6209  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_order_defect_boundary_locked_draft_v10_report15_20260701.md
+    sect: 边界锁定有限加权顺序缺陷短札局部草稿候选 > 精确二维见证与证书角色
+    **Exact 2 x 2 rational witness: CERTIFICATE.** 局部证明稿把展示用例固定为 \[ w=\frac1{11}\begin{bmatrix}1&2\\3&5\end{bmatrix}, \qquad K=\left(\frac7{11},-\frac4{11},\frac7{11},-\frac4{11}\right)\in B0. \] 对这个 witness，证书给出精确等式 \[ (I-P ...
+
+
+## query 4: metric object identity charts transport defect certificate
+Loading weights:   0%|          | 0/391 [00:00<?, ?it/s]Loading weights: 100%|██████████| 391/391 [00:00<00:00, 56138.46it/s]
+query: chart-dependent metric object identity transport defect certificate roster Phi_c   (top-8, 源=知识, project=MaoField)
+
+[1] score=0.6938  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/GPT55_PRO_METRIC_IDENTITY_REPORT25_DECISION_PROMPT_20260705.md
+    sect: GPT-5.5 Pro Zero-Context Prompt -- MaoField Metric-Identity Report25 Decision Round > Your Required Output > 4. Definition Audit
+    Evaluate the proposed definitions for:  - chart; - roster; - chart-dependent metric object; - identity transport; - defect certificate; - audit-order instability.  For each one, label it:  - `ACCEPT_AS_IS` - `ACCEPT_WITH ...
+
+[2] score=0.6295  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/MAOFIELD_METRIC_IDENTITY_PROGRAMME_ADOPTION_NOTE_20260704.md
+    sect: MaoField Metric-Identity Programme Adoption Note > Technical Commitments
+    The adopted programme must be translated into finite objects, not only philosophical language:  - define evaluation charts, e.g. `c = (P, T, J, R, D, w, A_g, S)`; - define metric outputs as chart-dependent objects `M_c(m ...
+
+[3] score=0.6258  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/METRIC_IDENTITY_PHASEII_REPORT25_ADOPTION_NOTE_20260705.md
+    sect: Metric-Identity Phase II Report25 Adoption Note > Accepted Technical Directions
+    The following are accepted as next-step research targets, subject to proof checks and local evidence gates:  1. Separate the chart from the evaluated roster:  ```text    c = (P,T,J,R,D,w,A_g,N)    S = {sigma_1, ..., sigm ...
+
+[4] score=0.5953  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/GPT55_PRO_METRIC_IDENTITY_REPORT25_DECISION_PROMPT_20260705.md
+    sect: GPT-5.5 Pro Zero-Context Prompt -- MaoField Metric-Identity Report25 Decision Round > Report25 Intent To Evaluate
+    Report25 recommends:  ```text FORMALIZE_DEFINITIONS_FIRST ```  It proposes that the next object should be a finite formal layer for:  - evaluation charts; - chart-dependent metric objects; - chart transport and object id ...
+
+[5] score=0.5892  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_metric_identity_phaseii_report25_20260705.md
+    sect: MaoField Metric-Identity Phase II 深度研究报告 > Formal Definitions Draft > Defect certificate
+    建议把 defect certificate 直接定义成一个**有限 witness quadruple**： \[ \mathcal C=(c,c',K,\Delta), \qquad \Delta:=T_{c\to c'}M_c(K)-M_{c'}(U_{c\to c'}K). \]  当 \(\Delta\neq 0\) 时，它就证明了：至少对这个 witness 而言，两边不是同一对象。证书必须附带四种元数据：使用的 chart ...
+
+[6] score=0.5834  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_metric_field_programme_reframe_report21_20260703.md
+    sect: 7. 文章结构应重排 > 4. MaoField programme: metric complexes as audit objects
+    这里正式占位：  ```text evaluation table metric field residual chart order-defect audit contamination coupling judge coupling aggregation coupling temporal drift ``` ...
+
+[7] score=0.5760  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/ORDER_DEFECT_PREPRINT_RIGOR_AUDIT_ADOPTION_NOTE_20260629.md
+    sect: Order-Defect Preprint Rigor Audit Adoption Note > Local Fixes Applied
+    This adoption pass adds:  ```text scripts/debranded_residual_transport_exact_witness_v1_4.py docs/infra/debranded_residual_transport/EXACT_WITNESS_V1_4_20260629.md docs/infra/debranded_residual_transport/exact_witness_v1 ...
+
+[8] score=0.5699  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/GPT55_PRO_METRIC_IDENTITY_PHASEII_POLLING_PROMPT_20260704.md
+    sect: GPT-5.5 Pro Zero-Context Prompt -- MaoField Metric-Identity Phase II > Research Questions
+    Answer the following, strictly separating proven facts, package-supported claims, conjectures, and proposed future work.  1. What is the cleanest mathematical definition of a chart-dependent metric    object `M_c(m)` or  ...
+
