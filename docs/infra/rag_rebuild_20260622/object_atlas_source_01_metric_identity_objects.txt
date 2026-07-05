@@ -1,0 +1,63 @@
+Loading weights:   0%|          | 0/391 [00:00<?, ?it/s]Loading weights: 100%|██████████| 391/391 [00:00<00:00, 56484.57it/s]
+query: metric identity chart-dependent metric object transport defect certificate roster Phi_c FORMALIZE_DEFINITIONS_FIRST   (top-12, 源=知识, project=MaoField)
+
+[1] score=0.7196  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/GPT55_PRO_METRIC_IDENTITY_REPORT25_DECISION_PROMPT_20260705.md
+    sect: GPT-5.5 Pro Zero-Context Prompt -- MaoField Metric-Identity Report25 Decision Round > Your Required Output > 4. Definition Audit
+    Evaluate the proposed definitions for:  - chart; - roster; - chart-dependent metric object; - identity transport; - defect certificate; - audit-order instability.  For each one, label it:  - `ACCEPT_AS_IS` - `ACCEPT_WITH ...
+
+[2] score=0.6978  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/GPT55_PRO_METRIC_IDENTITY_REPORT25_DECISION_PROMPT_20260705.md
+    sect: GPT-5.5 Pro Zero-Context Prompt -- MaoField Metric-Identity Report25 Decision Round > Report25 Intent To Evaluate
+    Report25 recommends:  ```text FORMALIZE_DEFINITIONS_FIRST ```  It proposes that the next object should be a finite formal layer for:  - evaluation charts; - chart-dependent metric objects; - chart transport and object id ...
+
+[3] score=0.6768  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/MAOFIELD_METRIC_IDENTITY_PROGRAMME_ADOPTION_NOTE_20260704.md
+    sect: MaoField Metric-Identity Programme Adoption Note > Technical Commitments
+    The adopted programme must be translated into finite objects, not only philosophical language:  - define evaluation charts, e.g. `c = (P, T, J, R, D, w, A_g, S)`; - define metric outputs as chart-dependent objects `M_c(m ...
+
+[4] score=0.6486  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/METRIC_IDENTITY_PHASEII_REPORT25_ADOPTION_NOTE_20260705.md
+    sect: Metric-Identity Phase II Report25 Adoption Note > Accepted Technical Directions
+    The following are accepted as next-step research targets, subject to proof checks and local evidence gates:  1. Separate the chart from the evaluated roster:  ```text    c = (P,T,J,R,D,w,A_g,N)    S = {sigma_1, ..., sigm ...
+
+[5] score=0.6389  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_metric_identity_phaseii_report25_20260705.md
+    sect: MaoField Metric-Identity Phase II 深度研究报告 > Requests to Node36 Codex and Next Decision > Next Decision
+    `FORMALIZE_DEFINITIONS_FIRST`  原因很直接。当前 package 已经足以证明“free identity 是错的”，但还不足以在 paper-safe 口径下说明“什么才算同一对象”。如果先去堆更多 semantic toys，而 identity / transport / invariance / defect / instability 这些对象还没正式锁死，那么新证书库很容易重新坠回“例子很多、对 ...
+
+[6] score=0.6372  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/GPT55_PRO_METRIC_IDENTITY_PHASEII_POLLING_PROMPT_20260704.md
+    sect: GPT-5.5 Pro Zero-Context Prompt -- MaoField Metric-Identity Phase II > Research Questions
+    Answer the following, strictly separating proven facts, package-supported claims, conjectures, and proposed future work.  1. What is the cleanest mathematical definition of a chart-dependent metric    object `M_c(m)` or  ...
+
+[7] score=0.6330  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_metric_identity_phaseii_report25_20260705.md
+    sect: MaoField Metric-Identity Phase II 深度研究报告 > Formal Definitions Draft > Metric-form fetishism
+    若要把“metric-form fetishism”正式化，最干净的写法是把它定义为一种**未经许可的 quotienting**。设报告系统试图把 charted object family \[ \{M_c(\sigma)\}_{c,\sigma} \] 压到一个 chart-free latent claim \(\theta(\sigma)\in\Theta\)。如果在没有证明一族相容 transports / invarian ...
+
+[8] score=0.6229  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_metric_identity_phaseii_report25_20260705.md
+    sect: MaoField Metric-Identity Phase II 深度研究报告 > Formal Definitions Draft > Defect certificate
+    建议把 defect certificate 直接定义成一个**有限 witness quadruple**： \[ \mathcal C=(c,c',K,\Delta), \qquad \Delta:=T_{c\to c'}M_c(K)-M_{c'}(U_{c\to c'}K). \]  当 \(\Delta\neq 0\) 时，它就证明了：至少对这个 witness 而言，两边不是同一对象。证书必须附带四种元数据：使用的 chart ...
+
+[9] score=0.6124  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_metric_field_programme_reframe_report21_20260703.md
+    sect: 7. 文章结构应重排 > 4. MaoField programme: metric complexes as audit objects
+    这里正式占位：  ```text evaluation table metric field residual chart order-defect audit contamination coupling judge coupling aggregation coupling temporal drift ``` ...
+
+[10] score=0.6086  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/recovery/MAOFIELD_D705_REPORT25_DECISION_PACKAGE_TASKBOOK_20260705.md
+    sect: MaoField D705 Report25 Decision Package Taskbook > Required Interpretation
+    Report25 is a direction-setting audit. It should not be treated as a proof or as new empirical evidence.  The accepted Pro intent is:  ```text FORMALIZE_DEFINITIONS_FIRST ```  The next research decision is whether to:  - ...
+
+[11] score=0.6064  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_order_defect_proof_biblio_repair_audit_report8_20260630.md
+    sect: Order-Defect Proof Repair and Bibliography Audit > 受控范围
+    第一层是**可直接作为 future proof-repair / narrow-note core inputs** 的文件。真正承担数学和相关工作主体的，应限于：`from_repo/docs/infra/debranded_residual_transport/FORMAL_NOTE_V1_3_ORDER_DEFECT_20260628.md`、`from_repo/docs/infra/debranded_residual_tr ...
+
+[12] score=0.6023  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/debranded_residual_transport/FORMAL_NOTE_V1_3_ORDER_DEFECT_20260628.md
+    sect: Finite Weighted Residual Transport -- Formal Note v1.3
+    Date: 2026-06-28 CST  Status: Mode A finite-dimensional order-defect proof note after report (32). This is not a MaoField empirical result.  Source workplan and audit:  ```text docs/infra/debranded_residual_transport/FOR ...
+

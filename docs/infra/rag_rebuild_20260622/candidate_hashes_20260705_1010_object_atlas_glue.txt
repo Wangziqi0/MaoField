@@ -1,0 +1,2 @@
+0092353268266eb9d6bd0f768a6978deb847042a9bfb9ef0a5ffec239b547998  /home/amd/codex-node36/tmp/rag_20260705_1010_object_atlas_glue/candidate_index/kb.faiss
+b7acb9a4678bc10fb99d9e62db4c65ccb97319f8592f0ad7a5e2a48912cdebcf  /home/amd/codex-node36/tmp/rag_20260705_1010_object_atlas_glue/candidate_index/kb_meta.jsonl

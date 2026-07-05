@@ -1,0 +1,63 @@
+Loading weights:   0%|          | 0/391 [00:00<?, ?it/s]Loading weights: 100%|██████████| 391/391 [00:00<00:00, 46110.69it/s]
+query: MaoField possible mathematical objects quotient residual hypercube interaction field tensor rank commutator path certificate library   (top-12, 源=知识, project=MaoField)
+
+[1] score=0.6816  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/OPEN_MAOFIELD_FORMAL_ZENODO_PREPRINT_FORM_VALUES_20260704.md
+    sect: Open-MaoField Zenodo Preprint Form Values > Keywords
+    ```text projection order defects weighted two-way tables finite-dimensional Hilbert spaces residual metric audits black-box evaluation functional ANOVA dependent inputs orthogonal projections exact rational certificate M ...
+
+[2] score=0.6641  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/recovery/ORDER_DEFECT_D630_TASKBOOK_NEXT_PRO_20260630.md
+    sect: Order-Defect D630 Taskbook For Next Pro Pass > Current State
+    The MaoField repository currently contains a debranded finite-dimensional mathematics line under `docs/infra/debranded_residual_transport/`.  Its narrow object is a finite positive weighted two-way table / weighted Hilbe ...
+
+[3] score=0.6505  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_future_math_objects_interaction_field_audit_20260623.md
+    sect: MaoField 之后值得追的数学对象 > 最终决策表
+    综合判断是：**旧 MaoField framing 应该被继续去魅，但不应被直接放弃。** 去魅之后留下来的最值得追的对象，不是“hypercube 已成立”，也不是“residual field 已观察到”，而是一个更严格、更会让自己死掉的对象：**加权乘积划分交互场**。它能够把 PI 的超立方体直觉、项目的 residual ambition、以及现有 bundle 的 source-only/product-cell 工件整合 ...
+
+[4] score=0.6430  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/README.md
+    sect: Documentation
+    Extended documentation for the MaoField framework. ...
+
+[5] score=0.6369  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/GPT55_PRO_FOUNDATIONAL_RESIDUAL_TRANSPORT_PROMPT_20260625.md
+    sect: GPT-5.5 Pro Zero-Context Prompt: Foundational Residual Transport
+    Mode B: evidence-gated MaoField claims. Do not upgrade MaoField beyond current evidence. For MaoField, stable non-scalar residual structure remains insufficient_artifact, and existing interaction smoke remains smoke_conj ...
+
+[6] score=0.6361  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/recovery/FORBIDDEN_CLAIMS_SCAN_20260629.md
+    sect: Forbidden Claims Scan 2026-06-29
+    CTOR_REFRESH_REPORT23_20260624.md | 16 | WARNING | REWRITE | - create an observed residual, interaction, quotient-residual, transport, or | | MaoField residual observed | ./docs/infra/rag_rebuild_20260622/NODE22_VECTOR_R ...
+
+[7] score=0.6344  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_metric_field_programme_reframe_report21_20260703.md
+    sect: 7. 文章结构应重排 > 5. Future mathematical objects
+    具体列对象，不空喊：  ```text multi-axis finite weighted audit cubes near-product perturbation bounds commutator norm as instability index residual chart equivalence classes weight-sensitive leaderboard rank stability judge-order  ...
+
+[8] score=0.6342  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/MAOFIELD_METRIC_IDENTITY_PROGRAMME_20260704.md
+    sect: MaoField / Open-MaoField：指标对象同一性、指标形式拜物教与真正解决纲领 > 2. Open-MaoField 当前数学结果的真实地位
+    当前公开的 Open-MaoField 不是 MaoField 总理论，不是旧 MaoField empirical line 的公开证明版，也不是 LLM 内部机制解释。它是一个很小、很锋利的数学工具：  ```text finite positive weighted two-way residual audit chart + projection-order defect theorem + exact rational 2x2 ...
+
+[9] score=0.6320  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/recovery/HANDOFF_TO_GPT55PRO_20260629.md
+    sect: Handoff To GPT-5.5 Pro 2026-06-29 > 8. Claims Explicitly Forbidden
+    - MaoField empirical positive result. - full panel / 16-cell aggregate completed. - checkpoint loading, inference, training, or new loss authorization. - observed MaoField residual / interaction / quotient-residual / tra ...
+
+[10] score=0.6309  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/GPT55_PRO_METRIC_IDENTITY_PHASEII_POLLING_PROMPT_20260704.md
+    sect: GPT-5.5 Pro Zero-Context Prompt -- MaoField Metric-Identity Phase II > Task
+    Start the next MaoField research phase. The previous finite result is already a bounded preprint-level wedge:  ```text Finite Projection Order Defects in Residual Metric Audits: A Mathematical Starting Point for Black-Bo ...
+
+[11] score=0.6305  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/MAOFIELD_METRIC_IDENTITY_PROGRAMME_20260704.md
+    sect: MaoField / Open-MaoField：指标对象同一性、指标形式拜物教与真正解决纲领 > 17. 写作边界：必须避免的过度声明
+    不要说：  ```text MaoField 已经发现 deployed model residual field MaoField 已经解释 hallucination / reasoning / alignment mechanism MaoField 已经证明 model collapse / recovery 的非标量结构 MaoField 已经完成 broad ANOVA / dependent-input / project ...
+
+[12] score=0.6300  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/GPT55_PRO_MODE_A_MATH_DISCOVERY_PROMPT_20260623.md
+    sect: GPT-5.5 Pro Zero-Context Prompt: Mode A Math Discovery
+    Mode A task: Treat MaoField as deflated empirical material and conceptual ore. Look for a new mathematical problem that survives after all scalar metrics, main effects, decode artifacts, generation smooth trends, nuisanc ...
+
