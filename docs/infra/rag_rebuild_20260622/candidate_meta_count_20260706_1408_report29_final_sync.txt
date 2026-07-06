@@ -1,0 +1,1 @@
+12580 /home/amd/codex-node36/tmp/rag_20260706_1408_report29_final_sync_rerun/index/kb_meta.jsonl

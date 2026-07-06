@@ -101,6 +101,15 @@ def projection_matrix(basis, weights):
     return proj, gram, gram_inv
 
 
+def projection_coordinates(basis, weights, gram_inv, vector):
+    """Coordinates of the weighted projection onto span(basis)."""
+    rhs = [weighted_dot(vector, basis_vector, weights) for basis_vector in basis]
+    return [
+        sum(gram_inv[i][j] * rhs[j] for j in range(len(rhs)))
+        for i in range(len(rhs))
+    ]
+
+
 def weighted_dot(u, v, weights):
     return sum(weights[i] * u[i] * v[i] for i in range(len(weights)))
 
@@ -133,13 +142,10 @@ def sha256_file(path):
     return h.hexdigest()
 
 
-def build_control(name, mismatch, basis, weights, projection, complement):
+def build_control(name, mismatch, basis, weights, gram_inv, projection, complement):
     projected_gauge = matvec(projection, mismatch)
     quotient_residual = matvec(complement, mismatch)
-    coeffs = [
-        weighted_dot(mismatch, vector, weights) / norm_sq(vector, weights)
-        for vector in basis
-    ]
+    coeffs = projection_coordinates(basis, weights, gram_inv, mismatch)
     return {
         "name": name,
         "s_1_row_major": vec_s(mismatch),
@@ -174,8 +180,8 @@ def build_certificate():
     m_plus = [Fraction(1, 1), Fraction(2, 1), Fraction(3, 2), Fraction(5, 2)]
     m_minus = checkerboard
 
-    positive = build_control("m_plus_additive_absorbed", m_plus, basis, weights, projection, complement)
-    negative = build_control("m_minus_checkerboard_obstruction", m_minus, basis, weights, projection, complement)
+    positive = build_control("m_plus_additive_absorbed", m_plus, basis, weights, gram_inv, projection, complement)
+    negative = build_control("m_minus_checkerboard_obstruction", m_minus, basis, weights, gram_inv, projection, complement)
 
     enlarged_residual = matvec(enlarged_complement, m_minus)
     negative_inner_products = {

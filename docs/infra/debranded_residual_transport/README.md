@@ -30,6 +30,15 @@ It is intentionally separated from the MaoField empirical line:
 - `../gpt_deep_research/deep_research_d706_gq_fcr_implementation_gate_report28_20260706.md`
   and `../gpt_deep_research/D706_GQ_FCR_IMPLEMENTATION_GATE_REPORT28_ADOPTION_NOTE_20260706.md`
   — Pro's D706 implementation gate and node36 adoption note.
+- `../gpt_deep_research/deep_research_d706_gq_fcr_post_impl_preprint_integration_report29_20260706.md`
+  and `../gpt_deep_research/D706_GQ_FCR_POST_IMPL_PREPRINT_INTEGRATION_REPORT29_ADOPTION_NOTE_20260706.md`
+  — post-implementation / preprint-integration audit. Report29 selects
+  `APPEND_GQ_FCR_AS_SEPARATE_EXACT_NOTE`: keep GQ-FCR as a separate exact
+  note and do not patch the current Zenodo V2.5 preprint now.
+
+A separate exact note records the v1.5 Gauge-Quotiented Finite Consistency
+Radius as an adjacent finite certificate; it does not alter the theorem or
+claims of the V2.5 order-defect preprint.
 - `../recovery/ORDER_DEFECT_D630_PROOF_REPAIR_TASKBOOK_20260630.md` — current
   report(8) proof-repair taskbook.  It narrows the next action to
   `PATCH_PROOFS_THEN_RECHECK` under the broader `KEEP_LOCK_AND_FIX` lock.
