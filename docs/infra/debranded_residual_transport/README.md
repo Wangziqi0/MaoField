@@ -20,9 +20,17 @@ It is intentionally separated from the MaoField empirical line:
   boundary index connecting the MaoField Phase II metric-object identity /
   non-identity / unity programme to the current exact finite notes. It records
   Pro report30's verdict `TRANSLATION_CORRECT_BUT_INCOMPLETE` and
-  `KEEP_GQ_FCR_AS_SEPARATE_NOTE_AND_WRITE_INDEX`, plus report31's decision to
-  queue `OI^{op}_{N_add}(w)=0 iff w is product form` only as a future bounded
-  corollary companion.
+  `KEEP_GQ_FCR_AS_SEPARATE_NOTE_AND_WRITE_INDEX`, report31's decision to queue
+  `OI^{op}_{N_add}(w)=0 iff w is product form`, and report32's decision to
+  draft that result as a bounded one-page corollary companion.
+- `FORMAL_NOTE_OI_COROLLARY_COMPANION_20260706.md` —
+  D706 bounded corollary companion: in finite positive weighted two-way tables,
+  the restricted audit-order instability on `N_add` vanishes iff weights are
+  product form. It is a corollary of v1.3, not a broad theory and not a
+  MaoField empirical result.
+- `../gpt_deep_research/deep_research_oi_corollary_companion_report32_20260706.md`
+  and `../gpt_deep_research/OI_COROLLARY_COMPANION_REPORT32_ADOPTION_NOTE_20260706.md`
+  — Pro's D706 OI companion verdict and node36 adoption note.
 - `FORMAL_NOTE_V1_5_GAUGE_QUOTIENTED_CONSISTENCY_RADIUS_20260706.md` —
   D706 implementation of the narrow Gauge-Quotiented Finite Consistency
   Radius. It is a finite overlap-gauge quotient certificate, not a broad

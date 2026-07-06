@@ -1,6 +1,6 @@
 # Metric-Object Identity Exact Notes Index
 
-Date verified: 2026-07-06 18:41:09 CST on node36.
+Date verified: 2026-07-06 21:16:29 CST on node36.
 
 Status:
 
@@ -9,8 +9,8 @@ INDEX_ONLY_BOUNDARY_ARTIFACT
 ```
 
 This index records how the current exact finite notes support the MaoField
-Phase II measurement-object identity programme. It does not introduce a new
-theorem and does not alter the current Zenodo V2.5 preprint.
+Phase II measurement-object identity programme. It does not alter the current
+Zenodo V2.5 preprint.
 
 ## Programme Translation
 
@@ -66,7 +66,38 @@ Boundary:
 This proves a finite order-defect artifact. It does not prove a MaoField
 empirical result, a broad projection theory, or an observed residual field.
 
-### 2. GQ-FCR Separate Exact Note
+### 2. OI Corollary Companion
+
+Primary file:
+
+```text
+FORMAL_NOTE_OI_COROLLARY_COMPANION_20260706.md
+```
+
+Claim status:
+
+```text
+BOUNDED_COROLLARY_COMPANION_TO_V1_3
+```
+
+Safe claim:
+
+In finite positive weighted two-way tables, the restricted audit-order
+instability on additive nuisance,
+
+```text
+OI^{op}_{N_add}(w) = ||D_w restricted to N_add||,
+```
+
+vanishes if and only if weights are product form.
+
+Boundary:
+
+This is a corollary of the v1.3 order-defect spine. It is not a broad
+instability theory, not a true interaction-residual claim, not a MaoField
+empirical result, and not a patch to the current Zenodo V2.5 preprint.
+
+### 3. GQ-FCR Separate Exact Note
 
 Primary files:
 
@@ -121,6 +152,8 @@ Report:
 ../gpt_deep_research/METRIC_IDENTITY_NONIDENTITY_UNITY_NEXT_MATH_REPORT30_ADOPTION_NOTE_20260706.md
 ../gpt_deep_research/deep_research_metric_identity_oi_corollary_decision_report31_20260706.md
 ../gpt_deep_research/METRIC_IDENTITY_OI_COROLLARY_DECISION_REPORT31_ADOPTION_NOTE_20260706.md
+../gpt_deep_research/deep_research_oi_corollary_companion_report32_20260706.md
+../gpt_deep_research/OI_COROLLARY_COMPANION_REPORT32_ADOPTION_NOTE_20260706.md
 ```
 
 Adopted verdict:
@@ -129,27 +162,31 @@ Adopted verdict:
 TRANSLATION_CORRECT_BUT_INCOMPLETE
 KEEP_GQ_FCR_AS_SEPARATE_NOTE_AND_WRITE_INDEX
 ACCEPT_REPORT31_AS_CONFIRMATION_AND_QUEUE_OI_COROLLARY_CANDIDATE
+DRAFT_ONE_PAGE_OI_COROLLARY_COMPANION
+ACCEPT_REPORT32_AND_WRITE_BOUNDED_OI_COROLLARY_COMPANION
 ```
 
-## Next Candidate If PI Continues
+## Latest Implemented Candidate
 
-The cleanest next bounded exact-math candidate is:
+The latest bounded exact-math companion is:
 
 ```text
 OI^{op}_{N_add}(w) = 0 iff w is product form
 ```
 
-This should be treated as a future one-page exact note candidate, not as a
-current theorem claim in this index.
-
-Report31 classifies this as:
+Report31 classified it as:
 
 ```text
 FORMALIZABLE_NOW_AS_COROLLARY_COMPANION
 ```
 
-It should be written only as a bounded corollary companion to v1.3 if PI
-explicitly chooses the next exact-math step.
+Report32 selected:
+
+```text
+DRAFT_ONE_PAGE_OI_COROLLARY_COMPANION
+```
+
+Node36 wrote it only as a bounded corollary companion to v1.3.
 
 ## Forbidden Claims
 
