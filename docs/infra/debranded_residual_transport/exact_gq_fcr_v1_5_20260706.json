@@ -1,0 +1,410 @@
+{
+  "all_checks_passed": true,
+  "artifact": "exact_gq_fcr_v1_5_20260706",
+  "carrier_manifest_1": {
+    "labels": [
+      "q1_b1",
+      "q1_b2",
+      "q2_b1",
+      "q2_b2"
+    ],
+    "name": "I_1"
+  },
+  "carrier_manifest_2": {
+    "labels": [
+      "q1_b1",
+      "q1_b2",
+      "q2_b1",
+      "q2_b2"
+    ],
+    "name": "I_2"
+  },
+  "checks": {
+    "complement_annihilates_gauge_basis": true,
+    "enlarged_gauge_absorbs_checkerboard": true,
+    "enlarged_gauge_gram_invertible": true,
+    "enlarged_gauge_projection_is_identity": true,
+    "gauge_gram_invertible": true,
+    "gauge_monotonicity_exact": true,
+    "negative_control_delta_squared_one": true,
+    "negative_control_orthogonal_to_gauge": true,
+    "negative_control_residual_equals_mismatch": true,
+    "positive_control_coefficients_exact": true,
+    "positive_control_delta_squared_zero": true,
+    "positive_control_residual_zero": true,
+    "projection_idempotent": true,
+    "projection_weighted_self_adjoint": true,
+    "weights_strictly_positive": true
+  },
+  "complement_projection_matrix_row_major": [
+    [
+      "1/4",
+      "-1/4",
+      "-1/4",
+      "1/4"
+    ],
+    [
+      "-1/4",
+      "1/4",
+      "1/4",
+      "-1/4"
+    ],
+    [
+      "-1/4",
+      "1/4",
+      "1/4",
+      "-1/4"
+    ],
+    [
+      "1/4",
+      "-1/4",
+      "-1/4",
+      "1/4"
+    ]
+  ],
+  "date": "2026-07-06 CST",
+  "enlarged_gauge_monotonicity_check": {
+    "delta_squared_m_minus_enlarged_gamma": "0",
+    "delta_squared_m_minus_original_gamma": "1",
+    "enlarged_basis_row_major": {
+      "b": [
+        "-1",
+        "1",
+        "-1",
+        "1"
+      ],
+      "checkerboard": [
+        "1",
+        "-1",
+        "-1",
+        "1"
+      ],
+      "one": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "q": [
+        "-1",
+        "-1",
+        "1",
+        "1"
+      ]
+    },
+    "enlarged_gauge_gram_matrix_row_major": [
+      [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "1",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "1",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "1"
+      ]
+    ],
+    "enlarged_projection_matrix_row_major": [
+      [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "1",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "1",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "1"
+      ]
+    ]
+  },
+  "evidence_boundary": {
+    "mode_b_maofield_status": "insufficient_artifact",
+    "not_authorized": [
+      "broad_sheaf_theory",
+      "broad_consistency_radius_theory",
+      "broad_contextuality_theory",
+      "broad_dependent_input_anova_theory",
+      "broad_noncommuting_projection_theory",
+      "maofield_empirical_positive_result",
+      "full_panel",
+      "checkpoint_loading",
+      "model_inference",
+      "training",
+      "new_loss",
+      "observed_residual_field",
+      "observed_transport_field",
+      "observed_holonomy_field",
+      "glass_box_broken",
+      "paper_ready_or_peer_reviewed_claim"
+    ],
+    "strongest_allowed_verdict": "definitions_and_exact_certificate_viable_only"
+  },
+  "gauge_basis_row_major": {
+    "b": [
+      "-1",
+      "1",
+      "-1",
+      "1"
+    ],
+    "one": [
+      "1",
+      "1",
+      "1",
+      "1"
+    ],
+    "q": [
+      "-1",
+      "-1",
+      "1",
+      "1"
+    ]
+  },
+  "gauge_gram_inverse_row_major": [
+    [
+      "1",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "1",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "1"
+    ]
+  ],
+  "gauge_gram_matrix_row_major": [
+    [
+      "1",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "1",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "1"
+    ]
+  ],
+  "gauge_transfer_matrices_row_major": null,
+  "negative_control": {
+    "delta_squared": "1",
+    "gauge_coefficients_for_basis": [
+      "0",
+      "0",
+      "0"
+    ],
+    "name": "m_minus_checkerboard_obstruction",
+    "projected_gauge_component_row_major": [
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    "quotient_residual_row_major": [
+      "1",
+      "-1",
+      "-1",
+      "1"
+    ],
+    "raw_mismatch_row_major": [
+      "1",
+      "-1",
+      "-1",
+      "1"
+    ],
+    "s_1_row_major": [
+      "1",
+      "-1",
+      "-1",
+      "1"
+    ],
+    "s_2_row_major": [
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    "weighted_inner_products_with_gauge_basis": {
+      "b": "0",
+      "one": "0",
+      "q": "0"
+    }
+  },
+  "overlap_manifest_12": {
+    "labels": [
+      "q1_b1",
+      "q1_b2",
+      "q2_b1",
+      "q2_b2"
+    ],
+    "name": "O_12"
+  },
+  "positive_control": {
+    "delta_squared": "0",
+    "gauge_coefficients_for_basis": [
+      "7/4",
+      "1/4",
+      "1/2"
+    ],
+    "name": "m_plus_additive_absorbed",
+    "projected_gauge_component_row_major": [
+      "1",
+      "2",
+      "3/2",
+      "5/2"
+    ],
+    "quotient_residual_row_major": [
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    "raw_mismatch_row_major": [
+      "1",
+      "2",
+      "3/2",
+      "5/2"
+    ],
+    "s_1_row_major": [
+      "1",
+      "2",
+      "3/2",
+      "5/2"
+    ],
+    "s_2_row_major": [
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  "projection_matrix_row_major": [
+    [
+      "3/4",
+      "1/4",
+      "1/4",
+      "-1/4"
+    ],
+    [
+      "1/4",
+      "3/4",
+      "-1/4",
+      "1/4"
+    ],
+    [
+      "1/4",
+      "-1/4",
+      "3/4",
+      "1/4"
+    ],
+    [
+      "-1/4",
+      "1/4",
+      "1/4",
+      "3/4"
+    ]
+  ],
+  "restriction_matrices_row_major": {
+    "rho_1": [
+      [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "1",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "1",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "1"
+      ]
+    ],
+    "rho_2": [
+      [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "1",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "1",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "1"
+      ]
+    ]
+  },
+  "runtime": {
+    "arithmetic": "fractions.Fraction",
+    "platform": "Linux-7.0.0-15-generic-x86_64-with-glibc2.43",
+    "python": "3.14.4",
+    "random_draws": 0
+  },
+  "status": "synthetic_only_exact_fraction_certificate",
+  "weights_row_major": [
+    "1/4",
+    "1/4",
+    "1/4",
+    "1/4"
+  ]
+}

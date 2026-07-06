@@ -1,0 +1,131 @@
+Loading weights:   0%|          | 0/391 [00:00<?, ?it/s]Loading weights: 100%|██████████| 391/391 [00:00<00:00, 50644.58it/s]
+query: GQ-FCR v1.5 exact certificate m_plus m_minus Delta squared 15 checks   (top-6, 源=知识, project=MaoField)
+
+[1] score=0.6831  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/STATE.md
+    sect: MaoField — PROJECT STATE (canonical 单一真相源) > 戳
+    c5767e986b17d713afa0b1723a2a0f0dc4154f939572424a37084fcd18fe2a80`。SSD scratch run and canonical reproducibility check passed: 15/15 exact Fraction checks, `m_plus -> Delta^2=0`, `m_minus -> Delta^2=1`, enlarged gauge abs ...
+
+[2] score=0.6408  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/STATE.md
+    sect: MaoField — PROJECT STATE (canonical 单一真相源) > §0 一句话 + 今天
+    anded_residual_transport_exact_gq_fcr_v1_5.py`; exact certificate JSON/MD=`docs/infra/debranded_residual_transport/exact_gq_fcr_v1_5_20260706.json` + `EXACT_GQ_FCR_V1_5_20260706.md`; current pre-refresh RAG record=`docs/ ...
+
+[3] score=0.6400  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/MD_CATALOG.md
+    sect: MaoField MD_CATALOG — 全 ~429 md 分层梳理 (navigate reference)
+    ONSISTENCY_RADIUS_20260706.md`, exact script `scripts/debranded_residual_transport_exact_gq_fcr_v1_5.py`, certificate JSON `docs/infra/debranded_residual_transport/exact_gq_fcr_v1_5_20260706.json`, certificate MD `docs/i ...
+
+[4] score=0.6096  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_d706_gq_fcr_implementation_gate_report28_20260706.md
+    sect: D706 外部数学落地闸门裁决 > 定理闸门
+    **它与旧 same-carrier order-defect theorem 的关系，是“邻接而非同一”。** v1.3 / v1.4 的核心内容是：在非 product 权重下，`P_A` 与 `P_B0` 的顺序剥离会出现 noncommuting order defect，并存在纯主效应 witness，使真加性残差为零、一个顺序输出为零、另一个顺序输出非零；v1.4 则把这个最小 `2×2` 见证做成了 exact ratio ...
+
+[5] score=0.6077  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/STATE.md
+    sect: MaoField — PROJECT STATE (canonical 单一真相源) > §7 指针 (detail 去哪找)
+     inference / no training / no new loss / no observed field / no completed formal system claim) | | **D706 GQ-FCR v1.5 exact certificate** | `docs/infra/debranded_residual_transport/FORMAL_NOTE_V1_5_GAUGE_QUOTIENTED_CONSI ...
+
+[6] score=0.6057  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/debranded_residual_transport/FORMAL_NOTE_V1_5_GAUGE_QUOTIENTED_CONSISTENCY_RADIUS_20260706.md
+    sect: Formal Note v1.5 -- Gauge-Quotiented Finite Consistency Radius > Exact 2x2 Controls
+    Then `Delta^2(m_minus; Gamma')=0 <= 1=Delta^2(m_minus; Gamma)`.  The exact script and certificate are:  ```text scripts/debranded_residual_transport_exact_gq_fcr_v1_5.py docs/infra/debranded_residual_transport/exact_gq_f ...
+
+Loading weights:   0%|          | 0/391 [00:00<?, ?it/s]Loading weights: 100%|██████████| 391/391 [00:00<00:00, 47670.86it/s]
+query: D706 GQ FCR implementation gate report28 APPROVE_NODE36_IMPLEMENT   (top-6, 源=知识, project=MaoField)
+
+[1] score=0.7279  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/STATE.md
+    sect: MaoField — PROJECT STATE (canonical 单一真相源) > 戳
+    | 项 | 值 | |---|---| | 最后更新 | **2026-07-06 D706 12:56 CST** (`date` verified 12:56:06 CST)。Pro report(28) `deep_research_d706_gq_fcr_implementation_gate_report28_20260706.md` sha256=`df6a9a78fe42f486ee17779def72703779cb9b ...
+
+[2] score=0.7123  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/MD_CATALOG.md
+    sect: MaoField MD_CATALOG — 全 ~429 md 分层梳理 (navigate reference) > §0 新 session 导航 TL;DR ★最重要 > 导航 ACTIVE 核心与 D628 当前入口 (该看)
+    rch_d706_gq_fcr_implementation_gate_report28_20260706.md`, adoption=`D706_GQ_FCR_IMPLEMENTATION_GATE_REPORT28_ADOPTION_NOTE_20260706.md`, node36 action=`ACCEPT_PRO_BRANCH_AND_IMPLEMENT_NARROW_V1_5_GQ_FCR`; old V13 and v1 ...
+
+[3] score=0.6898  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/D706_GQ_FCR_IMPLEMENTATION_GATE_REPORT28_ADOPTION_NOTE_20260706.md
+    sect: D706 GQ-FCR Implementation Gate Report 28 Adoption Note > Local Adoption Verdict
+    ```text ACCEPT_PRO_BRANCH_AND_IMPLEMENT_NARROW_V1_5_GQ_FCR ```  The report chooses:  ```text APPROVE_NODE36_IMPLEMENT_V1_5_GQ_FCR ```  Node36 accepts this as an implementation authorization for a narrow Mode A finite exa ...
+
+[4] score=0.6788  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/STATE.md
+    sect: MaoField — PROJECT STATE (canonical 单一真相源) > §7 指针 (detail 去哪找)
+     inference / no training / no new loss / no observed field / no completed formal system claim) | | **D706 GQ-FCR v1.5 exact certificate** | `docs/infra/debranded_residual_transport/FORMAL_NOTE_V1_5_GAUGE_QUOTIENTED_CONSI ...
+
+[5] score=0.6581  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/MAOFIELD_PRO_D706_MATH_LANDING_EXTERNAL_SCAN_PACKAGE_20260706.md
+    sect: MaoField Pro D706 Math Landing External-Scan Package > Pro Decision Requested
+    GPT-5.5 Pro must choose exactly one:  ```text APPROVE_NODE36_IMPLEMENT_V1_5_GQ_FCR PATCH_MATH_DRAFT_FIRST PIVOT_TO_THREE_CHART_COCYCLE_CERTIFICATE PIVOT_TO_SUPPORT_RANK_ANOVA_DEFECT STOP_DUPLICATE_OR_PRIOR_ART_RISK_TOO_H ...
+
+[6] score=0.6538  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/D706_GQ_FCR_IMPLEMENTATION_GATE_REPORT28_ADOPTION_NOTE_20260706.md
+    sect: D706 GQ-FCR Implementation Gate Report 28 Adoption Note
+    Date verified on node36: 2026-07-06 12:51:36 CST  Source report:  ```text docs/infra/gpt_deep_research/deep_research_d706_gq_fcr_implementation_gate_report28_20260706.md sha256=df6a9a78fe42f486ee17779def72703779cb9ba80fe ...
+
+Loading weights:   0%|          | 0/391 [00:00<?, ?it/s]Loading weights: 100%|██████████| 391/391 [00:00<00:00, 50397.13it/s]
+query: FORMAL_NOTE_V1_5_GAUGE_QUOTIENTED_CONSISTENCY_RADIUS realized gauge transfer conditional   (top-6, 源=知识, project=MaoField)
+
+[1] score=0.6481  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/STATE.md
+    sect: MaoField — PROJECT STATE (canonical 单一真相源) > §0 一句话 + 今天
+    anded_residual_transport_exact_gq_fcr_v1_5.py`; exact certificate JSON/MD=`docs/infra/debranded_residual_transport/exact_gq_fcr_v1_5_20260706.json` + `EXACT_GQ_FCR_V1_5_20260706.md`; current pre-refresh RAG record=`docs/ ...
+
+[2] score=0.6354  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/recovery/MAOFIELD_D706_EXTERNAL_MATH_LANDING_TASKBOOK_20260706.md
+    sect: MaoField D706 External Math Landing Taskbook > Current Verdict
+    ```text LAND_ON_GAUGE_QUOTIENTED_FINITE_CONSISTENCY_RADIUS_FIRST ``` ...
+
+[3] score=0.6345  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/debranded_residual_transport/README.md
+    sect: Debranded Residual Transport Direction > Current Entry Points
+    - `FORMAL_NOTE_V1_5_GAUGE_QUOTIENTED_CONSISTENCY_RADIUS_20260706.md` —   D706 implementation of the narrow Gauge-Quotiented Finite Consistency   Radius. It is a finite overlap-gauge quotient certificate, not a broad   co ...
+
+[4] score=0.6155  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/debranded_residual_transport/TWO_CHART_GLUE_CERTIFICATE_V1_5_MATH_LANDING_DRAFT_20260706.md
+    sect: Two-Chart Glue Certificate v1.5 Math Landing Draft > Proposed Final Artifact Paths
+    If Pro approves this draft, node36 should convert it into:  ```text docs/infra/debranded_residual_transport/FORMAL_NOTE_V1_5_GAUGE_QUOTIENTED_CONSISTENCY_RADIUS_20260706.md scripts/debranded_residual_transport_exact_gq_f ...
+
+[5] score=0.6143  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/debranded_residual_transport/EXACT_GQ_FCR_V1_5_20260706.md
+    sect: Exact GQ-FCR Certificate v1.5
+    Date: 2026-07-06 CST  Status: synthetic-only exact rational certificate for the v1.5 Gauge-Quotiented Finite Consistency Radius formal note. This is not a MaoField empirical result and is not a broad consistency-radius,  ...
+
+[6] score=0.6119  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/MAOFIELD_PRO_D706_MATH_LANDING_EXTERNAL_SCAN_PACKAGE_20260706.md
+    sect: MaoField Pro D706 Math Landing External-Scan Package
+    Date verified on node36: 2026-07-06 11:49:02 CST  Status:  ```text DELIVERED_TO_NODE19_FOR_ZERO_CONTEXT_PRO_REVIEW ```  This package was prepared after an internet-assisted prior-art search and a local RAG check. It is n ...
+
+Loading weights:   0%|          | 0/391 [00:00<?, ?it/s]Loading weights: 100%|██████████| 391/391 [00:00<00:00, 49821.46it/s]
+query: broad sheaf consistency radius not authorized Mode B insufficient_artifact GQ-FCR   (top-6, 源=知识, project=MaoField)
+
+[1] score=0.6137  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/debranded_residual_transport/EXACT_GQ_FCR_V1_5_20260706.md
+    sect: Exact GQ-FCR Certificate v1.5 > Boundary
+    Allowed ceiling:  ```text definitions_and_exact_certificate_viable_only ```  Mode B MaoField empirical status:  ```text insufficient_artifact ``` ...
+
+[2] score=0.6112  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_formal_residual_transport_v1_2_report29_minor_revision_audit_20260628.md
+    sect: Formal v1.2 Report 29 Minor Revision Audit > 最终分类
+    ```text formal_v1_2_patch_accepted_after_minor_revision ```  Mode B MaoField empirical status 仍然必须保持为 `insufficient_artifact`。 ...
+
+[3] score=0.6051  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/debranded_residual_transport/TWO_CHART_GLUE_CERTIFICATE_V1_5_MATH_LANDING_DRAFT_20260706.md
+    sect: Two-Chart Glue Certificate v1.5 Math Landing Draft > Name
+    Use the conservative name:  ```text Gauge-Quotiented Finite Consistency Radius ```  Internal shorthand:  ```text GQ-FCR ```  This name acknowledges nearby prior art on sheaf consistency radius while preserving the MaoFie ...
+
+[4] score=0.5885  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_mode_a_quotient_residual_kill_framework_20260623.md
+    sect: MaoField 去魅后的底层数学问题与严格击杀框架 > 谨慎回译到 MaoField Mode B
+    现在只准用允许的 verdict 说话。  对**今天**这包材料，关于“稳定非标量结构是否已被证立”的 Mode B 结论，只能是：  \[ \boxed{\texttt{insufficient\_artifact}} \]  原因不在于“smoke 完全没有东西”，而在于：没有 PI 批准的 50-checkpoint full panel；没有 interaction full-panel aggregate；没有 prereg ...
+
+[5] score=0.5841  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/debranded_residual_transport/EXACT_WITNESS_V1_4_20260629.md
+    sect: Exact Witness Certificate v1.4 -- Order Defect > Boundary
+    Allowed ceiling:  ```text definitions_and_harness_viable_only ```  Mode B MaoField empirical status:  ```text insufficient_artifact ``` ...
+
+[6] score=0.5782  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_formal_preprint_v2_2_strict_review_report23_20260703.md
+    sect: 严格数学审稿报告 > 详细审稿报告 > 边界语句、Mode B 说明与禁用主张扫描
+    **2）真正的边界缺口：TeX 草稿未明写 Mode B = `insufficient_artifact`。** 包内短提示明确要求 `Mode B remains insufficient_artifact; no MaoField empirical positive claim is allowed`；严格审稿提示也再次锁定该状态；draft-gate taskbook 更明写“must not change Mode B be ...

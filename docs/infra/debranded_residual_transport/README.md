@@ -16,6 +16,20 @@ It is intentionally separated from the MaoField empirical line:
 
 ## Current Entry Points
 
+- `FORMAL_NOTE_V1_5_GAUGE_QUOTIENTED_CONSISTENCY_RADIUS_20260706.md` —
+  D706 implementation of the narrow Gauge-Quotiented Finite Consistency
+  Radius. It is a finite overlap-gauge quotient certificate, not a broad
+  consistency-radius/sheaf/contextuality/ANOVA/projection theory.
+- `EXACT_GQ_FCR_V1_5_20260706.md` and `exact_gq_fcr_v1_5_20260706.json` —
+  exact rational v1.5 certificate; the script verifies positive control
+  `Delta^2=0`, negative control `Delta^2=1`, projection checks, and
+  enlarged-gauge monotonicity.
+- `../../scripts/debranded_residual_transport_exact_gq_fcr_v1_5.py` —
+  exact `fractions.Fraction` generator for the v1.5 JSON and Markdown
+  certificate.
+- `../gpt_deep_research/deep_research_d706_gq_fcr_implementation_gate_report28_20260706.md`
+  and `../gpt_deep_research/D706_GQ_FCR_IMPLEMENTATION_GATE_REPORT28_ADOPTION_NOTE_20260706.md`
+  — Pro's D706 implementation gate and node36 adoption note.
 - `../recovery/ORDER_DEFECT_D630_PROOF_REPAIR_TASKBOOK_20260630.md` — current
   report(8) proof-repair taskbook.  It narrows the next action to
   `PATCH_PROOFS_THEN_RECHECK` under the broader `KEEP_LOCK_AND_FIX` lock.
