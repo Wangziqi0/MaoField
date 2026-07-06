@@ -1,0 +1,10 @@
+=== scope dry-run (照 RAG_INDEX_SCOPE.md) ===
+INCLUDE 池总: 903
+  MaoField:    799
+  Shape-CFD:   100
+  其余(真相源/knowledge): 4
+  layer [A]: 654   [S]标注(不进默认检索): 249
+  --only-active 输出数: 654
+    其中 [S] 由 layer_map 精确判定: 249   仅 S_STEMS fallback 命中(精确未覆盖): 0
+  自检 法律语料命中(应=0): 0
+白名单写入: /home/amd/codex-node36/tmp/rag_20260706_2021_oi_corollary_companion_package/scope_include_maofield_active_md.txt (654 行)

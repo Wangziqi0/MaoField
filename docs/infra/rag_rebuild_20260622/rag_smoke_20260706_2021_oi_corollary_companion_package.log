@@ -1,0 +1,83 @@
+query: OI corollary companion package D706 GPT55 prompt taskbook   (top-8, 源=知识, project=MaoField)
+
+[1] score=0.6924  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/MD_CATALOG.md
+    sect: MaoField MD_CATALOG — 全 ~429 md 分层梳理 (navigate reference)
+    _COMPANION_PACKAGE_README_20260706.md`, zero-context prompt `docs/infra/gpt_deep_research/GPT55_PRO_OI_COROLLARY_COMPANION_REVIEW_PROMPT_20260706.md`, package record `docs/infra/MAOFIELD_PRO_OI_COROLLARY_COMPANION_PACKAG ...
+
+[2] score=0.6789  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/STATE.md
+    sect: MaoField — PROJECT STATE (canonical 单一真相源) > §0 一句话 + 今天
+    h/GPT55_PRO_OI_COROLLARY_COMPANION_REVIEW_PROMPT_20260706.md`; taskbook=`docs/infra/recovery/MAOFIELD_D706_OI_COROLLARY_COMPANION_TASKBOOK_20260706.md`; RAG/status synthesis=`docs/infra/recovery/D706_OI_COROLLARY_NEXT_PR ...
+
+[3] score=0.6726  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/MD_CATALOG.md
+    sect: MaoField MD_CATALOG — 全 ~429 md 分层梳理 (navigate reference)
+    GPT55_PRO_D706_GQ_FCR_POST_IMPL_PREPRINT_INTEGRATION_PROMPT_20260706.md`, package record `docs/infra/MAOFIELD_PRO_D706_GQFCR_POST_IMPL_PREPRINT_INTEGRATION_PACKAGE_20260706.md`。node19 desktop zip=`MaoField_PRO_D706_GQFCR ...
+
+[4] score=0.6469  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/STATE.md
+    sect: MaoField — PROJECT STATE (canonical 单一真相源) > 戳
+    | 项 | 值 | |---|---| | 最后更新 | **2026-07-06 D706 20:21 CST** (`date` verified 20:21:12 CST)。Prepared the next bounded exact-math Pro package for `OI^{op}_{N_add}(w)=0 iff w is product form` as a one-page v1.3 corollary com ...
+
+[5] score=0.6350  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/debranded_residual_transport/README_FOR_PRO_ORDER_DEFECT_PREPRINT_FINAL_GATE_20260629.md
+    sect: README For GPT-5.5 Pro — Order-Defect Preprint Final Gate > Primary Files
+    Use the standalone prompt in:  ```text prompt/GPT55_PRO_ORDER_DEFECT_PREPRINT_FINAL_GATE_PROMPT_20260629.md ``` ...
+
+[6] score=0.6211  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/STATE.md
+    sect: MaoField — PROJECT STATE (canonical 单一真相源) > §0 一句话 + 今天
+    sult。Mode B remains `insufficient_artifact`; duplicate risk remains `MEDIUM`。 - **下一步建议**: Send `GPT55_PRO_OI_COROLLARY_COMPANION_REVIEW_PROMPT_20260706.md` with `MaoField_PRO_OI_CorollaryCompanion_FINAL_20260706.zip` to ...
+
+[7] score=0.6144  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/MAOFIELD_PRO_OI_COROLLARY_COMPANION_PACKAGE_20260706.md
+    sect: MaoField Pro OI Corollary Companion Package > Delivered Files
+    Node19 desktop:  ```text C:\Users\amd\Desktop\MaoField_PRO_OI_CorollaryCompanion_FINAL_20260706.zip C:\Users\amd\Desktop\GPT55_PRO_OI_COROLLARY_COMPANION_REVIEW_PROMPT_20260706.md ```  Node36 scratch originals:  ```text  ...
+
+[8] score=0.6052  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/STATE.md
+    sect: MaoField — PROJECT STATE (canonical 单一真相源) > 戳
+    60706_2021_oi_corollary_companion_package`; exact active-file count, chunk count, live hashes, smoke output, and node22 logs live in non-Markdown sidecars to avoid self-referential hash drift; node22 stopped. RAG/web rem ...
+
+query: FORMALIZABLE_NOW_AS_COROLLARY_COMPANION OI op N_add product form   (top-8, 源=知识, project=MaoField)
+
+[1] score=0.6595  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/METRIC_IDENTITY_OI_COROLLARY_DECISION_REPORT31_ADOPTION_NOTE_20260706.md
+    sect: Metric-Identity OI Corollary Decision Report31 Adoption Note > OI Candidate
+    Report31 gives a proof sketch for the next bounded candidate:  ```text OI^{op}_{N_add}(w) = 0 iff w is product form ```  Safe classification:  ```text FORMALIZABLE_NOW_AS_COROLLARY_COMPANION ```  Boundary:  This is not p ...
+
+[2] score=0.6572  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_metric_identity_nonidentity_unity_next_math_report30_20260706.md
+    sect: MaoField 指标对象同一性与非同一性严格数学决策评审 > 安全数学核心
+    ` | `FORMALIZABLE_NOW` | `OI^{op}_{N_add}` 与 `OI^{pt}_w(K)` 已被明确提出，且 `OI^{op}_{N_add}(w)=0 iff w` 为 product form 被报告判为 `PROVABLE_NOW`。 | `deep_research_metric_identity_phaseii_report25_20260705.md:L124-L147,L171-L180`; ` ...
+
+[3] score=0.6490  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/debranded_residual_transport/METRIC_OBJECT_IDENTITY_EXACT_NOTES_INDEX_20260706.md
+    sect: Metric-Object Identity Exact Notes Index > Next Candidate If PI Continues
+    The cleanest next bounded exact-math candidate is:  ```text OI^{op}_{N_add}(w) = 0 iff w is product form ```  This should be treated as a future one-page exact note candidate, not as a current theorem claim in this index ...
+
+[4] score=0.6286  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/STATE.md
+    sect: MaoField — PROJECT STATE (canonical 单一真相源) > 戳
+    | 项 | 值 | |---|---| | 最后更新 | **2026-07-06 D706 20:21 CST** (`date` verified 20:21:12 CST)。Prepared the next bounded exact-math Pro package for `OI^{op}_{N_add}(w)=0 iff w is product form` as a one-page v1.3 corollary com ...
+
+[5] score=0.6113  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/MD_CATALOG.md
+    sect: MaoField MD_CATALOG — 全 ~429 md 分层梳理 (navigate reference)
+    =`TRANSLATION_CORRECT_BUT_INCOMPLETE` + `KEEP_GQ_FCR_AS_SEPARATE_NOTE_AND_WRITE_INDEX`; node36 action=`ACCEPT_REPORT31_AS_CONFIRMATION_AND_QUEUE_OI_COROLLARY_CANDIDATE`。更新 `METRIC_OBJECT_IDENTITY_EXACT_NOTES_INDEX_202607 ...
+
+[6] score=0.5922  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/recovery/MAOFIELD_D706_OI_COROLLARY_COMPANION_TASKBOOK_20260706.md
+    sect: MaoField D706 OI Corollary Companion Taskbook > Purpose
+    Prepare a zero-context GPT-5.5 Pro review package for the next bounded exact mathematics step after report31:  ```text OI^{op}_{N_add}(w) = 0 iff w is product form ```  This is a candidate one-page corollary companion to ...
+
+[7] score=0.5900  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/STATE.md
+    sect: MaoField — PROJECT STATE (canonical 单一真相源) > §0 一句话 + 今天
+    sult。Mode B remains `insufficient_artifact`; duplicate risk remains `MEDIUM`。 - **下一步建议**: Send `GPT55_PRO_OI_COROLLARY_COMPANION_REVIEW_PROMPT_20260706.md` with `MaoField_PRO_OI_CorollaryCompanion_FINAL_20260706.zip` to ...
+
+[8] score=0.5863  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/recovery/D706_OI_COROLLARY_COMPANION_PACKAGE_README_20260706.md
+    sect: MaoField OI Corollary Companion Review Package > Required Output
+    Choose exactly one:  ```text DRAFT_ONE_PAGE_OI_COROLLARY_COMPANION PATCH_DEFINITION_THEN_RECHECK REJECT_OR_DEFER_DUE_TO_PROOF_GAP REQUEST_NODE36_FILES ``` ...
