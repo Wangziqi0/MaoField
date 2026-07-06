@@ -16,6 +16,11 @@ It is intentionally separated from the MaoField empirical line:
 
 ## Current Entry Points
 
+- `METRIC_OBJECT_IDENTITY_EXACT_NOTES_INDEX_20260706.md` —
+  boundary index connecting the MaoField Phase II metric-object identity /
+  non-identity / unity programme to the current exact finite notes. It records
+  Pro report30's verdict `TRANSLATION_CORRECT_BUT_INCOMPLETE` and
+  `KEEP_GQ_FCR_AS_SEPARATE_NOTE_AND_WRITE_INDEX`.
 - `FORMAL_NOTE_V1_5_GAUGE_QUOTIENTED_CONSISTENCY_RADIUS_20260706.md` —
   D706 implementation of the narrow Gauge-Quotiented Finite Consistency
   Radius. It is a finite overlap-gauge quotient certificate, not a broad

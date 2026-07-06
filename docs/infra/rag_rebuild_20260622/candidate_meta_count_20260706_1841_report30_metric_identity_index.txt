@@ -1,0 +1,1 @@
+12622 /home/amd/codex-node36/tmp/rag_20260706_1841_report30_metric_identity_index/index/kb_meta.jsonl
