@@ -1,0 +1,223 @@
+
+===== QUERY: D706 report31 OI corollary decision TRANSLATION_CORRECT_BUT_INCOMPLETE =====
+Loading weights:   0%|          | 0/391 [00:00<?, ?it/s]Loading weights: 100%|██████████| 391/391 [00:00<00:00, 47402.17it/s]
+query: D706 report31 OI corollary decision TRANSLATION_CORRECT_BUT_INCOMPLETE   (top-8, 源=知识, project=MaoField)
+
+[1] score=0.6847  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/debranded_residual_transport/METRIC_OBJECT_IDENTITY_EXACT_NOTES_INDEX_20260706.md
+    sect: Metric-Object Identity Exact Notes Index > Current Pro Verdict
+    Report:  ```text ../gpt_deep_research/deep_research_metric_identity_nonidentity_unity_next_math_report30_20260706.md ../gpt_deep_research/METRIC_IDENTITY_NONIDENTITY_UNITY_NEXT_MATH_REPORT30_ADOPTION_NOTE_20260706.md ../ ...
+
+[2] score=0.6642  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/STATE.md
+    sect: MaoField — PROJECT STATE (canonical 单一真相源) > 戳
+    1_OI_COROLLARY_DECISION_20260706.md`, sidecar tag=`20260706_2001_report31_oi_corollary_decision`; Mode B remains `insufficient_artifact`; duplicate risk remains `MEDIUM`; RAG/web remain locators, not proof. | | git HEAD  ...
+
+[3] score=0.6525  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/MD_CATALOG.md
+    sect: MaoField MD_CATALOG — 全 ~429 md 分层梳理 (navigate reference)
+    =`TRANSLATION_CORRECT_BUT_INCOMPLETE` + `KEEP_GQ_FCR_AS_SEPARATE_NOTE_AND_WRITE_INDEX`; node36 action=`ACCEPT_REPORT31_AS_CONFIRMATION_AND_QUEUE_OI_COROLLARY_CANDIDATE`。更新 `METRIC_OBJECT_IDENTITY_EXACT_NOTES_INDEX_202607 ...
+
+[4] score=0.6358  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/METRIC_IDENTITY_NONIDENTITY_UNITY_NEXT_MATH_REPORT30_ADOPTION_NOTE_20260706.md
+    sect: Metric-Identity Non-Identity / Unity Next-Math Report30 Adoption Note > Pro Verdict
+    Adopt the report's main verdict:  ```text TRANSLATION_CORRECT_BUT_INCOMPLETE ```  Meaning:  - the original "non-identity / unity" claim-chain has a valid mathematical   landing as `measurement-object identity`, `metric-o ...
+
+[5] score=0.6157  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_metric_identity_oi_corollary_decision_report31_20260706.md
+    sect: MaoField 指标对象同一性、非同一性、统一性与下一精确数学对象决策审查报告 > Verdict On The Original Claim-Chain
+    **Verdict: `TRANSLATION_CORRECT_BUT_INCOMPLETE`**  这个 verdict 的含义非常具体。包内已经明确把原始概念链条压缩为一个“serious mathematical translation”：  ```text measurement-object identity / metric-object identity / metric-form fetishism / defect c ...
+
+[6] score=0.6114  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_metric_identity_oi_corollary_decision_report31_20260706.md
+    sect: MaoField 指标对象同一性、非同一性、统一性与下一精确数学对象决策审查报告 > Verdict On The Original Claim-Chain
+    这个翻译之所以仍然**不完备**，是因为包内一再要求把 claim 收缩在“有限 exact artifact”边界内。programme note 只是给出了 chart、metric object、transport、defect certificate 的理论骨架；adoption note 也明确写明这些内容必须被翻译成有限对象，但当前 order-defect theorem 只是**first finite exact ce ...
+
+[7] score=0.6088  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_D706_REPORT31_OI_COROLLARY_DECISION_20260706.md
+    sect: Node22 Vector Refresh -- D706 Report31 OI-Corollary Decision
+    Date verified on node36: 2026-07-06 20:01 CST  Status:  ```text PROMOTED_AND_NODE22_STOPPED_REPORT31_OI_COROLLARY_DECISION ```  This RAG-sync record covers the D706 report31 adoption round:  ```text TRANSLATION_CORRECT_B ...
+
+[8] score=0.6042  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/STATE.md
+    sect: MaoField — PROJECT STATE (canonical 单一真相源) > §7 指针 (detail 去哪找)
+    CAL_REVIEW_DECISION_V13_20260701.md`; node19 desktop zip `MaoField_PRO_OrderDefect_PILocalReviewDecision_V13_FINAL_20260701_2028.zip`; independent prompt `GPT55_PRO_ORDER_DEFECT_PI_LOCAL_REVIEW_DECISION_V13_PROMPT_202607 ...
+
+
+===== QUERY: FORMALIZABLE_NOW_AS_COROLLARY_COMPANION OI op N add product form =====
+Loading weights:   0%|          | 0/391 [00:00<?, ?it/s]Loading weights: 100%|██████████| 391/391 [00:00<00:00, 43370.61it/s]
+query: FORMALIZABLE_NOW_AS_COROLLARY_COMPANION OI op N add product form   (top-8, 源=知识, project=MaoField)
+
+[1] score=0.6553  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/METRIC_IDENTITY_OI_COROLLARY_DECISION_REPORT31_ADOPTION_NOTE_20260706.md
+    sect: Metric-Identity OI Corollary Decision Report31 Adoption Note > OI Candidate
+    Report31 gives a proof sketch for the next bounded candidate:  ```text OI^{op}_{N_add}(w) = 0 iff w is product form ```  Safe classification:  ```text FORMALIZABLE_NOW_AS_COROLLARY_COMPANION ```  Boundary:  This is not p ...
+
+[2] score=0.6373  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/debranded_residual_transport/METRIC_OBJECT_IDENTITY_EXACT_NOTES_INDEX_20260706.md
+    sect: Metric-Object Identity Exact Notes Index > Next Candidate If PI Continues
+    The cleanest next bounded exact-math candidate is:  ```text OI^{op}_{N_add}(w) = 0 iff w is product form ```  This should be treated as a future one-page exact note candidate, not as a current theorem claim in this index ...
+
+[3] score=0.6371  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_metric_identity_nonidentity_unity_next_math_report30_20260706.md
+    sect: MaoField 指标对象同一性与非同一性严格数学决策评审 > 安全数学核心
+    ` | `FORMALIZABLE_NOW` | `OI^{op}_{N_add}` 与 `OI^{pt}_w(K)` 已被明确提出，且 `OI^{op}_{N_add}(w)=0 iff w` 为 product form 被报告判为 `PROVABLE_NOW`。 | `deep_research_metric_identity_phaseii_report25_20260705.md:L124-L147,L171-L180`; ` ...
+
+[4] score=0.5914  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/STATE.md
+    sect: MaoField — PROJECT STATE (canonical 单一真相源) > §0 一句话 + 今天
+     math, write only a bounded one-page `OI^{op}_{N_add}(w)=0 iff w is product form` corollary companion; dynamic chart-sequence / collapse-object identity work must be a separate future formal-note task from finite definit ...
+
+[5] score=0.5699  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/GPT55_PRO_METRIC_IDENTITY_REPORT25_DECISION_PROMPT_20260705.md
+    sect: GPT-5.5 Pro Zero-Context Prompt -- MaoField Metric-Identity Report25 Decision Round > Your Required Output > 5. Next Theorem Candidate
+    Assess whether the candidate  ```text OI_N^op(w)=0 iff w is product form ```  is already provable from the existing formal note, or whether it needs a new lemma. Give the exact finite-dimensional proof plan or blocker. ...
+
+[6] score=0.5667  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_order_defect_recovery_repair_dual_pro_report7_20260630.md
+    sect: Order-Defect Recovery Repair 审计报告 > 5. Mathematical Proof Audit
+    **Proposition 1：product-weight iff `A ⟂ B0`：COMPLETE。** formal note 给出了双向证明：product case 直接因子化内积，反向用 centered indicators 展开到 `w(q0,b0)-w_Q(q0)w_B(b0)`，并补了退化单行/单列情形。数学救援审计把这一条标为 `COMPLETE_LOCAL_DRAFT`；按你要求的标签体系，我将其译为 `COM ...
+
+[7] score=0.5621  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/STATE.md
+    sect: MaoField — PROJECT STATE (canonical 单一真相源) > 戳
+    | 项 | 值 | |---|---| | 最后更新 | **2026-07-06 D706 20:01 CST** (`date` verified 20:01:14 CST)。Adopted Pro report(31) `docs/infra/gpt_deep_research/deep_research_metric_identity_oi_corollary_decision_report31_20260706.md` (so ...
+
+[8] score=0.5610  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_metric_identity_phaseii_report25_20260705.md
+    sect: MaoField Metric-Identity Phase II 深度研究报告 > Formal Definitions Draft > Audit-order instability
+    第二个版本是**点态证书型**： \[ OI^{\mathrm{pt}}_{w}(K) := \frac{\|D_wK\|_w}{\|K\|_w}, \qquad K\neq0, \] 若特别想对“零真加性残差的主效应 witness”做审计，可再限制 \(K\in A\cup B_0\)。这会让 `OI` 明确变成**程序不稳定性指数**，而不是 capability score、也不是 model property。按照现有 the ...
+
+
+===== QUERY: KEEP_GQ_FCR_AS_SEPARATE_NOTE_AND_WRITE_INDEX report31 exact notes index =====
+Loading weights:   0%|          | 0/391 [00:00<?, ?it/s]Loading weights: 100%|██████████| 391/391 [00:00<00:00, 36586.12it/s]
+query: KEEP_GQ_FCR_AS_SEPARATE_NOTE_AND_WRITE_INDEX report31 exact notes index   (top-8, 源=知识, project=MaoField)
+
+[1] score=0.7042  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_D706_REPORT29_GQFCR_SEPARATE_NOTE_20260706.md
+    sect: Node22 Vector Refresh -- D706 Report29 GQ-FCR Separate Exact Note
+    Date verified on node36: 2026-07-06 13:58 CST  Status:  ```text PROMOTED_AND_NODE22_STOPPED_REPORT29_GQFCR_SEPARATE_NOTE ```  This refresh follows Pro report(29), which selected `APPEND_GQ_FCR_AS_SEPARATE_EXACT_NOTE`. RA ...
+
+[2] score=0.6792  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_D706_REPORT29_GQFCR_SEPARATE_NOTE_20260706.md
+    sect: Node22 Vector Refresh -- D706 Report29 GQ-FCR Separate Exact Note > Tag
+    ```text 20260706_1358_report29_gq_fcr_separate_note ``` ...
+
+[3] score=0.6784  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_metric_identity_oi_corollary_decision_report31_20260706.md
+    sect: MaoField 指标对象同一性、非同一性、统一性与下一精确数学对象决策审查报告 > Next Exact Object Decision
+    **Chosen action: `KEEP_GQ_FCR_AS_SEPARATE_NOTE_AND_WRITE_INDEX`**  这是当前包最严格，也最符合 node36 已采纳状态的动作。原因不是 GQ-FCR 数学上不成立，恰恰相反：它已经成立到足以作为单独 exact note 冻结；但 report29 adoption、debranded README 与 state 都一致要求：**不要在本轮把它补进现有 Zenodo  ...
+
+[4] score=0.6713  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/METRIC_IDENTITY_OI_COROLLARY_DECISION_REPORT31_ADOPTION_NOTE_20260706.md
+    sect: Metric-Identity OI Corollary Decision Report31 Adoption Note > Pro Verdict
+    Adopt the report's conservative verdict:  ```text TRANSLATION_CORRECT_BUT_INCOMPLETE KEEP_GQ_FCR_AS_SEPARATE_NOTE_AND_WRITE_INDEX ```  Report31 is accepted as a stricter continuation of report30, not as permission to bro ...
+
+[5] score=0.6614  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/METRIC_IDENTITY_OI_COROLLARY_DECISION_REPORT31_ADOPTION_NOTE_20260706.md
+    sect: Metric-Identity OI Corollary Decision Report31 Adoption Note > Local Adoption
+    Node36 action:  ```text ACCEPT_REPORT31_AS_CONFIRMATION_AND_QUEUE_OI_COROLLARY_CANDIDATE ```  This means:  - keep GQ-FCR as a separate exact note; - do not patch the current Zenodo V2.5 preprint in this action; - do not  ...
+
+[6] score=0.6561  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_metric_identity_nonidentity_unity_next_math_report30_20260706.md
+    sect: MaoField 指标对象同一性与非同一性严格数学决策评审 > 下一步 exact object 的决策
+    **唯一选择：`KEEP_GQ_FCR_AS_SEPARATE_NOTE_AND_WRITE_INDEX`。** 这不是因为 GQ-FCR 比所有未来对象都“更深”，而是因为包内最新权威状态已经把 D706 的落地动作锁成：数学上保留 v1.5 GQ-FCR，出版上不把它并入当前 Zenodo V2.5 预印本，程序上冻结为独立相邻 exact note，并只做交叉索引，不继续在本轮扩张到 three-chart cocycle 或 s ...
+
+[7] score=0.6499  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_D706_REPORT29_GQFCR_SEPARATE_NOTE_20260706.md
+    sect: Node22 Vector Refresh -- D706 Report29 GQ-FCR Separate Exact Note > Smoke
+    Smoke log:  ```text docs/infra/rag_rebuild_20260622/rag_smoke_20260706_1358_report29_gq_fcr_separate_note.log ```  Queries checked:  ```text D706 report29 APPEND_GQ_FCR_AS_SEPARATE_EXACT_NOTE preprint integration GQ-FCR  ...
+
+[8] score=0.6441  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/METRIC_IDENTITY_NONIDENTITY_UNITY_NEXT_MATH_REPORT30_ADOPTION_NOTE_20260706.md
+    sect: Metric-Identity Non-Identity / Unity Next-Math Report30 Adoption Note > Local Adoption
+    Adopt the next-action verdict:  ```text KEEP_GQ_FCR_AS_SEPARATE_NOTE_AND_WRITE_INDEX ```  Node36 action:  ```text ACCEPT_REPORT30_METRIC_IDENTITY_TRANSLATION_AND_WRITE_EXACT_NOTES_INDEX ```  This closes the current zero- ...
+
+
+===== QUERY: dynamic collapse theory not authorized Mode B insufficient_artifact =====
+Loading weights:   0%|          | 0/391 [00:00<?, ?it/s]Loading weights: 100%|██████████| 391/391 [00:00<00:00, 46610.00it/s]
+query: dynamic collapse theory not authorized Mode B insufficient_artifact   (top-8, 源=知识, project=MaoField)
+
+[1] score=0.6831  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/MD_CATALOG.md
+    sect: MaoField MD_CATALOG — 全 ~429 md 分层梳理 (navigate reference) > §0 新 session 导航 TL;DR ★最重要 > 导航 ACTIVE 核心与 D628 当前入口 (该看)
+    ot paper-ready / peer-reviewed / arXiv / journal status; Mode B remains `insufficient_artifact`; no full panel / no checkpoints / no inference / no training / no new loss / no observed field | ...
+
+[2] score=0.6706  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_formal_residual_transport_v1_2_report29_minor_revision_audit_20260628.md
+    sect: Formal v1.2 Report 29 Minor Revision Audit > 最终分类
+    ```text formal_v1_2_patch_accepted_after_minor_revision ```  Mode B MaoField empirical status 仍然必须保持为 `insufficient_artifact`。 ...
+
+[3] score=0.6543  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/debranded_residual_transport/EXACT_GQ_FCR_V1_5_20260706.md
+    sect: Exact GQ-FCR Certificate v1.5 > Boundary
+    Allowed ceiling:  ```text definitions_and_exact_certificate_viable_only ```  Mode B MaoField empirical status:  ```text insufficient_artifact ``` ...
+
+[4] score=0.6428  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/FORMAL_RESIDUAL_TRANSPORT_V1_2_REPORT30_ACCEPTANCE_ADOPTION_NOTE_20260628.md
+    sect: Formal Residual Transport v1.2 Report (30) Acceptance Adoption Note > Still Forbidden
+    This adoption does not authorize any of the following claims:  - completed formal system; - theorem stack complete; - empirical MaoField upgrade; - full panel has run; - 16-cell full-panel aggregate exists; - checkpoint  ...
+
+[5] score=0.6402  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/debranded_residual_transport/EXACT_WITNESS_V1_4_20260629.md
+    sect: Exact Witness Certificate v1.4 -- Order Defect > Boundary
+    Allowed ceiling:  ```text definitions_and_harness_viable_only ```  Mode B MaoField empirical status:  ```text insufficient_artifact ``` ...
+
+[6] score=0.6383  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_mode_a_quotient_residual_kill_framework_20260623.md
+    sect: MaoField 去魅后的底层数学问题与严格击杀框架 > 谨慎回译到 MaoField Mode B
+    现在只准用允许的 verdict 说话。  对**今天**这包材料，关于“稳定非标量结构是否已被证立”的 Mode B 结论，只能是：  \[ \boxed{\texttt{insufficient\_artifact}} \]  原因不在于“smoke 完全没有东西”，而在于：没有 PI 批准的 50-checkpoint full panel；没有 interaction full-panel aggregate；没有 prereg ...
+
+[7] score=0.6325  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/GPT55_PRO_RESEARCH_INDEX_20260622.md
+    sect: MaoField GPT-5.5 Pro Research Index > 4. Experiment Verdict Map > 4.19 D624 Transport / Holonomy Math-Turn Audit
+    Current MaoField status:  - Mode B remains `insufficient_artifact`. - Existing interaction smoke remains `smoke_conjecture_only`. - Synthetic harness pass remains definition/code viability only. - No full panel, checkpoi ...
+
+[8] score=0.6282  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_formal_residual_transport_v1_2_implementation_audit_20260627.md
+    sect: Formal Residual Transport v1.2 实现审计报告 > 通俗解释与最终分类
+    并且无论这个分类如何，Mode B MaoField empirical status 都必须保持：  **insufficient_artifact**〔证据：00-README_FOR_142_AND_PRO.md:15-19；prompt/GPT55_PRO_FOUNDATIONAL_RESIDUAL_TRANSPORT_V1_2_IMPLEMENTATION_AUDIT_PROMPT_20260627.md:24-32；from ...
+
+===== QUERY: report31 dynamic collapse theory forbidden OI GQ-FCR =====
+Loading weights:   0%|          | 0/391 [00:00<?, ?it/s]Loading weights: 100%|██████████| 391/391 [00:00<00:00, 49660.03it/s]
+query: report31 dynamic collapse theory forbidden OI GQ-FCR   (top-8, 源=知识, project=MaoField)
+
+[1] score=0.6192  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/MD_CATALOG.md
+    sect: MaoField MD_CATALOG — 全 ~429 md 分层梳理 (navigate reference)
+    =`TRANSLATION_CORRECT_BUT_INCOMPLETE` + `KEEP_GQ_FCR_AS_SEPARATE_NOTE_AND_WRITE_INDEX`; node36 action=`ACCEPT_REPORT31_AS_CONFIRMATION_AND_QUEUE_OI_COROLLARY_CANDIDATE`。更新 `METRIC_OBJECT_IDENTITY_EXACT_NOTES_INDEX_202607 ...
+
+[2] score=0.6081  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/METRIC_IDENTITY_OI_COROLLARY_DECISION_REPORT31_ADOPTION_NOTE_20260706.md
+    sect: Metric-Identity OI Corollary Decision Report31 Adoption Note > Local Adoption
+    Node36 action:  ```text ACCEPT_REPORT31_AS_CONFIRMATION_AND_QUEUE_OI_COROLLARY_CANDIDATE ```  This means:  - keep GQ-FCR as a separate exact note; - do not patch the current Zenodo V2.5 preprint in this action; - do not  ...
+
+[3] score=0.6011  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/METRIC_IDENTITY_OI_COROLLARY_DECISION_REPORT31_ADOPTION_NOTE_20260706.md
+    sect: Metric-Identity OI Corollary Decision Report31 Adoption Note > Pro Verdict
+    Adopt the report's conservative verdict:  ```text TRANSLATION_CORRECT_BUT_INCOMPLETE KEEP_GQ_FCR_AS_SEPARATE_NOTE_AND_WRITE_INDEX ```  Report31 is accepted as a stricter continuation of report30, not as permission to bro ...
+
+[4] score=0.6010  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_metric_identity_oi_corollary_decision_report31_20260706.md
+    sect: MaoField 指标对象同一性、非同一性、统一性与下一精确数学对象决策审查报告 > Next Exact Object Decision > 与动态项目方向的关系
+    结合你前面对“动态 / 递归 / collapse-object identity”的关切，本地包当前**还不支持**把 GQ-FCR 或 OI 直接升级成动态理论。最安全的说法只是：当前 static spine 已经证明了“同 carrier 顺序程序可制造 residual-like object”，而相邻 chart overlap quotient 已经证明了“两个 local sections 的 declared-gaug ...
+
+[5] score=0.6002  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_metric_identity_oi_corollary_decision_report31_20260706.md
+    sect: MaoField 指标对象同一性、非同一性、统一性与下一精确数学对象决策审查报告 > Next Exact Object Decision
+    **Chosen action: `KEEP_GQ_FCR_AS_SEPARATE_NOTE_AND_WRITE_INDEX`**  这是当前包最严格，也最符合 node36 已采纳状态的动作。原因不是 GQ-FCR 数学上不成立，恰恰相反：它已经成立到足以作为单独 exact note 冻结；但 report29 adoption、debranded README 与 state 都一致要求：**不要在本轮把它补进现有 Zenodo  ...
+
+[6] score=0.5865  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_D706_REPORT31_OI_COROLLARY_DECISION_20260706.md
+    sect: Node22 Vector Refresh -- D706 Report31 OI-Corollary Decision > Claim Boundary
+    This refresh supports discovery of report31's OI-corollary decision only. It does not authorize:  - current Zenodo V2.5 preprint patching; - three-chart cocycle or support-rank ANOVA expansion; - dynamic collapse theory; ...
+
+[7] score=0.5784  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_D706_GQ_FCR_V15_IMPL_20260706.md
+    sect: Node22 Vector Refresh -- D706 GQ-FCR v1.5 Implementation > Claim Boundary
+    This refresh supports discovery of the v1.5 GQ-FCR implementation only. It does not authorize:  - broad sheaf theory; - broad consistency-radius theory; - broad contextuality theory; - broad dependent-input ANOVA theory; ...
+
+[8] score=0.5748  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_metric_identity_oi_corollary_decision_report31_20260706.md
+    sect: MaoField 指标对象同一性、非同一性、统一性与下一精确数学对象决策审查报告 > Safe Mathematical Core
+    `FORMAL_NOTE_V1_3_ORDER_DEFECT_20260628.md:154-227`） | | audit-order instability index `OI` | `FORMALIZABLE_NOW` | programme/adoption note提出 `OI`；report25 进一步说明无下标的 `||D_w||` 不够诚实，推荐受限算子版与点态版；report26 将 `OI_N^{op}(w)=0 i ...

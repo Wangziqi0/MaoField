@@ -119,6 +119,8 @@ Report:
 ```text
 ../gpt_deep_research/deep_research_metric_identity_nonidentity_unity_next_math_report30_20260706.md
 ../gpt_deep_research/METRIC_IDENTITY_NONIDENTITY_UNITY_NEXT_MATH_REPORT30_ADOPTION_NOTE_20260706.md
+../gpt_deep_research/deep_research_metric_identity_oi_corollary_decision_report31_20260706.md
+../gpt_deep_research/METRIC_IDENTITY_OI_COROLLARY_DECISION_REPORT31_ADOPTION_NOTE_20260706.md
 ```
 
 Adopted verdict:
@@ -126,6 +128,7 @@ Adopted verdict:
 ```text
 TRANSLATION_CORRECT_BUT_INCOMPLETE
 KEEP_GQ_FCR_AS_SEPARATE_NOTE_AND_WRITE_INDEX
+ACCEPT_REPORT31_AS_CONFIRMATION_AND_QUEUE_OI_COROLLARY_CANDIDATE
 ```
 
 ## Next Candidate If PI Continues
@@ -138,6 +141,15 @@ OI^{op}_{N_add}(w) = 0 iff w is product form
 
 This should be treated as a future one-page exact note candidate, not as a
 current theorem claim in this index.
+
+Report31 classifies this as:
+
+```text
+FORMALIZABLE_NOW_AS_COROLLARY_COMPANION
+```
+
+It should be written only as a bounded corollary companion to v1.3 if PI
+explicitly chooses the next exact-math step.
 
 ## Forbidden Claims
 

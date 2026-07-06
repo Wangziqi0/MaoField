@@ -1,0 +1,2 @@
+3046cdd809e5262f72fbf1814ff60730d155e8c842b4145185c3dfdcad6beddb  /home/amd/codex-node36/tmp/rag_20260706_2001_report31_oi_corollary_decision/index/kb.faiss
+b5db36cb15866012e4b9e7a6f770e15c059d9df8d9f6e747da79c5610530c74e  /home/amd/codex-node36/tmp/rag_20260706_2001_report31_oi_corollary_decision/index/kb_meta.jsonl
