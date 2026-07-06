@@ -31,6 +31,13 @@ It is intentionally separated from the MaoField empirical line:
 - `../gpt_deep_research/deep_research_oi_corollary_companion_report32_20260706.md`
   and `../gpt_deep_research/OI_COROLLARY_COMPANION_REPORT32_ADOPTION_NOTE_20260706.md`
   — Pro's D706 OI companion verdict and node36 adoption note.
+- `../gpt_deep_research/deep_research_oi_quantitative_norm_result_report33_20260706.md`
+  and `../gpt_deep_research/OI_QUANTITATIVE_NORM_RESULT_REPORT33_ADOPTION_NOTE_20260706.md`
+  — Pro's next quantitative OI norm candidate. It proposes the principal-angle
+  / canonical-correlation formula
+  `OI^{op}_{N_add}(w)=max_j rho_j sqrt(1-rho_j^2)`, but node36 has only
+  archived it as `PROMISING_CANDIDATE_NOT_YET_IMPLEMENTED`. It is not yet a
+  formal theorem note and not a V2.5 Zenodo patch.
 - `FORMAL_NOTE_V1_5_GAUGE_QUOTIENTED_CONSISTENCY_RADIUS_20260706.md` —
   D706 implementation of the narrow Gauge-Quotiented Finite Consistency
   Radius. It is a finite overlap-gauge quotient certificate, not a broad

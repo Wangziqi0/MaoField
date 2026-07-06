@@ -1,0 +1,4 @@
+tag=20260706_2230_oi_quantitative_norm_report33
+files=661
+report33_chunks=files=1 chunks=11 avg_chunks_per_file=11.0
+adoption_chunks=files=1 chunks=8 avg_chunks_per_file=8.0

@@ -97,7 +97,44 @@ This is a corollary of the v1.3 order-defect spine. It is not a broad
 instability theory, not a true interaction-residual claim, not a MaoField
 empirical result, and not a patch to the current Zenodo V2.5 preprint.
 
-### 3. GQ-FCR Separate Exact Note
+### 3. Quantitative OI Norm Candidate
+
+Primary files:
+
+```text
+../gpt_deep_research/deep_research_oi_quantitative_norm_result_report33_20260706.md
+../gpt_deep_research/OI_QUANTITATIVE_NORM_RESULT_REPORT33_ADOPTION_NOTE_20260706.md
+```
+
+Claim status:
+
+```text
+PROMISING_CANDIDATE_NOT_YET_IMPLEMENTED
+```
+
+Proposed safe theorem shape:
+
+In the same finite positive weighted two-way-table object, the restricted
+commutator norm may admit the exact formula
+
+```text
+OI^{op}_{N_add}(w)
+  = max_j rho_j sqrt(1-rho_j^2),
+```
+
+where `rho_j` are the canonical correlations / cosines of principal angles
+between `A` and `B0`. Equivalently, `rho_j` should be the nonzero singular
+values of the normalized dependence tensor
+`Z_w=(w-w_Q otimes w_B)/sqrt(w_Q w_B)`.
+
+Boundary:
+
+This is only a report33 candidate queued for proof check. Node36 has not yet
+implemented a formal note. The `2 x 2` arithmetic value
+`(OI^{op}_{N_add})^2=671/451584` for `(1/11)[[1,2],[3,5]]` is not the same
+normalization as the old v1.4 fixed-witness artifact norm `61/177408`.
+
+### 4. GQ-FCR Separate Exact Note
 
 Primary files:
 
@@ -154,6 +191,8 @@ Report:
 ../gpt_deep_research/METRIC_IDENTITY_OI_COROLLARY_DECISION_REPORT31_ADOPTION_NOTE_20260706.md
 ../gpt_deep_research/deep_research_oi_corollary_companion_report32_20260706.md
 ../gpt_deep_research/OI_COROLLARY_COMPANION_REPORT32_ADOPTION_NOTE_20260706.md
+../gpt_deep_research/deep_research_oi_quantitative_norm_result_report33_20260706.md
+../gpt_deep_research/OI_QUANTITATIVE_NORM_RESULT_REPORT33_ADOPTION_NOTE_20260706.md
 ```
 
 Adopted verdict:
@@ -164,6 +203,8 @@ KEEP_GQ_FCR_AS_SEPARATE_NOTE_AND_WRITE_INDEX
 ACCEPT_REPORT31_AS_CONFIRMATION_AND_QUEUE_OI_COROLLARY_CANDIDATE
 DRAFT_ONE_PAGE_OI_COROLLARY_COMPANION
 ACCEPT_REPORT32_AND_WRITE_BOUNDED_OI_COROLLARY_COMPANION
+PROVE_QUANTITATIVE_OI_NORM_RESULT
+ARCHIVE_AS_REPORT33_AND_QUEUE_PROOF_CHECK
 ```
 
 ## Latest Implemented Candidate
@@ -187,6 +228,18 @@ DRAFT_ONE_PAGE_OI_COROLLARY_COMPANION
 ```
 
 Node36 wrote it only as a bounded corollary companion to v1.3.
+
+## Latest Proposed Candidate
+
+The latest Pro-proposed exact-math candidate is:
+
+```text
+OI^{op}_{N_add}(w)
+  = max_j rho_j sqrt(1-rho_j^2)
+```
+
+where `rho_j` are principal-angle / canonical-correlation invariants between
+`A` and `B0`. It is not yet implemented as a canonical formal note.
 
 ## Forbidden Claims
 

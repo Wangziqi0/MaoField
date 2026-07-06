@@ -1,0 +1,4 @@
+faiss_ntotal=12769
+faiss_dim=1024
+meta_count=12769
+verify=PASS

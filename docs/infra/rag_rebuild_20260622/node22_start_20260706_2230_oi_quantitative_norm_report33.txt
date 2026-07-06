@@ -1,0 +1,3 @@
+pid=3556870
+log=/home/amd/codex-node22/tmp/maofield-rag-vector-20260706_2230_oi_quantitative_norm_report33/bge-m3-llama-18080-retry-gpu0-batch2048-ubatch2048.log
+env=HIP_VISIBLE_DEVICES=0,ROCR_VISIBLE_DEVICES=0,batch=2048,ubatch=2048
