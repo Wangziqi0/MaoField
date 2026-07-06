@@ -1,0 +1,3 @@
+   523 /home/amd/codex-node36/tmp/rag_20260706_1240_drift_check_pointer_fix/scope_include_maofield_active_md.txt
+   772 /home/amd/codex-node36/tmp/rag_20260706_1240_drift_check_pointer_fix/scope_include_maofield_all_nonarchive_md.txt
+  1295 total
