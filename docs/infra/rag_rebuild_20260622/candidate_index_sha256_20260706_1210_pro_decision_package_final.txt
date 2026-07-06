@@ -1,0 +1,2 @@
+36f4e50ffae82c2d033f68beaf0c141724820b851cea2e72a5b6cf8fddf6bba1  /home/amd/codex-node36/tmp/rag_20260706_1210_pro_decision_package_final/candidate_index/kb.faiss
+7507eee8f18b37b886ff0df7f60d0da26534d440a02916e966c614f93cb7813b  /home/amd/codex-node36/tmp/rag_20260706_1210_pro_decision_package_final/candidate_index/kb_meta.jsonl
