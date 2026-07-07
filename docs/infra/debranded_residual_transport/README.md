@@ -33,11 +33,26 @@ It is intentionally separated from the MaoField empirical line:
   — Pro's D706 OI companion verdict and node36 adoption note.
 - `../gpt_deep_research/deep_research_oi_quantitative_norm_result_report33_20260706.md`
   and `../gpt_deep_research/OI_QUANTITATIVE_NORM_RESULT_REPORT33_ADOPTION_NOTE_20260706.md`
-  — Pro's next quantitative OI norm candidate. It proposes the principal-angle
-  / canonical-correlation formula
-  `OI^{op}_{N_add}(w)=max_j rho_j sqrt(1-rho_j^2)`, but node36 has only
-  archived it as `PROMISING_CANDIDATE_NOT_YET_IMPLEMENTED`. It is not yet a
-  formal theorem note and not a V2.5 Zenodo patch.
+  — Pro's D706 quantitative OI norm candidate and node36 adoption source.
+- `FORMAL_NOTE_V1_6_QUANTITATIVE_OI_NORM_20260707.md` —
+  D707 bounded quantitative companion: for finite positive weighted two-way
+  tables,
+  `OI^{op}_{N_add}(w)=max_j rho_j sqrt(1-rho_j^2)`, where `rho_j` are the
+  principal-angle / canonical-correlation invariants between `A` and `B0`,
+  equivalently nonzero singular values of
+  `Z_w=(w-w_Q otimes w_B)/sqrt(w_Q w_B)`. This is a specialization of standard
+  finite two-projection geometry, not a broad new projection theory and not a
+  V2.5 Zenodo patch.
+- `EXACT_OI_QUANTITATIVE_V1_6_20260707.md` and
+  `exact_oi_quantitative_v1_6_20260707.json` —
+  exact rational support for the v1.6 `2 x 2` arithmetic:
+  `rho^2=1/672`, `(OI^{op}_{N_add})^2=671/451584`, with a normalization guard
+  against confusing this operator norm with the old v1.4 fixed-witness artifact
+  norm `61/177408`.
+- `scripts/debranded_residual_transport_exact_oi_quantitative_v1_6.py` —
+  exact `fractions.Fraction` generator for the v1.6 JSON and Markdown support
+  artifacts. The script and JSON are support artifacts only; the proof authority
+  is the analytic finite-dimensional note.
 - `FORMAL_NOTE_V1_5_GAUGE_QUOTIENTED_CONSISTENCY_RADIUS_20260706.md` —
   D706 implementation of the narrow Gauge-Quotiented Finite Consistency
   Radius. It is a finite overlap-gauge quotient certificate, not a broad

@@ -1,0 +1,19 @@
+[1/4] files=664
+[2/4] chunks=12800 chunk_seconds=15.3
+[3/4] remote_embed endpoint=http://192.168.31.22:18080 model=bge-m3-temp batch=32 batches=400
+[4/4] wrote index
+      faiss=/home/amd/codex-node36/tmp/oi_quantitative_v16_20260707/rag_20260707_0931_oi_quantitative_v16_impl/candidate_index/kb.faiss bytes=52428845 vectors=12800 dim=1024
+      meta=/home/amd/codex-node36/tmp/oi_quantitative_v16_20260707/rag_20260707_0931_oi_quantitative_v16_impl/candidate_index/kb_meta.jsonl bytes=15621405
+[stat] files=664 chunks=12800 embed_seconds=181.9 rate=70.379text/s max_input_chars=3000
+
+faiss_ntotal=12800
+faiss_dim=1024
+meta_count=12800
+ntotal_equals_meta=True
+required_path_present=/media/amd/raid1/canonical/projects/MaoField/docs/infra/debranded_residual_transport/FORMAL_NOTE_V1_6_QUANTITATIVE_OI_NORM_20260707.md :: True
+required_path_present=/media/amd/raid1/canonical/projects/MaoField/docs/infra/debranded_residual_transport/EXACT_OI_QUANTITATIVE_V1_6_20260707.md :: True
+required_path_present=/media/amd/raid1/canonical/projects/MaoField/docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_D707_OI_QUANTITATIVE_V16_IMPL_20260707.md :: True
+required_path_present=/media/amd/raid1/canonical/projects/MaoField/STATE.md :: True
+required_path_present=/media/amd/raid1/canonical/projects/MaoField/MD_CATALOG.md :: True
+final_state_status_indexed=True
+no_self_hash_in_state=True

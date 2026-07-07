@@ -97,11 +97,15 @@ This is a corollary of the v1.3 order-defect spine. It is not a broad
 instability theory, not a true interaction-residual claim, not a MaoField
 empirical result, and not a patch to the current Zenodo V2.5 preprint.
 
-### 3. Quantitative OI Norm Candidate
+### 3. Quantitative OI Norm Companion
 
 Primary files:
 
 ```text
+FORMAL_NOTE_V1_6_QUANTITATIVE_OI_NORM_20260707.md
+EXACT_OI_QUANTITATIVE_V1_6_20260707.md
+exact_oi_quantitative_v1_6_20260707.json
+scripts/debranded_residual_transport_exact_oi_quantitative_v1_6.py
 ../gpt_deep_research/deep_research_oi_quantitative_norm_result_report33_20260706.md
 ../gpt_deep_research/OI_QUANTITATIVE_NORM_RESULT_REPORT33_ADOPTION_NOTE_20260706.md
 ```
@@ -109,13 +113,13 @@ Primary files:
 Claim status:
 
 ```text
-PROMISING_CANDIDATE_NOT_YET_IMPLEMENTED
+BOUNDED_QUANTITATIVE_COMPANION_TO_V1_3 + EXACT_ARITHMETIC_SUPPORT
 ```
 
-Proposed safe theorem shape:
+Safe claim:
 
 In the same finite positive weighted two-way-table object, the restricted
-commutator norm may admit the exact formula
+commutator norm has the exact formula
 
 ```text
 OI^{op}_{N_add}(w)
@@ -129,10 +133,14 @@ values of the normalized dependence tensor
 
 Boundary:
 
-This is only a report33 candidate queued for proof check. Node36 has not yet
-implemented a formal note. The `2 x 2` arithmetic value
+This is a bounded local formal note using standard finite two-projection
+geometry. It is not a MaoField empirical result, not a broad new projection or
+dependent-input theory, and not a V2.5 Zenodo preprint patch. The `2 x 2`
+arithmetic value
 `(OI^{op}_{N_add})^2=671/451584` for `(1/11)[[1,2],[3,5]]` is not the same
 normalization as the old v1.4 fixed-witness artifact norm `61/177408`.
+The exact script, Markdown, and JSON are support artifacts only; the proof
+authority is the analytic finite-dimensional note.
 
 ### 4. GQ-FCR Separate Exact Note
 
@@ -205,6 +213,7 @@ DRAFT_ONE_PAGE_OI_COROLLARY_COMPANION
 ACCEPT_REPORT32_AND_WRITE_BOUNDED_OI_COROLLARY_COMPANION
 PROVE_QUANTITATIVE_OI_NORM_RESULT
 ARCHIVE_AS_REPORT33_AND_QUEUE_PROOF_CHECK
+IMPLEMENT_BOUNDED_QUANTITATIVE_OI_NORM_COMPANION
 ```
 
 ## Latest Implemented Candidate
@@ -212,34 +221,32 @@ ARCHIVE_AS_REPORT33_AND_QUEUE_PROOF_CHECK
 The latest bounded exact-math companion is:
 
 ```text
-OI^{op}_{N_add}(w) = 0 iff w is product form
-```
-
-Report31 classified it as:
-
-```text
-FORMALIZABLE_NOW_AS_COROLLARY_COMPANION
-```
-
-Report32 selected:
-
-```text
-DRAFT_ONE_PAGE_OI_COROLLARY_COMPANION
-```
-
-Node36 wrote it only as a bounded corollary companion to v1.3.
-
-## Latest Proposed Candidate
-
-The latest Pro-proposed exact-math candidate is:
-
-```text
 OI^{op}_{N_add}(w)
   = max_j rho_j sqrt(1-rho_j^2)
 ```
 
 where `rho_j` are principal-angle / canonical-correlation invariants between
-`A` and `B0`. It is not yet implemented as a canonical formal note.
+`A` and `B0`, equivalently the nonzero singular values of the normalized
+dependence tensor `Z_w`.
+
+Report33 selected:
+
+```text
+PROVE_QUANTITATIVE_OI_NORM_RESULT
+```
+
+Node36 implemented it only as a bounded v1.6 companion to v1.3 and the D706
+OI zero/nonzero corollary.
+
+## Previous Implemented Candidate
+
+The previous bounded exact-math companion was:
+
+```text
+OI^{op}_{N_add}(w) = 0 iff w is product form
+```
+
+Node36 keeps it as the zero/nonzero corollary companion to v1.3.
 
 ## Forbidden Claims
 
