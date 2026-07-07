@@ -1,0 +1,143 @@
+=== QUERY: Report34 Material-Relation Path Closure finite metric objects ===
+query: Report34 Material-Relation Path Closure finite metric objects   (top-5, 源=知识, project=MaoField)
+
+[1] score=0.6636  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/STATE.md
+    sect: MaoField — PROJECT STATE (canonical 单一真相源) > §0 一句话 + 今天
+    a/gpt_deep_research/GPT55_PRO_MATERIAL_RELATION_PATH_CLOSURE_AUDIT_PROMPT_20260707.md`; package record=`docs/infra/MAOFIELD_PRO_MATERIAL_RELATION_PATH_CLOSURE_PACKAGE_20260707.md`; node19 final zip=`MaoField_PRO_Material ...
+
+[2] score=0.6472  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/debranded_residual_transport/METRIC_OBJECT_IDENTITY_EXACT_NOTES_INDEX_20260706.md
+    sect: Metric-Object Identity Exact Notes Index > D707 Programme-Level Path-Closure Direction
+    Primary files:  ```text MATERIAL_RELATION_PATH_CLOSURE_PROGRAMME_BRIEF_20260707.md ../gpt_deep_research/deep_research_material_relation_path_closure_report34_20260707.md ../gpt_deep_research/MATERIAL_RELATION_PATH_CLOSUR ...
+
+[3] score=0.6433  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/MATERIAL_RELATION_PATH_CLOSURE_REPORT34_ADOPTION_NOTE_20260707.md
+    sect: Material-Relation Path Closure Report34 Adoption Note > Local Verdict
+    ```text ADOPT_AS_PROGRAMME_LEVEL_DIRECTION_WITH_STRICT_BOUNDARIES ```  Report34 is accepted as an important programme-level synthesis, not as new proof authority and not as an empirical upgrade. Its useful core is:  ```t ...
+
+[4] score=0.6426  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/recovery/D707_PATH_CLOSURE_NEXT_PRO_RAG_STATUS_SYNTHESIS_20260707.md
+    sect: D707 Path-Closure Next-Pro RAG / Status Synthesis > Report34 Intent
+    Report34 says the next research subject should not be only the zero/nonzero OI corollary or the v1.6 quantitative formula. It proposes the programme-level subject:  ```text Material-Relation Path Closure for Finite Metri ...
+
+[5] score=0.6113  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/debranded_residual_transport/README.md
+    sect: Debranded Residual Transport Direction > Current Entry Points
+    using this operator norm with the old v1.4 fixed-witness artifact   norm `61/177408`. - `scripts/debranded_residual_transport_exact_oi_quantitative_v1_6.py` —   exact `fractions.Fraction` generator for the v1.6 JSON and  ...
+
+
+=== QUERY: Identity is not naming identity is path closure under material relations ===
+query: Identity is not naming identity is path closure under material relations   (top-5, 源=知识, project=MaoField)
+
+[1] score=0.7941  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_material_relation_path_closure_report34_20260707.md
+    sect: 10. 建议的研究文档结构 > 第一节：研究总命题
+    [ \boxed{ \text{Identity is not naming; identity is path-closure under material relations.} } ]  中文：  [ \boxed{ \text{同一性不是命名，而是物质关系中的路径闭合。} } ]  --- ...
+
+[2] score=0.7471  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/debranded_residual_transport/MATERIAL_RELATION_PATH_CLOSURE_PROGRAMME_BRIEF_20260707.md
+    sect: Material-Relation Path Closure For Finite Metric Objects > 1. Core Sentence
+    ```text Identity is not naming; identity is path closure under material relations. ```  Chinese working form:  ```text 同一性不是命名，而是物质关系中的路径闭合。 ```  This sentence is a programme-level framing. It is not itself a theorem. ...
+
+[3] score=0.7070  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/MD_CATALOG.md
+    sect: MaoField MD_CATALOG — 全 ~429 md 分层梳理 (navigate reference)
+    20260707.md`: 核心句 `Identity is not naming; identity is path closure under material relations`; 只作为 next proof-task source, not proof authority。新增 taskbook/synthesis/RAG outputs/prompt/package record: `MAOFIELD_D707_PATH_ ...
+
+[4] score=0.6861  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/MATERIAL_RELATION_PATH_CLOSURE_REPORT34_ADOPTION_NOTE_20260707.md
+    sect: Material-Relation Path Closure Report34 Adoption Note > Local Verdict
+    ```text ADOPT_AS_PROGRAMME_LEVEL_DIRECTION_WITH_STRICT_BOUNDARIES ```  Report34 is accepted as an important programme-level synthesis, not as new proof authority and not as an empirical upgrade. Its useful core is:  ```t ...
+
+[5] score=0.6381  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/recovery/D707_PATH_CLOSURE_NEXT_PRO_RAG_STATUS_SYNTHESIS_20260707.md
+    sect: D707 Path-Closure Next-Pro RAG / Status Synthesis > Report34 Intent
+    Report34 says the next research subject should not be only the zero/nonzero OI corollary or the v1.6 quantitative formula. It proposes the programme-level subject:  ```text Material-Relation Path Closure for Finite Metri ...
+
+
+=== QUERY: GPT55 Pro material relation path closure audit prompt cycle defect CIC_N ===
+query: GPT55 Pro material relation path closure audit prompt cycle defect CIC_N   (top-5, 源=知识, project=MaoField)
+
+[1] score=0.6373  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/STATE.md
+    sect: MaoField — PROJECT STATE (canonical 单一真相源) > §0 一句话 + 今天
+    a/gpt_deep_research/GPT55_PRO_MATERIAL_RELATION_PATH_CLOSURE_AUDIT_PROMPT_20260707.md`; package record=`docs/infra/MAOFIELD_PRO_MATERIAL_RELATION_PATH_CLOSURE_PACKAGE_20260707.md`; node19 final zip=`MaoField_PRO_Material ...
+
+[2] score=0.5834  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/STATE.md
+    sect: MaoField — PROJECT STATE (canonical 单一真相源) > 戳
+    ERIAL_RELATION_PATH_CLOSURE_AUDIT_PROMPT_20260707.md`; package record=`docs/infra/MAOFIELD_PRO_MATERIAL_RELATION_PATH_CLOSURE_PACKAGE_20260707.md`. Node19 delivered final zip=`MaoField_PRO_MaterialRelationPathClosure_Aud ...
+
+[3] score=0.5758  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_FORMALV11_PRO_20260625.md
+    sect: Node22 Vector Refresh -- Formal v1.1 Pro Audit Package > Hashes
+    GPT55_PRO_FOUNDATIONAL_RESIDUAL_TRANSPORT_V1_1_AUDIT_PROMPT_20260625.md sha256=0ea8a9e0ed97f4b0573c77a0af6b37e79911ecd562063eaf6deade15a210494c ``` ...
+
+[4] score=0.5696  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/MD_CATALOG.md
+    sect: MaoField MD_CATALOG — 全 ~429 md 分层梳理 (navigate reference) > §0 新 session 导航 TL;DR ★最重要 > 导航 ACTIVE 核心与 D628 当前入口 (该看)
+    PORT16_ADOPTION_NOTE_20260701.md` + `docs/infra/gpt_deep_research/ORDER_DEFECT_REPORT15_PATH_HYGIENE_NOTE_20260701.md` + `docs/infra/recovery/ORDER_DEFECT_D701_PI_DECISION_AND_ENGLISH_REWRITE_GATE_V12_TASKBOOK_20260701.m ...
+
+[5] score=0.5696  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/MAOFIELD_PRO_MATERIAL_RELATION_PATH_CLOSURE_PACKAGE_20260707.md
+    sect: MaoField Pro Material-Relation Path Closure Package > Purpose
+    This is the next GPT-5.5 Pro zero-context package after:  ```text D707_QUANTITATIVE_OI_NORM_V16_IMPLEMENTED_AND_RAG_SYNCED ```  It incorporates Report34 as programme-level direction and asks Pro to audit:  ```text Materi ...
+
+
+=== QUERY: MaoField material relation path closure final package fea4485366 ===
+query: MaoField material relation path closure final package fea4485366   (top-5, 源=知识, project=MaoField)
+
+[1] score=0.6816  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/STATE.md
+    sect: MaoField — PROJECT STATE (canonical 单一真相源) > §0 一句话 + 今天
+    a/gpt_deep_research/GPT55_PRO_MATERIAL_RELATION_PATH_CLOSURE_AUDIT_PROMPT_20260707.md`; package record=`docs/infra/MAOFIELD_PRO_MATERIAL_RELATION_PATH_CLOSURE_PACKAGE_20260707.md`; node19 final zip=`MaoField_PRO_Material ...
+
+[2] score=0.6751  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/STATE.md
+    sect: MaoField — PROJECT STATE (canonical 单一真相源) > 戳
+    ERIAL_RELATION_PATH_CLOSURE_AUDIT_PROMPT_20260707.md`; package record=`docs/infra/MAOFIELD_PRO_MATERIAL_RELATION_PATH_CLOSURE_PACKAGE_20260707.md`. Node19 delivered final zip=`MaoField_PRO_MaterialRelationPathClosure_Aud ...
+
+[3] score=0.6448  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/MAOFIELD_PRO_MATERIAL_RELATION_PATH_CLOSURE_PACKAGE_20260707.md
+    sect: MaoField Pro Material-Relation Path Closure Package > Node19 Desktop Delivery
+    ```text C:\Users\amd\Desktop\MaoField_PRO_MaterialRelationPathClosure_Audit_D707_FINAL_20260707_1035.zip C:\Users\amd\Desktop\GPT55_PRO_MATERIAL_RELATION_PATH_CLOSURE_AUDIT_PROMPT_20260707.md ```  Node36 canonical copies ...
+
+[4] score=0.6426  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/MD_CATALOG.md
+    sect: MaoField MD_CATALOG — 全 ~429 md 分层梳理 (navigate reference)
+    20260707.md`: 核心句 `Identity is not naming; identity is path closure under material relations`; 只作为 next proof-task source, not proof authority。新增 taskbook/synthesis/RAG outputs/prompt/package record: `MAOFIELD_D707_PATH_ ...
+
+[5] score=0.6373  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/MD_CATALOG.md
+    sect: MaoField MD_CATALOG — 全 ~429 md 分层梳理 (navigate reference)
+    de19 zip=`MaoField_PRO_MetricIdentity_Report25_Decision_FINAL_20260705.zip` source sha256=, archived normalized sha256=`bbe75d506462a874929a53881b301dd8435bd1770f402dd20e37a1869ff2fb28`; prompt source sha256=, archived n ...
+
+
+=== QUERY: D707_REPORT34_PATH_CLOSURE_PACKAGE_DELIVERED_AND_RAG_SYNCED current RAG authoritative index ===
+query: D707_REPORT34_PATH_CLOSURE_PACKAGE_DELIVERED_AND_RAG_SYNCED current RAG authoritative index   (top-5, 源=知识, project=MaoField)
+
+[1] score=0.6966  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/MD_CATALOG.md
+    sect: MaoField MD_CATALOG — 全 ~429 md 分层梳理 (navigate reference) > §0 新 session 导航 TL;DR ★最重要 > 导航 ACTIVE 核心与 D628 当前入口 (该看)
+    /D706 report26-report31 / GQ-FCR refreshes are provenance; current authoritative index is the D706 OI-corollary companion package refresh below; node22 worker must be stopped after one-shot vector build; RAG 是 locator, n ...
+
+[2] score=0.6781  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_D707_PATH_CLOSURE_REPORT34_PACKAGE_20260707.md
+    sect: Node22 Vector Refresh -- D707 Path-Closure Report34 Package
+    Date verified on node36: 2026-07-07 10:13 CST.  Status:  ```text PROMOTED_AND_NODE22_STOPPED_PATH_CLOSURE_REPORT34_PACKAGE ```  This RAG-sync record covers the local adoption of Report34 and the next Pro package for:  `` ...
+
+[3] score=0.6525  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/STATE.md
+    sect: MaoField — PROJECT STATE (canonical 单一真相源) > 戳
+    | 项 | 值 | |---|---| | 最后更新 | **2026-07-07 D707 10:31 CST** (`date` verified 10:31:31 CST)。Incorporated Report34 `docs/infra/gpt_deep_research/deep_research_material_relation_path_closure_report34_20260707.md` (source sha ...
+
+[4] score=0.6472  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/recovery/MAOFIELD_D707_PATH_CLOSURE_NEXT_PRO_TASKBOOK_20260707.md
+    sect: MaoField D707 Path-Closure Next-Pro Taskbook > Inputs
+    - current `STATE.md` and `MD_CATALOG.md`; - Report34 raw archive and node36 adoption note; - material-relation path-closure programme brief; - v1.3 order-defect formal note; - D706 OI zero/nonzero corollary companion; -  ...
+
+[5] score=0.6451  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_D706_GQ_FCR_V15_IMPL_20260706.md
+    sect: Node22 Vector Refresh -- D706 GQ-FCR v1.5 Implementation
+    Date verified on node36: 2026-07-06 13:03:27 CST  Status:  ```text PROMOTED_AND_NODE22_STOPPED_GQ_FCR_V15_IMPL ```  This refresh follows the D706 Pro report(28) decision and node36 implementation of the narrow v1.5 Gauge ...

@@ -1,0 +1,51 @@
+Archive:  MaoField_PRO_MaterialRelationPathClosure_Audit_D707_FINAL_20260707_1035.zip
+  Length      Date    Time    Name
+---------  ---------- -----   ----
+     5365  2026-07-07 10:43   PACKAGE_FILE_MANIFEST.sha256
+     5515  2026-07-07 10:43   GPT55_PRO_MATERIAL_RELATION_PATH_CLOSURE_AUDIT_PROMPT_20260707.md
+        0  2026-07-07 10:43   from_repo/
+   120488  2026-07-07 10:43   from_repo/MD_CATALOG.md
+        0  2026-07-07 10:43   from_repo/docs/
+        0  2026-07-07 10:43   from_repo/docs/infra/
+        0  2026-07-07 10:43   from_repo/docs/infra/gpt_deep_research/
+     5515  2026-07-07 10:43   from_repo/docs/infra/gpt_deep_research/GPT55_PRO_MATERIAL_RELATION_PATH_CLOSURE_AUDIT_PROMPT_20260707.md
+    11432  2026-07-07 10:43   from_repo/docs/infra/gpt_deep_research/deep_research_oi_corollary_companion_report32_20260706.md
+     3917  2026-07-07 10:43   from_repo/docs/infra/gpt_deep_research/OI_QUANTITATIVE_NORM_RESULT_REPORT33_ADOPTION_NOTE_20260706.md
+     3056  2026-07-07 10:43   from_repo/docs/infra/gpt_deep_research/OI_COROLLARY_COMPANION_REPORT32_ADOPTION_NOTE_20260706.md
+     3309  2026-07-07 10:43   from_repo/docs/infra/gpt_deep_research/MATERIAL_RELATION_PATH_CLOSURE_REPORT34_ADOPTION_NOTE_20260707.md
+     7319  2026-07-07 10:43   from_repo/docs/infra/gpt_deep_research/deep_research_oi_quantitative_norm_result_report33_20260706.md
+    22749  2026-07-07 10:43   from_repo/docs/infra/gpt_deep_research/deep_research_material_relation_path_closure_report34_20260707.md
+     1315  2026-07-07 10:43   from_repo/docs/infra/OPEN_MAOFIELD_PUBLIC_REPO_V2_5_FINAL_SYNTHESIS_20260703.md
+     2915  2026-07-07 10:43   from_repo/docs/infra/OPEN_MAOFIELD_FORMAL_ZENODO_PREPRINT_PUBLISHED_20260704.md
+        0  2026-07-07 10:43   from_repo/docs/infra/debranded_residual_transport/
+     1587  2026-07-07 10:43   from_repo/docs/infra/debranded_residual_transport/EXACT_WITNESS_V1_4_20260629.md
+    21621  2026-07-07 10:43   from_repo/docs/infra/debranded_residual_transport/README.md
+     6721  2026-07-07 10:43   from_repo/docs/infra/debranded_residual_transport/FORMAL_NOTE_V1_5_GAUGE_QUOTIENTED_CONSISTENCY_RADIUS_20260706.md
+     1827  2026-07-07 10:43   from_repo/docs/infra/debranded_residual_transport/EXACT_OI_QUANTITATIVE_V1_6_20260707.md
+     4240  2026-07-07 10:43   from_repo/docs/infra/debranded_residual_transport/FORMAL_NOTE_OI_COROLLARY_COMPANION_20260706.md
+   243837  2026-07-07 10:43   from_repo/docs/infra/debranded_residual_transport/MAOFIELD_PREPRINT_V2_5_FINAL_SYNTHESIS_20260703.pdf
+     2657  2026-07-07 10:43   from_repo/docs/infra/debranded_residual_transport/exact_oi_quantitative_v1_6_20260707.json
+     8751  2026-07-07 10:43   from_repo/docs/infra/debranded_residual_transport/METRIC_OBJECT_IDENTITY_EXACT_NOTES_INDEX_20260706.md
+     8507  2026-07-07 10:43   from_repo/docs/infra/debranded_residual_transport/FORMAL_NOTE_V1_3_ORDER_DEFECT_20260628.md
+     2472  2026-07-07 10:43   from_repo/docs/infra/debranded_residual_transport/EXACT_GQ_FCR_V1_5_20260706.md
+     9425  2026-07-07 10:43   from_repo/docs/infra/debranded_residual_transport/FORMAL_NOTE_V1_6_QUANTITATIVE_OI_NORM_20260707.md
+     4040  2026-07-07 10:43   from_repo/docs/infra/debranded_residual_transport/exact_witness_v1_4_20260629.json
+     5928  2026-07-07 10:43   from_repo/docs/infra/debranded_residual_transport/MATERIAL_RELATION_PATH_CLOSURE_PROGRAMME_BRIEF_20260707.md
+     6510  2026-07-07 10:43   from_repo/docs/infra/debranded_residual_transport/exact_gq_fcr_v1_5_20260706.json
+    22625  2026-07-07 10:43   from_repo/docs/infra/debranded_residual_transport/MAOFIELD_PREPRINT_V2_5_FINAL_SYNTHESIS_20260703.tex
+        0  2026-07-07 10:43   from_repo/docs/infra/rag_rebuild_20260622/
+     2809  2026-07-07 10:43   from_repo/docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_D707_PATH_CLOSURE_REPORT34_PACKAGE_20260707.md
+        0  2026-07-07 10:43   from_repo/docs/infra/recovery/
+    14015  2026-07-07 10:43   from_repo/docs/infra/recovery/D707_PATH_CLOSURE_RAG_QUERY_OUTPUTS_20260707.txt
+     2584  2026-07-07 10:43   from_repo/docs/infra/recovery/MAOFIELD_D707_PATH_CLOSURE_NEXT_PRO_TASKBOOK_20260707.md
+     2466  2026-07-07 10:43   from_repo/docs/infra/recovery/D707_PATH_CLOSURE_NEXT_PRO_RAG_STATUS_SYNTHESIS_20260707.md
+        0  2026-07-07 10:43   from_repo/scripts/
+    10220  2026-07-07 10:43   from_repo/scripts/debranded_residual_transport_exact_witness_v1_4.py
+     8760  2026-07-07 10:43   from_repo/scripts/debranded_residual_transport_exact_oi_quantitative_v1_6.py
+    14601  2026-07-07 10:43   from_repo/scripts/debranded_residual_transport_exact_gq_fcr_v1_5.py
+    43605  2026-07-07 10:43   from_repo/STATE.md
+      921  2026-07-07 10:43   PACKAGE_README.md
+     5365  2026-07-07 10:43   SHA256SUMS.txt
+     2989  2026-07-07 10:43   PACKAGE_FILE_LIST.txt
+---------                     -------
+   651978                     46 files

@@ -53,6 +53,16 @@ It is intentionally separated from the MaoField empirical line:
   exact `fractions.Fraction` generator for the v1.6 JSON and Markdown support
   artifacts. The script and JSON are support artifacts only; the proof authority
   is the analytic finite-dimensional note.
+- `MATERIAL_RELATION_PATH_CLOSURE_PROGRAMME_BRIEF_20260707.md` —
+  D707 programme-level synthesis after Report34. It frames the next bounded
+  research subject as `Material-Relation Path Closure for Finite Metric
+  Objects`: identity is not naming, but path closure under declared material
+  relations. It is a next-Pro task source, not proof authority, not empirical
+  evidence, and not a broad dynamic-collapse theory.
+- `../gpt_deep_research/deep_research_material_relation_path_closure_report34_20260707.md`
+  and `../gpt_deep_research/MATERIAL_RELATION_PATH_CLOSURE_REPORT34_ADOPTION_NOTE_20260707.md`
+  — Pro's Report34 programme synthesis and node36 adoption note. Node36 adopts
+  it only as `ADOPT_AS_PROGRAMME_LEVEL_DIRECTION_WITH_STRICT_BOUNDARIES`.
 - `FORMAL_NOTE_V1_5_GAUGE_QUOTIENTED_CONSISTENCY_RADIUS_20260706.md` —
   D706 implementation of the narrow Gauge-Quotiented Finite Consistency
   Radius. It is a finite overlap-gauge quotient certificate, not a broad

@@ -1,0 +1,3 @@
+started temporary bge-m3 embedding worker on node22 port 18080 for final package sync.
+remote root: /home/amd/codex-node22/tmp/maofield-rag-vector-20260707_1013_path_closure_report34_package-final2
+full temporary worker log intentionally left on node22 scratch, not promoted to git.

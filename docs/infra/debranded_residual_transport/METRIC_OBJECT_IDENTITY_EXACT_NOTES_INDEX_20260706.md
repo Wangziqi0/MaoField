@@ -34,6 +34,42 @@ Safe meanings:
 - `metric-form fetishism`: illicit quotienting of heterogeneous charted metric
   outputs into an apparently intrinsic model property.
 
+## D707 Programme-Level Path-Closure Direction
+
+Primary files:
+
+```text
+MATERIAL_RELATION_PATH_CLOSURE_PROGRAMME_BRIEF_20260707.md
+../gpt_deep_research/deep_research_material_relation_path_closure_report34_20260707.md
+../gpt_deep_research/MATERIAL_RELATION_PATH_CLOSURE_REPORT34_ADOPTION_NOTE_20260707.md
+```
+
+Claim status:
+
+```text
+PROGRAMME_LEVEL_SYNTHESIS_AND_NEXT_PROOF_TASK_SOURCE
+```
+
+Safe programme sentence:
+
+```text
+Identity is not naming; identity is path closure under material relations.
+```
+
+Safe mathematical direction:
+
+The current exact OI spine can be used as the first finite model for a broader
+but still controlled metric-object identity audit programme. The next proposed
+object is a finite chart/path-closure defect framework with `Phi`, declared
+raw/object transports `U,T`, edge defect `Delta=T Phi-Phi U`, cycle defect
+`Delta_gamma`, and finite-horizon iteration defect `Delta_{gamma,n}`.
+
+Boundary:
+
+This direction is not yet a completed theory. It does not alter the v1.6
+two-way-table theorem, does not patch the current Zenodo V2.5 preprint, and
+does not establish empirical MaoField or black-box mechanism claims.
+
 ## Exact Notes Currently Carrying Claims
 
 ### 1. Order-Defect Spine

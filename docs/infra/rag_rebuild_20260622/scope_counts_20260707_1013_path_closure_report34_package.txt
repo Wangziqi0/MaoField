@@ -1,0 +1,8 @@
+files=568
+sha256=b5fe3a64017836f062e7f13f3e117d43b16c60c8d305e50f5756b3c42fdc0b50
+50:/media/amd/raid1/canonical/projects/MaoField/docs/infra/MAOFIELD_PRO_MATERIAL_RELATION_PATH_CLOSURE_PACKAGE_20260707.md
+83:/media/amd/raid1/canonical/projects/MaoField/docs/infra/debranded_residual_transport/MATERIAL_RELATION_PATH_CLOSURE_PROGRAMME_BRIEF_20260707.md
+137:/media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/GPT55_PRO_MATERIAL_RELATION_PATH_CLOSURE_AUDIT_PROMPT_20260707.md
+160:/media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/MATERIAL_RELATION_PATH_CLOSURE_REPORT34_ADOPTION_NOTE_20260707.md
+272:/media/amd/raid1/canonical/projects/MaoField/docs/infra/package_outputs/material_relation_path_closure_20260707_1035/GPT55_PRO_MATERIAL_RELATION_PATH_CLOSURE_AUDIT_PROMPT_20260707.md
+286:/media/amd/raid1/canonical/projects/MaoField/docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_D707_PATH_CLOSURE_REPORT34_PACKAGE_20260707.md
