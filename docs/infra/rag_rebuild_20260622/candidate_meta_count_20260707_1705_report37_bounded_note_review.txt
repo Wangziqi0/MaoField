@@ -1,0 +1,1 @@
+10588 /home/amd/codex-node36/tmp/rag_20260707_1705_report37_bounded_note_review/candidate_index/kb_meta.jsonl

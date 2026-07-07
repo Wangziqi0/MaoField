@@ -1,0 +1,1 @@
+started pid=3597135 port=18080 log=/home/amd/codex-node22/tmp/maofield-rag-vector-20260707_1705_report37_bounded_note_review/bge-m3-llama-18080.log

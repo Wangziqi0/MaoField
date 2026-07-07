@@ -1,0 +1,4 @@
+report37 REVISE_BEFORE_FORMAL_NOTE finite chart path cycle defect calculus
+D707_BOUNDED_FORMAL_NOTE_V0_REVISION_TASKBOOK restricted-norm semantics Delta_gamma,n
+ACCEPT_REPORT37_REVISE_BEFORE_FORMAL_NOTE_AND_QUEUE_MINIMAL_V0_PATCH
+bounded formal note theorem programme separation proof-by-JSON NMI-ready observed residual forbidden
