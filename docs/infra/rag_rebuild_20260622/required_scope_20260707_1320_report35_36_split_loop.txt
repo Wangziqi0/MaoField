@@ -1,0 +1,7 @@
+4:/media/amd/raid1/canonical/projects/MaoField/MD_CATALOG.md
+8:/media/amd/raid1/canonical/projects/MaoField/STATE.md
+191:/media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/PATH_CLOSURE_REPORT35_36_ADOPTION_NOTE_20260707.md
+247:/media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_path_closure_review_report35_20260707.md
+248:/media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_path_closure_revision_report36_20260707.md
+378:/media/amd/raid1/canonical/projects/MaoField/docs/infra/recovery/MAOFIELD_D707_SPLIT_LOOP_GOALS_AND_VERIFICATION_20260707.md
+379:/media/amd/raid1/canonical/projects/MaoField/docs/infra/recovery/MAOFIELD_SPLIT_MAIN_AND_4_SESSIONS_PROMPTS_20260707.md
