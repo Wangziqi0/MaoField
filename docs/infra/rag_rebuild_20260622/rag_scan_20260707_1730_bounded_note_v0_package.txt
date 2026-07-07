@@ -1,0 +1,4 @@
+scanned_files=9055
+out_dir=/home/amd/codex-node36/tmp/rag_20260707_1730_bounded_note_v0_package
+inventory=/home/amd/codex-node36/tmp/rag_20260707_1730_bounded_note_v0_package/maofield_file_inventory.tsv
+digest=/home/amd/codex-node36/tmp/rag_20260707_1730_bounded_note_v0_package/maofield_data_digest_20260622.md
