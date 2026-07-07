@@ -1,0 +1,2 @@
+dab04126e8383c44c6d9f15c10bfc0c7b6923a2e8eb35b77b6fc98558a6f068c  /media/amd/raid1/rag/index/kb.faiss.bak_pre_node22_20260707_1550_split_loop_outputs
+99e60eaeb62dbcd4b7b50c69a5c9a206cdaaab4fe17f8912ad2898ffb2b0c0f6  /media/amd/raid1/rag/index/kb_meta.jsonl.bak_pre_node22_20260707_1550_split_loop_outputs

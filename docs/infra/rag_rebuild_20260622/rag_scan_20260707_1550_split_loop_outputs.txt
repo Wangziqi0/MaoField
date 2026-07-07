@@ -1,0 +1,4 @@
+scanned_files=9003
+out_dir=/home/amd/codex-node36/tmp/rag_20260707_1550_split_loop_outputs
+inventory=/home/amd/codex-node36/tmp/rag_20260707_1550_split_loop_outputs/maofield_file_inventory.tsv
+digest=/home/amd/codex-node36/tmp/rag_20260707_1550_split_loop_outputs/maofield_data_digest_20260622.md

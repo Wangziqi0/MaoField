@@ -1,0 +1,223 @@
+===== QUERY: D707_SPLIT_LOOP_OUTPUTS_READY_FOR_MANUAL_MAIN_PRO_SUBPRO_A_E_REVIEW_AND_RAG_SYNCED FINITE_PATH_CYCLE_DEFECT_PACKAGE_READY_FOR_PRO_REVIEW
+Loading weights:   0%|          | 0/391 [00:00<?, ?it/s]Loading weights: 100%|██████████| 391/391 [00:00<00:00, 45677.88it/s]
+query: D707_SPLIT_LOOP_OUTPUTS_READY_FOR_MANUAL_MAIN_PRO_SUBPRO_A_E_REVIEW_AND_RAG_SYNCED FINITE_PATH_CYCLE_DEFECT_PACKAGE_READY_FOR_PRO_REVIEW   (top-8, 源=知识, project=MaoField)
+
+[1] score=0.7690  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/STATE.md
+    sect: MaoField — PROJECT STATE (canonical 单一真相源) > 戳
+    | 项 | 值 | |---|---| | 最后更新 | **2026-07-07 D707 15:48 CST** (`date` verified 15:48:58 CST)。D707 split-loop outputs received under `docs/infra/recovery/d707_split_loop_outputs/` and node36-gated by `docs/infra/recovery/D70 ...
+
+[2] score=0.7455  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/recovery/D707_SPLIT_LOOP_OUTPUTS_ADOPTION_NOTE_20260707.md
+    sect: D707 Split-Loop Outputs Adoption Note - 2026-07-07 > Main Review Inputs
+    ```text docs/infra/recovery/d707_split_loop_outputs/session4/MAIN_PRO_HANDOFF_PACKET_20260707.md docs/infra/recovery/d707_split_loop_outputs/session4/SUBPRO_A_FINITE_MATH_PROMPT_20260707.md docs/infra/recovery/d707_split ...
+
+[3] score=0.7444  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/MD_CATALOG.md
+    sect: MaoField MD_CATALOG — 全 ~429 md 分层梳理 (navigate reference)
+    ry/D707_SPLIT_LOOP_OUTPUTS_ADOPTION_NOTE_20260707.md`, verdict=`ADOPT_AS_INTERNAL_PRO_REVIEW_HANDOFF_INPUT_ONLY`。Observed status lines: Loop0=`READY_FOR_LOOP3`, Loop3=`READY_FOR_LOOP4`, Loop4=`READY_FOR_PRO_REVIEW_HANDOF ...
+
+[4] score=0.7147  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/recovery/d707_split_loop_outputs/session4/REVIEW_ARTIFACT_INDEX_20260707.md
+    sect: Review Artifact Index - 2026-07-07 > Exact Loop Statuses
+    | Loop | Status path | Exact status | |---|---|---| | Loop 0 | `docs/infra/recovery/d707_split_loop_outputs/loop0/LOOP_STATUS_LOOP0_20260707.md` | `READY_FOR_LOOP3` | | Loop 3 | `docs/infra/recovery/d707_split_loop_outpu ...
+
+[5] score=0.7116  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/STATE.md
+    sect: MaoField — PROJECT STATE (canonical 单一真相源) > 戳
+     tag=`20260707_1550_split_loop_outputs`; exact promoted hashes/counts live in non-Markdown sidecars and the RAG record, not in this indexed state line to avoid self-referential drift; node22 18080 stopped after one-shot  ...
+
+[6] score=0.7056  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/recovery/d707_split_loop_outputs/session4/REVIEW_ARTIFACT_INDEX_20260707.md
+    sect: Review Artifact Index - 2026-07-07 > Required Session 4 File Set
+    All seven required Session 4 files are expected in `docs/infra/recovery/d707_split_loop_outputs/session4/`:  1. `MAIN_PRO_HANDOFF_PACKET_20260707.md` 2. `SUBPRO_A_FINITE_MATH_PROMPT_20260707.md` 3. `SUBPRO_E_REDTEAM_PROM ...
+
+[7] score=0.7008  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/MD_CATALOG.md
+    sect: MaoField MD_CATALOG — 全 ~429 md 分层梳理 (navigate reference)
+    75bd80f2f666301a0`, split prompt source=`docs/infra/recovery/MAOFIELD_SPLIT_MAIN_AND_4_SESSIONS_PROMPTS_20260707.md` sha256=`488b5706f00ddb9dc539421d88f10a509e79fa661ecfb2dc7a529e5b358a77de`。采纳说明 `docs/infra/gpt_deep_res ...
+
+[8] score=0.6851  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/recovery/d707_split_loop_outputs/session4/SESSION4_STATUS_20260707.md
+    sect: (无标题)
+    READY_FOR_MAIN_PRO_AND_SUBPRO_A_E_REVIEW ...
+
+
+===== QUERY: MaoField d707_split_loop_outputs READY_FOR_LOOP3 READY_FOR_LOOP4 READY_FOR_PRO_REVIEW_HANDOFF READY_FOR_MAIN_PRO_AND_SUBPRO_A_E_REVIEW
+Loading weights:   0%|          | 0/391 [00:00<?, ?it/s]Loading weights: 100%|██████████| 391/391 [00:00<00:00, 50147.47it/s]
+query: MaoField d707_split_loop_outputs READY_FOR_LOOP3 READY_FOR_LOOP4 READY_FOR_PRO_REVIEW_HANDOFF READY_FOR_MAIN_PRO_AND_SUBPRO_A_E_REVIEW   (top-8, 源=知识, project=MaoField)
+
+[1] score=0.7590  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/MD_CATALOG.md
+    sect: MaoField MD_CATALOG — 全 ~429 md 分层梳理 (navigate reference)
+    ry/D707_SPLIT_LOOP_OUTPUTS_ADOPTION_NOTE_20260707.md`, verdict=`ADOPT_AS_INTERNAL_PRO_REVIEW_HANDOFF_INPUT_ONLY`。Observed status lines: Loop0=`READY_FOR_LOOP3`, Loop3=`READY_FOR_LOOP4`, Loop4=`READY_FOR_PRO_REVIEW_HANDOF ...
+
+[2] score=0.7504  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/MD_CATALOG.md
+    sect: MaoField MD_CATALOG — 全 ~429 md 分层梳理 (navigate reference)
+    75bd80f2f666301a0`, split prompt source=`docs/infra/recovery/MAOFIELD_SPLIT_MAIN_AND_4_SESSIONS_PROMPTS_20260707.md` sha256=`488b5706f00ddb9dc539421d88f10a509e79fa661ecfb2dc7a529e5b358a77de`。采纳说明 `docs/infra/gpt_deep_res ...
+
+[3] score=0.7364  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/recovery/d707_split_loop_outputs/session4/REVIEW_ARTIFACT_INDEX_20260707.md
+    sect: Review Artifact Index - 2026-07-07 > Exact Loop Statuses
+    | Loop | Status path | Exact status | |---|---|---| | Loop 0 | `docs/infra/recovery/d707_split_loop_outputs/loop0/LOOP_STATUS_LOOP0_20260707.md` | `READY_FOR_LOOP3` | | Loop 3 | `docs/infra/recovery/d707_split_loop_outpu ...
+
+[4] score=0.7324  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/STATE.md
+    sect: MaoField — PROJECT STATE (canonical 单一真相源) > 戳
+    | 项 | 值 | |---|---| | 最后更新 | **2026-07-07 D707 15:48 CST** (`date` verified 15:48:58 CST)。D707 split-loop outputs received under `docs/infra/recovery/d707_split_loop_outputs/` and node36-gated by `docs/infra/recovery/D70 ...
+
+[5] score=0.7216  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/recovery/D707_SPLIT_LOOP_OUTPUTS_ADOPTION_NOTE_20260707.md
+    sect: D707 Split-Loop Outputs Adoption Note - 2026-07-07 > Main Review Inputs
+    ```text docs/infra/recovery/d707_split_loop_outputs/session4/MAIN_PRO_HANDOFF_PACKET_20260707.md docs/infra/recovery/d707_split_loop_outputs/session4/SUBPRO_A_FINITE_MATH_PROMPT_20260707.md docs/infra/recovery/d707_split ...
+
+[6] score=0.7148  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/recovery/d707_split_loop_outputs/session4/REVIEW_ARTIFACT_INDEX_20260707.md
+    sect: Review Artifact Index - 2026-07-07 > Artifact Manifest
+    OOP_STATUS_LOOP4_20260707.md` | Loop 4 dispatch status. | core | `READY_FOR_PRO_REVIEW_HANDOFF` | Allows Session 4 Pro handoff packaging only; no final verdict. | `07a623ffb333e639b8a0ce6a8aa45632ac759daea0234633cd2afab3 ...
+
+[7] score=0.7133  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/STATE.md
+    sect: MaoField — PROJECT STATE (canonical 单一真相源) > §0 一句话 + 今天
+    - **项目**: MaoField — 原 empirical pilot 仍是 negative-centered / measurement-audit case; 当前主线在同一仓库内转为 debranded finite weighted order-defect local-draft rescue。 - **今天 D707 (2026-07-07)**。Open-MaoField v1.0.0 已有 Zenodo repo ...
+
+[8] score=0.7051  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/recovery/D707_SPLIT_LOOP_OUTPUTS_ADOPTION_NOTE_20260707.md
+    sect: D707 Split-Loop Outputs Adoption Note - 2026-07-07 > Observed Status Lines
+    ```text loop0/LOOP_STATUS_LOOP0_20260707.md      READY_FOR_LOOP3 loop3/LOOP_STATUS_LOOP3_20260707.md      READY_FOR_LOOP4 loop4/LOOP_STATUS_LOOP4_20260707.md      READY_FOR_PRO_REVIEW_HANDOFF session4/SESSION4_STATUS_202 ...
+
+
+===== QUERY: MaoField SubPro A finite math prompt SubPro E redteam prompt MAIN_PRO_HANDOFF_PACKET_20260707
+Loading weights:   0%|          | 0/391 [00:00<?, ?it/s]Loading weights: 100%|██████████| 391/391 [00:00<00:00, 52750.90it/s]
+query: MaoField SubPro A finite math prompt SubPro E redteam prompt MAIN_PRO_HANDOFF_PACKET_20260707   (top-8, 源=知识, project=MaoField)
+
+[1] score=0.6960  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/debranded_residual_transport/README_FOR_PRO_ORDER_DEFECT_PREPRINT_RIGOR_20260629.md
+    sect: README For GPT-5.5 Pro Package -- Order-Defect Preprint Rigor > Use
+    Upload the accompanying zip and paste the prompt:  ```text from_repo/docs/infra/gpt_deep_research/GPT55_PRO_ORDER_DEFECT_PREPRINT_RIGOR_AND_FUTURE_OBJECTS_PROMPT_20260629.md ```  The task is Mode A finite-dimensional mat ...
+
+[2] score=0.6793  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/debranded_residual_transport/README_FOR_PRO_ORDER_DEFECT_V1_4_EXACT_BIBLIO_AUDIT_20260629.md
+    sect: README For GPT-5.5 Pro Package -- Order-Defect v1.4 Exact/Bibliography Audit > Use
+    Upload the accompanying zip and paste the prompt:  ```text from_repo/docs/infra/gpt_deep_research/GPT55_PRO_ORDER_DEFECT_V1_4_EXACT_BIBLIOGRAPHY_AUDIT_PROMPT_20260629.md ```  The task is Mode A finite-dimensional mathema ...
+
+[3] score=0.6701  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/recovery/D707_SPLIT_LOOP_OUTPUTS_ADOPTION_NOTE_20260707.md
+    sect: D707 Split-Loop Outputs Adoption Note - 2026-07-07 > Main Review Inputs
+    ```text docs/infra/recovery/d707_split_loop_outputs/session4/MAIN_PRO_HANDOFF_PACKET_20260707.md docs/infra/recovery/d707_split_loop_outputs/session4/SUBPRO_A_FINITE_MATH_PROMPT_20260707.md docs/infra/recovery/d707_split ...
+
+[4] score=0.6604  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/MD_CATALOG.md
+    sect: MaoField MD_CATALOG — 全 ~429 md 分层梳理 (navigate reference)
+     Pro zero-context prompt `docs/infra/gpt_deep_research/GPT55_PRO_MAOFIELD_FINAL_PREPRINT_REVIEW_V2_4_PROMPT_20260703.md`、RAG refresh record `docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_ORDERDEFECT_V24_FINAL_PRE ...
+
+[5] score=0.6535  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/debranded_residual_transport/README_FOR_PRO_ORDER_DEFECT_PREPRINT_FINAL_GATE_20260629.md
+    sect: README For GPT-5.5 Pro — Order-Defect Preprint Final Gate
+    Date: 2026-06-29 CST Package target: GPT-5.5 Pro zero-context final gate Project container: MaoField, Mode A debranded finite-dimensional mathematics ...
+
+[6] score=0.6449  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/debranded_residual_transport/README_FOR_PRO_ORDER_DEFECT_PAPER_DRAFT_V16_20260629.md
+    sect: README For GPT-5.5 Pro -- Order-Defect Paper Draft v1.6
+    Date: 2026-06-29 CST Package target: GPT-5.5 Pro zero-context paper-drafting gate Project container: MaoField, Mode A debranded finite-dimensional mathematics ...
+
+[7] score=0.6445  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/MD_CATALOG.md
+    sect: MaoField MD_CATALOG — 全 ~429 md 分层梳理 (navigate reference) > §0 新 session 导航 TL;DR ★最重要 > 导航 ACTIVE 核心与 D628 当前入口 (该看)
+     zip `MaoField_PRO_OrderDefect_ProofRepairRecheck_V4_FINAL_20260630_1358.zip` sha256=`external package record / SHA256SUMS only`; independent prompt `GPT55_PRO_ORDER_DEFECT_PROOF_REPAIR_RECHECK_V4_PROMPT_20260630.md` sha ...
+
+[8] score=0.6411  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/recovery/MAOFIELD_D707_SPLIT_LOOP_GOALS_AND_VERIFICATION_20260707.md
+    sect: MaoField D707 Split-Loop Goals And Verification — 2026-07-07 > Session 4 / Pro Handoff Goal
+    SUBPRO_A_FINITE_MATH_PROMPT must ask Pro A to check: chart/path/cycle types; empty path and composition endpoints; domains/codomains of Delta_alpha and Delta_gamma,n; composition lemma; telescoping proof; operator norm r ...
+
+
+===== QUERY: Delta beta circ alpha T_beta Delta_alpha Delta_beta U_alpha Delta gamma n telescoping
+Loading weights:   0%|          | 0/391 [00:00<?, ?it/s]Loading weights: 100%|██████████| 391/391 [00:00<00:00, 52011.44it/s]
+query: Delta beta circ alpha T_beta Delta_alpha Delta_beta U_alpha Delta gamma n telescoping   (top-8, 源=知识, project=MaoField)
+
+[1] score=0.6508  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/recovery/MAOFIELD_SPLIT_MAIN_AND_4_SESSIONS_PROMPTS_20260707.md
+    sect: Session 3：Loop 4 — Cycle Defect & Telescoping Formal Note > 可直接发送提示词
+    必须证明 telescoping identity：  `Delta_{gamma,n} = sum_{j=0}^{n-1} T_gamma^{n-1-j} Delta_gamma U_gamma^j`。  证明路径：  1. 先由 Loop 3 composition lemma 得到递推式：    `Delta_{gamma,n+1}=T_gamma Delta_{gamma,n}+Delta_gamma U_gamma^n`。 2 ...
+
+[2] score=0.6408  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/recovery/d707_split_loop_outputs/loop3/COMPOSITION_LEMMA_LOOP3_20260707.md
+    sect: Composition Lemma - Loop 3 - 2026-07-07 > Lemma
+    For composable paths `alpha:c_0->c_1` and `beta:c_1->c_2`,  ```text Delta_{beta circ alpha} = T_beta Delta_alpha + Delta_beta U_alpha. ``` ...
+
+[3] score=0.6404  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/recovery/d707_split_loop_outputs/session4/SUBPRO_A_FINITE_MATH_PROMPT_20260707.md
+    sect: Sub Pro A Finite Math Prompt - 2026-07-07 > Required Checks
+    1. Check chart, path, and cycle types. 2. Check empty-path definitions and composition endpoints. 3. Check domains and codomains of:    - `Delta_alpha`    - `Delta_gamma`    - `Delta_gamma,n` 4. Check the composition lem ...
+
+[4] score=0.6397  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/recovery/MAOFIELD_D707_SPLIT_LOOP_GOALS_AND_VERIFICATION_20260707.md
+    sect: MaoField D707 Split-Loop Goals And Verification — 2026-07-07 > Session 3 / Loop 4 Goal
+    Prove: Delta_{gamma,n} = sum_{j=0}^{n-1} T_gamma^{n-1-j} Delta_gamma U_gamma^j.  Proof route: 1. Use Loop 3 composition lemma to obtain Delta_{gamma,n+1}=T_gamma Delta_{gamma,n}+Delta_gamma U_gamma^n. 2. Prove the telesc ...
+
+[5] score=0.6373  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/debranded_residual_transport/MATERIAL_RELATION_PATH_CLOSURE_PROGRAMME_BRIEF_20260707.md
+    sect: Material-Relation Path Closure For Finite Metric Objects > 6. Cycle Identity Defect Candidate
+    For a closed finite path:  ```text gamma: c_0 -> c_1 -> ... -> c_k = c_0 ```  with composed transports `U_gamma` and `T_gamma`, define:  ```text Delta_gamma = T_gamma Phi_{c_0} - Phi_{c_0} U_gamma. ```  For a finite audi ...
+
+[6] score=0.6343  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/recovery/d707_split_loop_outputs/loop4/TELESCOPING_PROOF_LOOP4_20260707.md
+    sect: Telescoping Proof - Loop 4 - 2026-07-07 > Step 2: Telescoping Identity
+    For every `n>=1`:  ```text Delta_{gamma,n}   = sum_{j=0}^{n-1} T_gamma^{n-1-j} Delta_gamma U_gamma^j. ``` ...
+
+[7] score=0.6267  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_material_relation_path_closure_report34_20260707.md
+    sect: 10. 建议的研究文档结构 > 第五节：循环迭代崩溃
+    定义：  [ \Delta_\gamma =============  T_\gamma\Phi-\Phi U_\gamma, ]  [ \Delta_{\gamma,n} =================  T_\gamma^n\Phi-\Phi U_\gamma^n, ]  [ CIC_N(\gamma,S) ===============  \max_{1\le n\le N}|\Delta_{\gamma,n}|_S|. ]  ...
+
+[8] score=0.6113  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_path_closure_revision_report36_20260707.md
+    sect: MaoField 路径闭合研究结果修订稿 > 路径闭合对象的最小形式化补丁
+    在这套补丁加上之后，旧稿给出的 finite telescoping identity 是成立的，而且它恰好展示了为什么 cycle-iteration defect 仍然是一个**受控的有限维线性代数对象**，而不是动态塌缩大理论。设 `Delta_{gamma,n}=T_gamma^n Phi_{c_0}-Phi_{c_0}U_gamma^n`。只要先写出组合引理 `Delta_{beta∘alpha}=T_beta Delta_a ...
+
+
+===== QUERY: proof-by-JSON NMI-ready dynamic-collapse theory observed transport forbidden boundary
+Loading weights:   0%|          | 0/391 [00:00<?, ?it/s]Loading weights: 100%|██████████| 391/391 [00:00<00:00, 54273.19it/s]
+query: proof-by-JSON NMI-ready dynamic-collapse theory observed transport forbidden boundary   (top-8, 源=知识, project=MaoField)
+
+[1] score=0.6564  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/recovery/d707_split_loop_outputs/session4/CLAIM_DIFF_AFTER_LOOPS_20260707.md
+    sect: Claim Diff After Loops - 2026-07-07 > Main Forbidden Wording After Loops
+    Forbidden wording:  ```text MaoField now proves path closure, dynamic collapse, observed holonomy, black-box mechanism, or NMI readiness. ``` ...
+
+[2] score=0.6139  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/recovery/d707_split_loop_outputs/loop0/CLAIM_LEDGER_LOOP0_20260707.md
+    sect: Loop 0 Claim Ledger - 2026-07-07
+    h-defect propagation candidate under declared transports. | Model collapse theory; observed collapse field; broad dynamical theory. | | Black-box metric-object identity audit | EMPIRICAL_HYPOTHESIS | `docs/infra/debrande ...
+
+[3] score=0.5994  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_path_closure_review_report35_20260707.md
+    sect: MaoField 路径闭合审查报告 > 可复制提示词
+    下面给出的是**当前版本可直接复制**的提示词。它们遵守仓库 prompt kit 的边界：禁止 empirical-positive、禁止 proof-by-JSON、禁止 observed transport/holonomy/gluing/collapse field、禁止 dynamic-collapse 大理论、禁止过早 NMI-ready。fileciteturn0file0 ...
+
+[4] score=0.5930  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_order_defect_recovery_repair_dual_pro_report6_20260630.md
+    sect: Order-Defect Recovery Repair 审计报告 > Forbidden Claims
+    w noncommuting projection theory。〔证据：`from_repo/docs/infra/debranded_residual_transport/BIBLIOGRAPHY_AND_POSITIONING_V1_5_20260629.md:23-31,51-80`；`from_repo/docs/infra/recovery/ORDER_DEFECT_D630_TASKBOOK_NEXT_PRO_202606 ...
+
+[5] score=0.5844  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/recovery/d707_split_loop_outputs/loop0/FORBIDDEN_CLAIMS_CHECKLIST_LOOP0_20260707.md
+    sect: Loop 0 Forbidden Claims Checklist - 2026-07-07 > Required Blocks
+    | Forbidden claim | Status | Anchor | Replacement wording | |---|---|---|---| | MaoField empirical-positive result | BLOCKED | `STATE.md`; path-closure adoption note | Mode B remains `insufficient_artifact`. | | Proof-by ...
+
+[6] score=0.5808  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/recovery/d707_split_loop_outputs/session4/REVIEW_ARTIFACT_INDEX_20260707.md
+    sect: Review Artifact Index - 2026-07-07 > Artifact Manifest
+    ft. | wip | n/a | Explicit-hypothesis finite norm bounds; not model-collapse theory. | `449809a912e66dfd4439570a40b7c7682b10b40e0a437dc2cc4e39379acb2c1c` | | `docs/infra/recovery/d707_split_loop_outputs/loop4/BOUNDARY_GU ...
+
+[7] score=0.5799  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/PATH_CLOSURE_REPORT35_36_ADOPTION_NOTE_20260707.md
+    sect: Path-Closure Report35/36 Adoption Note — 2026-07-07 > Forbidden Upgrades
+    The following remain blocked:  - MaoField empirical positive result. - proof-by-JSON or harness-proves-theorem wording. - observed residual, interaction, transport, holonomy, gluing, or collapse field. - broad ANOVA, dep ...
+
+[8] score=0.5770  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/recovery/d707_split_loop_outputs/session4/MAIN_PRO_HANDOFF_PACKET_20260707.md
+    sect: Main Pro Handoff Packet - 2026-07-07 > Forbidden-Claim Audit
+    This handoff packet does not claim:  - Pro accepted. - NMI-ready. - Empirical-positive MaoField result. - Real black-box audit completed. - Dynamic-collapse theory. - Proof-by-JSON or proof-by-artifact. - Observed transp ...

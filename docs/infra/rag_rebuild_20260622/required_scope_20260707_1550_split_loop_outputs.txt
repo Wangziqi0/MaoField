@@ -1,0 +1,13 @@
+/media/amd/raid1/canonical/projects/MaoField/STATE.md
+/media/amd/raid1/canonical/projects/MaoField/MD_CATALOG.md
+/media/amd/raid1/canonical/projects/MaoField/docs/infra/recovery/D707_SPLIT_LOOP_OUTPUTS_ADOPTION_NOTE_20260707.md
+/media/amd/raid1/canonical/projects/MaoField/docs/infra/recovery/d707_split_loop_outputs/loop0/LOOP_STATUS_LOOP0_20260707.md
+/media/amd/raid1/canonical/projects/MaoField/docs/infra/recovery/d707_split_loop_outputs/loop3/LOOP_STATUS_LOOP3_20260707.md
+/media/amd/raid1/canonical/projects/MaoField/docs/infra/recovery/d707_split_loop_outputs/loop4/LOOP_STATUS_LOOP4_20260707.md
+/media/amd/raid1/canonical/projects/MaoField/docs/infra/recovery/d707_split_loop_outputs/session4/SESSION4_STATUS_20260707.md
+/media/amd/raid1/canonical/projects/MaoField/docs/infra/recovery/d707_split_loop_outputs/session4/MAIN_PRO_HANDOFF_PACKET_20260707.md
+/media/amd/raid1/canonical/projects/MaoField/docs/infra/recovery/d707_split_loop_outputs/session4/SUBPRO_A_FINITE_MATH_PROMPT_20260707.md
+/media/amd/raid1/canonical/projects/MaoField/docs/infra/recovery/d707_split_loop_outputs/session4/SUBPRO_E_REDTEAM_PROMPT_20260707.md
+/media/amd/raid1/canonical/projects/MaoField/docs/infra/recovery/d707_split_loop_outputs/loop3/COMPOSITION_LEMMA_LOOP3_20260707.md
+/media/amd/raid1/canonical/projects/MaoField/docs/infra/recovery/d707_split_loop_outputs/loop4/TELESCOPING_PROOF_LOOP4_20260707.md
+/media/amd/raid1/canonical/projects/MaoField/docs/infra/recovery/d707_split_loop_outputs/loop4/CYCLE_NORM_BOUNDS_LOOP4_20260707.md
