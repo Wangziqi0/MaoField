@@ -1,0 +1,2 @@
+2026-07-07 21:08:40 CST
+3604826 bash -c date '+%F %T %Z'; ss -ltnp 2>/dev/null | grep -E ':18080\b' || true; pgrep -af 'llama.*18080|bge-m3|llama-server.*embedding' || true

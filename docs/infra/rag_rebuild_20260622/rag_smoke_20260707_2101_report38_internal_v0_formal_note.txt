@@ -1,0 +1,43 @@
+Loading weights:   0%|          | 0/391 [00:00<?, ?it/s]Loading weights: 100%|██████████| 391/391 [00:00<00:00, 53868.51it/s]
+query: FORMAL_NOTE_D707_CHART_PATH_CYCLE_DEFECT_V0 Delta gamma n image-control invariance   (top-8, 源=知识, project=MaoField)
+
+[1] score=0.6159  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/recovery/d707_split_loop_outputs/loop4/FORMAL_NOTE_FINITE_CYCLE_DEFECT_LOOP4_20260707.md
+    sect: Formal Note: Finite Cycle Defect - Loop 4 - 2026-07-07 > 5. Iterated Cycle Defect
+    For `n>=1`, let `gamma^n` denote the path obtained by traversing `gamma` exactly `n` times, beginning and ending at `c_0`. By Loop 3 path-composition conventions:  ```text U_{gamma^n}=U_gamma^n:H_{c_0}->H_{c_0} T_{gamma^ ...
+
+[2] score=0.6141  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_d707_split_loop_bounded_formal_note_review_report37_20260707.md
+    sect: D707 有界形式说明方向严格评审结论 > 最小安全定理与对象陈述
+    设 `G=(C,E)` 是一个有限有向图。对每个 chart `c in C`，给定有限维实赋范空间 `H_c, O_c` 与线性映射 `Phi_c:H_c->O_c`；对每条有向边 `e:c->c'`，给定线性映射 `U_e:H_c->H_{c'}` 与 `T_e:O_c->O_{c'}`。对任一路径 `alpha:c_0->...->c_k`，定义 `U_alpha`、`T_alpha` 为沿路径的复合，并定义路径缺陷 `Delta ...
+
+[3] score=0.6137  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/recovery/MAOFIELD_D707_SPLIT_LOOP_GOALS_AND_VERIFICATION_20260707.md
+    sect: MaoField D707 Split-Loop Goals And Verification — 2026-07-07 > Session 3 / Loop 4 Goal
+    Prove: Delta_{gamma,n} = sum_{j=0}^{n-1} T_gamma^{n-1-j} Delta_gamma U_gamma^j.  Proof route: 1. Use Loop 3 composition lemma to obtain Delta_{gamma,n+1}=T_gamma Delta_{gamma,n}+Delta_gamma U_gamma^n. 2. Prove the telesc ...
+
+[4] score=0.6128  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/recovery/d707_split_loop_outputs/session4/SUBPRO_A_FINITE_MATH_PROMPT_20260707.md
+    sect: Sub Pro A Finite Math Prompt - 2026-07-07 > Required Checks
+    1. Check chart, path, and cycle types. 2. Check empty-path definitions and composition endpoints. 3. Check domains and codomains of:    - `Delta_alpha`    - `Delta_gamma`    - `Delta_gamma,n` 4. Check the composition lem ...
+
+[5] score=0.6079  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/debranded_residual_transport/FORMAL_NOTE_D707_CHART_PATH_CYCLE_DEFECT_V0_20260707.md
+    sect: Finite Chart/Path/Cycle Defect Calculus Under Declared Transports > 4. Cycle Defects And Iterated Defects
+    Let `gamma:c_0->...->c_0` be a finite directed cycle based at `c_0`. Define  ```text Delta_gamma = T_gamma Phi_c0 - Phi_c0 U_gamma : H_c0 -> O_c0. ```  For `n>=1`, define the `n`-fold iterated cycle defect  ```text Delta ...
+
+[6] score=0.5986  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/recovery/d707_split_loop_outputs/loop4/BOUNDARY_GUARDS_LOOP4_20260707.md
+    sect: Boundary Guards - Loop 4 - 2026-07-07 > Allowed Statement
+    Cycle-iteration defect is finite path-defect propagation under the declared Loop 3 chart, edge, path, and norm data.  Allowed wording:  ```text Given declared finite transports `U_gamma` and `T_gamma`, the iterated defec ...
+
+[7] score=0.5950  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/debranded_residual_transport/FORMAL_NOTE_D707_CHART_PATH_CYCLE_DEFECT_V0_20260707.md
+    sect: Finite Chart/Path/Cycle Defect Calculus Under Declared Transports > 5. Proposition: Finite Cycle Telescoping > Proof
+    Apply the path-defect composition lemma to `alpha=gamma^n` and `beta=gamma`. This gives the recurrence  ```text Delta_{gamma,n+1}   = T_gamma Delta_{gamma,n} + Delta_gamma U_gamma^n. ```  For `n=1`, the proposed formula  ...
+
+[8] score=0.5941  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/recovery/d707_split_loop_outputs/loop4/LOCAL_README_LOOP4_20260707.md
+    sect: Local README - Loop 4 - 2026-07-07 > What Loop 4 Did
+    - Defined `U_gamma` and `T_gamma` for a finite cycle `gamma:c_0->...->c_0`. - Defined `Delta_gamma=T_gamma Phi_{c_0}-Phi_{c_0}U_gamma`. - Defined `CID_gamma(S)=||Delta_gamma|_S||`. - Defined `Delta_{gamma,n}=T_gamma^n Ph ...
+

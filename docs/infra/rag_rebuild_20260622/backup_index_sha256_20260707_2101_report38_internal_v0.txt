@@ -1,0 +1,2 @@
+5da394076712a68e3e9edaba5e0df7d4cfdf3a2131e608747b69c637af5e6f99  /media/amd/raid1/rag/index/kb.faiss.bak_pre_node22_20260707_2101_report38_internal_v0
+62261fb52bc7057264fcc8d5ecd62191813633e000f429dd49a681c11669f977  /media/amd/raid1/rag/index/kb_meta.jsonl.bak_pre_node22_20260707_2101_report38_internal_v0
