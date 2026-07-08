@@ -1,0 +1,41 @@
+query: D708 extra SubPro A E identity check package finite math redteam   (top-8, 源=知识, project=MaoField)
+
+[1] score=0.7054  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/MD_CATALOG.md
+    sect: MaoField MD_CATALOG — 全 ~429 md 分层梳理 (navigate reference)
+    K_TASKBOOK_20260708.md`, package README `docs/infra/recovery/D708_EXTRA_SUBPRO_AE_IDENTITY_CHECK_PACKAGE_README_20260708.md`, SubPro A prompt `docs/infra/gpt_deep_research/GPT55_PRO_D708_SUBPRO_A_FINITE_MATH_IDENTITY_CHE ...
+
+[2] score=0.7012  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/MAOFIELD_PRO_D708_EXTRA_SUBPRO_AE_IDENTITY_CHECK_PACKAGE_20260708.md
+    sect: MaoField Pro D708 Extra SubPro A/E Identity Check Package > Status
+    - Date verified: `2026-07-08 12:45 CST` - Host: node36 - Package class: bounded review package / artifact - Canonical output directory:   `docs/infra/package_outputs/d708_extra_subpro_ae_identity_check_20260708_1245/` -  ...
+
+[3] score=0.6954  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/MAOFIELD_PRO_D708_EXTRA_SUBPRO_AE_IDENTITY_CHECK_NODE19_DELIVERY_20260708.md
+    sect: MaoField D708 Extra SubPro A/E Identity Check Node19 Delivery > Delivery
+    - Date verified: `2026-07-08 12:45 CST` - Source host: node36 - Destination host: node19 (`192.168.31.19`) - Destination directory:   `C:\Users\amd\Desktop\MaoField_D708_ExtraSubPro_AE_IdentityCheck_20260708_1245`  Deliv ...
+
+[4] score=0.6761  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/MAOFIELD_PRO_D708_EXTRA_SUBPRO_AE_IDENTITY_CHECK_PACKAGE_20260708.md
+    sect: MaoField Pro D708 Extra SubPro A/E Identity Check Package > Hashes
+    ```text 60829b2365577d77ff63237e7c9cf9315bf1d068634ba2b43b1d93c2860236cb  MaoField_PRO_D708_ExtraSubPro_AE_IdentityCheck_20260708_1245.zip e8dd772ccf96b56000d0d61b1b88947cc0b676ceb822d9bd982ccb7ae3f27801  START_HERE_SUBP ...
+
+[5] score=0.6578  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/recovery/D708_EXTRA_SUBPRO_AE_IDENTITY_CHECK_TASKBOOK_20260708.md
+    sect: D708 Extra SubPro A/E Identity Check Taskbook > Purpose
+    Prepare a bounded extra-Pro review package after report40 accepted the D707/D708 internal v0 note only as:  ```text ACCEPT_INTERNAL_V0_AS_LOCAL_NOTE_ONLY KEEP_INTERNAL_ONLY ```  The package is for two extra manual Pro se ...
+
+[6] score=0.6399  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/package_outputs/d708_extra_subpro_ae_identity_check_20260708_1245/START_HERE_SUBPRO_E_REDTEAM_IDENTITY_CHECK_20260708.md
+    sect: GPT-5.5 Pro Prompt - D708 SubPro E Red-Team / Identity Check > Read First
+    1. `STATE.md` 2. `MD_CATALOG.md` 3. `PACKAGE_README_D708_EXTRA_SUBPRO_AE_IDENTITY_CHECK_20260708.md` 4. `docs/infra/debranded_residual_transport/METRIC_OBJECT_IDENTITY_EXACT_NOTES_INDEX_20260706.md` 5. `docs/infra/recove ...
+
+[7] score=0.6399  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/GPT55_PRO_D708_SUBPRO_E_REDTEAM_IDENTITY_CHECK_PROMPT_20260708.md
+    sect: GPT-5.5 Pro Prompt - D708 SubPro E Red-Team / Identity Check > Read First
+    1. `STATE.md` 2. `MD_CATALOG.md` 3. `PACKAGE_README_D708_EXTRA_SUBPRO_AE_IDENTITY_CHECK_20260708.md` 4. `docs/infra/debranded_residual_transport/METRIC_OBJECT_IDENTITY_EXACT_NOTES_INDEX_20260706.md` 5. `docs/infra/recove ...
+
+[8] score=0.6398  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/MAOFIELD_PRO_D708_EXTRA_SUBPRO_AE_IDENTITY_CHECK_NODE19_DELIVERY_20260708.md
+    sect: MaoField D708 Extra SubPro A/E Identity Check Node19 Delivery > Use
+    Use the same zip for both extra Pro sessions.  - Paste `START_HERE_SUBPRO_A_FINITE_MATH_IDENTITY_CHECK_20260708.md` into the   finite-math review session. - Paste `START_HERE_SUBPRO_E_REDTEAM_IDENTITY_CHECK_20260708.md`  ...

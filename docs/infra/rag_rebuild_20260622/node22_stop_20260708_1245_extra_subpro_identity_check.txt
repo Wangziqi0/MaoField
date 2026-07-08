@@ -1,0 +1,1 @@
+Initial stop command terminated the temporary llama-server on port 18080, but ssh returned 255 because pkill matched the remote shell. Follow-up status is authoritative; see node22_status_after_stop_20260708_1245_extra_subpro_identity_check.txt.
