@@ -1,0 +1,42 @@
+query: D708 report43 PATCH_REQUIRED_OVERCLAIM_OR_PRIOR_ART rhetoric prior art boundary   (top-8, 源=知识, project=MaoField)
+
+[1] score=0.7646  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/D708_SUBPRO_E_REPAIR_RECHECK_REPORT43_ADOPTION_NOTE_20260708.md
+    sect: D708 SubPro E Repair Recheck Report43 Adoption Note > Pro Verdict
+    ```text PATCH_REQUIRED_OVERCLAIM_OR_PRIOR_ART ``` ...
+
+[2] score=0.6646  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/D708_SUBPRO_E_REPAIR_RECHECK_REPORT43_ADOPTION_NOTE_20260708.md
+    sect: D708 SubPro E Repair Recheck Report43 Adoption Note > Required Local Action
+    ```text PATCH_RHETORIC_AND_PRIOR_ART_BOUNDARY_BEFORE_ANY_NEXT_PUBLIC_OR_PAPER_FACING_USE ```  Patch target class:  - programme-facing summaries; - Report34-derived wording; - path-closure / metric-object identity descrip ...
+
+[3] score=0.6601  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/MD_CATALOG.md
+    sect: MaoField MD_CATALOG — 全 ~429 md 分层梳理 (navigate reference)
+    pair package/current action. Still no public-ready/paper-ready/NMI-ready/empirical-positive/broad-theory upgrade; E warned prior-art/triviality risk is `HIGH` if overclaimed. > **2026-07-08 D708 SubPro E repair recheck r ...
+
+[4] score=0.6568  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/recovery/FORMAL_PREPRINT_V2_2_REPORT23_LOCAL_VERIFICATION_20260703.md
+    sect: Formal Preprint V2.2 Report23 Local Verification > Source Report
+    ```text docs/infra/gpt_deep_research/deep_research_formal_preprint_v2_2_strict_review_report23_20260703.md source attachment sha256: ce1375ed6b9d3442b273cf4c6461a5ce9c3ce5a2953dd522d26040ad67edb84b archived normalized sh ...
+
+[5] score=0.6561  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/STATE.md
+    sect: MaoField — PROJECT STATE (canonical 单一真相源) > 戳
+    | 项 | 值 | |---|---| | 最后更新 | **2026-07-08 D708 14:06 CST** (`date` verified 14:06:59 CST). PI returned SubPro E repair recheck report43. Archived at `docs/infra/gpt_deep_research/deep_research_d708_subpro_e_repair_rechec ...
+
+[6] score=0.6532  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/recovery/D708_SUBPRO_E_REPAIR_RECHECK_TASKBOOK_20260708.md
+    sect: D708 SubPro E Repair Recheck Taskbook > Required Verdict
+    SubPro E must return exactly one:  ```text PASS_REDTEAM_WITH_CLAIM_GUARDS PATCH_REQUIRED_OVERCLAIM_OR_PRIOR_ART BLOCKED_PRIOR_ART_OR_TRIVIALITY_RISK BLOCKED_MISSING_ARTIFACTS ``` ...
+
+[7] score=0.6517  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/FORMAL_PREPRINT_V2_2_STRICT_REVIEW_REPORT23_ADOPTION_NOTE_20260703.md
+    sect: Formal Preprint V2.2 Strict Review Report23 Adoption Note > External Verdict
+    ```text REQUEST_BOUNDARY_WORDING_PATCH_BEFORE_PI_REVIEW ``` ...
+
+[8] score=0.6493  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/package_outputs/d708_extra_subpro_ae_identity_check_20260708_1245/START_HERE_SUBPRO_E_REDTEAM_IDENTITY_CHECK_20260708.md
+    sect: GPT-5.5 Pro Prompt - D708 SubPro E Red-Team / Identity Check > Output
+    Return exactly one verdict:  ```text PASS_REDTEAM_WITH_CLAIM_GUARDS PATCH_REQUIRED_OVERCLAIM_OR_PRIOR_ART BLOCKED_PRIOR_ART_OR_TRIVIALITY_RISK BLOCKED_MISSING_ARTIFACTS ```  Then provide:  - exact files reviewed; - highe ...
+

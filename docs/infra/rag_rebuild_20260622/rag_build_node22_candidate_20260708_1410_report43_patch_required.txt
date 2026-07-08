@@ -1,0 +1,51 @@
+[1/4] files=759
+[2/4] chunks=13681 chunk_seconds=16.4
+[3/4] remote_embed endpoint=http://192.168.31.22:18080 model=bge-m3-temp batch=32 batches=428
+  embedded_batches=1/428 texts=32/13681 rate=32.86 text/s
+  embedded_batches=10/428 texts=320/13681 rate=56.37 text/s
+  embedded_batches=20/428 texts=640/13681 rate=72.13 text/s
+  embedded_batches=30/428 texts=960/13681 rate=83.34 text/s
+  embedded_batches=40/428 texts=1280/13681 rate=89.00 text/s
+  embedded_batches=50/428 texts=1600/13681 rate=94.35 text/s
+  embedded_batches=60/428 texts=1920/13681 rate=94.06 text/s
+  embedded_batches=70/428 texts=2240/13681 rate=96.60 text/s
+  embedded_batches=80/428 texts=2560/13681 rate=91.45 text/s
+  embedded_batches=90/428 texts=2880/13681 rate=89.22 text/s
+  embedded_batches=100/428 texts=3200/13681 rate=86.90 text/s
+  embedded_batches=110/428 texts=3520/13681 rate=85.17 text/s
+  embedded_batches=120/428 texts=3840/13681 rate=83.64 text/s
+  embedded_batches=130/428 texts=4160/13681 rate=84.71 text/s
+  embedded_batches=140/428 texts=4480/13681 rate=85.96 text/s
+  embedded_batches=150/428 texts=4800/13681 rate=85.99 text/s
+  embedded_batches=160/428 texts=5120/13681 rate=85.05 text/s
+  embedded_batches=170/428 texts=5440/13681 rate=85.82 text/s
+  embedded_batches=180/428 texts=5760/13681 rate=86.43 text/s
+  embedded_batches=190/428 texts=6080/13681 rate=85.80 text/s
+  embedded_batches=200/428 texts=6400/13681 rate=85.55 text/s
+  embedded_batches=210/428 texts=6720/13681 rate=85.54 text/s
+  embedded_batches=220/428 texts=7040/13681 rate=85.78 text/s
+  embedded_batches=230/428 texts=7360/13681 rate=85.52 text/s
+  embedded_batches=240/428 texts=7680/13681 rate=84.78 text/s
+  embedded_batches=250/428 texts=8000/13681 rate=84.30 text/s
+  embedded_batches=260/428 texts=8320/13681 rate=84.17 text/s
+  embedded_batches=270/428 texts=8640/13681 rate=83.98 text/s
+  embedded_batches=280/428 texts=8960/13681 rate=83.73 text/s
+  embedded_batches=290/428 texts=9280/13681 rate=83.66 text/s
+  embedded_batches=300/428 texts=9600/13681 rate=83.27 text/s
+  embedded_batches=310/428 texts=9920/13681 rate=83.04 text/s
+  embedded_batches=320/428 texts=10240/13681 rate=83.22 text/s
+  embedded_batches=330/428 texts=10560/13681 rate=83.24 text/s
+  embedded_batches=340/428 texts=10880/13681 rate=83.08 text/s
+  embedded_batches=350/428 texts=11200/13681 rate=83.29 text/s
+  embedded_batches=360/428 texts=11520/13681 rate=83.16 text/s
+  embedded_batches=370/428 texts=11840/13681 rate=83.17 text/s
+  embedded_batches=380/428 texts=12160/13681 rate=83.63 text/s
+  embedded_batches=390/428 texts=12480/13681 rate=83.88 text/s
+  embedded_batches=400/428 texts=12800/13681 rate=83.70 text/s
+  embedded_batches=410/428 texts=13120/13681 rate=83.57 text/s
+  embedded_batches=420/428 texts=13440/13681 rate=83.84 text/s
+  embedded_batches=428/428 texts=13681/13681 rate=83.78 text/s
+[4/4] wrote index
+      faiss=/home/amd/codex-node36/tmp/rag_20260708_1410_report43_patch_required/candidate_index/kb.faiss bytes=56037421 vectors=13681 dim=1024
+      meta=/home/amd/codex-node36/tmp/rag_20260708_1410_report43_patch_required/candidate_index/kb_meta.jsonl bytes=16635150
+[stat] files=759 chunks=13681 embed_seconds=163.3 rate=83.774text/s max_input_chars=3000

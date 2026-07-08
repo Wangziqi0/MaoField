@@ -1,0 +1,2 @@
+995c5a8db129d69e365af8047d04c24103113579bc2473aa08d47d4d1a855f65  /media/amd/raid1/rag/index/kb.faiss.bak_pre_node22_20260708_1410_report43_patch_required
+ea8ce9530e985694b122ad74688536a3d4a76f43179e38b2bb0320814eb8a57a  /media/amd/raid1/rag/index/kb_meta.jsonl.bak_pre_node22_20260708_1410_report43_patch_required
