@@ -1,0 +1,42 @@
+Loading weights:   0%|          | 0/391 [00:00<?, ?it/s]Loading weights: 100%|██████████| 391/391 [00:00<00:00, 44027.30it/s]
+query: MaoField_PRO_D708_InternalV0GateRepair b3206ecf node19 delivery   (top-8, 源=知识, project=MaoField)
+
+[1] score=0.7611  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/MD_CATALOG.md
+    sect: MaoField MD_CATALOG — 全 ~429 md 分层梳理 (navigate reference)
+    19 repair delivery `docs/infra/MAOFIELD_PRO_D708_INTERNAL_V0_GATE_REPAIR_NODE19_DELIVERY_20260708.md`。verdict=`REQUEST_NODE36_FILES`; node36 action=`ACCEPT_AS_PACKAGE_PROVENANCE_BLOCKER_AND_PREPARE_REPAIR_PACKAGE`; math  ...
+
+[2] score=0.7357  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/MAOFIELD_PRO_D708_INTERNAL_V0_GATE_REPAIR_NODE19_DELIVERY_20260708.md
+    sect: MaoField Pro D708 Internal V0 Gate Repair Node19 Delivery > Delivered Files
+    ```text MaoField_PRO_D708_InternalV0GateRepair_20260708_1130.zip START_HERE_D708_REPAIR_RECHECK_PROMPT_20260708_1130.md SHA256SUMS_20260708_1130_d708_repair.txt ``` ...
+
+[3] score=0.7356  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/MAOFIELD_PRO_D708_INTERNAL_V0_GATE_REPAIR_PACKAGE_20260708.md
+    sect: MaoField Pro Package - D708 Internal V0 Gate Repair > Final Node19 Desktop Files
+    ```text MaoField_PRO_D708_InternalV0GateRepair_20260708_1130.zip START_HERE_D708_REPAIR_RECHECK_PROMPT_20260708_1130.md SHA256SUMS_20260708_1130_d708_repair.txt ``` ...
+
+[4] score=0.7265  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/MAOFIELD_PRO_D708_INTERNAL_V0_GATE_REPAIR_NODE19_DELIVERY_20260708.md
+    sect: MaoField Pro D708 Internal V0 Gate Repair Node19 Delivery > Readback
+    Node19 readback:  ```text MaoField_PRO_D708_InternalV0GateRepair_20260708_1130.zip  234112 bytes START_HERE_D708_REPAIR_RECHECK_PROMPT_20260708_1130.md      6467 bytes SHA256SUMS_20260708_1130_d708_repair.txt             ...
+
+[5] score=0.7128  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/STATE.md
+    sect: MaoField — PROJECT STATE (canonical 单一真相源) > 戳
+    | 项 | 值 | |---|---| | 最后更新 | **2026-07-08 D708 11:45 CST** (`date` verified 11:45:42 CST). Main Pro report39 archived as `docs/infra/gpt_deep_research/deep_research_d708_internal_v0_gate_request_files_report39_20260708.m ...
+
+[6] score=0.7115  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/MAOFIELD_PRO_D708_INTERNAL_V0_GATE_REPAIR_PACKAGE_20260708.md
+    sect: MaoField Pro Package - D708 Internal V0 Gate Repair > Report39 Blockers Addressed
+    The repair package also includes:  - `docs/infra/MAOFIELD_PRO_D708_INTERNAL_V0_PROMOTION_GATE_PACKAGE_20260708.md` - `docs/infra/MAOFIELD_PRO_D708_INTERNAL_V0_PROMOTION_GATE_NODE19_DELIVERY_20260708.md` - `docs/infra/rag ...
+
+[7] score=0.7114  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/MAOFIELD_PRO_D708_INTERNAL_V0_PROMOTION_GATE_NODE19_DELIVERY_20260708.md
+    sect: MaoField Pro D708 Internal V0 Promotion Gate Node19 Delivery > Readback
+    Node19 readback:  ```text MaoField_PRO_D708_InternalV0PromotionGate_20260708_1001.zip       203263 bytes START_HERE_MAIN_PROMPT_20260708_1001_internal_v0_gate.md           6148 bytes SHA256SUMS_20260708_1001_internal_v0_ ...
+
+[8] score=0.7098  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/MAOFIELD_PRO_D708_INTERNAL_V0_GATE_REPAIR_PACKAGE_20260708.md
+    sect: MaoField Pro Package - D708 Internal V0 Gate Repair > SHA256
+    ```text b3206ecf59b636d2eb17ba3a510ea1b348fa518a60668d714d87c455d1729b52  MaoField_PRO_D708_InternalV0GateRepair_20260708_1130.zip 7b29b8eef5770ca05a7a83e47542cbd72349cd218db4c3db26f8db3d5253ac78  START_HERE_D708_REPAIR_ ...

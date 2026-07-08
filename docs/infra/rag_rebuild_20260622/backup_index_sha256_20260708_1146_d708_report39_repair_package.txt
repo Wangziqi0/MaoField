@@ -1,0 +1,2 @@
+da3c560fadbfb09488de3341d10ef0036e10a618402413fa061870a302e63ad2  /media/amd/raid1/rag/index/kb.faiss.bak_pre_node22_20260708_1146_d708_report39_repair_package
+76bd90f674436de9f309940170d75882f84f826661527564537babc15e0e6a40  /media/amd/raid1/rag/index/kb_meta.jsonl.bak_pre_node22_20260708_1146_d708_report39_repair_package
