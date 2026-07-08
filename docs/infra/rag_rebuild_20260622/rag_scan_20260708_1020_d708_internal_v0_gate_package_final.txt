@@ -1,0 +1,4 @@
+scanned_files=9130
+out_dir=/media/amd/raid1/canonical/projects/MaoField/docs/infra/rag_rebuild_20260622
+inventory=/media/amd/raid1/canonical/projects/MaoField/docs/infra/rag_rebuild_20260622/maofield_file_inventory.tsv
+digest=/media/amd/raid1/canonical/projects/MaoField/docs/infra/rag_rebuild_20260622/maofield_data_digest_20260622.md

@@ -1,0 +1,42 @@
+Loading weights:   0%|          | 0/391 [00:00<?, ?it/s]Loading weights: 100%|██████████| 391/391 [00:00<00:00, 46765.51it/s]
+query: MaoField_PRO_D708_InternalV0PromotionGate node19 delivery 2CF1A911   (top-8, 源=知识, project=MaoField)
+
+[1] score=0.7609  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_D708_INTERNAL_V0_GATE_PACKAGE_20260708.md
+    sect: Node22 Vector Refresh - D708 Internal V0 Gate Package > Candidate Verification
+    NODE36_FILES=True MaoField_PRO_D708_InternalV0PromotionGate_20260708_1001.zip=True START_HERE_MAIN_PROMPT_20260708_1001_internal_v0_gate.md=True Delta_{gamma,n}=True image-control=True insufficient_artifact=True proof-by ...
+
+[2] score=0.7452  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/STATE.md
+    sect: MaoField — PROJECT STATE (canonical 单一真相源) > 戳
+    | 项 | 值 | |---|---| | 最后更新 | **2026-07-08 D708 10:19 CST** (`date` verified 10:19 CST). D708 internal-v0 promotion-gate package prepared, warning-cleaned, and delivered to node19: taskbook=`docs/infra/recovery/D708_INTER ...
+
+[3] score=0.7414  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/MAOFIELD_PRO_D708_INTERNAL_V0_PROMOTION_GATE_NODE19_DELIVERY_20260708.md
+    sect: MaoField Pro D708 Internal V0 Promotion Gate Node19 Delivery > Readback
+    Node19 readback:  ```text MaoField_PRO_D708_InternalV0PromotionGate_20260708_1001.zip       203263 bytes START_HERE_MAIN_PROMPT_20260708_1001_internal_v0_gate.md           6148 bytes SHA256SUMS_20260708_1001_internal_v0_ ...
+
+[4] score=0.7373  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/MAOFIELD_PRO_D708_INTERNAL_V0_PROMOTION_GATE_PACKAGE_20260708.md
+    sect: MaoField Pro Package - D708 Internal V0 Promotion Gate > Final Node19 Desktop Files
+    ```text MaoField_PRO_D708_InternalV0PromotionGate_20260708_1001.zip START_HERE_MAIN_PROMPT_20260708_1001_internal_v0_gate.md SHA256SUMS_20260708_1001_internal_v0_gate.txt ``` ...
+
+[5] score=0.7373  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/MAOFIELD_PRO_D708_INTERNAL_V0_PROMOTION_GATE_NODE19_DELIVERY_20260708.md
+    sect: MaoField Pro D708 Internal V0 Promotion Gate Node19 Delivery > Delivered Files
+    ```text MaoField_PRO_D708_InternalV0PromotionGate_20260708_1001.zip START_HERE_MAIN_PROMPT_20260708_1001_internal_v0_gate.md SHA256SUMS_20260708_1001_internal_v0_gate.txt ``` ...
+
+[6] score=0.7214  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/MAOFIELD_PRO_D708_INTERNAL_V0_PROMOTION_GATE_PACKAGE_20260708.md
+    sect: MaoField Pro Package - D708 Internal V0 Promotion Gate > SHA256
+    ```text 2cf1a9117a1c521fb60be7f99014b62715b033090e17d7973e8fc651cd55965a  MaoField_PRO_D708_InternalV0PromotionGate_20260708_1001.zip 6b42193d6259465f4aa57402f5acc73980ab49b54bf0bfaac6c2894808c8cd8b  START_HERE_MAIN_PROM ...
+
+[7] score=0.7013  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/STATE.md
+    sect: MaoField — PROJECT STATE (canonical 单一真相源) > §0 一句话 + 今天
+    08 gate prompt/package=`docs/infra/gpt_deep_research/GPT55_PRO_D708_INTERNAL_V0_PROMOTION_GATE_PROMPT_20260708.md` + `docs/infra/MAOFIELD_PRO_D708_INTERNAL_V0_PROMOTION_GATE_PACKAGE_20260708.md`; node19 zip=`MaoField_PRO ...
+
+[8] score=0.6992  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_D708_INTERNAL_V0_GATE_PACKAGE_20260708.md
+    sect: Node22 Vector Refresh - D708 Internal V0 Gate Package > Smoke Queries
+    The promoted index was queried with:  ```text HF_HUB_OFFLINE=1 /home/amd/venv/bin/python /media/amd/raid1/rag/kb_search.py "D708 internal v0 promotion gate ACCEPT_INTERNAL_V0_AS_LOCAL_NOTE_ONLY" --top-k 8 --project MaoFi ...
