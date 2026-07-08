@@ -1,0 +1,1 @@
+8facb93a167cd1bc5c33296f11d114bfed3727bf672fc4f18d27ab375d68d8cd  docs/infra/rag_rebuild_20260622/scope_include_maofield_active_md_20260708_1340_subpro_e_repair.txt

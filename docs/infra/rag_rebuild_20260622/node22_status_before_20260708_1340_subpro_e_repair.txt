@@ -1,0 +1,25 @@
+2026-07-08 13:34:31 CST node22
+
+
+============================ ROCm System Management Interface ============================
+====================================== Product Info ======================================
+GPU[0]		: Card Series: 		AMD Radeon RX 9070 XT
+GPU[0]		: Card Model: 		0x7550
+GPU[0]		: Card Vendor: 		Advanced Micro Devices, Inc. [AMD/ATI]
+GPU[0]		: Card SKU: 		G295BP00
+GPU[0]		: Subsystem ID: 	0x061a
+GPU[0]		: Device Rev: 		0xc0
+GPU[0]		: Node ID: 		1
+GPU[0]		: GUID: 		23609
+GPU[0]		: GFX Version: 		gfx1201
+GPU[1]		: Card Series: 		AMD Radeon Graphics
+GPU[1]		: Card Model: 		0x13c0
+GPU[1]		: Card Vendor: 		Advanced Micro Devices, Inc. [AMD/ATI]
+GPU[1]		: Card SKU: 		RAPHAEL
+GPU[1]		: Subsystem ID: 	0x13c0
+GPU[1]		: Device Rev: 		0xc6
+GPU[1]		: Node ID: 		2
+GPU[1]		: GUID: 		62399
+GPU[1]		: GFX Version: 		gfx1036
+==========================================================================================
+================================== End of ROCm SMI Log ===================================

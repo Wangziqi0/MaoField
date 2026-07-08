@@ -1,0 +1,1 @@
+started pid=3635278 port=18080 log=/home/amd/codex-node22/tmp/maofield-rag-vector-20260708_1340_subpro_e_repair/bge-m3-llama-18080.log
