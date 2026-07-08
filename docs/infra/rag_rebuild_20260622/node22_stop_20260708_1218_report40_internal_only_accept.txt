@@ -1,0 +1,2 @@
+3632419 /home/amd/llama.cpp/build/bin/llama-server -m /home/amd/models/bge-m3-f16.gguf --embedding --port 18080 --host 0.0.0.0 --ctx-size 8192 --batch-size 4096 --ubatch-size 4096
+3632663 bash -c pgrep -af "llama-server.*18080" || true; pkill -f "llama-server.*--port 18080" || true

@@ -120,6 +120,7 @@
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/D706_GQ_FCR_POST_IMPL_PREPRINT_INTEGRATION_REPORT29_ADOPTION_NOTE_20260706.md
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/D707_BOUNDED_FORMAL_NOTE_V0_DRAFT_REPORT38_ADOPTION_NOTE_20260707.md
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/D707_SPLIT_LOOP_BOUNDED_FORMAL_NOTE_REVIEW_REPORT37_ADOPTION_NOTE_20260707.md
+/media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/D708_INTERNAL_V0_GATE_REPAIR_ACCEPT_REPORT40_ADOPTION_NOTE_20260708.md
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/D708_INTERNAL_V0_GATE_REQUEST_FILES_REPORT39_ADOPTION_NOTE_20260708.md
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/DEBRANDED_RESIDUAL_TRANSPORT_STRICT_AUDIT_ADOPTION_NOTE_20260625.md
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/FINITE_GLUE_CERTIFICATE_REPORT27_ADOPTION_NOTE_20260705.md
@@ -222,6 +223,7 @@
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_d706_gq_fcr_post_impl_preprint_integration_report29_20260706.md
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_d707_bounded_formal_note_v0_draft_report38_20260707.md
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_d707_split_loop_bounded_formal_note_review_report37_20260707.md
+/media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_d708_internal_v0_gate_repair_accept_report40_20260708.md
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_d708_internal_v0_gate_request_files_report39_20260708.md
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_debranded_residual_transport_strict_audit_20260625.md
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_finite_glue_certificate_report27_20260705.md
@@ -316,6 +318,7 @@
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_D707_REPORT38_INTERNAL_V0_20260707.md
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_D707_SPLIT_LOOP_OUTPUTS_20260707.md
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_D708_INTERNAL_V0_GATE_PACKAGE_20260708.md
+/media/amd/raid1/canonical/projects/MaoField/docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_D708_REPORT39_REPAIR_PACKAGE_20260708.md
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_DEBRANDED_20260624.md
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_FINITE_GLUE_REPORT26_20260705.md
 /media/amd/raid1/canonical/projects/MaoField/docs/infra/rag_rebuild_20260622/NODE22_VECTOR_REFRESH_FORMALPRO_20260625.md

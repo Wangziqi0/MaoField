@@ -1,0 +1,41 @@
+query: ACCEPT_REPORT40_KEEP_INTERNAL_ONLY prior-art triviality MEDIUM internal v0 local note   (top-8, 源=知识, project=MaoField)
+
+[1] score=0.7179  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_d708_internal_v0_gate_repair_accept_report40_20260708.md
+    sect: D708 内部 v0 修复复核结论 > Verdict
+    ACCEPT_INTERNAL_V0_AS_LOCAL_NOTE_ONLY ...
+
+[2] score=0.6797  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/D708_INTERNAL_V0_GATE_REPAIR_ACCEPT_REPORT40_ADOPTION_NOTE_20260708.md
+    sect: D708 Internal V0 Gate Repair Accept Report40 Adoption Note > Adopted Local Status
+    Adopted local action:  ```text ACCEPT_REPORT40_KEEP_INTERNAL_ONLY ```  The internal v0 local note may be retained as a bounded internal bookkeeping artifact:  ```text docs/infra/debranded_residual_transport/FORMAL_NOTE_D ...
+
+[3] score=0.6734  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/D708_INTERNAL_V0_GATE_REPAIR_ACCEPT_REPORT40_ADOPTION_NOTE_20260708.md
+    sect: D708 Internal V0 Gate Repair Accept Report40 Adoption Note > Verdict
+    Report40 returns:  ```text ACCEPT_INTERNAL_V0_AS_LOCAL_NOTE_ONLY ```  The requested next action is:  ```text KEEP_INTERNAL_ONLY ```  Node36 accepts this as closure of the Report39 package/provenance blocker for the narro ...
+
+[4] score=0.6522  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/D707_BOUNDED_FORMAL_NOTE_V0_DRAFT_REPORT38_ADOPTION_NOTE_20260707.md
+    sect: D707 Bounded Formal Note V0 Draft - Report38 Adoption Note > Verdict Consumed
+    Report38 returns:  ```text DRAFT_INTERNAL_V0_NOW ```  Node36 adopts this as an authorization to write a narrow internal v0 note only. It does not supersede the report37 boundary. The correct reading is:  ```text Report37 ...
+
+[5] score=0.6502  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/debranded_residual_transport/FORMAL_NOTE_D707_CHART_PATH_CYCLE_DEFECT_V0_20260707.md
+    sect: Finite Chart/Path/Cycle Defect Calculus Under Declared Transports
+    Internal v0 local draft, D707, 2026-07-07.  This note implements the report38 verdict `DRAFT_INTERNAL_V0_NOW` under the report37 boundary `REVISE_BEFORE_FORMAL_NOTE`. It is a narrow finite-dimensional linear-algebra note ...
+
+[6] score=0.6383  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_d708_internal_v0_gate_repair_accept_report40_20260708.md
+    sect: D708 内部 v0 修复复核结论 > Next Action
+    KEEP_INTERNAL_ONLY ...
+
+[7] score=0.6238  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/gpt_deep_research/deep_research_d707_bounded_formal_note_v0_draft_report38_20260707.md
+    sect: D707 有界形式说明内部评审与 v0 草案 > 内部 v0 说明
+    **prior-art / triviality positioning note**   这份 v0 note 不应把上述对象包装成“新数学突破”。Package 内部红队要求明确检查：这些定义是否本质上只是 renamed commutator / intertwining / path-defect bookkeeping，循环 telescoping 是否过于标准而不足以单独支持 novelty。Report37 的严格结论也是 ...
+
+[8] score=0.6178  来源=MaoField
+    path: /media/amd/raid1/canonical/projects/MaoField/docs/infra/recovery/ORDER_DEFECT_D703_REPORT20_LOCAL_VERIFICATION_20260703.md
+    sect: Order-Defect D703 Report20 Local Verification > Report20 Boundary
+    Report(20) is adopted only as an English V1 internal candidate. It explicitly says the candidate is local review only and not a release, posting, status upgrade, paper-ready, preprint-ready, posted, or submission-authori ...
