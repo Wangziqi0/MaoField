@@ -29,12 +29,21 @@ This path is not needed to reproduce the paper. It requires exact provider/model
 
 ## Current identifier state
 
-- Repository: <https://github.com/Wangziqi0/MaoField> (private staging)
-- GitHub Release: not created
-- Zenodo software DOI: not created
-- Zenodo data DOI: not created
-- Preprint identifier: not created
-- Journal submission identifier: not created
+- Repository: <https://github.com/Wangziqi0/MaoField> (public R3.0 release)
+- GitHub Release: published in the R3.0 release
+- Zenodo software DOI: published in the R3.0 release
+- Zenodo data DOI: published in the R3.0 release
+- Preprint identifier: published in the R3.0 release
+- Journal submission identifier: published in the R3.0 release
 
 The future software and source-data Zenodo deposits will be separate. Real identifiers will be inserted only after creation and readback; placeholders are not published.
 
+
+
+## R3.0 published identifiers
+
+- Canonical preprint: https://doi.org/10.5281/zenodo.22209245 (CC BY 4.0; 31 August 2026)
+- Software: https://doi.org/10.5281/zenodo.22209301 and https://github.com/Wangziqi0/MaoField/releases/tag/R3.0 (Apache-2.0)
+- Source data: https://doi.org/10.5281/zenodo.22209309 (CC BY 4.0)
+- Reviewer evidence metadata: https://doi.org/10.5281/zenodo.22209316 (files restricted; no redistribution)
+- arXiv: NOT_SUBMITTED_BY_PI_DECISION

@@ -172,6 +172,12 @@ The Article does not establish that AI scientists generally inherit or fail to i
 
 ---
 
+# Supplementary data, code and preprint availability
+
+Canonical preprint: https://doi.org/10.5281/zenodo.22209245 (Zenodo, R3.0, CC BY 4.0; published 31 August 2026). Source data: https://doi.org/10.5281/zenodo.22209309 (CC BY 4.0). Software and offline reproduction archive: https://doi.org/10.5281/zenodo.22209301 and https://github.com/Wangziqi0/MaoField/releases/tag/R3.0 (Apache-2.0). Restricted reviewer evidence: https://doi.org/10.5281/zenodo.22209316; metadata are public, files are restricted, redistribution is prohibited, and complete access requests will be answered within 14 business days. Confidential review links are supplied only through the journal submission system.
+
+---
+
 Extended Data figure legends
 
 **Extended Data Fig. 1 | Phase 23 condition-level adjudication.** Condition-level objective behaviour, ordinary-control status, structure-channel status and final labels for six preregistered systems. No cross-model pooling was used.

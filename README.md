@@ -1,6 +1,6 @@
 # MaoField: scientific history, current equivalence and future intervention
 
-This repository is the private submission and reproducibility staging candidate for the Article **“Opposed statistical extremes reveal an identification boundary in causal tests of AI scientific agents.”** It is not yet a public release and has no software or data DOI.
+This repository is the public MaoField R3.0 software and reproducibility release for the Article **"Opposed statistical extremes reveal an identification boundary in causal tests of AI scientific agents."** The canonical preprint is https://doi.org/10.5281/zenodo.22209245.
 
 ## The scientific object
 
@@ -66,11 +66,11 @@ Controlled-access requests are governed by `docs/CONTROLLED_ACCESS_POLICY.md` an
 
 ## Staging and identifiers
 
-- Repository: <https://github.com/Wangziqi0/MaoField> (private staging; public release not yet authorized)
-- Zenodo software DOI: not created in this stage
-- Zenodo data DOI: not created in this stage
-- Preprint identifier: not created in this stage
-- Journal submission identifier: not created in this stage
+- GitHub Release: <https://github.com/Wangziqi0/MaoField/releases/tag/R3.0>
+- Zenodo software DOI: <https://doi.org/10.5281/zenodo.22209301>
+- Zenodo source-data DOI: <https://doi.org/10.5281/zenodo.22209309>
+- Canonical Zenodo preprint DOI: <https://doi.org/10.5281/zenodo.22209245> (CC BY 4.0; 31 August 2026)
+- Journal submission identifier: pending initial-submission receipt
 
 ## Licences
 

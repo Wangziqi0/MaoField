@@ -44,3 +44,12 @@ PUBLIC_RELEASE_ZENODO_PREPRINT_NMI_NOT_AUTHORIZED
 
 There is no science-validity blocker and no new experiment is justified. Remaining work is external release, controlled-access implementation, real identifiers and submission mechanics.
 
+
+
+## R3.0 published identifiers
+
+- Canonical preprint: https://doi.org/10.5281/zenodo.22209245 (CC BY 4.0; 31 August 2026)
+- Software: https://doi.org/10.5281/zenodo.22209301 and https://github.com/Wangziqi0/MaoField/releases/tag/R3.0 (Apache-2.0)
+- Source data: https://doi.org/10.5281/zenodo.22209309 (CC BY 4.0)
+- Reviewer evidence metadata: https://doi.org/10.5281/zenodo.22209316 (files restricted; no redistribution)
+- arXiv: NOT_SUBMITTED_BY_PI_DECISION

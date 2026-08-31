@@ -14,4 +14,13 @@
 | AI use | Human authors remain accountable and AI use must be disclosed; generative-AI artwork is not used in this release. | https://www.nature.com/nature-portfolio/editorial-policies/ai |
 | Figures | Production-quality figures should be vector/editable where applicable, publication-sized and supplied with sufficient source data. | https://www.nature.com/natmachintell/submission-guidelines/aip-and-formatting |
 
-The final R3 manuscript satisfies the word/display structure. Unknown identifiers, licences and access URLs remain `AUTHOR_INPUT_NEEDED`; no DOI, repository URL or submission status has been fabricated.
+The final R3 manuscript satisfies the word/display structure. Unknown identifiers, licences and access URLs remain `RESOLVED_IN_R3.0_RELEASE`; no DOI, repository URL or submission status has been fabricated.
+
+
+## R3.0 published identifiers
+
+- Canonical preprint: https://doi.org/10.5281/zenodo.22209245 (CC BY 4.0; 31 August 2026)
+- Software: https://doi.org/10.5281/zenodo.22209301 and https://github.com/Wangziqi0/MaoField/releases/tag/R3.0 (Apache-2.0)
+- Source data: https://doi.org/10.5281/zenodo.22209309 (CC BY 4.0)
+- Reviewer evidence metadata: https://doi.org/10.5281/zenodo.22209316 (files restricted; no redistribution)
+- arXiv: NOT_SUBMITTED_BY_PI_DECISION

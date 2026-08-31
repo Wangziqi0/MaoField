@@ -13,3 +13,12 @@
 
 The reviewer-only tier is governed by `docs/CONTROLLED_ACCESS_POLICY.md`; complete requests receive a response within 14 business days. This repository contains only the future public tier and explanatory placeholders for the other tiers. It does not contain reviewer-only archives, credentials, private keys, restricted provider content or reusable hidden answers.
 
+
+
+## R3.0 published identifiers
+
+- Canonical preprint: https://doi.org/10.5281/zenodo.22209245 (CC BY 4.0; 31 August 2026)
+- Software: https://doi.org/10.5281/zenodo.22209301 and https://github.com/Wangziqi0/MaoField/releases/tag/R3.0 (Apache-2.0)
+- Source data: https://doi.org/10.5281/zenodo.22209309 (CC BY 4.0)
+- Reviewer evidence metadata: https://doi.org/10.5281/zenodo.22209316 (files restricted; no redistribution)
+- arXiv: NOT_SUBMITTED_BY_PI_DECISION

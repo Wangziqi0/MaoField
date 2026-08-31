@@ -25,12 +25,23 @@
   "license": "Apache-2.0",
   "related_identifiers": [
     {
-      "identifier": "https://github.com/Wangziqi0/MaoField",
-      "relation": "isVersionOf",
+      "identifier": "https://github.com/Wangziqi0/MaoField/releases/tag/R3.0",
+      "relation": "isIdenticalTo",
       "scheme": "url"
+    },
+    {
+      "identifier": "10.5281/zenodo.22209245",
+      "relation": "isSupplementTo",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.5281/zenodo.22209309",
+      "relation": "references",
+      "scheme": "doi"
     }
   ],
   "version": "R3.0",
-  "notes": "Draft metadata only. The repository is private and no Zenodo record, DOI, preprint or journal submission is created in this stage. Publish the software and source-data deposits separately only after explicit authorization. The source-data deposit uses CC BY 4.0. Exclude credentials, private keys, restricted provider content and hidden-answer material."
+  "notes": "Public MaoField R3.0 software release. Canonical preprint: https://doi.org/10.5281/zenodo.22209245. Source data: https://doi.org/10.5281/zenodo.22209309. GitHub release: https://github.com/Wangziqi0/MaoField/releases/tag/R3.0.",
+  "doi": "10.5281/zenodo.22209301",
+  "publication_date": "2026-08-31"
 }
-
