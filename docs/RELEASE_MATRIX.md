@@ -11,7 +11,7 @@
 | API keys, DPAPI/private keys, credentials | No | No | Yes | Security |
 | Editorial correspondence | No | No | Yes | Confidentiality |
 
-The reviewer-only tier is governed by `docs/CONTROLLED_ACCESS_POLICY.md`; complete requests receive a response within 14 business days. This repository contains only the future public tier and explanatory placeholders for the other tiers. It does not contain reviewer-only archives, credentials, private keys, restricted provider content or reusable hidden answers.
+The reviewer-only tier is governed by `docs/CONTROLLED_ACCESS_POLICY.md`; complete requests receive a response within 14 business days. This repository contains only the PI-authorized public release tier and explanatory references to the other tiers. It does not contain reviewer-only archives, credentials, private keys, restricted provider content or reusable hidden answers. The NMI Article has not yet been submitted.
 
 
 

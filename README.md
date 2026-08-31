@@ -58,19 +58,19 @@ This path uses frozen processed results and source-data tables. It makes **zero 
 
 ## Evidence tiers
 
-- **Future public tier:** this repository's source, processed source data, display figures, manifests and no-provider offline workflow.
+- **Public release tier:** this repository's source, processed source data, display figures, manifests and no-provider offline workflow.
 - **Reviewer-only tier:** auditable raw endpoint ledgers, assignments, permitted provider records and execution lineage under controlled access; these files are not stored in this repository.
 - **Permanently private tier:** credentials, private/decryption keys, provider-restricted content and reusable hidden-answer material.
 
 Controlled-access requests are governed by `docs/CONTROLLED_ACCESS_POLICY.md` and are answered within 14 business days. No unrestricted hidden answers or secrets are supplied.
 
-## Staging and identifiers
+## Release and submission identifiers
 
 - GitHub Release: <https://github.com/Wangziqi0/MaoField/releases/tag/R3.0>
 - Zenodo software DOI: <https://doi.org/10.5281/zenodo.22209301>
 - Zenodo source-data DOI: <https://doi.org/10.5281/zenodo.22209309>
 - Canonical Zenodo preprint DOI: <https://doi.org/10.5281/zenodo.22209245> (CC BY 4.0; 31 August 2026)
-- Journal submission identifier: pending initial-submission receipt
+- Journal submission identifier: NMI initial submission not yet submitted
 
 ## Licences
 
@@ -79,4 +79,3 @@ Controlled-access requests are governed by `docs/CONTROLLED_ACCESS_POLICY.md` an
 - Restricted provider records and hidden-answer material are excluded and receive no public licence.
 
 See `LICENSE`, `LICENSES/`, `QUICKSTART.md`, `REPRODUCIBILITY.md`, `docs/RELEASE_MATRIX.md` and `docs/PREPRINT_AND_SUBMISSION_SEQUENCE.md`.
-

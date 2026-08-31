@@ -16,33 +16,33 @@
 | AI tools | ChatGPT Pro/Web Pro and OpenAI Codex; sole human responsibility retained |
 | Submission status | Exclusive NMI submission planned; not yet submitted |
 
-## Completed in this private stage
+## Completed for the PI-authorized public release
 
-- The future public repository candidate is staged at <https://github.com/Wangziqi0/MaoField> while the repository remains private.
+- The DOI-filled R3.0 repository artifact is frozen at <https://github.com/Wangziqi0/MaoField> for the PI-authorized public release transaction.
 - Public, reviewer-only and permanently private evidence tiers are separated.
 - The repository contains no reviewer-only archive, credentials, private keys, restricted provider content or reusable hidden answers.
 - Code and original data/document licences are recorded.
 
-## Still required before public release or NMI submission
+## Remaining release and submission actions
 
 | Item | Required action |
 |---|---|
-| Reviewer archive | Create a durable controlled-access location and test its permissions. |
-| Public release | Authorize repository visibility change and create the exact GitHub Release only after final readback. |
-| Zenodo | Create separate software and source-data drafts, then publish only after explicit authorization. |
-| Availability statements | Insert resolving GitHub/Zenodo/preprint identifiers into manuscript, cover letter and portal after creation. |
-| Provider redistribution | Confirm the final public/reviewer treatment of any provider-derived records. |
+| Reviewer archive | Publish the prepared Reviewer Evidence record with public metadata, restricted files, access requests and a confidential review link. |
+| Public release | Create the exact `R3.0` GitHub tag and Release from the DOI-filled final commit, then verify anonymous access. |
+| Zenodo | Publish the prepared Preprint, Software, Source Data and restricted Reviewer Evidence records and verify their access boundaries. |
+| Availability statements | Verify the already inserted GitHub and Zenodo identifiers against the published records and NMI portal. |
+| Provider redistribution | Preserve the frozen public/reviewer/private partition; no restricted provider material is published. |
 | Reference audit | Verify bibliography metadata, DOIs and preprint version dates immediately before submission. |
 | Submission | Submit to NMI only after the author explicitly authorizes the portal transaction. |
 
 ## Readiness
 
 ```text
-PRIVATE_GITHUB_STAGING_READY
-PUBLIC_RELEASE_ZENODO_PREPRINT_NMI_NOT_AUTHORIZED
+PI_AUTHORIZED_PUBLIC_RELEASE_IN_PROGRESS
+NMI_INITIAL_SUBMISSION_NOT_YET_SUBMITTED
 ```
 
-There is no science-validity blocker and no new experiment is justified. Remaining work is external release, controlled-access implementation, real identifiers and submission mechanics.
+There is no science-validity blocker and no new experiment is justified. Public GitHub/Zenodo publication is authorized; the NMI portal transaction remains pending and is not represented as submitted.
 
 
 
