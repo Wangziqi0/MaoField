@@ -2,6 +2,10 @@
 
 This repository is the public MaoField R3.0 software and reproducibility release for the Article **"Opposed statistical extremes reveal an identification boundary in causal tests of AI scientific agents."** The canonical preprint is https://doi.org/10.5281/zenodo.22209245.
 
+`main` is the sole authoritative R3.0/NMI reproducibility branch. All other branches are retained only as historical records and are not release, citation or reproduction authorities; no historical branch is merged into this release. Historical commit metadata, including existing Claude `Co-Authored-By` trailers, is preserved verbatim.
+
+Early repository development used Anthropic Claude. Final Phase 23 analysis, manuscript drafting and release engineering used ChatGPT Pro/Web Pro and OpenAI Codex. Yifan Chen is the sole human author and assumes full responsibility for the scientific judgement, statistics, claims, text and released artifacts. See `docs/AI_ASSISTANCE_DISCLOSURE.md`.
+
 ## The scientific object
 
 MaoField does not treat history as a fact list, token trace or present conclusion. Its minimum scientific-history carrier is a practice-grounded relation:
