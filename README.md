@@ -1,6 +1,6 @@
 # MaoField: scientific history, current equivalence and future intervention
 
-This repository is the private submission and reproducibility staging candidate for the Article **“Opposed statistical extremes expose an identification boundary in causal tests of AI scientific agents.”** It is not yet a public release and has no software or data DOI.
+This repository is the private submission and reproducibility staging candidate for the Article **“Opposed statistical extremes reveal an identification boundary in causal tests of AI scientific agents.”** It is not yet a public release and has no software or data DOI.
 
 ## The scientific object
 

@@ -1,5 +1,5 @@
 {
-  "title": "Opposed statistical extremes expose an identification boundary in causal tests of AI scientific agents",
+  "title": "Opposed statistical extremes reveal an identification boundary in causal tests of AI scientific agents",
   "upload_type": "software",
   "description": "Reproduction archive for a preregistered clean-successor study of whether AI scientific agents inherit practice-grounded falsification history. The release encodes an executable claim graph from the RPESK history ontology and prespecified current-content map through randomized history arms, objective future-practice endpoints, evaluator-specific calibration, frozen statistics and final claim ceilings. Phase 23 produced two opposed, held-out-replicated statistical extremes that remained scientifically non-identifying; a disjoint GLM provider branch passed ordinary behavioural controls but established neither history inheritance, a bounded null nor structural dissociation. The primary offline workflow reproduces the public statistics, tables and figures without model or provider calls. The archive does not claim universal HFI, a proved dissociation, a Transformer defect or universal benchmark invalidity.",
   "creators": [

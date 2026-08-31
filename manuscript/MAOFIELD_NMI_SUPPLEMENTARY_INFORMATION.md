@@ -1,6 +1,6 @@
 # Supplementary Information
 
-## Opposed statistical extremes expose an identification boundary in causal tests of AI scientific agents
+## Opposed statistical extremes reveal an identification boundary in causal tests of AI scientific agents
 
 **Yifan Chen**  
 Independent Researcher  
