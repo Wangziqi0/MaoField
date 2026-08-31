@@ -1,1 +1,0 @@
-32c2081b33c130db1692d078fd4876487afe93019f30208cf14827b91fc9fdbf  docs/infra/rag_rebuild_20260622/canonical_scope_active_20260703_1053_report20_formal_preprint_draft_gate.txt

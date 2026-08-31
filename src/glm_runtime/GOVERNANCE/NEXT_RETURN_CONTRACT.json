@@ -1,0 +1,7 @@
+{
+  "allowed_next_action": "future exact PI adoption may authorize a separate formal execution candidate; this package does not",
+  "automatic_next_round": false,
+  "provider_calls_authorized_now": 0,
+  "required_return": "one manifest-closed formal return or fail-stop return",
+  "schema": "maofield.glm53.next_return.v2"
+}

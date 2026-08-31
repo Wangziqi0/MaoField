@@ -1,0 +1,28 @@
+{
+  "schema": "maofield.offline_reproduction.v1",
+  "checks": [
+    {
+      "id": "PH23_EXACT_EQUALITY_ROWS",
+      "pass": true
+    },
+    {
+      "id": "PH23_ORDINARY_0_OF_16",
+      "pass": true
+    },
+    {
+      "id": "PH23_QWEN_GAP",
+      "pass": true
+    },
+    {
+      "id": "GLM_ORDINARY",
+      "pass": true
+    },
+    {
+      "id": "GLM_CLAIMS_FALSE",
+      "pass": true
+    }
+  ],
+  "all_pass": true,
+  "provider_calls": 0,
+  "model_calls": 0
+}

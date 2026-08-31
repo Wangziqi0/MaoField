@@ -1,1 +1,0 @@
-6cb617846908d074dc88a14c5d446c94acdcbdff38f5efbc472e02eea41adb04  docs/infra/rag_rebuild_20260622/canonical_scope_active_20260703_1438_v24_final_preprint_review.txt

@@ -1,1 +1,0 @@
-{"stage": "run_start", "alpha": 50.0, "seed": 42, "condition": "no_preserve", "n_generations": 10, "smoke_test": false, "kl_update_every": 10}

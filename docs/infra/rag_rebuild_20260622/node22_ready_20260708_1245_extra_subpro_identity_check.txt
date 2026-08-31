@@ -1,3 +1,0 @@
-ready_attempt=2
-{"status":"ok"}
-small embedding test: 1 vector, dimension 1024

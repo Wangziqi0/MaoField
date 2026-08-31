@@ -1,3 +1,0 @@
-group,n_docs,best_representation,k_star,silhouette
-IV-A,100,phase_cos_sin,2,0.1285
-IV-B,100,raw_ab,2,0.0571

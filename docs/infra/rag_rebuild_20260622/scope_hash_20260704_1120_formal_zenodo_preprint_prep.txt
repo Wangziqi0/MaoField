@@ -1,1 +1,0 @@
-60811f54253b9b5559d1137b672ce9b511d26982b15288b24cd197f24897e259  /home/amd/codex-node36/tmp/rag_20260704_1120_formal_zenodo_preprint_prep/scope_include_active.txt

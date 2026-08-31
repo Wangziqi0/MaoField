@@ -1,4 +1,0 @@
-vectors=9638
-dim=1024
-meta_lines=9638
-pass=True

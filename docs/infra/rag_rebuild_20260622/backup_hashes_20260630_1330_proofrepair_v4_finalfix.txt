@@ -1,2 +1,0 @@
-cb62eddb5d130759a091811600af4601c3cc7eb1fae07c2048681162df570309  /media/amd/raid1/rag/index/backups/pre_proofrepair_v4_finalfix_20260630_1330/kb.faiss.bak
-87da38278a6bea6de8b6c51d46c950dcbc005c48be697d7fd115e4105e8ee9da  /media/amd/raid1/rag/index/backups/pre_proofrepair_v4_finalfix_20260630_1330/kb_meta.jsonl.bak

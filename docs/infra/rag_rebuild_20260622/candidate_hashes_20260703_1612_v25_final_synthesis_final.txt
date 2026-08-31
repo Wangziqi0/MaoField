@@ -1,6 +1,0 @@
-f6ff0c31c7b10d36657a2850e901b8844f9a0d9c5c9ae08b48051855e278567d  /home/amd/codex-node36/tmp/rag_20260703_1612_v25_final_synthesis_final/candidate_index/kb.faiss
-2b5349f119ed9cadd4d08005998e832200a899d105a44ea43a230e2ae9ac8c1e  /home/amd/codex-node36/tmp/rag_20260703_1612_v25_final_synthesis_final/candidate_index/kb_meta.jsonl
-     577 /home/amd/codex-node36/tmp/rag_20260703_1612_v25_final_synthesis_final/canonical_scope_active_20260703_1612_v25_final_synthesis_final.txt
-   11880 /home/amd/codex-node36/tmp/rag_20260703_1612_v25_final_synthesis_final/candidate_index/kb_meta.jsonl
-   12457 total
-4831f530a3ce3671bd6ac983415c6c651caa86ddd65c36929c2a20ef915100d1  /home/amd/codex-node36/tmp/rag_20260703_1612_v25_final_synthesis_final/canonical_scope_active_20260703_1612_v25_final_synthesis_final.txt

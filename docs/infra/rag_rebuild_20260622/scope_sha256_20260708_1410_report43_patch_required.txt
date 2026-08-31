@@ -1,1 +1,0 @@
-92a936e40e548404bd2b24549f5949bf02c6c4a28a4bd5fd164895450b617274  docs/infra/rag_rebuild_20260622/scope_include_maofield_active_md_20260708_1410_report43_patch_required.txt

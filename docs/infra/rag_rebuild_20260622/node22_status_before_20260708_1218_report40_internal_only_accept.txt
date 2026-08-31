@@ -1,4 +1,0 @@
-2026-07-08 12:18 CST node36 checked node22 before rebuild.
-node22 reachable: amd@192.168.31.22
-initial port 18080: not listening
-GPU inventory: GPU0 RX 9070 XT gfx1201; GPU1 AMD Radeon Graphics gfx1036

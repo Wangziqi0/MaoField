@@ -1,3 +1,0 @@
-faiss_vectors=12083
-faiss_dim=1024
-meta_lines=12083

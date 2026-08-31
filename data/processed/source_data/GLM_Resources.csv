@@ -1,0 +1,3 @@
+stratum,elapsed_time_seconds_sum,evaluable_rows,normalized_budget_ratio_mean,raw_calls_sum,registered_rows,status,tool_cost_sum
+main96,258643.5280131017,1724,0.3426334106728538,10344,1920,EVALUABLE,5907.0
+sealed32,87720.58100000117,587,0.5694207836456558,3522,640,EVALUABLE,3030.0

@@ -1,0 +1,31 @@
+{
+  "automatic_next_round": false,
+  "failures": [],
+  "mutations": 12,
+  "production_edges": {
+    "analysis_to_IUT": true,
+    "analysis_to_bootstrap": true,
+    "analysis_to_equivalence": true,
+    "analysis_to_holm": true,
+    "analysis_to_permutation": true,
+    "formal_runner_to_analysis": true,
+    "formal_runner_to_return": true,
+    "formal_runner_to_state_machine": true,
+    "state_to_assignment": true,
+    "state_to_endpoint": true,
+    "state_to_history": true,
+    "state_to_parser": true,
+    "state_to_renderer": true,
+    "state_to_request": true,
+    "state_to_scorer_A": true,
+    "state_to_scorer_B": true,
+    "state_to_source_practice": true,
+    "state_to_tool_environment": true,
+    "state_to_world": true
+  },
+  "production_roots": 0,
+  "provider_calls": 0,
+  "requirements": 48,
+  "schema": "maofield.glm53.runtime_reachability_receipt.v2",
+  "status": "PASS"
+}

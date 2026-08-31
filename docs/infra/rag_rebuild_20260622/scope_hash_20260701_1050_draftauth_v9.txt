@@ -1,1 +1,0 @@
-9de0e38e062199b99eb618383613d5d9120449290220f5abccb3d20ce699e6cc  docs/infra/rag_rebuild_20260622/canonical_scope_active_20260701_1050_draftauth_v9.txt

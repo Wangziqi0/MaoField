@@ -1,0 +1,43 @@
+{
+  "automatic_next_round": false,
+  "branches": [
+    {
+      "conditions": "objective valid + ordinary controls valid + full U signature positive",
+      "label": "P1_DIRECT_BEHAVIORAL_HFI_CANDIDATE"
+    },
+    {
+      "conditions": "C_flat equality + valid future response divergence over SESOI",
+      "label": "P5_FINITE_INTERVENTIONAL_NONCLOSURE_WITNESS_CANDIDATE"
+    },
+    {
+      "conditions": "objective valid + ordinary controls valid + simultaneous strict-zero/equivalence region",
+      "label": "BOUNDED_OBJECTIVE_ZERO_CANDIDATE"
+    },
+    {
+      "conditions": "A_SIB and R criterion-valid + A_SIB positive + R powered strict null + gap>0.05",
+      "label": "P2_CANDIDATE"
+    },
+    {
+      "conditions": "A_SIB and R criterion-valid + R positive + A_SIB powered strict null + ordinary valid + reverse gap>0.05",
+      "label": "P3_CANDIDATE"
+    },
+    {
+      "conditions": "Direct objective estimable but ordinary controls invalid",
+      "label": "DIRECT_ESTIMATE_WITH_OPERATING_RANGE_UNRESOLVED"
+    },
+    {
+      "conditions": "A_SIB or R criterion invalid",
+      "label": "STRUCTURE_OR_DISSOCIATION_NOT_IDENTIFIED"
+    },
+    {
+      "conditions": "objective raw endpoint/custody unrecoverable",
+      "label": "OBJECTIVE_BEHAVIOR_NON_EVALUABLE"
+    },
+    {
+      "conditions": "ordinary and/or structure controls fail again on new provider/worlds",
+      "label": "CROSS_PROVIDER_MEASUREMENT_BOUNDARY_REPLICATION; NO_FURTHER_EXPERIMENT"
+    }
+  ],
+  "controls_gate_direct_collection": false,
+  "schema": "maofield.glm53.result_tree.v1"
+}

@@ -1,2 +1,0 @@
-05922e578c7f316e8d635f1d1f4bb5247d6a1dc7c14ec554b40b1c41483720d4  /media/amd/raid1/rag/index/kb.faiss.bak_pre_node22_20260708_1340_subpro_e_repair
-3156bae4f1fcd71766b6f7b13483d50a17c006767bd03e5ba22c6e586162f471  /media/amd/raid1/rag/index/kb_meta.jsonl.bak_pre_node22_20260708_1340_subpro_e_repair

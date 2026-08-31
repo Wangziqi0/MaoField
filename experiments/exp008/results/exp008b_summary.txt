@@ -1,5 +1,0 @@
-Exp008b: Same-Domain Mismatch
-
-A: 43% (30%, 50%, 50%)
-B2: 37% (20%, 40%, 50%)
-Time: 17.8s

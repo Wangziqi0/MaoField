@@ -1,3 +1,0 @@
-vectors=9562
-dim=1024
-meta_lines=9562

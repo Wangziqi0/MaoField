@@ -1,4 +1,0 @@
-scanned_files=9029
-out_dir=/home/amd/codex-node36/tmp/rag_20260707_1705_report37_bounded_note_review
-inventory=/home/amd/codex-node36/tmp/rag_20260707_1705_report37_bounded_note_review/maofield_file_inventory.tsv
-digest=/home/amd/codex-node36/tmp/rag_20260707_1705_report37_bounded_note_review/maofield_data_digest_20260622.md

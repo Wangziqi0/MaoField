@@ -1,1 +1,0 @@
-8231568300e47a9332ee020b998a3a7a5ed05b804e71c09618aa3b0ab23571b6  docs/infra/rag_rebuild_20260622/canonical_scope_active_20260701_1220_boundarydraft_v10.txt

@@ -1,3 +1,0 @@
-8ea8eaadaa4b015f239bf7821665db84daecc9928c9d533a6e29da968d861510  /media/amd/raid1/rag/index/kb.faiss
-5c9a5015c534778a36ddf6a805b01527915b25f408146871a943e3c6e5e71ed0  /media/amd/raid1/rag/index/kb_meta.jsonl
-5ca9b31e1e09928dd4655d036e79130b583bfdeea9a5b66b4bb246e080a023a8  docs/infra/rag_rebuild_20260622/canonical_scope_active_20260629_1601_v16final.txt

@@ -1,2 +1,0 @@
-e45bafbb4fb6a6b014fab232a100d1d7bd09b7fbe1ccf00c21bff4ae34c6c540  /home/amd/codex-node36/tmp/rag_20260704_2212_metric_identity_phaseii_final_package/candidate_index/kb.faiss
-f9350c05be7ae209574e14c6cec5e75df5982382c849cb73ee5ce1cf144c0c98  /home/amd/codex-node36/tmp/rag_20260704_2212_metric_identity_phaseii_final_package/candidate_index/kb_meta.jsonl

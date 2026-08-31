@@ -1,2 +1,0 @@
-d9df156e40e3344068ebbc8bcd46f5f18979b4bdf59eccab1c4ed496e62afb23  /home/amd/codex-node36/tmp/rag_20260706_1240_drift_check_pointer_fix/candidate_index/kb.faiss
-fc60e835b2fcce65ba41aef037e0e3e40ada5b6686fcfff3c3764462751cee3e  /home/amd/codex-node36/tmp/rag_20260706_1240_drift_check_pointer_fix/candidate_index/kb_meta.jsonl

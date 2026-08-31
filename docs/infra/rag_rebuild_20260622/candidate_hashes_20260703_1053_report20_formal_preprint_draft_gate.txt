@@ -1,6 +1,0 @@
-candidate_stable:
-aae10a22336c8943fa21d4ca583d7960f408656772845a85a1791caf24daa512  /home/amd/codex-node36/tmp/rag_20260703_1053_report20_formal_preprint_draft_gate_stable/candidate_index/kb.faiss
-83bee50b39ec4fa37e930006b920a18159f296497318d4f28e3e5d7b3bc094fb  /home/amd/codex-node36/tmp/rag_20260703_1053_report20_formal_preprint_draft_gate_stable/candidate_index/kb_meta.jsonl
-   11633 /home/amd/codex-node36/tmp/rag_20260703_1053_report20_formal_preprint_draft_gate_stable/candidate_index/kb_meta.jsonl
-     552 docs/infra/rag_rebuild_20260622/canonical_scope_active_20260703_1053_report20_formal_preprint_draft_gate.txt
-   12185 total

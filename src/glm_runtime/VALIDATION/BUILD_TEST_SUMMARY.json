@@ -1,0 +1,22 @@
+{
+  "automatic_next_round": false,
+  "executed_family_cell_worlds": 48,
+  "heldout_consumed": 0,
+  "independent_scorer_pairs": 48,
+  "model_calls": 0,
+  "mutations_rejected": 12,
+  "production_edges": 19,
+  "production_roots": 0,
+  "production_seeds": 0,
+  "provider_calls": 0,
+  "receipts": {
+    "conformance": "DB95B01EB10CE5C2A26C457188217657DD862BAA1ED948DBCCE8BA841AEA919E",
+    "mutation": "D6F7B7A9D597AE3B6EFC2A756B6744F96E393237C62195D9621FEDD6C94A13FB",
+    "reachability": "19E9852933CC594F6C90C36A7BCA09979F5BDBD3C71399823144D54A0A914303"
+  },
+  "rendered_arm_cell_messages": 240,
+  "schedule_rows": 18156,
+  "schema": "maofield.glm53.build_test_summary.v2",
+  "status": "PASS",
+  "unblinding": 0
+}

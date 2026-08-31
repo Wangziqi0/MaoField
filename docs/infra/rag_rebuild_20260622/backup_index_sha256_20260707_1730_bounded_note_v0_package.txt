@@ -1,2 +1,0 @@
-f8d73ac2ed7d6a416879e59f6946f81c99b3cf1c0b4d2b503716e8d0a5659d92  /media/amd/raid1/rag/index/kb.faiss.bak_pre_node22_20260707_1730_bounded_note_v0_package
-153302fe8e3ad327e41c8d8dd653a3d499936ef5aff35e048896a1df0dbd2794  /media/amd/raid1/rag/index/kb_meta.jsonl.bak_pre_node22_20260707_1730_bounded_note_v0_package

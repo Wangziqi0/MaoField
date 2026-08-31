@@ -1,0 +1,342 @@
+{
+  "count": 48,
+  "entries": [
+    {
+      "disconnection_mutation": "T001",
+      "id": "R001",
+      "production_locator": "CODE/maofield_glm53_runtime/assignment.py::derive_keys",
+      "root_independent_witness": "TESTS/no_provider_conformance.py",
+      "semantic": "private_assignment_kdf"
+    },
+    {
+      "disconnection_mutation": "T002",
+      "id": "R002",
+      "production_locator": "CODE/maofield_glm53_runtime/assignment.py::build_private_ledger",
+      "root_independent_witness": "TESTS/no_provider_conformance.py",
+      "semantic": "main96_assignment_domain"
+    },
+    {
+      "disconnection_mutation": "T003",
+      "id": "R003",
+      "production_locator": "CODE/maofield_glm53_runtime/assignment.py::build_private_ledger",
+      "root_independent_witness": "TESTS/no_provider_conformance.py",
+      "semantic": "sealed32_independent_assignment_domain"
+    },
+    {
+      "disconnection_mutation": "T004",
+      "id": "R004",
+      "production_locator": "CODE/maofield_glm53_runtime/assignment.py::assignment_for",
+      "root_independent_witness": "TESTS/no_provider_conformance.py",
+      "semantic": "A_SIB_R_shared_assignment"
+    },
+    {
+      "disconnection_mutation": "T005",
+      "id": "R005",
+      "production_locator": "CODE/maofield_glm53_runtime/assignment.py::encrypt_ledger",
+      "root_independent_witness": "TESTS/no_provider_conformance.py",
+      "semantic": "private_assignment_encryption"
+    },
+    {
+      "disconnection_mutation": "T006",
+      "id": "R006",
+      "production_locator": "CODE/maofield_glm53_runtime/custody.py::append_wal",
+      "root_independent_witness": "TESTS/no_provider_conformance.py",
+      "semantic": "append_only_exactly_once_WAL"
+    },
+    {
+      "disconnection_mutation": "T007",
+      "id": "R007",
+      "production_locator": "CODE/maofield_glm53_runtime/custody.py::dpapi_protect",
+      "root_independent_witness": "TESTS/no_provider_conformance.py",
+      "semantic": "DPAPI_key_envelope"
+    },
+    {
+      "disconnection_mutation": "T008",
+      "id": "R008",
+      "production_locator": "CODE/maofield_glm53_runtime/family_rules.py::family_for",
+      "root_independent_witness": "TESTS/no_provider_conformance.py",
+      "semantic": "twelve_executable_families"
+    },
+    {
+      "disconnection_mutation": "T009",
+      "id": "R009",
+      "production_locator": "CODE/maofield_glm53_runtime/worlds.py::materialize_source_practice",
+      "root_independent_witness": "TESTS/no_provider_conformance.py",
+      "semantic": "predecessor_practice_failure"
+    },
+    {
+      "disconnection_mutation": "T010",
+      "id": "R010",
+      "production_locator": "CODE/maofield_glm53_runtime/history.py::build_cards",
+      "root_independent_witness": "TESTS/no_provider_conformance.py",
+      "semantic": "five_arm_history_cards"
+    },
+    {
+      "disconnection_mutation": "T011",
+      "id": "R011",
+      "production_locator": "CODE/maofield_glm53_runtime/family_rules.py::objective_route",
+      "root_independent_witness": "TESTS/no_provider_conformance.py",
+      "semantic": "four_cell_world_dynamics"
+    },
+    {
+      "disconnection_mutation": "T012",
+      "id": "R012",
+      "production_locator": "CODE/maofield_glm53_runtime/worlds.py::descriptor",
+      "root_independent_witness": "TESTS/no_provider_conformance.py",
+      "semantic": "common_future_world"
+    },
+    {
+      "disconnection_mutation": "T013",
+      "id": "R013",
+      "production_locator": "CODE/maofield_glm53_runtime/worlds.py::materialize_clean_successor",
+      "root_independent_witness": "TESTS/no_provider_conformance.py",
+      "semantic": "clean_successor_filesystem"
+    },
+    {
+      "disconnection_mutation": "T014",
+      "id": "R014",
+      "production_locator": "CODE/maofield_glm53_runtime/renderer.py::render_messages",
+      "root_independent_witness": "TESTS/no_provider_conformance.py",
+      "semantic": "byte_exact_renderer"
+    },
+    {
+      "disconnection_mutation": "T015",
+      "id": "R015",
+      "production_locator": "CODE/maofield_glm53_runtime/renderer.py::render_messages",
+      "root_independent_witness": "TESTS/no_provider_conformance.py",
+      "semantic": "model_facing_arm_cell_nonleakage"
+    },
+    {
+      "disconnection_mutation": "T016",
+      "id": "R016",
+      "production_locator": "CODE/maofield_glm53_runtime/renderer.py::request_body",
+      "root_independent_witness": "TESTS/no_provider_conformance.py",
+      "semantic": "exact_provider_request"
+    },
+    {
+      "disconnection_mutation": "T017",
+      "id": "R017",
+      "production_locator": "CODE/maofield_glm53_runtime/parser.py::parse_provider_response",
+      "root_independent_witness": "TESTS/no_provider_conformance.py",
+      "semantic": "strict_action_parser"
+    },
+    {
+      "disconnection_mutation": "T018",
+      "id": "R018",
+      "production_locator": "CODE/maofield_glm53_runtime/provider_adapter.py::dispatch",
+      "root_independent_witness": "TESTS/no_provider_conformance.py",
+      "semantic": "formal_provider_fail_closed"
+    },
+    {
+      "disconnection_mutation": "T019",
+      "id": "R019",
+      "production_locator": "CODE/maofield_glm53_runtime/tool_environment.py::Environment.execute",
+      "root_independent_witness": "TESTS/no_provider_conformance.py",
+      "semantic": "tool_state_transition"
+    },
+    {
+      "disconnection_mutation": "T020",
+      "id": "R020",
+      "production_locator": "CODE/maofield_glm53_runtime/worlds.py::execute_probe",
+      "root_independent_witness": "TESTS/no_provider_conformance.py",
+      "semantic": "objective_probe_execution"
+    },
+    {
+      "disconnection_mutation": "T021",
+      "id": "R021",
+      "production_locator": "CODE/maofield_glm53_runtime/worlds.py::apply_action",
+      "root_independent_witness": "TESTS/no_provider_conformance.py",
+      "semantic": "actual_patch_application"
+    },
+    {
+      "disconnection_mutation": "T022",
+      "id": "R022",
+      "production_locator": "CODE/maofield_glm53_runtime/scorer_a.py::score",
+      "root_independent_witness": "TESTS/no_provider_conformance.py",
+      "semantic": "independent_scorer_A"
+    },
+    {
+      "disconnection_mutation": "T023",
+      "id": "R023",
+      "production_locator": "CODE/maofield_glm53_runtime/scorer_b.py::score",
+      "root_independent_witness": "TESTS/no_provider_conformance.py",
+      "semantic": "independent_scorer_B"
+    },
+    {
+      "disconnection_mutation": "T024",
+      "id": "R024",
+      "production_locator": "CODE/maofield_glm53_runtime/endpoints.py::build_behavior_endpoints",
+      "root_independent_witness": "TESTS/no_provider_conformance.py",
+      "semantic": "terminal_U"
+    },
+    {
+      "disconnection_mutation": "T025",
+      "id": "R025",
+      "production_locator": "CODE/maofield_glm53_runtime/endpoints.py::build_behavior_endpoints",
+      "root_independent_witness": "TESTS/no_provider_conformance.py",
+      "semantic": "A_FT_role"
+    },
+    {
+      "disconnection_mutation": "T026",
+      "id": "R026",
+      "production_locator": "CODE/maofield_glm53_runtime/endpoints.py::build_behavior_endpoints",
+      "root_independent_witness": "TESTS/no_provider_conformance.py",
+      "semantic": "informative_P"
+    },
+    {
+      "disconnection_mutation": "T027",
+      "id": "R027",
+      "production_locator": "CODE/maofield_glm53_runtime/endpoints.py::build_behavior_endpoints",
+      "root_independent_witness": "TESTS/no_provider_conformance.py",
+      "semantic": "ordered_O"
+    },
+    {
+      "disconnection_mutation": "T028",
+      "id": "R028",
+      "production_locator": "CODE/maofield_glm53_runtime/endpoints.py::build_behavior_endpoints",
+      "root_independent_witness": "TESTS/no_provider_conformance.py",
+      "semantic": "resource_endpoint"
+    },
+    {
+      "disconnection_mutation": "T029",
+      "id": "R029",
+      "production_locator": "CODE/maofield_glm53_runtime/endpoints.py::action_sibling_endpoint",
+      "root_independent_witness": "TESTS/no_provider_conformance.py",
+      "semantic": "A_SIB_endpoint"
+    },
+    {
+      "disconnection_mutation": "T030",
+      "id": "R030",
+      "production_locator": "CODE/maofield_glm53_runtime/endpoints.py::structure_endpoint",
+      "root_independent_witness": "TESTS/no_provider_conformance.py",
+      "semantic": "R_structure_endpoint"
+    },
+    {
+      "disconnection_mutation": "T031",
+      "id": "R031",
+      "production_locator": "CODE/maofield_glm53_runtime/analysis.py::ordinary_calibration",
+      "root_independent_witness": "TESTS/no_provider_conformance.py",
+      "semantic": "ordinary_positive_controls_nonblocking"
+    },
+    {
+      "disconnection_mutation": "T032",
+      "id": "R032",
+      "production_locator": "CODE/maofield_glm53_runtime/analysis.py::structure_calibration",
+      "root_independent_witness": "TESTS/no_provider_conformance.py",
+      "semantic": "structure_criterion_nonblocking"
+    },
+    {
+      "disconnection_mutation": "T033",
+      "id": "R033",
+      "production_locator": "CODE/maofield_glm53_runtime/state_machine.py::run_schedule",
+      "root_independent_witness": "TESTS/no_provider_conformance.py",
+      "semantic": "same_production_state_machine"
+    },
+    {
+      "disconnection_mutation": "T034",
+      "id": "R034",
+      "production_locator": "CODE/maofield_glm53_runtime/state_machine.py::run_schedule",
+      "root_independent_witness": "TESTS/no_provider_conformance.py",
+      "semantic": "main96_freeze_before_sealed32"
+    },
+    {
+      "disconnection_mutation": "T035",
+      "id": "R035",
+      "production_locator": "CODE/maofield_glm53_runtime/custody.py::custody_blob",
+      "root_independent_witness": "TESTS/no_provider_conformance.py",
+      "semantic": "raw_request_response_custody"
+    },
+    {
+      "disconnection_mutation": "T036",
+      "id": "R036",
+      "production_locator": "CODE/maofield_glm53_runtime/statistics.py::superiority_test",
+      "root_independent_witness": "TESTS/no_provider_conformance.py",
+      "semantic": "studentized_100000_permutation"
+    },
+    {
+      "disconnection_mutation": "T037",
+      "id": "R037",
+      "production_locator": "CODE/maofield_glm53_runtime/statistics.py::equivalence_test",
+      "root_independent_witness": "TESTS/no_provider_conformance.py",
+      "semantic": "equivalence_two_sided_shifted_tests"
+    },
+    {
+      "disconnection_mutation": "T038",
+      "id": "R038",
+      "production_locator": "CODE/maofield_glm53_runtime/statistics.py::simultaneous_bootstrap",
+      "root_independent_witness": "TESTS/no_provider_conformance.py",
+      "semantic": "paired_cluster_50000_bootstrap"
+    },
+    {
+      "disconnection_mutation": "T039",
+      "id": "R039",
+      "production_locator": "CODE/maofield_glm53_runtime/statistics.py::linear_missing_bounds",
+      "root_independent_witness": "TESTS/no_provider_conformance.py",
+      "semantic": "typed_missingness_bounds"
+    },
+    {
+      "disconnection_mutation": "T040",
+      "id": "R040",
+      "production_locator": "CODE/maofield_glm53_runtime/statistics.py::iut",
+      "root_independent_witness": "TESTS/no_provider_conformance.py",
+      "semantic": "IUT_no_compensation"
+    },
+    {
+      "disconnection_mutation": "T041",
+      "id": "R041",
+      "production_locator": "CODE/maofield_glm53_runtime/statistics.py::holm",
+      "root_independent_witness": "TESTS/no_provider_conformance.py",
+      "semantic": "Holm_fixed_families"
+    },
+    {
+      "disconnection_mutation": "T042",
+      "id": "R042",
+      "production_locator": "CODE/maofield_glm53_runtime/analysis.py::analyze_run",
+      "root_independent_witness": "TESTS/no_provider_conformance.py",
+      "semantic": "main96_analysis_freeze"
+    },
+    {
+      "disconnection_mutation": "T043",
+      "id": "R043",
+      "production_locator": "CODE/maofield_glm53_runtime/analysis.py::analyze_run",
+      "root_independent_witness": "TESTS/no_provider_conformance.py",
+      "semantic": "P1_P5_primary_nonblocking"
+    },
+    {
+      "disconnection_mutation": "T044",
+      "id": "R044",
+      "production_locator": "CODE/maofield_glm53_runtime/analysis.py::_analyze_siblings",
+      "root_independent_witness": "TESTS/no_provider_conformance.py",
+      "semantic": "P2_P3_only_A_SIB_R"
+    },
+    {
+      "disconnection_mutation": "T045",
+      "id": "R045",
+      "production_locator": "CODE/maofield_glm53_runtime/formal_return.py::build_formal_return",
+      "root_independent_witness": "TESTS/no_provider_conformance.py",
+      "semantic": "single_terminal_result"
+    },
+    {
+      "disconnection_mutation": "T046",
+      "id": "R046",
+      "production_locator": "CODE/maofield_glm53_runtime/formal_runner.py::run_formal",
+      "root_independent_witness": "TESTS/no_provider_conformance.py",
+      "semantic": "formal_runner_requires_future_PI"
+    },
+    {
+      "disconnection_mutation": "T047",
+      "id": "R047",
+      "production_locator": "CODE/maofield_glm53_runtime/state_machine.py::run_schedule",
+      "root_independent_witness": "TESTS/no_provider_conformance.py",
+      "semantic": "attempt_ceiling_18156"
+    },
+    {
+      "disconnection_mutation": "T048",
+      "id": "R048",
+      "production_locator": "CODE/maofield_glm53_runtime/formal_return.py::build_formal_return",
+      "root_independent_witness": "TESTS/no_provider_conformance.py",
+      "semantic": "automatic_next_round_false"
+    }
+  ],
+  "schema": "maofield.glm53.normative_reachability_registry.v2"
+}

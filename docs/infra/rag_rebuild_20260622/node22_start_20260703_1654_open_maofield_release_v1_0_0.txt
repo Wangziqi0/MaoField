@@ -1,3 +1,0 @@
-started pid=3313316 port=18080 log=/home/amd/codex-node22/tmp/maofield-rag-vector-20260703_1654_open_maofield_release_v1_0_0/bge-m3-llama-18080.log
-node22_ready_after=2s
-{"status":"ok"}

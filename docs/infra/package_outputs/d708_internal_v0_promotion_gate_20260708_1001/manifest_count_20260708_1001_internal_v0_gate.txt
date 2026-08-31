@@ -1,1 +1,0 @@
-53 /media/amd/raid1/canonical/projects/MaoField/docs/infra/package_outputs/d708_internal_v0_promotion_gate_20260708_1001/MANIFEST_D708_INTERNAL_V0_PROMOTION_GATE_20260708.txt

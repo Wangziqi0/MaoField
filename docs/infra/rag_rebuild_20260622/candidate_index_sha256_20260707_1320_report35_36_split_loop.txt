@@ -1,2 +1,0 @@
-dab04126e8383c44c6d9f15c10bfc0c7b6923a2e8eb35b77b6fc98558a6f068c  /home/amd/codex-node36/tmp/rag_20260707_1320_report35_36_split_loop/candidate_index/kb.faiss
-99e60eaeb62dbcd4b7b50c69a5c9a206cdaaab4fe17f8912ad2898ffb2b0c0f6  /home/amd/codex-node36/tmp/rag_20260707_1320_report35_36_split_loop/candidate_index/kb_meta.jsonl

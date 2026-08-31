@@ -1,0 +1,36 @@
+{
+  "title": "Opposed statistical extremes expose an identification boundary in causal tests of AI scientific agents",
+  "upload_type": "software",
+  "description": "Reproduction archive for a preregistered clean-successor study of whether AI scientific agents inherit practice-grounded falsification history. The release encodes an executable claim graph from the RPESK history ontology and prespecified current-content map through randomized history arms, objective future-practice endpoints, evaluator-specific calibration, frozen statistics and final claim ceilings. Phase 23 produced two opposed, held-out-replicated statistical extremes that remained scientifically non-identifying; a disjoint GLM provider branch passed ordinary behavioural controls but established neither history inheritance, a bounded null nor structural dissociation. The primary offline workflow reproduces the public statistics, tables and figures without model or provider calls. The archive does not claim universal HFI, a proved dissociation, a Transformer defect or universal benchmark invalidity.",
+  "creators": [
+    {
+      "name": "Chen, Yifan",
+      "orcid": "0009-0008-8344-1149",
+      "affiliation": "Independent Researcher, Luan, China"
+    }
+  ],
+  "keywords": [
+    "AI agents",
+    "scientific agents",
+    "causal evaluation",
+    "intervention equivalence",
+    "construct validity",
+    "agent memory",
+    "reproducibility",
+    "scientific history",
+    "clean successors",
+    "claim-specific identification",
+    "opposed-extreme non-identification"
+  ],
+  "license": "Apache-2.0",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/Wangziqi0/MaoField",
+      "relation": "isVersionOf",
+      "scheme": "url"
+    }
+  ],
+  "version": "R3.0",
+  "notes": "Draft metadata only. The repository is private and no Zenodo record, DOI, preprint or journal submission is created in this stage. Publish the software and source-data deposits separately only after explicit authorization. The source-data deposit uses CC BY 4.0. Exclude credentials, private keys, restricted provider content and hidden-answer material."
+}
+

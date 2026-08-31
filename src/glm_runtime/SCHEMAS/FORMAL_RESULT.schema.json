@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": true,
+  "properties": {
+    "automatic_next_round": {
+      "const": false
+    }
+  },
+  "required": [
+    "schema",
+    "main96",
+    "sealed32",
+    "ordinary_criterion",
+    "structure_criterion",
+    "siblings",
+    "claims",
+    "terminal_label",
+    "statistics",
+    "automatic_next_round"
+  ],
+  "type": "object"
+}

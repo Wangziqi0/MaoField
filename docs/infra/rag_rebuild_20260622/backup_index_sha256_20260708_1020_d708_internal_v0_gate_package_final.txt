@@ -1,2 +1,0 @@
-26d3e78f94fe3a274a747abfbd7ec02eac11f7689d30e681272dd950a9385efe  /media/amd/raid1/rag/index/kb.faiss.bak_pre_node22_20260708_1020_d708_internal_v0_gate_package_final
-52ebb5689609ab68c899fa08f9516b0a9d58cfd3dd6e50017f7c2f695205ad39  /media/amd/raid1/rag/index/kb_meta.jsonl.bak_pre_node22_20260708_1020_d708_internal_v0_gate_package_final

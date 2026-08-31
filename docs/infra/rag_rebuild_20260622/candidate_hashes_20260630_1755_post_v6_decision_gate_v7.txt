@@ -1,2 +1,0 @@
-96c96e10467ead244ba8c4a57f3a0083356d91f81fcd3f369cde9860e97b331a  /home/amd/codex-node36/tmp/orderdefect_post_v6_decision_gate_v7_20260630_1755/rag/index_final2/kb.faiss
-70460217fe278450417dc2ccbb041cf1b27b6f0559b212b6b22e8cc72f7d4430  /home/amd/codex-node36/tmp/orderdefect_post_v6_decision_gate_v7_20260630_1755/rag/index_final2/kb_meta.jsonl

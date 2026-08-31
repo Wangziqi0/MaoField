@@ -1,8 +1,0 @@
-SHA256 的 C:\Users\amd\Desktop\MaoField_PRO_OrderDefect_MetadataLabelPatch_V6_FINAL_20260630_1640.zip 哈希:
-55fd7b8046527606daf12c0a2d0c317d4db60bdb47e80c2b85c029e45cbc7bcf
-CertUtil: -hashfile 命令成功完成。
-SHA256 的 C:\Users\amd\Desktop\GPT55_PRO_ORDER_DEFECT_METADATA_LABEL_PATCH_V6_PROMPT_20260630.md 哈希:
-c0200edbd003d12548509e25a109cefa4d3969777d5e3f4451824c772008645a
-CertUtil: -hashfile 命令成功完成。
-ZIP_BYTES=247990
-PROMPT_BYTES=7797

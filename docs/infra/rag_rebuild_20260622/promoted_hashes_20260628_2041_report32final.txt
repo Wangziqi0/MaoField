@@ -1,3 +1,0 @@
-bd818e75d0efc472859c909edb96a2067b2422c7c1742f5dab01752ba8f61adb  /media/amd/raid1/rag/index/kb.faiss
-59317e5d6b307a1e03e28959bff6bae154fb10a35d9e08b73eac7bb5cef34279  /media/amd/raid1/rag/index/kb_meta.jsonl
-ac92587a456c15708d974aa1afdd811450954e99ba6b6b922235acda2419e073  /media/amd/raid1/canonical/projects/MaoField/docs/infra/rag_rebuild_20260622/canonical_scope_active_20260628_2041_report32final.txt

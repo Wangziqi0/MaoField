@@ -1,4 +1,0 @@
-D707 quantitative OI norm v1.6 671/451584
-principal-angle canonical-correlation formula OI op N add max rho sqrt
-exact quantitative OI norm support product control ratio 121/28
-D707_QUANTITATIVE_OI_NORM_V16_IMPLEMENTED_AND_RAG_SYNCED

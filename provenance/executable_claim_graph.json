@@ -1,0 +1,129 @@
+{
+  "schema": "maofield.executable_claim_graph.v1",
+  "release": "R3.0",
+  "automatic_next_round": false,
+  "science_changed": false,
+  "nodes": [
+    {
+      "id": "P0_RPESK",
+      "role": "scientific_history_ontology",
+      "status": "PARTIAL"
+    },
+    {
+      "id": "C_FLAT",
+      "role": "prespecified_evaluator_visible_current_content",
+      "status": "FROZEN_DESIGN"
+    },
+    {
+      "id": "PSI_D_I",
+      "role": "system_side_future_intervention_sufficiency",
+      "status": "IDENTIFICATION_TARGET"
+    },
+    {
+      "id": "CLEAN_SUCCESSOR",
+      "role": "causal_protocol",
+      "status": "IMPLEMENTED"
+    },
+    {
+      "id": "P1_P5",
+      "role": "direct_behavior_and_nonclosure",
+      "status": "NOT_SUPPORTED_OR_NOT_ESTABLISHED"
+    },
+    {
+      "id": "A_SIB_M_R",
+      "role": "independent_action_structure_channels",
+      "status": "NOT_IDENTIFIED"
+    },
+    {
+      "id": "P2_P3_P4",
+      "role": "dissociation_and_high_gate",
+      "status": "NOT_IDENTIFIED_OR_NOT_ESTABLISHED"
+    },
+    {
+      "id": "K_D_I_K",
+      "role": "evaluator_side_identifiability",
+      "status": "CLAIM_SPECIFIC"
+    },
+    {
+      "id": "MB1",
+      "role": "opposed_extreme_nonidentification",
+      "status": "SUPPORTED_FINITE_PROTOCOL"
+    },
+    {
+      "id": "MB2",
+      "role": "nontransferable_calibration",
+      "status": "SUPPORTED"
+    },
+    {
+      "id": "OPEN_REPRO",
+      "role": "executable_reasoning_chain",
+      "status": "READY_WITH_AUTHOR_INPUT"
+    }
+  ],
+  "edges": [
+    [
+      "P0_RPESK",
+      "C_FLAT"
+    ],
+    [
+      "C_FLAT",
+      "PSI_D_I"
+    ],
+    [
+      "PSI_D_I",
+      "CLEAN_SUCCESSOR"
+    ],
+    [
+      "CLEAN_SUCCESSOR",
+      "P1_P5"
+    ],
+    [
+      "CLEAN_SUCCESSOR",
+      "A_SIB_M_R"
+    ],
+    [
+      "A_SIB_M_R",
+      "P2_P3_P4"
+    ],
+    [
+      "PSI_D_I",
+      "K_D_I_K"
+    ],
+    [
+      "K_D_I_K",
+      "P1_P5"
+    ],
+    [
+      "K_D_I_K",
+      "P2_P3_P4"
+    ],
+    [
+      "P1_P5",
+      "MB1"
+    ],
+    [
+      "P2_P3_P4",
+      "MB1"
+    ],
+    [
+      "K_D_I_K",
+      "MB2"
+    ],
+    [
+      "MB1",
+      "OPEN_REPRO"
+    ],
+    [
+      "MB2",
+      "OPEN_REPRO"
+    ]
+  ],
+  "claims_not_made": [
+    "universal_HFI",
+    "universal_no_HFI",
+    "proved_action_structure_dissociation",
+    "Transformer_defect",
+    "AGI_theorem",
+    "future_response_divergence_observed"
+  ]
+}

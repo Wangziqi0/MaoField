@@ -1,0 +1,125 @@
+{
+  "action_sibling": "independent clean successor; environment fixes informative probe and objective observation; model selects one action; executable tests determine result",
+  "arms": {
+    "CO": "same current conclusion and load with no historical relation",
+    "DN": "complete correct R-P-E-S-K chain",
+    "N0": "matched load with no historical relation/current historical conclusion",
+    "UF": "same typed atoms with degree-preserving target-edge derangement",
+    "X": "complete chain grounded to coherent decoy object/source"
+  },
+  "behavior_turns": [
+    "run_probe",
+    "apply_patch",
+    "run_visible_tests",
+    "apply_patch_or_inspect_diff",
+    "run_visible_tests",
+    "submit"
+  ],
+  "cells": {
+    "C": "old falsification remains in scope",
+    "R0": "reopening boundary not crossed",
+    "R1": "boundary crossed and historical target is selectively reopened",
+    "S": "history-insensitive neutral objective"
+  },
+  "common_future_invariant": [
+    "future repository",
+    "probe catalogue",
+    "action catalogue",
+    "observation law",
+    "visible tests",
+    "sealed executable hidden tests",
+    "resource budget",
+    "objective scorer A/B",
+    "renderer grammar"
+  ],
+  "families": [
+    {
+      "id": "PYTHON_API_SIGNATURE",
+      "stratum": "MAIN96",
+      "superblocks": 24
+    },
+    {
+      "id": "SQLITE_SCHEMA",
+      "stratum": "MAIN96",
+      "superblocks": 24
+    },
+    {
+      "id": "DATA_SCHEMA_TRANSFORM",
+      "stratum": "MAIN96",
+      "superblocks": 24
+    },
+    {
+      "id": "RUNTIME_CONFIGURATION",
+      "stratum": "MAIN96",
+      "superblocks": 24
+    },
+    {
+      "id": "DEPENDENCY_API_VERSION",
+      "stratum": "SEALED32",
+      "superblocks": 4
+    },
+    {
+      "id": "HTTP_PROTOCOL",
+      "stratum": "SEALED32",
+      "superblocks": 4
+    },
+    {
+      "id": "TRANSACTION_CONCURRENCY",
+      "stratum": "SEALED32",
+      "superblocks": 4
+    },
+    {
+      "id": "SERIALIZATION_MIGRATION",
+      "stratum": "SEALED32",
+      "superblocks": 4
+    },
+    {
+      "id": "PACKAGE_RESOLUTION",
+      "stratum": "SEALED32",
+      "superblocks": 4
+    },
+    {
+      "id": "SCHEMA_EVOLUTION",
+      "stratum": "SEALED32",
+      "superblocks": 4
+    },
+    {
+      "id": "TOOL_AFFORDANCE_CHANGE",
+      "stratum": "SEALED32",
+      "superblocks": 4
+    },
+    {
+      "id": "COST_RESOURCE_REGIME",
+      "stratum": "SEALED32",
+      "superblocks": 4
+    }
+  ],
+  "ordinary_control": "no-history six-turn world on identical tool/scorer substrate",
+  "phase23_world_reuse": false,
+  "production_world_generation": "forbidden before future exact PI adoption",
+  "schema": "maofield.glm53.world_history_action.v2",
+  "source_practice": {
+    "historical_route": "LEGACY",
+    "must_execute_family-specific decisive tests": true,
+    "receipt": [
+      "command",
+      "stdout",
+      "stderr",
+      "exit_code",
+      "terminal_tree_sha256",
+      "test results",
+      "scope",
+      "reopening condition"
+    ]
+  },
+  "structure": "independent sibling and scorer namespace; no behavior-successor reuse",
+  "tools": [
+    "list_files",
+    "read_file",
+    "run_probe",
+    "apply_patch",
+    "run_visible_tests",
+    "inspect_diff",
+    "submit"
+  ]
+}

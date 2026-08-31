@@ -1,8 +1,0 @@
-seed 101: alpha1 first
-seed 102: alpha1 first
-seed 103: alpha0 first
-seed 104: alpha0 first
-seed 105: alpha0 first
-seed 106: alpha1 first
-
-generated: balanced 3+3, random.seed(20260610) shuffle, 2026-06-11

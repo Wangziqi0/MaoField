@@ -1,2 +1,0 @@
-038864c76619112b76f1a4c70f734d3b8c0fba3d8bbb08e818de6c7bd2f14ae9  /home/amd/codex-node36/tmp/rag_20260704_1655_formal_preprint_node19_delivery/candidate_index/kb.faiss
-66ca5c75617bb6bdc9b282385253cec79950af3a33347172bb5fb1138de80d83  /home/amd/codex-node36/tmp/rag_20260704_1655_formal_preprint_node19_delivery/candidate_index/kb_meta.jsonl

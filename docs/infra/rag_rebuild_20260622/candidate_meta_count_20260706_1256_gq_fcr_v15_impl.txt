@@ -1,1 +1,0 @@
-9871 /home/amd/codex-node36/tmp/rag_20260706_1256_gq_fcr_v15_impl/candidate_index/kb_meta.jsonl

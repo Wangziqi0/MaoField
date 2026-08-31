@@ -1,1 +1,0 @@
-67 /media/amd/raid1/canonical/projects/MaoField/docs/infra/package_outputs/d708_internal_v0_gate_repair_20260708_1130/MANIFEST_D708_INTERNAL_V0_GATE_REPAIR_20260708.txt

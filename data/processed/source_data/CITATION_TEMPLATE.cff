@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use these data, cite the associated preprint or published Article and the final dataset DOI when available."
+title: "Source data for Opposed statistical extremes expose an identification boundary in causal tests of AI scientific agents"
+type: dataset
+authors:
+  - family-names: Chen
+    given-names: Yifan
+    orcid: "https://orcid.org/0009-0008-8344-1149"
+version: "R4.0-candidate"
+license: "CC-BY-4.0"
+

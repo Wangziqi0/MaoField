@@ -1,6 +1,0 @@
-tag=20260707_0931_oi_quantitative_v16_impl
-files=664
-chunks=12800
-formal_note_v16_in_scope=1
-exact_md_v16_in_scope=1
-rag_record_in_scope=1

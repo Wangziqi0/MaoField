@@ -1,0 +1,78 @@
+{
+  "count": 12,
+  "mutations": [
+    {
+      "expected": "MODEL_FACING_PRIVATE_FIELD_LEAK",
+      "id": "M01",
+      "mutation": "inject arm/cell into public bytes",
+      "target": "renderer"
+    },
+    {
+      "expected": "DOMAIN_SEPARATION_REJECT",
+      "id": "M02",
+      "mutation": "reuse MAIN96 key for SEALED32",
+      "target": "assignment"
+    },
+    {
+      "expected": "SIBLING_PAIRING_REJECT",
+      "id": "M03",
+      "mutation": "independent A_SIB/R permutation",
+      "target": "assignment"
+    },
+    {
+      "expected": "SOURCE_PRACTICE_DID_NOT_FALSIFY_LEGACY",
+      "id": "M04",
+      "mutation": "source LEGACY does not fail",
+      "target": "world"
+    },
+    {
+      "expected": "U_LT_1",
+      "id": "M05",
+      "mutation": "write route label without patch bytes",
+      "target": "scorer"
+    },
+    {
+      "expected": "ORDERED_O_0",
+      "id": "M06",
+      "mutation": "correct probe/action flags in wrong order",
+      "target": "O"
+    },
+    {
+      "expected": "P2_P3_ENDPOINT_ROUTE_REJECT",
+      "id": "M07",
+      "mutation": "replace A_SIB with A_FT",
+      "target": "P2/P3"
+    },
+    {
+      "expected": "SEALED32_BEFORE_MAIN96_FREEZE",
+      "id": "M08",
+      "mutation": "read SEALED32 before MAIN96 freeze",
+      "target": "sealed"
+    },
+    {
+      "expected": "PROVIDER_CALL_NOT_AUTHORIZED_BUILD_ONLY",
+      "id": "M09",
+      "mutation": "call provider in build-only",
+      "target": "provider"
+    },
+    {
+      "expected": "IUT_NO_COMPENSATION_REJECT",
+      "id": "M10",
+      "mutation": "replace IUT with average score",
+      "target": "analysis"
+    },
+    {
+      "expected": "NONBLOCKING_BOUNDARY_REJECT",
+      "id": "M11",
+      "mutation": "make structure criterion gate Direct collection",
+      "target": "structure"
+    },
+    {
+      "expected": "AUTOMATIC_NEXT_ROUND_REJECT",
+      "id": "M12",
+      "mutation": "set automatic_next_round true",
+      "target": "return"
+    }
+  ],
+  "schema": "maofield.glm53.disconnection_mutation_registry.v2"
+}

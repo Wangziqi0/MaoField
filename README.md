@@ -1,185 +1,82 @@
-# MaoField
+# MaoField: scientific history, current equivalence and future intervention
 
-> *A Dialectical-Materialist Framework for Non-Statistical Semantic Representation*
+This repository is the private submission and reproducibility staging candidate for the Article **“Opposed statistical extremes expose an identification boundary in causal tests of AI scientific agents.”** It is not yet a public release and has no software or data DOI.
 
-## Current Research Status (2026-06-24)
+## The scientific object
 
-This README is the historical public-release anchor for MaoField v0.1.0. The
-current internal research state has since been deflated by later audits and
-negative-result experiments.
+MaoField does not treat history as a fact list, token trace or present conclusion. Its minimum scientific-history carrier is a practice-grounded relation:
 
-Use [`STATE.md`](STATE.md) as the live project truth source. Current standing:
-MaoField is best treated as a negative-centered empirical pilot and
-measurement-audit case. It has **not** broken the glass box, has **not** run a
-full q4/token-position panel, has **not** observed a residual / interaction /
-transport / holonomy field, and has **not** authorized training or a new loss.
+```text
+rejected route R
+↔ decisive practice P
+↔ external evidence E
+↔ scope S
+↔ reopening condition K
+```
 
-The active mathematical direction is now separated from MaoField's empirical
-claims: a debranded finite weighted residual transport / holonomy / no-go
-project. See
-[`DEBRANDED_RESIDUAL_TRANSPORT_CORE_DESCRIPTION_20260624.md`](docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_CORE_DESCRIPTION_20260624.md)
-and
-[`DEBRANDED_RESIDUAL_TRANSPORT_STATUS_20260624.md`](docs/infra/DEBRANDED_RESIDUAL_TRANSPORT_STATUS_20260624.md).
+The study asks whether histories that are equal under a **prespecified evaluator-visible current-content map** nevertheless generate different future responses in fresh, clean successors.
 
-[![DOI](https://zenodo.org/badge/1209133162.svg)](https://doi.org/10.5281/zenodo.19550341)
-[![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
-[![Status: v0.1.0](https://img.shields.io/badge/status-v0.1.0_initial_release-orange)](paper/)
-[![ORCID](https://img.shields.io/badge/ORCID-0009--0008--8344--1149-a6ce39)](https://orcid.org/0009-0008-8344-1149)
+## Identification chain
 
-## What is this?
+```text
+P0 practice-grounded history
+→ RPESK carrier
+→ C_flat current-content coarse-graining
+→ future response law Ψ_h(i)
+→ system-side defect D_I(C)
+→ clean-successor randomized experiment
+→ Direct P1/P5
+→ independent A_SIB and M_R channels
+→ P2/P3/P4
+→ evaluator kernel K_i
+→ evaluator-visible defect D_I^K(C)
+→ claim-specific separation and claim ceiling
+```
 
-Current AI systems for semantic understanding rest on statistical pattern matching—an epistemologically functionalist paradigm that struggles with reflection of objective reality, internal contradiction, qualitative emergence, and self-correction. **MaoField** is a computational framework grounded in **dialectical materialism** and realized through partial differential equations describing semantic field evolution.
+Measurement is the epistemic bridge from observed statistics to system-side facts; it is not the entire theory of scientific history. See `docs/EXECUTABLE_CLAIM_GRAPH.md` and `provenance/executable_claim_graph.json`.
 
-This repository contains:
+## Three contributions
 
-- **Philosophical foundation**: seven axioms of dialectical-materialist computation, formalized via category-theoretic adjunctions (Lawvere 1970)
-- **Mathematical framework**: coupled Allen-Cahn and complex Ginzburg-Landau dynamics
-- **Experimental evidence**: 5 BEIR benchmarks + mechanism diagnosis + attractor-capacity analysis
-- **Full reproducibility**: Rust + Python pipeline with seeded experiments
+1. **Formal identification principle.** Evaluator-visible current equivalence does not establish future intervention equivalence without claim-relevant separation.
+2. **Empirical phenomenon.** Phase 23 produced exact treatment invariance and a near-saturated channel gap, each recurring in held-out worlds, while frozen calibration placed both in the same non-identification class. Replication stabilized the statistics, not their scientific meaning.
+3. **Reusable causal architecture.** Five randomized history arms, four future cells, common worlds and scorers, independent clean successors, sealed replication, typed failures and a non-compensatory result tree provide a reusable test of practice-grounded scientific history.
 
-## Key findings (v0.1.0)
+A disjoint GLM provider branch passed ordinary behavioural controls but established neither a complete history-inheritance signature, a bounded null nor valid structural dissociation. It shows that an evaluator can be operationally competent yet scientifically non-separating for another claim family.
 
-| Finding | Evidence | Status |
-|---|---|---|
-| PDE field evolution extracts semantic signal from raw byte sources | +48–172% nDCG@10 over byte-cosine baseline on 5 BEIR datasets (top-20 reranking) | validated |
-| Double-well Ginzburg-Landau potential admits only k*≈2 stable attractors | 3 representations × 2 source types all agree | validated |
-| k*=2 emerges via two distinct symmetry-breaking regimes | Z₁ phase collapse (sparse byte sources) vs Z₂ amplitude bistability (dense learned embeddings) | diagnosed |
-| Multi-well potential definition alone does not populate new basins | Stage A1: V=|ψ|²(|ψ|²−1)²(|ψ|²−4)² yields 99.15% occupancy at \|ψ\|≈1, 0.00% at \|ψ\|≈2 | confirmed |
-| Gradient-flow descent cannot realize full dialectical motion | Barrier height 13.2 ≫ initial kinetic energy 1 | Open Problem 2 anchor |
-| MaoField vs SOTA cross-encoder (BGE) | average −23pp gap; explained by k*=2 capacity bound | honest limit |
+The repository does **not** claim universal HFI, a proved action–structure dissociation, a Transformer defect, a universal benchmark collapse or actual future-response divergence.
 
-## Why dialectical materialism?
-
-Dialectical materialism—developed through Marx, Engels, Lenin, and Mao—offers a systematic treatment of phenomena that statistical AI struggles with:
-
-- **Reflection theory** (Lenin): cognition as structured correspondence with objective reality, not opaque function approximation
-- **Contradiction theory** (Mao): internal contradiction as the motive force of intellectual development
-- **Quantity-to-quality** (Engels): qualitative shifts through quantitative accumulation—phase transitions, not smooth interpolation
-- **Practice–cognition spiral** (Mao): knowledge deepens through iterated practice; no clean learning/inference separation
-- **Negation of negation**: self-correction as a structural phase, not an external patch
-
-Despite this systematic treatment of exactly the issues challenging statistical AI, dialectical materialism has not been seriously engineered as a computational framework. Lawvere (1970) established adjoint functors as a precise mathematical formalization of the unity of opposites—providing a bridge that has remained, for half a century, largely untraversed.
-
-MaoField is an attempt to traverse it.
-
-## Quick start
-
-> Note: paper PDF and reproduction scripts are being finalized for v0.1.0 release.
-> This repository currently hosts the research framework and foundational artifacts.
+## Offline reproduction
 
 ```bash
-git clone https://github.com/Wangziqi0/MaoField.git
-cd MaoField
-
-# Once scripts/ is populated:
-./scripts/setup.sh
-./scripts/reproduce_exp017.sh
+python -m venv .venv
+. .venv/bin/activate
+pip install -r environment/requirements.txt
+bash scripts/reproduce_offline.sh
 ```
 
-Reproduction output will appear in `experiments/exp017_dialectics/results/`.
+This path uses frozen processed results and source-data tables. It makes **zero model or provider calls** and rebuilds the public statistical checks and figures. The generated receipt verifies the executable claim chain from released inputs to display items and final proposition states.
 
-## Paper
+## Evidence tiers
 
-The complete position paper is maintained at [`paper/maofield_v1.pdf`](paper/).
+- **Future public tier:** this repository's source, processed source data, display figures, manifests and no-provider offline workflow.
+- **Reviewer-only tier:** auditable raw endpoint ledgers, assignments, permitted provider records and execution lineage under controlled access; these files are not stored in this repository.
+- **Permanently private tier:** credentials, private/decryption keys, provider-restricted content and reusable hidden-answer material.
 
-Structure:
+Controlled-access requests are governed by `docs/CONTROLLED_ACCESS_POLICY.md` and are answered within 14 business days. No unrestricted hidden answers or secrets are supplied.
 
-- §1 — Epistemological limits of statistical learning
-- §2 — Seven axioms + categorical formalization (adjunction → monad → T-algebra = synthesis)
-- §3 — Mathematical framework (Allen-Cahn + Ginzburg-Landau + coupling)
-- §4 — Experimental evidence (Blocks I–IV.5, mechanism diagnosis)
-- §5 — Research roadmap (symmetry group design, non-equilibrium extensions, multi-step adjoint reasoning, source-field reconstruction)
-- §6 — Limitations, open problems, call for collaboration
+## Staging and identifiers
 
-## Status
+- Repository: <https://github.com/Wangziqi0/MaoField> (private staging; public release not yet authorized)
+- Zenodo software DOI: not created in this stage
+- Zenodo data DOI: not created in this stage
+- Preprint identifier: not created in this stage
+- Journal submission identifier: not created in this stage
 
-**v0.1.0 — initial public release establishing the project anchor**.
+## Licences
 
-This release publishes:
-- The research framework (philosophy, mathematics, roadmap)
-- Citation anchor (Zenodo DOI + ORCID)
-- Repository structure for all artifacts
+- Code: Apache License 2.0.
+- Original data, documentation, manuscript text and figures: Creative Commons Attribution 4.0 International.
+- Restricted provider records and hidden-answer material are excluded and receive no public licence.
 
-The full position paper PDF and complete reproducibility pipeline are being
-finalized and will appear in a subsequent release (target: v0.1.1, 2026-04-20).
+See `LICENSE`, `LICENSES/`, `QUICKSTART.md`, `REPRODUCIBILITY.md`, `docs/RELEASE_MATRIX.md` and `docs/PREPRINT_AND_SUBMISSION_SEQUENCE.md`.
 
-Current status of research findings (detailed in forthcoming paper):
-
-- **What works**: PDE dynamics demonstrably extract semantic signal from raw material sources without training
-- **What doesn't**: naive multi-well extensions are insufficient; gradient flow alone cannot realize the ascending phase of dialectical motion
-- **What's open**: non-equilibrium dynamics for dialectical ascent (Open Problem 2); strict mathematical formalization of Axiom 6 (matching-as-self-training) (Open Problem 1)
-
-We explicitly do **not** claim MaoField supersedes existing state-of-the-art retrievers—it does not. The honest reporting of mechanism and limits is itself a core contribution.
-
-## Roadmap
-
-- [ ] **Block V**: symmetry group design (Z_n / U(1) / non-Abelian)
-- [ ] **Non-equilibrium extensions** (Langevin / Hamiltonian / active driving) — Open Problem 2
-- [ ] **A-jump**: multi-step adjoint iteration → reasoning
-- [ ] **C-jump**: source-field reconstruction (Clifford algebras / graph PDEs)
-- [ ] **Manifold-aware evaluation**: persistent homology / TDA for continuous attractor manifolds
-- [ ] **Axiom 6 formalization**: M2 fixed-point iteration → Banach contraction proof (Open Problem 1)
-
-## Collaboration
-
-This work is explicitly a **direction-setting proposal** and **invites cross-disciplinary collaboration**.
-
-If you work in any of the following and see connection points, please reach out:
-
-- PDE theory (bifurcation, non-equilibrium dynamics, Ginzburg-Landau extensions)
-- Category theory (monads, Kleisli categories, higher-categorical generalizations)
-- Information retrieval (dense retrieval, reranking, compositional generalization)
-- AI alignment (mechanistic interpretability, non-statistical methods)
-- Philosophy of AI (epistemology, dialectics, computational epistemology)
-
-Ways to engage:
-- Open an Issue with technical or philosophical questions
-- Fork and propose via Pull Request (see `docs/CONTRIBUTING.md`)
-- Cite in related work (format below)
-
-## Citation
-
-If you use MaoField or build upon its ideas in academic work:
-
-```bibtex
-@software{chen2026maofield,
-  author       = {Chen, Yifan},
-  title        = {MaoField: A Dialectical-Materialist Framework for Non-Statistical Semantic Representation},
-  year         = 2026,
-  publisher    = {Zenodo},
-  version      = {v0.1.0},
-  doi          = {10.5281/zenodo.19550341},
-  url          = {https://doi.org/10.5281/zenodo.19550341},
-  orcid        = {0009-0008-8344-1149}
-}
-```
-
-**Note on DOIs**:
-- Concept DOI: [`10.5281/zenodo.19550341`](https://doi.org/10.5281/zenodo.19550341) — use this for general academic citation (always points to the latest version)
-- Version DOI: [`10.5281/zenodo.19550342`](https://doi.org/10.5281/zenodo.19550342) — use this when reproducibility to this exact release (v0.1.0) matters
-
-Structured citation metadata is available in [CITATION.cff](CITATION.cff) — supported by GitHub, Zenodo, Zotero, and many reference managers.
-
-## License
-
-Apache License 2.0 — see [LICENSE](LICENSE).
-
-You are free to use, modify, and distribute this work, including for commercial purposes, provided the conditions of the Apache 2.0 license are met. A patent-grant clause protects contributors and users.
-
-## Acknowledgments
-
-This work was developed with substantial assistance from AI research collaborators (Anthropic's Claude Opus 4.6, deployed across distinct instances for experimental execution, mathematical verification, and philosophical drafting). All strategic decisions, core physical intuitions (such as *"dialectical fusion should emerge from motion rather than be externally imposed"*), philosophical framing, and final judgments are the author's.
-
-The seven axioms of dialectical-materialist computation were formulated by the author and are not derived from existing literature.
-
-This work stands in the tradition of thinkers who argued that the forms of thought develop through their confrontation with material practice—Marx, Engels, Lenin, Mao—and extends their methodology into a domain they could not have anticipated.
-
----
-
-*"The philosophers have only interpreted the world; the point is to change it."*
-— Marx, *Theses on Feuerbach*, XI
-
-*"Practice is the sole criterion for testing truth."*
-— Mao, *On Practice*
-
-*In this work, we attempt to subject a philosophy to the criterion it itself proposes.*

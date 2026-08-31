@@ -1,2 +1,0 @@
-a406673e9bb7fa7b0f62f83ef1b7459099b45acff0251cbbaf9e6c7a0e2ed154  /home/amd/codex-node36/tmp/rag_20260706_1358_report29_gq_fcr_separate_note/index/kb.faiss
-6d303e0613771ed19b641c99f36287ebb78b3ada64b1bc6d9262cb427e643d03  /home/amd/codex-node36/tmp/rag_20260706_1358_report29_gq_fcr_separate_note/index/kb_meta.jsonl

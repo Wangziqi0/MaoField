@@ -1,5 +1,0 @@
-D707_REPORT35_36_SPLIT_LOOP_PROMPTS_PREPARED_AND_RAG_SYNCED PATCH_DEFINITIONS_THEN_RECHECK
-MaoField Report35 Report36 PATCH_DEFINITIONS_THEN_RECHECK path closure split loop
-MaoField Loop 0 Loop 3 Loop 4 Session 4 READY_FOR_MAIN_PRO_AND_SUBPRO_A_E_REVIEW
-metric-object identity unlicensed declared transport path-closure hold proof-by-JSON NMI-ready dynamic-collapse forbidden
-Identity is not naming identity is path closure under declared material relations

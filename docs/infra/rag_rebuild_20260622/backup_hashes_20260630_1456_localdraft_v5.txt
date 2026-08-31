@@ -1,2 +1,0 @@
-ee1f1442d3512092d8398d9586210e5ac68455e6d1e7ba36e426a14c2bbd4e49  /media/amd/raid1/rag/index/backups/pre_localdraft_v5_20260630_1456/kb.faiss.bak
-447a7290756649d9b2514703f79fb28555c162237d9a281e37c1595450a41f0a  /media/amd/raid1/rag/index/backups/pre_localdraft_v5_20260630_1456/kb_meta.jsonl.bak

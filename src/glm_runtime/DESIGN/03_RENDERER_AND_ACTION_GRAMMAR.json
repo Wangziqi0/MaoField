@@ -1,0 +1,54 @@
+{
+  "canonical_json": "UTF-8 sorted compact JSON plus LF",
+  "malformed_taxonomy": [
+    "NO_HTTP_RESPONSE",
+    "HTTP_ERROR",
+    "INVALID_PROVIDER_JSON",
+    "NO_CHOICE",
+    "NON_STRING_CONTENT",
+    "NON_JSON_CONTENT",
+    "SCHEMA_VIOLATION",
+    "TOOL_NOT_ALLOWED_THIS_TURN",
+    "ARGUMENT_SCHEMA_VIOLATION",
+    "ACTION_NOT_IN_CATALOGUE",
+    "TERMINAL_SUBMIT_INVALID"
+  ],
+  "max_output_tokens": 256,
+  "maximum_canonical_message_bytes": 32768,
+  "model_facing_forbidden": [
+    "arm",
+    "cell",
+    "expected action",
+    "expected probe",
+    "hidden truth",
+    "private assignment",
+    "scorer output"
+  ],
+  "protocol": "MAOFIELD-GLM53/2",
+  "provider": {
+    "base_url": "https://api.z.ai/api/paas/v4",
+    "model": "glm-5.3-flash",
+    "path": "/chat/completions",
+    "reasoning_effort": "max",
+    "stream": false,
+    "temperature": 1.0,
+    "thinking": {
+      "clear_thinking": false,
+      "type": "enabled"
+    },
+    "top_p": 0.95
+  },
+  "provider_calls_authorized": 0,
+  "response": {
+    "additional_keys": "FORBIDDEN",
+    "exact_top_level_keys": [
+      "protocol",
+      "tool",
+      "arguments"
+    ],
+    "markdown": "FORBIDDEN",
+    "protocol": "MAOFIELD_TOOL/1"
+  },
+  "schema": "maofield.glm53.renderer_action_grammar.v2",
+  "truncation": "FORBIDDEN"
+}

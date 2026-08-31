@@ -1,2 +1,0 @@
-e396d48383695dbaf7b6e07a5d0c2ceb497680c6e299672a83772cfffc265638  /home/amd/codex-node36/tmp/orderdefect_metadata_label_patch_v6_20260630_1640_rag/index/kb.faiss
-c3ab1981b809887aa0d339d2c3ab7478daba2adc5c21aaf1cfb0b3c7ad0501e9  /home/amd/codex-node36/tmp/orderdefect_metadata_label_patch_v6_20260630_1640_rag/index/kb_meta.jsonl

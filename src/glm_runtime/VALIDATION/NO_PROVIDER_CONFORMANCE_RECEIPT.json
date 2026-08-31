@@ -1,0 +1,14 @@
+{
+  "automatic_next_round": false,
+  "executed_family_cell_worlds": 48,
+  "failures": [],
+  "families": 12,
+  "heldout_consumed": 0,
+  "independent_scorer_pairs": 48,
+  "production_roots": 0,
+  "provider_calls": 0,
+  "rendered_arm_cell_messages": 240,
+  "schedule_rows": 18156,
+  "schema": "maofield.glm53.no_provider_conformance.v2",
+  "status": "PASS"
+}

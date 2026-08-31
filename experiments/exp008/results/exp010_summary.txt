@@ -1,8 +1,0 @@
-Exp010: Continuous S Update
-
-A_fixed: mean=50% runs=[30%, 60%, 60%]
-B_m2_discrete: mean=50% runs=[40%, 50%, 60%]
-C1_cont_u: mean=33% runs=[20%, 40%, 40%]
-C2_cont_tanh: mean=30% runs=[20%, 30%, 40%]
-
-Time: 52.1s

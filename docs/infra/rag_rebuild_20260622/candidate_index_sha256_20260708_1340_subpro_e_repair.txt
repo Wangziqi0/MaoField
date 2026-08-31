@@ -1,2 +1,0 @@
-995c5a8db129d69e365af8047d04c24103113579bc2473aa08d47d4d1a855f65  /home/amd/codex-node36/tmp/rag_20260708_1340_subpro_e_repair/candidate_index/kb.faiss
-ea8ce9530e985694b122ad74688536a3d4a76f43179e38b2bb0320814eb8a57a  /home/amd/codex-node36/tmp/rag_20260708_1340_subpro_e_repair/candidate_index/kb_meta.jsonl

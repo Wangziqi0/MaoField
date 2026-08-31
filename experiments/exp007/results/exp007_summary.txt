@@ -1,8 +1,0 @@
-Exp007: Dynamic Source Field Update (Rust)
-
-A (Fixed): 40% avg_Δ=0.1%
-B1 (M1: S·(1+u*)): 30% avg_Δ=-0.3%
-B2 (M2: S·u*): 60% avg_Δ=1.7%
-B3 (M3: S+β·u*·S): 30% avg_Δ=-0.9%
-
-Total time: 418s (7.0min)

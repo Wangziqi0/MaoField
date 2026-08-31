@@ -1,4 +1,0 @@
-stop command earlier returned ssh 255 because pkill matched the remote shell after terminating llama-server; post-check below is authoritative.
-2026-07-08 12:53:23 CST
-3634067 bash -lc date +%F\ %T\ %Z; pgrep -af "llama-server.*18080" || true; ss -ltnp 2>/dev/null | grep :18080 || echo not running port=18080
-not running port=18080

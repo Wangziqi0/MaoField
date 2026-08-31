@@ -1,0 +1,15 @@
+display,input_files,generation_command
+Figure 1,conceptual + contracts,python src/figures/build_figure1_v3.py
+Figure 2,contracts + design schemas,python src/figures/build_figures_base.py
+Figure 3,Phase23_Exact_Equality.csv; Phase23_Ordinary_Controls.csv; Phase23_Qwen_Channel_Gap.csv,python src/figures/build_figures_base.py
+Figure 4,GLM_Ordinary_Criteria.csv; GLM_Direct_Contrasts.csv; GLM_Trajectory_Failures.csv,python src/figures/build_figures_base.py
+Figure 5,Figure_5_Identification_Architecture.csv; frozen final result,python src/figures/build_figure5_r1.py
+Extended Data 1,Phase23_Condition_Matrix.csv,python src/figures/build_figures_base.py
+Extended Data 2,GLM_Direct_Contrasts.csv,python src/figures/build_figures_base.py
+Extended Data 3,GLM_Sibling_Contrasts.csv,python src/figures/build_figures_base.py
+Extended Data 4,GLM_Trajectory_Failures.csv,python src/figures/build_figures_base.py
+Extended Data 5,GLM_Resources.csv,python src/figures/build_figures_base.py
+Extended Data 6,GLM lineage receipts,python src/figures/build_figures_base.py
+Extended Data 7,post-hoc R estimand counterexample,python src/figures/build_figures_base.py
+Extended Data 8,frozen result tree,python src/figures/build_figures_base.py
+Table 1,Final_Proposition_Matrix.csv,manuscript build

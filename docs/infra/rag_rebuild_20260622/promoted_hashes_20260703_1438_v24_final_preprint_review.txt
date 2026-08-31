@@ -1,7 +1,0 @@
-promoted_stable:
-0c9f8b18d5f7de0456241698ffee5ddd52ca6ff119eeca8953e0269516ddc9e6  /media/amd/raid1/rag/index/kb.faiss
-dd5a6082711cfd297a9170fa9f89629a66313f5dd75b2ad6421ff376e354c725  /media/amd/raid1/rag/index/kb_meta.jsonl
-6cb617846908d074dc88a14c5d446c94acdcbdff38f5efbc472e02eea41adb04  docs/infra/rag_rebuild_20260622/canonical_scope_active_20260703_1438_v24_final_preprint_review.txt
-   11827 /media/amd/raid1/rag/index/kb_meta.jsonl
-     569 docs/infra/rag_rebuild_20260622/canonical_scope_active_20260703_1438_v24_final_preprint_review.txt
-   12396 total

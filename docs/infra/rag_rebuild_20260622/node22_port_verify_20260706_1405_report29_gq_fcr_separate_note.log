@@ -1,3 +1,0 @@
-2026-07-06 14:05:07 CST
-port_18080_not_listening
-3535922 bash -c date '+%F %T %Z'; if ss -ltnp 2>/dev/null | grep -E ':18080\b'; then echo PORT_18080_LISTENING; else echo port_18080_not_listening; fi; pgrep -af 'llama.*18080|bge-m3|llama-server.*embedding' || true

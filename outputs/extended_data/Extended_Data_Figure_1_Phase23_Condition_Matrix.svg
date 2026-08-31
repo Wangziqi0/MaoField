@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="434.295pt" height="289.82592pt" viewBox="0 0 434.295 289.82592" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-08-30T07:11:59.781018</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 289.82592 
+L 434.295 289.82592 
+L 434.295 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 109.9278 75.590784 
+L 170.0802 75.590784 
+Q 177.8922 75.590784 177.8922 70.268544 
+L 177.8922 50.576256 
+Q 177.8922 45.254016 170.0802 45.254016 
+L 109.9278 45.254016 
+Q 102.1158 45.254016 102.1158 50.576256 
+L 102.1158 70.268544 
+Q 102.1158 75.590784 109.9278 75.590784 
+z
+" clip-path="url(#pcbfefc2e9f)" style="fill: #e8f2f8; stroke: #0072b2; stroke-width: 0.7; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 184.1418 75.590784 
+L 240.3882 75.590784 
+Q 248.2002 75.590784 248.2002 70.268544 
+L 248.2002 50.576256 
+Q 248.2002 45.254016 240.3882 45.254016 
+L 184.1418 45.254016 
+Q 176.3298 45.254016 176.3298 50.576256 
+L 176.3298 70.268544 
+Q 176.3298 75.590784 184.1418 75.590784 
+z
+" clip-path="url(#pcbfefc2e9f)" style="fill: #fbeae5; stroke: #d55e00; stroke-width: 0.7; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 254.4498 75.590784 
+L 318.5082 75.590784 
+Q 326.3202 75.590784 326.3202 70.268544 
+L 326.3202 50.576256 
+Q 326.3202 45.254016 318.5082 45.254016 
+L 254.4498 45.254016 
+Q 246.6378 45.254016 246.6378 50.576256 
+L 246.6378 70.268544 
+Q 246.6378 75.590784 254.4498 75.590784 
+z
+" clip-path="url(#pcbfefc2e9f)" style="fill: #f7eaf2; stroke: #cc79a7; stroke-width: 0.7; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 332.5698 75.590784 
+L 412.2522 75.590784 
+Q 420.0642 75.590784 420.0642 70.268544 
+L 420.0642 50.576256 
+Q 420.0642 45.254016 412.2522 45.254016 
+L 332.5698 45.254016 
+Q 324.7578 45.254016 324.7578 50.576256 
+L 324.7578 70.268544 
+Q 324.7578 75.590784 332.5698 75.590784 
+z
+" clip-path="url(#pcbfefc2e9f)" style="fill: #fff4d8; stroke: #e69f00; stroke-width: 0.7; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 109.9278 108.854784 
+L 170.0802 108.854784 
+Q 177.8922 108.854784 177.8922 103.532544 
+L 177.8922 83.840256 
+Q 177.8922 78.518016 170.0802 78.518016 
+L 109.9278 78.518016 
+Q 102.1158 78.518016 102.1158 83.840256 
+L 102.1158 103.532544 
+Q 102.1158 108.854784 109.9278 108.854784 
+z
+" clip-path="url(#pcbfefc2e9f)" style="fill: #f1f5f9; stroke: #64748b; stroke-width: 0.7; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 184.1418 108.854784 
+L 240.3882 108.854784 
+Q 248.2002 108.854784 248.2002 103.532544 
+L 248.2002 83.840256 
+Q 248.2002 78.518016 240.3882 78.518016 
+L 184.1418 78.518016 
+Q 176.3298 78.518016 176.3298 83.840256 
+L 176.3298 103.532544 
+Q 176.3298 108.854784 184.1418 108.854784 
+z
+" clip-path="url(#pcbfefc2e9f)" style="fill: #fff4d8; stroke: #e69f00; stroke-width: 0.7; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 254.4498 108.854784 
+L 318.5082 108.854784 
+Q 326.3202 108.854784 326.3202 103.532544 
+L 326.3202 83.840256 
+Q 326.3202 78.518016 318.5082 78.518016 
+L 254.4498 78.518016 
+Q 246.6378 78.518016 246.6378 83.840256 
+L 246.6378 103.532544 
+Q 246.6378 108.854784 254.4498 108.854784 
+z
+" clip-path="url(#pcbfefc2e9f)" style="fill: #fff4d8; stroke: #e69f00; stroke-width: 0.7; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 332.5698 108.854784 
+L 412.2522 108.854784 
+Q 420.0642 108.854784 420.0642 103.532544 
+L 420.0642 83.840256 
+Q 420.0642 78.518016 412.2522 78.518016 
+L 332.5698 78.518016 
+Q 324.7578 78.518016 324.7578 83.840256 
+L 324.7578 103.532544 
+Q 324.7578 108.854784 332.5698 108.854784 
+z
+" clip-path="url(#pcbfefc2e9f)" style="fill: #f1f5f9; stroke: #64748b; stroke-width: 0.7; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 109.9278 142.118784 
+L 170.0802 142.118784 
+Q 177.8922 142.118784 177.8922 136.796544 
+L 177.8922 117.104256 
+Q 177.8922 111.782016 170.0802 111.782016 
+L 109.9278 111.782016 
+Q 102.1158 111.782016 102.1158 117.104256 
+L 102.1158 136.796544 
+Q 102.1158 142.118784 109.9278 142.118784 
+z
+" clip-path="url(#pcbfefc2e9f)" style="fill: #e8f2f8; stroke: #0072b2; stroke-width: 0.7; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 184.1418 142.118784 
+L 240.3882 142.118784 
+Q 248.2002 142.118784 248.2002 136.796544 
+L 248.2002 117.104256 
+Q 248.2002 111.782016 240.3882 111.782016 
+L 184.1418 111.782016 
+Q 176.3298 111.782016 176.3298 117.104256 
+L 176.3298 136.796544 
+Q 176.3298 142.118784 184.1418 142.118784 
+z
+" clip-path="url(#pcbfefc2e9f)" style="fill: #fbeae5; stroke: #d55e00; stroke-width: 0.7; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 254.4498 142.118784 
+L 318.5082 142.118784 
+Q 326.3202 142.118784 326.3202 136.796544 
+L 326.3202 117.104256 
+Q 326.3202 111.782016 318.5082 111.782016 
+L 254.4498 111.782016 
+Q 246.6378 111.782016 246.6378 117.104256 
+L 246.6378 136.796544 
+Q 246.6378 142.118784 254.4498 142.118784 
+z
+" clip-path="url(#pcbfefc2e9f)" style="fill: #f7eaf2; stroke: #cc79a7; stroke-width: 0.7; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 332.5698 142.118784 
+L 412.2522 142.118784 
+Q 420.0642 142.118784 420.0642 136.796544 
+L 420.0642 117.104256 
+Q 420.0642 111.782016 412.2522 111.782016 
+L 332.5698 111.782016 
+Q 324.7578 111.782016 324.7578 117.104256 
+L 324.7578 136.796544 
+Q 324.7578 142.118784 332.5698 142.118784 
+z
+" clip-path="url(#pcbfefc2e9f)" style="fill: #fff4d8; stroke: #e69f00; stroke-width: 0.7; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_14">
+    <path d="M 109.9278 175.382784 
+L 170.0802 175.382784 
+Q 177.8922 175.382784 177.8922 170.060544 
+L 177.8922 150.368256 
+Q 177.8922 145.046016 170.0802 145.046016 
+L 109.9278 145.046016 
+Q 102.1158 145.046016 102.1158 150.368256 
+L 102.1158 170.060544 
+Q 102.1158 175.382784 109.9278 175.382784 
+z
+" clip-path="url(#pcbfefc2e9f)" style="fill: #e8f2f8; stroke: #0072b2; stroke-width: 0.7; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_15">
+    <path d="M 184.1418 175.382784 
+L 240.3882 175.382784 
+Q 248.2002 175.382784 248.2002 170.060544 
+L 248.2002 150.368256 
+Q 248.2002 145.046016 240.3882 145.046016 
+L 184.1418 145.046016 
+Q 176.3298 145.046016 176.3298 150.368256 
+L 176.3298 170.060544 
+Q 176.3298 175.382784 184.1418 175.382784 
+z
+" clip-path="url(#pcbfefc2e9f)" style="fill: #fbeae5; stroke: #d55e00; stroke-width: 0.7; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_16">
+    <path d="M 254.4498 175.382784 
+L 318.5082 175.382784 
+Q 326.3202 175.382784 326.3202 170.060544 
+L 326.3202 150.368256 
+Q 326.3202 145.046016 318.5082 145.046016 
+L 254.4498 145.046016 
+Q 246.6378 145.046016 246.6378 150.368256 
+L 246.6378 170.060544 
+Q 246.6378 175.382784 254.4498 175.382784 
+z
+" clip-path="url(#pcbfefc2e9f)" style="fill: #f7eaf2; stroke: #cc79a7; stroke-width: 0.7; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_17">
+    <path d="M 332.5698 175.382784 
+L 412.2522 175.382784 
+Q 420.0642 175.382784 420.0642 170.060544 
+L 420.0642 150.368256 
+Q 420.0642 145.046016 412.2522 145.046016 
+L 332.5698 145.046016 
+Q 324.7578 145.046016 324.7578 150.368256 
+L 324.7578 170.060544 
+Q 324.7578 175.382784 332.5698 175.382784 
+z
+" clip-path="url(#pcbfefc2e9f)" style="fill: #fff4d8; stroke: #e69f00; stroke-width: 0.7; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_18">
+    <path d="M 109.9278 208.646784 
+L 170.0802 208.646784 
+Q 177.8922 208.646784 177.8922 203.324544 
+L 177.8922 183.632256 
+Q 177.8922 178.310016 170.0802 178.310016 
+L 109.9278 178.310016 
+Q 102.1158 178.310016 102.1158 183.632256 
+L 102.1158 203.324544 
+Q 102.1158 208.646784 109.9278 208.646784 
+z
+" clip-path="url(#pcbfefc2e9f)" style="fill: #f1f5f9; stroke: #64748b; stroke-width: 0.7; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_19">
+    <path d="M 184.1418 208.646784 
+L 240.3882 208.646784 
+Q 248.2002 208.646784 248.2002 203.324544 
+L 248.2002 183.632256 
+Q 248.2002 178.310016 240.3882 178.310016 
+L 184.1418 178.310016 
+Q 176.3298 178.310016 176.3298 183.632256 
+L 176.3298 203.324544 
+Q 176.3298 208.646784 184.1418 208.646784 
+z
+" clip-path="url(#pcbfefc2e9f)" style="fill: #fff4d8; stroke: #e69f00; stroke-width: 0.7; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_20">
+    <path d="M 254.4498 208.646784 
+L 318.5082 208.646784 
+Q 326.3202 208.646784 326.3202 203.324544 
+L 326.3202 183.632256 
+Q 326.3202 178.310016 318.5082 178.310016 
+L 254.4498 178.310016 
+Q 246.6378 178.310016 246.6378 183.632256 
+L 246.6378 203.324544 
+Q 246.6378 208.646784 254.4498 208.646784 
+z
+" clip-path="url(#pcbfefc2e9f)" style="fill: #fff4d8; stroke: #e69f00; stroke-width: 0.7; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_21">
+    <path d="M 332.5698 208.646784 
+L 412.2522 208.646784 
+Q 420.0642 208.646784 420.0642 203.324544 
+L 420.0642 183.632256 
+Q 420.0642 178.310016 412.2522 178.310016 
+L 332.5698 178.310016 
+Q 324.7578 178.310016 324.7578 183.632256 
+L 324.7578 203.324544 
+Q 324.7578 208.646784 332.5698 208.646784 
+z
+" clip-path="url(#pcbfefc2e9f)" style="fill: #f1f5f9; stroke: #64748b; stroke-width: 0.7; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_22">
+    <path d="M 109.9278 241.910784 
+L 170.0802 241.910784 
+Q 177.8922 241.910784 177.8922 236.588544 
+L 177.8922 216.896256 
+Q 177.8922 211.574016 170.0802 211.574016 
+L 109.9278 211.574016 
+Q 102.1158 211.574016 102.1158 216.896256 
+L 102.1158 236.588544 
+Q 102.1158 241.910784 109.9278 241.910784 
+z
+" clip-path="url(#pcbfefc2e9f)" style="fill: #f1f5f9; stroke: #64748b; stroke-width: 0.7; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_23">
+    <path d="M 184.1418 241.910784 
+L 240.3882 241.910784 
+Q 248.2002 241.910784 248.2002 236.588544 
+L 248.2002 216.896256 
+Q 248.2002 211.574016 240.3882 211.574016 
+L 184.1418 211.574016 
+Q 176.3298 211.574016 176.3298 216.896256 
+L 176.3298 236.588544 
+Q 176.3298 241.910784 184.1418 241.910784 
+z
+" clip-path="url(#pcbfefc2e9f)" style="fill: #fff4d8; stroke: #e69f00; stroke-width: 0.7; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_24">
+    <path d="M 254.4498 241.910784 
+L 318.5082 241.910784 
+Q 326.3202 241.910784 326.3202 236.588544 
+L 326.3202 216.896256 
+Q 326.3202 211.574016 318.5082 211.574016 
+L 254.4498 211.574016 
+Q 246.6378 211.574016 246.6378 216.896256 
+L 246.6378 236.588544 
+Q 246.6378 241.910784 254.4498 241.910784 
+z
+" clip-path="url(#pcbfefc2e9f)" style="fill: #fff4d8; stroke: #e69f00; stroke-width: 0.7; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_25">
+    <path d="M 332.5698 241.910784 
+L 412.2522 241.910784 
+Q 420.0642 241.910784 420.0642 236.588544 
+L 420.0642 216.896256 
+Q 420.0642 211.574016 412.2522 211.574016 
+L 332.5698 211.574016 
+Q 324.7578 211.574016 324.7578 216.896256 
+L 324.7578 236.588544 
+Q 324.7578 241.910784 332.5698 241.910784 
+z
+" clip-path="url(#pcbfefc2e9f)" style="fill: #f1f5f9; stroke: #64748b; stroke-width: 0.7; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #1f2937" x="7.2" y="13.722187" transform="rotate(-0 7.2 13.722187)">a</text>
+   </g>
+   <g id="text_2">
+    <text style="font-weight: 700; font-size: 6.1px; font-family: 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; text-anchor: middle" x="140.004" y="37.80288" transform="rotate(-0 140.004 37.80288)">Objective behaviour</text>
+   </g>
+   <g id="text_3">
+    <text style="font-weight: 700; font-size: 6.1px; font-family: 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; text-anchor: middle" x="212.265" y="37.80288" transform="rotate(-0 212.265 37.80288)">Ordinary control</text>
+   </g>
+   <g id="text_4">
+    <text style="font-weight: 700; font-size: 6.1px; font-family: 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; text-anchor: middle" x="286.479" y="37.80288" transform="rotate(-0 286.479 37.80288)">Structure channel</text>
+   </g>
+   <g id="text_5">
+    <text style="font-weight: 700; font-size: 6.1px; font-family: 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; text-anchor: middle" x="372.411" y="37.80288" transform="rotate(-0 372.411 37.80288)">Final adjudication</text>
+   </g>
+   <g id="text_6">
+    <text style="font-weight: 700; font-size: 6px; font-family: 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; text-anchor: start" x="44.307" y="61.973962" transform="rotate(-0 44.307 61.973962)">Qwen3-14B</text>
+   </g>
+   <g id="text_7">
+    <text style="font-weight: 700; font-size: 5.05px; font-family: 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #1f2937" x="140.004" y="61.728298" transform="rotate(-0 140.004 61.728298)">exact equality</text>
+   </g>
+   <g id="text_8">
+    <text style="font-weight: 700; font-size: 5.05px; font-family: 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #1f2937" x="212.265" y="61.728298" transform="rotate(-0 212.265 61.728298)">0/16 invalid</text>
+   </g>
+   <g id="text_9">
+    <text style="font-weight: 700; font-size: 5.05px; font-family: 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #1f2937" x="286.479" y="61.717252" transform="rotate(-0 286.479 61.717252)">gap; criterion invalid</text>
+   </g>
+   <g id="text_10">
+    <text style="font-weight: 700; font-size: 5.05px; font-family: 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #1f2937" x="372.411" y="61.717252" transform="rotate(-0 372.411 61.717252)">operating range unresolved</text>
+   </g>
+   <g id="text_11">
+    <text style="font-weight: 700; font-size: 6px; font-family: 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; text-anchor: start" x="44.307" y="95.237962" transform="rotate(-0 44.307 95.237962)">Mistral-Nemo</text>
+   </g>
+   <g id="text_12">
+    <text style="font-weight: 700; font-size: 5.05px; font-family: 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #1f2937" x="140.004" y="94.992298" transform="rotate(-0 140.004 94.992298)">non-evaluable</text>
+   </g>
+   <g id="text_13">
+    <text style="font-weight: 700; font-size: 5.05px; font-family: 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #1f2937" x="212.265" y="94.992298" transform="rotate(-0 212.265 94.992298)">0/16 not identified</text>
+   </g>
+   <g id="text_14">
+    <text style="font-weight: 700; font-size: 5.05px; font-family: 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #1f2937" x="286.479" y="94.992298" transform="rotate(-0 286.479 94.992298)">R not identified</text>
+   </g>
+   <g id="text_15">
+    <text style="font-weight: 700; font-size: 5.05px; font-family: 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #1f2937" x="372.411" y="94.992298" transform="rotate(-0 372.411 94.992298)">objective non-evaluable</text>
+   </g>
+   <g id="text_16">
+    <text style="font-weight: 700; font-size: 6px; font-family: 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; text-anchor: start" x="44.307" y="128.501962" transform="rotate(-0 44.307 128.501962)">Phi-4</text>
+   </g>
+   <g id="text_17">
+    <text style="font-weight: 700; font-size: 5.05px; font-family: 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #1f2937" x="140.004" y="128.256298" transform="rotate(-0 140.004 128.256298)">exact equality</text>
+   </g>
+   <g id="text_18">
+    <text style="font-weight: 700; font-size: 5.05px; font-family: 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #1f2937" x="212.265" y="128.256298" transform="rotate(-0 212.265 128.256298)">0/16 invalid</text>
+   </g>
+   <g id="text_19">
+    <text style="font-weight: 700; font-size: 5.05px; font-family: 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #1f2937" x="286.479" y="128.256298" transform="rotate(-0 286.479 128.256298)">strict-zero; invalid</text>
+   </g>
+   <g id="text_20">
+    <text style="font-weight: 700; font-size: 5.05px; font-family: 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #1f2937" x="372.411" y="128.245252" transform="rotate(-0 372.411 128.245252)">operating range unresolved</text>
+   </g>
+   <g id="text_21">
+    <text style="font-weight: 700; font-size: 6px; font-family: 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; text-anchor: start" x="44.307" y="161.765962" transform="rotate(-0 44.307 161.765962)">Qwen3-8B</text>
+   </g>
+   <g id="text_22">
+    <text style="font-weight: 700; font-size: 5.05px; font-family: 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #1f2937" x="140.004" y="161.520298" transform="rotate(-0 140.004 161.520298)">exact equality</text>
+   </g>
+   <g id="text_23">
+    <text style="font-weight: 700; font-size: 5.05px; font-family: 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #1f2937" x="212.265" y="161.520298" transform="rotate(-0 212.265 161.520298)">0/16 invalid</text>
+   </g>
+   <g id="text_24">
+    <text style="font-weight: 700; font-size: 5.05px; font-family: 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #1f2937" x="286.479" y="161.520298" transform="rotate(-0 286.479 161.520298)">strict-zero; invalid</text>
+   </g>
+   <g id="text_25">
+    <text style="font-weight: 700; font-size: 5.05px; font-family: 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #1f2937" x="372.411" y="161.509252" transform="rotate(-0 372.411 161.509252)">operating range unresolved</text>
+   </g>
+   <g id="text_26">
+    <text style="font-weight: 700; font-size: 6px; font-family: 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; text-anchor: start" x="44.307" y="195.029962" transform="rotate(-0 44.307 195.029962)">DeepSeek NT</text>
+   </g>
+   <g id="text_27">
+    <text style="font-weight: 700; font-size: 5.05px; font-family: 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #1f2937" x="140.004" y="194.784298" transform="rotate(-0 140.004 194.784298)">non-evaluable</text>
+   </g>
+   <g id="text_28">
+    <text style="font-weight: 700; font-size: 5.05px; font-family: 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #1f2937" x="212.265" y="194.784298" transform="rotate(-0 212.265 194.784298)">0/16 not identified</text>
+   </g>
+   <g id="text_29">
+    <text style="font-weight: 700; font-size: 5.05px; font-family: 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #1f2937" x="286.479" y="194.784298" transform="rotate(-0 286.479 194.784298)">R not identified</text>
+   </g>
+   <g id="text_30">
+    <text style="font-weight: 700; font-size: 5.05px; font-family: 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #1f2937" x="372.411" y="194.784298" transform="rotate(-0 372.411 194.784298)">objective non-evaluable</text>
+   </g>
+   <g id="text_31">
+    <text style="font-weight: 700; font-size: 6px; font-family: 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; text-anchor: start" x="44.307" y="228.293962" transform="rotate(-0 44.307 228.293962)">DeepSeek TH</text>
+   </g>
+   <g id="text_32">
+    <text style="font-weight: 700; font-size: 5.05px; font-family: 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #1f2937" x="140.004" y="228.048298" transform="rotate(-0 140.004 228.048298)">non-evaluable</text>
+   </g>
+   <g id="text_33">
+    <text style="font-weight: 700; font-size: 5.05px; font-family: 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #1f2937" x="212.265" y="228.048298" transform="rotate(-0 212.265 228.048298)">0/16 not identified</text>
+   </g>
+   <g id="text_34">
+    <text style="font-weight: 700; font-size: 5.05px; font-family: 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #1f2937" x="286.479" y="228.048298" transform="rotate(-0 286.479 228.048298)">R not identified</text>
+   </g>
+   <g id="text_35">
+    <text style="font-weight: 700; font-size: 5.05px; font-family: 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #1f2937" x="372.411" y="228.048298" transform="rotate(-0 372.411 228.048298)">objective non-evaluable</text>
+   </g>
+   <g id="text_36">
+    <text style="font-size: 5.9px; font-family: 'Arial', 'Liberation Sans', 'DejaVu Sans', sans-serif; text-anchor: start" x="44.307" y="274.64256" transform="rotate(-0 44.307 274.64256)">Frozen condition labels; no cross-model pooling.</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pcbfefc2e9f">
+   <rect x="36.495" y="16.51392" width="390.6" height="266.112"/>
+  </clipPath>
+ </defs>
+</svg>

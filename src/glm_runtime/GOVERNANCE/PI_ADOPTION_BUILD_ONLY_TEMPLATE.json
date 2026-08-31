@@ -1,0 +1,19 @@
+{
+  "automatic_next_round": false,
+  "formal_execution_authorized": false,
+  "heldout_consumption_authorized": false,
+  "master_v3_sha256": "7EAFA5CDC9DE0E91EBF6D9ED087416567A24D9988A65831183EDED4EA1395015",
+  "model_calls_authorized": 0,
+  "package_bytes": 0,
+  "package_members": 0,
+  "package_sha256": "__FILL_AFTER_BUILD__",
+  "pi_nonce_hex": "__64_UPPER_HEX__",
+  "production_roots_authorized": 0,
+  "production_seeds_authorized": 0,
+  "provider_calls_authorized": 0,
+  "purpose": "EXACT_RUNTIME_SEMANTICS_BUILD_ONLY",
+  "replication_contract_sha256": "6810E3041FE92756AE9338E65D4A003F9B5D95E47FE42F0A2542A66DBAEA06C3",
+  "schema": "maofield.master_v3.mb1.glm53.build_only.pi_adoption.template.v2",
+  "second_order_addendum_sha256": "2B83F45DA3B87155949F1A8DEDAC19151EA16610FC733ED0F865EF193577A545",
+  "status": "TEMPLATE_NOT_ADOPTED"
+}

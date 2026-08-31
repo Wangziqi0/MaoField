@@ -1,0 +1,14 @@
+{
+  "schema": "maofield.release.provenance.v1",
+  "release": "R3.0-20260831",
+  "input_r1_zip_sha256": "5d808aecd19f90a5c51775b0ed01ecb69acbd37832c149a3539e4ca8c9be2217",
+  "phase23_unified_result_sha256": "B8CFD146314AB86924FD3EA5E9D28DD372EDBE8583464ACE8CECB7781B20C5A9",
+  "glm_handoff_sha256": "29C7DF0467CEDE87B1C8595E5F6060FC57E1D741CD9EA470AD39BCBEAD16C989",
+  "figure5_authority": "R1 repaired Figure 5 from the controlled-merge manuscript",
+  "scientific_changes": 0,
+  "automatic_next_round": false,
+  "final_readiness": "READY_WITH_AUTHOR_INPUT",
+  "figure5_authority_sha256": "bfd5622d7942c114c673435013ae3b173644af14273d4d81625b2df113ba30f6",
+  "narrative_revision": "AFFECTED_ONLY_THEORY_INHERITANCE_AND_EXECUTABLE_CLAIM_GRAPH",
+  "frozen_scientific_changes": 0
+}

@@ -1,2 +1,0 @@
-cc77eb84b2a1265f0f4b0822738aaf9ff091f414448a94b7f8d3330a77a8a7b2  /home/amd/codex-node36/tmp/orderdefect_pi_local_review_decision_v13_20260701_2028/rag/candidate_index/kb.faiss
-2983554dafc2dda84cdc5a916d6aed4b8cad9525caf37a36027669ff863e46c8  /home/amd/codex-node36/tmp/orderdefect_pi_local_review_decision_v13_20260701_2028/rag/candidate_index/kb_meta.jsonl

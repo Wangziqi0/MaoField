@@ -1,2 +1,0 @@
-8c3283fcde357594cbed5ea08cb7b4c0854cd1d256de15d352c73d3fe93c6153  /media/amd/raid1/rag/index/kb.faiss.bak_pre_node22_20260708_1245_extra_subpro_identity_check
-0eef18d09fcae982466a15c520db2ae320b6067ab94195199e63aed73de15358  /media/amd/raid1/rag/index/kb_meta.jsonl.bak_pre_node22_20260708_1245_extra_subpro_identity_check
