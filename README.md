@@ -1,4 +1,4 @@
-# Why can equal results lead to different scientific futures
+# Why can equal results lead to different scientific futures: How humans and AI jointly form the conditions for further discovery
 
 Yifan Chen · Independent researcher, Lu’an, China · ORCID 0009-0008-8344-1149
 
@@ -32,4 +32,4 @@ The finite minimax witness and compact local repair are analytical statements. S
 
 ## Licence and citation
 
-Original code is Apache-2.0; original manuscript, figures and data are CC BY 4.0, to the extent of the contributor's rights. Third-party sources, model outputs and environment components retain their respective notices; see `LICENSE_STATUS.md` and `environment/THIRD_PARTY_NOTICES.md`. No blanket relicensing is intended. See `CITATION.cff`. Preprint: https://doi.org/10.5281/zenodo.22904545. Software and environments: https://doi.org/10.5281/zenodo.22904605. Full retained data: https://doi.org/10.5281/zenodo.22904604. This is a separate manuscript from the older R3.0 work; its existing DOI identifiers are not assigned to this release.
+Original code is Apache-2.0; original manuscript, figures and data are CC BY 4.0, to the extent of the contributor's rights. Third-party sources, model outputs and environment components retain their respective notices; see `LICENSE_STATUS.md` and `environment/THIRD_PARTY_NOTICES.md`. No blanket relicensing is intended. See `CITATION.cff`. Preprint: https://doi.org/10.5281/zenodo.22905100. Software and environments: https://doi.org/10.5281/zenodo.22905103. Full retained data: https://doi.org/10.5281/zenodo.22904604. This is a separate manuscript from the older R3.0 work; its existing DOI identifiers are not assigned to this release.

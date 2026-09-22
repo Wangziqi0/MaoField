@@ -206,7 +206,7 @@ def generate(src,out,kind):
    rp=mr.find('m:rPr',mathns)
    if rp is None:rp=OxmlElement('m:rPr');mr.insert(0,rp)
    nr=OxmlElement('m:nor');rp.append(nr)
- doc.core_properties.author='';doc.core_properties.last_modified_by='';doc.core_properties.title=('相同的成果，为何通向不同的科学未来？' if chinese else 'Why can equal results lead to different scientific futures')
+ doc.core_properties.author='';doc.core_properties.last_modified_by='';doc.core_properties.title=('相同的成果，为何通向不同的科学未来？' if chinese else 'Why can equal results lead to different scientific futures: How humans and AI jointly form the conditions for further discovery')
  doc.core_properties.subject='Research Article'
  math_report=repair_native_math(doc)
  (QA/(out.stem+'_MATH_RENDERING.json')).write_text(json.dumps(math_report,ensure_ascii=False,indent=2)) 

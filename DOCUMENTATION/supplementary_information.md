@@ -1,10 +1,8 @@
 ---
 title: "Supplementary Information"
-subtitle: "Why can equal results lead to different scientific futures"
+subtitle: "Why can equal results lead to different scientific futures: How humans and AI jointly form the conditions for further discovery"
 lang: en-GB
 ---
-
-*How humans and AI jointly form the conditions for further discovery*
 
 
 ## Supplementary Note 1. Claim architecture

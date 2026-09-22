@@ -1,9 +1,9 @@
 {
-  "manuscript": "Why can equal results lead to different scientific futures",
-  "version": "V8-R3",
+  "manuscript": "Why can equal results lead to different scientific futures: How humans and AI jointly form the conditions for further discovery",
+  "version": "V8-R3.1",
   "release_tag": "nature-v8-r3",
-  "preprint_doi": "10.5281/zenodo.22904545",
-  "software_doi": "10.5281/zenodo.22904605",
+  "preprint_doi": "10.5281/zenodo.22905100",
+  "software_doi": "10.5281/zenodo.22905103",
   "data_doi": "10.5281/zenodo.22904604",
   "baseline_audited_commit": "3b2023161822941cb563a00c19b4146566639284",
   "science_changes_since_audit": false,
