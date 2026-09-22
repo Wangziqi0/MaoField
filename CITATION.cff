@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "Please cite the manuscript and versioned software when public identifiers become available."
+message: "Please cite the manuscript and the versioned software/data used."
 title: "Why can equal results lead to different scientific futures"
 type: software
 authors:
@@ -7,6 +7,7 @@ authors:
     given-names: Yifan
     affiliation: "Independent researcher, Lu’an, China"
     orcid: "https://orcid.org/0009-0008-8344-1149"
-version: "V8-R3-local-candidate"
+version: "V8-R3"
 repository-code: "https://github.com/Wangziqi0/MaoField"
 license: "Apache-2.0"
+doi: "10.5281/zenodo.22904605"

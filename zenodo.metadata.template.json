@@ -14,6 +14,19 @@
     "description": "Finite mathematical separation and compact sufficient repair, with distinct retained coefficient-successor and known-proof completion records. Original comparisons, failures, truncation, unknown-request status and separately authorised supplementary observations are preserved. The software provides one-command deterministic raw-data reanalysis and offline ordinary Lean replay of five unchanged candidates, with packaged Linux x86_64 Python/Lean environments. No new experimental model sampling; no independent-kernel certification. Third-party rights and notices remain in force.",
     "license": "Apache-2.0",
     "access_right": "open",
-    "version": "V8-R3"
+    "version": "V8-R3",
+    "doi": "10.5281/zenodo.22904605",
+    "related_identifiers": [
+      {
+        "identifier": "10.5281/zenodo.22904545",
+        "relation": "isSupplementTo",
+        "scheme": "doi"
+      },
+      {
+        "identifier": "10.5281/zenodo.22904604",
+        "relation": "references",
+        "scheme": "doi"
+      }
+    ]
   }
 }

@@ -11,6 +11,16 @@ if [ "$MODE" = --full ]; then
 fi
 cd "$ROOT"
 mkdir -p WORK/environment
+fetch_asset() {
+  local name="$1"
+  if [ ! -f "$ASSETS/$name" ]; then
+    command -v curl >/dev/null || { echo 'curl is required only when downloading missing release assets.'; exit 2; }
+    mkdir -p "$ASSETS"
+    curl --fail --location --retry 3 --output "$ASSETS/$name.download" "https://github.com/Wangziqi0/MaoField/releases/download/nature-v8-r3/$name"
+    mv "$ASSETS/$name.download" "$ASSETS/$name"
+  fi
+}
+fetch_asset python-linux-x86_64.tar.gz
 check_asset() {
   local name="$1" expected actual
   expected="$(awk -v n="$name" '$2==n {print $1}' environment/SHA256SUMS)"
@@ -26,6 +36,8 @@ if [ ! -f WORK/environment/.python-ready ]; then
 fi
 if [ "$MODE" = --full ]; then
   if [ ! -f "$ASSETS/lean-offline-linux-x86_64.tar.zst" ]; then
+    fetch_asset lean-offline-linux-x86_64.tar.zst.part00
+    fetch_asset lean-offline-linux-x86_64.tar.zst.part01
     (cd "$ASSETS" && sha256sum -c "$ROOT/environment/LEAN_PARTS.sha256")
     cat "$ASSETS/lean-offline-linux-x86_64.tar.zst.part00" "$ASSETS/lean-offline-linux-x86_64.tar.zst.part01" > WORK/environment/lean-offline-linux-x86_64.tar.zst
     LEAN_ASSET="$ROOT/WORK/environment/lean-offline-linux-x86_64.tar.zst"
