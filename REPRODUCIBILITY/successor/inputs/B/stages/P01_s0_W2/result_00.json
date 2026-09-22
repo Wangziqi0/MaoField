@@ -1,0 +1,12 @@
+{
+  "finish_reason": "stop",
+  "message": {
+    "content": "{\n  \"B_expression\": \"-1/(2*(1+u)*((sqrt((1+u)**2+r)+(1+u))**2))\",\n  \"C_expression\": \"-1/(2*(1+u))\",\n  \"derivation\": \"Let z=1+u and s=sqrt(z*z+r), the positive root of p=z^2+r. The closed outer rectangle has z between 3/4 and 5/4 and z^2+r at least 1/16, so a small open neighborhood keeps z and z^2+r positive; the square root and denominators are therefore smooth. Set C=-1/(2z). Then r/2+u*r*C = r/(2z). Set B=-1/(2*z*(s+z)**2). Inside the inner support where chi_r=chi_u=1, g = r/(2z) - r^2/(2*z*(s+z)**2). Since r=s^2-z^2, this equals r/(s+z)=s-z. Hence z+g=s and (z+g)^2=s^2=z^2+r=p, so the whole residual E is zero in the active core. In the fixed smooth transition the correction is scaled by chi_r*chi_u, and outside the outer rectangle the host uses the linear step r/2. When u=0, C is multiplied by u and B reduces to the source body -1/(2*(1+sqrt(1+r))**2). This is a local two-slot coefficient construction; it does not prove the full Navier-Stokes theorem or a global PDE bound.\",\n  \"inspect\": [],\n  \"note\": \"Successor should verify from draft feedback that rows with |r|<=1/4 and |u|<=1/8 have residuals at roundoff. Rows in the u or r transition are smooth blends and need not be exactly zero. Rows with |u|>=1/4 or |r|>=1/2, including large-deviation z values, remain in the linear or NO_APPLIED regime and should not be treated as defects of this body. The domain condition (1+u)^2+r>0 has positive margin on the rectangle; do not reuse the formula where that condition fails. Do not extrapolate finite-grid cancellation to a uniform PDE certificate.\"\n}",
+    "role": "assistant"
+  },
+  "usage": {
+    "completion_tokens": 28804,
+    "prompt_tokens": 63212,
+    "total_tokens": 92016
+  }
+}

@@ -1,0 +1,6 @@
+figure,item,source_or_derivation
+1,"provided results, hclose, supplied consumer",E06; E07; E09–E11; E16
+2,equation chain,E06; E07; E08; Supplementary Note 2
+3,six request outcomes and token counts,attempts.csv; wire_sources.json
+4,actual final tactics and compiler mismatch,E09; E11; E12; E13
+ED1,input and output tokens by request,attempts.csv

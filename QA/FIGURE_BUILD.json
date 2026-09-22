@@ -1,0 +1,211 @@
+{
+  "figures": [
+    {
+      "figure": "figure1_core_non_sufficiency",
+      "width_mm": 180.0,
+      "height_mm": 136.0,
+      "body_font_pt": [
+        5.4,
+        7.0
+      ],
+      "panel_font_pt": 8,
+      "font_family": "DejaVu Sans",
+      "source_inputs": [
+        {
+          "path": "SUBMISSION/manuscript.md",
+          "sha256": "e724c156bc54e8791c94791c2b64c58b5e24d737296ab513014cd0435a158023"
+        },
+        {
+          "path": "SOURCE_DATA/figure2_analytic_curve.csv",
+          "sha256": "b08f5eef43f8978fc70ba84f36413b266937d2138cb244545ce709c22c4b3b24"
+        },
+        {
+          "path": "SOURCE_DATA/successor/audit_result.json",
+          "sha256": "0c152b6bfbfa142a94c5ae2e74781862156611379ca5e3a03c60113212c77836"
+        }
+      ],
+      "claims": [
+        "Same readout r is insufficient; actual state/target and recorded entry points are distinguished."
+      ],
+      "formats": [
+        "svg",
+        "pdf",
+        "png",
+        "tiff"
+      ],
+      "pdf_sha256": "00244fdad2272456fffb1dfafb9e1367f461d44390e746a7cba7e6a2b6aeff43",
+      "png_sha256": "2630d908958f9cd862255d6d0111b386ecf837416cfaca46045310a671fdf411"
+    },
+    {
+      "figure": "figure2_minimax_and_domain",
+      "width_mm": 180.0,
+      "height_mm": 115.99999999999999,
+      "body_font_pt": [
+        5.4,
+        7.0
+      ],
+      "panel_font_pt": 8,
+      "font_family": "DejaVu Sans",
+      "source_inputs": [
+        {
+          "path": "SOURCE_DATA/figure2_analytic_curve.csv",
+          "sha256": "b08f5eef43f8978fc70ba84f36413b266937d2138cb244545ce709c22c4b3b24"
+        },
+        {
+          "path": "SUBMISSION/supplementary_information.md",
+          "sha256": "7b0cfd72c8148c5430606c98f8a98815abfa6d56b4a8f82663d73e220860471a"
+        }
+      ],
+      "claims": [
+        "Positive lower bound and compact repair with inner/outer domain; analytical, not sampled."
+      ],
+      "formats": [
+        "svg",
+        "pdf",
+        "png",
+        "tiff"
+      ],
+      "pdf_sha256": "c3e0a42117d299ea2fd22c57766ba33e253fe7a6ac3f2503fb85b3a520d0cbbb",
+      "png_sha256": "0c7d6adcd954309879561532d2ab920064e6f8f60e4ce5d49b27f1a7a5dfc191"
+    },
+    {
+      "figure": "figure3_successor_continuation",
+      "width_mm": 180.0,
+      "height_mm": 180.0,
+      "body_font_pt": [
+        5.4,
+        7.0
+      ],
+      "panel_font_pt": 8,
+      "font_family": "DejaVu Sans",
+      "source_inputs": [
+        {
+          "path": "SOURCE_DATA/successor/selected_coordinates.csv",
+          "sha256": "0b6ff10ac14ff099386034cce826776a0fa38ef2c4b7c4537a826e8ceb8fd85d"
+        },
+        {
+          "path": "SOURCE_DATA/successor/cohort_status.json",
+          "sha256": "b582f006537329717eeacf05124807ca0a11330947dd81cbc31b43f5c3e29f73"
+        },
+        {
+          "path": "SOURCE_DATA/successor/version_identity.json",
+          "sha256": "083d89395820f69634589c905197231ad1d8b77a03c6da3c0ae9f3d7bb5a447e"
+        },
+        {
+          "path": "SOURCE_DATA/successor/inheritance.json",
+          "sha256": "1876ccb08b83e38145e42b40d4002f9ae05fd5cf0a50f7b1821e050522a2cf24"
+        },
+        {
+          "path": "SUBMISSION/manuscript.md",
+          "sha256": "e724c156bc54e8791c94791c2b64c58b5e24d737296ab513014cd0435a158023"
+        }
+      ],
+      "claims": [
+        "Signed pure/cross/whole decomposition, actual revision/reuse chain, within-duty P07 comparisons, and cohort limits."
+      ],
+      "formats": [
+        "svg",
+        "pdf",
+        "png",
+        "tiff"
+      ],
+      "pdf_sha256": "96129e939f5af82a18e5893a18cbe293be07201bcd2443fd145b688b2454876b",
+      "png_sha256": "b95b808075ee69e69c97f535e88179d59fa43a9f60c108e0410f658619c96537"
+    },
+    {
+      "figure": "figure4_hclose_application",
+      "width_mm": 180.0,
+      "height_mm": 150.0,
+      "body_font_pt": [
+        5.4,
+        7.0
+      ],
+      "panel_font_pt": 8,
+      "font_family": "DejaVu Sans",
+      "source_inputs": [
+        {
+          "path": "SOURCE_DATA/attempts.json",
+          "sha256": "9fd9109f1b6f5026c341feec5d5584651e2dd2a71d646b4514322d0d216fbedb"
+        },
+        {
+          "path": "SUBMISSION/manuscript.md",
+          "sha256": "e724c156bc54e8791c94791c2b64c58b5e24d737296ab513014cd0435a158023"
+        },
+        {
+          "path": "SUBMISSION/supplementary_information.md",
+          "sha256": "7b0cfd72c8148c5430606c98f8a98815abfa6d56b4a8f82663d73e220860471a"
+        }
+      ],
+      "claims": [
+        "Dependent transport, actual downstream use, and all six proof-completion requests including the truncated first control request."
+      ],
+      "formats": [
+        "svg",
+        "pdf",
+        "png",
+        "tiff"
+      ],
+      "pdf_sha256": "80667c91308e0de44ea23b1771ff81d60764152c2bf503726feceb7726b8ae1c",
+      "png_sha256": "6969e64935cdd0c61b95f34ba402a0262d1530131ff3723939cf9567e763ed36"
+    },
+    {
+      "figure": "extended_data_figure1_resources",
+      "width_mm": 180.0,
+      "height_mm": 95.0,
+      "body_font_pt": [
+        5.4,
+        7.0
+      ],
+      "panel_font_pt": 8,
+      "font_family": "DejaVu Sans",
+      "source_inputs": [
+        {
+          "path": "SOURCE_DATA/attempts.json",
+          "sha256": "9fd9109f1b6f5026c341feec5d5584651e2dd2a71d646b4514322d0d216fbedb"
+        }
+      ],
+      "claims": [
+        "Exact input/output token counts and truncation; no efficiency inference."
+      ],
+      "formats": [
+        "svg",
+        "pdf",
+        "png",
+        "tiff"
+      ],
+      "pdf_sha256": "2b0fed350ccdb7532aac27e820a88ee7bcaac56f51cce9cf02048e2aede99d7e",
+      "png_sha256": "f7da457435056efc5b8452562a4a28a702c0fb0ee04f7641b0e82b400ed47977"
+    },
+    {
+      "figure": "extended_data_table1_history",
+      "width_mm": 180.0,
+      "height_mm": 127.0,
+      "body_font_pt": [
+        5.4,
+        7.0
+      ],
+      "panel_font_pt": 8,
+      "font_family": "DejaVu Sans",
+      "source_inputs": [
+        {
+          "path": "SOURCE_DATA/extended_data_table1_history.csv",
+          "sha256": "7d4af090d7142c162fab8a2efad16d2a8096d14e5d5a5e84387ecd347ed1fb8b"
+        }
+      ],
+      "claims": [
+        "Original ten historical rows and evidence statuses remain separate."
+      ],
+      "formats": [
+        "svg",
+        "pdf",
+        "png",
+        "tiff"
+      ],
+      "pdf_sha256": "38ef7c0e347c756bb1eac31068e5d05fdb21996b89f1efbd787d54265b51ec69",
+      "png_sha256": "d4d2b0c52bb72e5441970bd1884d2126233ba31a1b427dc8dd45c0cc322060de"
+    }
+  ],
+  "warnings": [],
+  "font": "/data/MaoField/.scratch/v7_presubmission_20260922/runtime/lib/python3.12/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf",
+  "new_scientific_observations": 0
+}

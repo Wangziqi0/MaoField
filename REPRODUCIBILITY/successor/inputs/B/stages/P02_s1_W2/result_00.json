@@ -1,0 +1,12 @@
+{
+  "finish_reason": "stop",
+  "message": {
+    "content": "{\"B_expression\":\"-1/(2*(1+u)*((1+u)+sqrt((1+u)**2+r))**2)\",\"C_expression\":\"-1/(2*(1+u))\",\"derivation\":\"Retain the inherited exact-root coefficient pair unchanged. The decomposition is: with a=1+u and s=sqrt(a^2+r), the exact root increment is g*=r/(a+s). The host form g=r/2+r^2*B+u*r*C requires r*B+u*C=(1/(a+s)-1/2). Setting C=-1/(2a) absorbs the linear-in-u cross term 2*u*g in the whole residual E=(2g+g^2-r)+2*u*g, and B=-1/(2*a*(a+s)^2) supplies the quadratic-in-r remainder. On the closed outer rectangle |r|<=1/2, |u|<=1/4: a>=3/4>0 and a^2+r>=9/16-1/2=1/16>0, so sqrt is analytic and both bodies are C-infinity on an open neighborhood. The generation-1 feedback confirms residuals at machine-epsilon (~1e-71) at all in-support points (UNIFORM, in-rectangle LEFT/RIGHT/BOTH). Points with |u|>1/4 (e.g., LEFT x=1/8 s=0 where u=-0.625) or |r|>1/2 (e.g., LEFT x=1/8 s=0 where r=-0.1405 is inside chi_r but u is outside chi_u) correctly fall to the linear g=r/2 fallback via chi_u=0; the resulting large residuals there are by design, not a program defect. The extreme z values in the state (z=-143, z=-11, z=-0.5) are inherited from earlier stages where the linear fallback was applied to large-deviation points; they are not produced by this program. No revision is warranted: the algebraic identity is exact, the domain is safe, and the numerical evidence is consistent.\",\"inspect\":[{\"file_id\":\"CALC/draft.json\",\"limit\":4096,\"offset\":0}],\"note\":\"Successor: retain this program. The sqrt argument (1+u)^2+r stays >=1/16>0 on the full outer rectangle, and 1+u>=3/4>0, so both bodies remain smooth. The C term is essential for u!=0: it cancels the 2*u*g cross contribution in the whole residual. Outside chi support the host applies g=r/2 by design; large-deviation rows (|u|>1/4 or |r|>1/2) are not program failures. Each stage must consume the actual stored z, not an ideal root. The analytic certificate is ANALYTIC_ON_CORE_NEIGHBORHOOD (not a full PDE certificate). Do not treat the finite numerical residuals as a global proof.\"}",
+    "role": "assistant"
+  },
+  "usage": {
+    "completion_tokens": 2494,
+    "prompt_tokens": 63805,
+    "total_tokens": 66299
+  }
+}

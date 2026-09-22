@@ -1,0 +1,12 @@
+{
+  "fixture": false,
+  "program": {
+    "B": "-1/(2*(1+u)**3*(sqrt(1+r/(1+u)**2)+1)**2)",
+    "C": "-1/(2*(1+u))"
+  },
+  "program_sha256": "00abbd93d16f65442628754209fe689c08e2c8e29440bc27d1c7c8e6b40c4fd8",
+  "proof": false,
+  "stage_id": "P06_s0_W2",
+  "status": "CAPTURED_NOT_MATH_CERTIFIED",
+  "terminal_sha256": "a06bf864369cfada248c1c379759ebefed0877eb543d09a6d878ddbc7c28a7d3"
+}

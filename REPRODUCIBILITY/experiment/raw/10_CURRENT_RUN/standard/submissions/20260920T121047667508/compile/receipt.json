@@ -1,0 +1,9 @@
+{
+  "end_utc": "2026-09-20T04:11:24.852209+00:00",
+  "returncode": 1,
+  "seconds": 13.988610983127728,
+  "start_utc": "2026-09-20T04:11:10.863596+00:00",
+  "status": "ERROR_EXIT",
+  "stderr_sha256": "daba96e2bd92754d4e6c4cbeaeb8bf54f14dba8fcb8eeafdeaffdb1bd0c27e51",
+  "stdout_sha256": "00977666f0047ba1635d61b1239ad5e9c4e1d5c5e92d72c650303045dfbaa1d2"
+}

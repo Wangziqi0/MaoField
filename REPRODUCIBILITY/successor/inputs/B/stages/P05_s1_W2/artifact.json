@@ -1,0 +1,12 @@
+{
+  "fixture": false,
+  "program": {
+    "B": "-1/(8*(1+u)**3) + (r*(sqrt(1+r)+3))/(8*(1+sqrt(1+r))**3)",
+    "C": "-1/(2*(1+u))"
+  },
+  "program_sha256": "5d6fead8898eb28b7f845ef5771dda03e060597de4d0e5220f2a36812212a4b8",
+  "proof": false,
+  "stage_id": "P05_s1_W2",
+  "status": "CAPTURED_NOT_MATH_CERTIFIED",
+  "terminal_sha256": "7385ba19e54f0ad229f36eccd83f13b73c6ef26686542cd6a5e05f72cdc292d9"
+}

@@ -1,0 +1,606 @@
+data: {"choices": [{"index": 0, "delta": {"role": "assistant", "content": ""}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": "\n\n"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": "have"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " h"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": "sq"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " :"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " slot"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": "Radius"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " r"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": "0"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " h"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " n"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " ^"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " "}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": "2"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " ="}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " Chart"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": "S"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": "cales"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": ".slot"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": "Length"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " r"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": "0"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " h"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " n"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " :="}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " slot"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": "Radius"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": "_sq"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " hr"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": "0"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " h"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " n"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": "\n"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": "have"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " h"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": "entry"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " :"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " |"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": "normalized"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": "Pair"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " P"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " i"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " j"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " -"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " H"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": "0"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " p"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " i"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " j"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": "|"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " ≤"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": "\n"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": "   "}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " ("}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": "E"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " +"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " D"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " *"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " Pulse"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": "C"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": "ov"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": "ariance"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": ".con"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": "centration"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": "Constant"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " a"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " A"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " b"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " B"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": ")"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " /"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " slot"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": "Radius"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " r"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": "0"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " h"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " n"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " :="}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": "\n"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " "}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " normalized"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": "Pair"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": "_entry"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": "_error"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " ("}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": "slot"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": "Radius"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " r"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": "0"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " h"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " n"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": ")"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " a"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " A"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " b"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " B"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " E"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " D"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " P"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " h"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": "P"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " ("}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": "H"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": "0"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " p"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": ")"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " h"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": "E"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " h"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": "D"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": "\n"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": "   "}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " ("}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": "fun"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " j"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": "'"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " i"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": "'"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " v"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": "'"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " hv"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": "'"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " =>"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " hr"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": "atio"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " j"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": "'"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " i"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": "'"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " v"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": "'"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " ("}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": "by"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " sim"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": "pa"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " ["}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": "hs"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": "q"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": "]"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " using"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " hv"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": "'))"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " i"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " j"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": "\n"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": "have"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " h"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": "abs"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " :"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " D"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " *"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " Pulse"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": "C"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": "ov"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": "ariance"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": ".con"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": "centration"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": "Constant"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " a"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " A"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " b"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " B"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " ≤"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " D"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " *"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " |"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": "P"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": "ulse"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": "C"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": "ov"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": "ariance"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": ".con"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": "centration"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": "Constant"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " a"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " A"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " b"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " B"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": "|"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " :="}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " by"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": "\n"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " "}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " n"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": "lin"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": "arith"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " ["}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": "le"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": "_abs"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": "_self"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " ("}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": "P"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": "ulse"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": "C"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": "ov"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": "ariance"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": ".con"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": "centration"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": "Constant"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " a"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " A"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " b"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " B"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": "),"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " h"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": "D"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": "]"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": "\n"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": "have"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " h"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": "le"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": "1"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " :"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " ("}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": "E"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " +"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " D"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " *"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " Pulse"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": "C"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": "ov"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": "ariance"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": ".con"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": "centration"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": "Constant"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " a"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " A"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " b"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " B"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": ")"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " /"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " slot"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": "Radius"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " r"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": "0"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " h"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " n"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " ≤"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": "\n"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": "   "}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " Q"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " /"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " slot"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": "Radius"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " r"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": "0"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " h"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " n"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " :="}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " by"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": "\n"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " "}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " ds"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": "imp"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " only"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " ["}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": "Q"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": "]"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": "\n"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " "}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " rw"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " ["}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": "div"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": "_le"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": "_div"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": "_iff"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " ("}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": "le"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": "_of"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": "_lt"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " hr"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": ")"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " ("}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": "le"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": "_of"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": "_lt"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " hr"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": ")]"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": "\n"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " "}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " n"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": "lin"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": "arith"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " ["}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": "h"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": "abs"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": "]"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": "\n"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": "exact"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " h"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": "entry"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": ".trans"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " ("}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": "hle"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": "1"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": ".trans"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": " h"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": "small"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": ")"}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {"content": ""}, "finish_reason": "stop"}]}
+
+data: {"usage": {"prompt_tokens": 2607, "total_tokens": 5788, "completion_tokens": 3181, "prompt_tokens_details": {"cached_tokens": 2080}}}
+
+data: [DONE]
+

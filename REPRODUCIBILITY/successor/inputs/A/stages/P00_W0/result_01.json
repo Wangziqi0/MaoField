@@ -1,0 +1,15 @@
+{
+  "finish_reason": "stop",
+  "message": {
+    "content": "{\"B_expression\":\"-1/(2*(1+sqrt(1+r))**2)\",\"C_expression\":\"0\",\"derivation\":\"Retained from draft. The submitted B = -1/(2*(1+sqrt(1+r))**2), C = 0 yields g = r/2 - chi_r*chi_u*r^2/(2*(1+sqrt(1+r))^2) inside the chi support. Setting D = 1+sqrt(1+r), the bracket becomes r/2 - r^2/(2D^2) = (rD - r^2)/(2D^2) = r(D - r)/(2D^2). Since D - r = 1+sqrt(1+r)-r and D^2 = (1+sqrt(1+r))^2 = 2+2sqrt(1+r)+r, we get r(2+2sqrt(1+r))/((2+2sqrt(1+r)+r)*2*(1+sqrt(1+r)))... More directly: r/(1+sqrt(1+r)) = sqrt(1+r)-1, so g = sqrt(1+r)-1 when chi_r=chi_u=1. Then (1+g)^2 - (1+r) = (sqrt(1+r))^2 - (1+r) = 0 exactly. The draft execution confirms this: all rows with u=0 and |r|<=1/2 show residuals at or below 1.8e-71 (machine epsilon at 70 dps), while the r=-1 row (chi_r=0) correctly uses the bare g=r/2=-0.5 with residual 0.25. No row in the current stage has u!=0, so C=0 is inactive. The expression sqrt(1+r) is smooth and positive for r>-1, strictly containing the outer rectangle |r|<=1/2. No smoothness certificate is claimed.\",\"inspect\":[],\"note\":\"Program retained unchanged. All 12 display rows confirm expected behavior: machine-precision residuals where chi support is active (u=0, |r|<=~1/2), and correct bare r/2 fallback at r=-1. A successor at generation>=1 will see z_after != 1 and thus u != 0; at that point C=0 provides no u-correction and the whole residual includes the 2ug cross-term. Whether a nonzero C(r,u) improves the field over subsequent stages is an open local question for that successor. The chi transition is fixed C-infinity; no smoothing of the body itself is needed. This is a coefficient-field operator for the covariance quotient at a fixed wave certificate, not a full PDE solution. The archived R4 finite-root result (L00_s0_W2) retains its independent scope and is not superseded.\"}",
+    "role": "assistant"
+  },
+  "usage": {
+    "completion_tokens": 1256,
+    "prompt_tokens": 14456,
+    "prompt_tokens_details": {
+      "cached_tokens": 10400
+    },
+    "total_tokens": 15712
+  }
+}

@@ -1,0 +1,11 @@
+recorded_workflow,retained_outcome,evidence_status,source_version_id
+Full-endpoint workflow,Four branches; 55 requests; no writes,Earlier exploration,Original V3
+Adapted continuation,40 requests; no writes; PI stop,Stopped,V3R3
+Dynamic organisation,23 requests; no writes,Earlier exploration,V3R4
+Material preparation,16 preparation calls; packet not accepted; four branches unrun,Preparation failure,V3R5
+Fixed-material continuation,23 requests; no writes; three remaining branches unrun,Earlier exploration,V3R6
+Precompiled-source continuation,42 requests; no writes; stop,Stopped,V3R7
+Independent Codex diagnostic,Own specified same-start task; saved local compilation; PI stop,"Separate diagnostic, not a formal effect control",Independent Codex diagnostic
+Researcher recheck,Full reference seen; algebra recheck; no new Lean compilation,Reference-exposed verification,Researcher recheck
+Final hclose pair,Six requests; five candidates; guided third accepted,Present local record,Final hclose pair
+Coefficient assistance / adoption,52 stages; 104 completed returns. Actual revision and reuse; 5 empty finals; 7/8 equal adoption versions.,Executed; raw reanalysis. No established average benefit.,Coefficient assistance / adoption

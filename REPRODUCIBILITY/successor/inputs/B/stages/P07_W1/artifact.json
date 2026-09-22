@@ -1,0 +1,12 @@
+{
+  "fixture": false,
+  "program": {
+    "B": "-1/8",
+    "C": "-1/2 + u/2"
+  },
+  "program_sha256": "53c94bb1a25da71761fa8d361984383aecb170b96bc1bc2da92fe78a41c7a6b2",
+  "proof": false,
+  "stage_id": "P07_W1",
+  "status": "CAPTURED_NOT_MATH_CERTIFIED",
+  "terminal_sha256": "bd0c4430f303d97dc807586ae851f2e27cee087c95323b5b41f6673f488639b4"
+}

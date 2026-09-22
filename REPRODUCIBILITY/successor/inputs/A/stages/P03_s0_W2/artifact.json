@@ -1,0 +1,12 @@
+{
+  "fixture": false,
+  "program": {
+    "B": "-1/(2*(1+sqrt(1+r))**2)",
+    "C": "-1/2"
+  },
+  "program_sha256": "a32abeb4c9227de302419c3ec005ba65e21872a48068120af13cefefc26e43db",
+  "proof": false,
+  "stage_id": "P03_s0_W2",
+  "status": "CAPTURED_NOT_MATH_CERTIFIED",
+  "terminal_sha256": "6e96855ae7034e24917d26a252b30cec163d62395611877f27df4d90374cb048"
+}

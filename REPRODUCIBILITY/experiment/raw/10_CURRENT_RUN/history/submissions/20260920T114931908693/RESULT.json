@@ -1,0 +1,9 @@
+{
+  "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "candidate_sha256": "949c7e1e61a19f2d44358eaa9b7a85c4196bce42cce7628f8fda19cbd05b293b",
+  "status": "EXACT_LOCAL_GOAL_LEAN_ACCEPTED"
+}

@@ -1,0 +1,12 @@
+{
+  "finish_reason": "stop",
+  "message": {
+    "content": "{\"B_expression\":\"-1/(2*(1+u)*((1+u)+sqrt((1+u)**2+r))**2)\",\"C_expression\":\"-1/(2*(1+u))\",\"derivation\":\"Retained from generation 1 (P02_W1). The construction: set a=1+u, s=sqrt(a^2+r). The exact root increment is g=s-a=r/(a+s). The host form in the chi-supported core is g=r/2+r^2*B+u*r*C. The algebraic identity r/(a+s)=r/2+r^2*(-1/(2a(a+s)^2))+u*r*(-1/(2a)) is verified by the factorization: (2-a-s)*a = -(r+u*(a+s)^2), which reduces to r(1+u)=r(1+u) using a=1+u and s^2=a^2+r. Thus B=-1/(2a(a+s)^2), C=-1/(2a) give exact cancellation of the whole residual E=(z+g)^2-p in the inner chi-supported rectangle. On the closed outer rectangle |r|<=1/2, |u|<=1/4: a=1+u>=3/4>0 and a^2+r>=(3/4)^2-1/2=1/16>0, so the square root is analytic and both bodies are C-infinity on an open neighborhood. Generation-1 numerical feedback confirms residuals at machine epsilon (~1e-71) for all in-support APPLIED points, and correct linear fallback g=r/2 outside chi support.\",\"inspect\":[],\"note\":\"Retain this program for successor stages. The state-dependent C term is essential for u!=0: it absorbs the 2*u*g cross-term in the whole residual. Key invariants: (1) (1+u)>0 and (1+u)^2+r>0 on the closed outer rectangle, guaranteeing sqrt domain; (2) outside chi support the host applies g=r/2 by design; (3) generation-2 targets shift r by O(tau^2)~O(1e-4) or O(tau^3)~O(1e-6), keeping in-support points well within the chi rectangle. Do not reset the field; each stage consumes the actual stored z. The analytic-domain certificate remains CONDITIONAL_SMOOTH_FAMILY (ANALYTIC_ON_CORE_NEIGHBORHOOD); this is a source-relative coefficient family, not a full PDE certificate.\"}",
+    "role": "assistant"
+  },
+  "usage": {
+    "completion_tokens": 2982,
+    "prompt_tokens": 63805,
+    "total_tokens": 66787
+  }
+}

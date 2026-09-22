@@ -1,0 +1,18 @@
+
+
+have hsl_eq : slotRadius r0 h n ^ 2 = ChartScales.slotLength r0 h n := slotRadius_sq hr0 h n
+  have hnorm := normalizedPair_entry_error P hP (H0 p) hE hD (by
+    intro j i v hv
+    have hv' : v ∈ Icc 0 (ChartScales.slotLength r0 h n) := by
+      rw [hsl_eq]
+      exact hv
+    simpa [hsl_eq] using hratio j i v hv'
+  ) i j
+  calc
+    |normalizedPair P i j - H0 p i j| ≤ (E + D * PulseCovariance.concentrationConstant a A b B) / slotRadius r0 h n := hnorm
+    _ ≤ (E + D * |PulseCovariance.concentrationConstant a A b B|) / slotRadius r0 h n := by
+      apply (div_le_iff hr).mpr
+      have := mul_le_mul_of_nonneg_left (le_abs_self (PulseCovariance.concentrationConstant a A b B)) hD
+      linarith
+    _ = Q / slotRadius r0 h n := by dsimp [Q]
+    _ ≤ rho := hsmall

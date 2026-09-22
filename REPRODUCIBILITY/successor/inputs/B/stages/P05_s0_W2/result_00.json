@@ -1,0 +1,12 @@
+{
+  "finish_reason": "stop",
+  "message": {
+    "content": "{\"B_expression\":\"-1/(2*(1+sqrt(1+r))**2)\",\"C_expression\":\"-1/2\",\"derivation\":\"Retained B = -1/(2*(1+sqrt(1+r))**2) unchanged: it makes g = r/2 + r^2*B equal to sqrt(1+r)-1 exactly (verified by the substitution s=sqrt(1+r), r=s^2-1), so the pure remainder 2g+g^2-r vanishes identically when u=0. Added C = -1/2 to address the whole-residual cross term. With C=-1/2 the applied increment becomes g = (s-1) + u*r*(-1/2) (inside chi support). Expanding the whole residual E = (z+g)^2 - p with z=1+u, p=1+r: E = 2u(s-1) + 2urC(s+u) + u^2*r^2*C^2. Setting C=-1/2 gives E = 2u(s-1) - ur(s+u) + u^2*r^2/4 = u*(2s-2-r*(s+u)) + u^2*r^2/4. Since 2(s-1) = r - r^2/4 + O(r^3) and r(s+u) = r + r^2/2 + ru + O(r^3, r^2u), the leading O(ur) term cancels: E = O(u^2*r + u*r^2). For the observed UNIFORM points (u~8e-3, r~2e-6) the residual drops from ~1.6e-8 (C=0, dominated by ur) to ~1.3e-10 (C=-1/2, dominated by -u^2*r). C is a negative constant, trivially C-infinity on all of R^2, introducing no domain restriction beyond what B already requires (r>-1, satisfied on |r|<=1/2). At u=0 the C term vanishes (ur*C=0), preserving the exact pure-remainder cancellation. For |u|>=1/4 the chi_u gate is zero and C has no effect; in the transition zone 1/8<|u|<1/4 the smooth C-infinity step modulates the C contribution continuously. No singularities, no branch cuts, no max/min clipping.\",\"inspect\":[{\"file_id\":\"CALC/draft.json\",\"limit\":4096,\"offset\":0}],\"note\":\"Successor should verify: (1) at u=0 the B-only exact cancellation is unchanged (C contributes 0); (2) for UNIFORM points with |u|~8e-3 the residual should drop from O(ur)~1e-8 to O(u^2*r)~1e-10; (3) for LEFT/RIGHT edge points with |u|>1/4, chi_u=0 so C has no effect and only r/2+B correction applies; (4) C=-1/2 is a constant with no domain restrictions, so the analytic certificate for B carries over unchanged; (5) the next stage (p2=p1+tau^3*k2) will have r~tau^3~5e-7 making both r^2*B and ur*C below double-precision significance, so the program effectively reduces to g=r/2 there; (6) if a future stage produces points with |u| in (1/8,1/4) and |r|~1e-3, the interaction between the smooth chi_u transition and the C term should be monitored numerically; (7) this is a two-slot covariance quotient operator, not a full PDE certificate.\"}",
+    "role": "assistant"
+  },
+  "usage": {
+    "completion_tokens": 12149,
+    "prompt_tokens": 63093,
+    "total_tokens": 75242
+  }
+}

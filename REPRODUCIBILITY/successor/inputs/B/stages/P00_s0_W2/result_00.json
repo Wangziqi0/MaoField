@@ -1,0 +1,12 @@
+{
+  "finish_reason": "stop",
+  "message": {
+    "content": "{\"B_expression\":\"-1/(2*(1+u)*(sqrt((1+u)**2+r)+1+u)**2)\",\"C_expression\":\"-1/(2*(1+u))\",\"derivation\":\"Retained unchanged from P00_W1. The bodies implement the exact Newton correction g_exact = sqrt((1+u)^2+r) - (1+u) decomposed into the host slot r^2*B + u*r*C = g_exact - r/2. Setting a = 1+u and s = sqrt(a^2+r), the rationalization identity r/(s+a)^2 = (s-a)/(s+a) gives B = -1/(2*a*(s+a)^2) and C = -1/(2*a), which algebraically satisfies r^2*B + u*r*C = s - a - r/2 for all a>0, a^2+r>0. On the outer rectangle |r|<=1/2, |u|<=1/4 we have a>=3/4 and a^2+r>=1/16>0, so both bodies are C-infinity on an open neighborhood. Numerical feedback from generation 1 confirms: all rows with chi_r*chi_u=1 achieve residuals at or below machine precision (<=2e-71); rows outside the inner support (e.g. LEFT x=63/64 s=1 with z~=-143) fall to g=r/2 by design via chi attenuation. For the current stage (p2 = p1 + tau^3*k2), the UNIFORM rows carry u~O(1e-3) and r~O(1e-5..1e-6), well inside both chi supports; the edge families with |z|>>1 remain outside the rectangle and use the linear fallback. No revision is warranted.\",\"inspect\":[{\"file_id\":\"CALC/draft.json\",\"limit\":4096,\"offset\":0}],\"note\":\"Program retained. Successor checks for the next target stage: (1) u carries forward from z_after of this stage; for UNIFORM rows u remains O(tau^2)~O(1e-5) at t=1/256, safely inside chi_u inner support |u|<=1/8; (2) edge families (LEFT/RIGHT/BOTH) with |z|>>1 have |u|>1/4 so chi_u=0 and the step reverts to g=r/2—designed behavior, not a failure; (3) the LEFT x=63/64 s=1 row (z~=-143) and RIGHT x=63/64 s=1 row (z~=-543) are far outside the rectangle; their residuals are large but weighted by the flat-shell weight exp(-1/x^2-1/(1-x)^2) to negligible contribution; (4) ZERO family stays at z=1.0 exactly (r=0, u=0, g=0); (5) analytic-domain certificate is ANALYTIC_ON_CORE_NEIGHBORHOOD (sufficient composition/domain certificate, not full NS proof); (6) the smoothness of both bodies is verified on a strict neighborhood of the closed rectangle; no max-clipped roots or conditional branches that could introduce nonsmoothness are present.\"}",
+    "role": "assistant"
+  },
+  "usage": {
+    "completion_tokens": 1927,
+    "prompt_tokens": 64395,
+    "total_tokens": 66322
+  }
+}

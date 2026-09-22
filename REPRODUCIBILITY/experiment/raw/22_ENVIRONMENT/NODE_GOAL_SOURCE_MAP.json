@@ -1,0 +1,28 @@
+{
+  "file_sha256": "571a45c575a39523475c96b3789d331ba2c07a0c80e8fb477790a5d6e1b299d7",
+  "records": [
+    {
+      "goal_declaration": "NavierStokes.PrimaryCovarianceBounds.checkpoint_bridge_goal",
+      "original_declaration": "NavierStokes.PrimaryCovarianceBounds.compact_chart_pair_bounds",
+      "signature_byte_range": [
+        18769,
+        20138
+      ],
+      "source_path": "[HOST_PATH_REDACTED]",
+      "source_sha256": "7417f840e9689a41504a1cc368acc04d565d2c5bac2cca3959675a9a86b97862",
+      "transformation": "Exact signature represented as a Prop definition; implicit enclosing real parameters explicitly quantified; original universe parameter u_1 retained."
+    },
+    {
+      "goal_declaration": "NavierStokes.PrimaryTargetBounds.checkpoint_family_goal",
+      "original_declaration": "NavierStokes.PrimaryTargetBounds.exists_family_bounds",
+      "signature_byte_range": [
+        25360,
+        26333
+      ],
+      "source_path": "[HOST_PATH_REDACTED]",
+      "source_sha256": "56ef8f911a7805f72657b5c6671a7049c9d81fba5f2cac3139a57e3f67672f0f",
+      "transformation": "Exact signature represented as a Prop definition; implicit enclosing real parameters explicitly quantified; original universe parameter u_1 retained."
+    }
+  ],
+  "universe_alpha_equivalence": "Original family theorem parameter is u_2; generated goal parameter is u_1. Audit aligns equal-length parameter lists bijectively with rigid levels, not specialization."
+}

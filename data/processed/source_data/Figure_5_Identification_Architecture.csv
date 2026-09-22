@@ -1,8 +1,0 @@
-section,scenario,dn_truth,uf_truth,dn_response,uf_response,dn_accuracy,uf_accuracy,contrast,source_or_status
-counterexample,perfect_recovery,1,0,1,0,1,1,0,post-hoc identification audit
-counterexample,arm_blind_constant_true,1,0,1,1,1,0,1,post-hoc identification audit
-phase23,exact_invariance_main_and_sealed,,,,,,,0,"U/A_FT/P/O; intervals [0,0]"
-phase23,qwen_A_SIB_minus_R_main,,,,,,,-0.9792,"simultaneous interval [-1.0417,-0.8958]"
-phase23,qwen_A_SIB_minus_R_sealed,,,,,,,-1,sealed-16
-glm,ordinary_controls,,,,,,,,P 30/32; O 23/32; A_FT 26/32; U 25/32
-glm,structure_criterion,,,,,,,,31/32; invalid: one renderer mismatch + one typed missing

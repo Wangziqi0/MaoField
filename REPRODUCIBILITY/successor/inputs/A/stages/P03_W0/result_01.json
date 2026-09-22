@@ -1,0 +1,15 @@
+{
+  "finish_reason": "stop",
+  "message": {
+    "content": "{\"B_expression\":\"-1/(2*(1+sqrt(1+r))**2)\",\"C_expression\":\"-1/2\",\"derivation\":\"Retain the draft program. The B body is the source exact-root correction: when u=0, g = r/2 + r^2*B(r) = r/(1+sqrt(1+r)) = sqrt(1+r)-1, giving (1+g)^2 = 1+r = p exactly. The C body is the constant -1/2, which cancels the leading O(ur) cross term in E = 2(1+u)g + g^2 - r (the O(ur) coefficient is 1+2C, zero at C=-1/2). Numerical feedback confirms: all in-support rows (|r|<=1/4, u=0) show residuals at or below 2e-71 (machine epsilon at 70-digit precision), down from ~6e-5 with the linear reference. The single out-of-support row (r=-1, |r|>1/2, chi_r=0) retains the uncorrected linear residual 0.25 by design. Both bodies are C-infinity on an open neighborhood of the closed outer rectangle: sqrt(1+r)>0 for all r>-1 (domain includes r>-1/2), and -1/2 is a constant.\",\"inspect\":[],\"note\":\"All currently displayed rows have u=0, so the C=-1/2 cross-term correction has not yet been numerically exercised. A successor should verify on the next stage (or a family with nonzero u) that the O(ur) residual is suppressed and no new instability appears in the chi transition bands (|r| near 1/2 or |u| near 1/4). The r=-1.0 LEFT row is permanently outside chi_r support and will always show the uncorrected g=r/2 residual; this is expected and not a failure. No analytic certificate has been issued; the smoothness claim rests on the explicit algebraic form (rational in sqrt(1+r), constant) being C-infinity for r>-1. This is a local coefficient-field construction for the fixed two-slot quotient; it does not establish global NS admissibility or any PDE estimate.\"}",
+    "role": "assistant"
+  },
+  "usage": {
+    "completion_tokens": 4018,
+    "prompt_tokens": 13379,
+    "prompt_tokens_details": {
+      "cached_tokens": 10400
+    },
+    "total_tokens": 17397
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "finish_reason": "stop",
+  "message": {
+    "content": "",
+    "role": "assistant"
+  },
+  "usage": {
+    "completion_tokens": 1,
+    "prompt_tokens": 70917,
+    "prompt_tokens_details": {
+      "cached_tokens": 62400
+    },
+    "total_tokens": 70918
+  }
+}

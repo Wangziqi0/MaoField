@@ -1,0 +1,15 @@
+{
+  "finish_reason": "stop",
+  "message": {
+    "content": "{\"B_expression\":\"-1/(2*(1+sqrt(1+r))**2)\",\"C_expression\":\"0\",\"derivation\":\"Retained unchanged from P05_W1 terminal. The B term cancels the pure quadratic remainder 2g+g^2-r identically at u=0 (verified: with s=sqrt(1+r), r^2*B = s-1-r/2 exactly, so 2(r/2+r^2*B)+(r/2+r^2*B)^2-r = 0). C=0 is correct: the cross term 2*u*g in E=(2g+g^2-r)+2ug is structural (arising from the z=1+u normalization), and the P05_W1 analysis showed that adding C=-1/2 would shift g by ur*C~7e-7, changing E by ~1.5e-6 and degrading the observed 1e-8 residual by five orders of magnitude. Numerical confirmation from this stage: UNIFORM interior points show |residual|~1.2e-8 to 2.7e-11 with |pure|~1.5e-6 nearly cancelled by |cross|~1.5e-6 (the 2ug cross is the dominant remaining term and is not removable by a C correction without destroying the pure cancellation). Edge points (|r|>1/4 or |u|>1/4) fall outside chi support and receive only g=r/2, as designed. The sqrt(1+r) argument satisfies 1+r>=1/2>0 on the full outer rectangle |r|<=1/2, so B is C-infinity on an open neighborhood of the closed rectangle. For the next target increment p2=p1+tau^3*k2, r~tau^3~5e-7 and r^2*B~1e-13 is below double-precision significance, so the program effectively reduces to g=r/2 with the B correction in the noise floor. No revision is warranted.\",\"inspect\":[{\"file_id\":\"CALC/draft.json\",\"limit\":4096,\"offset\":0}],\"note\":\"Successor retains this program. Key invariants: (1) B cancels pure remainder at u=0 exactly; (2) C=0 is optimal because the 2ug cross is structural and not independently correctable without degrading the pure cancellation; (3) at the next stage r~tau^3~5e-7 makes r^2*B~1e-13 (below precision), so the program acts as g=r/2; (4) edge points with |r|>1/4 or |u|>1/4 receive only the r/2 linear step (chi gates are zero); (5) the certificate is ANALYTIC_ON_CORE_NEIGHBORHOOD for both B and C on the rectangle r in [-1/2,1/2], u in [-1/4,1/4]; (6) this is a two-slot covariance quotient coefficient operator scoped to Proposition 7.6's local structure, not a full PDE certificate; (7) if a future stage produces points in the transition zone 1/8<|u|<1/4 with |r|~1e-3, monitor the chi_u smooth-step interaction numerically.\"}",
+    "role": "assistant"
+  },
+  "usage": {
+    "completion_tokens": 5023,
+    "prompt_tokens": 71737,
+    "prompt_tokens_details": {
+      "cached_tokens": 62400
+    },
+    "total_tokens": 76760
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "finish_reason": "stop",
+  "message": {
+    "content": "{\n  \"B_expression\": \"-1/8\",\n  \"C_expression\": \"-1/2 + u/2\",\n  \"derivation\": \"Retain the inherited D1 coefficient pair. With u=z-1, r=p-z^2, and g=r/2+d inside the chi_r chi_u support, the whole signed residual is E=(z+g)^2-p=r^2/4+ur+(2+2u+r)d+d^2, where d=r^2B+urC. Setting B=-1/8 and C=-1/2+u/2 gives d=-r^2/8-ur/2+u^2r/2. Then 2d cancels the quadratic terms r^2/4 and ur, while the added u^2r term cancels the -u^2r produced by 2u*(-ur/2). Thus the cubic u^2r term present with the older constant C=-1/2 is removed, and the remaining local residual is -r^3/8-3ur^2/4+O(4) in the small variables r,u. Both bodies are polynomials, hence C-infinity on an open neighborhood of the closed outer rectangle. The fixed chi_r and chi_u windows gate this correction smoothly and revert to the linear step r/2 outside the inner core. This is a local smooth coefficient-family construction only; it is not a full Navier-Stokes or PDE certificate.\",\n  \"inspect\": [],\n  \"note\": \"Successor should check CALC/draft.json to confirm that small-u UNIFORM rows leave the constant-C u^2r defect scale (about 1.2e-8 for the t=1/64 x=1/8 row) and sit near the remaining cubic scale, dominated by |3ur^2/4|. If a later stage wants an O(4) local remainder, B could be extended to -1/8+r/16+3u/8, but that is not adopted here. ZERO rows remain unchanged; rows outside the chi support use the linear step and are not reset. No analytic certificate beyond immediate polynomial smoothness is claimed.\"\n}",
+    "role": "assistant"
+  },
+  "usage": {
+    "completion_tokens": 24921,
+    "prompt_tokens": 62873,
+    "total_tokens": 87794
+  }
+}

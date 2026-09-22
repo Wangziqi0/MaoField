@@ -1,0 +1,12 @@
+figure_file_stem,input_relative_path,input_sha256,generator,evidence_note
+figure1_practice_cycle,SUBMISSION/manuscript.md,31e935dd4b109f0ca9657a04c1e05733452eb24cd1bd3eb43ef4f89f11921ce6,BUILD/figures.py,See FIGURE_SOURCE_MAP.csv and claim ledger; analytic values are not observations.
+figure1_practice_cycle,SOURCE_DATA/successor/audit_result.json,0c152b6bfbfa142a94c5ae2e74781862156611379ca5e3a03c60113212c77836,BUILD/figures.py,See FIGURE_SOURCE_MAP.csv and claim ledger; analytic values are not observations.
+figure2_finite_separation,SOURCE_DATA/figure2_analytic_curve.csv,b08f5eef43f8978fc70ba84f36413b266937d2138cb244545ce709c22c4b3b24,BUILD/figures.py,See FIGURE_SOURCE_MAP.csv and claim ledger; analytic values are not observations.
+figure2_finite_separation,SUBMISSION/supplementary_information.md,2ec0254490d5486dfdcf0036c7903c9a151e7e7305f8ba4019c24dec638e6a46,BUILD/figures.py,See FIGURE_SOURCE_MAP.csv and claim ledger; analytic values are not observations.
+figure3_hclose_application,SUBMISSION/manuscript.md,31e935dd4b109f0ca9657a04c1e05733452eb24cd1bd3eb43ef4f89f11921ce6,BUILD/figures.py,See FIGURE_SOURCE_MAP.csv and claim ledger; analytic values are not observations.
+figure3_hclose_application,SOURCE_DATA/attempts.json,9fd9109f1b6f5026c341feec5d5584651e2dd2a71d646b4514322d0d216fbedb,BUILD/figures.py,See FIGURE_SOURCE_MAP.csv and claim ledger; analytic values are not observations.
+figure4_recorded_attempts,SOURCE_DATA/successor/selected_witnesses.json,e04de5133094d80de7643b08a05507052d21558ebf36fa0ec7bb66558c8c5a5f,BUILD/figures.py,See FIGURE_SOURCE_MAP.csv and claim ledger; analytic values are not observations.
+figure4_recorded_attempts,SOURCE_DATA/successor/cohort_status.json,b582f006537329717eeacf05124807ca0a11330947dd81cbc31b43f5c3e29f73,BUILD/figures.py,See FIGURE_SOURCE_MAP.csv and claim ledger; analytic values are not observations.
+figure4_recorded_attempts,SOURCE_DATA/successor/version_identity.json,083d89395820f69634589c905197231ad1d8b77a03c6da3c0ae9f3d7bb5a447e,BUILD/figures.py,See FIGURE_SOURCE_MAP.csv and claim ledger; analytic values are not observations.
+extended_data_figure1_tokens,SOURCE_DATA/attempts.json,9fd9109f1b6f5026c341feec5d5584651e2dd2a71d646b4514322d0d216fbedb,BUILD/figures.py,See FIGURE_SOURCE_MAP.csv and claim ledger; analytic values are not observations.
+extended_data_table1_history,SOURCE_DATA/extended_data_table1_history.csv,7d4af090d7142c162fab8a2efad16d2a8096d14e5d5a5e84387ecd347ed1fb8b,BUILD/figures.py,See FIGURE_SOURCE_MAP.csv and claim ledger; analytic values are not observations.

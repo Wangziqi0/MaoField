@@ -1,0 +1,98 @@
+[
+  {
+    "identical_code": true,
+    "initial": {
+      "B": "-1/(2*(1+u)*(sqrt((1+u)**2+r)+1+u)**2)",
+      "C": "-1/(2*(1+u))"
+    },
+    "parent_id": "P00",
+    "revised": {
+      "B": "-1/(2*(1+u)*(sqrt((1+u)**2+r)+1+u)**2)",
+      "C": "-1/(2*(1+u))"
+    }
+  },
+  {
+    "identical_code": true,
+    "initial": {
+      "B": "-1/(2*(1+sqrt(1+r))**2)",
+      "C": "0"
+    },
+    "parent_id": "P01",
+    "revised": {
+      "B": "-1/(2*(1+sqrt(1+r))**2)",
+      "C": "0"
+    }
+  },
+  {
+    "identical_code": true,
+    "initial": {
+      "B": "-1/(2*(1+u)*((1+u)+sqrt((1+u)**2+r))**2)",
+      "C": "-1/(2*(1+u))"
+    },
+    "parent_id": "P02",
+    "revised": {
+      "B": "-1/(2*(1+u)*((1+u)+sqrt((1+u)**2+r))**2)",
+      "C": "-1/(2*(1+u))"
+    }
+  },
+  {
+    "identical_code": true,
+    "initial": {
+      "B": "-1/(2*(1+sqrt(1+r))**2)",
+      "C": "-1/2"
+    },
+    "parent_id": "P03",
+    "revised": {
+      "B": "-1/(2*(1+sqrt(1+r))**2)",
+      "C": "-1/2"
+    }
+  },
+  {
+    "identical_code": true,
+    "initial": {
+      "B": "-1/(2*(1+sqrt(1+r))**2)",
+      "C": "-1/(sqrt(1+r)*(1+sqrt(1+r)))"
+    },
+    "parent_id": "P04",
+    "revised": {
+      "B": "-1/(2*(1+sqrt(1+r))**2)",
+      "C": "-1/(sqrt(1+r)*(1+sqrt(1+r)))"
+    }
+  },
+  {
+    "identical_code": true,
+    "initial": {
+      "B": "-1/(2*(1+sqrt(1+r))**2)",
+      "C": "0"
+    },
+    "parent_id": "P05",
+    "revised": {
+      "B": "-1/(2*(1+sqrt(1+r))**2)",
+      "C": "0"
+    }
+  },
+  {
+    "identical_code": true,
+    "initial": {
+      "B": "-1/(2*(1+u)**3*(sqrt(1+r/(1+u)**2)+1)**2)",
+      "C": "-1/(2*(1+u))"
+    },
+    "parent_id": "P06",
+    "revised": {
+      "B": "-1/(2*(1+u)**3*(sqrt(1+r/(1+u)**2)+1)**2)",
+      "C": "-1/(2*(1+u))"
+    }
+  },
+  {
+    "identical_code": false,
+    "initial": {
+      "B": "-1/8",
+      "C": "-1/2"
+    },
+    "parent_id": "P07",
+    "revised": {
+      "B": "-1/8",
+      "C": "-1/2 + u/2"
+    }
+  }
+]

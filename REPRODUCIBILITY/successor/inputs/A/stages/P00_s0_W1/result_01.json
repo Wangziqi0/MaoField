@@ -1,0 +1,15 @@
+{
+  "finish_reason": "stop",
+  "message": {
+    "content": "{\n  \"B_expression\": \"-1/(2*(1+sqrt(1+r))**2)\",\n  \"C_expression\": \"(-1)*((1/(sqrt((1+u)**2 + r) + (1+u))) + (1/(sqrt(1+r) + 1))) / (sqrt((1+u)**2 + r) + sqrt(1+r))\",\n  \"derivation\": \"Retain the source B and revise C to a smooth closed form that cancels the whole residual on the inner support. Let a=1+u, T=sqrt(1+r), S=sqrt(a*a+r). The source B gives r/2+r*r*B=T-1. With C=-(1/(S+a)+1/(T+1))/(S+T), the identity a+1-S-T=-r/(S+a)-r/(T+1) gives u*r*C=S-T-u. Hence g=r/2+r*r*B+u*r*C=S-a=sqrt((1+u)*(1+u)+r)-(1+u), so E=(a+g)^2-(a*a+r)=0 where chi_r*chi_u=1. Where the cutoff is partial, g=(1-chi)*r/2+chi*(S-a); where chi=0 the bare linear step r/2 is used. B is analytic for r>-1. C is analytic on the open set r>-1, a>0, a*a+r>0; the closed outer rectangle |r|<=1/2, |u|<=1/4 satisfies a>=3/4 and a*a+r>=1/16, so it lies inside such a neighborhood. This is a local coefficient-field operator for the two-slot covariance quotient, not a full NS certificate.\",\n  \"inspect\": [],\n  \"note\": \"Successor should retain this exact inner-support cancellation if local residual control is the objective. It does not establish global stability, full PDE estimates, or the Navier-Stokes theorem. Check the domain conditions r>-1 and (1+u)^2+r>0; the current outer rectangle is safely inside, but a future state approaching that boundary would need a different domain certificate or cutoff. Outside chi support, large-u rows receive only r/2, so large residuals there are expected. No max-clipped root is used; finite numeric checks do not replace the analytic-domain condition.\"\n}",
+    "role": "assistant"
+  },
+  "usage": {
+    "completion_tokens": 20434,
+    "prompt_tokens": 58120,
+    "prompt_tokens_details": {
+      "cached_tokens": 47840
+    },
+    "total_tokens": 78554
+  }
+}

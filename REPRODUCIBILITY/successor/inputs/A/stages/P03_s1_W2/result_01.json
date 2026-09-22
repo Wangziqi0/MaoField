@@ -1,0 +1,15 @@
+{
+  "finish_reason": "stop",
+  "message": {
+    "content": "{\"B_expression\":\"-1/(2*(1+sqrt(1+r))**2)\",\"C_expression\":\"-1/2\",\"derivation\":\"Retain the inherited program unchanged. Local operation: with g = r/2 + chi_r*chi_u*(r^2*B + u*r*C) and the whole residual E = (2g+g^2-r)+2*u*g, expanding to leading orders gives E = r^2*(2B+1/4) + u*r*(2C+1) + higher. The source-exact B(r) = -1/(2*(1+sqrt(1+r))^2) satisfies 2B(r)+1/4 = 0 to all orders in r (equivalently, g = r/(1+sqrt(1+r)) = sqrt(1+r)-1 gives (1+g)^2 = 1+r = p exactly when u=0). The constant C = -1/2 gives 2C+1 = 0, canceling the leading O(ur) cross term. Numerical confirmation at generation 1: all in-support UNIFORM rows (|r|~1.5e-6, |u|~0.008) show |residual| in [6.7e-11, 1.1e-10], consistent with the O(r^3)+O(u^2*r)+O(ur^2) remainder after the leading cancellations. The pure quadratic (~1.5e-6) and cross term (~1.5e-6) cancel to ~7 significant figures, leaving the higher-order floor. Out-of-support rows (|u|>1/4, e.g., LEFT x=1/8 s=0 with u=-0.625) correctly receive only g=r/2 with the uncorrected linear residual. Both bodies are C-infinity on an open neighborhood of the closed rectangle r in [-1/2,1/2], u in [-1/4,1/4]: sqrt(1+r)>0 for r>-1 (encompassing the r-rectangle), and -1/2 is constant. No revision is warranted.\",\"inspect\":[{\"file_id\":\"CALC/draft.json\",\"limit\":4096,\"offset\":0}],\"note\":\"Retained source-exact B and constant C=-1/2 unchanged. Local construction only; does not establish global NS well-posedness, all-order PDE estimates, or any theorem beyond the algebraic coefficient cancellation. Successor checks: (a) At the next target increment (p1=p0+tau^2*k1), in-support rows will have |r|=O(tau^2)~6e-5 and |u|=O(tau)~0.004; expect residuals at or below ~1e-8 (O(r^2*u)+O(u^2*r) floor). (b) The chi_u transition band (|u| in [1/8,1/4]) will partially engage C; monitor for no numerical stiffness. (c) Large-amplitude rows (|z|>>1, e.g., BOTH x=63/64 with z~-143) remain permanently outside chi support and use only g=r/2; their large residuals are structural. (d) Analytic certificate: ANALYTIC_ON_CORE_NEIGHBORHOOD for both bodies (confirmed in feedback). Certificate status CONDITIONAL_SMOOTH_FAMILY is sufficient for the local coefficient-field task.\"}",
+    "role": "assistant"
+  },
+  "usage": {
+    "completion_tokens": 2588,
+    "prompt_tokens": 64492,
+    "prompt_tokens_details": {
+      "cached_tokens": 56160
+    },
+    "total_tokens": 67080
+  }
+}

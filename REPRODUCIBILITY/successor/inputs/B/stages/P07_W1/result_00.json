@@ -1,0 +1,12 @@
+{
+  "finish_reason": "stop",
+  "message": {
+    "content": "{\n  \"B_expression\": \"-1/8\",\n  \"C_expression\": \"-1/2\",\n  \"derivation\": \"Retain the constant bodies B=-1/8, C=-1/2 inherited from P07_W0. The residual after the linear step g0=r/2 is E0=(r/2)^2 - r^2/2 + 2*u*(r/2) = -r^2/4 + ur (using z=1+u, p=z^2+r). The correction delta=r^2*B+u*r*C modifies g by chi_r*chi_u*delta, shifting E by 2*delta to first order in delta. Setting B=-1/8 gives 2*r^2*B=-r^2/4, cancelling the pure quadratic term. Setting C=-1/2 gives 2*u*r*C=-ur, cancelling the cross term. The remaining residual is O(r^3, r^2*u, u^2*r, ...), all degree >= 3 in the small variables. Both bodies are constants, hence C-infinity on all of R^2, with no domain restrictions. The chi_r and chi_u windows gate the correction to the inner rectangle |r|<=1/4, |u|<=1/8; outside, the program reverts to the pure linear step g=r/2. Numerical feedback from P07_W0 confirms: UNIFORM rows (u=0, r~2e-4) show residuals ~5e-8 consistent with the r^2-to-r^3 improvement over the linear reference; LEFT/RIGHT rows with |r|>1/4 correctly receive no correction; rows with |u|>1/4 also correctly bypass the u-channel. At successor stages (t=1/128, 1/256, 1/512) the r values shrink by factors of 2 or 4 per stage, making the cubic-and-higher remainder proportionally smaller. No change is indicated by the available feedback.\",\n  \"inspect\": [\n    {\n      \"file_id\": \"CALC/draft.json\",\n      \"limit\": 4096,\n      \"offset\": 0\n    }\n  ],\n  \"note\": \"Retained unchanged. B=-1/8, C=-1/2 are constant smooth bodies cancelling the O(r^2) and O(ur) components of the signed residual. Successor stages at smaller tau will have proportionally smaller remainders. If a future stage accumulates non-trivial u (|u| approaching 1/8), the O(u^2*r) and O(r^2*u) cross-terms in the cubic remainder may become visible; a u-dependent C(r,u) could then be considered, but no such need appears in the current data. The state variable is carried forward; ZERO rows remain exactly z=1.0. No analytic certificate is claimed; smoothness is immediate from the constant form.\"\n}",
+    "role": "assistant"
+  },
+  "usage": {
+    "completion_tokens": 7808,
+    "prompt_tokens": 41561,
+    "total_tokens": 49369
+  }
+}

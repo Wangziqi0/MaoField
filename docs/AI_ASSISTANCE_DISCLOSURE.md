@@ -1,5 +1,0 @@
-# AI-assistance disclosure
-
-Early repository development used Anthropic Claude; the corresponding historical commit metadata, including existing Claude `Co-Authored-By` trailers, is preserved without rewriting or replacement. Final Phase 23 analysis, manuscript drafting and release engineering used ChatGPT Pro/Web Pro and OpenAI Codex for evidence organization, code review, language editing, preliminary layout ideation and deterministic repository engineering. Yifan Chen is the sole human author and retained full responsibility for scientific judgement, statistical decisions, claims, final text and released artifacts, independently verifying the reported calculations, source bindings and final figures. All scientific figures were generated deterministically from source data and manually checked; no generative-AI artwork was used. Credentials, private keys and external peer-review material were not included in the reproducibility repository.
-
-The `main` branch is the sole authoritative R3.0/NMI reproducibility branch. Every other branch is retained only as a historical record and is not a release, citation or reproduction authority.

@@ -1,0 +1,12 @@
+{
+  "finish_reason": "stop",
+  "message": {
+    "content": "{\"B_expression\":\"-1/(2*(1+sqrt(1+r))**2)\",\"C_expression\":\"-1/(sqrt(1+r)*(1+sqrt(1+r)))\",\"derivation\":\"The active B retains the source-only Newton-step cancellation of the pure remainder (2g+g^2-r) at u=0. The new C extends the same matching to the cross term 2ug. Derivation: the exact increment solving (1+u+g)^2=(1+u)^2+r is g_exact=sqrt((1+u)^2+r)-(1+u). Expanding in u for small u: g_exact = (sqrt(1+r)-1) + u*(1/sqrt(1+r)-1) + O(u^2). The O(u) term equals -u*(sqrt(1+r)-1)/sqrt(1+r) = -u*r/(sqrt(1+r)*(1+sqrt(1+r))). Since the coefficient form g = r/2 + r^2*B + u*r*C captures the u-correction only through u*r*C, matching the O(ur) part gives C = -1/(sqrt(1+r)*(1+sqrt(1+r))). With this choice, the leading cross term 2*u*(r/2) is cancelled: the pure-remainder shift P(C) = u*r*2C + O(ur^2) contributes approximately -ur, while 2ug still contributes +ur, so their sum is O(ur^2 + u^2*r) rather than O(ur). For the actual generation-1 states (UNIFORM rows with |u|~0.001, LEFT/RIGHT/BOTH interior rows with |u|~0.01, |r|~tau^2*k1 ~ 1e-4 to 1e-3), the residual drops from ~1e-5 to ~1e-8. Both B and C are smooth for r>-1 (sqrt(1+r)>0), strictly containing the outer rectangle |r|<=1/2. No smoothness certificate is claimed; the expression is C-infinity on an open neighborhood of the closed rectangle by composition of smooth functions on (−1,∞). Outside chi support the bare r/2 applies unchanged. This is a local coefficient-field operator, not a full PDE solution.\",\"inspect\":[{\"file_id\":\"CALC/initial.json\",\"limit\":4096,\"offset\":0}],\"note\":\"Successor at generation>=2 should check: (1) whether the C-term residual reduction (O(ur)->O(ur^2+u^2*r)) is visible in the APPLIED rows now that u is nonzero; (2) the LEFT/RIGHT/BOTH edge points with |z| far from 1 (e.g. z=-15, z=17) have |u|>>1/4 so chi_u=0 and the bodies are inactive there--they receive only g=r/2; (3) the ZERO family remains exactly z=1, r=0, u=0, E=0 regardless of B,C; (4) the chi_r transition at |r|=1/4 to 1/2 is fixed C-infinity and not modified by the body. The C expression -1/(sqrt(1+r)*(1+sqrt(1+r))) is bounded in [-0.83,-0.37] over the rectangle, so no overflow risk. The source-only u=0 exact-cancel property is preserved: at u=0 the C term vanishes and B alone gives g=sqrt(1+r)-1 with zero pure remainder.\"}",
+    "role": "assistant"
+  },
+  "usage": {
+    "completion_tokens": 11148,
+    "prompt_tokens": 49254,
+    "total_tokens": 60402
+  }
+}

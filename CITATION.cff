@@ -1,32 +1,12 @@
 cff-version: 1.2.0
-message: "If you use this work, please cite the preprint or published Article."
-title: "Opposed statistical extremes reveal an identification boundary in causal tests of AI scientific agents"
+message: "Please cite the manuscript and versioned software when public identifiers become available."
+title: "Why can equal results lead to different scientific futures"
 type: software
 authors:
   - family-names: Chen
     given-names: Yifan
+    affiliation: "Independent researcher, Lu’an, China"
     orcid: "https://orcid.org/0009-0008-8344-1149"
-version: "R3.0"
+version: "V8-local-candidate"
 repository-code: "https://github.com/Wangziqi0/MaoField"
 license: "Apache-2.0"
-doi: "10.5281/zenodo.22209301"
-url: "https://github.com/Wangziqi0/MaoField/releases/tag/R3.0"
-identifiers:
-  - type: doi
-    value: "10.5281/zenodo.22209301"
-    description: "MaoField R3.0 software archive"
-  - type: doi
-    value: "10.5281/zenodo.22209309"
-    description: "MaoField R3.0 source data"
-  - type: doi
-    value: "10.5281/zenodo.22209245"
-    description: "Canonical preprint"
-preferred-citation:
-  type: article
-  title: "Opposed statistical extremes reveal an identification boundary in causal tests of AI scientific agents"
-  authors:
-    - family-names: Chen
-      given-names: Yifan
-      orcid: "https://orcid.org/0009-0008-8344-1149"
-  doi: "10.5281/zenodo.22209245"
-  year: 2026

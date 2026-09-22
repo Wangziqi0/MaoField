@@ -1,7 +1,0 @@
-condition,ordinary_successes,ordinary_n,ordinary_valid
-DS_V4_FLASH_NONTHINKING,0,16,False
-DS_V4_FLASH_THINKING_HIGH,0,16,False
-MISTRAL_NEMO,0,16,False
-PHI4,0,16,False
-QWEN3_14B,0,16,False
-QWEN3_8B_SECONDARY,0,16,False

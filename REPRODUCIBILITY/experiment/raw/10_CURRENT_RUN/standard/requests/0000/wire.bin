@@ -1,0 +1,8 @@
+data: {"choices": [{"index": 0, "delta": {"role": "assistant", "content": ""}, "finish_reason": null}]}
+
+data: {"choices": [{"index": 0, "delta": {}, "finish_reason": "length"}]}
+
+data: {"usage": {"prompt_tokens": 2541, "total_tokens": 35309, "completion_tokens": 32768, "prompt_tokens_details": {"cached_tokens": 2080}}}
+
+data: [DONE]
+

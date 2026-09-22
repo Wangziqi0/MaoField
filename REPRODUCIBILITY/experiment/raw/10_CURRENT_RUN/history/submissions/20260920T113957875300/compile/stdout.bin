@@ -1,0 +1,172 @@
+✖ [3409/3409] Building Branch.Direct (4.2s)
+trace: .> LEAN_PATH=/work/.lake/packages/Cli/.lake/build/lib/lean:/work/.lake/packages/batteries/.lake/build/lib/lean:/work/.lake/packages/Qq/.lake/build/lib/lean:/work/.lake/packages/aesop/.lake/build/lib/lean:/work/.lake/packages/proofwidgets/.lake/build/lib/lean:/work/.lake/packages/importGraph/.lake/build/lib/lean:/work/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/work/.lake/packages/plausible/.lake/build/lib/lean:/work/.lake/packages/lean4export/.lake/build/lib/lean:/work/.lake/packages/mathlib/.lake/build/lib/lean:/work/.lake/packages/Comparator/.lake/build/lib/lean:/work/.lake/build/lib/lean /opt/lean/bin/lean /work/Branch/Direct.lean -o /work/.lake/build/lib/lean/Branch/Direct.olean -i /work/.lake/build/lib/lean/Branch/Direct.ilean -c /work/.lake/build/ir/Branch/Direct.c --setup /work/.lake/build/ir/Branch/Direct.setup.json --json
+error: Branch/Direct.lean:48:73: unsolved goals
+X : Type u_1
+inst✝ : TopologicalSpace X
+K : Set X
+hK : IsCompact K
+H0 : X → Mat2
+T0 : X → Vec2
+hH0 : ∀ (i j : Fin 2), ContinuousOn (fun p => H0 p i j) K
+hT0 : ∀ (i : Fin 2), ContinuousOn (fun p => T0 p i) K
+hcone : ∀ p ∈ K, SmoothCovariance.StrictCone (H0 p) (T0 p)
+vr vt : TorusInverse.Plane
+hdet : vr.1 * vt.2 - vr.2 * vt.1 ≠ 0
+r0 h a A b B E D : ℝ
+hr0 : 0 < r0
+hh : 0 ≤ h
+ha : 0 < a
+hA : 0 < A
+hb : 0 < b
+hE : 0 ≤ E
+hD : 0 ≤ D
+rho delta M : ℝ
+hrho : 0 < rho
+hdelta : 0 < delta
+hM : 1 ≤ M
+hmargin :
+  ∀ p ∈ K,
+    ∀ (H : Mat2),
+      (∀ (i j : Fin 2), |H i j - H0 p i j| ≤ rho) →
+        delta ≤ |Matrix.det H| ∧
+          (∀ (j : Fin 2), delta ≤ SmoothCovariance.weights H (T0 p) j) ∧ ∀ (i j : Fin 2), |H i j| ≤ M
+kappa : ℝ := PartitionedCovariance.nativePrefactor vr vt r0
+hkappa : 0 < kappa
+lo : ℝ := scalarLower kappa r0 a B
+hi : ℝ := scalarUpper kappa r0 A b
+hlo : 0 < lo
+hhi : 0 < hi
+Q : ℝ := E + D * |PulseCovariance.concentrationConstant a A b B|
+hQ : 0 ≤ Q
+N : ℕ
+hN4 : 4 ≤ N
+hN : ∀ (n : ℕ), N ≤ n → max 1 (Q / rho) ≤ slotRadius r0 h n
+n : ℕ
+hn : N ≤ n
+p : X
+hp : p ∈ K
+P : Fin 2 → PartitionedCovariance.Pulse
+hP : ∀ (j : Fin 2), PulseCovariance.PulseBounds (slotRadius r0 h n) a A b B (P j).ψ (P j).x
+hratio :
+  ∀ (j i : Fin 2),
+    ∀ v ∈ Icc 0 (ChartScales.slotLength r0 h n),
+      |(P j).t v i / (P j).x v - H0 p i j| ≤
+        E / ChartScales.slotLength r0 h n + D * |v - ChartScales.slotLength r0 h n / 2| / ChartScales.slotLength r0 h n
+zeta : ℝ
+hzeta : 0 ≤ zeta
+hn4 : 4 ≤ n
+hr : 0 < slotRadius r0 h n
+hrlarge : Q / rho ≤ slotRadius r0 h n
+hsmall : Q / slotRadius r0 h n ≤ rho
+i j : Fin 2
+hsl_eq : slotRadius r0 h n ^ 2 = ChartScales.slotLength r0 h n
+⊢ |normalizedPair P i j - H0 p i j| ≤ rho
+error: Branch/Direct.lean:27:55: unsolved goals
+X : Type u_1
+inst✝ : TopologicalSpace X
+K : Set X
+hK : IsCompact K
+H0 : X → Mat2
+T0 : X → Vec2
+hH0 : ∀ (i j : Fin 2), ContinuousOn (fun p => H0 p i j) K
+hT0 : ∀ (i : Fin 2), ContinuousOn (fun p => T0 p i) K
+hcone : ∀ p ∈ K, SmoothCovariance.StrictCone (H0 p) (T0 p)
+vr vt : TorusInverse.Plane
+hdet : vr.1 * vt.2 - vr.2 * vt.1 ≠ 0
+r0 h a A b B E D : ℝ
+hr0 : 0 < r0
+hh : 0 ≤ h
+ha : 0 < a
+hA : 0 < A
+hb : 0 < b
+hE : 0 ≤ E
+hD : 0 ≤ D
+rho delta M : ℝ
+hrho : 0 < rho
+hdelta : 0 < delta
+hM : 1 ≤ M
+hmargin :
+  ∀ p ∈ K,
+    ∀ (H : Mat2),
+      (∀ (i j : Fin 2), |H i j - H0 p i j| ≤ rho) →
+        delta ≤ |Matrix.det H| ∧
+          (∀ (j : Fin 2), delta ≤ SmoothCovariance.weights H (T0 p) j) ∧ ∀ (i j : Fin 2), |H i j| ≤ M
+kappa : ℝ := PartitionedCovariance.nativePrefactor vr vt r0
+hkappa : 0 < kappa
+lo : ℝ := scalarLower kappa r0 a B
+hi : ℝ := scalarUpper kappa r0 A b
+hlo : 0 < lo
+hhi : 0 < hi
+Q : ℝ := E + D * |PulseCovariance.concentrationConstant a A b B|
+hQ : 0 ≤ Q
+N : ℕ
+hN4 : 4 ≤ N
+hN : ∀ (n : ℕ), N ≤ n → max 1 (Q / rho) ≤ slotRadius r0 h n
+n : ℕ
+hn : N ≤ n
+p : X
+hp : p ∈ K
+P : Fin 2 → PartitionedCovariance.Pulse
+hP : ∀ (j : Fin 2), PulseCovariance.PulseBounds (slotRadius r0 h n) a A b B (P j).ψ (P j).x
+hratio :
+  ∀ (j i : Fin 2),
+    ∀ v ∈ Icc 0 (ChartScales.slotLength r0 h n),
+      |(P j).t v i / (P j).x v - H0 p i j| ≤
+        E / ChartScales.slotLength r0 h n + D * |v - ChartScales.slotLength r0 h n / 2| / ChartScales.slotLength r0 h n
+zeta : ℝ
+hzeta : 0 ≤ zeta
+hn4 : 4 ≤ n
+hr : 0 < slotRadius r0 h n
+hrlarge : Q / rho ≤ slotRadius r0 h n
+hsmall : Q / slotRadius r0 h n ≤ rho
+hclose : ∀ (i j : Fin 2), |normalizedPair P i j - H0 p i j| ≤ rho
+⊢ ZeroOrderBounds (√(ChartScales.S n)) (lo ^ 2 * delta) (max 1 (hi * M)) (delta / hi) zeta
+    (PartitionedCovariance.pairMatrix vr vt r0 (fun x => ChartScales.timeCoefficient h n) P)
+    (FlatCovariance.scaledTarget zeta (T0 p))
+error: Branch/Direct.lean:52:6: unexpected token 'have'; expected command
+info: Branch/Direct.lean:81:0: fun {X} [TopologicalSpace X] {K} =>
+  Branch.Direct.completed : ∀ {X : Type u_1} [inst : TopologicalSpace X] {K : Set X},
+  IsCompact K →
+    ∀ (H0 : X → Mat2) (T0 : X → Vec2),
+      (∀ (i j : Fin 2), ContinuousOn (fun p => H0 p i j) K) →
+        (∀ (i : Fin 2), ContinuousOn (fun p => T0 p i) K) →
+          (∀ p ∈ K, SmoothCovariance.StrictCone (H0 p) (T0 p)) →
+            ∀ (vr vt : TorusInverse.Plane),
+              vr.1 * vt.2 - vr.2 * vt.1 ≠ 0 →
+                ∀ {r0 h a A b B E D : ℝ},
+                  0 < r0 →
+                    0 ≤ h →
+                      0 < a →
+                        0 < A →
+                          0 < b →
+                            0 ≤ E →
+                              0 ≤ D →
+                                ∃ N,
+                                  4 ≤ N ∧
+                                    ∃ detGap entryBound inverseLower,
+                                      0 < detGap ∧
+                                        1 ≤ entryBound ∧
+                                          0 < inverseLower ∧
+                                            ∀ (n : ℕ),
+                                              N ≤ n →
+                                                ∀ p ∈ K,
+                                                  ∀ (P : Fin 2 → PartitionedCovariance.Pulse),
+                                                    (∀ (j : Fin 2),
+                                                        PulseCovariance.PulseBounds (slotRadius r0 h n) a A b B (P j).ψ
+                                                          (P j).x) →
+                                                      (∀ (j i : Fin 2),
+                                                          ∀ v ∈ Icc 0 (ChartScales.slotLength r0 h n),
+                                                            |(P j).t v i / (P j).x v - H0 p i j| ≤
+                                                              E / ChartScales.slotLength r0 h n +
+                                                                D * |v - ChartScales.slotLength r0 h n / 2| /
+                                                                  ChartScales.slotLength r0 h n) →
+                                                        ∀ (zeta : ℝ),
+                                                          0 ≤ zeta →
+                                                            ZeroOrderBounds (√(ChartScales.S n)) detGap entryBound
+                                                              inverseLower zeta
+                                                              (PartitionedCovariance.pairMatrix vr vt r0
+                                                                (fun x => ChartScales.timeCoefficient h n) P)
+                                                              (FlatCovariance.scaledTarget zeta (T0 p))
+info: Branch/Direct.lean:82:0: 'Branch.Direct.completed' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
+Some required targets logged failures:
+- Branch.Direct

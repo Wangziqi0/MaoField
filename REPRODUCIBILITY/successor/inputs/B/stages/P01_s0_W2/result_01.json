@@ -1,0 +1,15 @@
+{
+  "finish_reason": "stop",
+  "message": {
+    "content": "{\n  \"B_expression\": \"-1/(2*(1+u)*(sqrt((1+u)**2+r)+(1+u))**2)\",\n  \"C_expression\": \"-1/(2*(1+u))\",\n  \"derivation\": \"Retain the draft's state-dependent coefficient pair. Set z=1+u and s=sqrt(z*z+r), the positive square root of z^2+r=p. On an open neighborhood of the outer rectangle, z>0 and z^2+r>0; on the rectangle z is in [3/4,5/4] and z^2+r>=1/16. When chi_r=chi_u=1, g = r/2 + r^2*B + u*r*C = r/2 - r/(2*z)*(u + r/(s+z)^2). Since r=s^2-z^2=(s-z)(s+z), this simplifies to r/(s+z)=s-z. Therefore z+g=s and (z+g)^2=s^2=z^2+r=p, so the full signed residual E=(z+g)^2-p is exactly zero in the active core, not only the pure quadratic part. In the smooth transition the chi_r*chi_u factor attenuates the nonlinear part, and outside the outer rectangle the host uses r/2. This is a source-relative local coefficient construction; the supplied certificate is a composition/domain certificate for this family, not a full Navier-Stokes proof or uniform PDE estimate.\",\n  \"inspect\": [],\n  \"note\": \"Successor should check: (1) inner rows with |r|<=1/4 and |u|<=1/8 should show residual at roundoff, as observed; (2) rows with 1/8<|u|<1/4 are in the smooth transition and may retain small nonzero residuals, not defects of the core formula; (3) rows with |u|>=1/4 or |r|>=1/2 receive the linear fallback / no nonlinear body and can have large residuals by design; (4) domain conditions z=1+u>0 and z^2+r>0 have positive margin on the rectangle and are preserved on a small open neighborhood; (5) do not extrapolate exact or roundoff residuals on the finite grid to a full PDE certificate or full NS result.\"\n}",
+    "role": "assistant"
+  },
+  "usage": {
+    "completion_tokens": 8820,
+    "prompt_tokens": 69198,
+    "prompt_tokens_details": {
+      "cached_tokens": 62400
+    },
+    "total_tokens": 78018
+  }
+}

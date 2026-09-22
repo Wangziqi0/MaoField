@@ -1,0 +1,38 @@
+[
+  {
+    "candidate_name": "history_1.lean",
+    "condition_original_label": "HISTORY",
+    "no_candidate_reason": null,
+    "original_request_number": 1
+  },
+  {
+    "candidate_name": "history_2.lean",
+    "condition_original_label": "HISTORY",
+    "no_candidate_reason": null,
+    "original_request_number": 2
+  },
+  {
+    "candidate_name": "history_3.lean",
+    "condition_original_label": "HISTORY",
+    "no_candidate_reason": null,
+    "original_request_number": 3
+  },
+  {
+    "candidate_name": null,
+    "condition_original_label": "STANDARD",
+    "no_candidate_reason": "TRUNCATED_NO_VISIBLE_BODY_NOT_COMPILED",
+    "original_request_number": 1
+  },
+  {
+    "candidate_name": "standard_1.lean",
+    "condition_original_label": "STANDARD",
+    "no_candidate_reason": null,
+    "original_request_number": 2
+  },
+  {
+    "candidate_name": "standard_2.lean",
+    "condition_original_label": "STANDARD",
+    "no_candidate_reason": null,
+    "original_request_number": 3
+  }
+]

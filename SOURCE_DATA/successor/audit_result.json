@@ -1,0 +1,13 @@
+{
+  "A_historical_unknown_request": "Retained separately; A W2 supplemental observation is not a recovered old return",
+  "effects_recomputed": 18720,
+  "historical_complete_requests": 104,
+  "historical_only": true,
+  "maximum_selected_normalised_difference": "2.12495027868271447e-71",
+  "new_model_calls": 0,
+  "parent_state_links_checked": 40,
+  "selected_coordinate_programs_recomputed": 9,
+  "selection_identity": "Post-selection explanatory traces, not replacement endpoints or independent confirmations",
+  "stages": 52,
+  "unchanged_B_versions": 7
+}

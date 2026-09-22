@@ -1,0 +1,21 @@
+
+
+have hsl_eq : slotRadius r0 h n ^ 2 = ChartScales.slotLength r0 h n := slotRadius_sq hr0 h n
+have hhratio_sq : ∀ j i v, v ∈ Icc 0 (slotRadius r0 h n ^ 2) → |(P j).t v i / (P j).x v - (H0 p) i j| ≤ E / slotRadius r0 h n ^ 2 + D * |v - slotRadius r0 h n ^ 2 / 2| / slotRadius r0 h n ^ 2 := by
+  intro j i v hv
+  have hv' : v ∈ Icc 0 (ChartScales.slotLength r0 h n) := by simpa [hsl_eq] using hv
+  have h := hratio j i v hv'
+  simpa [hsl_eq] using h
+have hnorm := normalizedPair_entry_error P hP (H0 p) hE hD hhratio_sq i j
+calc
+  |normalizedPair P i j - H0 p i j| ≤ (E + D * PulseCovariance.concentrationConstant a A b B) / slotRadius r0 h n := hnorm
+  _ ≤ (E + D * |PulseCovariance.concentrationConstant a A b B|) / slotRadius r0 h n := by
+    have hnum : E + D * PulseCovariance.concentrationConstant a A b B ≤ E + D * |PulseCovariance.concentrationConstant a A b B| := by
+      nlinarith [le_abs_self (PulseCovariance.concentrationConstant a A b B), hD]
+    rw [div_le_iff₀ hr]
+    have hfield : ((E + D * |PulseCovariance.concentrationConstant a A b B|) / slotRadius r0 h n) * slotRadius r0 h n = E + D * |PulseCovariance.concentrationConstant a A b B| := by
+      field_simp [hr.ne']
+    rw [hfield]
+    exact hnum
+  _ = Q / slotRadius r0 h n := by dsimp [Q]
+  _ ≤ rho := hsmall

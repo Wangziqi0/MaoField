@@ -1,0 +1,12 @@
+{
+  "finish_reason": "stop",
+  "message": {
+    "content": "{\"B_expression\":\"-1/(2*(1+u)**3*(sqrt(1+r/(1+u)**2)+1)**2)\",\"C_expression\":\"-1/(2*(1+u))\",\"derivation\":\"Retain the P06_W1 program unchanged. The construction solves (1+u+g)^2=(1+u)^2+r exactly within the chi support by setting g_exact=r/((1+u)(sqrt(1+r/(1+u)^2)+1)) and decomposing g=r/2+chi_r*chi_u*(r^2*B+u*r*C). Algebra: with s=sqrt(1+r/(1+u)^2), the identity r=(1+u)^2(s-1)(s+1) gives g_exact=(1+u)(s-1). Expanding g_exact-r/2 to isolate the r^2 and u*r terms yields B=-1/(2(1+u)^3(s+1)^2) and C=-1/(2(1+u)). Verification at u=0 reduces to the published source-only formula B(r)=-1/(2(1+sqrt(1+r))^2), C=0. The actual numeric feedback confirms machine-epsilon residuals (~1e-71) for all in-support rows at both t=1/64 and t=1/512, with correct bare-r/2 fallback for out-of-support rows (|u|>=1/4 or |r|>=1/2). Smoothness on an open neighbourhood of the closed rectangle |r|<=1/2,|u|<=1/4 follows from 1+u>=3/4 and 1+r/(1+u)^2>=7/9>0 throughout, keeping the square-root argument strictly positive. No revision is indicated by the actual state or the analytic certificate (ANALYTIC_ON_CORE_NEIGHBORHOOD for both B and C).\",\"inspect\":[{\"file_id\":\"CALC/draft.json\",\"limit\":4096,\"offset\":0}],\"note\":\"Program retained at generation 2 (P06_s0_W2). Successor should verify: (1) the next time-step stage (smaller tau) keeps in-support residuals at machine epsilon; (2) LEFT/RIGHT/BOTH rows with |u|>1/4 (e.g., z near -143 or -11) remain outside chi_u and receive only r/2; (3) the C term -1/(2(1+u)) is bounded in [-2/3,-5/6] on the rectangle and B in roughly [-0.667,-0.045]; (4) the identity_defect column tracks the 2*u*g cross contribution separately from the pure remainder, and neither constitutes a method failure; (5) no analytic certificate has been upgraded beyond CONDITIONAL_SMOOTH_FAMILY; (6) the ZERO family remains exactly unchanged at z=1.0 by construction (r=0, u=0, chi factors may be nonzero but r^2*B+u*r*C=0).\"}",
+    "role": "assistant"
+  },
+  "usage": {
+    "completion_tokens": 2874,
+    "prompt_tokens": 66297,
+    "total_tokens": 69171
+  }
+}

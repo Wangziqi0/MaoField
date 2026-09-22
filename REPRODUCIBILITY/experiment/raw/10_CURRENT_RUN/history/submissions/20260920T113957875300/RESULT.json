@@ -1,0 +1,10 @@
+{
+  "axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "candidate_sha256": "58ae5cbabaabad0c12ccb325edef83b5a15064a86081c53fcc6c81d87b49762e",
+  "status": "CANDIDATE_NOT_COMPILED"
+}

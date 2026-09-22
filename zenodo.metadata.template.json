@@ -1,0 +1,11 @@
+{
+  "template_only": true,
+  "title": "Why can equal results lead to different scientific futures: code and source-mapped data",
+  "upload_type": "software",
+  "version": "V7-candidate",
+  "description": "Deterministic mathematical checks, source-mapped historical record analyses and figure source. No new model sampling or independent kernel certification. Full manuscript and SI are deferred from this public candidate.",
+  "creators": [],
+  "author_input_needed": ["creators and affiliations", "permissions for included records", "licence for new code and data", "exact GitHub owner/repository", "public release approval"],
+  "doi": null,
+  "published": false
+}

@@ -1,0 +1,20 @@
+{
+  "python": "3.13.5",
+  "platform": "Linux",
+  "dependencies": {
+    "sympy": "1.14.0",
+    "python-docx": "1.2.0",
+    "cairosvg": "2.8.2",
+    "PyMuPDF": "1.26.7",
+    "numpy": "2.3.5",
+    "Pillow": "12.3.0"
+  },
+  "commands": {
+    "lean": false,
+    "lake": false,
+    "docker": false,
+    "pandoc": true,
+    "libreoffice": true
+  },
+  "new_model_calls": 0
+}

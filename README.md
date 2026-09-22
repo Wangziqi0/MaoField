@@ -1,85 +1,25 @@
-# MaoField: scientific history, current equivalence and future intervention
+# Results and the conditions for further discovery
 
-This repository is the public MaoField R3.0 software and reproducibility release for the Article **"Opposed statistical extremes reveal an identification boundary in causal tests of AI scientific agents."** The canonical preprint is https://doi.org/10.5281/zenodo.22209245.
+Local V8 companion to **Why can equal results lead to different scientific futures**, by Yifan Chen, Independent researcher, Lu’an, China. This is the new Nature Article candidate, distinct from the older MaoField R3.0 preprint.
 
-`main` is the sole authoritative R3.0/NMI reproducibility branch. All other branches are retained only as historical records and are not release, citation or reproduction authorities; no historical branch is merged into this release. Historical commit metadata, including existing Claude `Co-Authored-By` trailers, is preserved verbatim.
+The manuscript examines how humans and agents form, adopt and reconstruct relations needed for subsequent research. It combines a finite non-sufficiency result and compact sufficient repair with separate coefficient-revision and proof-application records. Complete denominators, failures, unchanged versions and verification boundaries are retained. No general collaboration benefit is inferred.
 
-Early repository development used Anthropic Claude. Final Phase 23 analysis, manuscript drafting and release engineering used ChatGPT Pro/Web Pro and OpenAI Codex. Yifan Chen is the sole human author and assumes full responsibility for the scientific judgement, statistics, claims, text and released artifacts. See `docs/AI_ASSISTANCE_DISCLOSURE.md`.
+## Read and reproduce
 
-## The scientific object
-
-MaoField does not treat history as a fact list, token trace or present conclusion. Its minimum scientific-history carrier is a practice-grounded relation:
-
-```text
-rejected route R
-↔ decisive practice P
-↔ external evidence E
-↔ scope S
-↔ reopening condition K
-```
-
-The study asks whether histories that are equal under a **prespecified evaluator-visible current-content map** nevertheless generate different future responses in fresh, clean successors.
-
-## Identification chain
-
-```text
-P0 practice-grounded history
-→ RPESK carrier
-→ C_flat current-content coarse-graining
-→ future response law Ψ_h(i)
-→ system-side defect D_I(C)
-→ clean-successor randomized experiment
-→ Direct P1/P5
-→ independent A_SIB and M_R channels
-→ P2/P3/P4
-→ evaluator kernel K_i
-→ evaluator-visible defect D_I^K(C)
-→ claim-specific separation and claim ceiling
-```
-
-Measurement is the epistemic bridge from observed statistics to system-side facts; it is not the entire theory of scientific history. See `docs/EXECUTABLE_CLAIM_GRAPH.md` and `provenance/executable_claim_graph.json`.
-
-## Three contributions
-
-1. **Formal identification principle.** Evaluator-visible current equivalence does not establish future intervention equivalence without claim-relevant separation.
-2. **Empirical phenomenon.** Phase 23 produced exact treatment invariance and a near-saturated channel gap, each recurring in held-out worlds, while frozen calibration placed both in the same non-identification class. Replication stabilized the statistics, not their scientific meaning.
-3. **Reusable causal architecture.** Five randomized history arms, four future cells, common worlds and scorers, independent clean successors, sealed replication, typed failures and a non-compensatory result tree provide a reusable test of practice-grounded scientific history.
-
-A disjoint GLM provider branch passed ordinary behavioural controls but established neither a complete history-inheritance signature, a bounded null nor valid structural dissociation. It shows that an evaluator can be operationally competent yet scientifically non-separating for another claim family.
-
-The repository does **not** claim universal HFI, a proved action–structure dissociation, a Transformer defect, a universal benchmark collapse or actual future-response divergence.
-
-## Offline reproduction
+Current text and editable/PDF files are in DOCUMENTATION; the six current figures are in FIGURES and their Python source in BUILD. Install the pinned REPRODUCIBILITY/requirements-lock.txt environment, then run:
 
 ```bash
-python -m venv .venv
-. .venv/bin/activate
-pip install -r environment/requirements.txt
-bash scripts/reproduce_offline.sh
+python REPRODUCIBILITY/reproduce.py --out WORK/reproduction
+python -m unittest discover -s REPRODUCIBILITY/tests -v
+python BUILD/figures.py --root .
 ```
 
-This path uses frozen processed results and source-data tables. It makes **zero model or provider calls** and rebuilds the public statistical checks and figures. The generated receipt verifies the executable claim chain from released inputs to display items and final proposition states.
+These commands use the unchanged analysis view and do not call a model service. Raw sharing scope is broader than analysis scope. All supplied original scientific records, including earlier stopped/failed workflows, are prepared in a separate full-record archive with file-level provenance. Reasoning fields are retained there rather than silently dropped; the existing visible-only analysis view is unchanged. Added raw files do not become new experimental observations.
 
-## Evidence tiers
+Fresh Lean replay and independent kernel validation remain NOT_RUN. Saved compilation acceptance and deterministic reanalysis are different statuses. See REPRODUCIBILITY and the manuscript Methods.
 
-- **Public release tier:** this repository's source, processed source data, display figures, manifests and no-provider offline workflow.
-- **Reviewer-only tier:** auditable raw endpoint ledgers, assignments, permitted provider records and execution lineage under controlled access; these files are not stored in this repository.
-- **Permanently private tier:** credentials, private/decryption keys, provider-restricted content and reusable hidden-answer material.
+## Identity and release status
 
-Controlled-access requests are governed by `docs/CONTROLLED_ACCESS_POLICY.md` and are answered within 14 business days. No unrestricted hidden answers or secrets are supplied.
+The prepared branch is nature-main. Older main, R3.0 and v0.1.0 histories remain intact. No remote push, default-branch switch, release tag, Zenodo deposition or automatic GitHub–Zenodo archive has occurred. Three new linked Zenodo candidates are prepared for the new manuscript, software and full scientific records; identifiers remain unassigned. See RELATED_WORK_IDENTITY.md.
 
-## Release and submission identifiers
-
-- GitHub Release: <https://github.com/Wangziqi0/MaoField/releases/tag/R3.0>
-- Zenodo software DOI: <https://doi.org/10.5281/zenodo.22209301>
-- Zenodo source-data DOI: <https://doi.org/10.5281/zenodo.22209309>
-- Canonical Zenodo preprint DOI: <https://doi.org/10.5281/zenodo.22209245> (CC BY 4.0; 31 August 2026)
-- Journal submission identifier: NMI initial submission not yet submitted
-
-## Licences
-
-- Code: Apache License 2.0.
-- Original data, documentation, manuscript text and figures: Creative Commons Attribution 4.0 International.
-- Restricted provider records and hidden-answer material are excluded and receive no public licence.
-
-See `LICENSE`, `LICENSES/`, `QUICKSTART.md`, `REPRODUCIBILITY.md`, `docs/RELEASE_MATRIX.md` and `docs/PREPRINT_AND_SUBMISSION_SEQUENCE.md`.
+Original software: Apache-2.0. Original data, text and figures: CC BY 4.0. Third-party notices remain applicable. Contact: 1426704936@qq.com; ORCID 0009-0008-8344-1149.

@@ -1,0 +1,12 @@
+{
+  "finish_reason": "stop",
+  "message": {
+    "content": "{\"B_expression\":\"-1/(2*(1+sqrt(1+r))**2)\",\"C_expression\":\"-1/2\",\"derivation\":\"Retained from P03_W0. The local construction targets the signed residual E=(2g+g^2-r)+2ug with the correction g=r/2+chi_r(r)*chi_u(u)*(r^2*B+u*r*C). B=-1/(2*(1+sqrt(1+r))^2) is the Proposition 7.6 source-only pure-remainder canceler: when u=0 and chi_r=chi_u=1, it makes g=r/2-r^2/(2*(1+sqrt(1+r))^2)=sqrt(1+r)-1 so that (1+g)^2=1+r=p exactly, zeroing the pure part 2g+g^2-r. The identity (1+sqrt(1+r))^2-r=2(1+sqrt(1+r)) underwrites this. C=-1/2 cancels the leading cross-term: with g=r/2+...-ur/2, the 2ug contribution becomes ur+2u*(-ur/2)+...=ur-u^2*r+..., and the -ur from 2D in the pure part cancels the +ur, leaving the residual at O(r^3+r^2*u+r*u^2). Both bodies are C-infinity on an open neighborhood of [-1/2,1/2]x[-1/4,1/4] because 1+r>=1/2>0 throughout, so sqrt(1+r) and (1+sqrt(1+r))^2 are positive and analytic. No max-clipping, no piecewise structure, no singularities. The actual execution confirms: UNIFORM rows (small r~0.015, small u~0.008) show residuals ~1e-8; ZERO rows are exactly unchanged; rows outside the rectangle (|r|>1/2 or |u|>1/4, e.g. LEFT/RIGHT with z far from 1) correctly receive only the linear reference g=r/2 with no nonlinear correction applied.\",\"inspect\":[],\"note\":\"Program retained unchanged from P03_W0. It is the correct source-compatible construction for this coefficient family. Successor should: (1) verify that at t=1/256 and t=1/128 stages, the UNIFORM-family residuals continue at the O(r^3+r^2*u) scale consistent with the cancellation; (2) confirm that LEFT/RIGHT/BOTH rows with |u|>1/4 still receive only g=r/2 (no program correction) and track whether the linear reference is sufficient or whether the next stage's smaller tau brings those rows back inside the rectangle; (3) the LEFT s=0 row at x=1/64 has z=-31 (u=-32, r=p-961), far outside the rectangle, so the residual 0.25 is the expected linear-reference value, not a failure; (4) the analytic certificate remains NOT_CERTIFIED for full all-order smoothness (finite numeric derivatives do not establish this), but the expression is manifestly analytic on 1+r>0 which covers the entire outer rectangle.\"}",
+    "role": "assistant"
+  },
+  "usage": {
+    "completion_tokens": 3801,
+    "prompt_tokens": 49650,
+    "total_tokens": 53451
+  }
+}

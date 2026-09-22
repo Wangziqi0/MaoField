@@ -1,0 +1,12 @@
+{
+  "finish_reason": "stop",
+  "message": {
+    "content": "{\"B_expression\":\"-1/(2*(1+sqrt(1+r))**2)\",\"C_expression\":\"-1/2\",\"derivation\":\"Retain the inherited program from P03_W0. B(r) = -1/(2*(1+sqrt(1+r))^2) is the source exact-root correction: when u=0 the composite g = r/2 + r^2*B(r) equals r/(1+sqrt(1+r)) = sqrt(1+r)-1, so (1+g)^2 = 1+r = p exactly and the pure quadratic remainder vanishes to all orders in r. C = -1/2 cancels the leading O(ur) cross term in the whole residual E = (2g+g^2-r) + 2*u*g, since the O(ur) coefficient is 1+2C. Both bodies are C-infinity on an open neighborhood of the closed outer rectangle: sqrt(1+r) is positive and smooth for r > -1 (the rectangle has r in [-1/2,1/2]), and -1/2 is a constant. The analytic-domain certificate from the prior feedback confirms ANALYTIC_ON_CORE_NEIGHBORHOOD for both. Numerical feedback at generation 0 showed in-support residuals at or below ~2e-71 for UNIFORM and small-r LEFT rows with u=0, and the out-of-support r=-1 row correctly retains the uncorrected linear residual (chi_r=0). No modification is warranted: the current state at t=1/128 and t=1/256 shows z-values consistent with the expected small-amplitude evolution, and the large-amplitude LEFT/RIGHT/BOTH rows (z as far as -31 or 17) fall outside the chi support rectangle and are handled by the fallback g=r/2 as designed.\",\"inspect\":[],\"note\":\"Retained the source-derived B and constant C unchanged. The construction is local to the two-slot covariance quotient at fixed amplitude ratio; it does not establish global NS well-posedness, all-order PDE estimates, or smoothness beyond the explicit algebraic domain (r>-1 for B, all of R^2 for C). A successor should verify that when the next target (p1 = p0 + tau^2*k1) is applied, the u!=0 rows (UNIFORM s=1 has u~+0.0078, LEFT s=1 rows have small positive u) show the O(ur) cross term suppressed relative to the pure remainder, and that no new instability appears in the chi transition bands near |r|=1/2 or |u|=1/4. The large-amplitude rows (|z|>>1) remain permanently outside the evaluation rectangle and use only the linear g=r/2; their residuals are not governed by B or C.\"}",
+    "role": "assistant"
+  },
+  "usage": {
+    "completion_tokens": 2000,
+    "prompt_tokens": 48424,
+    "total_tokens": 50424
+  }
+}

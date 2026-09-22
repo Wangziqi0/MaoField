@@ -1,0 +1,6 @@
+{
+  "archive_sha256": "3d011041203acacf300d343a39673f7d233743397993797c941346ae9e5df1a8",
+  "commit": "6a10ac8c22beadecabdbb0919c2b50214762f91d",
+  "download_url": "https://github.com/leanprover/lean4/releases/download/v4.34.0-rc2/lean-4.34.0-rc2-linux.tar.zst",
+  "lean_version": "4.34.0-rc2"
+}

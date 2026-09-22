@@ -1,0 +1,43 @@
+{
+  "SSE_complete": 6,
+  "additional_note_only_difference": true,
+  "arms": {
+    "HISTORY": {
+      "accepted_attempts": [
+        3
+      ],
+      "calls": 3,
+      "completed": true,
+      "completion_tokens": 20781,
+      "model_seconds": 698.7922731682193,
+      "prompt_tokens": 25757
+    },
+    "STANDARD": {
+      "accepted_attempts": [],
+      "calls": 3,
+      "completed": false,
+      "completion_tokens": 41009,
+      "model_seconds": 1405.520281958161,
+      "prompt_tokens": 12124
+    }
+  },
+  "both_final_candidates_use_key_lemmas": true,
+  "compiled_candidates": 5,
+  "interpretation": "One post-selection paired case, not a general effect estimate or full NS proof.",
+  "manifest_closure": "PASS",
+  "new_Lean_builds": 0,
+  "new_independent_kernel_checks": 0,
+  "new_model_calls": 0,
+  "prompt_token_difference_first": 332,
+  "reasoning_artifact_collector_duplicates_mirrored_fields": true,
+  "reasoning_not_replayed_in_subsequent_messages": true,
+  "same_initial_system_and_sampling": true,
+  "same_initial_user_prefix": true,
+  "same_upstream_workspace_except_candidate": true,
+  "source_manifest_files": 859,
+  "standard_final_error": "equality transported in interval membership, but not conclusion",
+  "total_completion_tokens": 61790,
+  "total_prompt_tokens": 37881,
+  "total_tokens": 99671,
+  "upstream_file_count": 243
+}

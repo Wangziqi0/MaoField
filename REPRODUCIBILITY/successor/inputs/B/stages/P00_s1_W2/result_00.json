@@ -1,0 +1,12 @@
+{
+  "finish_reason": "stop",
+  "message": {
+    "content": "{\"B_expression\":\"-1/(2*(1+u)*(sqrt((1+u)**2+r)+1+u)**2)\",\"C_expression\":\"-1/(2*(1+u))\",\"derivation\":\"Retained unchanged from P00_W1. The bodies implement the exact Newton correction for (z+g)^2=p with z=1+u, decomposed into the host slot r^2*B+u*r*C = g_exact - r/2. Let a=1+u and s=sqrt(a^2+r). The exact step is g_exact = s - a = r/(s+a). The host requires r^2*B + u*r*C = g_exact - r/2. Substituting B=-1/(2a(s+a)^2) and C=-1/(2a): r^2*B + u*r*C = -r^2/(2a(s+a)^2) - ur/(2a) = -r/(2a)*[r/(s+a)^2 + u]. Using r/(s+a)^2 = (s-a)/(s+a) and u = a-1, this simplifies to g_exact - r/2 identically. On the outer rectangle |r|<=1/2, |u|<=1/4, we have a>=3/4 and a^2+r >= (3/4)^2 - 1/2 = 1/16 > 0, so sqrt is C-infinity on an open neighborhood. Numeric feedback from generation 1 confirms: all APPLIED rows with chi_r*chi_u=1 achieve residuals at machine precision (<=2e-71 for dps=70); rows with |r|>=1/2 or |u|>=1/4 correctly fall to g=r/2 by the chi attenuation; ZERO family stays at z=1.0 exactly. No revision is warranted for this stage (p2 = p1 + tau^3*k2), which presents the same two-slot algebraic structure with r,u of comparable or smaller magnitude.\",\"inspect\":[{\"file_id\":\"CALC/draft.json\",\"limit\":4096,\"offset\":0}],\"note\":\"Program retained for P00_s1_W2. Successor checkpoints for stage p2: (1) u carries forward from z_after of p1, so for UNIFORM rows u will be O(tau^2)~O(1e-5), well inside chi_u support (|u|<=1/8); (2) edge families (LEFT/RIGHT/BOTH) with |u|>1/4 will have chi_u=0 and fall to g=r/2 by design; (3) the LEFT x=1/8 s=0 row (r=-1.0) and any row with |r|>1/2 are permanently outside chi_r support; (4) ZERO family stays at z=1.0 exactly (r=0, u=0, g=0); (5) the analytic-domain certificate is ANALYTIC_ON_CORE_NEIGHBORHOOD (smooth on |r|<2, |u|>1 neighborhood), which strictly contains the outer rectangle; this is a local algebraic verification, not a full PDE or NS proof; (6) the cross-term 2*u*g in the whole residual E does not vanish at u!=0, so a pure-remainder cancellation does not guarantee whole-residual cancellation; the numeric residual at u~0.008 is ~1e-71, confirming the cross-term is negligible at this scale but is not zero in principle.\"}",
+    "role": "assistant"
+  },
+  "usage": {
+    "completion_tokens": 1644,
+    "prompt_tokens": 64395,
+    "total_tokens": 66039
+  }
+}

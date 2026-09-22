@@ -1,0 +1,12 @@
+{
+  "manuscript.md": {
+    "source_in_private_delivery": "SUBMISSION/manuscript.md",
+    "sha256": "06f32fb73bf83295c186321808efa30e761ecf74988c8ebc067e31634c1d5fa7",
+    "included_in_public_candidate": false
+  },
+  "supplementary_information.md": {
+    "source_in_private_delivery": "SUBMISSION/supplementary_information.md",
+    "sha256": "7b0cfd72c8148c5430606c98f8a98815abfa6d56b4a8f82663d73e220860471a",
+    "included_in_public_candidate": false
+  }
+}

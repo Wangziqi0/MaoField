@@ -1,0 +1,80 @@
+{
+  "kind": "V3_DETERMINISTIC_EXACT_ALGEBRA_NOT_NEW_EXPERIMENT",
+  "checks": [
+    {
+      "check": "complete_residual_decomposition",
+      "computed_remainder": "0",
+      "passed": true
+    },
+    {
+      "check": "same_r_different_z_difference",
+      "computed_remainder": "0",
+      "passed": true
+    },
+    {
+      "check": "root_parameterization",
+      "computed_remainder": "0",
+      "passed": true
+    },
+    {
+      "check": "minimax_candidate_two_residuals",
+      "computed_remainder": "0",
+      "passed": true
+    },
+    {
+      "check": "no_common_exact_action_resultant",
+      "computed_remainder": "0",
+      "passed": true
+    },
+    {
+      "check": "negative_outer_action_reflection",
+      "computed_remainder": "0",
+      "passed": true
+    },
+    {
+      "check": "linear_complete_residual",
+      "computed_remainder": "0",
+      "passed": true
+    },
+    {
+      "check": "state_aware_root_rationalization",
+      "computed_remainder": "0",
+      "passed": true
+    },
+    {
+      "check": "state_aware_linear_compensation",
+      "computed_remainder": "0",
+      "passed": true
+    },
+    {
+      "check": "closed_rectangle_positive_radicand_margin",
+      "computed_remainder": "0",
+      "passed": true
+    },
+    {
+      "check": "two_variable_cutoff_residual",
+      "computed_remainder": "0",
+      "passed": true
+    },
+    {
+      "check": "zero_source_update",
+      "computed_remainder": "0",
+      "passed": true
+    },
+    {
+      "check": "successor_counterexample",
+      "computed_remainder": "0",
+      "passed": true
+    },
+    {
+      "check": "consistent_basis_rescaling",
+      "computed_remainder": "0",
+      "passed": true
+    }
+  ],
+  "passed": 14,
+  "failed": 0,
+  "sympy_version": "1.14.0",
+  "new_model_generations": 0,
+  "scope": "Algebraic identities and boundary calculations; written analysis supplies global domains and minimax proof."
+}

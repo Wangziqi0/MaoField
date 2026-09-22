@@ -1,0 +1,12 @@
+{
+  "finish_reason": "stop",
+  "message": {
+    "content": "{\"B_expression\":\"-1/(2*(1+sqrt(1+r))**2)\",\"C_expression\":\"-1/2\",\"derivation\":\"Retained from P03_W1. The construction operates on the two-slot covariance quotient E=(2g+g^2-r)+2ug with g=r/2+chi_r(r)*chi_u(u)*(r^2*B+u*r*C). B=-1/(2*(1+sqrt(1+r))^2) is the Proposition 7.6 source-only pure-remainder canceler: at u=0, g=r/2+r^2*B=sqrt(1+r)-1 exactly, zeroing the pure part 2g+g^2-r. C=-1/2 cancels the leading cross-term ur: with the C contribution, 2*u*(u*r*C)=-u^2*r, and the ur from 2*u*(r/2) cancels the ur from the pure correction, leaving residual O(r^3+r^2*u+r*u^2). Both bodies are C-infinity on an open neighborhood of [-1/2,1/2]x[-1/4,1/4] since 1+r>=1/2>0 throughout, making sqrt(1+r) and (1+sqrt(1+r))^2 positive and analytic. Numerical feedback confirms: UNIFORM rows (|r|~1.6e-4, |u|~0.008) show full residuals ~1e-8 to 1e-10 consistent with O(u^2*r); ZERO rows exactly unchanged; rows with |u|>1/4 (LEFT/RIGHT edge families with z far from 1) correctly receive chi_u=0 and only the linear reference g=r/2; the LEFT r=-1 row outside chi_r support also correctly uses only the linear reference. No revision is indicated by the data at this stage.\",\"inspect\":[],\"note\":\"Program retained for P03_s1_W2. Successor should: (1) at the next target stage (smaller tau), verify that UNIFORM and small-u LEFT/RIGHT rows maintain residual at or below O(r^3+u^2*r) scale; (2) confirm that the far-field rows (z=-542, -143, -39, -11, -3, etc.) continue to receive only g=r/2 with chi_u=0 -- these are correct behavior, not failures; (3) the chi_u transition zone (1/8<|u|<1/4) gives partial correction; residuals there are expected to be larger and do not indicate a smoothness defect; (4) the state variable u is not reset; each stage reads actual stored z and computes r=p-z^2, u=z-1 independently; (5) the analytic certificate remains ANALYTIC_ON_CORE_NEIGHBORHOOD (1+r>0 covers the rectangle), sufficient for the coefficient family, not a full PDE certificate; (6) the weighted column residuals are at e-20 to e-72 scale, confirming the flat-shell weight is doing its job for the near-identity rows.\"}",
+    "role": "assistant"
+  },
+  "usage": {
+    "completion_tokens": 3791,
+    "prompt_tokens": 61318,
+    "total_tokens": 65109
+  }
+}

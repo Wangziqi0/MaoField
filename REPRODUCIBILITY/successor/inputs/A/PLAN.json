@@ -1,0 +1,268 @@
+{
+  "automatic_next_round": false,
+  "branch_order": [
+    [
+      "P00",
+      0
+    ],
+    [
+      "P03",
+      1
+    ],
+    [
+      "P01",
+      1
+    ],
+    [
+      "P00",
+      1
+    ],
+    [
+      "P02",
+      1
+    ],
+    [
+      "P02",
+      0
+    ],
+    [
+      "P01",
+      0
+    ],
+    [
+      "P03",
+      0
+    ]
+  ],
+  "parents": [
+    {
+      "allocation_bit": 0,
+      "ancestor_cluster": "R4_L00",
+      "archive_parent": "L00_s0_W2",
+      "id": "P00"
+    },
+    {
+      "allocation_bit": 0,
+      "ancestor_cluster": "R4_L00",
+      "archive_parent": "L00_s1_W2",
+      "id": "P01"
+    },
+    {
+      "allocation_bit": 0,
+      "ancestor_cluster": "R4_L01",
+      "archive_parent": "L01_s0_W2",
+      "id": "P02"
+    },
+    {
+      "allocation_bit": 1,
+      "ancestor_cluster": "R4_L01",
+      "archive_parent": "L01_s1_W2",
+      "id": "P03"
+    }
+  ],
+  "phase": "A",
+  "root_commitment": "c45ce78c2db4b355a255a6e7a59237fec84919c24b814723f3fa99df5d162598",
+  "stages": [
+    {
+      "arm": null,
+      "feedback_style": "NUMERIC",
+      "id": "P00_W0",
+      "model_stage": true,
+      "parent_id": "P00",
+      "seed": 928742611,
+      "slot": null,
+      "stage": "W0"
+    },
+    {
+      "arm": "NS",
+      "feedback_style": "NS",
+      "id": "P00_s0_W1",
+      "model_stage": true,
+      "parent_id": "P00",
+      "seed": 474186930,
+      "slot": 0,
+      "stage": "W1"
+    },
+    {
+      "arm": "NS",
+      "feedback_style": "NUMERIC",
+      "id": "P00_s0_W2",
+      "model_stage": true,
+      "parent_id": "P00",
+      "seed": 816006748,
+      "slot": 0,
+      "stage": "W2"
+    },
+    {
+      "arm": "NUMERIC",
+      "feedback_style": "NUMERIC",
+      "id": "P00_s1_W1",
+      "model_stage": true,
+      "parent_id": "P00",
+      "seed": 381024678,
+      "slot": 1,
+      "stage": "W1"
+    },
+    {
+      "arm": "NUMERIC",
+      "feedback_style": "NUMERIC",
+      "id": "P00_s1_W2",
+      "model_stage": true,
+      "parent_id": "P00",
+      "seed": 2120937481,
+      "slot": 1,
+      "stage": "W2"
+    },
+    {
+      "arm": null,
+      "feedback_style": "NUMERIC",
+      "id": "P01_W0",
+      "model_stage": true,
+      "parent_id": "P01",
+      "seed": 616102204,
+      "slot": null,
+      "stage": "W0"
+    },
+    {
+      "arm": "NS",
+      "feedback_style": "NS",
+      "id": "P01_s0_W1",
+      "model_stage": true,
+      "parent_id": "P01",
+      "seed": 780881487,
+      "slot": 0,
+      "stage": "W1"
+    },
+    {
+      "arm": "NS",
+      "feedback_style": "NUMERIC",
+      "id": "P01_s0_W2",
+      "model_stage": true,
+      "parent_id": "P01",
+      "seed": 808365416,
+      "slot": 0,
+      "stage": "W2"
+    },
+    {
+      "arm": "NUMERIC",
+      "feedback_style": "NUMERIC",
+      "id": "P01_s1_W1",
+      "model_stage": true,
+      "parent_id": "P01",
+      "seed": 512038959,
+      "slot": 1,
+      "stage": "W1"
+    },
+    {
+      "arm": "NUMERIC",
+      "feedback_style": "NUMERIC",
+      "id": "P01_s1_W2",
+      "model_stage": true,
+      "parent_id": "P01",
+      "seed": 1225241258,
+      "slot": 1,
+      "stage": "W2"
+    },
+    {
+      "arm": null,
+      "feedback_style": "NUMERIC",
+      "id": "P02_W0",
+      "model_stage": true,
+      "parent_id": "P02",
+      "seed": 762300781,
+      "slot": null,
+      "stage": "W0"
+    },
+    {
+      "arm": "NS",
+      "feedback_style": "NS",
+      "id": "P02_s0_W1",
+      "model_stage": true,
+      "parent_id": "P02",
+      "seed": 988311872,
+      "slot": 0,
+      "stage": "W1"
+    },
+    {
+      "arm": "NS",
+      "feedback_style": "NUMERIC",
+      "id": "P02_s0_W2",
+      "model_stage": true,
+      "parent_id": "P02",
+      "seed": 499902245,
+      "slot": 0,
+      "stage": "W2"
+    },
+    {
+      "arm": "NUMERIC",
+      "feedback_style": "NUMERIC",
+      "id": "P02_s1_W1",
+      "model_stage": true,
+      "parent_id": "P02",
+      "seed": 944363939,
+      "slot": 1,
+      "stage": "W1"
+    },
+    {
+      "arm": "NUMERIC",
+      "feedback_style": "NUMERIC",
+      "id": "P02_s1_W2",
+      "model_stage": true,
+      "parent_id": "P02",
+      "seed": 2053644735,
+      "slot": 1,
+      "stage": "W2"
+    },
+    {
+      "arm": null,
+      "feedback_style": "NUMERIC",
+      "id": "P03_W0",
+      "model_stage": true,
+      "parent_id": "P03",
+      "seed": 1595364320,
+      "slot": null,
+      "stage": "W0"
+    },
+    {
+      "arm": "NUMERIC",
+      "feedback_style": "NUMERIC",
+      "id": "P03_s0_W1",
+      "model_stage": true,
+      "parent_id": "P03",
+      "seed": 1015542586,
+      "slot": 0,
+      "stage": "W1"
+    },
+    {
+      "arm": "NUMERIC",
+      "feedback_style": "NUMERIC",
+      "id": "P03_s0_W2",
+      "model_stage": true,
+      "parent_id": "P03",
+      "seed": 613588555,
+      "slot": 0,
+      "stage": "W2"
+    },
+    {
+      "arm": "NS",
+      "feedback_style": "NS",
+      "id": "P03_s1_W1",
+      "model_stage": true,
+      "parent_id": "P03",
+      "seed": 1361343074,
+      "slot": 1,
+      "stage": "W1"
+    },
+    {
+      "arm": "NS",
+      "feedback_style": "NUMERIC",
+      "id": "P03_s1_W2",
+      "model_stage": true,
+      "parent_id": "P03",
+      "seed": 114607087,
+      "slot": 1,
+      "stage": "W2"
+    }
+  ],
+  "unit": "formation episode; A four episodes share TWO archived ancestors"
+}
