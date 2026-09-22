@@ -1,0 +1,13 @@
+{
+  "root": "/home/amd/\u4e0b\u8f7d/MAOFIELD_NATURE_PRESUBMISSION_V8_20260922/ZENODO_CANDIDATES/03_FULL_SCIENTIFIC_RECORDS",
+  "scope": "Uncompressed text-like raw export members; binary archives are catalogued separately, not asserted scanned by this pass.",
+  "counts": {
+    "files_considered": 35674,
+    "files_scanned": 33180,
+    "bytes_scanned": 5293149442,
+    "binary_or_archive_skipped": 2494
+  },
+  "hits": [],
+  "elapsed_seconds": 213.83,
+  "secrets_printed": false
+}

@@ -1,0 +1,10 @@
+{
+  "release": "20260901",
+  "full_archive_url": "https://github.com/astral-sh/python-build-standalone/releases/download/20260901/cpython-3.12.14%2B20260901-x86_64-unknown-linux-gnu-pgo%2Blto-full.tar.zst",
+  "full_archive_sha256": "f2e7bf187eaa66f88432b13cc560528c328b51d452de2fd0875561c82f7168e7",
+  "retained_members": [
+    "python/PYTHON.json",
+    "python/licenses/"
+  ],
+  "runtime_binary_origin": "install_only_stripped archive identified in PYTHON_TOOLCHAIN_RECEIPT.json"
+}

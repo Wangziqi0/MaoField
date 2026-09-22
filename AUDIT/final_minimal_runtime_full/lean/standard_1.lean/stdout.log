@@ -1,0 +1,57 @@
+✖ [3409/3409] Building Branch.Direct (4.2s)
+trace: .> LEAN_PATH=/work/.lake/packages/Cli/.lake/build/lib/lean:/work/.lake/packages/batteries/.lake/build/lib/lean:/work/.lake/packages/Qq/.lake/build/lib/lean:/work/.lake/packages/aesop/.lake/build/lib/lean:/work/.lake/packages/proofwidgets/.lake/build/lib/lean:/work/.lake/packages/importGraph/.lake/build/lib/lean:/work/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/work/.lake/packages/plausible/.lake/build/lib/lean:/work/.lake/packages/lean4export/.lake/build/lib/lean:/work/.lake/packages/mathlib/.lake/build/lib/lean:/work/.lake/packages/Comparator/.lake/build/lib/lean:/work/.lake/build/lib/lean /opt/lean/bin/lean /work/Branch/Direct.lean -o /work/.lake/build/lib/lean/Branch/Direct.olean -i /work/.lake/build/lib/lean/Branch/Direct.ilean -c /work/.lake/build/ir/Branch/Direct.c --setup /work/.lake/build/ir/Branch/Direct.setup.json --json
+error: Branch/Direct.lean:54:33: Application type mismatch: The argument
+  slotRadius r0 h n
+has type
+  ℝ
+but is expected to have type
+  Fin 2 → PartitionedCovariance.Pulse
+in the application
+  normalizedPair_entry_error (slotRadius r0 h n)
+error: Branch/Direct.lean:61:10: Unknown identifier `div_le_div_iff`
+info: Branch/Direct.lean:78:0: fun {X} [TopologicalSpace X] {K} =>
+  Branch.Direct.completed : ∀ {X : Type u_1} [inst : TopologicalSpace X] {K : Set X},
+  IsCompact K →
+    ∀ (H0 : X → Mat2) (T0 : X → Vec2),
+      (∀ (i j : Fin 2), ContinuousOn (fun p => H0 p i j) K) →
+        (∀ (i : Fin 2), ContinuousOn (fun p => T0 p i) K) →
+          (∀ p ∈ K, SmoothCovariance.StrictCone (H0 p) (T0 p)) →
+            ∀ (vr vt : TorusInverse.Plane),
+              vr.1 * vt.2 - vr.2 * vt.1 ≠ 0 →
+                ∀ {r0 h a A b B E D : ℝ},
+                  0 < r0 →
+                    0 ≤ h →
+                      0 < a →
+                        0 < A →
+                          0 < b →
+                            0 ≤ E →
+                              0 ≤ D →
+                                ∃ N,
+                                  4 ≤ N ∧
+                                    ∃ detGap entryBound inverseLower,
+                                      0 < detGap ∧
+                                        1 ≤ entryBound ∧
+                                          0 < inverseLower ∧
+                                            ∀ (n : ℕ),
+                                              N ≤ n →
+                                                ∀ p ∈ K,
+                                                  ∀ (P : Fin 2 → PartitionedCovariance.Pulse),
+                                                    (∀ (j : Fin 2),
+                                                        PulseCovariance.PulseBounds (slotRadius r0 h n) a A b B (P j).ψ
+                                                          (P j).x) →
+                                                      (∀ (j i : Fin 2),
+                                                          ∀ v ∈ Icc 0 (ChartScales.slotLength r0 h n),
+                                                            |(P j).t v i / (P j).x v - H0 p i j| ≤
+                                                              E / ChartScales.slotLength r0 h n +
+                                                                D * |v - ChartScales.slotLength r0 h n / 2| /
+                                                                  ChartScales.slotLength r0 h n) →
+                                                        ∀ (zeta : ℝ),
+                                                          0 ≤ zeta →
+                                                            ZeroOrderBounds (√(ChartScales.S n)) detGap entryBound
+                                                              inverseLower zeta
+                                                              (PartitionedCovariance.pairMatrix vr vt r0
+                                                                (fun x => ChartScales.timeCoefficient h n) P)
+                                                              (FlatCovariance.scaledTarget zeta (T0 p))
+info: Branch/Direct.lean:79:0: 'Branch.Direct.completed' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]
+Some required targets logged failures:
+- Branch.Direct

@@ -1,0 +1,18 @@
+{
+  "manuscript": {
+    "pages": 30,
+    "text_characters": 63260,
+    "replacement_glyphs": 0
+  },
+  "supplementary_information": {
+    "pages": 18,
+    "text_characters": 53224,
+    "replacement_glyphs": 0
+  },
+  "cover_letter": {
+    "pages": 1,
+    "text_characters": 4499,
+    "replacement_glyphs": 0
+  },
+  "visual_review": "Full-page overview and detailed review of changed mathematical passages, no observed clipping; final metadata-change pages reviewed separately"
+}

@@ -9,6 +9,7 @@ import sympy as sp
 def run():
     R,E,D,c=sp.symbols('R E D c', real=True)
     positive_case=sp.simplify((E+D*c)/R-(E+D*abs(c))/R).subs(c,sp.Symbol('k',positive=True))
+    assert sp.simplify(positive_case) == 0
     k=sp.Symbol('k',nonnegative=True)
     neg_difference=sp.simplify(((E+D*abs(c))-(E+D*c)).subs(c,-k))
     assert sp.simplify(neg_difference-2*D*k)==0

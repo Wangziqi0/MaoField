@@ -41,7 +41,30 @@ def table(path, rows):
     with path.open('w',newline='') as f:
         w=csv.DictWriter(f,fieldnames=list(rows[0]));w.writeheader();w.writerows(rows)
 
-def analyse(inputs,out):
+
+def check_historical_provenance(raw=None):
+    base=Path(__file__).resolve().parent/'provenance'
+    manifest=load(base/'MANIFEST.json');values={};hashes={}
+    for item in manifest:
+        p=(raw/'rounds/20260918_ns_r6_ab_execution/supplement_a_r3'/item['source']) if raw else base/item['file']
+        assert sha(p)==item['sha256'],item['source']
+        hashes[item['source']]=sha(p)
+        if p.suffix=='.json':
+            value=load(p);values[item['source']]=value
+            for key,expected in item['predicates'].items():
+                assert value[key]==expected and type(value[key])==type(expected),(item['source'],key)
+    original='analysis_view/science_A/pre_supplement_failure/P01_s1_W2/'
+    complete=values['remote_raw/COMPLETE.json']
+    assert hashes[original+'request_01/request.json']==hashes['remote_raw/request_01/request.json']==complete['payload_sha256']
+    return {'original_status':values[original+'STATUS.json']['status'],
+        'original_completion':values[original+'STATUS.json']['reason'],
+        'original_effect_applied':values[original+'RETURNED_NOT_APPLIED.json']['effect_applied'],
+        'no_replay':values[original+'request_01/parent_timeout.json']['no_replay'],
+        'supplement_status':complete['status'],'old_unknown_resolved':complete['old_unknown_resolved'],
+        'requests_sent':complete['cumulative_A_sent'],'requests_complete':complete['cumulative_A_complete'],
+        'source_receipt_hashes':hashes,'authority_receipt_verified':True}
+
+def analyse(inputs,out,raw=None):
     out.mkdir(parents=True,exist_ok=True);mp.mp.dps=100
     catalog=load(inputs/'catalog.json')
     for x in catalog['files']:
@@ -145,7 +168,7 @@ def analyse(inputs,out):
         'selected_coordinate_programs_recomputed':len(witness),'maximum_selected_normalised_difference':mp.nstr(max_err,18),
         'unchanged_B_versions':sum(x['identical_code'] for x in equal),
         'selection_identity':'Post-selection explanatory traces, not replacement endpoints or independent confirmations',
-        'A_historical_unknown_request':'Retained separately; A W2 supplemental observation is not a recovered old return'}
+        'A_historical_unknown_request':check_historical_provenance(raw)}
     dump(out/'audit_result.json',result);return result
 
 def export(raw,out):
@@ -187,4 +210,4 @@ if __name__=='__main__':
     p=argparse.ArgumentParser();p.add_argument('--raw-root',type=Path);p.add_argument('--inputs',type=Path,required=True);p.add_argument('--out',type=Path,required=True)
     a=p.parse_args()
     if a.raw_root: export(a.raw_root,a.inputs)
-    print(json.dumps(analyse(a.inputs,a.out),indent=2))
+    print(json.dumps(analyse(a.inputs,a.out,a.raw_root),indent=2))

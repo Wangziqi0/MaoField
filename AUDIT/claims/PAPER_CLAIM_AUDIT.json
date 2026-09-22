@@ -1,0 +1,123 @@
+{
+  "audit_skill": "paper-claim-audit",
+  "verdict": "WARN",
+  "reason_code": "stale_figure_provenance_and_historical_evidence_gaps",
+  "summary": "All current main-result numbers, denominators, contrasts, request resources and quantitative captions reconcile to primary records; two stale figure-provenance tables and five historical-only evidence gaps require correction or qualification.",
+  "audited_input_hashes": {
+    "manuscript.md": "sha256:1284d72b97dada6188e7e205c64e6f1b0dd9cd9351a007356c996b696f899d09",
+    "supplementary_information.md": "sha256:7b0cfd72c8148c5430606c98f8a98815abfa6d56b4a8f82663d73e220860471a",
+    "/home/amd/下载/MAOFIELD_NATURE_RESTORED_V8_R2_20260923/SOURCE_DATA/FIGURE_INPUT_IDENTITIES.csv": "sha256:dc3918585d91c12d689574beb4079b1eb67a87c3202a3172ae03c3cd3fe2fc7b",
+    "/home/amd/下载/MAOFIELD_NATURE_RESTORED_V8_R2_20260923/SOURCE_DATA/FIGURE_SOURCE_MAP.csv": "sha256:46e821457abf64a6e53ba5a4802b48d13e6a6dd2a3db761a55afeb5beea89fdd",
+    "/home/amd/下载/MAOFIELD_NATURE_RESTORED_V8_R2_20260923/SOURCE_DATA/source_data_figures.csv": "sha256:123e9977974508dfea6015f2031b50199bc4aff28513bf684f81b4ffd6649c49",
+    "/home/amd/下载/MAOFIELD_NATURE_RESTORED_V8_R2_20260923/SOURCE_DATA/attempts.csv": "sha256:58787afcbfd7ad0291218b34bb39cae8363f8ad6ea58ef02fe7b0d6ec5f313bc",
+    "/home/amd/下载/MAOFIELD_NATURE_RESTORED_V8_R2_20260923/SOURCE_DATA/figure2_analytic_curve.csv": "sha256:b08f5eef43f8978fc70ba84f36413b266937d2138cb244545ce709c22c4b3b24",
+    "/home/amd/下载/MAOFIELD_NATURE_RESTORED_V8_R2_20260923/SOURCE_DATA/successor/cohort_status.json": "sha256:b582f006537329717eeacf05124807ca0a11330947dd81cbc31b43f5c3e29f73",
+    "/home/amd/下载/MAOFIELD_NATURE_RESTORED_V8_R2_20260923/SOURCE_DATA/successor/main_contrasts.csv": "sha256:8d84b04145af7ed34ae441fc436cab273414a34dad87d8871af7a9aad74743b2",
+    "/home/amd/下载/MAOFIELD_NATURE_RESTORED_V8_R2_20260923/SOURCE_DATA/successor/selected_coordinates.csv": "sha256:0b6ff10ac14ff099386034cce826776a0fa38ef2c4b7c4537a826e8ceb8fd85d",
+    "/home/amd/下载/MAOFIELD_NATURE_RESTORED_V8_R2_20260923/SOURCE_DATA/successor/selected_witnesses.json": "sha256:e04de5133094d80de7643b08a05507052d21558ebf36fa0ec7bb66558c8c5a5f",
+    "/home/amd/下载/MAOFIELD_NATURE_RESTORED_V8_R2_20260923/SOURCE_DATA/successor/symbolic_successor.json": "sha256:23dc5a4a6cf1fcafab589e0423bff65c88c038d5c02aa3d300398620bc4f6aca",
+    "/home/amd/下载/MAOFIELD_NATURE_RESTORED_V8_R2_20260923/SOURCE_DATA/successor/version_identity.json": "sha256:083d89395820f69634589c905197231ad1d8b77a03c6da3c0ae9f3d7bb5a447e",
+    "/home/amd/下载/MAOFIELD_NATURE_PRESUBMISSION_V8_20260922/INTERNAL/RAW_HCLOSE/PACKAGE_MANIFEST.json": "sha256:5569bdabed031a8667ad9ec2d13d909645707b82acf329d843c721b99cf56db0",
+    "/home/amd/下载/MAOFIELD_NATURE_PRESUBMISSION_V8_20260922/INTERNAL/RAW_HCLOSE/10_CURRENT_RUN/PLAN.json": "sha256:79b8405a3dcc55a6e4d2418f2048cd99a544e3d571ef7a7d339a28e222c42524",
+    "/home/amd/下载/MAOFIELD_NATURE_PRESUBMISSION_V8_20260922/INTERNAL/RAW_HCLOSE/10_CURRENT_RUN/RESULTS.json": "sha256:b8fb311ca206069ed162713a88105d61930091e4e07960cc899252a98ca468af",
+    "/home/amd/下载/MAOFIELD_NATURE_PRESUBMISSION_V8_20260922/INTERNAL/RAW_HCLOSE/22_ENVIRONMENT/FORMAL_RUNTIME_ACCEPTED.json": "sha256:3e8fa6e4f74bae51143eeb076e4162a684753c6b646d1c57db272291b7ebb945",
+    "/home/amd/下载/MAOFIELD_NATURE_PRESUBMISSION_V8_20260922/INTERNAL/RAW_HCLOSE/23_REVIEW_ONLY_ORIGINAL_SOURCE/PINNED_SOURCE_CHECKOUT.json": "sha256:3cf5af70ee93a846c9c82a1881c6bb25d4fb4583510e2ebf88cb134fd52add68",
+    "/home/amd/下载/MAOFIELD_NATURE_PRESUBMISSION_V8_20260922/INTERNAL/RAW_HCLOSE/23_REVIEW_ONLY_ORIGINAL_SOURCE/PrimaryCovarianceBounds.full_original.lean": "sha256:7417f840e9689a41504a1cc368acc04d565d2c5bac2cca3959675a9a86b97862",
+    "/home/amd/下载/MAOFIELD_NATURE_PRESUBMISSION_V8_20260922/REPRODUCIBILITY/successor/inputs/catalog.json": "sha256:aa054ae57ff3c59395001fc28c7165617fd850c82ddc956c0f14c1fc039a9cc6",
+    "/home/amd/下载/MAOFIELD_NATURE_PRESUBMISSION_V8_20260922/REPRODUCIBILITY/successor/inputs/A/PLAN.json": "sha256:37640ffcd45fa52d9b662b15ad74cc1448e9ec3aeba9e968a8681cc4a87ad9ad",
+    "/home/amd/下载/MAOFIELD_NATURE_PRESUBMISSION_V8_20260922/REPRODUCIBILITY/successor/inputs/B/PLAN.json": "sha256:e95bc67c00781013bbfc8130ba4a1289b7e11ad2da88657eafa3a304a21d6199",
+    "/home/amd/下载/MAOFIELD_NATURE_RESTORED_V8_R2_20260923/FIGURES/figure2_minimax_and_domain.svg": "sha256:c8ab64a35d2e0cabab001cc9166aac9407019c93323de2b8da7147130c2eed89",
+    "/home/amd/下载/MAOFIELD_NATURE_RESTORED_V8_R2_20260923/FIGURES/figure3_successor_continuation.svg": "sha256:a24d605b9e4121e0b3bd3663fb0a355fff6475e74a72f2d8cc7179095ea02292",
+    "/home/amd/下载/MAOFIELD_NATURE_RESTORED_V8_R2_20260923/FIGURES/figure4_hclose_application.svg": "sha256:047d15969ad8031ecaf00c56239a9b14f78cff57c10d7c76075bfa2206fef0c9",
+    "/home/amd/下载/MAOFIELD_NATURE_RESTORED_V8_R2_20260923/FIGURES/extended_data_figure1_resources.svg": "sha256:b59030ec218420d27d9974bb00efbaba74742210f72803236ed4c12c06718ef9",
+    "/home/amd/下载/MAOFIELD_NATURE_RESTORED_V8_R2_20260923/FIGURES/extended_data_table1_history.svg": "sha256:64c0cca0b1b8c72958d0dbecd591754481da1815c3adf6ba4e663d6f62f710a7",
+    "/home/amd/下载/MAOFIELD_NATURE_RESTORED_V8_R2_20260923/REVIEW_SUPPORT/MAOFIELD_REVIEW_SUPPORT.zip": "sha256:46829d302cfeb5cc51d79622984fb6f24af4e53ec96bc4677f62f03a98504b66",
+    "/home/amd/下载/MAOFIELD_NATURE_PRESUBMISSION_V8_20260922/ZENODO_CANDIDATES/03_FULL_SCIENTIFIC_RECORDS/EARLIER_WORKFLOWS/20260919_ns_fixed_history_packet_v3r5/packet_preparation/TERMINAL.json": "sha256:e1d41e1d72de80df8762ff53f3e4b35a813dd7fa0ea57a6f33e5a5e3da275467",
+    "/home/amd/下载/MAOFIELD_NATURE_PRESUBMISSION_V8_20260922/ZENODO_CANDIDATES/03_FULL_SCIENTIFIC_RECORDS/EARLIER_WORKFLOWS/20260919_ns_fixed_history_packet_v3r5/engineering/run_campaign.py": "sha256:12b43b914d8c7747796b1e137d6bd1f528cab0916a57a8c993ae24756e787e01",
+    "/home/amd/下载/MAOFIELD_NATURE_PRESUBMISSION_V8_20260922/ZENODO_CANDIDATES/03_FULL_SCIENTIFIC_RECORDS/EARLIER_WORKFLOWS/20260920_ns_fixed_history_packet_repair_v3r6/campaign/PLAN.json": "sha256:463953d3fd70e2c0edb9ba17ed59ece151d91f175d1043a680c09f5d6886b33a",
+    "/home/amd/下载/MAOFIELD_NATURE_PRESUBMISSION_V8_20260922/ZENODO_CANDIDATES/03_FULL_SCIENTIFIC_RECORDS/EARLIER_WORKFLOWS/20260920_ns_engineering_ready_v3r7/campaign/PLAN.json": "sha256:9b43f9f906223976eb8ddd26f30a9eea09dc6b037e99afe1afb19ebe81885f67",
+    "/home/amd/下载/MAOFIELD_NATURE_PRESUBMISSION_V8_20260922/ZENODO_CANDIDATES/03_FULL_SCIENTIFIC_RECORDS/SUCCESSOR/rounds/20260918_ns_r6_ab_execution/science_A/stages/P01_s1_W2/request_01/parent_timeout.json": "sha256:d5f4a5cb12b3cd1ae4754e452b2629df6a9a37a28f966d5d99c6cd81fc6d7dc8",
+    "/home/amd/下载/MAOFIELD_NATURE_PRESUBMISSION_V8_20260922/ZENODO_CANDIDATES/03_FULL_SCIENTIFIC_RECORDS/SUCCESSOR/rounds/20260918_ns_r6_ab_execution/supplement_a_r3/REMOTE_SUPPLEMENT_MANIFEST.json": "sha256:d5208366c790f5bbddc34de302b9edde7f6b813b99fb03177bdf17593edd75c9"
+  },
+  "trace_path": "coordination/20260923_presubmission_final_audit/claims/.aris/traces/paper-claim-audit/2026-09-23_run01/",
+  "agent_id": "/root/final_claim_evidence",
+  "executor_model": "gpt-6-astra",
+  "executor_family": "openai",
+  "reviewer_model": "gpt-6-astra",
+  "reviewer_family": "openai",
+  "review_independence": "same-family",
+  "acceptance_status": "provisional",
+  "reviewer_reasoning": "inherited_parent_setting_not_exposed",
+  "generated_at": "2026-09-22T19:27:44Z",
+  "details": {
+    "paper_title": "Why can equal results lead to different scientific futures",
+    "claim_table": "CLAIM_EVIDENCE_TABLE.csv",
+    "total_claim_groups": 50,
+    "status_counts": {
+      "exact_match": 34,
+      "rounding_ok": 8,
+      "ambiguous_mapping": 1,
+      "missing_evidence": 5,
+      "config_mismatch": 2,
+      "number_mismatch": 0,
+      "scope_overclaim": 0
+    },
+    "mismatches": [
+      {
+        "claim_id": "ART-001",
+        "status": "config_mismatch",
+        "issue": "FIGURE_INPUT_IDENTITIES.csv uses obsolete figure stems and stale manuscript/SI hashes.",
+        "required_action": "Regenerate the file from the current R2 build and current submission sources."
+      },
+      {
+        "claim_id": "ART-002",
+        "status": "config_mismatch",
+        "issue": "source_data_figures.csv retains the prior Figure 3/4 mapping and omits current successor Figure 3 sources.",
+        "required_action": "Replace it with the current FIGURE_SOURCE_MAP mapping or remove the redundant stale file."
+      },
+      {
+        "claim_id": "HCL-007",
+        "status": "ambiguous_mapping",
+        "issue": "The exact namespaced model identifier printed in the manuscript is not present in the final run records; only the served alias and local root basename are recorded.",
+        "required_action": "Use the served alias or add a primary alias-to-repository identity receipt."
+      },
+      {
+        "claim_id": "HCL-014",
+        "status": "missing_evidence",
+        "issue": "The later replay probe and its toolchain-unavailable reason are not present as admissible raw evidence in the declared roots.",
+        "required_action": "Add the raw probe receipt or shorten the claim to a plain non-rerun statement."
+      },
+      {
+        "claim_ids": ["HIST-004", "HIST-005", "HIST-006", "HIST-007"],
+        "status": "missing_evidence",
+        "issue": "Exact counts and outcomes for older A-prime, A-double-prime, E1/E3 and finite-scalar/R4 episodes occur only in excluded historical summaries/STATE, not supplied immutable primary records.",
+        "required_action": "Supply immutable raw episode ledgers/results or remove/qualify the exact counts."
+      }
+    ],
+    "deterministic_checks": {
+      "hclose_package_manifest": "859/859 files present and SHA-256-valid",
+      "successor_export_catalog": "418/418 exported files present and SHA-256-valid; catalog plus exports form a 419-file tree",
+      "successor_rows": 18720,
+      "successor_parent_links": "40/40 actual-state arrays match predecessor id/z_after strings",
+      "contrast_denominators": "144,144,288 for every source family across the three reported comparison columns",
+      "current_numeric_claim_mismatches": 0,
+      "figure_caption_numeric_mismatches": 0
+    },
+    "scope_exclusions": [
+      "Bibliographic years, volumes, pages, DOI metadata and citation numbering were not re-audited; they belong to the separate citation audit.",
+      "Equation, figure, table and supplementary-note labels were treated as structural identifiers rather than empirical numbers.",
+      "Earlier audits, narrative reports, EXPERIMENT_LOG/TRACKER, STATE/STATUS and executor summaries were excluded as evidentiary inputs."
+    ],
+    "result_files": [
+      "/home/amd/下载/MAOFIELD_NATURE_PRESUBMISSION_V8_20260922/INTERNAL/RAW_HCLOSE/PACKAGE_MANIFEST.json",
+      "/home/amd/下载/MAOFIELD_NATURE_PRESUBMISSION_V8_20260922/INTERNAL/RAW_HCLOSE/10_CURRENT_RUN/PLAN.json",
+      "/home/amd/下载/MAOFIELD_NATURE_PRESUBMISSION_V8_20260922/INTERNAL/RAW_HCLOSE/10_CURRENT_RUN/RESULTS.json",
+      "/home/amd/下载/MAOFIELD_NATURE_PRESUBMISSION_V8_20260922/REPRODUCIBILITY/successor/inputs/catalog.json",
+      "/home/amd/下载/MAOFIELD_NATURE_RESTORED_V8_R2_20260923/SOURCE_DATA/attempts.csv",
+      "/home/amd/下载/MAOFIELD_NATURE_RESTORED_V8_R2_20260923/SOURCE_DATA/successor/main_contrasts.csv",
+      "/home/amd/下载/MAOFIELD_NATURE_RESTORED_V8_R2_20260923/SOURCE_DATA/successor/selected_coordinates.csv",
+      "/home/amd/下载/MAOFIELD_NATURE_RESTORED_V8_R2_20260923/SOURCE_DATA/FIGURE_INPUT_IDENTITIES.csv",
+      "/home/amd/下载/MAOFIELD_NATURE_RESTORED_V8_R2_20260923/SOURCE_DATA/FIGURE_SOURCE_MAP.csv"
+    ]
+  }
+}

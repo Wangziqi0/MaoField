@@ -10,15 +10,15 @@ def clean(t):
  t=re.sub(r'[`*_#]','',t)
  return t
 # Count visible prose words, excluding LaTeX displays and inline notation.
-def wc(t):return len(re.findall(r"[A-Za-z0-9]+(?:[’'\-][A-Za-z0-9]+)*",clean(t)))
-a=re.search(r'^\*\*(AI now[^\n]+)\*\*$',s,re.M).group(1)
+def wc(t):return len(re.findall(r"[A-Za-z0-9]+(?:[’'\-–][A-Za-z0-9]+)*",clean(t)))
+a=re.search(r'^\*\*(AI [^\n]+)\*\*$',s,re.M).group(1)
 a= re.sub(r'[⁰¹²³⁴⁵⁶⁷⁸⁹]+(?:[–,][⁰¹²³⁴⁵⁶⁷⁸⁹]+)*','',a)
 body=s.split('## Introduction\n',1)[1].split('## References',1)[0]
 methods=s.split('## Methods\n',1)[1].split('### Data availability',1)[0]
 cl=(R/'SUBMISSION/cover_letter.md').read_text()
 clbody=cl.split('Dear Editors,',1)[1].split('Yours sincerely',1)[0]
 legends=re.findall(r'^\*\*((?:Fig\. [1-4]|Extended Data (?:Fig\.|Table) 1) \|.+)$',s,re.M)
-record={'date':'2026-09-21','count_rule':'ASCII alphanumeric word tokens with internal apostrophe/hyphen; displays and inline LaTeX excluded; superscript citations excluded; section headings excluded from body by separate heading removal where stated.',
+record={'date':'2026-09-23','count_rule':'ASCII alphanumeric word tokens with internal apostrophe/hyphen/en dash; displays and inline LaTeX excluded; superscript citations excluded; section headings excluded from body by separate heading removal where stated.',
  'indexed_title':'Why can equal results lead to different scientific futures',
  'title_characters':len('Why can equal results lead to different scientific futures'),
  'abstract_words':wc(a),'main_body_words_excluding_headings_math':wc(re.sub(r'^#+.*$','',body,flags=re.M)),

@@ -1,6 +1,7 @@
 figure,item,source_or_derivation
-1,"provided results, hclose, supplied consumer",E06; E07; E09–E11; E16
-2,equation chain,E06; E07; E08; Supplementary Note 2
-3,six request outcomes and token counts,attempts.csv; wire_sources.json
-4,actual final tactics and compiler mismatch,E09; E11; E12; E13
-ED1,input and output tokens by request,attempts.csv
+1,Readout insufficiency and recorded entry points,manuscript; SI Notes 2-3; successor and hclose records
+2,Exact minimax and compact repair domain,figure2_analytic_curve.csv; SI Note 2
+3,Recorded successor revision and reuse,successor/selected_coordinates.csv; cohort_status.json; version_identity.json; inheritance.json
+4,Two transports; proof use; all six requests,attempts.json; five original candidates; Checkpoint.NodeGoal
+ED1,Token counts for all six requests,attempts.json
+EDTable1,Historical workflow statuses,extended_data_table1_history.csv; SI Notes 6 and 9

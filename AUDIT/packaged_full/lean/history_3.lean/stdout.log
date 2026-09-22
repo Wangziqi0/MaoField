@@ -1,0 +1,46 @@
+ℹ [3409/3409] Built Branch.Direct (4.3s)
+info: Branch/Direct.lean:84:0: fun {X} [TopologicalSpace X] {K} =>
+  Branch.Direct.completed : ∀ {X : Type u_1} [inst : TopologicalSpace X] {K : Set X},
+  IsCompact K →
+    ∀ (H0 : X → Mat2) (T0 : X → Vec2),
+      (∀ (i j : Fin 2), ContinuousOn (fun p => H0 p i j) K) →
+        (∀ (i : Fin 2), ContinuousOn (fun p => T0 p i) K) →
+          (∀ p ∈ K, SmoothCovariance.StrictCone (H0 p) (T0 p)) →
+            ∀ (vr vt : TorusInverse.Plane),
+              vr.1 * vt.2 - vr.2 * vt.1 ≠ 0 →
+                ∀ {r0 h a A b B E D : ℝ},
+                  0 < r0 →
+                    0 ≤ h →
+                      0 < a →
+                        0 < A →
+                          0 < b →
+                            0 ≤ E →
+                              0 ≤ D →
+                                ∃ N,
+                                  4 ≤ N ∧
+                                    ∃ detGap entryBound inverseLower,
+                                      0 < detGap ∧
+                                        1 ≤ entryBound ∧
+                                          0 < inverseLower ∧
+                                            ∀ (n : ℕ),
+                                              N ≤ n →
+                                                ∀ p ∈ K,
+                                                  ∀ (P : Fin 2 → PartitionedCovariance.Pulse),
+                                                    (∀ (j : Fin 2),
+                                                        PulseCovariance.PulseBounds (slotRadius r0 h n) a A b B (P j).ψ
+                                                          (P j).x) →
+                                                      (∀ (j i : Fin 2),
+                                                          ∀ v ∈ Icc 0 (ChartScales.slotLength r0 h n),
+                                                            |(P j).t v i / (P j).x v - H0 p i j| ≤
+                                                              E / ChartScales.slotLength r0 h n +
+                                                                D * |v - ChartScales.slotLength r0 h n / 2| /
+                                                                  ChartScales.slotLength r0 h n) →
+                                                        ∀ (zeta : ℝ),
+                                                          0 ≤ zeta →
+                                                            ZeroOrderBounds (√(ChartScales.S n)) detGap entryBound
+                                                              inverseLower zeta
+                                                              (PartitionedCovariance.pairMatrix vr vt r0
+                                                                (fun x => ChartScales.timeCoefficient h n) P)
+                                                              (FlatCovariance.scaledTarget zeta (T0 p))
+info: Branch/Direct.lean:85:0: 'Branch.Direct.completed' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (3409 jobs).

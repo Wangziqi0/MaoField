@@ -1,39 +1,10 @@
 {
-  "revision": "EDITORIAL_FINAL_V5_20260921",
-  "new_experimental_model_calls": 0,
-  "new_external_agents": 0,
-  "written_math": "RETAINED; FINITE THEOREMS AND SAFETY ASSUMPTIONS IN SI 2-3; ACTUAL PROGRAMME IDENTITIES IN SI 9",
-  "deterministic_math": "EXECUTED: 14 exact checks; 36 hclose rational cases and 3 matrix identities",
-  "hclose_private_record_analysis": "EXECUTED_FROM_859_UNCHANGED_PAYLOADS",
-  "hclose_reviewer_record_analysis": "EXECUTED_FROM_553_SOURCE_MAPPED_PAYLOADS",
-  "successor_record_analysis": {
-    "A_historical_unknown_request": "Retained separately; A W2 supplemental observation is not a recovered old return",
-    "effects_recomputed": 18720,
-    "historical_complete_requests": 104,
-    "historical_only": true,
-    "maximum_selected_normalised_difference": "2.12495027868271447e-71",
-    "new_model_calls": 0,
-    "parent_state_links_checked": 40,
-    "selected_coordinate_programs_recomputed": 9,
-    "selection_identity": "Post-selection explanatory traces, not replacement endpoints or independent confirmations",
-    "stages": 52,
-    "unchanged_B_versions": 7
-  },
-  "saved_candidate_assembly": "EXECUTED_IN_SEPARATE_PRIVATE_AND_REVIEWER_DIRECTORIES_FIVE_UNCHANGED_CANDIDATES",
-  "saved_candidate_Lean_replay": "NOT_RUN_TOOLCHAIN_AND_CONTAINER_UNAVAILABLE",
+  "status": "PASS_PACKAGED_FULL_REPRODUCTION",
+  "ordinary_Lean": "one accepted; four rejected",
   "independent_kernel": "NOT_RUN",
-  "external_mathematical_peer_review": "NOT_RUN",
-  "unit_tests": "16_PASSED",
-  "new_source_data": "DETERMINISTIC_REANALYSIS_ONLY_NOT_NEW_EXPERIMENTAL_UNITS",
-  "native_equations": {
-    "manuscript": 115,
-    "SI": 182
-  },
-  "visual_review": "54 distinct document pages, six colour and grayscale figures; affected pages rerendered and reread",
-  "author_metadata_and_declarations": "REQUIRED_BEFORE_SUBMISSION; not inferred or filled with none",
-  "sharing_permissions_and_permanent_repository": "PENDING_AUTHOR_CONFIRMATION; no public repository claimed",
-  "official_dynamic_forms": "SCIENTIFIC_FIELD_RESPONSES_ONLY; original form not represented as completed",
-  "submitted": false,
-  "publicly_released": false,
-  "library_upload": "Private user delivery handled separately after archive creation"
+  "new_model_calls": 0,
+  "platform": "Linux x86_64",
+  "raw_and_mapped_reanalysis": "PASS",
+  "provenance_receipts": "PASS",
+  "audit_date": "2026-09-23"
 }

@@ -1,0 +1,22 @@
+{
+  "status": "SOURCE_ASSEMBLED_NOT_COMPILED",
+  "original_source_commit": "f9e8bc5b38b6e212696e8a30e3e91517af887bbd",
+  "source_slice_notice": "SOURCE_NOTICE.md",
+  "input_verification": {
+    "manifest": "PACKAGE_MANIFEST.json",
+    "manifest_sha256": "5569bdabed031a8667ad9ec2d13d909645707b82acf329d843c721b99cf56db0",
+    "verified_files": 859
+  },
+  "toolchain": {
+    "download_url": "https://github.com/leanprover/lean4/releases/download/v4.34.0-rc2/lean-4.34.0-rc2-linux.tar.zst",
+    "archive_sha256": "3d011041203acacf300d343a39673f7d233743397993797c941346ae9e5df1a8",
+    "lean_version": "4.34.0-rc2",
+    "commit": "6a10ac8c22beadecabdbb0919c2b50214762f91d"
+  },
+  "candidate_count": 5,
+  "local_imports_checked": 1148,
+  "unresolved_local_imports": [],
+  "new_model_calls": 0,
+  "new_Lean_compilations": 0,
+  "independent_kernel": "NOT_RUN"
+}

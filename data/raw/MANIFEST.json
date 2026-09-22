@@ -1,0 +1,28 @@
+[
+  {
+    "path": "HCLOSE.zip",
+    "sha256": "40c01f259f857377749be71750c7b37c08fec752a3451c70fe682e8ed26bfcfe",
+    "bytes": 14192727,
+    "source": "unmodified full scientific record",
+    "includes_reasoning": true
+  },
+  {
+    "path": "SUCCESSOR.zip",
+    "sha256": "ecda1191a9d50003fab86c869e763b0a40298fd8b54b4a0fa532646048ce3925",
+    "bytes": 147796144,
+    "source": "unmodified full scientific record",
+    "includes_reasoning": true,
+    "parts": [
+      {
+        "path": "SUCCESSOR.zip.part00",
+        "sha256": "92eda1b5ed67104f48a31ca126d708d4012519fcf6d29ec43a9fdbff25e92f21",
+        "bytes": 83886080
+      },
+      {
+        "path": "SUCCESSOR.zip.part01",
+        "sha256": "6ad7a521698cf4aa84ba58244793dd1bf5fd9b0838da97756aa08387842dface",
+        "bytes": 63910064
+      }
+    ]
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "ART-001": "Fixed stems and all final input hashes",
+  "ART-002": "Fixed source-data numbering",
+  "HCL-007": "Use recorded served alias and local root basename; not weight identity certification",
+  "HCL-014": "Superseded by actual ordinary Lean replay; logs supplied",
+  "HIST-004_to_007": "Retained with explicit historical-report-only qualification; original episode primary records not re-audited",
+  "PA-01_to_04": "Resolved by authorised correction and targeted semantic review",
+  "proof_resolution_hash_scope": "Later model-name and historical-scope edits do not modify the mathematically reviewed propositions or proofs",
+  "overall": "READY_LOCAL_CANDIDATE_WITH_DECLARED_LIMITATIONS_NOT_INDEPENDENT_CERTIFICATION"
+}

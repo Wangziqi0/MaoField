@@ -1,0 +1,52 @@
+[
+  {
+    "document": "manuscript",
+    "old": "If these laws factor through $c$ and its successor can be updated by the same rule, a matched policy reproduces the relevant finite continuation law.",
+    "new": "Under common joint kernels, matched exogenous-input laws and the initial-history conditions of Supplementary Note 3, factorisation through $c$ and a common compact-state update reproduce the relevant finite continuation law."
+  },
+  {
+    "document": "manuscript",
+    "old": "These checks reproduce recorded acceptance, not a new trusted compilation. The saved-candidate replay script reports the actual availability of Lean, Lake and the required 4.34.0-rc2 environment; no compatible toolchain was available for this analysis. No new Lean or independent-kernel validation is claimed.",
+    "new": "These record checks were followed by offline recompilation of the five unchanged saved candidates under Lean 4.34.0-rc2 and the pinned dependencies. The ordinary Lean replay reproduced one acceptance and four rejections; the truncated request has no candidate to compile. This checks the saved candidates with the same compiler family, not with an independent kernel."
+  },
+  {
+    "document": "manuscript",
+    "old": "Saved-candidate compilation requires Lean 4.34.0-rc2 and the pinned dependencies; it remains unexecuted in this revision, separately from independent-kernel verification.",
+    "new": "The one-command entry point uses packaged Python and Lean 4.34.0-rc2 environments, verifies the raw-data identities, reruns the mathematical and record checks, and recompiles the five unchanged saved candidates offline. Ordinary Lean replay has been executed; independent-kernel verification remains unexecuted."
+  },
+  {
+    "document": "supplementary_information",
+    "old": "where $B$ is fixed and smooth near zero and $\\chi=1$ there. If",
+    "new": "where $B$ is fixed and smooth near zero and $\\chi=1$ there. Throughout this note and Note 9, asymptotic statements are as $\\tau\\to0$ for fixed real coefficients $a,b$ and fixed displayed coefficient functions and cutoffs. Implied constants may depend on these data; no uniformity over $a,b$ or a class of programmes is claimed. If"
+  },
+  {
+    "document": "supplementary_information",
+    "old": "With the corresponding amplitude transformation, the represented action is unchanged.",
+    "new": "For a represented component $a_i b_i$, set $a_i'=a_i/\\lambda_i$ with $\\lambda_i>0$; then $a_i'b_i'=a_i b_i$. With $y_i=a_i^2$, the displayed transformation gives $H'y'=Hy$ and $d_i'/y_i'=d_i/y_i$."
+  },
+  {
+    "document": "supplementary_information",
+    "old": "Suppose that, for each permitted action and future input in $\\mathcal F$, (i) the law of the relevant observation and its cost depends on $x$ only through $C(x)$; (ii) the next compact state can be updated from the present compact state, action and observation, with the same transition law; and (iii) the compared policy chooses the same distribution of actions when supplied the same compact state and observed history. Then systems with equal initial compact states have the same joint distribution of observations, costs and compact successor states for every finite horizon covered by $\\mathcal F$.",
+    "new": "Fix common standard Borel spaces for inputs, actions, observations, costs and compact states, and a finite horizon covered by $\\mathcal F$. Suppose that (i) conditional on the compact state and policy-visible history, both systems use the same measurable exogenous-input kernel and policy kernel; (ii) conditional on the compact state, visible history, input and action, both use the same measurable joint kernel for the next observation, cost and compact state, with no remaining dependence on the hidden state $x$. Assume equal initial compact states and equal initial policy-visible histories. Alternatively, initial visible histories may differ if every kernel above factors through the compact state, so no residual dependence on those histories remains. Then the systems have the same joint law of future inputs, actions, observations, costs and compact successor states over that horizon."
+  },
+  {
+    "document": "supplementary_information",
+    "old": "**Proof.** At the first step, condition (iii) gives equal action laws; condition (i) then gives equal observation and cost laws. Condition (ii) gives equal successor-state laws. Applying the same three statements conditional on the resulting shared history gives the next-step equality. Induction establishes the finite-horizon result.",
+    "new": "**Proof.** The initial compact state and visible history coincide, or all kernels are independent of the potentially different prior histories. At the first step, integrating the common input kernel, policy kernel and joint observation-cost-successor kernel gives the same joint law. Conditional on each resulting finite history and compact state, the same kernels determine the next joint extension. Induction gives equality of the joint laws at every step up to the fixed horizon. In the alternative case, the same argument applies using the compact state alone."
+  },
+  {
+    "document": "supplementary_information",
+    "old": "It does not generate new answers or rerun Lean.",
+    "new": "It does not generate new answers. A subsequent offline ordinary Lean replay recompiles the five unchanged saved candidates under the pinned 4.34.0-rc2 environment and reproduces one acceptance and four rejections; independent-kernel validation remains unexecuted."
+  },
+  {
+    "document": "supplementary_information",
+    "old": "Source assembly executed for five unmodified candidates; Lean/Lake/Docker unavailable here, compilation replay NOT_RUN",
+    "new": "Source assembly and offline ordinary Lean 4.34.0-rc2 replay executed for five unmodified candidates: one accepted, four rejected; no independent-kernel check"
+  },
+  {
+    "document": "supplementary_information",
+    "old": "New model sampling / external kernel / external review | NOT_RUN",
+    "new": "New model sampling / independent kernel | NOT_RUN"
+  }
+]

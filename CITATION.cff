@@ -7,6 +7,6 @@ authors:
     given-names: Yifan
     affiliation: "Independent researcher, Lu’an, China"
     orcid: "https://orcid.org/0009-0008-8344-1149"
-version: "V8-local-candidate"
+version: "V8-R3-local-candidate"
 repository-code: "https://github.com/Wangziqi0/MaoField"
 license: "Apache-2.0"

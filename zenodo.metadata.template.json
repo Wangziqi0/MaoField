@@ -1,11 +1,19 @@
 {
   "template_only": true,
-  "title": "Why can equal results lead to different scientific futures: code and source-mapped data",
-  "upload_type": "software",
-  "version": "V7-candidate",
-  "description": "Deterministic mathematical checks, source-mapped historical record analyses and figure source. No new model sampling or independent kernel certification. Full manuscript and SI are deferred from this public candidate.",
-  "creators": [],
-  "author_input_needed": ["creators and affiliations", "permissions for included records", "licence for new code and data", "exact GitHub owner/repository", "public release approval"],
-  "doi": null,
-  "published": false
+  "published": false,
+  "metadata": {
+    "title": "Software for Why can equal results lead to different scientific futures",
+    "upload_type": "software",
+    "creators": [
+      {
+        "name": "Chen, Yifan",
+        "affiliation": "Independent researcher, Lu’an, China",
+        "orcid": "0009-0008-8344-1149"
+      }
+    ],
+    "description": "Finite mathematical separation and compact sufficient repair, with distinct retained coefficient-successor and known-proof completion records. Original comparisons, failures, truncation, unknown-request status and separately authorised supplementary observations are preserved. The software provides one-command deterministic raw-data reanalysis and offline ordinary Lean replay of five unchanged candidates, with packaged Linux x86_64 Python/Lean environments. No new experimental model sampling; no independent-kernel certification. Third-party rights and notices remain in force.",
+    "license": "Apache-2.0",
+    "access_right": "open",
+    "version": "V8-R3"
+  }
 }

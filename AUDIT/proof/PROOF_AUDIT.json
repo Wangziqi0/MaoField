@@ -1,0 +1,221 @@
+{
+  "audit_skill": "proof-checker",
+  "verdict": "WARN",
+  "reason_code": "major_formalization_gap_no_false_core_claim",
+  "summary": "The finite minimax theorem, exact state-aware repair, source-relative hclose chain, and successor-program identities are mathematically sound at their stated scope. The general finite-horizon sufficient-state proposition needs explicit matched-input, initial-history, and common-kernel hypotheses; asymptotic uniformity and two ancillary descriptions also need small clarifications.",
+  "audited_input_hashes": {
+    "/home/amd/下载/MAOFIELD_NATURE_RESTORED_V8_R2_20260923/SUBMISSION/manuscript.md": "sha256:1284d72b97dada6188e7e205c64e6f1b0dd9cd9351a007356c996b696f899d09",
+    "/home/amd/下载/MAOFIELD_NATURE_RESTORED_V8_R2_20260923/SUBMISSION/supplementary_information.md": "sha256:7b0cfd72c8148c5430606c98f8a98815abfa6d56b4a8f82663d73e220860471a",
+    "/home/amd/下载/MAOFIELD_NATURE_PRESUBMISSION_V8_20260922/REPRODUCIBILITY/math/exact_checks.py": "sha256:5486235af62d3aa957b4ff24cea0094a92c8959b1a12376bb6856bdc19a4f3e5",
+    "/home/amd/下载/MAOFIELD_NATURE_PRESUBMISSION_V8_20260922/REPRODUCIBILITY/experiment/math_checks.py": "sha256:d99412666de87244c8680cd55cd6bc4765f3fc978bcd0a20d285e79d2977a0d4",
+    "/home/amd/下载/MAOFIELD_NATURE_PRESUBMISSION_V8_20260922/INTERNAL/RAW_HCLOSE/10_CURRENT_RUN/history/workspace/NavierStokes/PrimaryCovarianceBounds.lean": "sha256:e4fd1e46d1ff6b09da37b0eb453151c75454b0df5fbbd342380a178135767a73",
+    "/home/amd/下载/MAOFIELD_NATURE_PRESUBMISSION_V8_20260922/INTERNAL/RAW_HCLOSE/10_CURRENT_RUN/history/public/Checkpoint/NodeGoal.lean": "sha256:571a45c575a39523475c96b3789d331ba2c07a0c80e8fb477790a5d6e1b299d7",
+    "/home/amd/下载/MAOFIELD_NATURE_PRESUBMISSION_V8_20260922/REPRODUCIBILITY/successor/inputs/catalog.json": "sha256:aa054ae57ff3c59395001fc28c7165617fd850c82ddc956c0f14c1fc039a9cc6",
+    "/home/amd/下载/MAOFIELD_NATURE_PRESUBMISSION_V8_20260922/REPRODUCIBILITY/successor/inputs/A/PLAN.json": "sha256:37640ffcd45fa52d9b662b15ad74cc1448e9ec3aeba9e968a8681cc4a87ad9ad",
+    "/home/amd/下载/MAOFIELD_NATURE_PRESUBMISSION_V8_20260922/REPRODUCIBILITY/successor/inputs/B/PLAN.json": "sha256:e95bc67c00781013bbfc8130ba4a1289b7e11ad2da88657eafa3a304a21d6199",
+    "/home/amd/下载/MAOFIELD_NATURE_PRESUBMISSION_V8_20260922/REPRODUCIBILITY/successor/inputs/**": "sha256-tree-v1:0ca88ee8ce9c8ae494c2678c6c1adbe65d76169629d018235bfda24e28996e0b"
+  },
+  "trace_path": "/data/MaoField/coordination/20260923_presubmission_final_audit/proof/",
+  "agent_id": "/root/final_math_proof",
+  "executor_model": "gpt-6",
+  "executor_family": "openai",
+  "reviewer_model": "gpt-6",
+  "reviewer_family": "openai",
+  "review_independence": "same-family",
+  "acceptance_status": "provisional",
+  "reviewer_reasoning": "inherited_deep_audit_setting",
+  "generated_at": "2026-09-22T19:03:26Z",
+  "details": {
+    "review_scope": "One bounded fresh mathematical pre-submission audit; no manuscript edits, external model calls, new experiments, publication action, project-state read, prior-audit read, or automatic next round.",
+    "acceptance_gate": {
+      "status": "NOT_MET",
+      "zero_open_fatal_or_critical": true,
+      "all_theorem_hypotheses_explicit": false,
+      "all_big_o_dependence_and_uniformity_explicit": false,
+      "counterexample_pass_complete": true,
+      "note": "PA-01 and PA-02 prevent a clean PASS; no FATAL or CRITICAL issue was found."
+    },
+    "theorems_audited": 15,
+    "issue_counts": {
+      "FATAL": 0,
+      "CRITICAL": 0,
+      "MAJOR": 1,
+      "MINOR": 3
+    },
+    "issues": [
+      {
+        "id": "PA-01",
+        "severity": "MAJOR",
+        "status": "UNDERSTATED",
+        "impact": "GLOBAL",
+        "category": "hidden_assumption_quantifier_logical_gap",
+        "location": "/home/amd/下载/MAOFIELD_NATURE_RESTORED_V8_R2_20260923/SUBMISSION/supplementary_information.md:L129-L139",
+        "statement": "Equal initial compact states imply the same finite-horizon joint law under the three listed conditions.",
+        "note": "The induction also needs a matched exogenous-input mechanism, equal initial policy-visible history or policy factorisation through the compact state, and common measurable joint kernels.",
+        "counterexample": "YES: equal constant compact states with different future inputs and observation equal to input; independently, equal compact states with different visible initial histories and a policy that chooses the last visible bit.",
+        "affects": [
+          "general finite-horizon sufficient-state composition proposition",
+          "general compact-inheritance prose"
+        ],
+        "does_not_affect": [
+          "finite two-state minimax theorem",
+          "explicit (r,u) state-aware repair",
+          "hclose semantic chain"
+        ],
+        "fix_strategy": "STRENGTHEN_ASSUMPTION",
+        "minimal_fix": "Declare a common measurable exogenous-input kernel and common joint action, observation-cost, and compact-state update kernels; assume equal initial policy-visible histories or require all history dependence to factor through the compact record; condition the induction on the full shared finite history."
+      },
+      {
+        "id": "PA-02",
+        "severity": "MINOR",
+        "status": "UNCLEAR",
+        "impact": "LOCAL",
+        "category": "constant_dependence_hidden_nonuniform_convergence",
+        "location": "/home/amd/下载/MAOFIELD_NATURE_RESTORED_V8_R2_20260923/SUBMISSION/supplementary_information.md:L81-L83,L107-L109,L631-L639",
+        "statement": "Several local residuals have the displayed big-O orders.",
+        "note": "The coefficients and orders are correct, but the text should state tau tends to zero with fixed a,b and fixed functions/cutoffs and no claimed uniformity over those data.",
+        "counterexample": "NO under the intended fixed-data reading.",
+        "fix_strategy": "STRENGTHEN_ASSUMPTION",
+        "minimal_fix": "Add one sentence declaring tau -> 0, fixed a,b and fixed coefficient functions/cutoffs, implied-constant dependence on those data, and no wider uniformity."
+      },
+      {
+        "id": "PA-03",
+        "severity": "MINOR",
+        "status": "UNCLEAR",
+        "impact": "LOCAL",
+        "category": "missing_definition_derivation",
+        "location": "/home/amd/下载/MAOFIELD_NATURE_RESTORED_V8_R2_20260923/SUBMISSION/supplementary_information.md:L119-L123",
+        "statement": "A compatible basis rescaling leaves the represented action unchanged.",
+        "note": "The displayed algebra proves r'=r and H'y'=Hy, but the corresponding amplitude transformation and represented action are not defined.",
+        "counterexample": "CANDIDATE outside the intended condition: rescale the basis without inverse amplitude rescaling.",
+        "fix_strategy": "ADD_DERIVATION",
+        "minimal_fix": "Define a_i'=a_i/lambda_i for b_i'=lambda_i b_i and show a_i'b_i'=a_i b_i, while stating lambda_i positivity and the source multiplier bounds."
+      },
+      {
+        "id": "PA-04",
+        "severity": "MINOR",
+        "status": "UNCLEAR",
+        "impact": "COSMETIC",
+        "category": "deterministic_harness_coverage",
+        "location": "/home/amd/下载/MAOFIELD_NATURE_PRESUBMISSION_V8_20260922/REPRODUCIBILITY/experiment/math_checks.py:L10-L14",
+        "statement": "The deterministic HClose harness checks the scalar closure cases.",
+        "note": "positive_case is computed but never asserted or returned. The universal inequality is correctly supplied by the written proof, so this is not a semantic gap.",
+        "counterexample": "NO.",
+        "fix_strategy": "ADD_DERIVATION",
+        "minimal_fix": "Assert sp.simplify(positive_case) == 0 or remove the unused variable and describe the narrower symbolic coverage."
+      }
+    ],
+    "proof_obligation_status": {
+      "proved": [
+        "exact residual decomposition",
+        "no common exact readout-only action",
+        "exact two-state minimax value",
+        "one-variable fixed-data leading obstruction",
+        "state-aware exact core repair",
+        "general cutoff-family residual identity",
+        "dependent R_n^2/L_n premise transport",
+        "hclose scalar closure including Q=0",
+        "P00 draft residual identity",
+        "P00 exact secant identity including r=0 and u=0",
+        "P07 three program expansions"
+      ],
+      "sound_modulo_imports": [
+        "slotRadius_sq",
+        "normalizedPair_entry_error",
+        "compact_model_margins",
+        "column_scale_bounds",
+        "source-level completion of ZeroOrderBounds"
+      ],
+      "understated": [
+        "general finite-horizon sufficient-state composition"
+      ],
+      "unclear_ancillary": [
+        "basis/amplitude rescaling action invariance"
+      ],
+      "dependency_cycles_found": 0
+    },
+    "counterexample_pass": {
+      "key_claims_attempted": 11,
+      "verified_counterexamples_to_in_scope_literal_claims": 2,
+      "counterexamples_both_target": "PA-01",
+      "boundary_collapses_outside_stated_hypotheses": [
+        "r=0",
+        "v=0"
+      ],
+      "degenerate_cases_survived": [
+        "outer radicand corner",
+        "u=0",
+        "r=0 in secant program",
+        "negative concentration constant",
+        "Q=0",
+        "zeta=0"
+      ]
+    },
+    "deterministic_checks": {
+      "exact_checks": {
+        "passed": 14,
+        "failed": 0,
+        "sympy_version": "1.14.0",
+        "semantic_scope": "algebraic identities and boundary calculations only"
+      },
+      "hclose_math_checks": {
+        "rational_scalar_cases_passed": 36,
+        "symbolic_matrix_identities_passed": 3,
+        "new_lean_build": false,
+        "full_ns_replication": false
+      },
+      "lean_toolchain": {
+        "lean_available": false,
+        "lake_available": false,
+        "fresh_kernel_run": false
+      },
+      "successor_inputs": {
+        "actual_files": 419,
+        "catalog_payloads": 418,
+        "catalog_hash_mismatches": 0,
+        "unlisted_files": [
+          "catalog.json"
+        ],
+        "stage_artifacts": 52,
+        "response_records": 104,
+        "all_response_finish_reasons_stop": true,
+        "captured_program_artifacts": 47,
+        "empty_response_artifacts": 5,
+        "effect_rows": 18720,
+        "rows_per_effect_file": 360,
+        "local_parent_state_arrays_checked": 40,
+        "local_parent_state_array_mismatches": 0,
+        "local_parent_hash_mismatches": 0,
+        "local_parent_program_metadata_mismatches": 0,
+        "adoption_W0_W1_equal_program_pairs": 7,
+        "adoption_W0_W1_total_pairs": 8,
+        "only_changed_pair": "P07",
+        "terminal_hash_mismatches": 0,
+        "maximum_decimal_step_defect": "5.75814e-67",
+        "maximum_decimal_residual_defect": "7.8112352763516363844642915463414817821970692121761222970916406641983076683239e-62",
+        "maximum_decimal_pure_plus_cross_defect": "1.62802e-61"
+      }
+    },
+    "successor_tree_hash": {
+      "algorithm": "sha256-tree-v1",
+      "record_format": "<sha256><two spaces><relative_path>\\n",
+      "ordering": "bytewise ascending relative path",
+      "includes_catalog": true,
+      "file_count": 419,
+      "digest": "0ca88ee8ce9c8ae494c2678c6c1adbe65d76169629d018235bfda24e28996e0b"
+    },
+    "claim_boundaries_preserved": [
+      "The finite witness compares equal readout r, not equal targets, complete states, or full functions.",
+      "The readout-only lower bound is for deterministic scalar g depending only on r.",
+      "The exact repair is local to the inner rectangle and does not prove global PDE admissibility or norm improvement.",
+      "The hclose result is an application of supplied source lemmas and a supplied downstream consumer, not a new global Navier-Stokes theorem.",
+      "Stored compiler acceptance is not upgraded to a fresh kernel certification.",
+      "Successor traces show particular revision and reuse but no stable average causal benefit."
+    ],
+    "artifacts": {
+      "audit_markdown": "/data/MaoField/coordination/20260923_presubmission_final_audit/proof/PROOF_AUDIT.md",
+      "proof_skeleton": "/data/MaoField/coordination/20260923_presubmission_final_audit/proof/PROOF_SKELETON.md",
+      "audit_json": "/data/MaoField/coordination/20260923_presubmission_final_audit/proof/PROOF_AUDIT.json"
+    }
+  }
+}

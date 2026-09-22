@@ -1,0 +1,56 @@
+{
+  "scope": "Nested archive members; strong credential patterns; no matched values stored",
+  "text_members": 212843,
+  "binary_members": 1383,
+  "bytes_scanned": 1902418879,
+  "archives": 176,
+  "hits": [
+    {
+      "member": "EARLIER_WORKFLOWS/20260919_ns_prebreakthrough_v3_execution/raw_sources/go1.27.1.linux-amd64.tar.gz!go/src/crypto/tls/example_test.go",
+      "type": "private_key"
+    },
+    {
+      "member": "EARLIER_WORKFLOWS/20260919_ns_prebreakthrough_v3_execution/raw_sources/go1.27.1.linux-amd64.tar.gz!go/src/crypto/tls/testdata/example-key.pem",
+      "type": "private_key"
+    },
+    {
+      "member": "EARLIER_WORKFLOWS/20260919_ns_prebreakthrough_v3_execution/raw_sources/go1.27.1.linux-amd64.tar.gz!go/src/crypto/x509/platform_root_key.pem",
+      "type": "private_key"
+    }
+  ],
+  "errors": [
+    {
+      "member": "EARLIER_WORKFLOWS/20260919_ns_prebreakthrough_v3_execution/raw_sources/go1.27.1.linux-amd64.tar.gz!go/src/archive/tar/testdata/issue10968.tar",
+      "error": "ReadError"
+    },
+    {
+      "member": "EARLIER_WORKFLOWS/20260919_ns_prebreakthrough_v3_execution/raw_sources/go1.27.1.linux-amd64.tar.gz!go/src/archive/tar/testdata/issue11169.tar",
+      "error": "ReadError"
+    },
+    {
+      "member": "EARLIER_WORKFLOWS/20260919_ns_prebreakthrough_v3_execution/raw_sources/go1.27.1.linux-amd64.tar.gz!go/src/archive/tar/testdata/issue12435.tar",
+      "error": "ReadError"
+    },
+    {
+      "member": "EARLIER_WORKFLOWS/20260919_ns_prebreakthrough_v3_execution/raw_sources/go1.27.1.linux-amd64.tar.gz!go/src/archive/tar/testdata/pax-bad-hdr-file.tar",
+      "error": "ReadError"
+    },
+    {
+      "member": "EARLIER_WORKFLOWS/20260919_ns_prebreakthrough_v3_execution/raw_sources/go1.27.1.linux-amd64.tar.gz!go/src/archive/tar/testdata/pax-path-hdr.tar",
+      "error": "ReadError"
+    },
+    {
+      "member": "EARLIER_WORKFLOWS/20260919_ns_prebreakthrough_v3_execution/raw_sources/go1.27.1.linux-amd64.tar.gz!go/src/archive/tar/testdata/writer-big.tar",
+      "error": "ReadError"
+    },
+    {
+      "member": "EARLIER_WORKFLOWS/20260919_ns_prebreakthrough_v3_execution/raw_sources/go1.27.1.linux-amd64.tar.gz!go/src/archive/zip/testdata/test-badbase.zip",
+      "error": "BadZipFile"
+    },
+    {
+      "member": "EARLIER_WORKFLOWS/20260919_ns_prebreakthrough_v3_execution/raw_sources/go1.27.1.linux-amd64.tar.gz!go/src/archive/zip/testdata/test-baddirsz.zip",
+      "error": "BadZipFile"
+    }
+  ],
+  "elapsed_seconds": 69.94
+}

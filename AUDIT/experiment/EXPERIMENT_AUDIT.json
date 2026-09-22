@@ -1,0 +1,307 @@
+{
+  "audit_skill": "experiment-audit",
+  "project": "MaoField presubmission final audit",
+  "date": "2026-09-23",
+  "generated_at": "2026-09-23T03:05:16+08:00",
+  "auditor": "gpt-5.6-sol-ultra",
+  "verdict": "WARN",
+  "overall_verdict": "warn",
+  "integrity_status": "warn",
+  "reason_codes": [
+    "figure_provenance_hash_drift",
+    "figure_stem_mapping_inconsistent",
+    "historical_unknown_label_hardcoded_in_audit"
+  ],
+  "summary": "Primary scientific results and bounded claims trace to preserved records and pass fresh deterministic reanalysis. Presubmission figure provenance is stale/internally inconsistent, and one historically correct unknown-request label is hard-coded rather than derived.",
+  "agent_id": "/root/final_experiment_integrity",
+  "verdict_id": "/root/final_experiment_integrity:2026-09-23:experiment-audit",
+  "executor_model": "gpt-6",
+  "executor_family": "openai",
+  "reviewer_model": "gpt-5.6-sol",
+  "reviewer_family": "openai",
+  "reviewer_reasoning": "ultra",
+  "review_independence": "same-family",
+  "acceptance_status": "provisional",
+  "trace_path": "/data/MaoField/coordination/20260923_presubmission_final_audit/experiment/trace/2026-09-23_run01/",
+  "audit_constraints": {
+    "read_only_sources": true,
+    "new_model_calls": 0,
+    "new_experiment_runs": 0,
+    "new_lean_compilations": 0,
+    "external_services_called": 0,
+    "source_or_manuscript_mutations": 0
+  },
+  "audited_input_hashes": {
+    "manuscript.md": "sha256:1284d72b97dada6188e7e205c64e6f1b0dd9cd9351a007356c996b696f899d09",
+    "supplementary_information.md": "sha256:7b0cfd72c8148c5430606c98f8a98815abfa6d56b4a8f82663d73e220860471a",
+    "RAW_HCLOSE/PACKAGE_MANIFEST.json": "sha256:5569bdabed031a8667ad9ec2d13d909645707b82acf329d843c721b99cf56db0",
+    "REPRODUCIBILITY/successor/inputs/catalog.json": "sha256:aa054ae57ff3c59395001fc28c7165617fd850c82ddc956c0f14c1fc039a9cc6",
+    "SUCCESSOR/_ARCHIVE_MEMBER_MANIFEST.json": "sha256:649a2cde1f3b4c4dc0245ee571fce0e49994a88368871db035fe39ad79b343c8",
+    "FILE_PROVENANCE.json": "sha256:02dae2586ff01dfa3c985e639c2bb1cbfe3b37ded9ee5bbbf6ac9597dad73628",
+    "REPRODUCIBILITY/reproduce.py": "sha256:f0df1946fa1affa191734949a6d7d1e5853c56e3ed468d4d60c595653b41cdb0",
+    "REPRODUCIBILITY/experiment/audit_hclose.py": "sha256:e4c748459befcc670eb2e25447746e5904664a6e70a401bfe81cd50c40d17506",
+    "REPRODUCIBILITY/successor/audit_successor.py": "sha256:c51b0d1e730629b534ab4c824522d2c0d23aea8b620404565436736b934b32ac",
+    "20_TASK_AND_RUNNER/direct_task.py": "sha256:ad9f299ef67aab0ebf6c94438348868a085892e668f772c9b396a1ddd38463b9",
+    "20_TASK_AND_RUNNER/run_direct.py": "sha256:b2ac7283b3c1eaa9363f1026189ea80634205267f67e60d2d2b84b861ba24d1d",
+    "20_TASK_AND_RUNNER/PROOF_TEMPLATE.lean.txt": "sha256:7650a1567c10f61e29bc0f761ac715c8dff13572cd8e4a8a7486eec41ddbca9c",
+    "10_CURRENT_RUN/PLAN.json": "sha256:79b8405a3dcc55a6e4d2418f2048cd99a544e3d571ef7a7d339a28e222c42524",
+    "accepted_body.lean.txt": "sha256:7b0d085eb5d1dae4ce730422adfaabcf7b9844d96e3c55a6f6f33508d334d927",
+    "accepted_RESULT.json": "sha256:b8c1d5e9c020af0d8554f10adbe0d8b3b6e7addc96c5bf989fce14d62a349b6c",
+    "SOURCE_DATA/FIGURE_INPUT_IDENTITIES.csv": "sha256:dc3918585d91c12d689574beb4079b1eb67a87c3202a3172ae03c3cd3fe2fc7b",
+    "SOURCE_DATA/FIGURE_SOURCE_MAP.csv": "sha256:46e821457abf64a6e53ba5a4802b48d13e6a6dd2a3db761a55afeb5beea89fdd",
+    "SOURCE_DATA_tree_23_files": "sha256:8af9f6a8e1b2ec5256cf02b180cd9c17b2c7237b792d2853b1ef6de3ec0be1c8",
+    "REPRODUCIBILITY_tree_444_files": "sha256:52524d2482aee61961287caed6d80b6f90fccc50637d8bcfb6ce9f33d609c21f"
+  },
+  "tree_hash_algorithm": "sha256 over sorted relative_path NUL byte_count NUL file_sha256 newline records",
+  "deterministic_verification": {
+    "status": "pass",
+    "steps": {
+      "math": 0,
+      "records": 0,
+      "hclose_math": 0,
+      "successor": 0
+    },
+    "raw_hclose_manifest": {
+      "declared_payloads": 859,
+      "closure": "pass",
+      "hashes": "pass"
+    },
+    "full_successor_archive": {
+      "declared_payloads": 5582,
+      "actual_files_including_manifest": 5583,
+      "closure": "pass",
+      "hashes_and_sizes": "pass"
+    },
+    "successor_source_map": {
+      "catalog_rows": 418,
+      "transformed_rows": 156,
+      "original_members_missing": 0,
+      "original_hash_mismatches": 0,
+      "export_hash_mismatches": 0,
+      "fresh_export_files": 419,
+      "supplied_files": 419,
+      "fresh_export_byte_differences": 0
+    },
+    "new_model_calls": 0,
+    "new_lean_compilations": 0
+  },
+  "historical_unknown_derivation": {
+    "base": "/home/amd/下载/MAOFIELD_NATURE_PRESUBMISSION_V8_20260922/ZENODO_CANDIDATES/03_FULL_SCIENTIFIC_RECORDS/SUCCESSOR/rounds/20260918_ns_r6_ab_execution/supplement_a_r3/",
+    "analysis_view_provenance": {
+      "path": "analysis_view/science_A/ANALYSIS_VIEW_PROVENANCE.json",
+      "require": {
+        "kind": "DERIVED_OVERLAY_NOT_AN_ORIGINAL_EXECUTION_ROOT",
+        "new_acquisition_id": "PI_R3_01",
+        "old_unknown_root": "pre_supplement_failure/P01_s1_W2",
+        "original_unknown_resolved": false,
+        "replaced_terminal_request": 1,
+        "replacement_stage": "P01_s1_W2",
+        "requests_all_acquisitions_sent": 41,
+        "requests_known_complete": 40,
+        "requests_unknown_completion": 1
+      }
+    },
+    "original_unknown": {
+      "status_path": "analysis_view/science_A/pre_supplement_failure/P01_s1_W2/STATUS.json",
+      "status_require": {
+        "reason": "UNKNOWN_COMPLETION",
+        "status": "HALTED_UNRESOLVED"
+      },
+      "timeout_path": "analysis_view/science_A/pre_supplement_failure/P01_s1_W2/request_01/parent_timeout.json",
+      "timeout_require": {
+        "no_replay": true,
+        "seconds": 1200,
+        "status": "UNKNOWN_COMPLETION"
+      },
+      "late_return_path": "analysis_view/science_A/pre_supplement_failure/P01_s1_W2/RETURNED_NOT_APPLIED.json",
+      "late_return_require": {
+        "effect_applied": false,
+        "reason": "UNKNOWN_COMPLETION"
+      }
+    },
+    "supplement": {
+      "complete_path": "remote_raw/COMPLETE.json",
+      "complete_require": {
+        "status": "COMPLETE_ONE_PI_AUTHORIZED_SUPPLEMENT",
+        "new_generation_requests": 1,
+        "original_unknown_requests": 1,
+        "old_unknown_resolved": false,
+        "supplement_supplies_missing_terminal_for_separate_analysis": true,
+        "cumulative_A_sent": 41,
+        "cumulative_A_complete": 40,
+        "original_attempt": 1,
+        "stage": "P01_s1_W2"
+      },
+      "stage_status_path": "remote_raw/stages/P01_s1_W2/STATUS.json",
+      "stage_status_require": {
+        "acquisition": "PI_AUTHORIZED_R3_SUPPLEMENT",
+        "capture": "CAPTURED_NOT_MATH_CERTIFIED",
+        "status": "FINITE_STAGE_ENDED"
+      }
+    },
+    "request_identity": {
+      "original_path": "analysis_view/science_A/pre_supplement_failure/P01_s1_W2/request_01/request.json",
+      "supplement_path": "remote_raw/request_01/request.json",
+      "require_byte_identical": true,
+      "sha256": "31a4224b06fb4fdb7624c077daa473718c2378a6124578ada7781edd6551f55a",
+      "require_equals_complete_payload_sha256": true,
+      "tokenizer_original_path": "analysis_view/science_A/pre_supplement_failure/P01_s1_W2/tokenize_01/request.json",
+      "tokenizer_supplement_path": "remote_raw/tokenize_01/request.json",
+      "tokenizer_require_byte_identical": true,
+      "tokenizer_sha256": "7f48213fbd3b05882074c8432ceabc4bab841ab12d7f60746cfa79f1b29724c3"
+    },
+    "derived_result": {
+      "original": "UNKNOWN_COMPLETION/HALTED_UNRESOLVED; effect_applied=false; no_replay=true",
+      "supplement": "COMPLETE_ONE_PI_AUTHORIZED_SUPPLEMENT; separately captured; old_unknown_resolved=false"
+    }
+  },
+  "checks": {
+    "gt_provenance": {
+      "status": "pass",
+      "details": "HClose uses retained Lean compiler return/type/axiom evidence; successor claims are simulation-only arithmetic over source-mapped records whose originals and transformations were hash-verified against the full archive.",
+      "evidence": [
+        "direct_task.py:45-70",
+        "accepted RESULT.json:2-11,108-121",
+        "accepted compile/stdout.bin:1-46",
+        "audit_successor.py:44-90",
+        "catalog.json:2512-2520",
+        "FILE_PROVENANCE.json:109030-109040,124188-124198"
+      ]
+    },
+    "score_normalization": {
+      "status": "pass",
+      "details": "Scientific contrasts are raw mean differences of absolute residuals. The only normalised difference is a numerical reconstruction tolerance, not a reported performance score.",
+      "evidence": [
+        "audit_successor.py:68-73,95-109,119-126,143-145",
+        "SOURCE_DATA/successor/main_contrasts.csv:1-16",
+        "supplementary_information.md:577-596"
+      ]
+    },
+    "result_existence": {
+      "status": "warn",
+      "details": "All scientific results and numbers exist and match fresh reanalysis. Figure input identity hashes are stale for the final manuscript/SI, and figure stems disagree with the source map.",
+      "evidence": [
+        "deterministic_reproduction/records/audit_summary.json:2-42",
+        "successor_raw_reanalysis/audit_result.json:2-12",
+        "SOURCE_DATA/FIGURE_INPUT_IDENTITIES.csv:2-10",
+        "SOURCE_DATA/FIGURE_SOURCE_MAP.csv:2-5"
+      ]
+    },
+    "dead_code": {
+      "status": "pass",
+      "details": "No uncalled metric/check function was found on the executed path. The historical unknown label is hard-coded and should instead be validated from primary receipts.",
+      "evidence": [
+        "reproduce.py:6-15",
+        "audit_hclose.py:42-145",
+        "audit_successor.py:44-149"
+      ]
+    },
+    "scope": {
+      "status": "pass",
+      "details": "The manuscript correctly limits HClose to one post-selected paired case and successor evidence to simulation/workbench process observations with complete denominators and null/empty outcomes retained.",
+      "evidence": [
+        "manuscript.md:120-126,215-225",
+        "supplementary_information.md:214-225,565-600"
+      ]
+    },
+    "eval_type": {
+      "status": "pass",
+      "types": [
+        {
+          "evaluation": "HClose proof completion",
+          "type": "real_gt",
+          "subtype": "retained_formal_verification",
+          "claim_ceiling": "saved local compilation acceptance; no fresh or independent kernel certification"
+        },
+        {
+          "evaluation": "coefficient successor studies",
+          "type": "simulation_only",
+          "claim_ceiling": "workbench process, arithmetic, revision and reuse"
+        },
+        {
+          "evaluation": "finite separation",
+          "type": "analytic_nonempirical",
+          "illustration_type": "simulation_only",
+          "claim_ceiling": "written piecewise proof plus deterministic illustration"
+        }
+      ]
+    }
+  },
+  "findings": [
+    {
+      "id": "F1",
+      "severity": "warn",
+      "title": "Final manuscript and SI hashes are stale in the figure identity ledger",
+      "evidence": [
+        "SOURCE_DATA/FIGURE_INPUT_IDENTITIES.csv:2,5-6"
+      ],
+      "observed": {
+        "recorded_manuscript_sha256": "31e935dd4b109f0ca9657a04c1e05733452eb24cd1bd3eb43ef4f89f11921ce6",
+        "actual_manuscript_sha256": "1284d72b97dada6188e7e205c64e6f1b0dd9cd9351a007356c996b696f899d09",
+        "recorded_si_sha256": "2ec0254490d5486dfdcf0036c7903c9a151e7e7305f8ba4019c24dec638e6a46",
+        "actual_si_sha256": "7b0cfd72c8148c5430606c98f8a98815abfa6d56b4a8f82663d73e220860471a"
+      },
+      "action": "Regenerate the figure input identity ledger after freezing final text."
+    },
+    {
+      "id": "F2",
+      "severity": "warn",
+      "title": "Figure stems disagree across the two provenance ledgers",
+      "evidence": [
+        "SOURCE_DATA/FIGURE_INPUT_IDENTITIES.csv:2-10",
+        "SOURCE_DATA/FIGURE_SOURCE_MAP.csv:2-5"
+      ],
+      "action": "Reconcile both ledgers with actual final figure assets, especially successor Figure 3 and HClose Figure 4."
+    },
+    {
+      "id": "F3",
+      "severity": "warn",
+      "title": "Historical unknown/supplement distinction is hard-coded in the default successor audit",
+      "evidence": [
+        "audit_successor.py:143-149",
+        "pre_supplement_failure/P01_s1_W2/STATUS.json:1-4",
+        "pre_supplement_failure/P01_s1_W2/request_01/parent_timeout.json:1-5",
+        "remote_raw/COMPLETE.json:1-17"
+      ],
+      "direct_primary_check": "supported",
+      "action": "Derive or validate this status from the preserved receipts in the machine audit."
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim": "Guided HClose third candidate was accepted in saved compilation.",
+      "impact": "supported_with_scope"
+    },
+    {
+      "id": "C2",
+      "claim": "Six requests, five candidates, exact token totals and all failure states are preserved.",
+      "impact": "supported"
+    },
+    {
+      "id": "C3",
+      "claim": "Successor records contain 52 stages, 104 complete returns, 18,720 effects, 40 inheritance links, five empty finals and seven unchanged adoption versions.",
+      "impact": "supported_simulation_only"
+    },
+    {
+      "id": "C4",
+      "claim": "Stable average assistance/adoption benefit or general history effect.",
+      "impact": "unsupported_and_correctly_disclaimed"
+    },
+    {
+      "id": "C5",
+      "claim": "Fresh Lean replay, independent kernel certification or full Navier-Stokes proof.",
+      "impact": "not_established_and_not_claimed"
+    },
+    {
+      "id": "C6",
+      "claim": "Exact final figure-input provenance.",
+      "impact": "needs_correction"
+    }
+  ],
+  "action_items": [
+    "Regenerate FIGURE_INPUT_IDENTITIES.csv against the final manuscript and SI.",
+    "Reconcile figure_file_stem values between the identity ledger, source map and actual figure assets.",
+    "Make audit_successor.py validate the historical unknown and PI-authorized supplement from primary receipts."
+  ]
+}

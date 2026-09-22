@@ -1,0 +1,7 @@
+# Environment origin and licences
+
+The Python runtime is the public astral-sh/python-build-standalone 20260901 CPython 3.12.14 Linux x86_64 distribution, not the Codex application runtime. Only SymPy 1.14.0 and mpmath 1.3.0 are added for deterministic reproduction; optional document-rendering libraries are not redistributed. The upstream full-distribution PYTHON.json and licenses directory were also retained beside the install-only runtime. The retained Python LICENSE.txt and installed package `.dist-info` licence files travel inside the environment archive. Exact original distribution URL/hash and package inventory are supplied beside this notice.
+
+Lean 4.34.0-rc2 is the upstream public release, pinned to commit 6a10ac8c22beadecabdbb0919c2b50214762f91d. Lean's licences and all dependency source/notice files are retained in the archive. Eleven dependency commits are fixed by the source assembly receipt and lake manifest. Mathlib and other packages retain their upstream licences. The adapted NavierStokesAndEuler research slice retains its Apache-2.0 source notice and distinguishes modified modules from the upstream source.
+
+Git, bubblewrap, zstd, the Linux kernel and glibc are host prerequisites and are not redistributed as part of this environment. The Python wheel closure may use bundled native libraries; its distributed licence files are retained. This is a reproducible Linux user-space environment with declared host prerequisites, not an entire operating-system image.

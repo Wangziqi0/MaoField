@@ -1,0 +1,12 @@
+[
+  {
+    "path": "lean-offline-linux-x86_64.tar.zst.part00",
+    "sha256": "c132052fd32f1fec32dcb462413091e148e60c8615486b7bc289c52f8b5d62d9",
+    "bytes": 1610612736
+  },
+  {
+    "path": "lean-offline-linux-x86_64.tar.zst.part01",
+    "sha256": "05d3290dc30ed6864c83245c325e23155153b1aed0c854f787588245fe9a56c8",
+    "bytes": 1344668134
+  }
+]

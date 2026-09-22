@@ -1,0 +1,147 @@
+{
+  "audit_skill": "proof-checker-resolution",
+  "verdict": "PASS",
+  "reason_code": "authorized_pa01_pa04_corrections_verified",
+  "summary": "PA-01 is repaired by common measurable kernels, matched input laws, exact initial-history alternatives, and a valid finite-horizon induction; the main sentence now imports those conditions precisely. PA-02, PA-03, and PA-04 are also resolved at their stated scopes. The original proof audit remains unchanged.",
+  "audited_input_hashes": {
+    "/home/amd/下载/MAOFIELD_FINAL_AUDIT_V8_R3_20260923/SUBMISSION/manuscript.md": "sha256:83652d21008a186b979c1349835b934c3278a2d6feb319edd13c5a47375d69f5",
+    "/home/amd/下载/MAOFIELD_FINAL_AUDIT_V8_R3_20260923/SUBMISSION/supplementary_information.md": "sha256:d6f770f154699b6679c483ad0bc2d884ae3a0ed7a7d17bae74cd2878d578d30a",
+    "/home/amd/下载/MAOFIELD_FINAL_AUDIT_V8_R3_20260923/QA/TEXT_CHANGE_RECEIPT.json": "sha256:1ebb827128dc34feb70b397bf5fd30d35a6c73fa340c74794b827908f9783eff",
+    "/data/MaoField/.scratch/final_submission_audit_20260923/repository_work/REPRODUCIBILITY/experiment/math_checks.py": "sha256:ac72c3a18c0a1cac87badb5e1da461bb6ae86ae13ae7b7cfd0bdfa6f732889ab"
+  },
+  "base_audit_artifact_hashes": {
+    "/data/MaoField/coordination/20260923_presubmission_final_audit/proof/PROOF_AUDIT.md": "sha256:e097ba9decd6e2810813f309c786a30d2ab9f9a81c212533c7bce48cacef7aec",
+    "/data/MaoField/coordination/20260923_presubmission_final_audit/proof/PROOF_AUDIT.json": "sha256:61dcf125436fd36cc92be950fd571cd39c16aca6b4361c5a5558eacf85186f0a",
+    "/data/MaoField/coordination/20260923_presubmission_final_audit/proof/PROOF_SKELETON.md": "sha256:ffcc6934789870fb1a6fd90c2303f76f38f80fdf7b0206cfa87485422c4f56c9"
+  },
+  "trace_path": "/data/MaoField/coordination/20260923_presubmission_final_audit/proof/",
+  "agent_id": "/root/final_math_proof",
+  "executor_model": "gpt-5.6-sol",
+  "executor_family": "openai",
+  "reviewer_model": "gpt-5.6-sol",
+  "reviewer_family": "openai",
+  "review_independence": "same-family",
+  "acceptance_status": "provisional",
+  "reviewer_reasoning": "ultra",
+  "generated_at": "2026-09-22T19:27:02Z",
+  "details": {
+    "scope": "Targeted verification of the user-authorized PA-01 through PA-03 text repairs, the counterpart main sentence, and the PA-04 deterministic assertion. No manuscript edit, new reviewer, model/API call, source mutation, experiment, or publication action.",
+    "metadata_correction": {
+      "applies_to": "original proof audit invocation metadata",
+      "requested_model": "gpt-5.6-sol",
+      "requested_reasoning": "ultra",
+      "review_independence": "same-family",
+      "acceptance_status": "provisional",
+      "note": "The original audit artifacts are immutable by instruction; this resolution is the authoritative metadata correction and does not change their findings, input hashes, or WARN verdict."
+    },
+    "original_audit": {
+      "verdict": "WARN",
+      "preserved_unchanged": true,
+      "promotion_by_this_resolution": false
+    },
+    "receipt_verification": {
+      "receipt_valid_json": true,
+      "manuscript_replacements": 3,
+      "supplementary_replacements": 7,
+      "each_old_text_matched_once": true,
+      "each_new_text_matched_once": true,
+      "in_memory_transform_equals_current_manuscript": true,
+      "in_memory_transform_equals_current_supplement": true,
+      "semantic_scope": "Only PA-01 through PA-04 and the counterpart main sentence were semantically reviewed; unrelated compiler-replay replacements were not adopted as evidence."
+    },
+    "issue_resolutions": [
+      {
+        "id": "PA-01",
+        "prior_severity": "MAJOR",
+        "resolution_status": "CLOSED",
+        "locations": [
+          "/home/amd/下载/MAOFIELD_FINAL_AUDIT_V8_R3_20260923/SUBMISSION/manuscript.md:L79-L81",
+          "/home/amd/下载/MAOFIELD_FINAL_AUDIT_V8_R3_20260923/SUBMISSION/supplementary_information.md:L133-L139"
+        ],
+        "verified_conditions": [
+          "common standard Borel spaces",
+          "fixed finite horizon",
+          "same measurable exogenous-input and policy kernels",
+          "same measurable joint observation-cost-successor kernel",
+          "no residual hidden-state dependence",
+          "equal initial compact states",
+          "equal initial visible histories, or every kernel factors through compact state"
+        ],
+        "proof_judgment": "The common kernels give equal first-step joint laws; conditioning on the resulting finite history and iterating the same kernels proves equality through the fixed horizon. If initial histories differ, the alternative's all-kernel factorisation removes their influence.",
+        "counterexamples_excluded": [
+          "different future-input laws violate the matched/common input-kernel hypothesis",
+          "last-history-bit policy with different initial histories violates both permitted history branches"
+        ],
+        "claim_limits": [
+          "finite horizon only",
+          "common kernels are assumed rather than learned or inferred",
+          "no equality of hidden causal states or psychological understanding",
+          "only declared costs are reproduced"
+        ]
+      },
+      {
+        "id": "PA-02",
+        "prior_severity": "MINOR",
+        "resolution_status": "CLOSED",
+        "location": "/home/amd/下载/MAOFIELD_FINAL_AUDIT_V8_R3_20260923/SUBMISSION/supplementary_information.md:L75-L109,L625-L639",
+        "verified_change": "All Note 2 and Note 9 asymptotics are declared as tau -> 0 for fixed a,b, displayed functions, and cutoffs; implied constants may depend on those data and no broader uniformity is claimed.",
+        "claim_limits": [
+          "pointwise fixed-program asymptotics",
+          "vanishing leading coefficients may increase order",
+          "no uniformity over programs or unbounded a,b"
+        ]
+      },
+      {
+        "id": "PA-03",
+        "prior_severity": "MINOR",
+        "resolution_status": "CLOSED_AT_STATED_ALGEBRAIC_SCOPE",
+        "location": "/home/amd/下载/MAOFIELD_FINAL_AUDIT_V8_R3_20260923/SUBMISSION/supplementary_information.md:L119-L123",
+        "verified_identities": [
+          "a_i' b_i' = a_i b_i",
+          "H' y' = H y",
+          "d_i'/y_i' = d_i/y_i where the quotient is defined"
+        ],
+        "fresh_symbolic_remainders": [
+          "0",
+          "0",
+          "[0,0]"
+        ],
+        "claim_limits": [
+          "lambda_i > 0",
+          "relative-source ratio requires y_i != 0",
+          "source multiplier and inverse-derivative compatibility remains assumed",
+          "no arbitrary fast/unbounded rescaling or full PDE certificate"
+        ]
+      },
+      {
+        "id": "PA-04",
+        "prior_severity": "MINOR",
+        "resolution_status": "CLOSED",
+        "location": "/data/MaoField/.scratch/final_submission_audit_20260923/repository_work/REPRODUCIBILITY/experiment/math_checks.py:L9-L15",
+        "verified_change": "positive_case is followed by assert sp.simplify(positive_case) == 0",
+        "execution": {
+          "sympy_version": "1.14.0",
+          "exit_status": 0,
+          "reported_result": "36 rational cases and 3 symbolic matrix identities: PASS"
+        },
+        "claim_limits": [
+          "deterministic algebra only",
+          "not a Lean kernel run",
+          "not a full Navier-Stokes reconstruction"
+        ]
+      }
+    ],
+    "remaining_open_issues_within_targeted_scope": [],
+    "scope_exclusions": [
+      "offline Lean environment",
+      "saved candidate bodies and compiler outputs",
+      "one-accepted/four-rejected replay claim",
+      "independent-kernel certification",
+      "all original proof-audit issues outside PA-01 through PA-04"
+    ],
+    "artifacts": {
+      "resolution_markdown": "/data/MaoField/coordination/20260923_presubmission_final_audit/proof/PROOF_RESOLUTION.md",
+      "resolution_json": "/data/MaoField/coordination/20260923_presubmission_final_audit/proof/PROOF_RESOLUTION.json"
+    }
+  }
+}

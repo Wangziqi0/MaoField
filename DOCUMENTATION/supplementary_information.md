@@ -78,7 +78,7 @@ Consider the earlier restricted interface
 
 $$g=r/2+\chi(r)r^2B(r),$$
 
-where $B$ is fixed and smooth near zero and $\chi=1$ there. If $u=a\tau+O(\tau^2)$ and $r=b\tau^2+O(\tau^3)$, then $r^2B=O(\tau^4)$, while the leading complete residual is
+where $B$ is fixed and smooth near zero and $\chi=1$ there. Throughout this note and Note 9, asymptotic statements are as $\tau\to0$ for fixed real coefficients $a,b$ and fixed displayed coefficient functions and cutoffs. Implied constants may depend on these data; no uniformity over $a,b$ or a class of programmes is claimed. If $u=a\tau+O(\tau^2)$ and $r=b\tau^2+O(\tau^3)$, then $r^2B=O(\tau^4)$, while the leading complete residual is
 
 $$E=ab\tau^3+O(\tau^4).$$
 
@@ -120,7 +120,7 @@ Likewise, changing a legitimate representation need not change its physical acti
 
 $$b_i'=\lambda_i b_i,\quad H'=H\operatorname{diag}(\lambda^2),\quad y'=y/\lambda^2,\quad d'=d/\lambda^2,$$
 
-the relative source $r=d/y$ is unchanged. With the corresponding amplitude transformation, the represented action is unchanged. The required multiplier and inverse-derivative bounds are part of the statement. Arbitrary fast or unbounded rescaling is not licensed by algebra alone.
+the relative source $r=d/y$ is unchanged. For a represented component $a_i b_i$, set $a_i'=a_i/\lambda_i$ with $\lambda_i>0$; then $a_i'b_i'=a_i b_i$. With $y_i=a_i^2$, the displayed transformation gives $H'y'=Hy$ and $d_i'/y_i'=d_i/y_i$. The required multiplier and inverse-derivative bounds are part of the statement. Arbitrary fast or unbounded rescaling is not licensed by algebra alone.
 
 ## Supplementary Note 3. Sufficient continuation
 
@@ -132,9 +132,9 @@ The theoretical use of “scientific future” here is deliberately conditional.
 
 ### 3.2 Conditional sufficiency proposition
 
-Suppose that, for each permitted action and future input in $\mathcal F$, (i) the law of the relevant observation and its cost depends on $x$ only through $C(x)$; (ii) the next compact state can be updated from the present compact state, action and observation, with the same transition law; and (iii) the compared policy chooses the same distribution of actions when supplied the same compact state and observed history. Then systems with equal initial compact states have the same joint distribution of observations, costs and compact successor states for every finite horizon covered by $\mathcal F$.
+Fix common standard Borel spaces for inputs, actions, observations, costs and compact states, and a finite horizon covered by $\mathcal F$. Suppose that (i) conditional on the compact state and policy-visible history, both systems use the same measurable exogenous-input kernel and policy kernel; (ii) conditional on the compact state, visible history, input and action, both use the same measurable joint kernel for the next observation, cost and compact state, with no remaining dependence on the hidden state $x$. Assume equal initial compact states and equal initial policy-visible histories. Alternatively, initial visible histories may differ if every kernel above factors through the compact state, so no residual dependence on those histories remains. Then the systems have the same joint law of future inputs, actions, observations, costs and compact successor states over that horizon.
 
-**Proof.** At the first step, condition (iii) gives equal action laws; condition (i) then gives equal observation and cost laws. Condition (ii) gives equal successor-state laws. Applying the same three statements conditional on the resulting shared history gives the next-step equality. Induction establishes the finite-horizon result. The statement is a standard sufficient-state composition principle, not a new result in probability or control theory.
+**Proof.** The initial compact state and visible history coincide, or all kernels are independent of the potentially different prior histories. At the first step, integrating the common input kernel, policy kernel and joint observation-cost-successor kernel gives the same joint law. Conditional on each resulting finite history and compact state, the same kernels determine the next joint extension. Induction gives equality of the joint laws at every step up to the fixed horizon. In the alternative case, the same argument applies using the compact state alone. The statement is a standard sufficient-state composition principle, not a new result in probability or control theory.
 
 The assumptions include the updates, not merely the prediction of the next answer. If duty changes reveal information not represented by $C$, the assumptions may cease to hold. If a decoder or a rederivation procedure reconstructs the required state but uses extra time or queries, outcome sufficiency may hold while budget-constrained equivalence does not. A claim of cost equivalence therefore includes construction, retrieval, compaction and restoration costs. Unobserved failure or missing events cannot be inserted as zero-cost steps.
 
@@ -211,7 +211,7 @@ The residual example shows failure of a selected state summary to determine all 
 
 ## Supplementary Note 5. The actual comparison
 
-The primary record is the retained handoff `MAOFIELD_NS_HCLOSE_PRO_HANDOFF_20260920.zip`. The prior draft’s analysis reported 859 payload members and checked raw response, candidate and compiler identities. The current analysis rereads and checks the retained streams, templates and compiler records in a fresh output directory. It does not generate new answers or rerun Lean. Recomputed tables are compared with the preserved tables. The unmodified handoff and prior analyses remain in the private provenance collection. Source-mapped review copies are supplied directly, with transformations explicitly identified.
+The primary record is the retained handoff `MAOFIELD_NS_HCLOSE_PRO_HANDOFF_20260920.zip`. The prior draft’s analysis reported 859 payload members and checked raw response, candidate and compiler identities. The current analysis rereads and checks the retained streams, templates and compiler records in a fresh output directory. It does not generate new answers. A subsequent offline ordinary Lean replay recompiles the five unchanged saved candidates under the pinned 4.34.0-rc2 environment and reproduces one acceptance and four rejections; independent-kernel validation remains unexecuted. Recomputed tables are compared with the preserved tables. The unmodified handoff and prior analyses remain in the private provenance collection. Source-mapped review copies are supplied directly, with transformations explicitly identified.
 
 **Supplementary Table 3 | The paired request sequence.**
 
@@ -483,7 +483,7 @@ exact hentry.trans (hle1.trans hsmall)
 
 ## Supplementary Note 6. Historical results stay historical
 
-The following material is not pooled with `hclose`. Some rows are historical reports, rather than raw-data re-audits available in the present writing round. NOT_RUN in a proposal refers to that proposal’s date. A later record is separately attributed; it does not alter the earlier document’s identity. Historical protocols remain distinct from subsequent analysis.
+The following material is not pooled with `hclose`. Counts and outcomes for A′, A″, E1/E3 and early finite-scalar/R4 episodes below are historical reports only; their original episode-level records were not re-audited in this submission package. NOT_RUN in a proposal refers to that proposal’s date. A later record is separately attributed; it does not alter the earlier document’s identity. Historical protocols remain distinct from subsequent analysis.
 
 **Supplementary Table 5 | Retained episodes and interpretation.**
 
@@ -548,8 +548,8 @@ Original evidence is preserved unchanged. Deterministic reanalysis and saved-can
 | Coefficient-continuation reanalysis | Complete terminal rows and parent-state arrays reread; selected actual expressions evaluated separately; no new model sampling |
 | Independent diagnostic | `32_INDEPENDENT_DIAGNOSTIC`; its own task boundary and retained local compilation |
 | Researcher recheck | `33_RESEARCHER_RECHECK`; reference exposed, algebra only, no new Lean compilation in that record |
-| Saved five-candidate replay | Source assembly executed for five unmodified candidates; Lean/Lake/Docker unavailable here, compilation replay NOT_RUN |
-| New model sampling / external kernel / external review | NOT_RUN |
+| Saved five-candidate replay | Source assembly and offline ordinary Lean 4.34.0-rc2 replay executed for five unmodified candidates: one accepted, four rejected; no independent-kernel check |
+| New model sampling / independent kernel | NOT_RUN |
 
 In the internal evidence package, `python REPRODUCIBILITY/reproduce.py --out WORK/reproduction` verifies all 859 original payloads, reconstructs six returned requests and five candidates, calculates totals and runs exact algebra checks. In the review-support archive, the same entry point recomputes the corresponding tables from the shareable, source-mapped request, visible-response and compiler records. Neither entry contacts a model endpoint. `python REPRODUCIBILITY/experiment/assemble_lean.py --out WORK/lean_project` assembles the preserved workspace with its public modules, including `Checkpoint/NodeGoal.lean`, and verifies the saved candidate/request mapping. `python REPRODUCIBILITY/experiment/replay_lean.py --probe --prepared-project WORK/lean_project --out WORK/lean_probe` records toolchain availability. Compilation requires an explicit execute option and the isolated, dependency-ready environment described in the assembly README; it is not inferred from script availability.
 

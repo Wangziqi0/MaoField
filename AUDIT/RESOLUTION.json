@@ -1,0 +1,11 @@
+{
+  "figure_input_hashes": "PASS",
+  "figure_stems": "PASS",
+  "figure_source_numbering": "CORRECTED",
+  "historical_unknown_request": "DERIVED_FROM_NINE_HASHED_ORIGINAL_RECEIPTS",
+  "full_reproduction": "PASS",
+  "mathematical_corrections": "TARGETED_REVIEW_PASS_SAME_FAMILY_PROVISIONAL",
+  "original_audit_reports": "PRESERVED",
+  "new_model_calls": 0,
+  "independent_kernel": "NOT_RUN"
+}

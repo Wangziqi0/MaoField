@@ -1,0 +1,15 @@
+{
+  "base_root": "/data/MaoField/rounds/20260918_ns_r6_ab_execution/continuation_r2/remote_final/science_A",
+  "kind": "DERIVED_OVERLAY_NOT_AN_ORIGINAL_EXECUTION_ROOT",
+  "new_acquisition_id": "PI_R3_01",
+  "old_unknown_root": "pre_supplement_failure/P01_s1_W2",
+  "original_config_lock_continuation_authority": "Historical base provenance; not authority to replay this derived view. Superseded only by explicit one-request PI supplement record.",
+  "original_unknown_resolved": false,
+  "primary_W1_unchanged": true,
+  "replaced_terminal_request": 1,
+  "replacement_stage": "P01_s1_W2",
+  "requests_all_acquisitions_sent": 41,
+  "requests_known_complete": 40,
+  "requests_unknown_completion": 1,
+  "supplement_root": "/data/MaoField/rounds/20260918_ns_r6_ab_execution/supplement_a_r3/remote_raw"
+}

@@ -1,25 +1,33 @@
-# Results and the conditions for further discovery
+# Why can equal results lead to different scientific futures
 
-Local V8 companion to **Why can equal results lead to different scientific futures**, by Yifan Chen, Independent researcher, Lu’an, China. This is the new Nature Article candidate, distinct from the older MaoField R3.0 preprint.
+Yifan Chen · Independent researcher, Lu’an, China · ORCID 0009-0008-8344-1149
 
-The manuscript examines how humans and agents form, adopt and reconstruct relations needed for subsequent research. It combines a finite non-sufficiency result and compact sufficient repair with separate coefficient-revision and proof-application records. Complete denominators, failures, unchanged versions and verification boundaries are retained. No general collaboration benefit is inferred.
+This repository contains the manuscript, exact mathematical checks, full original data for the proof-completion and coefficient-successor studies, source-mapped analysis inputs, figures, and offline reproduction entry points.
 
-## Read and reproduce
+## One-command reproduction
 
-Current text and editable/PDF files are in DOCUMENTATION; the six current figures are in FIGURES and their Python source in BUILD. Install the pinned REPRODUCIBILITY/requirements-lock.txt environment, then run:
+On Linux x86_64, unpack the repository beside `RELEASE_ASSETS` and run:
 
 ```bash
-python REPRODUCIBILITY/reproduce.py --out WORK/reproduction
-python -m unittest discover -s REPRODUCIBILITY/tests -v
-python BUILD/figures.py --root .
+./reproduce.sh
 ```
 
-These commands use the unchanged analysis view and do not call a model service. Raw sharing scope is broader than analysis scope. All supplied original scientific records, including earlier stopped/failed workflows, are prepared in a separate full-record archive with file-level provenance. Reasoning fields are retained there rather than silently dropped; the existing visible-only analysis view is unchanged. Added raw files do not become new experimental observations.
+The default full run checks asset and raw-data SHA-256 identities, reanalyses both full raw datasets, checks the exact mathematics and source assembly, and compiles the five unchanged saved candidates in a network-disabled bubblewrap sandbox. It expects one acceptance and four rejections. The sixth request was truncated without a visible candidate and is never fabricated or compiled. No experimental model service is called.
 
-Fresh Lean replay and independent kernel validation remain NOT_RUN. Saved compilation acceptance and deterministic reanalysis are different statuses. See REPRODUCIBILITY and the manuscript Methods.
+The supplied release assets contain Python 3.12.14 with locked packages and Lean 4.34.0-rc2 with pinned dependencies and the common-source build cache. The compiler recompiles each candidate; this is ordinary Lean verification, not an independent proof kernel. Host prerequisites are a Linux x86_64 glibc system, bash, tar, sha256sum, git, zstd and bubblewrap with unprivileged user namespaces. The full bundle has been tested on this configuration. Other OS/architectures are not claimed tested. Allow 30 GB free disk and about 8 GB available memory. Use `./reproduce.sh --analysis-only` to omit Lean and its large asset; this still uses the packaged Python and full raw data. Set `MAOFIELD_ASSETS=/path/to/assets` for another asset directory.
 
-## Identity and release status
+Outputs are written to a fresh `WORK/run_<UTC timestamp>` directory. Its `STATUS.json` records actual step outcomes. A nonzero exit means a failed or unavailable step, not a scientific rejection. No host or unsandboxed fallback runs Lean.
 
-The prepared branch is nature-main. Older main, R3.0 and v0.1.0 histories remain intact. No remote push, default-branch switch, release tag, Zenodo deposition or automatic GitHub–Zenodo archive has occurred. Three new linked Zenodo candidates are prepared for the new manuscript, software and full scientific records; identifiers remain unassigned. See RELATED_WORK_IDENTITY.md.
+## Data and environment
 
-Original software: Apache-2.0. Original data, text and figures: CC BY 4.0. Third-party notices remain applicable. Contact: 1426704936@qq.com; ORCID 0009-0008-8344-1149.
+`data/raw/HCLOSE.zip` and `SUCCESSOR.zip.part00/part01` contain all original payloads for the two studies, including original model reasoning, requests, candidates, compiler records and stopped/unknown states. The script joins and verifies the successor parts. `data/raw/MANIFEST.json` pins all bytes. Source-mapped reviewer inputs remain in `REPRODUCIBILITY` and are checked against a fresh export from the originals.
+
+The same repository's prepared Release assets include `full-scientific-history.zip`, with the complete earlier-workflow archive and file-level provenance; `python-linux-x86_64.tar.gz`; and the two `lean-offline-linux-x86_64.tar.zst.part*` files. These assets are prepared locally and have not yet been uploaded. The full-history archive is optional for reproducing the present two studies and preserves earlier failures and unrun proposals. It is never executed by the default entry point. `environment/SHA256SUMS` and `LEAN_PARTS.sha256` verify the environment. The local distribution also includes the joined Lean asset for convenience.
+
+## Evidence boundary
+
+The finite minimax witness and compact local repair are analytical statements. Successor studies are simulation/workbench records; selected traces do not establish a general history effect. The proof-completion comparison is one post-selected paired case, not six independent replications and not a full Navier–Stokes proof. Ordinary Lean replay reproduced the saved outcomes. Independent-kernel verification remains NOT_RUN. See `AUDIT` for original review findings and targeted resolutions.
+
+## Licence and citation
+
+Original code is Apache-2.0; original manuscript, figures and data are CC BY 4.0, to the extent of the contributor's rights. Third-party sources, model outputs and environment components retain their respective notices; see `LICENSE_STATUS.md` and `environment/THIRD_PARTY_NOTICES.md`. No blanket relicensing is intended. See `CITATION.cff`. This is a separate manuscript from the older R3.0 work; its existing DOI identifiers are not assigned to this release.

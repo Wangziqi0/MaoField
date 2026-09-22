@@ -1,0 +1,23 @@
+{
+  "artifact_status": "CAPTURED_NOT_MATH_CERTIFIED",
+  "at": "2026-09-18T23:39:37.614417+00:00",
+  "automatic_next_round": false,
+  "cumulative_A_complete": 40,
+  "cumulative_A_sent": 41,
+  "effect_rows": 360,
+  "finish_reason": "stop",
+  "new_generation_requests": 1,
+  "old_unknown_resolved": false,
+  "original_attempt": 1,
+  "original_unknown_requests": 1,
+  "parent_effect_sha256": "41592d304698e111cfc1ec899af7fffad3929ccf225a43d3e4dc3f64c033e8ad",
+  "payload_sha256": "31a4224b06fb4fdb7624c077daa473718c2378a6124578ada7781edd6551f55a",
+  "stage": "P01_s1_W2",
+  "status": "COMPLETE_ONE_PI_AUTHORIZED_SUPPLEMENT",
+  "supplement_supplies_missing_terminal_for_separate_analysis": true,
+  "usage": {
+    "completion_tokens": 26596,
+    "prompt_tokens": 66041,
+    "total_tokens": 92637
+  }
+}

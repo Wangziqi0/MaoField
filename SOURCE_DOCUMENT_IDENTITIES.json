@@ -1,12 +1,8 @@
 {
-  "manuscript.md": {
-    "source_in_private_delivery": "SUBMISSION/manuscript.md",
-    "sha256": "06f32fb73bf83295c186321808efa30e761ecf74988c8ebc067e31634c1d5fa7",
-    "included_in_public_candidate": false
-  },
-  "supplementary_information.md": {
-    "source_in_private_delivery": "SUBMISSION/supplementary_information.md",
-    "sha256": "7b0cfd72c8148c5430606c98f8a98815abfa6d56b4a8f82663d73e220860471a",
-    "included_in_public_candidate": false
-  }
+  "DOCUMENTATION/manuscript.md": "b106353ac7462815609ea1fffbc086e2eade5c677a56edf5047f4cecaee6141c",
+  "DOCUMENTATION/manuscript.docx": "c8c68606b52871a000acb8f98fe845db5ed8af737853c206873687235b492016",
+  "DOCUMENTATION/manuscript.pdf": "2212a559a2a8ea358a23f091ef669b65316d63bfce4cb50eba7edf26f7367dcf",
+  "DOCUMENTATION/supplementary_information.md": "e5a7196e8b53e84fb15f2fecd85ca4b011c310b24f3dad1a0aa043f839605744",
+  "DOCUMENTATION/supplementary_information.docx": "e3c734d3aa69efa5fd20eacd1e28d1c85ef25d70ec69c3de6905b1bb910788b8",
+  "DOCUMENTATION/supplementary_information.pdf": "410b90924f12b6360437ce1805e83a208acbb099560ed2cb0fc9e3411919716b"
 }

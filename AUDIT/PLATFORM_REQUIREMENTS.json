@@ -1,0 +1,12 @@
+{
+  "checked": "2026-09-23",
+  "github_regular_file_limit_bytes": 104857600,
+  "github_release_asset_limit_bytes": 2147483648,
+  "sources": [
+    "https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github",
+    "https://docs.github.com/en/repositories/releasing-projects-on-github/about-releases",
+    "https://help.zenodo.org/docs/deposit/about-records/",
+    "https://www.nature.com/nature/for-authors/initial-submission"
+  ],
+  "all_git_candidate_files_under_100MiB": false
+}

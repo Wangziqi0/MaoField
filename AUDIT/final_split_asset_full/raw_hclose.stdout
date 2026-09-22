@@ -1,0 +1,43 @@
+{
+  "source_manifest_files": 859,
+  "manifest_closure": "PASS",
+  "SSE_complete": 6,
+  "compiled_candidates": 5,
+  "new_model_calls": 0,
+  "new_Lean_builds": 0,
+  "new_independent_kernel_checks": 0,
+  "arms": {
+    "HISTORY": {
+      "calls": 3,
+      "prompt_tokens": 25757,
+      "completion_tokens": 20781,
+      "model_seconds": 698.7922731682193,
+      "accepted_attempts": [
+        3
+      ],
+      "completed": true
+    },
+    "STANDARD": {
+      "calls": 3,
+      "prompt_tokens": 12124,
+      "completion_tokens": 41009,
+      "model_seconds": 1405.520281958161,
+      "accepted_attempts": [],
+      "completed": false
+    }
+  },
+  "prompt_token_difference_first": 332,
+  "same_initial_system_and_sampling": true,
+  "same_initial_user_prefix": true,
+  "additional_note_only_difference": true,
+  "same_upstream_workspace_except_candidate": true,
+  "upstream_file_count": 243,
+  "reasoning_artifact_collector_duplicates_mirrored_fields": true,
+  "reasoning_not_replayed_in_subsequent_messages": true,
+  "both_final_candidates_use_key_lemmas": true,
+  "standard_final_error": "equality transported in interval membership, but not conclusion",
+  "total_prompt_tokens": 37881,
+  "total_completion_tokens": 61790,
+  "total_tokens": 99671,
+  "interpretation": "One post-selection paired case, not a general effect estimate or full NS proof."
+}

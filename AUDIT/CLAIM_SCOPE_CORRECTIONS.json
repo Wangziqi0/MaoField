@@ -1,0 +1,12 @@
+[
+  {
+    "document": "manuscript",
+    "old": "The recorded model identifier was `Qwen/Qwen3.8-27B-FP8`.",
+    "new": "The recorded serving alias was `qwen3.8-27b-fp8-a256k-nomtp-c1`, with local model-root basename `Qwen3.8-27B-FP8`."
+  },
+  {
+    "document": "supplementary_information",
+    "old": "Some rows are historical reports, rather than raw-data re-audits available in the present writing round.",
+    "new": "Counts and outcomes for A′, A″, E1/E3 and early finite-scalar/R4 episodes below are historical reports only; their original episode-level records were not re-audited in this submission package."
+  }
+]

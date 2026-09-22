@@ -1,0 +1,8 @@
+{
+  "release": "20260901",
+  "url": "https://github.com/astral-sh/python-build-standalone/releases/download/20260901/cpython-3.12.14%2B20260901-x86_64-unknown-linux-gnu-install_only_stripped.tar.gz",
+  "sha256": "72748da13197c1fb161e3afeef20a6a385ff24f2165e6e2758e47008e7faba4c",
+  "bytes": 34143368,
+  "version": "Python 3.12.14\n",
+  "distribution": "astral-sh/python-build-standalone; clean public runtime, not copied from Codex dependency bundle"
+}

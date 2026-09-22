@@ -1,0 +1,26 @@
+{
+  "kind": "DETERMINISTIC_RAW_RECORD_AND_MATH_REPRODUCTION",
+  "new_model_calls": 0,
+  "independent_kernel": "NOT_RUN",
+  "steps": [
+    {
+      "name": "math_and_mapped_records",
+      "returncode": 0
+    },
+    {
+      "name": "raw_hclose",
+      "returncode": 0
+    },
+    {
+      "name": "raw_successor",
+      "returncode": 0
+    },
+    {
+      "name": "source_assembly",
+      "returncode": 0
+    }
+  ],
+  "status": "PASS",
+  "new_Lean_compilations": 0,
+  "lean": "NOT_RUN_ANALYSIS_ONLY"
+}

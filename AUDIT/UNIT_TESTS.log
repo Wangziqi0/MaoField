@@ -1,0 +1,21 @@
+test_all_review_json_valid (test_assembly.AssemblyTests.test_all_review_json_valid) ... ok
+test_dependency_lock_exact (test_assembly.AssemblyTests.test_dependency_lock_exact) ... ok
+test_five_candidates (test_assembly.AssemblyTests.test_five_candidates) ... ok
+test_independent_assembly_same_mathematical_files (test_assembly.AssemblyTests.test_independent_assembly_same_mathematical_files) ... ok
+test_no_compilation_in_assembly (test_assembly.AssemblyTests.test_no_compilation_in_assembly) ... ok
+test_no_hidden_reasoning_in_review_streams (test_assembly.AssemblyTests.test_no_hidden_reasoning_in_review_streams) ... ok
+test_no_local_import_missing (test_assembly.AssemblyTests.test_no_local_import_missing) ... ok
+test_no_output_overwrite (test_assembly.AssemblyTests.test_no_output_overwrite) ... ok
+test_no_terminal_in_common_source (test_assembly.AssemblyTests.test_no_terminal_in_common_source) ... ok
+test_node_goal_origin (test_assembly.AssemblyTests.test_node_goal_origin) ... ok
+test_nonroot_identity_explicit (test_assembly.AssemblyTests.test_nonroot_identity_explicit) ... ok
+test_root_execute_identity_refused (test_assembly.AssemblyTests.test_root_execute_identity_refused) ... ok
+test_standard_mapping (test_assembly.AssemblyTests.test_standard_mapping) ... ok
+test_tamper_detected (test_assembly.AssemblyTests.test_tamper_detected) ... ok
+test_truncated_request_has_no_candidate (test_assembly.AssemblyTests.test_truncated_request_has_no_candidate) ... ok
+test_unchanged_candidates (test_assembly.AssemblyTests.test_unchanged_candidates) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 0.419s
+
+OK

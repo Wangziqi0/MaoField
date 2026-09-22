@@ -1,5 +1,26 @@
 {
-  "A_historical_unknown_request": "Retained separately; A W2 supplemental observation is not a recovered old return",
+  "A_historical_unknown_request": {
+    "authority_receipt_verified": true,
+    "no_replay": true,
+    "old_unknown_resolved": false,
+    "original_completion": "UNKNOWN_COMPLETION",
+    "original_effect_applied": false,
+    "original_status": "HALTED_UNRESOLVED",
+    "requests_complete": 40,
+    "requests_sent": 41,
+    "source_receipt_hashes": {
+      "PI_SUPPLEMENT_AUTHORITY.txt": "1adc4839aa50ba5bb7396b339763e4dbe96abe190c890849f721c98ce4ac8239",
+      "analysis_view/science_A/ANALYSIS_VIEW_PROVENANCE.json": "0f593b3659db08820d09961ca30dfa1b7a268d8e2d3d3c5dfdeca306439a9b51",
+      "analysis_view/science_A/pre_supplement_failure/P01_s1_W2/RETURNED_NOT_APPLIED.json": "91bb15ef682c2648eec357fe10d8d1f83f1341a0135c1423350d79549de8c3ce",
+      "analysis_view/science_A/pre_supplement_failure/P01_s1_W2/STATUS.json": "1f7e304b1279d5f958013861eb6304e21f322898c272babbdcab32aa638036f6",
+      "analysis_view/science_A/pre_supplement_failure/P01_s1_W2/request_01/parent_timeout.json": "d5f4a5cb12b3cd1ae4754e452b2629df6a9a37a28f966d5d99c6cd81fc6d7dc8",
+      "analysis_view/science_A/pre_supplement_failure/P01_s1_W2/request_01/request.json": "31a4224b06fb4fdb7624c077daa473718c2378a6124578ada7781edd6551f55a",
+      "remote_raw/COMPLETE.json": "6b750745ddb35d33b6e2f76dac435597c24a9763e8a4b0109698da1d7c56e327",
+      "remote_raw/request_01/request.json": "31a4224b06fb4fdb7624c077daa473718c2378a6124578ada7781edd6551f55a",
+      "remote_raw/stages/P01_s1_W2/STATUS.json": "15fc0a0984cb63f7caf4b3af35af770544217d74db7ef4f163ec2a9819e969ba"
+    },
+    "supplement_status": "COMPLETE_ONE_PI_AUTHORIZED_SUPPLEMENT"
+  },
   "effects_recomputed": 18720,
   "historical_complete_requests": 104,
   "historical_only": true,
