@@ -298,7 +298,7 @@ def fig3(root: Path):
     ax1.legend(loc='lower right', bbox_to_anchor=(1, 1.04), ncol=3, fontsize=6.1, handlelength=1.4, columnspacing=1.0)
     ax1.text(0.0, 1.16, 'Same coordinate, same $r$, $u$, target and $z_{before}$ in P00_s0_W1', transform=ax1.transAxes, fontsize=6.2)
     # Annotations showing key logic.
-    ax1.annotate('pure already 0\nwhole ≠ 0', xy=(x[0], -2.6e-6), xytext=(0.10, -0.26), textcoords='axes fraction', ha='center', fontsize=6.1,
+    ax1.annotate('pure already 0\nwhole ≠ 0', xy=(x[0]-.35, -2.6e-6), xytext=(0.025, -0.26), textcoords='axes fraction', ha='center', fontsize=6.1,
                  arrowprops=dict(arrowstyle='-', color=INK, lw=.55))
     ax1.annotate('pure becomes non-zero\nand offsets cross', xy=(x[2]-w, pure[2]), xytext=(0.80, -0.24), textcoords='axes fraction', ha='center', fontsize=6.1,
                  arrowprops=dict(arrowstyle='-', color=INK, lw=.55))

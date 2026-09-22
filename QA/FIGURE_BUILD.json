@@ -109,8 +109,8 @@
         "png",
         "tiff"
       ],
-      "pdf_sha256": "96129e939f5af82a18e5893a18cbe293be07201bcd2443fd145b688b2454876b",
-      "png_sha256": "b95b808075ee69e69c97f535e88179d59fa43a9f60c108e0410f658619c96537"
+      "pdf_sha256": "b931ec8c84ed52e0bab41e43d55b2710982cc470f9065897804a3f940d065835",
+      "png_sha256": "879a8290cc718b935511c92c3671064a3aa6b4ade17dce543f7b54030c6c6ea8"
     },
     {
       "figure": "figure4_hclose_application",
