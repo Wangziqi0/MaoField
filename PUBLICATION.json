@@ -7,5 +7,21 @@
   "data_doi": "10.5281/zenodo.22904604",
   "baseline_audited_commit": "3b2023161822941cb563a00c19b4146566639284",
   "science_changes_since_audit": false,
-  "archive_note": "AUDIT preparation reports describe historical checkpoints; publication identifiers in this file supersede their unpublished-status wording"
+  "preprints_binding_branch": "preprints-20261014",
+  "preprints": [
+    {
+      "title": "What makes human–AI research cumulative?",
+      "doi": "10.5281/zenodo.23331705"
+    },
+    {
+      "title": "AI capability could grow explosively through research itself",
+      "doi": "10.5281/zenodo.23332354"
+    },
+    {
+      "title": "Are Humans Building the Second Engine of an AI Capability Explosion? - How Human-AI Research Forms, Transfers and Reconstructs the Conditions for Explosive Growth in Verified Scientific Output",
+      "doi": "10.5281/zenodo.23353640",
+      "version": "v2.0"
+    }
+  ],
+  "archive_note": "AUDIT preparation reports describe historical checkpoints; publication identifiers in this file supersede their unpublished-status wording. The preprints array records the three latest Zenodo preprint versions bound by the preprints-20261014 branch."
 }
